@@ -1,0 +1,207 @@
+---
+import Base from '../layouts/Base.astro';
+import { getIndex, getEdition, formatDateCN } from '../lib/content.js';
+
+const idx = getIndex();
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// 按年月分组
+const groups = {};
+for (const e of idx.editions || []) {
+  const ym = e.date.slice(0, 7);
+  (groups[ym] ||= []).push(e);
+}
+const months = Object.keys(groups).sort().reverse();
+
+// 全局分类统计
+const globalCats = {};
+for (const e of idx.editions || []) {
+  for (const [k, n] of Object.entries(e.categories || {})) {
+    globalCats[k] = (globalCats[k] || 0) + n;
+  }
+}
+const catList = Object.entries(globalCats).sort((a, b) => b[1] - a[1]);
+const totalEntries = (idx.editions || []).reduce((s, e) => s + e.count, 0);
+
+// 取任意一期拿分类标签
+const sample = idx.editions?.length ? getEdition(idx.editions[0].date) : null;
+const labelOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryLabel || k;
+const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryColor || '#888';
+---
+
+<Base title="往期归档 · 微电子简报" description="所有往期微电子与集成电路日报">
+  <div class="wrap">
+    <header class="head">
+      <p class="eyebrow">Archive</p>
+      <h1>往期归档</h1>
+      <div class="totals">
+        <span class="mono">{idx.total}</span> 期 · 累计 <span class="mono">{totalEntries}</span> 条动态
+      </div>
+
+      {catList.length > 0 && (
+        <div class="cats">
+          {catList.map(([k, n]) => (
+            <span class="cat-chip" style={`--c:${colorOf(k)}`}>
+              <span class="dot"></span>{labelOf(k)}<span class="n mono">{n}</span>
+            </span>
+          ))}
+        </div>
+      )}
+    </header>
+
+    {idx.total === 0 && (
+      <p class="empty">还没有任何期次。运行 <code>npm run daily</code> 生成第一期。</p>
+    )}
+
+    {months.map((ym) => (
+      <section class="month">
+        <h2 class="mono mh">{ym}</h2>
+        <div class="rows">
+          {groups[ym].map((e) => {
+            const d = formatDateCN(e.date);
+            return (
+              <a class="row" href={`${base}/edition/${e.date}/`}>
+                <span class="day mono">{d.short}</span>
+                <span class="wk">{d.weekday}</span>
+                <span class="desc">{e.intro}</span>
+                <span class="cnt mono">{e.count}</span>
+              </a>
+            );
+          })}
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+
+<style>
+  .head {
+    padding: 52px 0 32px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .head h1 {
+    font-size: clamp(28px, 4.5vw, 40px);
+    margin: 10px 0 12px;
+    letter-spacing: -0.03em;
+  }
+
+  .totals {
+    color: var(--ink-3);
+    font-size: 14px;
+    margin-bottom: 22px;
+  }
+
+  .totals .mono {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12.5px;
+    color: var(--ink-2);
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    padding: 4px 11px;
+    border-radius: 2px;
+  }
+
+  .cat-chip .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--c);
+    border-radius: 50%;
+  }
+
+  .cat-chip .n {
+    font-size: 11px;
+    color: var(--ink-3);
+  }
+
+  .month {
+    margin-top: 40px;
+  }
+
+  .mh {
+    font-size: 13px;
+    color: var(--ink-3);
+    letter-spacing: 0.14em;
+    margin: 0 0 4px;
+    font-weight: 500;
+  }
+
+  .rows {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 60px 64px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 12px 0;
+    border-top: 1px solid var(--line);
+    transition: padding-left 0.2s, background 0.15s;
+  }
+
+  .row:hover {
+    padding-left: 8px;
+    background: color-mix(in srgb, var(--bg-2) 60%, transparent);
+  }
+
+  .day {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .wk {
+    font-size: 12px;
+    color: var(--ink-3);
+  }
+
+  .desc {
+    color: var(--ink-2);
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .cnt {
+    font-size: 11.5px;
+    color: var(--ink-3);
+  }
+
+  .empty {
+    padding: 60px 0;
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+
+  .empty code {
+    font-family: var(--mono);
+    background: var(--bg-3);
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .row {
+      grid-template-columns: 52px 1fr auto;
+    }
+    .wk {
+      display: none;
+    }
+  }
+</style>

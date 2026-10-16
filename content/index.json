@@ -1,0 +1,38 @@
+{
+  "generatedAt": "2026-10-16T18:21:04.811Z",
+  "total": 2,
+  "editions": [
+    {
+      "date": "2026-10-17",
+      "count": 24,
+      "intro": "本期收录 24 条微电子与集成电路相关动态，覆盖 4 个细分方向。",
+      "top": [
+        "长鑫科技 2026 年前三季度预计归母净利润 1310~1325 亿元，同比扭亏为盈",
+        "Characterization of HBM Power Consumption (ETH Zurich, NYU)",
+        "Terafab’s Single Roof: Why Packaging, Not Lithography, Decid"
+      ],
+      "categories": {
+        "market": 11,
+        "research": 7,
+        "eda": 3,
+        "design": 3
+      }
+    },
+    {
+      "date": "2026-10-16",
+      "count": 24,
+      "intro": "本期收录 24 条微电子与集成电路相关动态，覆盖 4 个细分方向。",
+      "top": [
+        "长鑫科技 2026 年前三季度预计归母净利润 1310~1325 亿元，同比扭亏为盈",
+        "Characterization of HBM Power Consumption (ETH Zurich, NYU)",
+        "Terafab’s Single Roof: Why Packaging, Not Lithography, Decid"
+      ],
+      "categories": {
+        "market": 11,
+        "research": 7,
+        "eda": 3,
+        "design": 3
+      }
+    }
+  ]
+}

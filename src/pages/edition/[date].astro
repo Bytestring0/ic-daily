@@ -1,0 +1,152 @@
+---
+import Base from '../../layouts/Base.astro';
+import EntryCard from '../../components/EntryCard.astro';
+import { getEdition, getIndex, formatDateCN } from '../../lib/content.js';
+
+export function getStaticPaths() {
+  const idx = getIndex();
+  return (idx.editions || []).map((e) => ({
+    params: { date: e.date },
+    props: { date: e.date },
+  }));
+}
+
+const { date } = Astro.props;
+const edition = getEdition(date);
+const d = formatDateCN(date);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// 前后期导航
+const idx = getIndex();
+const dates = (idx.editions || []).map((e) => e.date);
+const i = dates.indexOf(date);
+const newer = i > 0 ? dates[i - 1] : null;
+const older = i >= 0 && i < dates.length - 1 ? dates[i + 1] : null;
+---
+
+<Base title={`${d.full} · 微电子简报`} description={edition?.intro}>
+  <div class="wrap">
+    <nav class="crumb mono">
+      <a href={`${base}/`}>首页</a>
+      <span>/</span>
+      <a href={`${base}/archive/`}>往期</a>
+      <span>/</span>
+      <span class="cur">{date}</span>
+    </nav>
+
+    <header class="head">
+      <p class="eyebrow">{d.weekday} · 共 {edition?.stats.count ?? 0} 条</p>
+      <h1 class="datum mono">{date}</h1>
+      {edition?.intro && <p class="intro">{edition.intro}</p>}
+    </header>
+
+    <section class="list">
+      {(edition?.entries || []).map((e, n) => <EntryCard entry={e} index={n} />)}
+      <div class="end"></div>
+    </section>
+
+    <nav class="pager">
+      {older ? (
+        <a class="pg" href={`${base}/edition/${older}/`}>
+          <span class="lbl mono">← 更早</span>
+          <span class="dt mono">{older}</span>
+        </a>
+      ) : (
+        <span></span>
+      )}
+      {newer ? (
+        <a class="pg right" href={`${base}/edition/${newer}/`}>
+          <span class="lbl mono">更新 →</span>
+          <span class="dt mono">{newer}</span>
+        </a>
+      ) : (
+        <a class="pg right" href={`${base}/`}>
+          <span class="lbl mono">回到最新 →</span>
+          <span class="dt mono">首页</span>
+        </a>
+      )}
+    </nav>
+  </div>
+</Base>
+
+<style>
+  .crumb {
+    display: flex;
+    gap: 8px;
+    font-size: 12px;
+    color: var(--ink-3);
+    padding: 24px 0 0;
+  }
+
+  .crumb a:hover {
+    color: var(--accent);
+  }
+
+  .crumb .cur {
+    color: var(--ink-2);
+  }
+
+  .head {
+    padding: 22px 0 32px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .datum {
+    font-size: clamp(30px, 5vw, 44px);
+    line-height: 1;
+    margin: 10px 0 14px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+
+  .intro {
+    margin: 0;
+    color: var(--ink-2);
+    font-size: 16px;
+    max-width: 68ch;
+    padding-left: 16px;
+    border-left: 2px solid var(--accent-dim);
+  }
+
+  .end {
+    border-top: 1px solid var(--line);
+  }
+
+  .pager {
+    margin-top: 44px;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+  }
+
+  .pg {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    padding: 13px 18px;
+    border-radius: 3px;
+    min-width: 150px;
+    transition: border-color 0.15s;
+  }
+
+  .pg:hover {
+    border-color: var(--accent);
+  }
+
+  .pg.right {
+    text-align: right;
+  }
+
+  .pg .lbl {
+    font-size: 11px;
+    color: var(--ink-3);
+    letter-spacing: 0.06em;
+  }
+
+  .pg .dt {
+    font-size: 14px;
+    color: var(--ink);
+  }
+</style>

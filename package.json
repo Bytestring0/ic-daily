@@ -1,0 +1,23 @@
+{
+  "name": "ic-daily",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "微电子 / 集成电路每日简报 —— AI 聚合生成，静态网站发布",
+  "scripts": {
+    "daily": "node scripts/run.mjs",
+    "daily:date": "node scripts/run.mjs --date",
+    "index": "node scripts/run.mjs --index-only",
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check",
+    "pipeline:build": "npm run daily && npm run build",
+    "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
+  },
+  "dependencies": {
+    "astro": "^7.3.8",
+    "fast-xml-parser": "^5.2.5",
+    "yaml": "^2.8.1"
+  }
+}

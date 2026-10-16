@@ -1,0 +1,237 @@
+---
+import Base from '../layouts/Base.astro';
+---
+
+<Base title="关于 · 微电子简报" description="关于这份日报的来源、方法与局限">
+  <div class="wrap prose">
+    <header class="head">
+      <p class="eyebrow">About</p>
+      <h1>关于这份简报</h1>
+    </header>
+
+    <section>
+      <h2>它是什么</h2>
+      <p>
+        一份聚焦<strong>微电子与集成电路产业</strong>的每日简讯。内容由程序自动从公开信息源聚合，
+        经规则打分与（可选的）大模型改写后，按统一格式渲染成网页。
+      </p>
+      <p>覆盖方向：晶圆代工、半导体设备、EDA、存储、芯片设计、材料与封测、政策与地缘、研究与论文、市场与产业。</p>
+    </section>
+
+    <section>
+      <h2>怎么做的</h2>
+      <ol class="pipeline">
+        <li>
+          <span class="n mono">01</span>
+          <div>
+            <h3>采集</h3>
+            <p>并发抓取配置在 <code>config/sources.yaml</code> 里的 RSS / Atom 源。单个源失败只记日志，不中断。</p>
+          </div>
+        </li>
+        <li>
+          <span class="n mono">02</span>
+          <div>
+            <h3>去重与打分</h3>
+            <p>按 URL 与标题指纹去重；用半导体领域关键词表加权（制程、光刻、封装、政策、厂商名等），再叠加时效与源权重。</p>
+          </div>
+        </li>
+        <li>
+          <span class="n mono">03</span>
+          <div>
+            <h3>精选</h3>
+            <p>按主题分散，避免整期都是同一条新闻；取当日高分条目组成期次。</p>
+          </div>
+        </li>
+        <li>
+          <span class="n mono">04</span>
+          <div>
+            <h3>撰写</h3>
+            <p>调用兼容 OpenAI 接口的模型，输出严格 JSON（标题／摘要／要点／分类／重要度）。<strong>模型只负责语义，排版由代码完成</strong>。未配置 API key 时降级为规则摘要。</p>
+          </div>
+        </li>
+        <li>
+          <span class="n mono">05</span>
+          <div>
+            <h3>渲染与发布</h3>
+            <p>数据结构化写入 <code>content/</code>，由 Astro 静态生成网页，通过 GitHub Actions 每日自动构建并部署。</p>
+          </div>
+        </li>
+      </ol>
+    </section>
+
+    <section>
+      <h2>技术栈</h2>
+      <div class="stack">
+        <div><span class="k mono">采集</span><span class="v">Node.js + fast-xml-parser</span></div>
+        <div><span class="k mono">撰写</span><span class="v">OpenAI 兼容 Chat Completions</span></div>
+        <div><span class="k mono">渲染</span><span class="v">Astro（静态输出，零客户端 JS）</span></div>
+        <div><span class="k mono">调度</span><span class="v">GitHub Actions</span></div>
+        <div><span class="k mono">托管</span><span class="v">GitHub Pages</span></div>
+      </div>
+    </section>
+
+    <section class="warn">
+      <h2>局限与免责</h2>
+      <ul>
+        <li>内容由 AI 辅助生成，<strong>可能存在事实错误、误译或时效偏差</strong>。</li>
+        <li>标题与摘要是对原文的概括，不构成任何投资建议。</li>
+        <li>所有条目均标注原始链接，关键信息请务必核对原文。</li>
+        <li>内容版权归原作者所有；本站仅做聚合与索引，如涉侵权请联系删除。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>如何自己跑一份</h2>
+      <pre class="code"><code># 安装依赖
+npm install
+
+# 生成今天的日报（不含 AI 也能跑）
+npm run daily
+
+# 本地预览网站
+npm run dev
+
+# 构建静态站点
+npm run build</code></pre>
+      <p class="muted">
+        配置 AI 改写：设置环境变量 <code>LLM_BASE_URL</code>、<code>LLM_API_KEY</code>、<code>LLM_MODEL</code>。
+      </p>
+    </section>
+  </div>
+</Base>
+
+<style>
+  .prose {
+    max-width: 780px;
+  }
+
+  .head {
+    padding: 52px 0 28px;
+    border-bottom: 1px solid var(--line);
+    margin-bottom: 8px;
+  }
+
+  .head h1 {
+    font-size: clamp(28px, 4.5vw, 40px);
+    margin: 10px 0 0;
+    letter-spacing: -0.03em;
+  }
+
+  section {
+    padding: 32px 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  section:last-child {
+    border-bottom: 0;
+  }
+
+  h2 {
+    font-size: 19px;
+    margin: 0 0 14px;
+    letter-spacing: -0.01em;
+  }
+
+  h3 {
+    font-size: 15px;
+    margin: 0 0 4px;
+  }
+
+  p {
+    color: var(--ink-2);
+    margin: 0 0 12px;
+    line-height: 1.8;
+  }
+
+  strong {
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  code {
+    font-family: var(--mono);
+    font-size: 13px;
+    background: var(--bg-3);
+    padding: 1px 6px;
+    border-radius: 2px;
+    color: var(--accent);
+  }
+
+  .pipeline {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pipeline li {
+    display: grid;
+    grid-template-columns: 42px 1fr;
+    gap: 14px;
+  }
+
+  .pipeline .n {
+    font-size: 12px;
+    color: var(--ink-3);
+    padding-top: 3px;
+    letter-spacing: 0.05em;
+  }
+
+  .stack {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .stack > div {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 16px;
+    padding: 9px 0;
+    border-bottom: 1px solid var(--line);
+    font-size: 14px;
+  }
+
+  .stack .k {
+    font-size: 12px;
+    color: var(--ink-3);
+  }
+
+  .stack .v {
+    color: var(--ink-2);
+  }
+
+  .warn ul {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--ink-2);
+    line-height: 1.9;
+  }
+
+  .warn li {
+    margin-bottom: 6px;
+  }
+
+  .code {
+    background: var(--bg-2);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 18px 20px;
+    overflow-x: auto;
+    margin: 0 0 14px;
+  }
+
+  .code code {
+    background: none;
+    padding: 0;
+    color: var(--ink-2);
+    font-size: 13px;
+    line-height: 1.85;
+  }
+
+  .muted {
+    font-size: 13.5px;
+    color: var(--ink-3);
+  }
+</style>

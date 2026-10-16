@@ -1,0 +1,305 @@
+---
+import Base from '../layouts/Base.astro';
+import EntryCard from '../components/EntryCard.astro';
+import { getLatest, getIndex, formatDateCN } from '../lib/content.js';
+
+const edition = getLatest();
+const idx = getIndex();
+
+if (!edition) {
+  // 尚无数据时的兜底页
+}
+const d = edition ? formatDateCN(edition.date) : null;
+
+// 分类统计排序
+const catStats = edition
+  ? Object.entries(edition.stats.categories || {})
+      .map(([key, n]) => {
+        const found = edition.entries.find((e) => e.category === key);
+        return { key, n, label: found?.categoryLabel || key, color: found?.categoryColor || '#888' };
+      })
+      .sort((a, b) => b.n - a.n)
+  : [];
+
+const past = (idx.editions || []).slice(1, 6);
+---
+
+<Base
+  title={edition ? `${d.full} · 微电子简报` : '微电子简报'}
+  description={edition?.intro || '每日微电子与集成电路行业动态'}
+>
+  <div class="wrap">
+    {!edition && (
+      <section class="empty">
+        <p class="eyebrow">No Data</p>
+        <h1>尚无日报数据</h1>
+        <p class="hint">
+          先运行流水线生成第一期：<code>npm run daily</code>
+        </p>
+      </section>
+    )}
+
+    {edition && (
+      <>
+        <section class="hero">
+          <div class="hero-top">
+            <p class="eyebrow">Daily Digest · 第 {idx.total} 期</p>
+            <h1 class="datum mono">{d.ymd}</h1>
+            <p class="sub">{d.full} · {d.weekday}</p>
+          </div>
+
+          <p class="intro">{edition.intro}</p>
+
+          <div class="stats">
+            <div class="stat">
+              <span class="k mono">{edition.stats.count}</span>
+              <span class="v">条动态</span>
+            </div>
+            <div class="stat">
+              <span class="k mono">{edition.stats.sources}<span class="slash">/</span>{edition.stats.sourcesTotal}</span>
+              <span class="v">个信息源</span>
+            </div>
+            <div class="stat">
+              <span class="k mono">{catStats.length}</span>
+              <span class="v">个方向</span>
+            </div>
+          </div>
+
+          {catStats.length > 0 && (
+            <div class="cats">
+              {catStats.map((c) => (
+                <a class="cat-chip" href={`#cat-${c.key}`} style={`--c:${c.color}`}>
+                  <span class="dot"></span>
+                  {c.label}
+                  <span class="n mono">{c.n}</span>
+                </a>
+              ))}
+            </div>
+          )}
+        </section>
+
+        <section class="list">
+          {edition.entries.map((e, i) => <EntryCard entry={e} index={i} />)}
+          <div class="list-end"></div>
+        </section>
+
+        {past.length > 0 && (
+          <section class="past">
+            <p class="eyebrow">Previous</p>
+            <div class="past-list">
+              {past.map((p) => (
+                <a class="past-item" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/edition/${p.date}/`}>
+                  <span class="mono pd">{formatDateCN(p.date).short}</span>
+                  <span class="pt">{p.intro}</span>
+                  <span class="pn mono">{p.count} 条</span>
+                </a>
+              ))}
+              <a class="past-item all" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/archive/`}>
+                <span class="mono pd">全部</span>
+                <span class="pt">查看所有往期日报</span>
+                <span class="pn mono">→</span>
+              </a>
+            </div>
+          </section>
+        )}
+      </>
+    )}
+  </div>
+</Base>
+
+<style>
+  .hero {
+    padding: 56px 0 36px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .hero-top {
+    margin-bottom: 22px;
+  }
+
+  .datum {
+    font-size: clamp(38px, 7vw, 64px);
+    line-height: 1;
+    margin: 10px 0 8px;
+    font-weight: 600;
+    letter-spacing: -0.03em;
+  }
+
+  .sub {
+    margin: 0;
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+
+  .intro {
+    font-size: 17px;
+    line-height: 1.75;
+    color: var(--ink-2);
+    max-width: 68ch;
+    margin: 0 0 28px;
+    padding-left: 16px;
+    border-left: 2px solid var(--accent-dim);
+  }
+
+  .stats {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 26px;
+    flex-wrap: wrap;
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .stat .k {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+  }
+
+  .slash {
+    color: var(--ink-3);
+    margin: 0 2px;
+    font-weight: 400;
+  }
+
+  .stat .v {
+    font-size: 12px;
+    color: var(--ink-3);
+    letter-spacing: 0.04em;
+  }
+
+  .cats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .cat-chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    font-size: 12.5px;
+    color: var(--ink-2);
+    border: 1px solid var(--line);
+    background: var(--bg-2);
+    padding: 4px 11px;
+    border-radius: 2px;
+    transition: border-color 0.15s, color 0.15s;
+  }
+
+  .cat-chip:hover {
+    border-color: var(--c);
+    color: var(--ink);
+  }
+
+  .cat-chip .dot {
+    width: 6px;
+    height: 6px;
+    background: var(--c);
+    border-radius: 50%;
+  }
+
+  .cat-chip .n {
+    font-size: 11px;
+    color: var(--ink-3);
+  }
+
+  .list {
+    margin-top: 0;
+  }
+
+  .list-end {
+    border-top: 1px solid var(--line);
+  }
+
+  .past {
+    margin-top: 56px;
+    padding-top: 28px;
+    border-top: 1px solid var(--line);
+  }
+
+  .past-list {
+    margin-top: 14px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past-item {
+    display: grid;
+    grid-template-columns: 68px 1fr auto;
+    gap: 16px;
+    align-items: baseline;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--ink-2);
+    font-size: 14px;
+    transition: color 0.15s, padding-left 0.2s;
+  }
+
+  .past-item:hover {
+    color: var(--ink);
+    padding-left: 6px;
+  }
+
+  .past-item .pd {
+    font-size: 12.5px;
+    color: var(--ink-3);
+  }
+
+  .past-item .pt {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .past-item .pn {
+    font-size: 11.5px;
+    color: var(--ink-3);
+  }
+
+  .past-item.all {
+    border-bottom: 0;
+  }
+
+  .empty {
+    padding: 100px 0;
+    text-align: center;
+  }
+
+  .empty h1 {
+    font-size: 28px;
+    margin: 12px 0;
+  }
+
+  .empty .hint {
+    color: var(--ink-3);
+    font-size: 14px;
+  }
+
+  .empty code {
+    font-family: var(--mono);
+    background: var(--bg-3);
+    padding: 2px 7px;
+    border-radius: 2px;
+    color: var(--accent);
+  }
+
+  @media (max-width: 640px) {
+    .hero {
+      padding: 36px 0 26px;
+    }
+    .stats {
+      gap: 26px;
+    }
+    .past-item {
+      grid-template-columns: 52px 1fr;
+    }
+    .past-item .pn {
+      display: none;
+    }
+  }
+</style>

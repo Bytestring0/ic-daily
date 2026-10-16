@@ -1,0 +1,50 @@
+---
+import '../styles/global.css';
+
+const { title = '微电子简报', description = '每日微电子与集成电路行业动态' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const path = Astro.url.pathname;
+const isHome = path === `${base}/` || path === base || path === `${base}/index.html`;
+---
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+  </head>
+  <body>
+    <header class="site-head">
+      <div class="inner">
+        <a class="brand" href={`${base}/`}>
+          <span class="mark"></span>
+          <span class="cn">微电子简报</span>
+          <span class="en">IC Daily</span>
+        </a>
+        <nav>
+          <a href={`${base}/`} aria-current={isHome ? 'page' : undefined}>今日</a>
+          <a href={`${base}/archive/`} aria-current={path.includes('/archive') ? 'page' : undefined}>往期</a>
+          <a href={`${base}/about/`} aria-current={path.includes('/about') ? 'page' : undefined}>关于</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-foot">
+      <div class="inner">
+        <span>微电子简报 · 内容由 AI 辅助聚合生成</span>
+        <span>事实请以原始来源为准</span>
+        <span class="mono">MIT Licensed</span>
+      </div>
+    </footer>
+  </body>
+</html>

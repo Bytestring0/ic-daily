@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Base title="404 · 微电子简报">
+  <div class="wrap nf">
+    <p class="eyebrow">404</p>
+    <h1>这个页面不存在</h1>
+    <p class="hint">也许期次已被归档，或链接有误。</p>
+    <a class="btn mono" href={`${base}/`}>← 回到今日简报</a>
+  </div>
+</Base>
+
+<style>
+  .nf {
+    padding: 120px 0;
+    text-align: center;
+  }
+  .nf h1 {
+    font-size: clamp(26px, 5vw, 38px);
+    margin: 12px 0 10px;
+    letter-spacing: -0.03em;
+  }
+  .hint {
+    color: var(--ink-3);
+    font-size: 14.5px;
+    margin-bottom: 28px;
+  }
+  .btn {
+    display: inline-block;
+    border: 1px solid var(--line-2);
+    background: var(--bg-2);
+    padding: 9px 18px;
+    border-radius: 3px;
+    font-size: 13px;
+    color: var(--ink-2);
+    transition: border-color 0.15s, color 0.15s;
+  }
+  .btn:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+</style>

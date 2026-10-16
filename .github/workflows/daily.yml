@@ -1,0 +1,146 @@
+name: Daily IC Digest
+
+# ------------------------------------------------------------
+# 每天定时生成日报 → 构建静态站 → 部署到 GitHub Pages
+#
+# 需要的仓库 Secrets（Settings → Secrets and variables → Actions）：
+#   LLM_API_KEY    必填才能启用 AI 改写（不填则走规则模式，仍可正常出报）
+#   LLM_BASE_URL   选填，默认 https://api.deepseek.com/v1
+#   LLM_MODEL      选填，默认 deepseek-chat
+#
+# 另外需要在 Settings → Pages 里把 Source 设为 "GitHub Actions"
+# ------------------------------------------------------------
+
+on:
+  schedule:
+    # UTC 01:10 = 北京时间 09:10，早报时段
+    - cron: '10 1 * * *'
+  workflow_dispatch: # 支持手动触发
+  push:
+    branches: [main]
+    paths:
+      - 'src/**'
+      - 'scripts/**'
+      - 'config/**'
+      - 'content/**'
+      - 'astro.config.mjs'
+      - 'package.json'
+      - '.github/workflows/daily.yml'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 只保留最新一次部署，避免并发写冲突
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  # ---------- 阶段一：生成当日数据 ----------
+  generate:
+    runs-on: ubuntu-latest
+    # 定时触发才生成新数据；push 触发时复用已有数据直接构建
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      - name: 生成今日日报
+        env:
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          TZ: Asia/Shanghai
+        run: npm run daily
+
+      - name: 提交数据变更
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore(data): 更新 $(date +%Y-%m-%d) 日报数据"
+            git push
+          fi
+
+      - name: 上传数据产物
+        uses: actions/upload-artifact@v4
+        with:
+          name: content
+          path: content/
+          retention-days: 1
+
+  # ---------- 阶段二：构建静态站点 ----------
+  build:
+    runs-on: ubuntu-latest
+    needs: generate
+    if: always() && (needs.generate.result == 'success' || needs.generate.result == 'skipped')
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+
+      - name: 安装依赖
+        run: npm ci
+
+      # 定时任务里 generate 阶段会 push 新数据；用最新 commit 覆盖工作区，
+      # 保证构建用的是刚生成的那份 content/
+      - name: 同步最新的数据提交
+        if: needs.generate.result == 'success'
+        run: |
+          git fetch origin ${{ github.ref_name }} --depth=1
+          git reset --hard origin/${{ github.ref_name }}
+
+      - name: 计算 site 与 base 路径
+        id: paths
+        run: |
+          REPO="${{ github.event.repository.name }}"
+          OWNER="${{ github.repository_owner }}"
+          # 若是 <owner>.github.io 仓库，站点在根路径；否则在 /<repo>/ 子路径
+          if [ "$REPO" = "$OWNER.github.io" ]; then
+            echo "site=https://$OWNER.github.io" >> $GITHUB_OUTPUT
+            echo "base=" >> $GITHUB_OUTPUT
+          else
+            echo "site=https://$OWNER.github.io" >> $GITHUB_OUTPUT
+            echo "base=/$REPO" >> $GITHUB_OUTPUT
+          fi
+
+      - name: 构建站点
+        env:
+          SITE_URL: ${{ steps.paths.outputs.site }}
+          BASE_PATH: ${{ steps.paths.outputs.base }}
+        run: npm run build
+
+      - name: 配置 Pages
+        uses: actions/configure-pages@v5
+
+      - name: 上传站点产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  # ---------- 阶段三：部署 ----------
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

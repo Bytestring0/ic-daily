@@ -1,0 +1,219 @@
+/* ============================================================
+   微电子简报 · 视觉系统
+   设计取向：晶圆/掩模/数据手册的工业感 —— 冷灰底 + 等宽字 +
+   分类色条。不做圆润卡片堆叠，用细线、编号、方角建立秩序。
+   ============================================================ */
+
+:root {
+  /* 底色：偏冷的工业灰 */
+  --bg: #0e1013;
+  --bg-2: #14171c;
+  --bg-3: #1b1f26;
+  --line: #262b33;
+  --line-2: #333a45;
+
+  --ink: #e8eaed;
+  --ink-2: #a8b0bb;
+  --ink-3: #6f7885;
+
+  --accent: #5ac8fa;
+  --accent-dim: #2a7ea3;
+
+  --mono: ui-monospace, 'SF Mono', 'Cascadia Mono', 'JetBrains Mono', Menlo, Consolas,
+    'Noto Sans Mono CJK SC', monospace;
+  --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
+    'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+
+  --radius: 3px;
+  --maxw: 1120px;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f4f5f7;
+    --bg-2: #ffffff;
+    --bg-3: #eceef1;
+    --line: #dcdfe4;
+    --line-2: #c6cbd2;
+    --ink: #14171c;
+    --ink-2: #4a525d;
+    --ink-3: #7c8592;
+    --accent: #0b6fa4;
+    --accent-dim: #8fc4dd;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* 背景细网格 —— 像晶圆图 / 数据手册 */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background-image: linear-gradient(var(--line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--line) 1px, transparent 1px);
+  background-size: 64px 64px;
+  opacity: 0.16;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+  position: relative;
+  z-index: 1;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ---------- 页头 ---------- */
+.site-head {
+  border-bottom: 1px solid var(--line);
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(8px);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.site-head .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 14px 24px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  font-family: var(--mono);
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.brand .mark {
+  width: 9px;
+  height: 9px;
+  background: var(--accent);
+  align-self: center;
+  box-shadow: 0 0 12px var(--accent-dim);
+}
+
+.brand .cn {
+  font-size: 15px;
+}
+
+.brand .en {
+  font-size: 11px;
+  color: var(--ink-3);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.site-head nav {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.site-head nav a {
+  color: var(--ink-2);
+  padding: 4px 0;
+  border-bottom: 1px solid transparent;
+  transition: color 0.15s, border-color 0.15s;
+}
+
+.site-head nav a:hover,
+.site-head nav a[aria-current='page'] {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- 页脚 ---------- */
+.site-foot {
+  border-top: 1px solid var(--line);
+  margin-top: 72px;
+  padding: 32px 0 48px;
+  color: var(--ink-3);
+  font-size: 13px;
+}
+
+.site-foot .inner {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 28px;
+  align-items: center;
+}
+
+.site-foot code {
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--ink-2);
+}
+
+/* ---------- 通用 ---------- */
+.mono {
+  font-family: var(--mono);
+}
+
+.eyebrow {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  color: var(--ink-3);
+}
+
+hr.rule {
+  border: 0;
+  border-top: 1px solid var(--line);
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  body {
+    font-size: 15px;
+  }
+  .wrap {
+    padding: 0 16px;
+  }
+  .site-head .inner {
+    padding: 12px 16px;
+  }
+  .site-head nav {
+    gap: 14px;
+    font-size: 11.5px;
+  }
+}
