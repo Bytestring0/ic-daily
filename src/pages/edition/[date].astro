@@ -15,8 +15,8 @@ const { date } = Astro.props;
 const edition = getEdition(date);
 const d = formatDateCN(date);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const [yy, mm, dd] = date.split('-');
 
-// 前后期导航
 const idx = getIndex();
 const dates = (idx.editions || []).map((e) => e.date);
 const i = dates.indexOf(date);
@@ -26,43 +26,43 @@ const older = i >= 0 && i < dates.length - 1 ? dates[i + 1] : null;
 
 <Base title={`${d.full} · 微电子简报`} description={edition?.intro}>
   <div class="wrap">
-    <nav class="crumb mono">
+    <nav class="crumb">
       <a href={`${base}/`}>首页</a>
-      <span>/</span>
+      <span class="sep">/</span>
       <a href={`${base}/archive/`}>往期</a>
-      <span>/</span>
+      <span class="sep">/</span>
       <span class="cur">{date}</span>
     </nav>
 
-    <header class="head">
+    <header class="hero">
       <p class="eyebrow">{d.weekday} · 共 {edition?.stats.count ?? 0} 条</p>
-      <h1 class="datum mono">{date}</h1>
+      <h1 class="datum">
+        <span class="big">{mm}.{dd}</span>
+        <span class="year">{yy}</span>
+      </h1>
       {edition?.intro && <p class="intro">{edition.intro}</p>}
     </header>
 
-    <section class="list">
+    <div class="stream">
       {(edition?.entries || []).map((e, n) => <EntryCard entry={e} index={n} />)}
-      <div class="end"></div>
-    </section>
+    </div>
 
     <nav class="pager">
       {older ? (
         <a class="pg" href={`${base}/edition/${older}/`}>
-          <span class="lbl mono">← 更早</span>
-          <span class="dt mono">{older}</span>
+          <span class="lbl">← 更早</span>
+          <span class="dt">{older}</span>
         </a>
-      ) : (
-        <span></span>
-      )}
+      ) : <span />}
       {newer ? (
         <a class="pg right" href={`${base}/edition/${newer}/`}>
-          <span class="lbl mono">更新 →</span>
-          <span class="dt mono">{newer}</span>
+          <span class="lbl">更新 →</span>
+          <span class="dt">{newer}</span>
         </a>
       ) : (
         <a class="pg right" href={`${base}/`}>
-          <span class="lbl mono">回到最新 →</span>
-          <span class="dt mono">首页</span>
+          <span class="lbl">回到最新 →</span>
+          <span class="dt">今日</span>
         </a>
       )}
     </nav>
@@ -72,8 +72,9 @@ const older = i >= 0 && i < dates.length - 1 ? dates[i + 1] : null;
 <style>
   .crumb {
     display: flex;
-    gap: 8px;
-    font-size: 12px;
+    gap: 7px;
+    align-items: center;
+    font-size: 12.5px;
     color: var(--ink-3);
     padding: 24px 0 0;
   }
@@ -82,57 +83,79 @@ const older = i >= 0 && i < dates.length - 1 ? dates[i + 1] : null;
     color: var(--accent);
   }
 
-  .crumb .cur {
+  .sep {
+    color: var(--ink-4);
+  }
+
+  .cur {
     color: var(--ink-2);
   }
 
-  .head {
-    padding: 22px 0 32px;
-    border-bottom: 1px solid var(--line);
+  .hero {
+    padding: 20px 0 28px;
   }
 
   .datum {
-    font-size: clamp(30px, 5vw, 44px);
-    line-height: 1;
-    margin: 10px 0 14px;
-    font-weight: 600;
-    letter-spacing: -0.03em;
+    margin: 12px 0 16px;
+    display: flex;
+    align-items: baseline;
+    gap: 13px;
+  }
+
+  .big {
+    font-size: clamp(44px, 7vw, 70px);
+    font-weight: 800;
+    line-height: 0.95;
+    color: var(--accent);
+    letter-spacing: -0.055em;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .year {
+    font-size: clamp(17px, 2.4vw, 23px);
+    font-weight: 700;
+    color: var(--ink-3);
+    letter-spacing: -0.02em;
   }
 
   .intro {
     margin: 0;
     color: var(--ink-2);
     font-size: 16px;
-    max-width: 68ch;
-    padding-left: 16px;
-    border-left: 2px solid var(--accent-dim);
+    line-height: 1.8;
+    max-width: 62ch;
   }
 
-  .end {
-    border-top: 1px solid var(--line);
+  .stream {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 860px;
   }
 
   .pager {
-    margin-top: 44px;
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
-    gap: 16px;
+    gap: 14px;
+    max-width: 860px;
   }
 
   .pg {
     display: flex;
     flex-direction: column;
     gap: 3px;
-    border: 1px solid var(--line);
-    background: var(--bg-2);
-    padding: 13px 18px;
-    border-radius: 3px;
-    min-width: 150px;
-    transition: border-color 0.15s;
+    background: var(--card);
+    padding: 14px 20px;
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-sm);
+    min-width: 152px;
+    transition: transform 0.15s, box-shadow 0.15s;
   }
 
   .pg:hover {
-    border-color: var(--accent);
+    transform: translateY(-1px);
+    box-shadow: 0 3px 12px rgba(24, 24, 27, 0.07);
   }
 
   .pg.right {
@@ -140,13 +163,14 @@ const older = i >= 0 && i < dates.length - 1 ? dates[i + 1] : null;
   }
 
   .pg .lbl {
-    font-size: 11px;
+    font-size: 11.5px;
     color: var(--ink-3);
-    letter-spacing: 0.06em;
   }
 
   .pg .dt {
-    font-size: 14px;
+    font-size: 14.5px;
+    font-weight: 600;
     color: var(--ink);
+    font-variant-numeric: tabular-nums;
   }
 </style>

@@ -14,31 +14,36 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 <style>
   .nf {
-    padding: 120px 0;
+    margin: 100px 0;
+    padding: 76px 30px;
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
     text-align: center;
   }
   .nf h1 {
-    font-size: clamp(26px, 5vw, 38px);
+    font-size: clamp(26px, 5vw, 36px);
     margin: 12px 0 10px;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.035em;
+    font-weight: 800;
   }
   .hint {
     color: var(--ink-3);
     font-size: 14.5px;
-    margin-bottom: 28px;
+    margin-bottom: 26px;
   }
   .btn {
     display: inline-block;
-    border: 1px solid var(--line-2);
-    background: var(--bg-2);
-    padding: 9px 18px;
-    border-radius: 3px;
-    font-size: 13px;
-    color: var(--ink-2);
-    transition: border-color 0.15s, color 0.15s;
+    background: var(--accent);
+    padding: 10px 22px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    transition: transform 0.15s, box-shadow 0.15s;
   }
   .btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
+    transform: translateY(-1px);
+    box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 35%, transparent);
   }
 </style>

@@ -1,13 +1,11 @@
 ---
 /**
  * 单条情报卡片
- * 设计：左侧分类色条 + 序号，右侧内容。用细线分隔而非卡片阴影。
+ * 参照橘鸦卡片语言：
+ *   编号方块 + 分类标签 → 大标题 → 淡色高亮摘要块 → 正文 → 底部来源
  */
 const { entry, index } = Astro.props;
 const e = entry;
-
-// 重要度星级：仅 4-5 显示，减少视觉噪音
-const showStars = e.importance >= 4;
 
 function hostOf(url) {
   try {
@@ -27,221 +25,244 @@ function relTime(iso) {
   if (d < 30) return `${d} 天前`;
   return new Date(iso).toISOString().slice(0, 10);
 }
+
+// 重要度：4-5 显示"重点"标记
+const isTop = e.importance >= 4;
 ---
 
-<article class="entry" style={`--cat:${e.categoryColor}`}>
-  <div class="rail">
-    <span class="idx mono">{String(index + 1).padStart(2, '0')}</span>
+<article class="entry" id={`e-${index + 1}`}>
+  <div class="head">
+    <span class="num">{index + 1}</span>
+    <span class="cat" style={`--c:${e.categoryColor}`}>{e.categoryLabel}</span>
+    {isTop && <span class="top">重点</span>}
+    <span class="meta">
+      <span class="src">{e.source}</span>
+      {e.published && <span class="dot">·</span>}
+      {e.published && <span class="time">{relTime(e.published)}</span>}
+    </span>
   </div>
 
-  <div class="body">
-    <div class="meta">
-      <span class="cat">{e.categoryLabel}</span>
-      {showStars && <span class="stars" title={`重要度 ${e.importance}/5`}>{'◆'.repeat(e.importance)}</span>}
-      <span class="src mono">{e.source}</span>
-      {e.published && <span class="time mono">{relTime(e.published)}</span>}
-    </div>
+  <h3 class="title">
+    <a href={e.url} target="_blank" rel="noopener noreferrer">{e.title}</a>
+  </h3>
 
-    <h3 class="title">
-      <a href={e.url} target="_blank" rel="noopener noreferrer">{e.title}</a>
-    </h3>
+  {e.summary && <div class="lead">{e.summary}</div>}
 
-    {e.summary && <p class="summary">{e.summary}</p>}
+  {e.points && e.points.length > 0 && (
+    <ul class="points">
+      {e.points.map((p) => (
+        <li>{p}</li>
+      ))}
+    </ul>
+  )}
 
-    {e.points && e.points.length > 0 && (
-      <ul class="points">
-        {e.points.map((p) => (
-          <li>{p}</li>
+  <div class="foot">
+    <a class="origin" href={e.url} target="_blank" rel="noopener noreferrer">
+      <svg width="12" height="12" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+        <path d="M6 3h7v7M13 3L3 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      {hostOf(e.url)}
+    </a>
+    {e.tags && e.tags.length > 0 && (
+      <span class="tags">
+        {e.tags.slice(0, 3).map((t) => (
+          <span class="tag">{t}</span>
         ))}
-      </ul>
+      </span>
     )}
-
-    <div class="foot">
-      <a class="origin mono" href={e.url} target="_blank" rel="noopener noreferrer">
-        {hostOf(e.url)} ↗
-      </a>
-      {e.tags && e.tags.length > 0 && (
-        <span class="tags">
-          {e.tags.slice(0, 3).map((t) => (
-            <span class="tag">{t}</span>
-          ))}
-        </span>
-      )}
-    </div>
   </div>
 </article>
 
 <style>
   .entry {
-    display: grid;
-    grid-template-columns: 52px 1fr;
-    border-top: 1px solid var(--line);
-    transition: background 0.15s;
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    padding: 26px 30px 22px;
+    box-shadow: var(--shadow-sm);
+    scroll-margin-top: 90px;
   }
 
-  .entry:hover {
-    background: color-mix(in srgb, var(--bg-2) 70%, transparent);
-  }
-
-  .rail {
-    position: relative;
-    padding-top: 20px;
-  }
-
-  /* 分类色条 */
-  .rail::before {
-    content: '';
-    position: absolute;
-    left: 24px;
-    top: 20px;
-    width: 2px;
-    height: 22px;
-    background: var(--cat);
-  }
-
-  .idx {
-    position: absolute;
-    left: 32px;
-    top: 22px;
-    font-size: 11px;
-    color: var(--ink-3);
-    letter-spacing: 0.04em;
-  }
-
-  .body {
-    padding: 18px 0 20px;
-    min-width: 0;
-  }
-
-  .meta {
+  .head {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 9px;
     flex-wrap: wrap;
-    margin-bottom: 7px;
+    margin-bottom: 13px;
+  }
+
+  /* 编号方块 */
+  .num {
+    display: grid;
+    place-items: center;
+    min-width: 27px;
+    height: 27px;
+    padding: 0 7px;
+    border-radius: 8px;
+    background: var(--num-bg);
+    color: var(--ink-2);
+    font-size: 12.5px;
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+    letter-spacing: -0.01em;
+    flex-shrink: 0;
   }
 
   .cat {
-    font-family: var(--mono);
-    font-size: 11px;
-    letter-spacing: 0.06em;
-    color: var(--cat);
-    border: 1px solid color-mix(in srgb, var(--cat) 45%, transparent);
-    background: color-mix(in srgb, var(--cat) 12%, transparent);
-    padding: 1px 7px;
-    border-radius: 2px;
-  }
-
-  .stars {
-    font-size: 9px;
-    color: var(--accent);
-    letter-spacing: 1px;
-  }
-
-  .src,
-  .time {
     font-size: 11.5px;
-    color: var(--ink-3);
+    font-weight: 600;
+    color: var(--c);
+    background: color-mix(in srgb, var(--c) 10%, transparent);
+    padding: 2px 9px;
+    border-radius: 6px;
+    letter-spacing: 0.01em;
   }
 
-  .time::before {
-    content: '· ';
+  .top {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: #fff;
+    background: var(--accent);
+    padding: 2px 8px;
+    border-radius: 6px;
+    letter-spacing: 0.03em;
+  }
+
+  .meta {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: var(--ink-3);
+    min-width: 0;
+  }
+
+  .src {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 180px;
+  }
+
+  .dot {
+    color: var(--ink-4);
   }
 
   .title {
-    margin: 0 0 8px;
-    font-size: 17.5px;
-    line-height: 1.45;
-    font-weight: 600;
-    letter-spacing: -0.008em;
+    margin: 0 0 12px;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 700;
+    letter-spacing: -0.018em;
+    color: var(--ink);
   }
 
   .title a {
-    background-image: linear-gradient(var(--accent-dim), var(--accent-dim));
-    background-size: 0% 1px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 0.25s ease;
+    transition: color 0.15s;
   }
 
   .title a:hover {
-    background-size: 100% 1px;
+    color: var(--accent-ink);
   }
 
-  .summary {
-    margin: 0;
+  /* 淡色高亮摘要块 —— 橘鸦样式里最显著的特征 */
+  .lead {
+    background: var(--accent-soft);
     color: var(--ink-2);
-    font-size: 14.5px;
-    line-height: 1.7;
+    border-radius: var(--radius-md);
+    padding: 15px 19px;
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 14px;
   }
 
   .points {
-    margin: 9px 0 0;
+    margin: 0 0 14px;
     padding: 0;
     list-style: none;
     display: flex;
-    flex-wrap: wrap;
-    gap: 6px 8px;
+    flex-direction: column;
+    gap: 6px;
   }
 
   .points li {
-    font-size: 12.5px;
+    font-size: 14px;
+    line-height: 1.75;
     color: var(--ink-2);
-    font-family: var(--mono);
-    border-left: 2px solid var(--line-2);
-    padding-left: 8px;
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .points li::before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 10px;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--ink-4);
   }
 
   .foot {
-    margin-top: 11px;
     display: flex;
     align-items: center;
     gap: 12px;
     flex-wrap: wrap;
+    padding-top: 14px;
+    border-top: 1px solid var(--line);
   }
 
   .origin {
-    font-size: 11.5px;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12.5px;
     color: var(--ink-3);
-    border-bottom: 1px dashed var(--line-2);
-    padding-bottom: 1px;
-    transition: color 0.15s, border-color 0.15s;
+    transition: color 0.15s;
   }
 
   .origin:hover {
     color: var(--accent);
-    border-color: var(--accent);
   }
 
   .tags {
     display: flex;
-    gap: 5px;
+    gap: 6px;
+    margin-left: auto;
   }
 
   .tag {
-    font-size: 10.5px;
-    font-family: var(--mono);
+    font-size: 11.5px;
     color: var(--ink-3);
-    background: var(--bg-3);
-    padding: 1px 6px;
-    border-radius: 2px;
+    background: var(--card-soft);
+    border: 1px solid var(--line);
+    padding: 1px 8px;
+    border-radius: 6px;
   }
 
   @media (max-width: 640px) {
     .entry {
-      grid-template-columns: 30px 1fr;
-    }
-    .rail::before {
-      left: 8px;
-    }
-    .idx {
-      display: none;
+      padding: 20px 18px 17px;
+      border-radius: 18px;
     }
     .title {
-      font-size: 16px;
+      font-size: 17.5px;
     }
-    .summary {
-      font-size: 14px;
+    .lead {
+      padding: 13px 15px;
+      font-size: 14.5px;
+    }
+    .meta {
+      margin-left: 0;
+      width: 100%;
+      order: 10;
+    }
+    .src {
+      max-width: none;
+    }
+    .tags {
+      margin-left: 0;
     }
   }
 </style>

@@ -9,7 +9,9 @@ import Base from '../layouts/Base.astro';
       <h1>关于这份简报</h1>
     </header>
 
-    <section>
+    <div class="body">
+
+    <section class="panel">
       <h2>它是什么</h2>
       <p>
         一份聚焦<strong>微电子与集成电路产业</strong>的每日简讯。内容由程序自动从公开信息源聚合，
@@ -18,7 +20,7 @@ import Base from '../layouts/Base.astro';
       <p>覆盖方向：晶圆代工、半导体设备、EDA、存储、芯片设计、材料与封测、政策与地缘、研究与论文、市场与产业。</p>
     </section>
 
-    <section>
+    <section class="panel">
       <h2>怎么做的</h2>
       <ol class="pipeline">
         <li>
@@ -59,7 +61,7 @@ import Base from '../layouts/Base.astro';
       </ol>
     </section>
 
-    <section>
+    <section class="panel">
       <h2>技术栈</h2>
       <div class="stack">
         <div><span class="k mono">采集</span><span class="v">Node.js + fast-xml-parser</span></div>
@@ -70,7 +72,7 @@ import Base from '../layouts/Base.astro';
       </div>
     </section>
 
-    <section class="warn">
+    <section class="panel warn">
       <h2>局限与免责</h2>
       <ul>
         <li>内容由 AI 辅助生成，<strong>可能存在事实错误、误译或时效偏差</strong>。</li>
@@ -80,7 +82,7 @@ import Base from '../layouts/Base.astro';
       </ul>
     </section>
 
-    <section>
+    <section class="panel">
       <h2>如何自己跑一份</h2>
       <pre class="code"><code># 安装依赖
 npm install
@@ -97,50 +99,58 @@ npm run build</code></pre>
         配置 AI 改写：设置环境变量 <code>LLM_BASE_URL</code>、<code>LLM_API_KEY</code>、<code>LLM_MODEL</code>。
       </p>
     </section>
+    </div>
   </div>
 </Base>
 
 <style>
-  .prose {
-    max-width: 780px;
-  }
-
   .head {
-    padding: 52px 0 28px;
-    border-bottom: 1px solid var(--line);
-    margin-bottom: 8px;
+    padding: 46px 0 24px;
   }
 
   .head h1 {
-    font-size: clamp(28px, 4.5vw, 40px);
+    font-size: clamp(30px, 5vw, 42px);
     margin: 10px 0 0;
-    letter-spacing: -0.03em;
+    letter-spacing: -0.035em;
+    font-weight: 800;
   }
 
-  section {
-    padding: 32px 0;
-    border-bottom: 1px solid var(--line);
+  .body {
+    max-width: 780px;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
   }
 
-  section:last-child {
-    border-bottom: 0;
+  section.panel {
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    padding: 26px 30px;
+    box-shadow: var(--shadow-sm);
   }
 
   h2 {
-    font-size: 19px;
-    margin: 0 0 14px;
-    letter-spacing: -0.01em;
+    font-size: 18px;
+    margin: 0 0 12px;
+    letter-spacing: -0.015em;
+    font-weight: 700;
   }
 
   h3 {
-    font-size: 15px;
-    margin: 0 0 4px;
+    font-size: 14.5px;
+    margin: 0 0 3px;
+    font-weight: 700;
   }
 
   p {
     color: var(--ink-2);
-    margin: 0 0 12px;
+    margin: 0 0 10px;
     line-height: 1.8;
+    font-size: 15px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
   }
 
   strong {
@@ -151,10 +161,10 @@ npm run build</code></pre>
   code {
     font-family: var(--mono);
     font-size: 13px;
-    background: var(--bg-3);
+    background: var(--num-bg);
     padding: 1px 6px;
-    border-radius: 2px;
-    color: var(--accent);
+    border-radius: 5px;
+    color: var(--accent-ink);
   }
 
   .pipeline {
@@ -163,20 +173,25 @@ npm run build</code></pre>
     margin: 0;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 18px;
   }
 
   .pipeline li {
     display: grid;
-    grid-template-columns: 42px 1fr;
+    grid-template-columns: 30px 1fr;
     gap: 14px;
   }
 
   .pipeline .n {
-    font-size: 12px;
-    color: var(--ink-3);
-    padding-top: 3px;
-    letter-spacing: 0.05em;
+    display: grid;
+    place-items: center;
+    width: 27px;
+    height: 27px;
+    border-radius: 8px;
+    background: var(--num-bg);
+    color: var(--ink-2);
+    font-size: 11.5px;
+    font-weight: 700;
   }
 
   .stack {
@@ -186,11 +201,14 @@ npm run build</code></pre>
 
   .stack > div {
     display: grid;
-    grid-template-columns: 80px 1fr;
+    grid-template-columns: 74px 1fr;
     gap: 16px;
     padding: 9px 0;
-    border-bottom: 1px solid var(--line);
     font-size: 14px;
+  }
+
+  .stack > div + div {
+    border-top: 1px solid var(--line);
   }
 
   .stack .k {
@@ -204,30 +222,35 @@ npm run build</code></pre>
 
   .warn ul {
     margin: 0;
-    padding-left: 20px;
+    padding-left: 18px;
     color: var(--ink-2);
     line-height: 1.9;
+    font-size: 14.5px;
   }
 
   .warn li {
-    margin-bottom: 6px;
+    margin-bottom: 5px;
+  }
+
+  .warn li::marker {
+    color: var(--ink-4);
   }
 
   .code {
-    background: var(--bg-2);
+    background: var(--card-soft);
     border: 1px solid var(--line);
-    border-radius: 3px;
-    padding: 18px 20px;
+    border-radius: var(--radius-md);
+    padding: 16px 18px;
     overflow-x: auto;
-    margin: 0 0 14px;
+    margin: 0 0 12px;
   }
 
   .code code {
     background: none;
     padding: 0;
     color: var(--ink-2);
-    font-size: 13px;
-    line-height: 1.85;
+    font-size: 12.5px;
+    line-height: 1.9;
   }
 
   .muted {
@@ -235,3 +258,4 @@ npm run build</code></pre>
     color: var(--ink-3);
   }
 </style>
+

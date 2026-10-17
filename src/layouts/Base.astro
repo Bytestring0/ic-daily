@@ -4,7 +4,9 @@ import '../styles/global.css';
 const { title = '微电子简报', description = '每日微电子与集成电路行业动态' } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const path = Astro.url.pathname;
-const isHome = path === `${base}/` || path === base || path === `${base}/index.html`;
+const norm = (p) => p.replace(/\/index\.html$/, '/').replace(/\/$/, '') || '/';
+const here = norm(path);
+const isHome = here === norm(base || '/');
 ---
 <!doctype html>
 <html lang="zh-CN">
@@ -15,6 +17,9 @@ const isHome = path === `${base}/` || path === base || path === `${base}/index.h
     <meta name="description" content={description} />
     <meta name="generator" content={Astro.generator} />
     <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title="微电子简报" href={`${base}/rss.xml`} />
+    <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#141416" media="(prefers-color-scheme: dark)" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -23,14 +28,15 @@ const isHome = path === `${base}/` || path === base || path === `${base}/index.h
     <header class="site-head">
       <div class="inner">
         <a class="brand" href={`${base}/`}>
-          <span class="mark"></span>
-          <span class="cn">微电子简报</span>
-          <span class="en">IC Daily</span>
+          <span class="logo">IC</span>
+          <span>微电子简报</span>
+          <span class="tag">Daily</span>
         </a>
         <nav>
           <a href={`${base}/`} aria-current={isHome ? 'page' : undefined}>今日</a>
-          <a href={`${base}/archive/`} aria-current={path.includes('/archive') ? 'page' : undefined}>往期</a>
-          <a href={`${base}/about/`} aria-current={path.includes('/about') ? 'page' : undefined}>关于</a>
+          <a href={`${base}/archive/`} aria-current={here.endsWith('/archive') ? 'page' : undefined}>往期</a>
+          <a href={`${base}/about/`} aria-current={here.endsWith('/about') ? 'page' : undefined}>关于</a>
+          <a class="rss" href={`${base}/rss.xml`}>RSS</a>
         </nav>
       </div>
     </header>
@@ -42,8 +48,8 @@ const isHome = path === `${base}/` || path === base || path === `${base}/index.h
     <footer class="site-foot">
       <div class="inner">
         <span>微电子简报 · 内容由 AI 辅助聚合生成</span>
-        <span>事实请以原始来源为准</span>
-        <span class="mono">MIT Licensed</span>
+        <span>事实请以原始来源为准 · 不构成投资建议</span>
+        <span class="mono">MIT</span>
       </div>
     </footer>
   </body>

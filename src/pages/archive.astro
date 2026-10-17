@@ -5,7 +5,6 @@ import { getIndex, getEdition, formatDateCN } from '../lib/content.js';
 const idx = getIndex();
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
-// 按年月分组
 const groups = {};
 for (const e of idx.editions || []) {
   const ym = e.date.slice(0, 7);
@@ -13,7 +12,6 @@ for (const e of idx.editions || []) {
 }
 const months = Object.keys(groups).sort().reverse();
 
-// 全局分类统计
 const globalCats = {};
 for (const e of idx.editions || []) {
   for (const [k, n] of Object.entries(e.categories || {})) {
@@ -23,7 +21,6 @@ for (const e of idx.editions || []) {
 const catList = Object.entries(globalCats).sort((a, b) => b[1] - a[1]);
 const totalEntries = (idx.editions || []).reduce((s, e) => s + e.count, 0);
 
-// 取任意一期拿分类标签
 const sample = idx.editions?.length ? getEdition(idx.editions[0].date) : null;
 const labelOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryLabel || k;
 const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryColor || '#888';
@@ -31,18 +28,18 @@ const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryCo
 
 <Base title="往期归档 · 微电子简报" description="所有往期微电子与集成电路日报">
   <div class="wrap">
-    <header class="head">
+    <header class="hero">
       <p class="eyebrow">Archive</p>
       <h1>往期归档</h1>
-      <div class="totals">
-        <span class="mono">{idx.total}</span> 期 · 累计 <span class="mono">{totalEntries}</span> 条动态
-      </div>
+      <p class="sub">
+        共 <b>{idx.total}</b> 期 · 累计 <b>{totalEntries}</b> 条动态
+      </p>
 
       {catList.length > 0 && (
         <div class="cats">
           {catList.map(([k, n]) => (
-            <span class="cat-chip" style={`--c:${colorOf(k)}`}>
-              <span class="dot"></span>{labelOf(k)}<span class="n mono">{n}</span>
+            <span class="chip" style={`--c:${colorOf(k)}`}>
+              <span class="d" />{labelOf(k)}<span class="n">{n}</span>
             </span>
           ))}
         </div>
@@ -55,16 +52,17 @@ const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryCo
 
     {months.map((ym) => (
       <section class="month">
-        <h2 class="mono mh">{ym}</h2>
+        <h2 class="mh">{ym.replace('-', ' 年 ')} 月</h2>
         <div class="rows">
           {groups[ym].map((e) => {
             const d = formatDateCN(e.date);
+            const [, , dd] = e.date.split('-');
             return (
               <a class="row" href={`${base}/edition/${e.date}/`}>
-                <span class="day mono">{d.short}</span>
-                <span class="wk">{d.weekday}</span>
-                <span class="desc">{e.intro}</span>
-                <span class="cnt mono">{e.count}</span>
+                <span class="day">{dd}</span>
+                <span class="wk">{d.weekday.replace('星期', '周')}</span>
+                <span class="desc">{e.top?.[0] || e.intro}</span>
+                <span class="cnt">{e.count} 条</span>
               </a>
             );
           })}
@@ -75,26 +73,26 @@ const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryCo
 </Base>
 
 <style>
-  .head {
-    padding: 52px 0 32px;
-    border-bottom: 1px solid var(--line);
+  .hero {
+    padding: 46px 0 30px;
   }
 
-  .head h1 {
-    font-size: clamp(28px, 4.5vw, 40px);
-    margin: 10px 0 12px;
-    letter-spacing: -0.03em;
+  .hero h1 {
+    font-size: clamp(30px, 5vw, 42px);
+    margin: 10px 0 10px;
+    letter-spacing: -0.035em;
+    font-weight: 800;
   }
 
-  .totals {
+  .sub {
     color: var(--ink-3);
     font-size: 14px;
-    margin-bottom: 22px;
+    margin: 0 0 20px;
   }
 
-  .totals .mono {
+  .sub b {
     color: var(--ink);
-    font-weight: 600;
+    font-variant-numeric: tabular-nums;
   }
 
   .cats {
@@ -103,65 +101,76 @@ const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryCo
     gap: 8px;
   }
 
-  .cat-chip {
+  .chip {
     display: inline-flex;
     align-items: center;
     gap: 7px;
     font-size: 12.5px;
     color: var(--ink-2);
-    border: 1px solid var(--line);
-    background: var(--bg-2);
-    padding: 4px 11px;
-    border-radius: 2px;
+    background: var(--card);
+    padding: 5px 13px;
+    border-radius: 999px;
+    box-shadow: var(--shadow-sm);
   }
 
-  .cat-chip .dot {
+  .chip .d {
     width: 6px;
     height: 6px;
+    border-radius: 2px;
     background: var(--c);
-    border-radius: 50%;
   }
 
-  .cat-chip .n {
-    font-size: 11px;
+  .chip .n {
+    font-size: 11.5px;
     color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
   }
 
   .month {
-    margin-top: 40px;
+    margin-top: 34px;
   }
 
   .mh {
-    font-size: 13px;
+    font-size: 12.5px;
+    font-weight: 700;
     color: var(--ink-3);
-    letter-spacing: 0.14em;
-    margin: 0 0 4px;
-    font-weight: 500;
+    letter-spacing: 0.04em;
+    margin: 0 0 10px;
+    padding-left: 4px;
   }
 
   .rows {
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-sm);
+    padding: 8px 10px;
     display: flex;
     flex-direction: column;
   }
 
   .row {
     display: grid;
-    grid-template-columns: 60px 64px 1fr auto;
-    gap: 16px;
-    align-items: baseline;
-    padding: 12px 0;
-    border-top: 1px solid var(--line);
-    transition: padding-left 0.2s, background 0.15s;
+    grid-template-columns: 40px 40px 1fr auto;
+    gap: 14px;
+    align-items: center;
+    padding: 11px 14px;
+    border-radius: 10px;
+    transition: background 0.15s;
   }
 
   .row:hover {
-    padding-left: 8px;
-    background: color-mix(in srgb, var(--bg-2) 60%, transparent);
+    background: var(--card-soft);
+  }
+
+  .row + .row {
+    border-top: 1px solid var(--line);
   }
 
   .day {
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
   }
 
   .wk {
@@ -175,11 +184,14 @@ const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryCo
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    min-width: 0;
   }
 
   .cnt {
-    font-size: 11.5px;
+    font-size: 12px;
     color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
   }
 
   .empty {
@@ -190,18 +202,23 @@ const colorOf = (k) => sample?.entries.find((e) => e.category === k)?.categoryCo
 
   .empty code {
     font-family: var(--mono);
-    background: var(--bg-3);
-    padding: 2px 7px;
-    border-radius: 2px;
-    color: var(--accent);
+    background: var(--num-bg);
+    padding: 2px 8px;
+    border-radius: 6px;
+    color: var(--accent-ink);
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 620px) {
     .row {
-      grid-template-columns: 52px 1fr auto;
+      grid-template-columns: 34px 1fr auto;
+      gap: 10px;
+      padding: 10px 10px;
     }
     .wk {
       display: none;
+    }
+    .rows {
+      padding: 6px;
     }
   }
 </style>

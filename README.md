@@ -143,6 +143,21 @@ sources:
     enabled: true
 ```
 
+内置源（均已实测可抓取）：
+
+| 类别 | 信源 |
+|---|---|
+| 英文深度媒体 | Semiconductor Engineering、Semiconductor Today、SemiAnalysis、SemiWiki、EE Times、EE Times Asia、Bits&Chips、Light Reading |
+| 英文设计/嵌入 | EDN、Embedded.com、AnandTech、Tom's Hardware |
+| 产业与市场 | DIGITIMES、IEEE Spectrum Semiconductors、NVIDIA Newsroom |
+| 中文媒体 | 芯东西、雷锋网、IT之家、cnBeta |
+| 研究 | arXiv cs.AR |
+
+> **关于 EETOP（eetop.cn）**：该站启用了 JS 人机验证，且**没有公开 RSS 出口**
+> （`/feed`、`/rss.xml`、`/api/rss` 均返回 403 或伪 200 错误页）。
+> 纯 HTTP 无法采集，需 Playwright 渲染 + 破验证，不适合放进无人值守流水线。
+> 若确需接入，见 `config/sources.yaml` 末尾注释里的浏览器采集方案说明。
+
 ### 调整领域关键词
 
 编辑 `scripts/curate.mjs` 里的 `KW` 数组。每条形如：

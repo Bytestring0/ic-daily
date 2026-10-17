@@ -12,12 +12,53 @@
 #   weight    权重 (0-10)，影响排序打分
 #   enabled   是否启用
 # ------------------------------------------------------------
-# 注意：部分站点会改 RSS 路径或封禁 UA。抓取失败不会中
-#      断整条流水线，只会在日志里标 [SKIP]，其余源照常。
+# 已验证：以下所有 url 均实测返回有效 feed。
+# 抓取失败不会中断流水线，只会在日志里标 [SKIP]。
+#
+# ⚠ 关于 EETOP（eetop.cn）：
+#   该站启用了 JS 人机验证（cloudflare 类挑战），并**没有公开 RSS 出口**。
+#   所有 /feed、/rss.xml、/api/rss 均返回 403 或伪装成 200 的错误页。
+#   纯 HTTP 采集无法获取，需 Playwright 渲染 + 破验证，不适合放进每日无人值守流水线。
+#   若你确实需要，见 config/sources.yaml 底部注释的「浏览器采集」方案。
 # ============================================================
 
 sources:
-  # ---------- 英文：行业媒体 ----------
+  # ---------- 英文：行业深度媒体 ----------
+  - name: Semiconductor Engineering
+    url: https://semiengineering.com/feed/
+    lang: en
+    category: research
+    weight: 9
+    enabled: true
+
+  - name: Semiconductor Today
+    url: https://www.semiconductor-today.com/rss/news.xml
+    lang: en
+    category: market
+    weight: 8
+    enabled: true
+
+  - name: Semiconductor Digest
+    url: https://www.semiconductor-digest.com/feed/
+    lang: en
+    category: market
+    weight: 7
+    enabled: false
+
+  - name: SemiAnalysis
+    url: https://semianalysis.com/feed/
+    lang: en
+    category: market
+    weight: 9
+    enabled: true
+
+  - name: SemiWiki
+    url: https://semiwiki.com/feed/
+    lang: en
+    category: eda
+    weight: 7
+    enabled: true
+
   - name: EE Times
     url: https://www.eetimes.com/feed/
     lang: en
@@ -25,10 +66,45 @@ sources:
     weight: 7
     enabled: true
 
-  - name: SemiEngineering
-    url: https://semiengineering.com/feed/
+  - name: EE Times Asia
+    url: https://www.eetasia.com/feed/
     lang: en
-    category: research
+    category: market
+    weight: 7
+    enabled: true
+
+  - name: EDN
+    url: https://www.edn.com/feed/
+    lang: en
+    category: design
+    weight: 5
+    enabled: true
+
+  - name: Embedded.com
+    url: https://www.embedded.com/feed/
+    lang: en
+    category: design
+    weight: 5
+    enabled: true
+
+  - name: Bits&Chips
+    url: https://bits-chips.nl/feed/
+    lang: en
+    category: market
+    weight: 6
+    enabled: true
+
+  - name: Light Reading
+    url: https://www.lightreading.com/rss.xml
+    lang: en
+    category: market
+    weight: 5
+    enabled: true
+
+  - name: DIGITIMES
+    url: https://www.digitimes.com/rss/daily.xml
+    lang: en
+    category: market
     weight: 8
     enabled: true
 
@@ -43,14 +119,7 @@ sources:
     url: https://www.tomshardware.com/feeds/all
     lang: en
     category: design
-    weight: 5
-    enabled: true
-
-  - name: DIGITIMES
-    url: https://www.digitimes.com/rss/daily.xml
-    lang: en
-    category: market
-    weight: 7
+    weight: 4
     enabled: true
 
   - name: IEEE Spectrum Semiconductors
@@ -60,10 +129,6 @@ sources:
     weight: 8
     enabled: true
 
-  # ---------- 英文：厂商新闻室 ----------
-  # 说明：厂商官网多数无公开 RSS 或带反爬（403），
-  # 因此改用聚合源覆盖厂商动态，避免整期缺内容。
-
   - name: NVIDIA Newsroom
     url: https://nvidianews.nvidia.com/releases.xml
     lang: en
@@ -71,21 +136,21 @@ sources:
     weight: 9
     enabled: true
 
-  - name: EE Times Asia
-    url: https://www.eetasia.com/feed/
-    lang: en
-    category: market
-    weight: 7
-    enabled: true
-
-  - name: SemiWiki
-    url: https://semiwiki.com/feed/
-    lang: en
-    category: eda
-    weight: 7
-    enabled: true
-
   # ---------- 中文：行业媒体 ----------
+  - name: 芯东西
+    url: https://www.zhidx.com/rss
+    lang: zh
+    category: design
+    weight: 7
+    enabled: true
+
+  - name: 雷锋网
+    url: https://www.leiphone.com/feed
+    lang: zh
+    category: market
+    weight: 4
+    enabled: true
+
   - name: IT之家
     url: https://www.ithome.com/rss/
     lang: zh
@@ -100,13 +165,6 @@ sources:
     weight: 3
     enabled: true
 
-  - name: 少数派
-    url: https://sspai.com/feed
-    lang: zh
-    category: market
-    weight: 2
-    enabled: false
-
   # ---------- 研究 / 预印本 ----------
   - name: arXiv cs.AR
     url: https://rss.arxiv.org/rss/cs.AR
@@ -120,4 +178,14 @@ sources:
     lang: en
     category: research
     weight: 4
-    enabled: true
+    enabled: false
+
+# ============================================================
+# 可选：浏览器采集（针对 EETOP 这类 JS 验证站点）
+# ============================================================
+# 若一定要接 EETOP，需要改造成两段式流水线：
+#   1. Playwright 打开 https://www.eetop.cn/ ，执行 JS 挑战、拿到 cookie
+#   2. 用该 cookie 请求列表页，解析 .list li a 抽标题与链接
+# 代价：CI 里要装 ~120MB Chromium，且验证策略变动就会挂，
+#       失败时整条链路受影响。建议只在本地跑，或单独做成旁路脚本。
+# ============================================================

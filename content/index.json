@@ -1,37 +1,21 @@
 {
-  "generatedAt": "2026-10-16T18:21:04.811Z",
-  "total": 2,
+  "generatedAt": "2026-10-17T07:09:51.320Z",
+  "total": 1,
   "editions": [
     {
       "date": "2026-10-17",
       "count": 24,
       "intro": "本期收录 24 条微电子与集成电路相关动态，覆盖 4 个细分方向。",
       "top": [
-        "长鑫科技 2026 年前三季度预计归母净利润 1310~1325 亿元，同比扭亏为盈",
-        "Characterization of HBM Power Consumption (ETH Zurich, NYU)",
-        "Terafab’s Single Roof: Why Packaging, Not Lithography, Decid"
+        "Bolt 完成 Zeus GPU 测试芯片调试，实际产品预计 2028 年发售",
+        "群智咨询：超七成主流品牌笔记本 OLED 面板来自三星显示，厂商加速引入中国供应商",
+        "美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD"
       ],
       "categories": {
-        "market": 11,
-        "research": 7,
-        "eda": 3,
-        "design": 3
-      }
-    },
-    {
-      "date": "2026-10-16",
-      "count": 24,
-      "intro": "本期收录 24 条微电子与集成电路相关动态，覆盖 4 个细分方向。",
-      "top": [
-        "长鑫科技 2026 年前三季度预计归母净利润 1310~1325 亿元，同比扭亏为盈",
-        "Characterization of HBM Power Consumption (ETH Zurich, NYU)",
-        "Terafab’s Single Roof: Why Packaging, Not Lithography, Decid"
-      ],
-      "categories": {
-        "market": 11,
-        "research": 7,
-        "eda": 3,
-        "design": 3
+        "market": 16,
+        "design": 5,
+        "research": 1,
+        "eda": 2
       }
     }
   ]

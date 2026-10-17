@@ -1,27 +1,33 @@
 ---
 import Base from '../layouts/Base.astro';
 import EntryCard from '../components/EntryCard.astro';
+import Sidebar from '../components/Sidebar.astro';
 import { getLatest, getIndex, formatDateCN } from '../lib/content.js';
 
 const edition = getLatest();
 const idx = getIndex();
-
-if (!edition) {
-  // 尚无数据时的兜底页
-}
 const d = edition ? formatDateCN(edition.date) : null;
 
-// 分类统计排序
-const catStats = edition
-  ? Object.entries(edition.stats.categories || {})
-      .map(([key, n]) => {
-        const found = edition.entries.find((e) => e.category === key);
-        return { key, n, label: found?.categoryLabel || key, color: found?.categoryColor || '#888' };
-      })
-      .sort((a, b) => b.n - a.n)
-  : [];
+// 按分类分组，同时维持全局连续编号（1..N）
+const groups = [];
+if (edition) {
+  const seen = new Map();
+  let n = 0;
+  for (const e of edition.entries) {
+    if (!seen.has(e.category)) {
+      seen.set(e.category, {
+        key: e.category,
+        label: e.categoryLabel,
+        color: e.categoryColor,
+        items: [],
+      });
+    }
+    seen.get(e.category).items.push({ entry: e, index: n++ });
+  }
+  groups.push(...seen.values());
+}
 
-const past = (idx.editions || []).slice(1, 6);
+const [yy, mm, dd] = edition ? edition.date.split('-') : ['', '', ''];
 ---
 
 <Base
@@ -30,78 +36,50 @@ const past = (idx.editions || []).slice(1, 6);
 >
   <div class="wrap">
     {!edition && (
-      <section class="empty">
+      <div class="empty card">
         <p class="eyebrow">No Data</p>
-        <h1>尚无日报数据</h1>
-        <p class="hint">
-          先运行流水线生成第一期：<code>npm run daily</code>
-        </p>
-      </section>
+        <h1>还没有日报数据</h1>
+        <p>先运行 <code>npm run daily</code> 生成第一期。</p>
+      </div>
     )}
 
     {edition && (
       <>
-        <section class="hero">
-          <div class="hero-top">
-            <p class="eyebrow">Daily Digest · 第 {idx.total} 期</p>
-            <h1 class="datum mono">{d.ymd}</h1>
-            <p class="sub">{d.full} · {d.weekday}</p>
-          </div>
-
+        <header class="hero">
+          <p class="eyebrow">微电子简报 · 第 {idx.total} 期</p>
+          <h1 class="datum">
+            <span class="big">{mm}.{dd}</span>
+            <span class="year">{yy}</span>
+            <span class="wk">{d.weekday}</span>
+          </h1>
           <p class="intro">{edition.intro}</p>
+          <div class="chips">
+            <span class="chip"><span class="k">{edition.stats.count}</span> 条动态</span>
+            <span class="chip"><span class="k">{edition.stats.sources}</span> 个信息源</span>
+            <span class="chip"><span class="k">{groups.length}</span> 个分类</span>
+          </div>
+        </header>
 
-          <div class="stats">
-            <div class="stat">
-              <span class="k mono">{edition.stats.count}</span>
-              <span class="v">条动态</span>
-            </div>
-            <div class="stat">
-              <span class="k mono">{edition.stats.sources}<span class="slash">/</span>{edition.stats.sourcesTotal}</span>
-              <span class="v">个信息源</span>
-            </div>
-            <div class="stat">
-              <span class="k mono">{catStats.length}</span>
-              <span class="v">个方向</span>
-            </div>
+        <div class="layout">
+          <div class="stream">
+            {groups.map((g) => (
+              <section class="group" id={`cat-${g.key}`}>
+                <h2 class="gh">
+                  <span class="gd" style={`background:${g.color}`} />
+                  {g.label}
+                  <span class="gn">{g.items.length}</span>
+                </h2>
+                <div class="gcards">
+                  {g.items.map((it) => (
+                    <EntryCard entry={it.entry} index={it.index} />
+                  ))}
+                </div>
+              </section>
+            ))}
           </div>
 
-          {catStats.length > 0 && (
-            <div class="cats">
-              {catStats.map((c) => (
-                <a class="cat-chip" href={`#cat-${c.key}`} style={`--c:${c.color}`}>
-                  <span class="dot"></span>
-                  {c.label}
-                  <span class="n mono">{c.n}</span>
-                </a>
-              ))}
-            </div>
-          )}
-        </section>
-
-        <section class="list">
-          {edition.entries.map((e, i) => <EntryCard entry={e} index={i} />)}
-          <div class="list-end"></div>
-        </section>
-
-        {past.length > 0 && (
-          <section class="past">
-            <p class="eyebrow">Previous</p>
-            <div class="past-list">
-              {past.map((p) => (
-                <a class="past-item" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/edition/${p.date}/`}>
-                  <span class="mono pd">{formatDateCN(p.date).short}</span>
-                  <span class="pt">{p.intro}</span>
-                  <span class="pn mono">{p.count} 条</span>
-                </a>
-              ))}
-              <a class="past-item all" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/archive/`}>
-                <span class="mono pd">全部</span>
-                <span class="pt">查看所有往期日报</span>
-                <span class="pn mono">→</span>
-              </a>
-            </div>
-          </section>
-        )}
+          <Sidebar edition={edition} />
+        </div>
       </>
     )}
   </div>
@@ -109,197 +87,164 @@ const past = (idx.editions || []).slice(1, 6);
 
 <style>
   .hero {
-    padding: 56px 0 36px;
-    border-bottom: 1px solid var(--line);
-  }
-
-  .hero-top {
-    margin-bottom: 22px;
+    padding: 44px 0 34px;
   }
 
   .datum {
-    font-size: clamp(38px, 7vw, 64px);
-    line-height: 1;
-    margin: 10px 0 8px;
-    font-weight: 600;
-    letter-spacing: -0.03em;
-  }
-
-  .sub {
-    margin: 0;
-    color: var(--ink-3);
-    font-size: 14px;
-  }
-
-  .intro {
-    font-size: 17px;
-    line-height: 1.75;
-    color: var(--ink-2);
-    max-width: 68ch;
-    margin: 0 0 28px;
-    padding-left: 16px;
-    border-left: 2px solid var(--accent-dim);
-  }
-
-  .stats {
+    margin: 14px 0 18px;
     display: flex;
-    gap: 40px;
-    margin-bottom: 26px;
+    align-items: baseline;
+    gap: 14px;
     flex-wrap: wrap;
+    letter-spacing: -0.045em;
   }
 
-  .stat {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+  .big {
+    font-size: clamp(54px, 9vw, 88px);
+    font-weight: 800;
+    line-height: 0.95;
+    color: var(--accent);
+    letter-spacing: -0.055em;
+    font-variant-numeric: tabular-nums;
   }
 
-  .stat .k {
-    font-size: 26px;
-    font-weight: 600;
+  .year {
+    font-size: clamp(18px, 2.6vw, 26px);
+    font-weight: 700;
+    color: var(--ink-3);
     letter-spacing: -0.02em;
   }
 
-  .slash {
+  .wk {
+    font-size: clamp(14px, 2vw, 17px);
+    font-weight: 600;
     color: var(--ink-3);
-    margin: 0 2px;
-    font-weight: 400;
   }
 
-  .stat .v {
-    font-size: 12px;
-    color: var(--ink-3);
-    letter-spacing: 0.04em;
-  }
-
-  .cats {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .cat-chip {
-    display: inline-flex;
-    align-items: center;
-    gap: 7px;
-    font-size: 12.5px;
+  .intro {
+    margin: 0 0 22px;
+    font-size: 16.5px;
+    line-height: 1.8;
     color: var(--ink-2);
-    border: 1px solid var(--line);
-    background: var(--bg-2);
-    padding: 4px 11px;
-    border-radius: 2px;
-    transition: border-color 0.15s, color 0.15s;
+    max-width: 62ch;
   }
 
-  .cat-chip:hover {
-    border-color: var(--c);
+  .chips {
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+  }
+
+  .chip {
+    font-size: 13px;
+    color: var(--ink-2);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 6px 15px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .chip .k {
+    font-weight: 700;
     color: var(--ink);
+    margin-right: 2px;
+    font-variant-numeric: tabular-nums;
   }
 
-  .cat-chip .dot {
-    width: 6px;
-    height: 6px;
-    background: var(--c);
-    border-radius: 50%;
+  .layout {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 296px;
+    gap: 22px;
+    align-items: start;
+    padding-bottom: 20px;
   }
 
-  .cat-chip .n {
-    font-size: 11px;
-    color: var(--ink-3);
-  }
-
-  .list {
-    margin-top: 0;
-  }
-
-  .list-end {
-    border-top: 1px solid var(--line);
-  }
-
-  .past {
-    margin-top: 56px;
-    padding-top: 28px;
-    border-top: 1px solid var(--line);
-  }
-
-  .past-list {
-    margin-top: 14px;
+  .stream {
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    min-width: 0;
   }
 
-  .past-item {
-    display: grid;
-    grid-template-columns: 68px 1fr auto;
-    gap: 16px;
-    align-items: baseline;
-    padding: 11px 0;
-    border-bottom: 1px solid var(--line);
+  .group {
+    scroll-margin-top: 84px;
+  }
+
+  .gh {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin: 0 0 12px;
+    padding-left: 4px;
+    font-size: 13px;
+    font-weight: 700;
     color: var(--ink-2);
-    font-size: 14px;
-    transition: color 0.15s, padding-left 0.2s;
+    letter-spacing: 0.02em;
   }
 
-  .past-item:hover {
-    color: var(--ink);
-    padding-left: 6px;
+  .gd {
+    width: 4px;
+    height: 15px;
+    border-radius: 2px;
   }
 
-  .past-item .pd {
-    font-size: 12.5px;
-    color: var(--ink-3);
-  }
-
-  .past-item .pt {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-  }
-
-  .past-item .pn {
+  .gn {
     font-size: 11.5px;
+    font-weight: 600;
     color: var(--ink-3);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 1px 8px;
   }
 
-  .past-item.all {
-    border-bottom: 0;
+  .gcards {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
   }
 
   .empty {
-    padding: 100px 0;
+    margin: 90px 0;
+    padding: 70px 30px;
     text-align: center;
   }
 
   .empty h1 {
-    font-size: 28px;
-    margin: 12px 0;
-  }
-
-  .empty .hint {
-    color: var(--ink-3);
-    font-size: 14px;
+    font-size: 26px;
+    margin: 12px 0 8px;
   }
 
   .empty code {
     font-family: var(--mono);
-    background: var(--bg-3);
-    padding: 2px 7px;
-    border-radius: 2px;
-    color: var(--accent);
+    background: var(--num-bg);
+    padding: 2px 8px;
+    border-radius: 6px;
+    color: var(--accent-ink);
+    font-size: 13.5px;
   }
 
-  @media (max-width: 640px) {
+  @media (max-width: 900px) {
+    .layout {
+      grid-template-columns: 1fr;
+    }
     .hero {
-      padding: 36px 0 26px;
+      padding: 32px 0 26px;
     }
-    .stats {
-      gap: 26px;
+  }
+
+  @media (max-width: 620px) {
+    .datum {
+      gap: 9px;
     }
-    .past-item {
-      grid-template-columns: 52px 1fr;
+    .chips {
+      gap: 7px;
     }
-    .past-item .pn {
-      display: none;
+    .chip {
+      font-size: 12px;
+      padding: 5px 12px;
+    }
+    .stream {
+      gap: 24px;
     }
   }
 </style>

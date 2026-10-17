@@ -1,0 +1,268 @@
+---
+/**
+ * 右侧粘性侧栏
+ * 参照橘鸦：往期列表 + 分类列表，当前项用淡色胶囊高亮
+ */
+import { getIndex, formatDateCN } from '../lib/content.js';
+
+const { edition } = Astro.props;
+const idx = getIndex();
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// 往期：排除当前这一期
+const past = (idx.editions || []).filter((e) => e.date !== edition?.date).slice(0, 7);
+
+// 分类统计
+const cats = edition
+  ? Object.entries(edition.stats.categories || {})
+      .map(([k, n]) => {
+        const found = edition.entries.find((e) => e.category === k);
+        return { key: k, n, label: found?.categoryLabel || k, color: found?.categoryColor || '#888' };
+      })
+      .sort((a, b) => b.n - a.n)
+  : [];
+
+const totalEntries = (idx.editions || []).reduce((s, e) => s + e.count, 0);
+---
+
+<aside class="side">
+  {past.length > 0 && (
+    <section class="panel">
+      <h2 class="pt">往期简报</h2>
+      <ul class="past">
+        {past.map((p) => {
+          const d = formatDateCN(p.date);
+          return (
+            <li>
+              <a href={`${base}/edition/${p.date}/`}>
+                <span class="pd">{d.short}</span>
+                <span class="pw">{d.weekday.replace('星期', '周')}</span>
+                <span class="ptxt">{p.top?.[0] || p.intro}</span>
+              </a>
+            </li>
+          );
+        })}
+      </ul>
+      <a class="all" href={`${base}/archive/`}>
+        全部 {idx.total} 期
+        <svg width="13" height="13" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+          <path d="M3 8h10M9 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </section>
+  )}
+
+  {cats.length > 0 && (
+    <section class="panel">
+      <h2 class="pt">本期分类</h2>
+      <ul class="cats">
+        {cats.map((c) => (
+          <li>
+            <a href={`#cat-${c.key}`} style={`--c:${c.color}`}>
+              <span class="cd" />
+              <span class="cl">{c.label}</span>
+              <span class="cn">{c.n}</span>
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+  )}
+
+  <section class="panel stat-panel">
+    <h2 class="pt">数据</h2>
+    <dl class="stat">
+      <div><dt>本期</dt><dd>{edition?.stats.count ?? 0}<small>条</small></dd></div>
+      <div><dt>信源</dt><dd>{edition?.stats.sources ?? 0}<small>/{edition?.stats.sourcesTotal ?? 0}</small></dd></div>
+      <div><dt>累计</dt><dd>{totalEntries}<small>条</small></dd></div>
+    </dl>
+  </section>
+</aside>
+
+<style>
+  .side {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: sticky;
+    top: 84px;
+  }
+
+  .panel {
+    background: var(--card);
+    border-radius: var(--radius-lg);
+    padding: 20px 20px 18px;
+    box-shadow: var(--shadow-sm);
+  }
+
+  .pt {
+    margin: 0 0 13px;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--ink-3);
+    letter-spacing: 0.03em;
+  }
+
+  /* 往期 */
+  .past {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .past a {
+    display: grid;
+    grid-template-columns: 42px 30px 1fr;
+    gap: 6px;
+    align-items: baseline;
+    padding: 7px 8px;
+    margin: 0 -8px;
+    border-radius: 8px;
+    transition: background 0.15s;
+  }
+
+  .past a:hover {
+    background: var(--card-soft);
+  }
+
+  .pd {
+    font-size: 12.5px;
+    font-weight: 700;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .pw {
+    font-size: 11.5px;
+    color: var(--ink-3);
+  }
+
+  .ptxt {
+    font-size: 12.5px;
+    color: var(--ink-2);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    line-height: 1.5;
+  }
+
+  .all {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 12px;
+    padding-top: 13px;
+    border-top: 1px solid var(--line);
+    width: 100%;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--accent-ink);
+  }
+
+  .all:hover {
+    color: var(--accent);
+  }
+
+  /* 分类 */
+  .cats {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+
+  .cats a {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    padding: 7px 10px;
+    margin: 0 -10px;
+    border-radius: 8px;
+    font-size: 13.5px;
+    color: var(--ink-2);
+    transition: background 0.15s, color 0.15s;
+  }
+
+  .cats a:hover {
+    background: var(--accent-soft);
+    color: var(--accent-ink);
+  }
+
+  .cd {
+    width: 7px;
+    height: 7px;
+    border-radius: 2px;
+    background: var(--c);
+    flex-shrink: 0;
+  }
+
+  .cl {
+    flex: 1;
+  }
+
+  .cn {
+    font-size: 12px;
+    color: var(--ink-3);
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* 数据 */
+  .stat {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .stat > div {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .stat dt {
+    font-size: 12.5px;
+    color: var(--ink-3);
+  }
+
+  .stat dd {
+    margin: 0;
+    font-size: 17px;
+    font-weight: 700;
+    color: var(--ink);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .stat small {
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--ink-3);
+    margin-left: 1px;
+  }
+
+  @media (max-width: 900px) {
+    .side {
+      position: static;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+    }
+    .stat-panel {
+      display: none;
+    }
+  }
+
+  @media (max-width: 620px) {
+    .side {
+      grid-template-columns: 1fr;
+    }
+    .panel {
+      padding: 17px 17px 15px;
+      border-radius: 18px;
+    }
+  }
+</style>
