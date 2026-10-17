@@ -1,40 +1,35 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-17T13:08:57.326Z",
-  "intro": "本期共 14 条动态，其中 5 条值得重点关注，集中在政策与地缘、晶圆代工、研究与论文、设备方向。",
+  "generatedAt": "2026-10-17T13:31:23.559Z",
+  "intro": "本期共 19 条动态，其中 8 条值得重点关注，集中在晶圆代工、市场与产业、研究与论文方向。",
   "stats": {
-    "count": 14,
-    "sources": 19,
+    "count": 19,
+    "sources": 20,
     "sourcesTotal": 20,
     "categories": {
-      "policy": 2,
-      "foundry": 1,
-      "research": 1,
+      "foundry": 2,
+      "market": 5,
+      "research": 2,
       "equipment": 4,
-      "market": 4,
-      "design": 2
+      "design": 4,
+      "policy": 2
     },
-    "failedSources": [
-      {
-        "source": "Semiconductor Today",
-        "error": "This operation was aborted"
-      }
-    ],
-    "durationMs": 92633
+    "failedSources": [],
+    "durationMs": 56469
   },
   "entries": [
     {
       "id": "b52fb7053401e",
-      "title": "日本批准台积电熊本二厂3nm计划",
-      "summary": "日本经产省批准台积电熊本第二工厂生产3nm芯片，替代原6nm和12nm计划，最高可获41亿美元补贴。",
+      "title": "日本批准台积电熊本3nm建厂计划",
+      "summary": "日本经产省批准台积电熊本第二工厂生产3nm芯片，替代原6/12nm计划，最高可获41亿美元补贴，强化日本先进制程布局。",
       "points": [
-        "3nm为最先进商用制程之一",
-        "原计划2024年2月获批6nm和12nm",
-        "补贴上限41亿美元"
+        "3nm为商用最先进制程之一",
+        "替代原6nm和12nm生产计划",
+        "最高补贴41亿美元"
       ],
-      "category": "policy",
-      "categoryLabel": "政策与地缘",
-      "categoryColor": "#c0392b",
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
       "importance": 5,
       "tags": [
         "工艺",
@@ -48,18 +43,42 @@
       "score": 32
     },
     {
-      "id": "2c7d96883d3bb",
-      "title": "台积电AI扩张预示计算产业广泛转型",
-      "summary": "台积电董事长魏哲家在投资人电话会中表示AI需求强劲，供应持续紧张，并宣布雄心勃勃的扩产计划，显示AI影响已从加速芯片扩展至整个计算基础设施。",
+      "id": "1f524cb51b9b6",
+      "title": "戴尔CEO预警AI内存短缺2027年加剧",
+      "summary": "戴尔CEO警告HBM和DRAM供应紧张将在2027年恶化，950亿美元AI服务器积压订单面临交付挑战，内存产能成行业瓶颈。",
       "points": [
-        "AI需求强劲，供应持续紧张",
-        "扩产计划覆盖更广基础设施",
-        "计算产业正经历广泛转型"
+        "HBM与DRAM供应瓶颈制约AI服务器",
+        "950亿美元订单面临交付风险"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "封装",
+        "存储",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582676.htm",
+      "published": "2026-10-17T12:28:57.000Z",
+      "score": 26.5
+    },
+    {
+      "id": "2c7d96883d3bb",
+      "title": "台积电AI扩张预示计算基础设施全面升级",
+      "summary": "台积电在投资人会议上强调AI需求不仅限于加速芯片，还扩展至更广泛的计算基础设施，需求强劲且供应持续紧张。",
+      "points": [
+        "AI需求超出加速芯片",
+        "供应约束持续",
+        "扩张计划雄心勃勃"
       ],
       "category": "foundry",
       "categoryLabel": "晶圆代工",
       "categoryColor": "#1a5fa8",
-      "importance": 5,
+      "importance": 4,
       "tags": [
         "代工",
         "设备",
@@ -74,11 +93,11 @@
     {
       "id": "6bd37b523b6fa",
       "title": "量子声学突破：实现跨HBAR多模式真纠缠传输",
-      "summary": "深圳国际量子研究院联合德国团队，在二维混合量子芯片上实现跨两个HBAR的多模式真纠缠声子态制备与传输，为多节点量子网络奠定基础。",
+      "summary": "深圳国际量子研究院联合德国团队，在二维混合芯片上实现跨两个HBAR的多模式真纠缠声子态制备与传输，保真度最高0.912，为多节点量子网络奠定基础。",
       "points": [
         "实现两、四、六模式真纠缠态",
-        "保真度最高达0.912",
-        "采用二维芯片方案避开三维腔体限制"
+        "保真度分别为0.912、0.790、0.570",
+        "二维芯片方案规避三维腔体限制"
       ],
       "category": "research",
       "categoryLabel": "研究与论文",
@@ -95,13 +114,56 @@
       "score": 16.5
     },
     {
-      "id": "c52d3b5d607d5",
-      "title": "中国初创展示EUV光源原型",
-      "summary": "中国初创朗道硅光在展会展示激光等离子体EUV光源原型，但功率和整机集成仍需多年发展，距实用化尚远。",
+      "id": "161b01a6d79760",
+      "title": "三星电机51亿美元扩产面临设备供应瓶颈",
+      "summary": "三星电机投资51亿美元扩产AI服务器基板，但设备厂商因零部件短缺和交期延长面临采购瓶颈，公司称扩产按计划推进。",
       "points": [
-        "原型光源功率不足",
-        "需更多技术突破",
-        "距实用EUV光刻机遥远"
+        "投资额约51亿美元",
+        "设备交期延长风险",
+        "尚无生产延迟确认"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "材料",
+        "产能"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261016VL216/equipment-semco-expansion-production-substrate.html",
+      "published": "2026-10-17T00:07:22.000Z",
+      "score": 16
+    },
+    {
+      "id": "19e492cf97c110",
+      "title": "DeepSeek发布V4.1-Flash-1017模型并开放搜索API",
+      "summary": "DeepSeek更新V4.1-Flash至1017版本，性能超越GPT-6等模型，并开放搜索与抓取API，定价5元/千次。",
+      "points": [
+        "多项基准测试领先",
+        "API定价5元/千次",
+        "权重开源"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [],
+      "source": "芯东西",
+      "sourceLang": "zh",
+      "url": "https://zhidx.com/p/601905.html",
+      "published": "2026-10-17T10:03:11.000Z",
+      "score": 14.5
+    },
+    {
+      "id": "c52d3b5d607d5",
+      "title": "中国初创公司展示EUV光源原型",
+      "summary": "中国初创公司朗道硅莱克斯在展会上展示激光等离子体EUV光源原型，但距离实用化仍需多年，且中国还需多项技术突破才能制造EUV光刻机。",
+      "points": [
+        "原型EUV光源已展示",
+        "功率水平远未达实用",
+        "EUV光刻机仍需多项突破"
       ],
       "category": "equipment",
       "categoryLabel": "设备",
@@ -119,8 +181,11 @@
     {
       "id": "5352d8da55a8c",
       "title": "SEMI预计2035年芯片业达3万亿美元",
-      "summary": "SEMI总裁称芯片业提前突破1万亿美元，AI与量子计算驱动下2035年可达3万亿美元，供应链重塑带来信任伙伴角色。",
-      "points": [],
+      "summary": "SEMI CEO称芯片业已提前突破1万亿美元，预计2035年达3万亿美元，AI和量子计算驱动增长。",
+      "points": [
+        "AI与量子计算推动增长",
+        "可信伙伴重塑供应链"
+      ],
       "category": "market",
       "categoryLabel": "市场与产业",
       "categoryColor": "#5c6b7a",
@@ -137,11 +202,11 @@
     {
       "id": "8ac0c320a9d16",
       "title": "华硕发布首款英特尔Arc Pro B70显卡",
-      "summary": "华硕推出旗下首款英特尔Arc Pro B70显卡，配备32GB ECC显存，AI算力达367 TOPS，重返英特尔独立显卡阵营。",
+      "summary": "华硕推出旗下首款英特尔Arc Pro B70显卡，配备32GB ECC显存，INT8算力367 TOPS，面向AI推理与工作站市场，重返英特尔独立显卡阵营。",
       "points": [
-        "面向AI推理及工作站市场",
-        "支持多卡配置，最多4卡共128GB显存",
-        "价格未公布，同类产品约1300至2000美元"
+        "32GB GDDR6 ECC显存，带宽608GB/s",
+        "支持多卡扩展至128GB显存",
+        "未公布售价，同类约1299-2000美元"
       ],
       "category": "design",
       "categoryLabel": "芯片设计",
@@ -162,7 +227,7 @@
     {
       "id": "bbc756c7db12d",
       "title": "台湾光罩收购TCK拓展日本九州半导体市场",
-      "summary": "台湾光罩以475万美元收购日本设备服务商TCK，将业务从光掩模延伸至设备组装与工程支持，以把握九州半导体扩产机遇。",
+      "summary": "台湾光罩以475万美元收购日本设备服务商TCK，将业务从光罩制造延伸至设备组装与工程支持，布局九州半导体扩张。",
       "points": [
         "收购金额475万美元",
         "拓展设备组装与工程服务",
@@ -182,57 +247,58 @@
       "score": 18
     },
     {
-      "id": "161b01a6d79760",
-      "title": "三星电机51亿美元扩产面临设备供应瓶颈",
-      "summary": "三星电机投资约51亿美元扩产AI服务器半导体基板，但设备厂商面临零部件短缺和交期延长，公司称投资按计划推进，暂无延迟确认。",
+      "id": "c3769f5949618",
+      "title": "英特尔CEO称特朗普政府未干预公司战略",
+      "summary": "英特尔CEO陈立武表示，特朗普政府未利用少数股权干预公司商业战略，回应外界对政府影响芯片政策的担忧。",
       "points": [
-        "扩产金额约51亿美元",
-        "设备供应存在瓶颈风险",
-        "公司称投资按计划进行"
+        "否认政府干预商业战略",
+        "回应外界对政策影响的猜测"
       ],
-      "category": "equipment",
-      "categoryLabel": "设备",
-      "categoryColor": "#0e7c86",
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
       "importance": 3,
       "tags": [
-        "材料",
-        "产能"
+        "设计",
+        "IC"
       ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261016VL216/equipment-semco-expansion-production-substrate.html",
-      "published": "2026-10-17T00:07:22.000Z",
-      "score": 16
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582616.htm",
+      "published": "2026-10-17T06:35:03.000Z",
+      "score": 16.5
     },
     {
-      "id": "731822fca54c6",
-      "title": "SEMICON West 2026聚焦AI时代芯片制造与人才",
-      "summary": "SEMICON West 2026展会展示半导体行业为适应AI浪潮而扩建晶圆厂基础设施，并强调劳动力发展的重要性。",
+      "id": "19fd2310c7a04f",
+      "title": "铠侠市值较高点缩水约三分之二",
+      "summary": "铠侠股价自6月高点回落约64%，市值蒸发约六成半，反映AI存储热潮退去及市场对存储需求前景的担忧。",
       "points": [
-        "万亿级产业扩建基础设施",
-        "AI浪潮推动晶圆厂扩张",
-        "行业重视劳动力培养"
+        "股价较高点跌64%",
+        "市值从60万亿降至21万亿日元",
+        "10月15日单日跌12.3%"
       ],
       "category": "market",
       "categoryLabel": "市场与产业",
       "categoryColor": "#5c6b7a",
       "importance": 3,
       "tags": [
-        "产能"
+        "存储",
+        "IC"
       ],
-      "source": "EE Times",
-      "sourceLang": "en",
-      "url": "https://www.eetimes.com/semicon-west-2026-displays-ai-era-chipmaking-workforce-development/",
-      "published": "2026-10-16T20:59:50.000Z",
-      "score": 12
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582604.htm",
+      "published": "2026-10-17T06:24:06.000Z",
+      "score": 16.5
     },
     {
       "id": "efef865c00a90",
-      "title": "OCP 2026聚焦数据中心供电方案",
-      "summary": "OCP峰会展示供电板、电源设计、热插拔控制器及事件遥测，凸显数据中心供电技术进展。",
+      "title": "OCP 2026聚焦数据中心供电创新",
+      "summary": "OCP峰会重点展示供电板、电源设计、热插拔控制器及事件遥测技术，反映数据中心供电效率与可靠性成为行业焦点。",
       "points": [
-        "供电板与PSU设计成焦点",
-        "热插拔与遥测提升运维效率"
+        "供电板与PSU设计成展示重点",
+        "热插拔控制器提升运维灵活性",
+        "事件遥测助力能效管理"
       ],
       "category": "market",
       "categoryLabel": "市场与产业",
@@ -249,12 +315,11 @@
     },
     {
       "id": "1d9c0ce98cdb46",
-      "title": "新加坡AI战略转向部署与韧性建设",
-      "summary": "新加坡AI战略从试点转向企业部署、行业转型和算力韧性，强调实际落地而非模型竞赛。",
+      "title": "新加坡AI战略转向部署与韧性计算",
+      "summary": "新加坡AI战略从试点实验转向企业部署、行业转型和计算韧性，强调实际落地。",
       "points": [
-        "侧重企业采用与行业转型",
-        "强化算力韧性以保障供应",
-        "减少试点型实验项目"
+        "聚焦企业采用与行业转型",
+        "确保计算资源韧性访问"
       ],
       "category": "policy",
       "categoryLabel": "政策与地缘",
@@ -268,36 +333,60 @@
       "score": 9
     },
     {
-      "id": "165faa4f776cb4",
-      "title": "嵌入式周报：边缘AI实时系统与PCIe 6.0进展",
-      "summary": "本周嵌入式领域文章涵盖边缘AI实时系统设计、边缘计算能耗问题以及面向AI数据中心的PCIe 6.0高基数交换机等最新发展。",
+      "id": "883a30bbf2f8c",
+      "title": "高通否认骁龙8至尊版存在系统性散热问题",
+      "summary": "针对市场传闻，高通CMO回应称第六代骁龙8至尊版不存在系统性散热问题，该芯片为首款台积电2nm手机芯片。",
       "points": [
-        "边缘AI实时系统设计",
-        "边缘计算能耗问题受关注",
-        "PCIe 6.0交换机助力AI数据中心"
+        "回应市场传闻",
+        "强调无系统性问题"
       ],
       "category": "design",
       "categoryLabel": "芯片设计",
       "categoryColor": "#1f7a4d",
       "importance": 2,
-      "tags": [],
-      "source": "Embedded.com",
-      "sourceLang": "en",
-      "url": "https://www.embedded.com/edge-ai-for-real-time-systems-the-edge-computing-energy-problem-pcie-6-0-high-radix-switches-embedded-week-insights/",
-      "published": "2026-10-16T19:00:00.000Z",
-      "score": 6
+      "tags": [
+        "工艺",
+        "代工",
+        "设计",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582618.htm",
+      "published": "2026-10-17T06:38:29.000Z",
+      "score": 25.5
     },
     {
-      "id": "b7d51f0abc3c5",
-      "title": "车规需求推动无源元件性能极限",
-      "summary": "汽车电池测量等高端应用推动无源元件向极端性能发展，相关技术可扩展至其他领域。",
+      "id": "731822fca54c6",
+      "title": "SEMICON West 2026聚焦AI芯片制造与人才",
+      "summary": "SEMICON West 2026展会展示AI时代芯片制造与基础设施扩展，并强调劳动力发展议题。",
       "points": [
-        "车规无源元件要求高精度高可靠",
-        "技术可外溢至工业与消费场景"
+        "万亿级半导体产业适应AI浪潮",
+        "展会关注fab基础设施扩展与人才"
       ],
       "category": "market",
       "categoryLabel": "市场与产业",
       "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "产能"
+      ],
+      "source": "EE Times",
+      "sourceLang": "en",
+      "url": "https://www.eetimes.com/semicon-west-2026-displays-ai-era-chipmaking-workforce-development/",
+      "published": "2026-10-16T20:59:50.000Z",
+      "score": 12
+    },
+    {
+      "id": "b7d51f0abc3c5",
+      "title": "汽车需求推动无源元件极限性能",
+      "summary": "汽车电池测量用高端无源元件性能要求提升，可扩展至其他应用领域。",
+      "points": [
+        "车规级性能要求提高"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
       "importance": 2,
       "tags": [],
       "source": "EDN",
@@ -308,11 +397,12 @@
     },
     {
       "id": "b62b8cdeb2a2a",
-      "title": "ASML员工限定High-NA EUV乐高套件被复刻",
-      "summary": "乐高爱好者复刻了ASML员工专属的High-NA EUV乐高套件，加入自定义设计，并在Rebrickable免费分享图纸。",
+      "title": "乐高爱好者复刻ASML内部High-NA EUV套件并开源图纸",
+      "summary": "乐高爱好者复刻了ASML员工专属的High-NA EUV光刻机模型，加入自定义改动，并在Rebrickable免费分享图纸。",
       "points": [
-        "复刻版含810个零件",
-        "图纸免费公开"
+        "图纸免费公开",
+        "含自定义改动",
+        "非官方产品"
       ],
       "category": "equipment",
       "categoryLabel": "设备",
@@ -327,6 +417,26 @@
       "url": "https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts",
       "published": "2026-10-17T10:00:00.000Z",
       "score": 25
+    },
+    {
+      "id": "165faa4f776cb4",
+      "title": "嵌入式周报：边缘AI实时系统与PCIe 6.0",
+      "summary": "本周嵌入式领域文章涵盖边缘AI实时系统设计、边缘计算能耗问题及面向AI数据中心的PCIe 6.0高基数交换机等进展。",
+      "points": [
+        "边缘AI实时系统设计",
+        "边缘计算能耗问题",
+        "PCIe 6.0高基数交换机"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 1,
+      "tags": [],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/edge-ai-for-real-time-systems-the-edge-computing-energy-problem-pcie-6-0-high-radix-switches-embedded-week-insights/",
+      "published": "2026-10-16T19:00:00.000Z",
+      "score": 6
     }
   ]
 }
