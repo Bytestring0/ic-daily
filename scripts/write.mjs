@@ -4,7 +4,7 @@
  * 核心设计：AI 只负责「语义」，输出严格 JSON；排版全部由代码处理。
  * 无 API key 时自动降级为规则摘要，流水线照常完成。
  */
-import { loadLLM } from './config.mjs';
+import { loadLLM, CATEGORY_META } from './config.mjs';
 import { pool, log, sleep } from './util.mjs';
 
 const SYSTEM_PROMPT = `你是一名资深的半导体/集成电路行业分析师，负责为中文读者撰写每日行业简报。
@@ -71,7 +71,7 @@ function extractJSON(text) {
   return null;
 }
 
-async function callLLM(cfg, messages, attempt = 0) {
+export async function callLLM(cfg, messages, attempt = 0, json = true) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), cfg.timeoutMs);
   try {
@@ -86,21 +86,24 @@ async function callLLM(cfg, messages, attempt = 0) {
         model: cfg.model,
         messages,
         temperature: 0.3,
-        // 部分供应商支持；不支持时会被忽略，不影响兼容性
-        response_format: { type: 'json_object' },
+        max_tokens: json ? 3500 : 2000,
+        // U2 uses prompt-constrained JSON; its API does not advertise json_object.
+        // Disable reasoning for short daily summaries and interactive reading.
+        ...(cfg.model === 'u2-flash' ? { thinking: { type: 'disabled' }, reasoning_effort: 'none' } : {}),
+        ...(json && !cfg.model.startsWith('u2') ? { response_format: { type: 'json_object' } } : {}),
       }),
     });
 
     if (!res.ok) {
-      const body = await res.text().catch(() => '');
-      throw new Error(`HTTP ${res.status} ${body.slice(0, 200)}`);
+      // Never propagate upstream response bodies: they can contain private details.
+      throw new Error(`HTTP ${res.status}`);
     }
     const data = await res.json();
     const content = data?.choices?.[0]?.message?.content;
     if (!content) throw new Error('empty completion');
     return content;
   } catch (err) {
-    const retriable = attempt < 3 && !/HTTP 4\d\d/.test(String(err.message));
+    const retriable = json && attempt < 2 && !/HTTP 4\d\d/.test(String(err.message));
     if (retriable) {
       await sleep(1500 * (attempt + 1));
       return callLLM(cfg, messages, attempt + 1);
@@ -126,7 +129,7 @@ function fallbackItem(it) {
  * 主入口：批量改写
  * 返回与入参等长的数组，每项含 title/summary/points/category/importance
  */
-export async function write(items) {
+export async function write(items, { strict = false } = {}) {
   const cfg = loadLLM();
 
   if (!cfg.enabled) {
@@ -136,7 +139,7 @@ export async function write(items) {
 
   log.step(`AI 撰写（${cfg.model}，${items.length} 条）`);
 
-  const BATCH = 6;
+  const BATCH = 3;
   const batches = [];
   for (let i = 0; i < items.length; i += BATCH) {
     batches.push({ start: i, slice: items.slice(i, i + BATCH) });
@@ -153,7 +156,8 @@ export async function write(items) {
       ];
       const raw = await callLLM(cfg, messages);
       const parsed = extractJSON(raw);
-      if (!parsed?.items) throw new Error('JSON 解析失败');
+      if (!Array.isArray(parsed?.items)) throw new Error('JSON 解析失败');
+      log.info(`AI 批次 ${Math.floor(b.start / BATCH) + 1}/${batches.length} 已返回`);
       return { batch: b, parsed };
     }),
     cfg.concurrency,
@@ -173,12 +177,12 @@ export async function write(items) {
 
     const byIndex = new Map();
     for (const r of out.parsed.items) {
-      if (typeof r?.index === 'number') byIndex.set(r.index, r);
+      if (Number.isInteger(r?.index) && r.index >= 0 && r.index < b.slice.length) byIndex.set(r.index, r);
     }
 
     b.slice.forEach((it, k) => {
       const r = byIndex.get(k);
-      if (!r) {
+      if (!r || typeof r.title !== 'string' || !r.title.trim() || typeof r.summary !== 'string' || !r.summary.trim()) {
         results[b.start + k] = { ...fallbackItem(it), category: it.source?.category || 'market' };
         return;
       }
@@ -189,12 +193,13 @@ export async function write(items) {
         points: Array.isArray(r.points)
           ? r.points.filter((p) => typeof p === 'string' && p.trim()).slice(0, 3)
           : [],
-        category: r.category || it.source?.category || 'market',
+        category: Object.hasOwn(CATEGORY_META, r.category) ? r.category : it.source?.category || 'market',
         importance: Math.min(5, Math.max(1, Number(r.importance) || 3)),
       };
     });
   });
 
   log.ok(`AI 改写完成：${aiOk}/${items.length} 条走了模型，其余规则兜底`);
+  if (strict && aiOk !== items.length) throw new Error('AI 未完整生成，本次不覆盖已有日报。请稍后重试。');
   return results;
 }

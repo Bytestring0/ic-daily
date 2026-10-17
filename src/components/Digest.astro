@@ -1,0 +1,90 @@
+---
+import EntryCard from './EntryCard.astro';
+import { formatDateCN } from '../lib/content.js';
+
+const { edition, total = 1 } = Astro.props;
+const d = formatDateCN(edition.date);
+
+const groups = [];
+for (const [index, entry] of edition.entries.entries()) {
+  let group = groups.find((g) => g.key === entry.category);
+  if (!group) {
+    group = { key: entry.category, label: entry.categoryLabel, items: [] };
+    groups.push(group);
+  }
+  group.items.push({ entry, index });
+}
+---
+
+<div class="digest-layout">
+  <div class="digest-main">
+    <header class="digest-hero">
+      <div class="edition-kicker">
+        <span class="live-dot" />第 {total} 期<span class="kicker-line" />{edition.date}
+      </div>
+      <h1>{d.full}<span>{d.weekday}</span></h1>
+      <div class="edition-stats">
+        <span><b>{edition.entries.length}</b> 条</span><i />
+        <span><b>{edition.stats.sources}</b> 个信息源</span><i />
+        <span><b>{groups.length}</b> 个分类</span>
+      </div>
+    </header>
+
+    <section class="overview" id="overview">
+      <div class="section-label"><h2>索引</h2><span>OVERVIEW</span></div>
+      {groups.map((g) => (
+        <section class="overview-group">
+          <h3><a href={`#cat-${g.key}`}>{g.label}</a><span>{String(g.items.length).padStart(2, '0')}</span></h3>
+          <ul>
+            {g.items.map(({ entry, index }) => (
+              <li>
+                <a href={`#e-${index + 1}`}>
+                  {entry.title}
+                  <span class="overview-arrow">↗</span>
+                  <span class="overview-number">#{index + 1}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </section>
+
+    <nav class="simple-categories" aria-label="按分类跳转">
+      {groups.map((g) => (
+        <a href={`#cat-${g.key}`}>{g.label}<span>{g.items.length}</span></a>
+      ))}
+    </nav>
+
+    <div class="full-brief">
+      <div class="section-label"><h2>全部动态</h2><span>IN DETAIL</span></div>
+      {groups.map((g) => (
+        <section class="entry-group" id={`cat-${g.key}`}>
+          <h2 class="group-title">
+            <span />{g.label}<small>{g.items.length} 条</small>
+          </h2>
+          {g.items.map(({ entry, index }) => (
+            <EntryCard entry={entry} index={index} />
+          ))}
+        </section>
+      ))}
+    </div>
+  </div>
+
+  <aside class="contents-rail" aria-label="本期目录">
+    <span class="toc-heading">目录</span>
+    <nav>
+      <a class="toc-overview active" href="#overview">索引</a>
+      {groups.map((g) => (
+        <div class="toc-group">
+          <a class="toc-category" href={`#cat-${g.key}`}>{g.label}<span>{g.items.length}</span></a>
+          {g.items.map(({ entry, index }) => (
+            <a class="toc-entry" href={`#e-${index + 1}`}>
+              <span>{String(index + 1).padStart(2, '0')}</span>{entry.title}
+            </a>
+          ))}
+        </div>
+      ))}
+    </nav>
+  </aside>
+</div>

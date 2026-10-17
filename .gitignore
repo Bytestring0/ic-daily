@@ -4,6 +4,7 @@ node_modules/
 # 构建产物
 dist/
 .astro/
+.playwright-cli/
 
 # 缓存
 .cache/

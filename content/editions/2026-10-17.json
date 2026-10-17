@@ -1,425 +1,65 @@
 {
   "date": "2026-10-17",
-  "generatedAt": "2026-10-17T07:09:51.315Z",
-  "intro": "本期收录 24 条微电子与集成电路相关动态，覆盖 4 个细分方向。",
+  "generatedAt": "2026-10-17T13:08:57.326Z",
+  "intro": "本期共 14 条动态，其中 5 条值得重点关注，集中在政策与地缘、晶圆代工、研究与论文、设备方向。",
   "stats": {
-    "count": 24,
-    "sources": 20,
+    "count": 14,
+    "sources": 19,
     "sourcesTotal": 20,
     "categories": {
-      "market": 16,
-      "design": 5,
+      "policy": 2,
+      "foundry": 1,
       "research": 1,
-      "eda": 2
+      "equipment": 4,
+      "market": 4,
+      "design": 2
     },
-    "failedSources": [],
-    "durationMs": 31357
+    "failedSources": [
+      {
+        "source": "Semiconductor Today",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 92633
   },
   "entries": [
     {
-      "id": "1cf9eefe98c1ff",
-      "title": "Bolt 完成 Zeus GPU 测试芯片调试，实际产品预计 2028 年发售",
-      "summary": "IT之家 10 月 17 日消息，GPU 初创企业 Bolt Graphics 当地时间本月 13 日宣布，其已完成 Zeus 架构 GPU 测试芯片的调试工作，为商用产品的 2028 年发售打下了基础。 Bolt 的 Zeus 架构 集成专用电磁仿真硬件 ，同时也能加速路径追踪图形负载，适用于物理 AI 等复杂计算场",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "制造",
-        "工艺",
-        "资本",
-        "代工",
-        "架构"
+      "id": "b52fb7053401e",
+      "title": "日本批准台积电熊本二厂3nm计划",
+      "summary": "日本经产省批准台积电熊本第二工厂生产3nm芯片，替代原6nm和12nm计划，最高可获41亿美元补贴。",
+      "points": [
+        "3nm为最先进商用制程之一",
+        "原计划2024年2月获批6nm和12nm",
+        "补贴上限41亿美元"
       ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/283.htm",
-      "published": "2026-10-17T06:08:46.000Z",
-      "score": 36.5
-    },
-    {
-      "id": "1cadcd1474992b",
-      "title": "群智咨询：超七成主流品牌笔记本 OLED 面板来自三星显示，厂商加速引入中国供应商",
-      "summary": "IT之家 10 月 17 日消息，群智咨询 15 日公布的数据显示， 主要笔记本电脑品牌使用的 OLED 面板中，超过 70% 来自三星显示 。随着面板供应进一步集中，各大电脑厂商开始引入中国面板厂商，以确保供货稳定，并在价格谈判中争取更多主动权。 联想的 OLED 面板主要由三星供应，另有部分来自 京东方与和辉光电 ",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "制造",
-        "资本",
-        "代工",
-        "行情",
-        "研究"
-      ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/277.htm",
-      "published": "2026-10-17T05:55:35.000Z",
-      "score": 32.5
-    },
-    {
-      "id": "1835f83d1880a1",
-      "title": "美国芯片创企拟融资6亿，另辟赛道对标英伟达、AMD",
-      "summary": "智东西 编译 | 黄菲 编辑 | 江宇 智东西10月16日消息，据路透社报道，10月15日，美国芯片设计初创公司Bolt Graphics正寻求融资约1亿美元（约合人民币6.72亿元），该公司目前估值约为7亿美元（约合人民币47.04亿元）。 该公司计划开发能够与英伟达和AMD竞争的GPU，重点面向高性能计算、专业渲染",
-      "points": [],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#0ea5a5",
-      "importance": 3,
-      "tags": [
-        "代工",
-        "设计",
-        "架构",
-        "产能",
-        "AI",
-        "研究"
-      ],
-      "source": "芯东西",
-      "sourceLang": "zh",
-      "url": "https://zhidx.com/p/601706.html",
-      "published": "2026-10-16T10:27:04.000Z",
-      "score": 30.5
-    },
-    {
-      "id": "1bf767db4523f5",
-      "title": "长鑫科技市值两月内跌去1万亿；阿里加码AI硬件品牌，天猫、速卖通联动；国行版苹果AI有望12月上线，百度、阿里参与合作丨",
-      "summary": "要闻提示 1.长鑫科技市值两月内跌去1万亿 2.年内已至少18次故障！DeepSeek发放宕机补偿，有人拿到3000元 3.阿里加码AI硬件品牌，天猫、速卖通联动 4.国行版苹果AI有望12月上线，百度、阿里参与合作 5.可灵AI新一代模型Kling 4.0正式上线，专业影像模型“卷”出新高度 6.华为黄宇：韬定律最大",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "资本",
-        "设计",
-        "存储",
-        "EDA",
-        "AI"
-      ],
-      "source": "雷锋网",
-      "sourceLang": "zh",
-      "url": "https://www.leiphone.com/category/zaobao/EReMkZNn9w5H85Tf.html",
-      "published": "2026-10-16T10:39:00.000Z",
-      "score": 29.5
-    },
-    {
-      "id": "86900b30a2bf2",
-      "title": "Chip Industry Week In Review",
-      "summary": "Fab expansion accelerates; China advances memory and EUV; Teradyne's test deal; SEMICON West and OCP highlights; 3D SiP; TSMC and ASML signals; 300mm fab spendi",
-      "points": [],
-      "category": "research",
-      "categoryLabel": "研究与论文",
-      "categoryColor": "#4f7c3a",
-      "importance": 3,
-      "tags": [
-        "光刻",
-        "代工",
-        "设备",
-        "产能"
-      ],
-      "source": "Semiconductor Engineering",
-      "sourceLang": "en",
-      "url": "https://semiengineering.com/chip-industry-week-in-review-160/",
-      "published": "2026-10-16T07:01:05.000Z",
-      "score": 27
-    },
-    {
-      "id": "112a900d3ce77d",
-      "title": "Terafab’s Single Roof: Why Packaging, Not Lithography, Decid",
-      "summary": "By Shaurya Seth Terafab is one of the most ambitious projects of the decade: $16.8 billion for phase one and up to $119 billion across four phases. A research f",
-      "points": [],
-      "category": "eda",
-      "categoryLabel": "EDA",
-      "categoryColor": "#8b5cf6",
-      "importance": 3,
-      "tags": [
-        "光刻",
-        "材料",
-        "产能"
-      ],
-      "source": "SemiWiki",
-      "sourceLang": "en",
-      "url": "https://semiwiki.com/semiconductor-manufacturers/374838-terafabs-single-roof-why-packaging-not-lithography-decides-high-volume/",
-      "published": "2026-10-16T13:00:13.000Z",
-      "score": 26
-    },
-    {
-      "id": "14c3a23566313e",
-      "title": "BOE's 24-layer glass substrates reach AI chip packaging tria",
-      "summary": "Chinese display manufacturer BOE has made further progress in advanced semiconductor packaging, extending its panel manufacturing expertise to glass-core packag",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "制造",
-        "材料",
-        "AI"
-      ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261016PD228/boe-packaging-production-display-ai-chip.html",
-      "published": "2026-10-16T03:42:10.000Z",
-      "score": 26
-    },
-    {
-      "id": "1c1609fb0d54d",
-      "title": "Anthropic三季度收入1124亿，还盈利了",
-      "summary": "智东西 编译 | 杨京丽 编辑 | 李水青 智东西10月15日消息，据The Information援引知情人士消息，当地时间10月14日，Anthropic在旧金山举行的潜在IPO（首次公开募股）投资者会议上披露，该公司第三季度营收达到 168亿美元（约合人民币1123.92亿元） ，环比增长约 45% ，超过202",
-      "points": [],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#0ea5a5",
-      "importance": 3,
-      "tags": [
-        "资本",
-        "业绩",
-        "产能",
-        "AI",
-        "研究"
-      ],
-      "source": "芯东西",
-      "sourceLang": "zh",
-      "url": "https://zhidx.com/p/601148.html",
-      "published": "2026-10-15T15:46:21.000Z",
-      "score": 25.5
-    },
-    {
-      "id": "1c61f47a788ee",
-      "title": "万字深度解密：华为麒麟2026韬定律大量技术细节首披露",
-      "summary": "智东西 作者 | 云鹏 编辑 | 李水青 智东西10月15日报道，近日，华为在上海练秋湖畔举办了一场为期两天的深度技术沟通会，从 影像、屏幕、可靠、定位、声音5大方向9大技术 品牌，到 麒麟9050系列背后韬定律、逻辑折叠、混合键合 等海量技术细节，华为首次详细对外解读。 主讲人分别为第一天的 华为终端BG CTO李小",
-      "points": [],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#0ea5a5",
-      "importance": 3,
-      "tags": [
-        "封装",
-        "设计",
-        "AI",
-        "研究"
-      ],
-      "source": "芯东西",
-      "sourceLang": "zh",
-      "url": "https://zhidx.com/p/600839.html",
-      "published": "2026-10-15T12:47:41.000Z",
-      "score": 25.5
-    },
-    {
-      "id": "de041b5d1b310",
-      "title": "“台积电的获利能力没有上限”，魏哲家称 AI 需求持续升温、供需缺口仍大",
-      "summary": "IT之家 10 月 17 日消息，据台媒经济日报昨日报道，台积电董事长兼总裁魏哲家在 15 日举行的说法会上， 高喊 AI 需求持续升温，供需缺口仍大 ，并表示台积电本季度美元营收继续创新高，全年美元营收同比增长约 44%。 魏哲家强调，台积电全力以赴扩产，市场需求非常强劲且持续成长，“ 台积电的获利能力没有上限 ”，",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "代工",
-        "业绩",
-        "产能",
-        "行情"
-      ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/249.htm",
-      "published": "2026-10-17T02:42:06.000Z",
-      "score": 25.5
-    },
-    {
-      "id": "15ef452558fcbd",
-      "title": "消息称三星 SDI 最快 2027 年 6 月量产 AI 服务器备用 LFP 柱状电池",
-      "summary": "IT之家 10 月 17 日消息，《韩国先驱报》当地时间本月 13 日报道称，三星 SDI 计划最快 2027 年 6 月量产面向 AI 服务器电池备用单元 (BBU) 应用场景的圆柱形磷酸铁锂 (LFP) 电池。 IT之家注意到，此产品的样品 曾在上月的 DCWA 2026 上展出 。其基于独有的结构技术， 在提升输",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "制造",
-        "代工"
-      ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/240.htm",
-      "published": "2026-10-17T02:15:31.000Z",
-      "score": 25.5
-    },
-    {
-      "id": "19b0d948f5bb65",
-      "title": "OpenRouter周榜全球第二，这个国产模型终于开源了",
-      "summary": "智东西10月15日报道，刚刚， 一款刚登上OpenRouter Token全球使用量周榜第二的大模型，开源了！ 阶跃星辰正式开放 Step 5 Preview 的模型权重，BF16、FP8两个版本同步上线HuggingFace和ModelScope。 Hugging Face：https://huggingface.c",
-      "points": [],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#0ea5a5",
-      "importance": 3,
-      "tags": [
-        "设备",
-        "设计",
-        "产能",
-        "AI",
-        "研究"
-      ],
-      "source": "芯东西",
-      "sourceLang": "zh",
-      "url": "https://zhidx.com/p/601405.html",
-      "published": "2026-10-15T13:25:15.000Z",
-      "score": 24.5
-    },
-    {
-      "id": "1b558e5e429f11",
-      "title": "JetBrains 的本地 AI 编程工具 Junie Local 已 Day 0 适配英伟达 RTX Spark：吞吐",
-      "summary": "IT之家 10 月 17 日消息，JetBrains 昨日（10 月 16 日）发布公告，宣布旗下本地 AI 编程工具 Junie Local 已 Day 0 适配英伟达 RTX Spark 平台，同时对于 Windows 系统的支持已由实验阶段升级为稳定版。 IT之家援引博文介绍，用户可在符合要求的电脑上，让 AI ",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
       "tags": [
         "工艺",
-        "设计",
-        "架构"
-      ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/242.htm",
-      "published": "2026-10-17T02:25:07.000Z",
-      "score": 24.5
-    },
-    {
-      "id": "c6a3338508180",
-      "title": "GlobalFoundries’ CHIPS Program award amended to support $5bn",
-      "summary": "The Department of Commerce’s CHIPS Program Office has agreed with GlobalFoundries of Malta, NY (the only US-based pure-play foundry with a global manufacturing ",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
         "代工",
-        "产能",
-        "研究"
-      ],
-      "source": "Semiconductor Today",
-      "sourceLang": "en",
-      "url": "https://semiconductor-today.com/news_items/2026/oct/globalfoundries-161026.shtml",
-      "published": "2026-10-16T09:03:49.000Z",
-      "score": 24
-    },
-    {
-      "id": "19efe9e0c9e942",
-      "title": "AI server tracker: semiconductor testing and design services",
-      "summary": "Within AI server tracking data, a clear parallel growth trajectory has emerged between semiconductor testing interface providers and chip design houses. Driven ",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "设备",
-        "设计",
-        "功率",
-        "业绩"
+        "产能"
       ],
       "source": "DIGITIMES",
       "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261016VL215/ic-testing-interface-ic-design-ai-server-demand-revenue-growth.html",
-      "published": "2026-10-16T07:52:03.000Z",
-      "score": 24
-    },
-    {
-      "id": "179ddf208c12b5",
-      "title": "Bolt Graphics seeks US$100 million to challenge Nvidia, AMD ",
-      "summary": "US chip startup Bolt Graphics is seeking approximately US$100 million at a valuation of about US$700 million to develop graphics processors targeting scientific",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "设备",
-        "设计",
-        "架构"
-      ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261016VL206/gpu-amd-nvidia-startup-manufacturing.html",
-      "published": "2026-10-16T07:20:00.000Z",
-      "score": 24
-    },
-    {
-      "id": "162669c16f213a",
-      "title": "Samsung, SK Hynix aim to ease AI memory bottlenecks with zHB",
-      "summary": "Samsung Electronics and SK Hynix are developing new memory technologies to address growing bottlenecks in AI systems, with Samsung exploring a design that stack",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "封装",
-        "存储"
-      ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261016PD214/samsung-sk-hynix-hbm-data-capacity.html",
-      "published": "2026-10-16T06:57:00.000Z",
-      "score": 24
-    },
-    {
-      "id": "12c9c066ecdf83",
-      "title": "ASML reports record $13 billion quarter, vows to expand capa",
-      "summary": "ASML vows to expand production capacity amid growing demand, record earnings and profitability.",
-      "points": [],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#0ea5a5",
-      "importance": 3,
-      "tags": [
-        "光刻",
-        "设备",
-        "业绩"
-      ],
-      "source": "Tom's Hardware",
-      "sourceLang": "en",
-      "url": "https://www.tomshardware.com/tech-industry/semiconductors/asml-reports-record-usd13-billion-quarter-vows-to-expand-capacity-as-demand-for-lithography-equipment-soars-customers-eager-to-secure-orders-in-2030-as-demand-is-expected-to-outstrip-2027-and-2028-supply",
-      "published": "2026-10-15T12:00:00.000Z",
-      "score": 23
-    },
-    {
-      "id": "11637d0606816e",
-      "title": "XMax to acquire 1200V vertical GaN power semiconductor devel",
-      "summary": "XMax Inc of Commerce, CA, USA (formerly Nova LifeStyle Inc) — which designs, sources and distributes contemporary furniture but has diversified to also developi",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
-      "tags": [
-        "设备",
-        "设计",
-        "功率"
-      ],
-      "source": "Semiconductor Today",
-      "sourceLang": "en",
-      "url": "https://semiconductor-today.com/news_items/2026/oct/xmax-hexacreation-151026.shtml",
-      "published": "2026-10-15T14:37:20.000Z",
-      "score": 22
+      "url": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html",
+      "published": "2026-10-17T09:59:55.000Z",
+      "score": 32
     },
     {
       "id": "2c7d96883d3bb",
-      "title": "TSMC’s AI Expansion Signals a Broader Shift in Computing",
-      "summary": "TSMC is describing an artificial intelligence boom that reaches beyond accelerator chips into the wider computing infrastructure needed to support increasingly ",
-      "points": [],
-      "category": "eda",
-      "categoryLabel": "EDA",
-      "categoryColor": "#8b5cf6",
-      "importance": 3,
+      "title": "台积电AI扩张预示计算产业广泛转型",
+      "summary": "台积电董事长魏哲家在投资人电话会中表示AI需求强劲，供应持续紧张，并宣布雄心勃勃的扩产计划，显示AI影响已从加速芯片扩展至整个计算基础设施。",
+      "points": [
+        "AI需求强劲，供应持续紧张",
+        "扩产计划覆盖更广基础设施",
+        "计算产业正经历广泛转型"
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
       "tags": [
         "代工",
         "设备",
@@ -429,84 +69,264 @@
       "sourceLang": "en",
       "url": "https://semiwiki.com/semiconductor-manufacturers/tsmc/374950-tsmcs-ai-expansion-signals-a-broader-shift-in-computing/",
       "published": "2026-10-16T15:00:31.000Z",
-      "score": 22
+      "score": 21
     },
     {
-      "id": "1ecad2276f1e3e",
-      "title": "消息称苹果 iPhone 18 Pro Max 手机刷新记录：W41 单周单品国内激活近 90 万台",
-      "summary": "IT之家 10 月 17 日消息，博主 @数码闲聊站 今日透露，iPhone 18 Pro Max 又刷新记录了，W41（IT之家注：此处指 2026 年的第 41 个自然周，即 10 月 5 日至 10 月 11 日） 单周单品激活近 90 万 （此处及下文预计指国内激活量 / 销量）。 此外，iPhone 18 P",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
-      "importance": 3,
+      "id": "6bd37b523b6fa",
+      "title": "量子声学突破：实现跨HBAR多模式真纠缠传输",
+      "summary": "深圳国际量子研究院联合德国团队，在二维混合量子芯片上实现跨两个HBAR的多模式真纠缠声子态制备与传输，为多节点量子网络奠定基础。",
+      "points": [
+        "实现两、四、六模式真纠缠态",
+        "保真度最高达0.912",
+        "采用二维芯片方案避开三维腔体限制"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
       "tags": [
-        "工艺",
-        "设计"
+        "研究",
+        "IC"
       ],
       "source": "IT之家",
       "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/272.htm",
-      "published": "2026-10-17T05:25:14.000Z",
-      "score": 21.5
+      "url": "https://www.ithome.com/1/014/315.htm",
+      "published": "2026-10-17T07:38:05.000Z",
+      "score": 16.5
     },
     {
-      "id": "19e5ea3dd7681",
-      "title": "谷歌 DeepMind 哈萨比斯预警：若不对 AI 采取安全措施，未来恐发生严重事故",
-      "summary": "IT之家 10 月 17 日消息，据路透社报道，谷歌 DeepMind 联合创始人兼董事长德米斯 · 哈萨比斯（Demis Hassabis）于本周三表示，近期由 AI 智能体发起的网络攻击事件是“前哨预警”；如果各方不进一步提升系统安全性，全球可能很快会面临严重的网络安全事件。 兼任谷歌母公司 Alphabet 首席",
+      "id": "c52d3b5d607d5",
+      "title": "中国初创展示EUV光源原型",
+      "summary": "中国初创朗道硅光在展会展示激光等离子体EUV光源原型，但功率和整机集成仍需多年发展，距实用化尚远。",
+      "points": [
+        "原型光源功率不足",
+        "需更多技术突破",
+        "距实用EUV光刻机遥远"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "光刻"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/china-startup-demoes-prototype-euv-light-source-15w-of-output-power-and-90-percent-domestic-components-still-years-away-from-viability",
+      "published": "2026-10-16T16:30:00.000Z",
+      "score": 14
+    },
+    {
+      "id": "5352d8da55a8c",
+      "title": "SEMI预计2035年芯片业达3万亿美元",
+      "summary": "SEMI总裁称芯片业提前突破1万亿美元，AI与量子计算驱动下2035年可达3万亿美元，供应链重塑带来信任伙伴角色。",
       "points": [],
       "category": "market",
       "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "业绩"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261015PD238/semi-supply-chain-2035-ceo-taiwan.html",
+      "published": "2026-10-16T17:53:00.000Z",
+      "score": 12
+    },
+    {
+      "id": "8ac0c320a9d16",
+      "title": "华硕发布首款英特尔Arc Pro B70显卡",
+      "summary": "华硕推出旗下首款英特尔Arc Pro B70显卡，配备32GB ECC显存，AI算力达367 TOPS，重返英特尔独立显卡阵营。",
+      "points": [
+        "面向AI推理及工作站市场",
+        "支持多卡配置，最多4卡共128GB显存",
+        "价格未公布，同类产品约1300至2000美元"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
       "importance": 3,
       "tags": [
-        "政策",
-        "业绩",
+        "设备",
+        "设计",
+        "架构",
         "AI"
       ],
       "source": "IT之家",
       "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/264.htm",
-      "published": "2026-10-17T04:19:55.000Z",
-      "score": 21.5
+      "url": "https://www.ithome.com/1/014/390.htm",
+      "published": "2026-10-17T11:56:31.000Z",
+      "score": 28.5
     },
     {
-      "id": "1c6a3a0190efa9",
-      "title": "Win11 用户还能再用 3 年：微软老牌虚拟化组件 App-V Server 扩展支持至 2029 年",
-      "summary": "IT之家 10 月 17 日消息，科技媒体 NeoWin 昨日（10 月 16 日）发布博文， 报道称微软扩展支持 App-V Server（微软应用虚拟化服务器），支持期限延长至 2029 年 10 月 9 日。 IT之家注：App-V 是微软于 2008 年通过 Microsoft Desktop Optimiza",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
+      "id": "bbc756c7db12d",
+      "title": "台湾光罩收购TCK拓展日本九州半导体市场",
+      "summary": "台湾光罩以475万美元收购日本设备服务商TCK，将业务从光掩模延伸至设备组装与工程支持，以把握九州半导体扩产机遇。",
+      "points": [
+        "收购金额475万美元",
+        "拓展设备组装与工程服务",
+        "瞄准九州半导体集群"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
       "importance": 3,
       "tags": [
-        "工艺",
         "资本"
       ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/258.htm",
-      "published": "2026-10-17T03:19:36.000Z",
-      "score": 21.5
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261016PD244/taiwan-mask-acquisition-equipment-photomask-revenue.html",
+      "published": "2026-10-17T00:08:50.000Z",
+      "score": 18
     },
     {
-      "id": "e9885917dd829",
-      "title": "Infineon and Wolfspeed expand and extend long-term SiC wafer",
-      "summary": "A new multi-year agreement has been signed that transitions the existing long-term supply by Wolfspeed Inc of Durham, NC, USA of silicon carbide (SiC) substrate",
-      "points": [],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5a6472",
+      "id": "161b01a6d79760",
+      "title": "三星电机51亿美元扩产面临设备供应瓶颈",
+      "summary": "三星电机投资约51亿美元扩产AI服务器半导体基板，但设备厂商面临零部件短缺和交期延长，公司称投资按计划推进，暂无延迟确认。",
+      "points": [
+        "扩产金额约51亿美元",
+        "设备供应存在瓶颈风险",
+        "公司称投资按计划进行"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
       "importance": 3,
       "tags": [
-        "功率",
-        "材料"
+        "材料",
+        "产能"
       ],
-      "source": "Semiconductor Today",
+      "source": "DIGITIMES",
       "sourceLang": "en",
-      "url": "https://semiconductor-today.com/news_items/2026/oct/wolfspeed-infineon-161026.shtml",
-      "published": "2026-10-16T08:57:57.000Z",
-      "score": 21
+      "url": "https://www.digitimes.com/news/a20261016VL216/equipment-semco-expansion-production-substrate.html",
+      "published": "2026-10-17T00:07:22.000Z",
+      "score": 16
+    },
+    {
+      "id": "731822fca54c6",
+      "title": "SEMICON West 2026聚焦AI时代芯片制造与人才",
+      "summary": "SEMICON West 2026展会展示半导体行业为适应AI浪潮而扩建晶圆厂基础设施，并强调劳动力发展的重要性。",
+      "points": [
+        "万亿级产业扩建基础设施",
+        "AI浪潮推动晶圆厂扩张",
+        "行业重视劳动力培养"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "产能"
+      ],
+      "source": "EE Times",
+      "sourceLang": "en",
+      "url": "https://www.eetimes.com/semicon-west-2026-displays-ai-era-chipmaking-workforce-development/",
+      "published": "2026-10-16T20:59:50.000Z",
+      "score": 12
+    },
+    {
+      "id": "efef865c00a90",
+      "title": "OCP 2026聚焦数据中心供电方案",
+      "summary": "OCP峰会展示供电板、电源设计、热插拔控制器及事件遥测，凸显数据中心供电技术进展。",
+      "points": [
+        "供电板与PSU设计成焦点",
+        "热插拔与遥测提升运维效率"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "设备"
+      ],
+      "source": "EE Times",
+      "sourceLang": "en",
+      "url": "https://www.eetimes.com/data-center-power-a-prominent-highlight-of-ocp-2026/",
+      "published": "2026-10-16T15:00:00.000Z",
+      "score": 12
+    },
+    {
+      "id": "1d9c0ce98cdb46",
+      "title": "新加坡AI战略转向部署与韧性建设",
+      "summary": "新加坡AI战略从试点转向企业部署、行业转型和算力韧性，强调实际落地而非模型竞赛。",
+      "points": [
+        "侧重企业采用与行业转型",
+        "强化算力韧性以保障供应",
+        "减少试点型实验项目"
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261013VL211/singapore-ai-adoption-government-infrastructure.html",
+      "published": "2026-10-16T18:38:00.000Z",
+      "score": 9
+    },
+    {
+      "id": "165faa4f776cb4",
+      "title": "嵌入式周报：边缘AI实时系统与PCIe 6.0进展",
+      "summary": "本周嵌入式领域文章涵盖边缘AI实时系统设计、边缘计算能耗问题以及面向AI数据中心的PCIe 6.0高基数交换机等最新发展。",
+      "points": [
+        "边缘AI实时系统设计",
+        "边缘计算能耗问题受关注",
+        "PCIe 6.0交换机助力AI数据中心"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/edge-ai-for-real-time-systems-the-edge-computing-energy-problem-pcie-6-0-high-radix-switches-embedded-week-insights/",
+      "published": "2026-10-16T19:00:00.000Z",
+      "score": 6
+    },
+    {
+      "id": "b7d51f0abc3c5",
+      "title": "车规需求推动无源元件性能极限",
+      "summary": "汽车电池测量等高端应用推动无源元件向极端性能发展，相关技术可扩展至其他领域。",
+      "points": [
+        "车规无源元件要求高精度高可靠",
+        "技术可外溢至工业与消费场景"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [],
+      "source": "EDN",
+      "sourceLang": "en",
+      "url": "https://www.edn.com/automotive-demands-driving-passive-components-to-extreme-performance/",
+      "published": "2026-10-16T17:03:13.000Z",
+      "score": 6
+    },
+    {
+      "id": "b62b8cdeb2a2a",
+      "title": "ASML员工限定High-NA EUV乐高套件被复刻",
+      "summary": "乐高爱好者复刻了ASML员工专属的High-NA EUV乐高套件，加入自定义设计，并在Rebrickable免费分享图纸。",
+      "points": [
+        "复刻版含810个零件",
+        "图纸免费公开"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 1,
+      "tags": [
+        "光刻",
+        "设备"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts",
+      "published": "2026-10-17T10:00:00.000Z",
+      "score": 25
     }
   ]
 }

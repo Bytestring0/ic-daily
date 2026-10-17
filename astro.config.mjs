@@ -3,9 +3,8 @@ import { defineConfig } from 'astro/config';
 
 // ------------------------------------------------------------
 // GitHub Pages 部署配置
-// 如果是 https://<user>.github.io/<repo>/ 形式，site + base 都要设。
-// 如果是 https://<user>.github.io/ （根仓库），把 base 留空字符串。
-// 这两个值由 CI 通过环境变量注入，本地跑用默认值。
+// 仓库名是 <user>.github.io → 部署在根路径，base 留空
+// 其他仓库 → 部署在 /<repo>/ 子路径，base 由 CI 注入
 // ------------------------------------------------------------
 const SITE = process.env.SITE_URL || 'https://example.github.io';
 const BASE = process.env.BASE_PATH || '';
@@ -15,13 +14,11 @@ export default defineConfig({
   base: BASE || undefined,
   output: 'static',
   trailingSlash: 'ignore',
+  devToolbar: { enabled: false },
   build: {
     format: 'directory',
   },
   markdown: {
     shikiConfig: { theme: 'github-dark' },
-  },
-  vite: {
-    server: { fs: { strict: false } },
   },
 });

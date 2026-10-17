@@ -42,7 +42,7 @@ export function getAllEditions() {
 export function formatDateCN(dateStr) {
   const [y, m, d] = String(dateStr).split('-');
   const week = ['日', '一', '二', '三', '四', '五', '六'];
-  const dt = new Date(`${dateStr}T00:00:00+08:00`);
+  const dt = new Date(`${dateStr}T12:00:00+08:00`);
   return {
     full: `${y} 年 ${Number(m)} 月 ${Number(d)} 日`,
     short: `${Number(m)}/${Number(d)}`,

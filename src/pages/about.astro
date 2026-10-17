@@ -14,10 +14,10 @@ import Base from '../layouts/Base.astro';
     <section class="panel">
       <h2>它是什么</h2>
       <p>
-        一份聚焦<strong>微电子与集成电路产业</strong>的每日简讯。内容由程序自动从公开信息源聚合，
-        经规则打分与（可选的）大模型改写后，按统一格式渲染成网页。
+        聚焦<strong>微电子与集成电路产业</strong>的每日简讯。程序从公开信息源聚合，
+        经规则打分、大模型改写后渲染为静态页面。
       </p>
-      <p>覆盖方向：晶圆代工、半导体设备、EDA、存储、芯片设计、材料与封测、政策与地缘、研究与论文、市场与产业。</p>
+      <p>覆盖：晶圆代工、设备、EDA、存储、芯片设计、材料与封测、政策、研究与市场。</p>
     </section>
 
     <section class="panel">
@@ -66,7 +66,8 @@ import Base from '../layouts/Base.astro';
       <div class="stack">
         <div><span class="k mono">采集</span><span class="v">Node.js + fast-xml-parser</span></div>
         <div><span class="k mono">撰写</span><span class="v">OpenAI 兼容 Chat Completions</span></div>
-        <div><span class="k mono">渲染</span><span class="v">Astro（静态输出，零客户端 JS）</span></div>
+        <div><span class="k mono">模型</span><span class="v">云知声 u2-flash（MaaS）</span></div>
+        <div><span class="k mono">渲染</span><span class="v">Astro 静态输出 · 阅读模式与简洁模式</span></div>
         <div><span class="k mono">调度</span><span class="v">GitHub Actions</span></div>
         <div><span class="k mono">托管</span><span class="v">GitHub Pages</span></div>
       </div>
@@ -84,19 +85,13 @@ import Base from '../layouts/Base.astro';
 
     <section class="panel">
       <h2>如何自己跑一份</h2>
-      <pre class="code"><code># 安装依赖
-npm install
-
-# 生成今天的日报（不含 AI 也能跑）
-npm run daily
-
-# 本地预览网站
-npm run dev
-
-# 构建静态站点
-npm run build</code></pre>
+      <pre class="code"><code>npm install          # 安装依赖
+npm run daily        # 抓取并生成今日简报
+npm run build        # 构建静态站点
+npm run dev          # 本地预览</code></pre>
       <p class="muted">
-        配置 AI 改写：设置环境变量 <code>LLM_BASE_URL</code>、<code>LLM_API_KEY</code>、<code>LLM_MODEL</code>。
+        AI 改写配置：<code>LLM_BASE_URL</code>、<code>LLM_API_KEY</code>、<code>LLM_MODEL</code>。
+        未配置时自动降级为规则摘要。
       </p>
     </section>
     </div>
@@ -124,9 +119,9 @@ npm run build</code></pre>
 
   section.panel {
     background: var(--card);
-    border-radius: var(--radius-lg);
+    border-radius: 10px;
     padding: 26px 30px;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow);
   }
 
   h2 {

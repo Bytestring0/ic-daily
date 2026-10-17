@@ -11,6 +11,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
+    "ai:refresh": "node scripts/ai-refresh.mjs",
     "check": "astro check",
     "pipeline:build": "npm run daily && npm run build",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""

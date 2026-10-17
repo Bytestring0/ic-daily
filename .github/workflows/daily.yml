@@ -5,8 +5,8 @@ name: Daily IC Digest
 #
 # 需要的仓库 Secrets（Settings → Secrets and variables → Actions）：
 #   LLM_API_KEY    必填才能启用 AI 改写（不填则走规则模式，仍可正常出报）
-#   LLM_BASE_URL   选填，默认 https://api.deepseek.com/v1
-#   LLM_MODEL      选填，默认 deepseek-chat
+#   LLM_BASE_URL   选填，默认 https://maas-api.unisound.com/v1
+#   LLM_MODEL      选填，默认 u2-flash
 #
 # 另外需要在 Settings → Pages 里把 Source 设为 "GitHub Actions"
 # ------------------------------------------------------------

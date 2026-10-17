@@ -1,8 +1,31 @@
 # 微电子简报 · IC Daily
 
-每日**微电子 / 集成电路**行业动态，由 AI 自动采集、筛选、撰写，渲染成静态网站。
+每日**微电子 / 集成电路**行业动态。RSS 采集 → 去重打分 → AI 撰写 → Astro 静态生成 → GitHub Pages 发布。
 
-> 全链路自动化：RSS 采集 → 去重打分 → AI 撰写 → 结构化数据 → Astro 静态生成 → GitHub Pages 发布
+## 阅读界面
+
+三栏结构：左侧导航（日历、搜索、主题），中间正文，右侧目录。右上角可在两种模式间切换，选择会保存在浏览器。
+
+| 模式 | 形态 | 用途 |
+|---|---|---|
+| 阅读模式 | 索引 + 逐条正文，右侧目录跟随滚动高亮 | 通读当日全部动态 |
+| 简洁模式 | 铜橙色大标题 + 要点四宫格卡片，顶部分类 tab | 快速扫读、投屏、截图分享 |
+
+另支持明暗主题、日历切换期次、关键词搜索（`Ctrl / ⌘ + K`）、手机单栏布局。
+
+```bash
+npm install
+npm run daily        # 抓取 + AI 改写，生成今日期次
+npm run build        # 构建静态站点到 dist/
+npm run dev          # 本地预览
+npm run ai:refresh   # 只用 AI 重写已有一期；原始数据备份到 .cache/
+
+# 指定期次
+npm run ai:refresh -- --date=2026-10-17
+```
+
+> **密钥安全**：页面为纯静态，不含任何 AI 调用代码。模型只在构建期由 Node.js 调用，
+> key 从 `.env`（已 gitignore）或 CI Secrets 读取，不会进入 `dist/`，也不会暴露给浏览器。
 
 ---
 
@@ -152,11 +175,6 @@ sources:
 | 产业与市场 | DIGITIMES、IEEE Spectrum Semiconductors、NVIDIA Newsroom |
 | 中文媒体 | 芯东西、雷锋网、IT之家、cnBeta |
 | 研究 | arXiv cs.AR |
-
-> **关于 EETOP（eetop.cn）**：该站启用了 JS 人机验证，且**没有公开 RSS 出口**
-> （`/feed`、`/rss.xml`、`/api/rss` 均返回 403 或伪 200 错误页）。
-> 纯 HTTP 无法采集，需 Playwright 渲染 + 破验证，不适合放进无人值守流水线。
-> 若确需接入，见 `config/sources.yaml` 末尾注释里的浏览器采集方案说明。
 
 ### 调整领域关键词
 
