@@ -1,0 +1,429 @@
+{
+  "date": "2026-10-18",
+  "generatedAt": "2026-10-18T05:51:50.657Z",
+  "intro": "本期共 17 条动态，其中 8 条值得重点关注，集中在晶圆代工、政策与地缘方向。",
+  "stats": {
+    "count": 17,
+    "sources": 20,
+    "sourcesTotal": 20,
+    "categories": {
+      "foundry": 2,
+      "policy": 4,
+      "memory": 4,
+      "design": 4,
+      "research": 1,
+      "market": 1,
+      "equipment": 1
+    },
+    "failedSources": [],
+    "durationMs": 62376
+  },
+  "entries": [
+    {
+      "id": "b52fb7053401e",
+      "title": "日本批准台积电熊本二厂3nm计划",
+      "summary": "日本经产省批准台积电熊本二厂改产3nm，最高可获41亿美元补贴，强化日本先进制程布局。",
+      "points": [
+        "3nm为当前最先进商用制程之一",
+        "替代原6nm和12nm计划",
+        "补贴总额达41亿美元"
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
+      "tags": [
+        "工艺",
+        "代工",
+        "产能"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261017VL200/fab-tsmc-chips-kumamoto-production.html",
+      "published": "2026-10-17T09:59:55.000Z",
+      "score": 27
+    },
+    {
+      "id": "1e2a22d3c7e995",
+      "title": "陈立武称美政府不干预英特尔经营，重组完成80%",
+      "summary": "英特尔CEO陈立武表示美国政府不会干预公司经营，重组工作已完成80%，政府持股约8.2%但不具治理影响力。",
+      "points": [
+        "美政府持股约8.2%，无董事会席位",
+        "重组成本致2024年Q3净亏166亿美元",
+        "代工业务需长期视角，政府支持重要"
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "代工",
+        "设计",
+        "存储",
+        "EDA",
+        "架构",
+        "功率",
+        "产能",
+        "AI",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/463.htm",
+      "published": "2026-10-18T02:32:50.000Z",
+      "score": 42.5
+    },
+    {
+      "id": "f8aa34621c474",
+      "title": "台积电JASM第二晶圆厂转产3nm获日本批准",
+      "summary": "台积电日本子公司JASM第二晶圆厂转产3nm获日本经产省批准，月产能6000片，预计2028年12月投产；第一晶圆厂调整产品组合。",
+      "points": [
+        "第二厂原规划40/12/6nm，现仅产3nm",
+        "第一厂舍弃12/16nm，聚焦22/28nm和40nm",
+        "项目预计2028年12月完工并投产"
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "制造",
+        "工艺",
+        "代工",
+        "产能",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/423.htm",
+      "published": "2026-10-17T23:40:06.000Z",
+      "score": 38.5
+    },
+    {
+      "id": "741abf7b7d0aa",
+      "title": "韩国财长称半导体繁荣持续至2027年",
+      "summary": "韩国财长李炯日表示半导体行业繁荣至少持续到2027年，供需缺口仍大，但芯片股波动加剧。",
+      "points": [
+        "供需缺口大支撑行业增长",
+        "芯片股加剧韩国股市波动",
+        "韩国税收收入预计超预期"
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "代工",
+        "存储",
+        "产能",
+        "行情",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/457.htm",
+      "published": "2026-10-18T02:06:55.000Z",
+      "score": 27.5
+    },
+    {
+      "id": "1f524cb51b9b6",
+      "title": "戴尔CEO警告内存短缺恶化，950亿美元订单承压",
+      "summary": "戴尔CEO迈克尔·戴尔警告HBM和DRAM供应紧张将在2027年进一步恶化，AI服务器需求激增导致内存产能不足，950亿美元积压订单面临供应挑战。",
+      "points": [
+        "HBM/DRAM短缺加剧",
+        "950亿美元订单受影响",
+        "AI服务器成瓶颈"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "封装",
+        "存储",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582676.htm",
+      "published": "2026-10-17T12:28:57.000Z",
+      "score": 20.5
+    },
+    {
+      "id": "1fc4773d5a83ea",
+      "title": "英特尔确认Razor Lake-AX 2028年推出，算力700 TOPS",
+      "summary": "英特尔高级副总裁确认下一代Razor Lake-AX芯片将于2028年推出，AI算力达700 TOPS，约为现有Panther Lake的3.88倍。",
+      "points": [
+        "2028年推出",
+        "算力700 TOPS",
+        "较现款提升3.88倍"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "设计",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582688.htm",
+      "published": "2026-10-17T15:25:10.000Z",
+      "score": 16.5
+    },
+    {
+      "id": "19fd2310c7a04f",
+      "title": "铠侠市值较峰值缩水约三分之二",
+      "summary": "铠侠股价自6月高点回落64%，市值蒸发约六成半，反映AI存储热潮退潮。",
+      "points": [
+        "股价较高点跌64%",
+        "10月15日单日跌12.3%",
+        "AI存储需求降温"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582604.htm",
+      "published": "2026-10-17T06:24:06.000Z",
+      "score": 13.5
+    },
+    {
+      "id": "19e492cf97c110",
+      "title": "DeepSeek发布V4.1-Flash-1017模型",
+      "summary": "DeepSeek更新V4.1-Flash模型，性能超越GPT-6等竞品，并开放搜索与抓取API，定价5元/千次。",
+      "points": [
+        "多项基准测试领先",
+        "开放Search与Fetch API"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [],
+      "source": "芯东西",
+      "sourceLang": "zh",
+      "url": "https://zhidx.com/p/601905.html",
+      "published": "2026-10-17T10:03:11.000Z",
+      "score": 9.5
+    },
+    {
+      "id": "1aecac667678c3",
+      "title": "美光研发边缘推理内存EIM，面向物理AI",
+      "summary": "美光正研发边缘推理内存EIM，面向人形机器人等物理AI，降低延迟并提高带宽，计划集成至LPDDR6，量产或于2028年下半年。",
+      "points": [
+        "EIM垂直堆叠LPDDR于逻辑芯片上",
+        "与PIM不同，具体架构未公开",
+        "预计2028年下半年量产"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "制造",
+        "封装",
+        "存储",
+        "AI",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/419.htm",
+      "published": "2026-10-17T23:26:38.000Z",
+      "score": 31.5
+    },
+    {
+      "id": "e53b06c491045",
+      "title": "PS6内存与存储物料成本超680美元",
+      "summary": "爆料称PS6仅内存和NAND闪存成本已超680美元，存储涨价推高整机售价，预计可能达1000美元。",
+      "points": [
+        "存储芯片涨价推高PS6成本",
+        "索尼或削减内存配置控成本",
+        "PS6售价可能显著高于PS5 Pro"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "存储",
+        "行情",
+        "AI",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/485.htm",
+      "published": "2026-10-18T04:57:18.000Z",
+      "score": 23.5
+    },
+    {
+      "id": "883a30bbf2f8c",
+      "title": "高通回应骁龙8至尊版散热传闻",
+      "summary": "高通CMO否认第六代骁龙8至尊版存在系统性散热问题，该芯片为首款台积电2nm手机芯片。",
+      "points": [
+        "首款台积电2nm手机芯片",
+        "否认系统性散热缺陷"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "工艺",
+        "代工",
+        "设计",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582618.htm",
+      "published": "2026-10-17T06:38:29.000Z",
+      "score": 22.5
+    },
+    {
+      "id": "13b79f2dedb851",
+      "title": "联想P7 AI主机开启预约，采用国产芯",
+      "summary": "联想AI主机P7将于10月24日开启预约，搭载此芯P1 SoC和后摩M50 dNPU，本地AI算力190TOPS。",
+      "points": [
+        "支持122B大模型本地部署",
+        "整机功耗仅30W，噪音低于35dB",
+        "重量300克，主打轻量AI推理"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "架构",
+        "AI"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/436.htm",
+      "published": "2026-10-18T00:25:03.000Z",
+      "score": 18.5
+    },
+    {
+      "id": "1db9bb96828299",
+      "title": "美光研发EIM内存面向物理AI",
+      "summary": "美光正开发边缘推理内存（EIM），兼顾低功耗与高带宽，目标应用包括人形机器人和自动驾驶。",
+      "points": [
+        "面向物理AI新市场",
+        "应用涵盖机器人、AR/VR等",
+        "与客户讨论中，产品未发布"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "存储",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582696.htm",
+      "published": "2026-10-17T20:36:32.000Z",
+      "score": 16.5
+    },
+    {
+      "id": "c3769f5949618",
+      "title": "英特尔CEO称特朗普政府未干预公司战略",
+      "summary": "英特尔CEO陈立武表示，特朗普政府未利用持股干预公司商业战略，但未提及具体政策。",
+      "points": [
+        "陈立武接受日经亚洲专访",
+        "否认政府干预商业决策"
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "设计",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582616.htm",
+      "published": "2026-10-17T06:35:03.000Z",
+      "score": 13.5
+    },
+    {
+      "id": "3b0bdf821373e",
+      "title": "新加坡推动半导体中小企业入全球供应链",
+      "summary": "新加坡企发局瞄准高价值制造、先进封装和硅光子，扶持本地半导体中小企业扩大全球供应链角色。",
+      "points": [
+        "聚焦先进封装与硅光子",
+        "强化工程与精密制造优势"
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 2,
+      "tags": [],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261012PD215/manufacturing-equipment-packaging-testing-silicon.html",
+      "published": "2026-10-17T18:39:00.000Z",
+      "score": 12
+    },
+    {
+      "id": "45d5ec451eef8",
+      "title": "华为FreeClip 2推红黄蓝拼色新配色",
+      "summary": "华为FreeClip 2耳夹耳机曝光潮玩拼色设计，采用红黄蓝撞色，耳机舱黄色外壳黑色内饰。",
+      "points": [
+        "采用红黄蓝拼接撞色设计",
+        "耳机舱外壳黄色内饰黑色",
+        "新配色主打自在鲜活风格"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 1,
+      "tags": [
+        "设计",
+        "架构",
+        "AI",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/484.htm",
+      "published": "2026-10-18T04:51:49.000Z",
+      "score": 25.5
+    },
+    {
+      "id": "b62b8cdeb2a2a",
+      "title": "ASML员工限定High-NA EUV乐高套件被复刻并免费分享",
+      "summary": "乐高爱好者复刻了ASML员工专属的High-NA EUV乐高套件，加入自定义设计，并在Rebrickable免费分享图纸。",
+      "points": [
+        "复刻ASML限定乐高",
+        "免费分享图纸"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 1,
+      "tags": [
+        "光刻",
+        "设备"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/employee-exclusive-asml-lego-set-now-available-on-rebrickable-custom-creation-modifies-original-version-to-add-more-details-now-requires-810-parts",
+      "published": "2026-10-17T10:00:00.000Z",
+      "score": 20
+    }
+  ]
+}

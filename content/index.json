@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-10-17T13:31:23.560Z",
-  "total": 1,
+  "generatedAt": "2026-10-18T05:51:50.658Z",
+  "total": 2,
   "editions": [
+    {
+      "date": "2026-10-18",
+      "count": 17,
+      "intro": "本期共 17 条动态，其中 8 条值得重点关注，集中在晶圆代工、政策与地缘方向。",
+      "top": [
+        "日本批准台积电熊本二厂3nm计划",
+        "陈立武称美政府不干预英特尔经营，重组完成80%",
+        "台积电JASM第二晶圆厂转产3nm获日本批准"
+      ],
+      "categories": {
+        "foundry": 2,
+        "policy": 4,
+        "memory": 4,
+        "design": 4,
+        "research": 1,
+        "market": 1,
+        "equipment": 1
+      }
+    },
     {
       "date": "2026-10-17",
       "count": 19,
