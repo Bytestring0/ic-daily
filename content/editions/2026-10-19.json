@@ -1,0 +1,597 @@
+{
+  "date": "2026-10-19",
+  "generatedAt": "2026-10-19T06:09:46.152Z",
+  "intro": "本期共 24 条动态，其中 10 条值得重点关注，集中在存储、市场与产业、晶圆代工方向。",
+  "stats": {
+    "count": 24,
+    "sources": 20,
+    "sourcesTotal": 20,
+    "categories": {
+      "memory": 3,
+      "market": 5,
+      "foundry": 1,
+      "design": 6,
+      "equipment": 3,
+      "research": 6
+    },
+    "failedSources": [],
+    "durationMs": 45514
+  },
+  "entries": [
+    {
+      "id": "9a62033434aa3",
+      "title": "英伟达定制HBM推动三星采用台积电3nm",
+      "summary": "英伟达定制HBM设计将基板制造引向台积电，三星经内部评估后同意采用台积电3nm工艺生产NVHBM基板，首次在HBM制造环节合作。",
+      "points": [
+        "英伟达主导HBM设计",
+        "三星首次外包HBM基板制造",
+        "台积电3nm切入HBM供应链"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "工艺",
+        "封装",
+        "代工",
+        "设计",
+        "研究"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019VL201/nvidia-hbm-tsmc-samsung-3nm.html",
+      "published": "2026-10-19T01:04:27.000Z",
+      "score": 46
+    },
+    {
+      "id": "1958b66d031717",
+      "title": "英伟达定制HBM推动三星台积电合作",
+      "summary": "英伟达为下一代AI加速器定制NVHBM，促使三星电子与台积电首次合作开发3纳米基底芯片，重塑HBM供应链格局。",
+      "points": [
+        "三星与台积电长期竞争后联手",
+        "3纳米基底芯片用于定制HBM",
+        "英伟达主导供应链整合"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "封装",
+        "代工",
+        "设计",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582766.htm",
+      "published": "2026-10-18T12:13:59.000Z",
+      "score": 31.5
+    },
+    {
+      "id": "2eaf64d0b9b72",
+      "title": "LG Display 目标 2029 年量产 FLiPP OLED",
+      "summary": "LG Display 计划 2029 年量产无 FMM 的 FLiPP OLED 技术，瞄准苹果 27 英寸 OLED Studio Display 订单。",
+      "points": [
+        "FLiPP 为无 FMM 光刻 OLED 技术",
+        "8.5 代基板可产 24 块 27 英寸面板"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "制造",
+        "光刻",
+        "设备",
+        "设计",
+        "显示"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/691.htm",
+      "published": "2026-10-19T02:17:42.000Z",
+      "score": 37.5
+    },
+    {
+      "id": "16c7f7f05428b2",
+      "title": "苹果或率先采用台积电1.4纳米工艺",
+      "summary": "台积电加速推进A14 1.4纳米制程，目标2028年上半年量产，苹果预计为首批客户，以应对AI芯片需求。",
+      "points": [
+        "台积电A14工艺量产目标2028上半年",
+        "苹果有望成为首批采用客户"
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "制造",
+        "工艺",
+        "代工",
+        "设计",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582758.htm",
+      "published": "2026-10-18T10:11:25.000Z",
+      "score": 36.5
+    },
+    {
+      "id": "13ecaa1d83bb4d",
+      "title": "沐曦股份前三季度扭亏为盈，净利润预计达5.87亿至7.17亿元",
+      "summary": "沐曦股份发布2026年前三季度业绩预告，营收同比增长105.6%-151.29%，归母净利润扭亏为盈。",
+      "points": [
+        "营收25.41亿至31.06亿元",
+        "扣非净利润2.23亿至3.02亿元"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "资本",
+        "代工",
+        "架构",
+        "业绩",
+        "产能",
+        "AI",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/013/627.htm",
+      "published": "2026-10-19T03:19:21.000Z",
+      "score": 35.5
+    },
+    {
+      "id": "14df061399c5f6",
+      "title": "蔡司SMO总裁称High-NA EUV已可量产，订单排至2027年",
+      "summary": "蔡司SMO总裁表示High-NA EUV光刻光学已准备就绪，2026-2027年订单明确，产能已被预订。",
+      "points": [
+        "AI需求驱动订单可见性",
+        "蔡司及部分厂商产能满载"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "制造",
+        "光刻"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019PD219/demand-production-president-2027-high-na-euv.html",
+      "published": "2026-10-19T03:27:00.000Z",
+      "score": 34
+    },
+    {
+      "id": "1a1cfdf09e8734",
+      "title": "阿里玄铁芯片累计出货超 60 亿颗",
+      "summary": "阿里达摩院宣布玄铁 RISC-V 芯片累计出货超 60 亿颗，并发布车规级 E908A 芯片，RISC-V 生态持续扩大。",
+      "points": [
+        "玄铁出货量从 40 亿增至 60 亿",
+        "发布车规增强 E908A 芯片"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "资本",
+        "架构",
+        "业绩",
+        "研究",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/770.htm",
+      "published": "2026-10-19T05:21:57.000Z",
+      "score": 30.5
+    },
+    {
+      "id": "4efce4c31fb7d",
+      "title": "长鑫科技股价创上市新低，三季度利润增速放缓",
+      "summary": "长鑫科技股价大跌近9%至41元，创上市首日以来新低；尽管前三季度扭亏为盈，但第三季度净利润环比增幅大幅放缓至1%-3.9%。",
+      "points": [
+        "股价创上市新低",
+        "前三季度净利1310-1325亿元",
+        "环比增速大幅放缓"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "资本",
+        "存储",
+        "IC"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/722.htm",
+      "published": "2026-10-19T03:03:13.000Z",
+      "score": 27.5
+    },
+    {
+      "id": "14e7cd71521e7c",
+      "title": "中国三季度GDP增长4.5%，AI带动出口",
+      "summary": "中国第三季度经济增速回升至4.5%，AI数据中心建设带动芯片等出口增长，但内需疲软和房地产低迷仍是挑战。",
+      "points": [
+        "AI硬件需求推动出口",
+        "消费与房地产仍承压"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "产能",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582828.htm",
+      "published": "2026-10-19T04:48:20.000Z",
+      "score": 19.5
+    },
+    {
+      "id": "1f2cc6db97c753",
+      "title": "理研实现硅量子比特高精度并行控制",
+      "summary": "日本理化学研究所团队在多个硅量子比特并行运行时维持高保真度单量子门操作，为利用现有半导体工艺构建更大规模硅基量子处理器铺路。",
+      "points": [
+        "硅量子比特并行控制保真度获提升",
+        "兼容现有半导体制造技术"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [
+        "研究",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/science/1582818.htm",
+      "published": "2026-10-19T04:41:33.000Z",
+      "score": 19.5
+    },
+    {
+      "id": "23a58fcccee10",
+      "title": "本周综述：Tata晶圆厂挑战与Intel复兴",
+      "summary": "Tata Dholera晶圆厂需将早期客户承诺转化为合格量产，Intel通过制程执行与先进封装重建竞争力，美光与台积电扩产AI产能。",
+      "points": [
+        "Tata面临股东审查与量产压力",
+        "Intel聚焦制程、合作与封装",
+        "美光、台积电扩产AI相关产能"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "代工",
+        "设备",
+        "设计",
+        "存储",
+        "功率",
+        "材料",
+        "产能"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019VL200/2026-capacity-fab-production-intel.html",
+      "published": "2026-10-19T01:23:32.000Z",
+      "score": 45
+    },
+    {
+      "id": "2dc0c44466171",
+      "title": "HBFSim 模拟器发布，探索 HBF 内存层级",
+      "summary": "研究人员推出 HBFSim，用于模拟 HBM+HBF 异构内存系统，评估高带宽闪存在 LLM 加速中的性能与寿命影响。",
+      "points": [
+        "面向 LLM 的 HBF 内存模拟器",
+        "建模 NAND 延迟与写寿命"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 3,
+      "tags": [
+        "工艺",
+        "封装",
+        "存储",
+        "架构"
+      ],
+      "source": "arXiv cs.AR",
+      "sourceLang": "en",
+      "url": "https://arxiv.org/abs/2610.23503",
+      "published": "2026-10-19T04:00:00.000Z",
+      "score": 32
+    },
+    {
+      "id": "15e995f9e9fa17",
+      "title": "英伟达承认牺牲单核性能转向智能体AI",
+      "summary": "英伟达Vera CPU团队承认过去为追求核心数牺牲单线程性能，Agentic AI需求迫使设计转向提升单核性能。",
+      "points": [
+        "云端CPU曾重核心数轻单核性能",
+        "智能体AI推动设计逆转"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "设计",
+        "AI",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582858.htm",
+      "published": "2026-10-19T05:18:40.000Z",
+      "score": 22.5
+    },
+    {
+      "id": "27cf71ecd0b54",
+      "title": "Wooptix晶圆量测技术瞄准头部芯片厂",
+      "summary": "西班牙半导体量测初创Wooptix加速进入头部晶圆厂供应链，其技术源于天文观测，目标3-5年内实现量产采用。",
+      "points": [
+        "技术源自天文观测",
+        "目标3-5年内量产采用"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "材料"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019PD220/interview-wafer-metrology-startup-adoption-spain.html",
+      "published": "2026-10-19T04:42:23.000Z",
+      "score": 21
+    },
+    {
+      "id": "cf4fb6ecc1624",
+      "title": "MemLLM提出SSD内存储加速端侧RAG推理",
+      "summary": "MemLLM提出一种端到端存储内处理架构，在SSD内基于预计算KV缓存执行完整注意力流水线，缓解端侧RAG的I/O瓶颈。",
+      "points": [
+        "消除预填充阶段瓶颈",
+        "利用SSD内加速器处理注意力"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "设备",
+        "存储"
+      ],
+      "source": "arXiv cs.AR",
+      "sourceLang": "en",
+      "url": "https://arxiv.org/abs/2610.22579",
+      "published": "2026-10-19T04:00:00.000Z",
+      "score": 21
+    },
+    {
+      "id": "f4c445533895b",
+      "title": "Von Ardenne推出面板级封装柔性设备",
+      "summary": "德国设备商Von Ardenne以托盘式镀膜设备切入半导体面板级封装市场，可适配不同基板尺寸，降低标准未定下的设备投资风险。",
+      "points": [
+        "设备兼容多种面板尺寸",
+        "瞄准先进封装玻璃基板工艺",
+        "应对面板尺寸标准未定"
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "材料"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019PD232/equipment-packaging-market-panel-technology.html",
+      "published": "2026-10-19T05:55:00.000Z",
+      "score": 19
+    },
+    {
+      "id": "2f26c85415d4",
+      "title": "CMM-MP提出CXL与以太网融合内存池架构",
+      "summary": "CMM-MP是一种结合CXL与以太网的新型内存池化设备，可提供数百TB级可组合内存扩展，无需修改GPU/CPU应用。",
+      "points": [
+        "支持数百TB内存池",
+        "兼容现有GPU/CPU应用"
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "架构"
+      ],
+      "source": "arXiv cs.AR",
+      "sourceLang": "en",
+      "url": "https://arxiv.org/abs/2610.22716",
+      "published": "2026-10-19T04:00:00.000Z",
+      "score": 16
+    },
+    {
+      "id": "160621db655f94",
+      "title": "韩国ASICLAND借台湾研发中心拓展AI芯片",
+      "summary": "韩国ASIC设计商ASICLAND在SEDEX 2026展示AxHub平台，计划通过台湾研发中心强化先进制程与封装能力，推动AI芯片量产。",
+      "points": [
+        "AxHub平台加速定制芯片开发",
+        "存储控制器仍是主要收入来源",
+        "拓展AI芯片量产与海外市场"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "制造",
+        "代工",
+        "架构",
+        "功率",
+        "业绩",
+        "AI"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019PD211/ai-chip-tsmc-design-taiwan-growth.html",
+      "published": "2026-10-19T02:25:00.000Z",
+      "score": 43
+    },
+    {
+      "id": "4e66ff0e157ce",
+      "title": "粒子物理实验将采用异构、边缘与量子硬件机器学习",
+      "summary": "arXiv 发布论文，探讨下一代粒子物理实验中异构、边缘及量子硬件上的机器学习应用，以应对数据采集挑战。",
+      "points": [
+        "面向高数据率实时推理",
+        "结合AI/ML与量子算法"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 2,
+      "tags": [
+        "资本",
+        "设备",
+        "设计",
+        "功率",
+        "研究"
+      ],
+      "source": "arXiv cs.AR",
+      "sourceLang": "en",
+      "url": "https://arxiv.org/abs/2602.22248",
+      "published": "2026-10-19T04:00:00.000Z",
+      "score": 34
+    },
+    {
+      "id": "1a4fdd2b8dbba5",
+      "title": "UC Berkeley等研发NEMS开关提升eDRAM效率",
+      "summary": "UC Berkeley、三星和英特尔联合发表论文，提出基于纳米机电开关的增益单元eDRAM，旨在解决传统eDRAM保持时间短的问题，提高能效。",
+      "points": [
+        "采用NEMS开关",
+        "增益单元eDRAM",
+        "提升保持时间"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 2,
+      "tags": [
+        "设备",
+        "设计",
+        "存储"
+      ],
+      "source": "Semiconductor Engineering",
+      "sourceLang": "en",
+      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
+      "published": "2026-10-18T23:28:31.000Z",
+      "score": 30
+    },
+    {
+      "id": "28aa9f6d75932",
+      "title": "TileDRAM为3D DRAM GPU引入编译器可控布局",
+      "summary": "UC Berkeley等机构提出TileDRAM工具链，将tile到DRAM的布局抽象引入编译器，以减少3D DRAM GPGPU的row-buffer冲突，提升访存效率。",
+      "points": [
+        "扩展GPU线性布局抽象",
+        "减少行缓冲冲突",
+        "面向3D DRAM架构"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 2,
+      "tags": [
+        "存储",
+        "架构",
+        "研究"
+      ],
+      "source": "arXiv cs.AR",
+      "sourceLang": "en",
+      "url": "https://arxiv.org/abs/2610.23767",
+      "published": "2026-10-19T04:00:00.000Z",
+      "score": 27
+    },
+    {
+      "id": "d39293864dd1c",
+      "title": "多智能体框架ArchAgent用于异构系统设计",
+      "summary": "arXiv论文提出ArchAgent分层多智能体框架，利用LLM规划器分解芯片、扩展域设计问题，应对AI/HPC系统组合空间爆炸。",
+      "points": [
+        "覆盖GPU、RISC-V、HBM等架构",
+        "LLM规划器分解设计子问题"
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 2,
+      "tags": [
+        "封装",
+        "架构",
+        "产能"
+      ],
+      "source": "arXiv cs.AR",
+      "sourceLang": "en",
+      "url": "https://arxiv.org/abs/2610.23724",
+      "published": "2026-10-19T04:00:00.000Z",
+      "score": 25
+    },
+    {
+      "id": "6133b3c515287",
+      "title": "iPhone Duo纯eSIM设计引发用户争议",
+      "summary": "苹果折叠屏iPhone Duo仅支持eSIM，用户出国需删除国内号码，引发对便利性和运营商支持的讨论。",
+      "points": [
+        "折叠屏新机取消实体卡槽",
+        "出国使用需切换号码",
+        "eSIM节省内部空间"
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "设计",
+        "IC"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1582860.htm",
+      "published": "2026-10-19T05:19:10.000Z",
+      "score": 17.5
+    },
+    {
+      "id": "1c7c70792079b7",
+      "title": "水月雨发布轻巧豆Dots降噪耳机，399元起",
+      "summary": "水月雨发布轻巧豆Dots无线降噪耳机，采用异形球腔体与22nm主控，支持自适应降噪和蓝牙6.0，售价399元起。",
+      "points": [
+        "异形球腔体适配不同耳道",
+        "单次续航8小时，总续航36小时",
+        "支持LHDC V和LC3高清传输"
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 1,
+      "tags": [
+        "工艺"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/014/767.htm",
+      "published": "2026-10-19T05:07:57.000Z",
+      "score": 19.5
+    }
+  ]
+}
