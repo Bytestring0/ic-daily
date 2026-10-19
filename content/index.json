@@ -1,26 +1,25 @@
 {
-  "generatedAt": "2026-10-19T13:14:08.087Z",
+  "generatedAt": "2026-10-19T13:24:48.344Z",
   "total": 3,
   "editions": [
     {
       "date": "2026-10-19",
-      "count": 21,
-      "intro": "本期共 21 条动态，其中 10 条值得重点关注，集中在存储、芯片设计、市场与产业、设备方向。",
+      "count": 24,
+      "intro": "本期共 24 条动态，其中 8 条值得重点关注，集中在存储、市场与产业、芯片设计方向。",
       "top": [
-        "长鑫存储预计前三季净利近200亿美元",
-        "三星推进Exynos 2700，华为Kirin芯片进入测试",
-        "Anthropic向黑石提供逾10%回报，融资600亿美元购AI芯片"
+        "长鑫存储预计2026年前三季净利约195.8亿美元",
+        "Anthropic向黑石提供超10%回报融资600亿美元AI芯片采购",
+        "英飞凌与Wolfspeed扩大SiC晶圆供应协议至8英寸"
       ],
       "categories": {
-        "memory": 2,
-        "design": 10,
+        "memory": 3,
         "market": 2,
-        "equipment": 1,
+        "design": 10,
+        "eda": 2,
         "policy": 1,
-        "foundry": 2,
-        "material": 1,
-        "research": 1,
-        "eda": 1
+        "equipment": 4,
+        "foundry": 1,
+        "research": 1
       }
     },
     {
