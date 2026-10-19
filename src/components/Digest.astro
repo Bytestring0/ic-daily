@@ -27,6 +27,7 @@ for (const [index, entry] of edition.entries.entries()) {
         <span><b>{edition.entries.length}</b> 条</span><i />
         <span><b>{edition.stats.sources}</b> 个信息源</span><i />
         <span><b>{groups.length}</b> 个分类</span>
+        {edition.stats.quality?.windowHours && <><i /><span>近 {edition.stats.quality.windowHours} 小时</span></>}
       </div>
     </header>
 

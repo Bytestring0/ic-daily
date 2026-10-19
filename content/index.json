@@ -1,23 +1,25 @@
 {
-  "generatedAt": "2026-10-19T06:09:46.153Z",
+  "generatedAt": "2026-10-19T12:58:28.676Z",
   "total": 3,
   "editions": [
     {
       "date": "2026-10-19",
-      "count": 24,
-      "intro": "本期共 24 条动态，其中 10 条值得重点关注，集中在存储、市场与产业、晶圆代工方向。",
+      "count": 20,
+      "intro": "本期共 20 条动态，其中 9 条值得重点关注，集中在市场与产业、设备、存储、芯片设计方向。",
       "top": [
-        "英伟达定制HBM推动三星采用台积电3nm",
-        "英伟达定制HBM推动三星台积电合作",
-        "LG Display 目标 2029 年量产 FLiPP OLED"
+        "Anthropic向黑石提供超10%回报融资600亿美元购AI芯片",
+        "蔡司SMO总裁称High-NA EUV已可量产，订单排至2027年",
+        "长鑫存储预计前三季净利近200亿美元，扭亏为盈"
       ],
       "categories": {
-        "memory": 3,
-        "market": 5,
-        "foundry": 1,
-        "design": 6,
+        "market": 2,
         "equipment": 3,
-        "research": 6
+        "memory": 2,
+        "design": 9,
+        "policy": 1,
+        "foundry": 1,
+        "eda": 1,
+        "research": 1
       }
     },
     {

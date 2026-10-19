@@ -14,6 +14,7 @@ const published = e.published
     })
   : '';
 const points = (e.points || []).slice(0, 4);
+const cards = e.cards?.length ? e.cards.slice(0, 4) : points.map((body, i) => ({ heading: ['关键进展', '技术与数据', '进度与范围', '补充信息'][i], body }));
 ---
 
 <article class="entry" id={`e-${index + 1}`} data-entry-title={e.title}>
@@ -36,8 +37,8 @@ const points = (e.points || []).slice(0, 4);
         <p>{e.summary}</p>
       </div>
     )}
-    {points.map((p) => (
-      <div class="fact fact-point"><p>{p}</p></div>
+    {cards.map((card) => (
+      <div class="fact fact-point"><h4>{card.heading}</h4><p>{card.body}</p></div>
     ))}
   </div>
 
@@ -45,6 +46,7 @@ const points = (e.points || []).slice(0, 4);
     <a class="entry-source" href={e.url} target="_blank" rel="noopener noreferrer">
       {e.source}<span>·</span>{host}<Icon name="link" size={11} />
     </a>
+    {e.provenance?.evidenceType === 'feed_excerpt' && <span class="evidence-note">依据公开摘要</span>}
     {e.tags?.length > 0 && (
       <span class="entry-tags">
         {e.tags.slice(0, 3).map((t) => <span>{t}</span>)}

@@ -23,6 +23,95 @@
 # ============================================================
 
 sources:
+  - name: TechPowerUp
+    url: https://www.techpowerup.com/rss/news
+    lang: en
+    category: design
+    weight: 6
+    enabled: true
+
+  # 公众号经第三方 RSS 转发，保留微信原文链接；可用自建服务替换 url。
+  # 此公共转发站在部分网络不可达，失败会记录，不冒充采集成功。
+  - name: EETOP 微信公众号
+    url: https://decemberpei.cyou/rssbox/wechat-eetop.xml
+    urlEnv: EETOP_RSS_URL
+    lang: zh
+    category: market
+    relay: true
+    weight: 9
+    enabled: true
+
+  - name: 半导体行业观察 微信公众号
+    url: https://decemberpei.cyou/rssbox/wechat-bandaotihangyeguancha.xml
+    lang: zh
+    category: market
+    relay: true
+    weight: 8
+    enabled: true
+
+  - name: 半导体产业纵横 微信公众号
+    url: https://decemberpei.cyou/rssbox/wechat-bandaotichanyezongheng.xml
+    lang: zh
+    category: market
+    relay: true
+    weight: 8
+    enabled: true
+
+  - name: Power Electronics News
+    url: https://www.powerelectronicsnews.com/feed/
+    lang: en
+    category: design
+    weight: 7
+    enabled: true
+
+  - name: Electronics-Lab
+    url: https://www.electronics-lab.com/feed/
+    lang: en
+    category: design
+    weight: 6
+    enabled: true
+
+  - name: eeNews Europe
+    url: https://www.eenewseurope.com/en/feed/
+    lang: en
+    category: design
+    kind: media
+    weight: 8
+    enabled: true
+
+  # 厂商原始公告：已验证为 RSS；同样接受新闻性审核，排除回购流水和营销稿。
+  - name: AMD Investor Relations
+    url: https://ir.amd.com/news-events/press-releases/rss
+    lang: en
+    category: design
+    kind: primary
+    weight: 9
+    enabled: true
+
+  - name: SK hynix Newsroom
+    url: https://news.skhynix.com/feed/
+    lang: en
+    category: memory
+    kind: primary
+    weight: 9
+    enabled: true
+
+  - name: Samsung Global Newsroom
+    url: https://news.samsung.com/global/feed
+    lang: en
+    category: memory
+    kind: primary
+    weight: 8
+    enabled: true
+
+  - name: STMicroelectronics Newsroom
+    url: https://www.st.com/content/st_com/en/press-rss.html
+    lang: en
+    category: design
+    kind: primary
+    weight: 9
+    enabled: true
+
   # ---------- 英文：行业深度媒体 ----------
   - name: Semiconductor Engineering
     url: https://semiengineering.com/feed/
@@ -43,7 +132,7 @@ sources:
     lang: en
     category: market
     weight: 7
-    enabled: false
+    enabled: true
 
   - name: SemiAnalysis
     url: https://semianalysis.com/feed/
@@ -99,7 +188,7 @@ sources:
     lang: en
     category: market
     weight: 5
-    enabled: true
+    enabled: false
 
   - name: DIGITIMES
     url: https://www.digitimes.com/rss/daily.xml
@@ -113,7 +202,7 @@ sources:
     lang: en
     category: design
     weight: 7
-    enabled: true
+    enabled: false
 
   - name: Tom's Hardware
     url: https://www.tomshardware.com/feeds/all
@@ -133,6 +222,7 @@ sources:
     url: https://nvidianews.nvidia.com/releases.xml
     lang: en
     category: design
+    kind: primary
     weight: 9
     enabled: true
 
@@ -171,7 +261,7 @@ sources:
     lang: en
     category: research
     weight: 5
-    enabled: true
+    enabled: false
 
   - name: arXiv eess.SP
     url: https://rss.arxiv.org/rss/eess.SP

@@ -12,13 +12,24 @@
     "build": "astro build",
     "preview": "astro preview",
     "ai:refresh": "node scripts/ai-refresh.mjs",
+    "mail:image": "node scripts/capture-digest.mjs",
+    "mail:preview": "node scripts/mail.mjs --preview",
+    "mail:send": "node scripts/mail.mjs",
+    "news:expand": "node scripts/supplement.mjs",
     "check": "astro check",
+    "test": "node --test tests/*.test.mjs",
     "pipeline:build": "npm run daily && npm run build",
     "clean": "node -e \"require('fs').rmSync('dist',{recursive:true,force:true})\""
   },
   "dependencies": {
+    "@mozilla/readability": "^0.6.0",
     "astro": "^7.3.8",
     "fast-xml-parser": "^5.2.5",
+    "linkedom": "^0.18.13",
+    "nodemailer": "^10.1.7",
     "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.1"
   }
 }

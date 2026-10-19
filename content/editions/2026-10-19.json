@@ -1,597 +1,1094 @@
 {
   "date": "2026-10-19",
-  "generatedAt": "2026-10-19T06:09:46.152Z",
-  "intro": "本期共 24 条动态，其中 10 条值得重点关注，集中在存储、市场与产业、晶圆代工方向。",
+  "generatedAt": "2026-10-19T12:58:28.665Z",
+  "intro": "本期共 20 条动态，其中 9 条值得重点关注，集中在市场与产业、设备、存储、芯片设计方向。",
   "stats": {
-    "count": 24,
-    "sources": 20,
-    "sourcesTotal": 20,
+    "count": 20,
+    "sources": 9,
+    "sourcesFetched": 28,
+    "sourcesTotal": 33,
     "categories": {
-      "memory": 3,
-      "market": 5,
-      "foundry": 1,
-      "design": 6,
+      "market": 2,
       "equipment": 3,
-      "research": 6
+      "memory": 2,
+      "design": 9,
+      "policy": 1,
+      "foundry": 1,
+      "eda": 1,
+      "research": 1
     },
-    "failedSources": [],
-    "durationMs": 45514
+    "failedSources": [
+      {
+        "source": "EETOP 微信公众号",
+        "error": "fetch failed"
+      },
+      {
+        "source": "半导体行业观察 微信公众号",
+        "error": "fetch failed"
+      },
+      {
+        "source": "半导体产业纵横 微信公众号",
+        "error": "fetch failed"
+      },
+      {
+        "source": "Semiconductor Today",
+        "error": "This operation was aborted"
+      },
+      {
+        "source": "cnBeta",
+        "error": "invalid_feed_document"
+      }
+    ],
+    "durationMs": 386996,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 48,
+      "candidates": 26,
+      "readable": 24,
+      "accepted": 20,
+      "rejected": 706,
+      "editor": "u2-flash",
+      "discoveryQueries": 4,
+      "supplemented": 5
+    }
   },
   "entries": [
     {
-      "id": "9a62033434aa3",
-      "title": "英伟达定制HBM推动三星采用台积电3nm",
-      "summary": "英伟达定制HBM设计将基板制造引向台积电，三星经内部评估后同意采用台积电3nm工艺生产NVHBM基板，首次在HBM制造环节合作。",
+      "id": "1bc0c80c59f4ea",
+      "title": "Anthropic向黑石提供超10%回报融资600亿美元购AI芯片",
+      "summary": "Anthropic拟向黑石提供超10%总回报，融资600亿美元采购AI芯片。该方案代号Project North Star，将用于购买谷歌TPU，总容量约1.5GW。高基础设施融资成本使扩产更昂贵。",
       "points": [
-        "英伟达主导HBM设计",
-        "三星首次外包HBM基板制造",
-        "台积电3nm切入HBM供应链"
+        "Anthropic向黑石提供超10%总回报，以融资600亿美元AI芯片采购包。该回报率高于常规融资成本，反映当前基础设施融资成本上升。",
+        "方案代号Project North Star，将资助购买谷歌TPU，合计容量约1.5GW。TPU为谷歌定制AI加速芯片，用于训练和推理。",
+        "高基础设施融资成本使扩大计算能力更昂贵，Anthropic通过融资锁定芯片供应。该交易若达成，将增强其算力储备，但尚待最终协议。"
       ],
-      "category": "memory",
-      "categoryLabel": "存储",
-      "categoryColor": "#b02f6e",
-      "importance": 5,
-      "tags": [
-        "工艺",
-        "封装",
-        "代工",
-        "设计",
-        "研究"
-      ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261019VL201/nvidia-hbm-tsmc-samsung-3nm.html",
-      "published": "2026-10-19T01:04:27.000Z",
-      "score": 46
-    },
-    {
-      "id": "1958b66d031717",
-      "title": "英伟达定制HBM推动三星台积电合作",
-      "summary": "英伟达为下一代AI加速器定制NVHBM，促使三星电子与台积电首次合作开发3纳米基底芯片，重塑HBM供应链格局。",
-      "points": [
-        "三星与台积电长期竞争后联手",
-        "3纳米基底芯片用于定制HBM",
-        "英伟达主导供应链整合"
-      ],
-      "category": "memory",
-      "categoryLabel": "存储",
-      "categoryColor": "#b02f6e",
-      "importance": 5,
-      "tags": [
-        "封装",
-        "代工",
-        "设计",
-        "AI",
-        "IC"
-      ],
-      "source": "cnBeta",
-      "sourceLang": "zh",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1582766.htm",
-      "published": "2026-10-18T12:13:59.000Z",
-      "score": 31.5
-    },
-    {
-      "id": "2eaf64d0b9b72",
-      "title": "LG Display 目标 2029 年量产 FLiPP OLED",
-      "summary": "LG Display 计划 2029 年量产无 FMM 的 FLiPP OLED 技术，瞄准苹果 27 英寸 OLED Studio Display 订单。",
-      "points": [
-        "FLiPP 为无 FMM 光刻 OLED 技术",
-        "8.5 代基板可产 24 块 27 英寸面板"
+      "cards": [
+        {
+          "heading": "融资规模与回报",
+          "body": "Anthropic向黑石提供超10%总回报，以融资600亿美元AI芯片采购包。该回报率高于常规融资成本，反映当前基础设施融资成本上升。"
+        },
+        {
+          "heading": "采购对象与容量",
+          "body": "方案代号Project North Star，将资助购买谷歌TPU，合计容量约1.5GW。TPU为谷歌定制AI加速芯片，用于训练和推理。"
+        },
+        {
+          "heading": "背景与影响",
+          "body": "高基础设施融资成本使扩大计算能力更昂贵，Anthropic通过融资锁定芯片供应。该交易若达成，将增强其算力储备，但尚待最终协议。"
+        }
       ],
       "category": "market",
       "categoryLabel": "市场与产业",
       "categoryColor": "#5c6b7a",
       "importance": 4,
       "tags": [
-        "制造",
-        "光刻",
-        "设备",
-        "设计",
-        "显示"
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019PD245/anthropic-financing-ai-chip-capacity-finance.html",
+      "published": "2026-10-19T08:47:46.000Z",
+      "score": 28.34,
+      "eventKey": "anthropic-blackstone-60b-ai-chip-financing",
+      "originalTitle": "Anthropic offers Blackstone more than 10% return in US$60 billion AI chip financing deal",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019PD245/anthropic-financing-ai-chip-capacity-finance.html",
+        "retrievedAt": "2026-10-19T12:47:51.469Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Anthropic与黑石60亿美元AI芯片融资安排，涉及TPU采购1.5GW，有具体金额和容量。",
+        "evidence": [
+          "Anthropic is offering Blackstone a total return of more than 10% to help finance a US$60 billion artificial intelligence (AI) chip procurement package",
+          "The proposed arrangement, reportedly code-named Project North Star, would fund purchases of Google tensor processing units (TPUs) with a combined capacity of approximately 1.5 GW."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "14df061399c5f6",
+      "title": "蔡司SMO总裁称High-NA EUV已可量产，订单排至2027年",
+      "summary": "蔡司半导体制造光学（SMO）总裁Christoph Hensche接受DIGITIMES专访时表示，High-NA EUV光刻光学已准备好量产，2026和2027年需求已明确，蔡司及其他部分制造商产能已满。",
+      "points": [
+        "蔡司SMO总裁Christoph Hensche表示，High-NA EUV光刻光学已准备好进入量产阶段，相关技术成熟度达到可交付状态。",
+        "受AI芯片需求驱动，2026年和2027年的订单需求已明确，蔡司及部分其他制造商的产能已全部排满，订单能见度延伸至2027年。",
+        "AI驱动的芯片需求激增，延长了蔡司作为EUV光刻光学关键供应商的订单能见度，产能利用率维持高位。"
+      ],
+      "cards": [
+        {
+          "heading": "量产就绪",
+          "body": "蔡司SMO总裁Christoph Hensche表示，High-NA EUV光刻光学已准备好进入量产阶段，相关技术成熟度达到可交付状态。"
+        },
+        {
+          "heading": "订单能见度",
+          "body": "受AI芯片需求驱动，2026年和2027年的订单需求已明确，蔡司及部分其他制造商的产能已全部排满，订单能见度延伸至2027年。"
+        },
+        {
+          "heading": "AI需求驱动",
+          "body": "AI驱动的芯片需求激增，延长了蔡司作为EUV光刻光学关键供应商的订单能见度，产能利用率维持高位。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019PD219/demand-production-president-2027-high-na-euv.html",
+      "published": "2026-10-19T03:27:00.000Z",
+      "score": 27.45,
+      "eventKey": "zeiss-smo-high-na-euv-mass-production-orders-2027",
+      "originalTitle": "Interview: Zeiss SMO president says High-NA EUV ready for mass production, orders booked through 2027",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019PD219/demand-production-president-2027-high-na-euv.html",
+        "retrievedAt": "2026-10-19T12:47:52.043Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "蔡司SMO总裁称High-NA EUV已可量产，订单排至2027年，重要设备供应链动态。",
+        "evidence": [
+          "Christoph Hensche, president of Zeiss Semiconductor Manufacturing Optics (SMO), told DIGITIMES in an exclusive interview that demand for 2026 and 2027 is already clearly defined, with production capacity at Zeiss and some other manufacturers fully booked for the coming years."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "175d95215a030",
+      "title": "长鑫存储预计前三季净利近200亿美元，扭亏为盈",
+      "summary": "中国DRAM厂商长鑫存储（CXMT）预计2026年前三季度净利润达1310亿至1325亿元人民币（约195.8亿至198亿美元），扭转去年同期亏损，主因AI需求推动存储芯片短缺和价格上涨。",
+      "points": [
+        "长鑫存储预计2026年前三季度净利润为1310亿至1325亿元人民币（约195.8亿至198亿美元），去年同期为亏损，实现大幅扭亏。",
+        "AI计算需求激增导致DRAM芯片短缺和价格上涨，是长鑫存储业绩反转的主要原因。",
+        "预计净利润约合195.8亿至198亿美元，接近200亿美元，显示中国DRAM厂商在AI周期中的盈利能力显著提升。"
+      ],
+      "cards": [
+        {
+          "heading": "业绩扭亏",
+          "body": "长鑫存储预计2026年前三季度净利润为1310亿至1325亿元人民币（约195.8亿至198亿美元），去年同期为亏损，实现大幅扭亏。"
+        },
+        {
+          "heading": "AI需求驱动",
+          "body": "AI计算需求激增导致DRAM芯片短缺和价格上涨，是长鑫存储业绩反转的主要原因。"
+        },
+        {
+          "heading": "盈利规模",
+          "body": "预计净利润约合195.8亿至198亿美元，接近200亿美元，显示中国DRAM厂商在AI周期中的盈利能力显著提升。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019VL206/dram-cxmt-earnings-profit-market.html",
+      "published": "2026-10-19T02:38:54.000Z",
+      "score": 27.31,
+      "eventKey": "cxmt-20b-profit-9m2026",
+      "originalTitle": "CXMT eyes nearly US$20 billion profit as AI-driven DRAM shortages fuel earnings turnaround",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019VL206/dram-cxmt-earnings-profit-market.html",
+        "retrievedAt": "2026-10-19T12:47:52.202Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "长鑫存储预计2026年前三季度净利润约200亿美元，扭亏为盈，重大财务里程碑。",
+        "evidence": [
+          "China's leading DRAM manufacturer, ChangXin Memory Technologies (CXMT), expects to report net profit of CNY131 billion to CNY132.5 billion (&asymp; US$19.58 billion to US$19.8 billion) for the first nine months of 2026"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261019VL210/elon-musk-dram-tesla-2028-samsung.html"
+        }
+      ]
+    },
+    {
+      "id": "168bfe63ffb771",
+      "title": "英飞凌与Wolfspeed扩大8英寸SiC晶圆供应协议",
+      "summary": "英飞凌与Wolfspeed扩大并延长长期供应协议，新增8英寸碳化硅晶圆采购。此举为英飞凌SiC工厂提供更多大尺寸衬底来源，也为财务重组后的Wolfspeed带来顶级客户承诺。",
+      "points": [
+        "英飞凌与Wolfspeed签署扩大并延长的长期供应协议，新增8英寸SiC晶圆供应。协议为英飞凌提供额外的大尺寸衬底来源，支持其SiC晶圆厂转换。",
+        "英飞凌获得稳定的8英寸SiC衬底供应，加速产能升级；Wolfspeed在财务重组约一年后获得顶级客户长期承诺，增强业务稳定性。"
+      ],
+      "cards": [
+        {
+          "heading": "协议内容",
+          "body": "英飞凌与Wolfspeed签署扩大并延长的长期供应协议，新增8英寸SiC晶圆供应。协议为英飞凌提供额外的大尺寸衬底来源，支持其SiC晶圆厂转换。"
+        },
+        {
+          "heading": "双方获益",
+          "body": "英飞凌获得稳定的8英寸SiC衬底供应，加速产能升级；Wolfspeed在财务重组约一年后获得顶级客户长期承诺，增强业务稳定性。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261019VL202/silicon-wolfspeed-infineon-sic-6-inch.html",
+      "published": "2026-10-19T02:08:25.000Z",
+      "score": 27.23,
+      "eventKey": "infineon-wolfspeed-8-inch-sic-wafer-deal",
+      "originalTitle": "Infineon extends Wolfspeed wafer deal to 8-inch silicon carbide",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019VL202/silicon-wolfspeed-infineon-sic-6-inch.html",
+        "retrievedAt": "2026-10-19T12:47:53.416Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英飞凌与Wolfspeed扩大8英寸SiC晶圆长期供应协议，有具体供应链事实。",
+        "evidence": [
+          "Infineon Technologies has lined up 8-inch silicon carbide (SiC) wafers from Wolfspeed under an expanded and extended long-term supply agreement."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "185539ac3385c4",
+      "title": "SK海力士联合五家银行出资2万亿韩元扶持本土半导体供应链",
+      "summary": "SK海力士今日宣布与KB国民银行、新韩银行、友利银行和韩亚银行共同出资2万亿韩元（约合99.86亿元人民币），扶持韩国半导体材料、零部件和设备供应商。项目部分资金将用于建设Trinity Fab，投资额8700亿韩元（约合43.44亿元人民币），以增强本土技术自主能力。",
+      "points": [
+        "SK海力士与四家银行共同出资2万亿韩元，韩国贸易保险公社（K-SURE）提供担保。参与银行包括KB国民银行、新韩银行、友利银行和韩亚银行，另有多个主要半导体材料、零部件及设备供应商参与。",
+        "项目部分资金用于建设Trinity Fab，投资额8700亿韩元（约合43.44亿元人民币），旨在支持与半导体大规模量产相关的技术研发，加快材料和零部件的国产化进程。"
+      ],
+      "cards": [
+        {
+          "heading": "出资规模与参与方",
+          "body": "SK海力士与四家银行共同出资2万亿韩元，韩国贸易保险公社（K-SURE）提供担保。参与银行包括KB国民银行、新韩银行、友利银行和韩亚银行，另有多个主要半导体材料、零部件及设备供应商参与。"
+        },
+        {
+          "heading": "Trinity Fab投资",
+          "body": "项目部分资金用于建设Trinity Fab，投资额8700亿韩元（约合43.44亿元人民币），旨在支持与半导体大规模量产相关的技术研发，加快材料和零部件的国产化进程。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "存储"
       ],
       "source": "IT之家",
       "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/691.htm",
-      "published": "2026-10-19T02:17:42.000Z",
-      "score": 37.5
+      "url": "https://www.ithome.com/1/014/993.htm",
+      "published": "2026-10-19T10:43:18.000Z",
+      "score": 24.66,
+      "eventKey": "skhynix-banks-invest-krw2trillion-korea-semiconductor-suppliers",
+      "originalTitle": "SK 海力士与多家银行联手出资 2 万亿韩元，扶持韩国半导体产业",
+      "provenance": {
+        "url": "https://www.ithome.com/1/014/993.htm",
+        "retrievedAt": "2026-10-19T12:47:55.884Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SK海力士联合多家银行出资2万亿韩元扶持韩国半导体材料、零部件和设备供应商，并投资8700亿韩元建设Trinity Fab，是明确的产业投融资新事件。",
+        "evidence": [
+          "SK 海力士今日宣布与商业银行共同出资 2 万亿韩元(IT之家注:现汇率约合 99.86 亿元人民币),扶持韩国半导体材料、零部件和设备供应商。",
+          "项目投资额为 8,700 亿韩元(现汇率约合 43.44 亿元人民币),目标是增强韩国本土材料、零部件及设备供应商的技术自主能力"
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "16c7f7f05428b2",
-      "title": "苹果或率先采用台积电1.4纳米工艺",
-      "summary": "台积电加速推进A14 1.4纳米制程，目标2028年上半年量产，苹果预计为首批客户，以应对AI芯片需求。",
+      "id": "8d854ebd0808a",
+      "title": "消息称：三星电子计划2027年全面进军硅光子学，挑战台积电",
+      "summary": "据报道，据韩媒MTN报道，三星电子计划2027年全面进军硅光子学（SiPh）领域，首先利用12英寸技术代工光子集成电路（PIC），后续扩展至PIC-EIC整合和光封装。三星内部认为与台积电的差距在市场份额而非技术，将凭借全栈解决方案竞争，并考虑并购相关公司。",
       "points": [
-        "台积电A14工艺量产目标2028上半年",
-        "苹果有望成为首批采用客户"
+        "三星计划2027年全面进军硅光子学，初期利用12英寸技术为客户代工光子集成电路（PIC），后续将扩展到PIC-EIC整合和光封装领域。",
+        "三星电子内部人士认为，与台积电在硅光子学方面的差距在于市场份额而非技术本身。三星将以其从存储到逻辑到封装的全栈解决方案与台积电竞争，并考虑对硅光子学相关公司进行并购以推进技术发展。"
+      ],
+      "cards": [
+        {
+          "heading": "技术路线",
+          "body": "三星计划2027年全面进军硅光子学，初期利用12英寸技术为客户代工光子集成电路（PIC），后续将扩展到PIC-EIC整合和光封装领域。"
+        },
+        {
+          "heading": "竞争策略",
+          "body": "三星电子内部人士认为，与台积电在硅光子学方面的差距在于市场份额而非技术本身。三星将以其从存储到逻辑到封装的全栈解决方案与台积电竞争，并考虑对硅光子学相关公司进行并购以推进技术发展。"
+        }
       ],
       "category": "foundry",
       "categoryLabel": "晶圆代工",
       "categoryColor": "#1a5fa8",
       "importance": 4,
       "tags": [
-        "制造",
-        "工艺",
-        "代工",
-        "设计",
-        "AI",
-        "IC"
+        "晶圆代工"
       ],
-      "source": "cnBeta",
+      "source": "IT之家",
       "sourceLang": "zh",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1582758.htm",
-      "published": "2026-10-18T10:11:25.000Z",
-      "score": 36.5
+      "url": "https://www.ithome.com/1/014/862.htm",
+      "published": "2026-10-19T07:57:47.000Z",
+      "score": 19.2,
+      "eventKey": "samsung-enter-silicon-photonics-2027",
+      "originalTitle": "消息称三星电子计划 2027 年全面进军硅光子学，拟以全栈方案与台积电竞争",
+      "provenance": {
+        "url": "https://www.ithome.com/1/014/862.htm",
+        "retrievedAt": "2026-10-19T12:47:59.835Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星电子计划2027年全面进军硅光子学，以12英寸技术代工PIC，并与台积电竞争，是重要战略动向。",
+        "evidence": [
+          "三星电子计划 2027 年全面进军硅光子学 (SiPh) 领域,首先利用 12 英寸技术为客户代工光子集成电路 (PIC)",
+          "三星电子将以其从存储到逻辑到封装的全栈解决方案与台积电竞争"
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "13ecaa1d83bb4d",
-      "title": "沐曦股份前三季度扭亏为盈，净利润预计达5.87亿至7.17亿元",
-      "summary": "沐曦股份发布2026年前三季度业绩预告，营收同比增长105.6%-151.29%，归母净利润扭亏为盈。",
+      "id": "149388d126f638",
+      "title": "英飞凌扩充PSOC Control C3系列，新增安全MCU",
+      "summary": "英飞凌推出PSOC Control C3系列新成员PSC3M/P6，单芯片支持四路无刷直流电机控制与电源转换，并集成后量子密码安全特性。该系列现已供货，面向工业驱动、机器人及可再生能源等应用。",
       "points": [
-        "营收25.41亿至31.06亿元",
-        "扣非净利润2.23亿至3.02亿元"
+        "PSC3M/P6基于Arm Cortex-M33内核，最高180MHz，支持有传感器和无传感器方式控制最多四路无刷直流电机，适用于高转速电机、功率因数校正及宽禁带半导体电源转换系统。",
+        "MCU支持CNSA Suite 2.0固件保护，集成SHA-512和Leighton-Micali签名用于安全启动与固件更新验证，并支持PSA Level 3安全架构，帮助设备制造商应对EU Cyber Resilience Act要求。",
+        "PSC3M/P6系列现已供货，提供电机控制（PSC3M6）和电源转换（PSC3P6）专用型号，封装最多100引脚。配套ModusToolbox Power Suite和Motor Suite提供图形化开发环境与控制库。"
+      ],
+      "cards": [
+        {
+          "heading": "四电机控制",
+          "body": "PSC3M/P6基于Arm Cortex-M33内核，最高180MHz，支持有传感器和无传感器方式控制最多四路无刷直流电机，适用于高转速电机、功率因数校正及宽禁带半导体电源转换系统。"
+        },
+        {
+          "heading": "后量子安全",
+          "body": "MCU支持CNSA Suite 2.0固件保护，集成SHA-512和Leighton-Micali签名用于安全启动与固件更新验证，并支持PSA Level 3安全架构，帮助设备制造商应对EU Cyber Resilience Act要求。"
+        },
+        {
+          "heading": "供货与工具",
+          "body": "PSC3M/P6系列现已供货，提供电机控制（PSC3M6）和电源转换（PSC3P6）专用型号，封装最多100引脚。配套ModusToolbox Power Suite和Motor Suite提供图形化开发环境与控制库。"
+        }
       ],
       "category": "design",
       "categoryLabel": "芯片设计",
       "categoryColor": "#1f7a4d",
-      "importance": 4,
+      "importance": 3,
       "tags": [
-        "资本",
-        "代工",
-        "架构",
-        "业绩",
-        "产能",
-        "AI",
-        "IC"
+        "芯片设计"
       ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/013/627.htm",
-      "published": "2026-10-19T03:19:21.000Z",
-      "score": 35.5
+      "source": "eeNews Europe",
+      "sourceLang": "en",
+      "url": "https://www.eenewseurope.com/en/infineon-expands-psoc-control-c3-family-with-secure-mcus-for-motor-and-power-control",
+      "published": "2026-10-19T09:04:44.000Z",
+      "score": 28.38,
+      "eventKey": "infineon-expands-psoc-control-c3-family-psc3m-p6",
+      "originalTitle": "Infineon expands PSOC Control C3 family with secure MCUs for motor and power control",
+      "provenance": {
+        "url": "https://www.eenewseurope.com/en/infineon-expands-psoc-control-c3-family-with-secure-mcus-for-motor-and-power-control",
+        "retrievedAt": "2026-10-19T12:47:51.276Z",
+        "articlePublished": "2026-10-19T09:04:44.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英飞凌发布新MCU系列，支持四电机控制与后量子密码，面向工业CRA合规，有具体产品参数和上市信息。",
+        "evidence": [
+          "Infineon Technologies has expanded its PSOC Control C3 microcontroller family with the new PSC3M/P6 series, combining multi-motor control, power conversion capabilities and advanced security in a single device.",
+          "The PSC3M/P6 family is available now, with dedicated variants for motor control (PSC3M6) and power conversion (PSC3P6)"
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "14df061399c5f6",
-      "title": "蔡司SMO总裁称High-NA EUV已可量产，订单排至2027年",
-      "summary": "蔡司SMO总裁表示High-NA EUV光刻光学已准备就绪，2026-2027年订单明确，产能已被预订。",
+      "id": "9c50a8a8c5153",
+      "title": "三星推进Exynos 2700，华为Kirin芯片进入测试",
+      "summary": "三星电子正在开发Exynos 2700，计划2027年更广泛用于Galaxy S27系列；华为下一代Kirin芯片已进入测试阶段。双方竞争加剧，三星面临提升AP性能、良率和成本竞争力的压力。",
       "points": [
-        "AI需求驱动订单可见性",
-        "蔡司及部分厂商产能满载"
+        "三星电子正在开发Exynos 2700应用处理器，目标2027年在Galaxy S27系列中更广泛采用，以降低对高通和联发科的依赖。",
+        "华为已将下一代Kirin芯片推进至测试阶段，与三星的研发形成直接竞争。"
       ],
-      "category": "equipment",
-      "categoryLabel": "设备",
-      "categoryColor": "#0e7c86",
-      "importance": 4,
+      "cards": [
+        {
+          "heading": "三星计划",
+          "body": "三星电子正在开发Exynos 2700应用处理器，目标2027年在Galaxy S27系列中更广泛采用，以降低对高通和联发科的依赖。"
+        },
+        {
+          "heading": "华为进展",
+          "body": "华为已将下一代Kirin芯片推进至测试阶段，与三星的研发形成直接竞争。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
       "tags": [
-        "制造",
-        "光刻"
+        "市场与产业"
       ],
       "source": "DIGITIMES",
       "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261019PD219/demand-production-president-2027-high-na-euv.html",
-      "published": "2026-10-19T03:27:00.000Z",
-      "score": 34
+      "url": "https://www.digitimes.com/news/a20261019PD247/samsung-exynos-kirin-huawei-chips.html",
+      "published": "2026-10-19T08:55:00.000Z",
+      "score": 28.36,
+      "eventKey": "samsung-develops-exynos-2700-huawei-kirin-testing",
+      "originalTitle": "Samsung targets Exynos 2700 expansion as Huawei advances Kirin chips",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019PD247/samsung-exynos-kirin-huawei-chips.html",
+        "retrievedAt": "2026-10-19T12:47:51.114Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星Exynos 2700开发与华为下一代麒麟芯片测试进入新阶段，属具体产品进展。",
+        "evidence": [
+          "Samsung Electronics is developing the Exynos 2700 for broader use across its Galaxy S27 lineup in 2027, while Huawei has moved its next-generation Kirin chips into testing."
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "1a1cfdf09e8734",
-      "title": "阿里玄铁芯片累计出货超 60 亿颗",
-      "summary": "阿里达摩院宣布玄铁 RISC-V 芯片累计出货超 60 亿颗，并发布车规级 E908A 芯片，RISC-V 生态持续扩大。",
+      "id": "11a8168cb1beaf",
+      "title": "韩美半导体推HBM4键合设备，2027年推Wide TC Bonder",
+      "summary": "韩美半导体在SEDEX 2026展示HBM和AI芯片封装设备，包括用于HBM4生产的TC Bonder 4和计划2027年推出的Wide TC Bonder。公司还推出五款2.5D封装系统，适配大型AI芯片封装。",
       "points": [
-        "玄铁出货量从 40 亿增至 60 亿",
-        "发布车规增强 E908A 芯片"
+        "TC Bonder 4用于HBM4生产，已在SEDEX 2026展出。该设备支持高带宽存储器堆叠，满足下一代AI芯片需求。",
+        "Wide TC Bonder计划2027年推出，面向大型基板封装。该设备将扩展韩美在先进封装领域的覆盖。",
+        "公司推出五款2.5D封装系统，设计用于容纳日益增大的AI芯片封装。这些系统补充现有产品线，应对先进封装需求。"
       ],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#1f7a4d",
-      "importance": 4,
-      "tags": [
-        "资本",
-        "架构",
-        "业绩",
-        "研究",
-        "IC"
-      ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/770.htm",
-      "published": "2026-10-19T05:21:57.000Z",
-      "score": 30.5
-    },
-    {
-      "id": "4efce4c31fb7d",
-      "title": "长鑫科技股价创上市新低，三季度利润增速放缓",
-      "summary": "长鑫科技股价大跌近9%至41元，创上市首日以来新低；尽管前三季度扭亏为盈，但第三季度净利润环比增幅大幅放缓至1%-3.9%。",
-      "points": [
-        "股价创上市新低",
-        "前三季度净利1310-1325亿元",
-        "环比增速大幅放缓"
-      ],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5c6b7a",
-      "importance": 4,
-      "tags": [
-        "资本",
-        "存储",
-        "IC"
-      ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/722.htm",
-      "published": "2026-10-19T03:03:13.000Z",
-      "score": 27.5
-    },
-    {
-      "id": "14e7cd71521e7c",
-      "title": "中国三季度GDP增长4.5%，AI带动出口",
-      "summary": "中国第三季度经济增速回升至4.5%，AI数据中心建设带动芯片等出口增长，但内需疲软和房地产低迷仍是挑战。",
-      "points": [
-        "AI硬件需求推动出口",
-        "消费与房地产仍承压"
-      ],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5c6b7a",
-      "importance": 4,
-      "tags": [
-        "产能",
-        "AI",
-        "IC"
-      ],
-      "source": "cnBeta",
-      "sourceLang": "zh",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1582828.htm",
-      "published": "2026-10-19T04:48:20.000Z",
-      "score": 19.5
-    },
-    {
-      "id": "1f2cc6db97c753",
-      "title": "理研实现硅量子比特高精度并行控制",
-      "summary": "日本理化学研究所团队在多个硅量子比特并行运行时维持高保真度单量子门操作，为利用现有半导体工艺构建更大规模硅基量子处理器铺路。",
-      "points": [
-        "硅量子比特并行控制保真度获提升",
-        "兼容现有半导体制造技术"
-      ],
-      "category": "research",
-      "categoryLabel": "研究与论文",
-      "categoryColor": "#4a7c3f",
-      "importance": 4,
-      "tags": [
-        "研究",
-        "IC"
-      ],
-      "source": "cnBeta",
-      "sourceLang": "zh",
-      "url": "https://www.cnbeta.com.tw/articles/science/1582818.htm",
-      "published": "2026-10-19T04:41:33.000Z",
-      "score": 19.5
-    },
-    {
-      "id": "23a58fcccee10",
-      "title": "本周综述：Tata晶圆厂挑战与Intel复兴",
-      "summary": "Tata Dholera晶圆厂需将早期客户承诺转化为合格量产，Intel通过制程执行与先进封装重建竞争力，美光与台积电扩产AI产能。",
-      "points": [
-        "Tata面临股东审查与量产压力",
-        "Intel聚焦制程、合作与封装",
-        "美光、台积电扩产AI相关产能"
-      ],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5c6b7a",
-      "importance": 3,
-      "tags": [
-        "代工",
-        "设备",
-        "设计",
-        "存储",
-        "功率",
-        "材料",
-        "产能"
-      ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261019VL200/2026-capacity-fab-production-intel.html",
-      "published": "2026-10-19T01:23:32.000Z",
-      "score": 45
-    },
-    {
-      "id": "2dc0c44466171",
-      "title": "HBFSim 模拟器发布，探索 HBF 内存层级",
-      "summary": "研究人员推出 HBFSim，用于模拟 HBM+HBF 异构内存系统，评估高带宽闪存在 LLM 加速中的性能与寿命影响。",
-      "points": [
-        "面向 LLM 的 HBF 内存模拟器",
-        "建模 NAND 延迟与写寿命"
-      ],
-      "category": "research",
-      "categoryLabel": "研究与论文",
-      "categoryColor": "#4a7c3f",
-      "importance": 3,
-      "tags": [
-        "工艺",
-        "封装",
-        "存储",
-        "架构"
-      ],
-      "source": "arXiv cs.AR",
-      "sourceLang": "en",
-      "url": "https://arxiv.org/abs/2610.23503",
-      "published": "2026-10-19T04:00:00.000Z",
-      "score": 32
-    },
-    {
-      "id": "15e995f9e9fa17",
-      "title": "英伟达承认牺牲单核性能转向智能体AI",
-      "summary": "英伟达Vera CPU团队承认过去为追求核心数牺牲单线程性能，Agentic AI需求迫使设计转向提升单核性能。",
-      "points": [
-        "云端CPU曾重核心数轻单核性能",
-        "智能体AI推动设计逆转"
-      ],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#1f7a4d",
-      "importance": 3,
-      "tags": [
-        "设计",
-        "AI",
-        "IC"
-      ],
-      "source": "cnBeta",
-      "sourceLang": "zh",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1582858.htm",
-      "published": "2026-10-19T05:18:40.000Z",
-      "score": 22.5
-    },
-    {
-      "id": "27cf71ecd0b54",
-      "title": "Wooptix晶圆量测技术瞄准头部芯片厂",
-      "summary": "西班牙半导体量测初创Wooptix加速进入头部晶圆厂供应链，其技术源于天文观测，目标3-5年内实现量产采用。",
-      "points": [
-        "技术源自天文观测",
-        "目标3-5年内量产采用"
+      "cards": [
+        {
+          "heading": "HBM4键合设备",
+          "body": "TC Bonder 4用于HBM4生产，已在SEDEX 2026展出。该设备支持高带宽存储器堆叠，满足下一代AI芯片需求。"
+        },
+        {
+          "heading": "Wide TC Bonder",
+          "body": "Wide TC Bonder计划2027年推出，面向大型基板封装。该设备将扩展韩美在先进封装领域的覆盖。"
+        },
+        {
+          "heading": "2.5D封装系统",
+          "body": "公司推出五款2.5D封装系统，设计用于容纳日益增大的AI芯片封装。这些系统补充现有产品线，应对先进封装需求。"
+        }
       ],
       "category": "equipment",
       "categoryLabel": "设备",
       "categoryColor": "#0e7c86",
       "importance": 3,
       "tags": [
-        "材料"
-      ],
-      "source": "DIGITIMES",
-      "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261019PD220/interview-wafer-metrology-startup-adoption-spain.html",
-      "published": "2026-10-19T04:42:23.000Z",
-      "score": 21
-    },
-    {
-      "id": "cf4fb6ecc1624",
-      "title": "MemLLM提出SSD内存储加速端侧RAG推理",
-      "summary": "MemLLM提出一种端到端存储内处理架构，在SSD内基于预计算KV缓存执行完整注意力流水线，缓解端侧RAG的I/O瓶颈。",
-      "points": [
-        "消除预填充阶段瓶颈",
-        "利用SSD内加速器处理注意力"
-      ],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#1f7a4d",
-      "importance": 3,
-      "tags": [
-        "设备",
         "存储"
       ],
-      "source": "arXiv cs.AR",
+      "source": "DIGITIMES",
       "sourceLang": "en",
-      "url": "https://arxiv.org/abs/2610.22579",
-      "published": "2026-10-19T04:00:00.000Z",
-      "score": 21
+      "url": "https://www.digitimes.com/news/a20261019PD215/equipment-packaging-hanmi-ai-chip-hbm.html",
+      "published": "2026-10-19T02:35:00.000Z",
+      "score": 27.3,
+      "eventKey": "hanmi-wide-tc-bonder-2027-2.5d-packaging",
+      "originalTitle": "Hanmi targets 2027 Wide TC Bonder launch, expands 2.5D AI chip packaging lineup",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019PD215/equipment-packaging-hanmi-ai-chip-hbm.html",
+        "retrievedAt": "2026-10-19T12:47:53.172Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "韩美半导体在SEDEX展示HBM4 TC Bonder 4，并计划2027年推出Wide TC Bonder，有具体产品时间表。",
+        "evidence": [
+          "Hanmi Semiconductor showcased its high-bandwidth memory (HBM) and AI chip packaging equipment at SEDEX 2026, including the TC Bonder 4 for HBM4 production and the Wide TC Bonder, scheduled for launch in 2027."
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "f4c445533895b",
-      "title": "Von Ardenne推出面板级封装柔性设备",
-      "summary": "德国设备商Von Ardenne以托盘式镀膜设备切入半导体面板级封装市场，可适配不同基板尺寸，降低标准未定下的设备投资风险。",
+      "id": "1c40f3c8bdc8b9",
+      "title": "Cellid加入高通计划开发骁龙AR眼镜",
+      "summary": "日本Cellid公司加入高通Snapdragon START计划，基于骁龙平台开发AR眼镜参考设计。Cellid将利用高通平台和SDK，为设备制造商提供集成开发框架，降低开发时间和成本。",
       "points": [
-        "设备兼容多种面板尺寸",
-        "瞄准先进封装玻璃基板工艺",
-        "应对面板尺寸标准未定"
+        "Cellid加入高通Snapdragon START计划，使用START平台解决方案和SDK开发AR眼镜参考设计。该计划支持智能眼镜等个人AI设备的开发与商业化。",
+        "Cellid拥有自研光学组件，包括宽视场波导、显示模组和光学引擎，并提供机械设计与软件开发工具。其Crux双目全彩AR眼镜参考设计采用骁龙AR1+ Gen 1平台。",
+        "Crux面向高端应用，如高级AR项目和扩展现实平台开发。Cellid称其光学系统可提供高分辨率、明亮图像，同时保持传统眼镜的佩戴舒适性。"
       ],
-      "category": "equipment",
-      "categoryLabel": "设备",
-      "categoryColor": "#0e7c86",
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "Cellid加入高通Snapdragon START计划，使用START平台解决方案和SDK开发AR眼镜参考设计。该计划支持智能眼镜等个人AI设备的开发与商业化。"
+        },
+        {
+          "heading": "技术基础",
+          "body": "Cellid拥有自研光学组件，包括宽视场波导、显示模组和光学引擎，并提供机械设计与软件开发工具。其Crux双目全彩AR眼镜参考设计采用骁龙AR1+ Gen 1平台。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "Crux面向高端应用，如高级AR项目和扩展现实平台开发。Cellid称其光学系统可提供高分辨率、明亮图像，同时保持传统眼镜的佩戴舒适性。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
       "importance": 3,
       "tags": [
-        "材料"
+        "市场与产业"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/cellid-joins-qualcomm-program-to-develop-snapdragon-based-ar-glasses/",
+      "published": "2026-10-19T02:42:02.000Z",
+      "score": 19.32,
+      "eventKey": "cellid-joins-qualcomm-snapdragon-start-ar-glasses",
+      "originalTitle": "Cellid Joins Qualcomm Program to Develop Snapdragon-based AR Glasses",
+      "provenance": {
+        "url": "https://www.eetasia.com/cellid-joins-qualcomm-program-to-develop-snapdragon-based-ar-glasses/",
+        "retrievedAt": "2026-10-19T12:48:14.331Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Cellid加入高通Snapdragon START计划开发AR眼镜参考设计，是AR芯片生态合作的具体新动态。",
+        "evidence": [
+          "Japan-based Cellid Inc. has joined Qualcomm Technologies’ Snapdragon START program to develop augmented reality (AR) glasses reference designs based on Snapdragon platforms."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1bac98c4cc4bb1",
+      "title": "2027年高端云AI加速器出货量预计增长64.5%",
+      "summary": "DIGITIMES预测，2027年谷歌、AWS等云服务商自研ASIC将大幅放量，推动高端云AI加速器出货达2595.1万颗，同比增长64.5%。ASIC出货量将首次超越GPU，达1526.2万颗，同比增长110.9%。英伟达仍居首位，但市占率降至35.1%。",
+      "cards": [
+        {
+          "heading": "出货量预测",
+          "body": "2027年高端云AI加速器总出货2595.1万颗，同比增长64.5%。其中ASIC出货1526.2万颗，同比增110.9%，首次超过GPU。"
+        },
+        {
+          "heading": "厂商格局",
+          "body": "英伟达出货909.6万颗，同比增18.2%，市占率35.1%；谷歌出货800.9万颗，同比增134%，市占率30.9%，与英伟达差距缩小至4.2个百分点。"
+        },
+        {
+          "heading": "供应瓶颈",
+          "body": "供应瓶颈转向T-Glass、ABF载板、高层数PCB及HBM3E/HBM4/HBM4E。英伟达Rubin、谷歌TPU v8、亚马逊Trainium3进入爬坡期。"
+        },
+        {
+          "heading": "需求驱动",
+          "body": "微软、亚马逊、谷歌、Meta、甲骨文持续扩建AI数据中心。Agentic AI增加token消耗和推理需求，OpenAI、Anthropic及主权AI扩大GPU采购和云算力租赁。"
+        }
+      ],
+      "points": [
+        "2027年高端云AI加速器总出货2595.1万颗，同比增长64.5%。其中ASIC出货1526.2万颗，同比增110.9%，首次超过GPU。",
+        "英伟达出货909.6万颗，同比增18.2%，市占率35.1%；谷歌出货800.9万颗，同比增134%，市占率30.9%，与英伟达差距缩小至4.2个百分点。",
+        "供应瓶颈转向T-Glass、ABF载板、高层数PCB及HBM3E/HBM4/HBM4E。英伟达Rubin、谷歌TPU v8、亚马逊Trainium3进入爬坡期。",
+        "微软、亚马逊、谷歌、Meta、甲骨文持续扩建AI数据中心。Agentic AI增加token消耗和推理需求，OpenAI、Anthropic及主权AI扩大GPU采购和云算力租赁。"
+      ],
+      "category": "market",
+      "importance": 4,
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "tags": [
+        "市场与产业"
       ],
       "source": "DIGITIMES",
       "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261019PD232/equipment-packaging-market-panel-technology.html",
-      "published": "2026-10-19T05:55:00.000Z",
-      "score": 19
+      "url": "https://www.digitimes.com/reports/item.php?id=20261013RS400",
+      "published": "2026-10-19T03:21:16.000Z",
+      "score": 27.41,
+      "eventKey": "digitimes-2027-cloud-ai-accelerator-shipment-forecast",
+      "originalTitle": "Shipments of high-end cloud AI accelerators, 2027",
+      "provenance": {
+        "url": "https://www.digitimes.com/reports/item.php?id=20261013RS400",
+        "retrievedAt": "2026-10-19T12:54:06.867Z",
+        "articlePublished": "2026-10-19T03:21:16.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "DIGITIMES报告预测2027年高端云AI加速器出货量，ASIC首次超越GPU，包含具体数字和市场份额变化，是重要的市场预测数据。",
+        "evidence": [
+          "DIGITIMES observed that cloud service providers (CSPs) such as Google and AWS will sharply ramp up self-developed ASICs in 2027, lifting high-end cloud AI accelerator shipments to 25.951 million units, up 64.5% year-over-year.",
+          "ASIC shipments will reach 15.262 million units, up 110.9% year-over-year, and overtake GPU shipments for the first time."
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "2f26c85415d4",
-      "title": "CMM-MP提出CXL与以太网融合内存池架构",
-      "summary": "CMM-MP是一种结合CXL与以太网的新型内存池化设备，可提供数百TB级可组合内存扩展，无需修改GPU/CPU应用。",
+      "id": "9a62033434aa3",
+      "title": "三星将用台积电3nm代工英伟达定制HBM基底",
+      "summary": "据《首尔经济日报》10月18日报道，三星电子经内部评估后，同意采用台积电3nm工艺制造英伟达下一代定制HBM（NVHBM）的基底芯片。这是两家公司首次在HBM制造环节合作，标志着定制HBM控制权从存储厂商转向英伟达。",
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "三星将使用台积电3nm工艺生产NVHBM的基底芯片（base die）。此前三星HBM堆叠的所有部件均自产，此次为首次外包部分制造。"
+        },
+        {
+          "heading": "行业影响",
+          "body": "英伟达的定制HBM设计将制造控制权从存储厂商转移至最大客户，并引导关键工艺流向台积电。报道称这是两家公司在HBM制造阶段的首次合作。"
+        }
+      ],
       "points": [
-        "支持数百TB内存池",
-        "兼容现有GPU/CPU应用"
+        "三星将使用台积电3nm工艺生产NVHBM的基底芯片（base die）。此前三星HBM堆叠的所有部件均自产，此次为首次外包部分制造。",
+        "英伟达的定制HBM设计将制造控制权从存储厂商转移至最大客户，并引导关键工艺流向台积电。报道称这是两家公司在HBM制造阶段的首次合作。"
       ],
       "category": "memory",
+      "importance": 4,
       "categoryLabel": "存储",
       "categoryColor": "#b02f6e",
-      "importance": 3,
       "tags": [
-        "架构"
-      ],
-      "source": "arXiv cs.AR",
-      "sourceLang": "en",
-      "url": "https://arxiv.org/abs/2610.22716",
-      "published": "2026-10-19T04:00:00.000Z",
-      "score": 16
-    },
-    {
-      "id": "160621db655f94",
-      "title": "韩国ASICLAND借台湾研发中心拓展AI芯片",
-      "summary": "韩国ASIC设计商ASICLAND在SEDEX 2026展示AxHub平台，计划通过台湾研发中心强化先进制程与封装能力，推动AI芯片量产。",
-      "points": [
-        "AxHub平台加速定制芯片开发",
-        "存储控制器仍是主要收入来源",
-        "拓展AI芯片量产与海外市场"
-      ],
-      "category": "design",
-      "categoryLabel": "芯片设计",
-      "categoryColor": "#1f7a4d",
-      "importance": 2,
-      "tags": [
-        "制造",
-        "代工",
-        "架构",
-        "功率",
-        "业绩",
-        "AI"
+        "存储"
       ],
       "source": "DIGITIMES",
       "sourceLang": "en",
-      "url": "https://www.digitimes.com/news/a20261019PD211/ai-chip-tsmc-design-taiwan-growth.html",
-      "published": "2026-10-19T02:25:00.000Z",
-      "score": 43
+      "url": "https://www.digitimes.com/news/a20261019VL201/nvidia-hbm-tsmc-samsung-3nm.html",
+      "published": "2026-10-19T01:04:27.000Z",
+      "score": 27.05,
+      "eventKey": "nvidia-custom-hbm-samsung-tsmc-3nm",
+      "originalTitle": "Nvidia's custom HBM pulls Samsung onto TSMC's 3nm process, report says",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261019VL201/nvidia-hbm-tsmc-samsung-3nm.html",
+        "retrievedAt": "2026-10-19T12:47:52.686Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达定制HBM推动三星首次在HBM制造阶段使用台积电3nm工艺，是重要的供应链和技术合作变化。",
+        "evidence": [
+          "Samsung Electronics, which has made every part of its HBM stacks in-house, has agreed after an internal review to use TSMC's 3nm process for the base die of NVHBM, Nvidia's next-generation custom HBM, the Seoul Economic Daily reported on October 18, citing industry sources.",
+          "The newspaper said it would be the first time the two companies have worked together at the HBM manufacturing stage."
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "4e66ff0e157ce",
-      "title": "粒子物理实验将采用异构、边缘与量子硬件机器学习",
-      "summary": "arXiv 发布论文，探讨下一代粒子物理实验中异构、边缘及量子硬件上的机器学习应用，以应对数据采集挑战。",
+      "id": "2c035eb8f4761",
+      "title": "AMD锐龙AI 7 HX 455曝光：8核CPU配16CU GPU",
+      "summary": "据报道，消息人士曝光AMD未发布的锐龙AI 7 HX 455处理器，基于Gorgon Point 1芯片，保留完整16核心GPU，但CPU缩减为8核16线程，配备24MB L3缓存。其兄弟型号为掌机端锐龙Z2 Extreme，CPU架构为3x Zen 5加5x Zen 5c。",
+      "cards": [
+        {
+          "heading": "核心规格",
+          "body": "锐龙AI 7 HX 455基于Gorgon Point 1芯片，CPU为8核16线程，GPU为完整16核心，配备24MB L3缓存。"
+        },
+        {
+          "heading": "兄弟型号",
+          "body": "消息人士称其兄弟型号为掌机端锐龙Z2 Extreme，后者CPU架构为3x Zen 5加5x Zen 5c。"
+        }
+      ],
       "points": [
-        "面向高数据率实时推理",
-        "结合AI/ML与量子算法"
+        "锐龙AI 7 HX 455基于Gorgon Point 1芯片，CPU为8核16线程，GPU为完整16核心，配备24MB L3缓存。",
+        "消息人士称其兄弟型号为掌机端锐龙Z2 Extreme，后者CPU架构为3x Zen 5加5x Zen 5c。"
       ],
-      "category": "research",
-      "categoryLabel": "研究与论文",
-      "categoryColor": "#4a7c3f",
+      "category": "design",
       "importance": 2,
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
       "tags": [
-        "资本",
-        "设备",
-        "设计",
-        "功率",
-        "研究"
+        "芯片设计"
       ],
-      "source": "arXiv cs.AR",
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/015/006.htm",
+      "published": "2026-10-19T11:37:43.000Z",
+      "score": 24.81,
+      "eventKey": "amd-ryzen-ai-7-hx-455-specs-leak",
+      "originalTitle": "AMD 锐龙 AI 7 HX 455 处理器曝光：8 核 CPU，16CU GPU",
+      "provenance": {
+        "url": "https://www.ithome.com/1/015/006.htm",
+        "retrievedAt": "2026-10-19T12:47:55.017Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "曝光AMD未发布处理器锐龙AI 7 HX 455的具体规格，属于具体新产品参数信息。",
+        "evidence": [
+          "消息人士 @金猪升级包 稍早前曝光了 AMD 尚未推出的锐龙 AI 7 HX 455 处理器。",
+          "该型号应该基于 \"Gorgon Point 1\" 芯片,保留了完整的 16 核心 GPU,但 CPU 从完整的 12 核心 24 线程降至 8 核心 16 线程"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "c5c8f7110fbc2",
+      "title": "Arm称AGI CPU机架性能为AMD EPYC 9755两倍",
+      "summary": "Arm发布其数据中心CPU AGI CPU的测试结果，称在七项工作负载下每机架性能约为AMD EPYC 9755的两倍。该结论基于Arm新提出的CPU评估方法，由Fujitsu、Meta和OpenAI支持开发，并经Signal65独立分析验证。",
+      "cards": [
+        {
+          "heading": "测试方法",
+          "body": "Arm与Fujitsu、Meta、OpenAI共同制定新CPU评估方法，聚焦代理式AI工作负载，通过录制代理动作回放保证可重复性，并以端到端任务结果验证性能提升。"
+        },
+        {
+          "heading": "七项工作负载",
+          "body": "测试涵盖MySQL、NGINX、Milvus、Terminal-Bench 2、SWE-bench replay、fastText和vLLM，分别衡量事务处理、请求处理、向量检索、任务完成时间等指标。"
+        },
+        {
+          "heading": "结果验证",
+          "body": "结果经Arm委托Signal65独立分析验证，但仅适用于所选处理器、工作负载和配置，未确立AGI CPU为代理式AI整体性能领先者。"
+        }
+      ],
+      "points": [
+        "Arm与Fujitsu、Meta、OpenAI共同制定新CPU评估方法，聚焦代理式AI工作负载，通过录制代理动作回放保证可重复性，并以端到端任务结果验证性能提升。",
+        "测试涵盖MySQL、NGINX、Milvus、Terminal-Bench 2、SWE-bench replay、fastText和vLLM，分别衡量事务处理、请求处理、向量检索、任务完成时间等指标。",
+        "结果经Arm委托Signal65独立分析验证，但仅适用于所选处理器、工作负载和配置，未确立AGI CPU为代理式AI整体性能领先者。"
+      ],
+      "category": "design",
+      "importance": 3,
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Tom's Hardware",
       "sourceLang": "en",
-      "url": "https://arxiv.org/abs/2602.22248",
-      "published": "2026-10-19T04:00:00.000Z",
-      "score": 34
+      "url": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
+      "published": "2026-10-19T11:00:00.000Z",
+      "score": 24.7,
+      "eventKey": "arm-agi-cpu-performance-claim-vs-amd-epyc",
+      "originalTitle": "Arm says its AGI CPU delivers nearly 2X the performance per rack of AMD EPYC 9755 in new agentic AI CPU tests",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/cpus/arm-claims-agi-cpu-delivers-double-the-performance-per-rack-of-amd-epyc-9755-in-independent-analysis-new-cpu-evaluation-methodology-developed-by-arm-evaluates-agentic-ai-performance-across-seven-workloads",
+        "retrievedAt": "2026-10-19T12:48:10.022Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Arm声称其AGI CPU在代理式AI工作负载下每机架性能为AMD EPYC 9755的两倍，并发布新评估方法，属于厂商性能声明。",
+        "evidence": [
+          "The results — verified in an Arm-commissioned independent analysis by Signal65"
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "1a4fdd2b8dbba5",
-      "title": "UC Berkeley等研发NEMS开关提升eDRAM效率",
-      "summary": "UC Berkeley、三星和英特尔联合发表论文，提出基于纳米机电开关的增益单元eDRAM，旨在解决传统eDRAM保持时间短的问题，提高能效。",
+      "id": "e0931f22845b2",
+      "title": "Intel Nova Lake Xeon E系列仅推纯P核或纯E核型号",
+      "summary": "据爆料者Jaykihn，Intel即将推出的Nova Lake Xeon E系列将分为纯P-Core和纯E-Core两个版本，不提供混合配置。P-Core版有5款，E-Core版有4款，最高分别为16核和32核。",
+      "cards": [
+        {
+          "heading": "SKU配置",
+          "body": "P-Core版提供4、6、8、12、16核五款；E-Core版提供4、8、16、32核四款。混合P-Core和E-Core的SKU将保留给Nova Lake-S桌面处理器。"
+        },
+        {
+          "heading": "平台特性",
+          "body": "Xeon E系列基于W980芯片组，支持DDR5 ECC内存、48条PCIe通道（含12条PCIe 5.0和12条PCIe 4.0）、DMI 5.0 x4（128 Gbps/方向）、两个USB4/Thunderbolt 4端口。"
+        },
+        {
+          "heading": "发布时间",
+          "body": "Intel尚未确认定价和发布日期。Nova Lake-S预计2027年第一季度推出，Xeon E系列可能随后跟进。"
+        }
+      ],
       "points": [
-        "采用NEMS开关",
-        "增益单元eDRAM",
-        "提升保持时间"
+        "P-Core版提供4、6、8、12、16核五款；E-Core版提供4、8、16、32核四款。混合P-Core和E-Core的SKU将保留给Nova Lake-S桌面处理器。",
+        "Xeon E系列基于W980芯片组，支持DDR5 ECC内存、48条PCIe通道（含12条PCIe 5.0和12条PCIe 4.0）、DMI 5.0 x4（128 Gbps/方向）、两个USB4/Thunderbolt 4端口。",
+        "Intel尚未确认定价和发布日期。Nova Lake-S预计2027年第一季度推出，Xeon E系列可能随后跟进。"
+      ],
+      "category": "design",
+      "importance": 2,
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/353871/intel-nova-lake-xeon-e-series-carries-only-p-core-or-e-core-skus-no-hybrid-configurations",
+      "published": "2026-10-19T11:21:47.000Z",
+      "score": 19.74,
+      "eventKey": "intel-nova-lake-xeon-e-p-core-e-core-only",
+      "originalTitle": "Intel \"Nova Lake\" Xeon E Series Carries Only P-Core or E-Core SKUs, No Hybrid Configurations",
+      "provenance": {
+        "url": "https://www.techpowerup.com/353871/intel-nova-lake-xeon-e-series-carries-only-p-core-or-e-core-skus-no-hybrid-configurations",
+        "retrievedAt": "2026-10-19T12:54:19.484Z",
+        "articlePublished": "2026-10-19T11:21:47.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "泄露信息显示英特尔Nova Lake Xeon E系列将仅提供纯P核或纯E核配置，无混合型号，属于具体产品规划新事实。",
+        "evidence": [
+          "Intel will be releasing its Xeon E-series based on \"Nova Lake\" silicon in two versions: big P-Core only or efficiency E-Core only SKUs.",
+          "There will be no hybrid SKUs with both P-Cores and E-Cores, as those will be reserved for the regular \"Nova Lake-S\" desktop processors."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "82ca8ec472a55",
+      "title": "西门子推Tessent可执行软件，经PCIe执行测试图形",
+      "summary": "西门子EDA推出Tessent Silicon Executable软件，将DFT测试图形直接通过高速接口和协议执行，并联合Advantest和Teradyne集成到测试平台。Teradyne率先支持经PCIe Gen 6接口运行SSN测试，以缩短测试时间。",
+      "cards": [
+        {
+          "heading": "软件功能",
+          "body": "Tessent Silicon Executable利用Tessent生成的测试图形，通过目标执行环境施加测试，并将结果返回现有调试、诊断和分析流程，覆盖ATE、系统级测试、台架和系统内环境。"
+        },
+        {
+          "heading": "合作厂商",
+          "body": "西门子与ATE供应商Advantest和Teradyne合作。Advantest将其集成到V93000平台并扩展至硅前验证；Teradyne集成到UltraPort仪器，用于UltraFLEXplus测试机。"
+        },
+        {
+          "heading": "PCIe支持",
+          "body": "Teradyne实现支持扫描流网络（SSN）经PCIe测试，包括PCIe Gen 6接口，称这是首家提供标准路径运行SSN over PCIe的测试机公司，可提升性能并缩短测试时间。"
+        }
+      ],
+      "points": [
+        "Tessent Silicon Executable利用Tessent生成的测试图形，通过目标执行环境施加测试，并将结果返回现有调试、诊断和分析流程，覆盖ATE、系统级测试、台架和系统内环境。",
+        "西门子与ATE供应商Advantest和Teradyne合作。Advantest将其集成到V93000平台并扩展至硅前验证；Teradyne集成到UltraPort仪器，用于UltraFLEXplus测试机。",
+        "Teradyne实现支持扫描流网络（SSN）经PCIe测试，包括PCIe Gen 6接口，称这是首家提供标准路径运行SSN over PCIe的测试机公司，可提升性能并缩短测试时间。"
+      ],
+      "category": "eda",
+      "importance": 3,
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "tags": [
+        "EDA"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/siemens-extends-tessent-test-flow-to-pattern-execution-over-pcie/",
+      "published": "2026-10-19T03:07:36.000Z",
+      "score": 24.36,
+      "eventKey": "siemens-tessent-silicon-executable-pcie-launch",
+      "originalTitle": "Siemens Extends Tessent Test Flow to Pattern Execution Over PCIe",
+      "provenance": {
+        "url": "https://www.eetasia.com/siemens-extends-tessent-test-flow-to-pattern-execution-over-pcie/",
+        "retrievedAt": "2026-10-19T12:57:42.296Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "西门子EDA推出Tessent Silicon Executable，将测试模式执行扩展到PCIe，并与Advantest、Teradyne合作集成，是EDA测试领域的重要产品发布。",
+        "evidence": [
+          "Siemens Digital Industries Software has introduced Tessent Silicon Executable, software that applies semiconductor test patterns directly through high-speed interfaces and protocols, extending its Tessent design-for-test (DFT) workflow into",
+          "Siemens is launching the software with ATE providers Advantest and Teradyne.",
+          "The implementation supports scan streaming network (SSN) testing over PCIe, including PCIe Gen 6 interfaces. &#8220;In advanced packaging, how test content reaches the device matters as much as the content itself,&#8221; said Shannon Poulin"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "16088269e5306d",
+      "title": "TI推3GSPS ADC用于数据中心电源监测",
+      "summary": "TI在OCP全球峰会上发布3GSPS ADC ADC34DSO75，支持纳秒级事件遥测，用于AI数据中心电源轨瞬态监测。同时展示LMI800PS热插拔控制器和LMK6B BAW振荡器，分别用于高压配电和精密时钟。",
+      "cards": [
+        {
+          "heading": "ADC特性",
+          "body": "ADC34DSO75采样率3GSPS，支持纳秒级事件遥测，可捕捉传统监测系统可能遗漏的短暂电源扰动，集成片上DSP用于检测低电压大电流电源轨的瞬态故障。"
+        },
+        {
+          "heading": "热插拔控制器",
+          "body": "LMI800PS集成隔离偏置电源和PMBus遥测，替代需5个IC的分立方案，电路板面积减少超60%，提供5kVrms增强隔离和8mm爬电距离，支持±400V和800V配电架构。"
+        },
+        {
+          "heading": "振荡器",
+          "body": "LMK6B BAW振荡器在625MHz下提供9.6fs抖动，面向高速网络和数据中心传输速率提升带来的严苛时序需求。"
+        }
+      ],
+      "points": [
+        "ADC34DSO75采样率3GSPS，支持纳秒级事件遥测，可捕捉传统监测系统可能遗漏的短暂电源扰动，集成片上DSP用于检测低电压大电流电源轨的瞬态故障。",
+        "LMI800PS集成隔离偏置电源和PMBus遥测，替代需5个IC的分立方案，电路板面积减少超60%，提供5kVrms增强隔离和8mm爬电距离，支持±400V和800V配电架构。",
+        "LMK6B BAW振荡器在625MHz下提供9.6fs抖动，面向高速网络和数据中心传输速率提升带来的严苛时序需求。"
+      ],
+      "category": "design",
+      "importance": 2,
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/ti-adds-3-gsps-adc-for-nanosecond-level-data-center-power-monitoring/",
+      "published": "2026-10-19T02:32:53.000Z",
+      "score": 26.27,
+      "eventKey": "ti-3gsps-adc-data-center-power-monitoring",
+      "originalTitle": "TI Adds 3-GSPS ADC for Nanosecond-level Data Center Power Monitoring",
+      "provenance": {
+        "url": "https://www.eetasia.com/ti-adds-3-gsps-adc-for-nanosecond-level-data-center-power-monitoring/",
+        "retrievedAt": "2026-10-19T12:57:41.120Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "TI发布3-GSPS ADC用于AI数据中心电源监测，并展示两款配套器件，属于具体新产品发布。",
+        "evidence": [
+          "Texas Instruments Inc. (TI) has introduced a 3-gigasample-per-second (GSPS) analog-to-digital converter (ADC) for remote monitoring of power-rail transients in AI data centers.",
+          "Announced at the Open Compute Project (OCP) Global Summit, the ADC34DSO75 supports event-based telemetry at nanosecond resolution, allowing operators to capture brief electrical disturbances that conventional monitoring systems may miss.",
+          "TI also demonstrated two other devices for AI data center infrastructure: the LMI800PS isolated hot-swap controller for high-voltage power distribution and the LMK6B bulk acoustic wave (BAW) oscillator for precision timing."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1a49598b249818",
+      "title": "消息称：Terafab 将于 2027 年中接收首台 ASML EUV 光刻机",
+      "summary": "据报道，据记者 Tim Culpan 援引知情人士消息，马斯克旗下 Terafab 预计于 2027 年中接收首台 ASML EUV 光刻系统，设备可能早于奥斯汀研究晶圆厂就绪。Semianalysis 预计设备安装于当年晚些时候开始，量产厂一期计划 2029 年底投产。",
+      "cards": [
+        {
+          "heading": "交付时间",
+          "body": "首台 ASML EUV 光刻系统预计 2027 年中交付，可能早于奥斯汀研究晶圆厂准备就绪。设备安装预计于 2027 年晚些时候开始。"
+        },
+        {
+          "heading": "技术路线",
+          "body": "Terafab 初期将使用传统 EUV 设备，而非马斯克公开支持的自由电子激光光源，因替代光源需大量工艺开发和设备认证工作。"
+        },
+        {
+          "heading": "量产计划",
+          "body": "量产厂位于德州 Grimes County，一期预计 2029 年底开始运营，2030 年中达到量产。晶圆厂计划采用 Intel 14A 制程。"
+        }
+      ],
+      "points": [
+        "首台 ASML EUV 光刻系统预计 2027 年中交付，可能早于奥斯汀研究晶圆厂准备就绪。设备安装预计于 2027 年晚些时候开始。",
+        "Terafab 初期将使用传统 EUV 设备，而非马斯克公开支持的自由电子激光光源，因替代光源需大量工艺开发和设备认证工作。",
+        "量产厂位于德州 Grimes County，一期预计 2029 年底开始运营，2030 年中达到量产。晶圆厂计划采用 Intel 14A 制程。"
+      ],
+      "category": "equipment",
+      "importance": 4,
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "tags": [
+        "设备"
+      ],
+      "source": "Bits&Chips",
+      "sourceLang": "en",
+      "url": "https://bits-chips.com/article/terafab-reportedly-to-receive-first-asml-euv-scanner-in-mid-2027",
+      "published": "2026-10-19T08:07:21.000Z",
+      "score": 26.19,
+      "eventKey": "terafab-first-asml-euv-scanner-mid-2027",
+      "originalTitle": "Terafab reportedly to receive first ASML EUV scanner in mid-2027",
+      "provenance": {
+        "url": "https://bits-chips.com/article/terafab-reportedly-to-receive-first-asml-euv-scanner-in-mid-2027",
+        "retrievedAt": "2026-10-19T12:57:31.848Z",
+        "articlePublished": "2026-10-19T08:07:21.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道称Terafab将于2027年中收到首台ASML EUV光刻机，这是关于该晶圆厂设备交付的新进展。",
+        "evidence": [
+          "Elon Musk’s Terafab is expected to receive its first ASML EUV lithography system in mid-2027, according to journalist Tim Culpan, citing sources familiar with the matter.",
+          "The scanner could arrive before the research fab near Austin is ready to accommodate it."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "abd32f4f42385",
+      "title": "UC Berkeley、三星、英特尔联合发表 NEM 门控 eDRAM 论文",
+      "summary": "UC Berkeley、三星电子和英特尔的研究人员发表论文《Nanoelectromechanically Gated Gain Cell eDRAM》，提出用纳米机电门控增益单元改进嵌入式 DRAM，以应对 SRAM 缩放放缓带来的存储墙问题。论文发表于 IEEE 期刊。",
+      "cards": [
+        {
+          "heading": "研究动机",
+          "body": "存储墙和 SRAM 缩放放缓促使业界重新关注增益单元嵌入式 DRAM。增益单元虽密度高、能效好，但存在保持时间短、寄生耦合和写入电压高的问题。"
+        },
+        {
+          "heading": "技术方案",
+          "body": "该工作引入纳米机电门控增益单元用于嵌入式 DRAM，旨在解决传统增益单元的局限性。论文发表于 IEEE Journal on Exploratory Solid-State Computational Devices and Circuits。"
+        },
+        {
+          "heading": "作者与发表",
+          "body": "作者包括 Collin P. Finnan、Choong-Ho Rhee、Tahir Ghani 和 Tsu-Jae King-Liu。论文于 2026 年 10 月发表，DOI: 10.1109/JXCDC.2026.3717204，开放获取。"
+        }
+      ],
+      "points": [
+        "存储墙和 SRAM 缩放放缓促使业界重新关注增益单元嵌入式 DRAM。增益单元虽密度高、能效好，但存在保持时间短、寄生耦合和写入电压高的问题。",
+        "该工作引入纳米机电门控增益单元用于嵌入式 DRAM，旨在解决传统增益单元的局限性。论文发表于 IEEE Journal on Exploratory Solid-State Computational Devices and Circuits。",
+        "作者包括 Collin P. Finnan、Choong-Ho Rhee、Tahir Ghani 和 Tsu-Jae King-Liu。论文于 2026 年 10 月发表，DOI: 10.1109/JXCDC.2026.3717204，开放获取。"
       ],
       "category": "research",
+      "importance": 3,
       "categoryLabel": "研究与论文",
       "categoryColor": "#4a7c3f",
-      "importance": 2,
       "tags": [
-        "设备",
-        "设计",
-        "存储"
+        "研究与论文"
       ],
       "source": "Semiconductor Engineering",
       "sourceLang": "en",
-      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
+      "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel",
       "published": "2026-10-18T23:28:31.000Z",
-      "score": 30
+      "score": 25.78,
+      "eventKey": "ucb-samsung-intel-nems-gain-cell-edram-paper",
+      "originalTitle": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+      "provenance": {
+        "url": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel",
+        "retrievedAt": "2026-10-19T12:47:59.324Z",
+        "articlePublished": "2026-10-18T23:28:31.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "UC Berkeley、三星电子和英特尔联合发表关于纳米机电开关增益单元eDRAM的学术论文，属于具体的研究进展。",
+        "evidence": [
+          "Researchers at the UC Berkeley, Samsung Electronics, and Intel published “Nanoelectromechanically Gated Gain Cell eDRAM.” Abstract Excerpt: “The memory wall and the slowdown of static random access memory (SRAM) scaling have renewed interes",
+          "October 2026 Finnan, Collin P., Choong-Ho Rhee, Tahir Ghani, and Tsu-Jae King-Liu. “Nanoelectromechanically Gated Gain Cell eDRAM.” IEEE Journal on Exploratory Solid-State Computational Devices and Circuits (2026): 223–230. https://doi.org/"
+        ]
+      },
+      "relatedSources": []
     },
     {
-      "id": "28aa9f6d75932",
-      "title": "TileDRAM为3D DRAM GPU引入编译器可控布局",
-      "summary": "UC Berkeley等机构提出TileDRAM工具链，将tile到DRAM的布局抽象引入编译器，以减少3D DRAM GPGPU的row-buffer冲突，提升访存效率。",
+      "id": "1a37905d26872",
+      "title": "Saras推出2mm×2mm嵌入式电容，瞄准AI加速器供电",
+      "summary": "Saras Micro Devices将电容直接嵌入PCB或封装基板，为AI加速器提供垂直供电。公司已开始向客户提供2mm×2mm新电容样品，较首款4mm×4mm产品缩小四分之三，目前该产品正进入可靠性测试阶段。",
+      "cards": [
+        {
+          "heading": "产品进展",
+          "body": "Saras已开始向客户提供2mm×2mm电容样品，尺寸为首款4mm×4mm产品的四分之一，采用相同核心工艺。该产品正进入可靠性测试阶段，此前4mm×4mm产品已完成制造工艺认证并展示可靠性。"
+        },
+        {
+          "heading": "技术方案",
+          "body": "Saras的STILE电容厚度与基板或PCB芯材一致，可匹配不同芯材厚度。电容嵌入基板后，处理器顶部空间留给高速信号，电力从下方垂直输送，缩短路径并降低I²R损耗。"
+        },
+        {
+          "heading": "市场定位",
+          "body": "公司仍处于pre-revenue阶段，但首席战略官Eelco Bergman表示已看到设计中标前景。制造位于亚利桑那州钱德勒，研发在亚特兰大。量产计划不采用授权模式，而是与成熟制造商合作。"
+        }
+      ],
       "points": [
-        "扩展GPU线性布局抽象",
-        "减少行缓冲冲突",
-        "面向3D DRAM架构"
-      ],
-      "category": "research",
-      "categoryLabel": "研究与论文",
-      "categoryColor": "#4a7c3f",
-      "importance": 2,
-      "tags": [
-        "存储",
-        "架构",
-        "研究"
-      ],
-      "source": "arXiv cs.AR",
-      "sourceLang": "en",
-      "url": "https://arxiv.org/abs/2610.23767",
-      "published": "2026-10-19T04:00:00.000Z",
-      "score": 27
-    },
-    {
-      "id": "d39293864dd1c",
-      "title": "多智能体框架ArchAgent用于异构系统设计",
-      "summary": "arXiv论文提出ArchAgent分层多智能体框架，利用LLM规划器分解芯片、扩展域设计问题，应对AI/HPC系统组合空间爆炸。",
-      "points": [
-        "覆盖GPU、RISC-V、HBM等架构",
-        "LLM规划器分解设计子问题"
-      ],
-      "category": "research",
-      "categoryLabel": "研究与论文",
-      "categoryColor": "#4a7c3f",
-      "importance": 2,
-      "tags": [
-        "封装",
-        "架构",
-        "产能"
-      ],
-      "source": "arXiv cs.AR",
-      "sourceLang": "en",
-      "url": "https://arxiv.org/abs/2610.23724",
-      "published": "2026-10-19T04:00:00.000Z",
-      "score": 25
-    },
-    {
-      "id": "6133b3c515287",
-      "title": "iPhone Duo纯eSIM设计引发用户争议",
-      "summary": "苹果折叠屏iPhone Duo仅支持eSIM，用户出国需删除国内号码，引发对便利性和运营商支持的讨论。",
-      "points": [
-        "折叠屏新机取消实体卡槽",
-        "出国使用需切换号码",
-        "eSIM节省内部空间"
-      ],
-      "category": "market",
-      "categoryLabel": "市场与产业",
-      "categoryColor": "#5c6b7a",
-      "importance": 2,
-      "tags": [
-        "设计",
-        "IC"
-      ],
-      "source": "cnBeta",
-      "sourceLang": "zh",
-      "url": "https://www.cnbeta.com.tw/articles/tech/1582860.htm",
-      "published": "2026-10-19T05:19:10.000Z",
-      "score": 17.5
-    },
-    {
-      "id": "1c7c70792079b7",
-      "title": "水月雨发布轻巧豆Dots降噪耳机，399元起",
-      "summary": "水月雨发布轻巧豆Dots无线降噪耳机，采用异形球腔体与22nm主控，支持自适应降噪和蓝牙6.0，售价399元起。",
-      "points": [
-        "异形球腔体适配不同耳道",
-        "单次续航8小时，总续航36小时",
-        "支持LHDC V和LC3高清传输"
+        "Saras已开始向客户提供2mm×2mm电容样品，尺寸为首款4mm×4mm产品的四分之一，采用相同核心工艺。该产品正进入可靠性测试阶段，此前4mm×4mm产品已完成制造工艺认证并展示可靠性。",
+        "Saras的STILE电容厚度与基板或PCB芯材一致，可匹配不同芯材厚度。电容嵌入基板后，处理器顶部空间留给高速信号，电力从下方垂直输送，缩短路径并降低I²R损耗。",
+        "公司仍处于pre-revenue阶段，但首席战略官Eelco Bergman表示已看到设计中标前景。制造位于亚利桑那州钱德勒，研发在亚特兰大。量产计划不采用授权模式，而是与成熟制造商合作。"
       ],
       "category": "design",
+      "importance": 3,
       "categoryLabel": "芯片设计",
       "categoryColor": "#1f7a4d",
-      "importance": 1,
       "tags": [
-        "工艺"
+        "芯片设计"
       ],
-      "source": "IT之家",
-      "sourceLang": "zh",
-      "url": "https://www.ithome.com/1/014/767.htm",
-      "published": "2026-10-19T05:07:57.000Z",
-      "score": 19.5
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/saras-micro-devices-embeds-capacitors-to-power-ai-accelerators",
+      "published": "2026-10-17T14:35:34.000Z",
+      "score": 22,
+      "eventKey": "saras-2mm-embedded-capacitor-reliability-testing",
+      "originalTitle": "Saras Micro Devices Embeds Capacitors to Power AI Accelerators",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/saras-micro-devices-embeds-capacitors-to-power-ai-accelerators",
+        "retrievedAt": "2026-10-19T12:57:33.268Z",
+        "articlePublished": "2026-10-17T14:35:34.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Saras Micro Devices推出2mm x 2mm嵌入式电容，用于AI加速器垂直供电，并进入可靠性测试，是具体的新型元器件进展。",
+        "evidence": [
+          "Customer feedback asked for a smaller part to leave room for vias, and in the last 90 days or so Saras began sampling a 2 mm x 2 mm capacitor, one quarter the size of its first 4 mm x 4 mm product, using the same core technology (FIGURE 1).",
+          "That part is now moving into reliability testing."
+        ]
+      },
+      "relatedSources": []
     }
   ]
 }

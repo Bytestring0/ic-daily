@@ -439,6 +439,7 @@ svg { flex-shrink: 0; vertical-align: middle; }
   padding: 0 6px; border-radius: 4px;
   font-family: var(--mono);
 }
+.evidence-note { font-size: 10.5px; color: var(--ink-3); }
 
 /* ---------- 简洁模式 ---------- */
 .simple-categories { display: none; }
@@ -544,6 +545,9 @@ svg { flex-shrink: 0; vertical-align: middle; }
   min-height: 84px;
   padding: 18px 20px;
 }
+:root[data-mode='simple'] .fact-point { display: block; min-height: 0; }
+:root[data-mode='simple'] .fact-point h4 { display: block; margin: 0 0 9px; font-size: 15px; line-height: 1.5; color: var(--accent-ink); font-weight: 600; }
+:root[data-mode='simple'] .fact-point p { font-size: 15px; line-height: 1.9; }
 :root[data-mode='simple'] .fact-point p { width: 100%; font-size: 15px; }
 /* 单数要点时最后一张独占整行，视觉收口 */
 :root[data-mode='simple'] .fact-point:last-child:nth-child(even) { grid-column: 1 / -1; }

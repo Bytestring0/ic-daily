@@ -6,6 +6,7 @@
  */
 import { loadLLM, CATEGORY_META } from './config.mjs';
 import { pool, log, sleep } from './util.mjs';
+import { qualifyDraft } from './quality.mjs';
 
 const SYSTEM_PROMPT = `你是一名资深的半导体/集成电路行业分析师，负责为中文读者撰写每日行业简报。
 
@@ -14,9 +15,11 @@ const SYSTEM_PROMPT = `你是一名资深的半导体/集成电路行业分析�
 写作要求：
 1. 客观、专业、信息密度高。删除"据悉""值得注意的是"这类空话。
 2. 中文表达，但公司名、技术名词、制程代号保留通行英文（如 TSMC、EUV、HBM3E、N2、CoWoS）。
-3. 摘要 1-2 句，说清"谁做了什么、意味着什么"。不要复述标题。
+3. 摘要 2-3 句，约 100-180 字，交代事件来龙去脉，不复述标题。
 4. 如果原文信息不足，如实简略，禁止编造数字、日期、人名、引语。
-5. 数字与事实必须来自原文。`;
+5. 数字与事实必须来自原文；保留原文数字和单位，不自行换算或补全。
+6. 不写空泛行业意义或趋势预测。摘要直接交代主体、动作、对象与新事实。
+7. 不把“计划/预计/原型/传闻”改成“已完成/已量产/获批”，保留原文的不确定性。`;
 
 function buildUserPrompt(batch) {
   const lines = batch.map((it, i) => {
@@ -24,7 +27,10 @@ function buildUserPrompt(batch) {
       `[${i}] 标题：${it.title}`,
       `来源：${it.source?.name || '未知'}（${it.published || '无日期'}）`,
     ];
-    if (it.summary) parts.push(`正文摘要：${it.summary.slice(0, 700)}`);
+    if (it.suggestedCategory) parts.push(`编辑分类：${it.suggestedCategory}`);
+    if (it.body) parts.push(`原文正文：${it.body.slice(0, 4500)}`);
+    else if (it.summary) parts.push(`来源摘要（不是全文）：${it.summary.slice(0, 1200)}`);
+    if (it.editorial?.evidence?.length) parts.push(`已核对的原文证据：${it.editorial.evidence.join('\n')}`);
     return parts.join('\n');
   });
 
@@ -38,8 +44,8 @@ ${lines.join('\n\n')}
     {
       "index": 0,
       "title": "改写后的中文标题，不超过 30 字，不要用问句和标题党",
-      "summary": "1-2 句中文摘要，说清事实与影响",
-      "points": ["可选要点，0-3 条，每条不超过 22 字"],
+      "summary": "2-3句中文摘要，交代主体、动作、关键数字与进度",
+      "cards": [{"heading":"4-10字的小标题", "body":"45-120字的具体内容，包含参数、时间表、对象或范围；同一条内各卡片互不重复。原文充足时给3-4张卡，资料少时可给1-2张，不为填满而编造"}],
       "category": "从这些里选一个: foundry|equipment|eda|memory|design|material|policy|research|market",
       "importance": 1
     }
@@ -50,7 +56,7 @@ importance 取 1-5 的整数，5 表示当日的重大事件（重大并购、�
 }
 
 /** 从模型返回里抠出 JSON（容忍 ```json 包裹或前后杂字） */
-function extractJSON(text) {
+export function extractJSON(text) {
   if (!text) return null;
   let s = String(text).trim();
   s = s.replace(/^```(?:json)?\s*/i, '').replace(/```\s*$/, '').trim();
@@ -86,7 +92,7 @@ export async function callLLM(cfg, messages, attempt = 0, json = true) {
         model: cfg.model,
         messages,
         temperature: 0.3,
-        max_tokens: json ? 3500 : 2000,
+        max_tokens: json ? 6000 : 2000,
         // U2 uses prompt-constrained JSON; its API does not advertise json_object.
         // Disable reasoning for short daily summaries and interactive reading.
         ...(cfg.model === 'u2-flash' ? { thinking: { type: 'disabled' }, reasoning_effort: 'none' } : {}),
@@ -139,7 +145,7 @@ export async function write(items, { strict = false } = {}) {
 
   log.step(`AI 撰写（${cfg.model}，${items.length} 条）`);
 
-  const BATCH = 3;
+  const BATCH = 2;
   const batches = [];
   for (let i = 0; i < items.length; i += BATCH) {
     batches.push({ start: i, slice: items.slice(i, i + BATCH) });
@@ -187,15 +193,17 @@ export async function write(items, { strict = false } = {}) {
         return;
       }
       aiOk++;
-      results[b.start + k] = {
+      const cards = Array.isArray(r.cards) ? r.cards.filter(c => c && typeof c.heading === 'string' && typeof c.body === 'string' && c.body.trim()).slice(0, 4).map(c => ({ heading: c.heading.trim().slice(0, 20), body: c.body.trim().slice(0, 240) })) : [];
+      results[b.start + k] = qualifyDraft(it, {
         title: String(r.title || it.title).trim().slice(0, 80),
-        summary: String(r.summary || '').trim().slice(0, 400),
+        summary: String(r.summary || '').trim().slice(0, 600),
+        cards,
         points: Array.isArray(r.points)
-          ? r.points.filter((p) => typeof p === 'string' && p.trim()).slice(0, 3)
-          : [],
-        category: Object.hasOwn(CATEGORY_META, r.category) ? r.category : it.source?.category || 'market',
+          ? r.points.filter((p) => typeof p === 'string' && p.trim()).slice(0, 4)
+          : cards.map(c => c.body),
+        category: Object.hasOwn(CATEGORY_META, it.suggestedCategory) ? it.suggestedCategory : Object.hasOwn(CATEGORY_META, r.category) ? r.category : it.source?.category || 'market',
         importance: Math.min(5, Math.max(1, Number(r.importance) || 3)),
-      };
+      });
     });
   });
 

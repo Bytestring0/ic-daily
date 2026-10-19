@@ -24,7 +24,7 @@ export function loadSources() {
   const raw = fs.readFileSync(paths.sources, 'utf8');
   const doc = YAML.parse(raw);
   const list = Array.isArray(doc?.sources) ? doc.sources : [];
-  return list.filter((s) => s && s.enabled !== false && s.url);
+  return list.filter((s) => s && s.enabled !== false && s.url).map(s => ({ ...s, url: s.urlEnv && process.env[s.urlEnv] ? process.env[s.urlEnv] : s.url }));
 }
 
 /** LLM 配置：OpenAI 兼容端点 */
@@ -54,8 +54,34 @@ export const fetchConfig = {
 /** 每期日报收录条数上限 */
 export const EDITION_LIMIT = Number(process.env.EDITION_LIMIT || 24);
 
+export const qualityConfig = {
+  target: Number(process.env.EDITION_TARGET || 18),
+  minimum: Number(process.env.EDITION_MINIMUM || 15),
+  candidateLimit: Number(process.env.CANDIDATE_LIMIT || 90),
+  sourceLimit: Number(process.env.PER_SOURCE_LIMIT || 8),
+  historyDays: Number(process.env.HISTORY_DAYS || 7),
+  articleTimeoutMs: Number(process.env.ARTICLE_TIMEOUT_MS || 15000),
+  articleConcurrency: Number(process.env.ARTICLE_CONCURRENCY || 4),
+  minArticleLength: 300,
+  discovery: process.env.NEWS_DISCOVERY !== 'false',
+  discoveryProvider: process.env.NEWS_SEARCH_PROVIDER || (process.env.BRAVE_SEARCH_API_KEY ? 'brave' : 'bing'),
+};
+
+export function loadSearch() { return { apiKey: process.env.BRAVE_SEARCH_API_KEY || '' }; }
+
 /** 时间窗口：严格只收录最近 N 小时内的条目（默认 24h） */
-export const WINDOW_HOURS = Number(process.env.WINDOW_HOURS || 24);
+export const WINDOW_HOURS = Number(process.env.WINDOW_HOURS || 48);
+
+export function loadMail() {
+  return {
+    enabled: process.env.MAIL_ENABLED === 'true',
+    host: process.env.SMTP_HOST || 'smtp.qq.com', port: Number(process.env.SMTP_PORT || 465),
+    secure: process.env.SMTP_SECURE !== 'false', user: process.env.SMTP_USER || '', pass: process.env.SMTP_PASS || '',
+    from: process.env.MAIL_FROM || process.env.SMTP_USER || '',
+    to: (process.env.MAIL_TO || '').split(/[,;\s]+/).map(s => s.trim()).filter(Boolean),
+    site: process.env.MAIL_SITE_URL || process.env.SITE_URL || 'https://bytestring0.github.io/ic-daily/',
+  };
+}
 
 /**
  * 无发布日期的条目是否收录。

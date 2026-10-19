@@ -4,8 +4,9 @@
  * 单个源失败不影响整体（标 [SKIP]）。
  */
 import { XMLParser } from 'fast-xml-parser';
-import { loadSources, fetchConfig } from './config.mjs';
+import { loadSources, fetchConfig, loadSearch } from './config.mjs';
 import { log } from './util.mjs';
+import { canonicalUrl } from './quality.mjs';
 
 const parser = new XMLParser({
   ignoreAttributes: false,
@@ -72,15 +73,16 @@ function toISO(value) {
 }
 
 /** 归一化单条：兼容 RSS 2.0 与 Atom */
-function normalize(item, source) {
+export function normalize(item, source) {
   const title = stripHtml(text(item.title));
-  const link = text(item.link) || atomLink(item) || text(item.guid) || text(item.id);
+  const link = typeof item.link === 'string' ? item.link : atomLink(item) || text(item.guid) || text(item.id);
   const rawSummary =
     text(item.description) ||
     text(item.summary) ||
     text(item['content:encoded']) ||
     text(item.content) ||
     '';
+  const fullContent = text(item['content:encoded']) || text(item.content);
   const published =
     toISO(text(item.pubDate)) ||
     toISO(text(item.published)) ||
@@ -89,18 +91,26 @@ function normalize(item, source) {
     null;
 
   if (!title || !link) return null;
+  let publisher = source.name;
+  if (source.kind === 'discovery') {
+    try { publisher = new URL(link).hostname.replace(/^www\./, ''); } catch { return null; }
+  }
 
   return {
     title,
     url: link.trim(),
-    summary: stripHtml(rawSummary).slice(0, 1200),
+    originalTitle: title,
+    summary: stripHtml(rawSummary).slice(0, 4000),
+    feedBody: stripHtml(fullContent).slice(0, 12000),
     published,
-    source: { name: source.name, lang: source.lang, category: source.category },
+    source: { name: publisher, lang: source.lang, category: source.category, kind: source.kind || 'media', relay: Boolean(source.relay) },
+    feedUrl: source.url,
+    ...(source.kind === 'discovery' ? { discoveredVia: source.name } : {}),
     weight: Number(source.weight ?? 5),
   };
 }
 
-async function fetchOne(source, attempt = 0) {
+export async function fetchOne(source, attempt = 0) {
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), fetchConfig.timeoutMs);
   try {
@@ -111,15 +121,23 @@ async function fetchOne(source, attempt = 0) {
         'User-Agent': fetchConfig.userAgent,
         Accept: 'application/rss+xml, application/atom+xml, application/xml, text/xml, */*',
         'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8',
+        ...(source.format === 'brave' ? { 'X-Subscription-Token': loadSearch().apiKey } : {}),
       },
     });
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    if (source.format === 'brave') {
+      const data = await res.json();
+      if (!Array.isArray(data.results)) throw new Error('invalid_search_results');
+      const normalized = data.results.map(r => normalize({ title: r.title, link: r.url, description: r.description, published: r.page_age }, source)).filter(Boolean);
+      return { ok: true, source: source.name, items: normalized };
+    }
     const xml = await res.text();
     if (!xml || xml.length < 50) throw new Error('empty body');
 
     const doc = parser.parse(xml);
     // RSS: rss.channel.item / RDF: rdf:RDF.item / Atom: feed.entry
     const channel = doc?.rss?.channel ?? doc?.['rdf:RDF'] ?? doc?.feed ?? null;
+    if (!channel) throw new Error('invalid_feed_document');
     const items =
       asArray(channel?.item).length > 0
         ? asArray(channel.item)
@@ -158,8 +176,8 @@ async function pool(tasks, limit) {
  * 采集全部源，返回 { items, report }
  * items 已做过 URL / 标题 去重
  */
-export async function collect() {
-  const sources = loadSources();
+export async function collect({ extraSources = [] } = {}) {
+  const sources = [...loadSources(), ...extraSources];
   log.step(`采集 ${sources.length} 个信息源`);
 
   const results = await pool(
@@ -180,16 +198,11 @@ export async function collect() {
   for (const it of all) {
     let key;
     try {
-      const u = new URL(it.url);
-      u.hash = '';
-      u.searchParams.delete('utm_source');
-      u.searchParams.delete('utm_medium');
-      u.searchParams.delete('utm_campaign');
-      key = `${u.origin}${u.pathname}${u.search}`.replace(/\/$/, '').toLowerCase();
+      key = canonicalUrl(it.url);
     } catch {
       key = it.url.toLowerCase();
     }
-    if (byUrl.has(key)) continue;
+    if (!key || byUrl.has(key)) continue;
     const tkey = it.title.replace(/\s+/g, '').toLowerCase().slice(0, 60);
     if (byTitle.has(tkey)) continue;
     byTitle.add(tkey);
@@ -205,6 +218,7 @@ export async function collect() {
       total: sources.length,
       ok: ok.length,
       failed: failed.map((f) => ({ source: f.source, error: f.error })),
+      sources: results.map(r => ({ name: r.source, ok: r.ok, count: r.items.length, error: r.error || null })),
     },
   };
 }

@@ -41,6 +41,8 @@ jobs:
   # ---------- 阶段一：生成当日数据 ----------
   generate:
     runs-on: ubuntu-latest
+    outputs:
+      updated: ${{ steps.commit.outputs.updated }}
     # 定时触发才生成新数据；push 触发时复用已有数据直接构建
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
     steps:
@@ -59,17 +61,22 @@ jobs:
           LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
           LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
           LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          BRAVE_SEARCH_API_KEY: ${{ secrets.BRAVE_SEARCH_API_KEY }}
+          EETOP_RSS_URL: ${{ secrets.EETOP_RSS_URL }}
           TZ: Asia/Shanghai
         run: npm run daily
 
       - name: 提交数据变更
+        id: commit
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add content/
           if git diff --staged --quiet; then
+            echo "updated=false" >> "$GITHUB_OUTPUT"
             echo "数据无变化，跳过提交"
           else
+            echo "updated=true" >> "$GITHUB_OUTPUT"
             git commit -m "chore(data): 更新 $(date +%Y-%m-%d) 日报数据"
             git push
           fi
@@ -85,6 +92,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     needs: generate
+    outputs:
+      site: ${{ steps.paths.outputs.site }}
+      base: ${{ steps.paths.outputs.base }}
     if: always() && (needs.generate.result == 'success' || needs.generate.result == 'skipped')
     steps:
       - uses: actions/checkout@v4
@@ -125,6 +135,9 @@ jobs:
           BASE_PATH: ${{ steps.paths.outputs.base }}
         run: npm run build
 
+      - name: 检查新闻审核与邮件隐私规则
+        run: npm test
+
       - name: 配置 Pages
         uses: actions/configure-pages@v5
 
@@ -144,3 +157,72 @@ jobs:
       - name: 部署到 GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  # 部署成功后生成一张卡片长图；收件地址与授权码仅来自 Secrets。
+  notify:
+    runs-on: ubuntu-latest
+    needs: [generate, build, deploy]
+    if: always() && needs.deploy.result == 'success' && vars.MAIL_ENABLED == 'true'
+    permissions:
+      contents: read
+      actions: read
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: 判断日报是否更新
+        id: updated
+        env:
+          GENERATED_UPDATE: ${{ needs.generate.outputs.updated }}
+        run: |
+          if [ "$GENERATED_UPDATE" = "true" ] || git diff-tree --no-commit-id --name-only -r HEAD -- 'content/editions/*.json' | grep -q .; then
+            echo "send=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "send=false" >> "$GITHUB_OUTPUT"
+          fi
+      - uses: actions/setup-node@v4
+        if: steps.updated.outputs.send == 'true'
+        with:
+          node-version: '22'
+          cache: npm
+      - name: 下载本次生成的日报数据
+        if: steps.updated.outputs.send == 'true' && needs.generate.result == 'success'
+        uses: actions/download-artifact@v4
+        with:
+          name: content
+          path: content
+      - name: 安装图片生成环境
+        if: steps.updated.outputs.send == 'true'
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+          sudo apt-get install -y fonts-noto-cjk
+      - name: 构建并生成简洁模式长图
+        if: steps.updated.outputs.send == 'true'
+        env:
+          SITE_URL: ${{ needs.build.outputs.site }}
+          BASE_PATH: ${{ needs.build.outputs.base }}
+        run: |
+          npm run build
+          npm run mail:image -- --base="$BASE_PATH"
+      - name: 保存日报长图
+        if: steps.updated.outputs.send == 'true'
+        uses: actions/upload-artifact@v4
+        with:
+          name: digest-image
+          path: .cache/mail/digest.png
+          include-hidden-files: true
+          retention-days: 7
+      - name: 发送图片日报
+        if: steps.updated.outputs.send == 'true'
+        env:
+          MAIL_ENABLED: 'true'
+          SMTP_HOST: ${{ secrets.SMTP_HOST }}
+          SMTP_PORT: ${{ vars.SMTP_PORT || '465' }}
+          SMTP_SECURE: ${{ vars.SMTP_SECURE || 'true' }}
+          SMTP_USER: ${{ secrets.SMTP_USER }}
+          SMTP_PASS: ${{ secrets.SMTP_PASS }}
+          MAIL_FROM: ${{ secrets.MAIL_FROM }}
+          MAIL_TO: ${{ secrets.MAIL_TO }}
+          MAIL_SITE_URL: ${{ format('{0}{1}/', needs.build.outputs.site, needs.build.outputs.base) }}
+        run: npm run mail:send
