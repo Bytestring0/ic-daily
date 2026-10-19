@@ -70,7 +70,7 @@ export const qualityConfig = {
 export function loadSearch() { return { apiKey: process.env.BRAVE_SEARCH_API_KEY || '' }; }
 
 /** 时间窗口：严格只收录最近 N 小时内的条目（默认 24h） */
-export const WINDOW_HOURS = Number(process.env.WINDOW_HOURS || 48);
+export const WINDOW_HOURS = Number(process.env.WINDOW_HOURS || 24);
 
 export function loadMail() {
   return {

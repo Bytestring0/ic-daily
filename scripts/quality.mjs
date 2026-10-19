@@ -24,7 +24,7 @@ export function assessItem(item, { now = Date.now(), windowHours = 24, allowUnda
   if (!canonicalUrl(item.url)) return reject('invalid_url');
   const published = Date.parse(item.published);
   if (!Number.isFinite(published) && !allowUndated && item.source?.kind !== 'discovery') return reject('missing_date');
-  if (published > now + 3600_000) return reject('future_date');
+  if (published > now) return reject('future_date');
   if ((now - published) / 3600_000 > windowHours) return reject('stale');
   if (NOT_NEWS.test(title)) return reject('roundup_promotion_or_non_news');
   if (OFF_TOPIC.test(title)) return reject('outside_semiconductor_scope');

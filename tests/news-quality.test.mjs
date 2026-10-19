@@ -34,6 +34,15 @@ test('retain actual chip production and technical events without blanket EV or l
   assert.equal(assessItem(item('TSMC announces new fab', { published: null }), { now }).reason, 'missing_date');
 });
 
+test('24-hour window uses publication instants across time zones and excludes future timestamps', () => {
+  const check = published => assessItem(item('TSMC announces new fab', { published }), { now, windowHours: 24 });
+  assert.equal(check('2026-10-18T20:00:00+08:00').keep, true);
+  assert.equal(check('2026-10-18T19:59:59.999+08:00').reason, 'stale');
+  assert.equal(check('2026-10-19T20:00:00+08:00').keep, true);
+  assert.equal(check('2026-10-19T20:00:00.001+08:00').reason, 'future_date');
+  assert.equal(check('2026-10-19T20:30:00+08:00').reason, 'future_date');
+});
+
 test('deduplicate tracking URLs and cross-language event keys, keep distinct milestones', () => {
   assert.equal(canonicalUrl('https://example.com/news/1?utm_source=x#top'), 'https://example.com/news/1');
   assert.equal(canonicalUrl('javascript:alert(1)'), '');

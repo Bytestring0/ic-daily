@@ -34,7 +34,7 @@ try {
     if (prior) return { ...item, ...prior };
     return readArticle(item);
   } });
-  const eligible = readable.filter(e => e.published && Date.now() - Date.parse(e.published) <= WINDOW_HOURS * 3600_000 && Date.parse(e.published) <= Date.now() + 3600_000);
+  const eligible = readable.filter(e => e.published && Date.now() - Date.parse(e.published) <= WINDOW_HOURS * 3600_000 && Date.parse(e.published) <= Date.now());
   const readCache = new Map([...previousRead, ...readable].map(e => [canonicalUrl(e.url), e]));
   fs.writeFileSync(path.join(cache, `${date}.read.json`), JSON.stringify([...readCache.values()], null, 2));
   const selected = (await reviewNews(eligible, { history, audit: audit.rejected, existingSources })).slice(0, EDITION_LIMIT - edition.entries.length);
