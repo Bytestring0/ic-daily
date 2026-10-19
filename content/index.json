@@ -1,24 +1,24 @@
 {
-  "generatedAt": "2026-10-19T12:58:28.676Z",
+  "generatedAt": "2026-10-19T13:24:48.344Z",
   "total": 3,
   "editions": [
     {
       "date": "2026-10-19",
-      "count": 20,
-      "intro": "本期共 20 条动态，其中 9 条值得重点关注，集中在市场与产业、设备、存储、芯片设计方向。",
+      "count": 24,
+      "intro": "本期共 24 条动态，其中 8 条值得重点关注，集中在存储、市场与产业、芯片设计方向。",
       "top": [
-        "Anthropic向黑石提供超10%回报融资600亿美元购AI芯片",
-        "蔡司SMO总裁称High-NA EUV已可量产，订单排至2027年",
-        "长鑫存储预计前三季净利近200亿美元，扭亏为盈"
+        "长鑫存储预计2026年前三季净利约195.8亿美元",
+        "Anthropic向黑石提供超10%回报融资600亿美元AI芯片采购",
+        "英飞凌与Wolfspeed扩大SiC晶圆供应协议至8英寸"
       ],
       "categories": {
+        "memory": 3,
         "market": 2,
-        "equipment": 3,
-        "memory": 2,
-        "design": 9,
+        "design": 10,
+        "eda": 2,
         "policy": 1,
+        "equipment": 4,
         "foundry": 1,
-        "eda": 1,
         "research": 1
       }
     },
