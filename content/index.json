@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-10-19T13:24:48.344Z",
-  "total": 3,
+  "generatedAt": "2026-10-20T01:47:28.590Z",
+  "total": 4,
   "editions": [
+    {
+      "date": "2026-10-20",
+      "count": 12,
+      "intro": "本期共 12 条动态，其中 5 条值得重点关注，集中在研究与论文、政策与地缘、芯片设计、存储方向。",
+      "top": [
+        "IBM与西门子合作推进纳米堆叠芯片架构研发",
+        "英特尔向FCC申请豁免外国AGV机器人禁令",
+        "亚马逊开源TorchNeuron，Trainium芯片原生运行PyTorch"
+      ],
+      "categories": {
+        "research": 3,
+        "policy": 3,
+        "design": 2,
+        "memory": 1,
+        "equipment": 1,
+        "market": 1,
+        "eda": 1
+      }
+    },
     {
       "date": "2026-10-19",
       "count": 24,
