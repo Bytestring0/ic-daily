@@ -1,7 +1,28 @@
 {
-  "generatedAt": "2026-10-20T01:47:28.590Z",
-  "total": 4,
+  "generatedAt": "2026-10-21T01:33:34.204Z",
+  "total": 5,
   "editions": [
+    {
+      "date": "2026-10-21",
+      "count": 19,
+      "intro": "本期共 19 条动态，其中 10 条值得重点关注，集中在芯片设计、存储、EDA、政策与地缘方向。",
+      "top": [
+        "DeepSeek参与华为AI芯片设计，训练去英伟达化",
+        "三星HBM4长约锁定八成产能，CXMT受美企关注",
+        "Socionext携手Cadence推进3nm SoC物理设计AI化"
+      ],
+      "categories": {
+        "design": 5,
+        "memory": 1,
+        "eda": 2,
+        "policy": 2,
+        "market": 5,
+        "foundry": 1,
+        "equipment": 1,
+        "material": 1,
+        "research": 1
+      }
+    },
     {
       "date": "2026-10-20",
       "count": 12,
