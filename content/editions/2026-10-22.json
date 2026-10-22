@@ -1,0 +1,1132 @@
+{
+  "date": "2026-10-22",
+  "generatedAt": "2026-10-22T01:33:42.856Z",
+  "intro": "本期共 20 条动态，其中 11 条值得重点关注，集中在芯片设计、存储、市场与产业方向。",
+  "stats": {
+    "count": 20,
+    "sources": 11,
+    "sourcesFetched": 30,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 8,
+      "memory": 3,
+      "market": 5,
+      "foundry": 1,
+      "eda": 1,
+      "equipment": 2
+    },
+    "failedSources": [
+      {
+        "source": "Electronics-Lab",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      },
+      {
+        "source": "SemiAnalysis",
+        "error": "HTTP 403"
+      }
+    ],
+    "durationMs": 350727,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 46,
+      "readable": 43,
+      "accepted": 20,
+      "rejected": 4418,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1f7e4889b54ecf",
+      "title": "英飞凌与英伟达合作开发800V直流AI数据中心GaN电源",
+      "summary": "英飞凌宣布与英伟达深化合作，针对AI数据中心800V直流电源架构，推出基于氮化镓的高压中间总线转换器方案。该方案支持800V至50V/12V/6V转换，提升功率密度与效率，配合GTC柏林大会发布。",
+      "points": [
+        "双方合作始于2025年5月，2025年10月细化，聚焦可维护、热插拔的800VDC服务器机架。本次公告配合英伟达GTC柏林开发者大会（10月20-22日），重点推进高压中间总线转换器（IBC）阶段。",
+        "GaN器件开关速度更快、损耗更低，支持IBC级高达1MHz的开关频率，显著缩小磁性元件和无源器件尺寸，提升功率密度并降低板高。同时低导通与开关损耗实现高效转换，应对每机架兆瓦级功耗。",
+        "英飞凌提供完整IBC系统方案，结合PSoC控制C3和EiceDRIVER系列，覆盖800V至50V、800V至12V、800V至6V多种转换比。产品线涵盖硅、氮化镓和碳化硅，支持客户不同设计需求。",
+        "除IBC外，双方还合作电源路径保护方案（2025年10月公布），包括热插拔控制器功能，确保未来服务器板在800VDC架构下安全运行。英飞凌定位为从电网到处理器核心的AI电源半导体伙伴。"
+      ],
+      "cards": [
+        {
+          "heading": "合作背景",
+          "body": "双方合作始于2025年5月，2025年10月细化，聚焦可维护、热插拔的800VDC服务器机架。本次公告配合英伟达GTC柏林开发者大会（10月20-22日），重点推进高压中间总线转换器（IBC）阶段。"
+        },
+        {
+          "heading": "技术优势",
+          "body": "GaN器件开关速度更快、损耗更低，支持IBC级高达1MHz的开关频率，显著缩小磁性元件和无源器件尺寸，提升功率密度并降低板高。同时低导通与开关损耗实现高效转换，应对每机架兆瓦级功耗。"
+        },
+        {
+          "heading": "产品组合",
+          "body": "英飞凌提供完整IBC系统方案，结合PSoC控制C3和EiceDRIVER系列，覆盖800V至50V、800V至12V、800V至6V多种转换比。产品线涵盖硅、氮化镓和碳化硅，支持客户不同设计需求。"
+        },
+        {
+          "heading": "全链路合作",
+          "body": "除IBC外，双方还合作电源路径保护方案（2025年10月公布），包括热插拔控制器功能，确保未来服务器板在800VDC架构下安全运行。英飞凌定位为从电网到处理器核心的AI电源半导体伙伴。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/infineon-211026.shtml",
+      "published": "2026-10-21T19:28:25.000Z",
+      "score": 28,
+      "eventKey": "infineon-nvidia-gan-800vdc-power-collaboration",
+      "originalTitle": "Infineon collaborates with NVIDIA on GaN-based power conversion systems for 800VDC AI data centers",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/infineon-211026.shtml",
+        "retrievedAt": "2026-10-22T01:29:12.276Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英飞凌与英伟达在GaN功率转换系统上的合作是新的合作公告，针对800VDC AI数据中心，属于重要产业动态。",
+        "evidence": [
+          "News: Microelectronics 21 October 2026 Infineon collaborates with NVIDIA on GaN-based power conversion systems for 800VDC AI data centers Infineon Technologies AG of Munich, Germany is advancing its collaboration with NVIDIA on 800V direct ",
+          "Timed to coincide with NVIDIA’s GTC Berlin developer conference on 20–22 October, the announcement centers on the high-voltage intermediate bus converter (IBC), one of the most critical and demanding conversion stages in the power delivery ",
+          "This builds on the companies’ joint work first announced in May 2025 and detailed further in October 2025, which centered on enabling serviceable, hot-swappable 800VDC server racks. “AI is fundamentally reshaping the demands we place on pow"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "e2147f14915fd",
+      "title": "三星拟用台积电3nm生产英伟达HBM基板引发担忧",
+      "summary": "三星电子据报将采用台积电3nm工艺生产英伟达定制HBM的基板，放弃长期自有的整合模式以争取订单。此举引发韩国业界对三星晶圆代工竞争力、HBM设计控制及内部协作长期利益的担忧。",
+      "points": [
+        "三星计划放弃turnkey整合模式，改用台积电3nm工艺制造NVHBM基板，以满足英伟达需求并进入其供应链。",
+        "韩国业界担忧此举削弱三星晶圆代工竞争力，并影响HBM设计控制权。内部协作的长期利益也受到质疑。"
+      ],
+      "cards": [
+        {
+          "heading": "合作模式转变",
+          "body": "三星计划放弃turnkey整合模式，改用台积电3nm工艺制造NVHBM基板，以满足英伟达需求并进入其供应链。"
+        },
+        {
+          "heading": "战略隐忧",
+          "body": "韩国业界担忧此举削弱三星晶圆代工竞争力，并影响HBM设计控制权。内部协作的长期利益也受到质疑。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261021PD243/samsung-hbm-nvidia-tsmc-design.html",
+      "published": "2026-10-21T23:51:37.000Z",
+      "score": 26.73,
+      "eventKey": "samsung-tsmc-nvhbm-base-die-3nm-analysis",
+      "originalTitle": "Samsung's Nvidia HBM bid raises four strategic concerns",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261021PD243/samsung-hbm-nvidia-tsmc-design.html",
+        "retrievedAt": "2026-10-22T01:29:12.503Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "该报道提供了关于三星为英伟达定制HBM采用台积电3nm工艺的进一步分析，但核心事实已在历史中报道，此篇为分析评论，无新事实。",
+        "evidence": [
+          "Samsung Electronics is reportedly turning to TSMC's 3nm process to produce base dies for Nvidia's custom high-bandwidth memory (NVHBM), abandoning its long-standing turnkey integration model to win a place in Nvidia's supply chain."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1de96e1497e041",
+      "title": "谷歌云与NVIDIA发布Vera Rubin A5X实例正式可用",
+      "summary": "谷歌云宣布搭载NVIDIA Vera Rubin NVL72的A5X实例将于下月正式可用，并计划扩展至欧洲。谷歌云计划将Rubin GPU规模扩展至96万颗，首批客户包括AlphaGo之父David Silver创立的Ineffable Intelligence。",
+      "points": [
+        "A5X实例下月正式可用，计划扩展至欧洲。谷歌云计划在多个站点部署多达96万颗Rubin GPU，构建集成训练、推理和强化学习平台。",
+        "伦敦公司Ineffable Intelligence由AlphaGo之父David Silver创立，成为A5X首个客户，用于大规模强化学习和“超级学习者”系统；WPP也在A5X上测试创意代理架构。",
+        "A5X集成Vera Rubin NVL72、ConnectX-9 SuperNIC、谷歌云Virgo网络和第四代液冷。谷歌云还将提供机架级NVIDIA机密计算（A4X Max）及G4 VM上的机密计算正式可用。"
+      ],
+      "cards": [
+        {
+          "heading": "发布与扩展",
+          "body": "A5X实例下月正式可用，计划扩展至欧洲。谷歌云计划在多个站点部署多达96万颗Rubin GPU，构建集成训练、推理和强化学习平台。"
+        },
+        {
+          "heading": "首批客户",
+          "body": "伦敦公司Ineffable Intelligence由AlphaGo之父David Silver创立，成为A5X首个客户，用于大规模强化学习和“超级学习者”系统；WPP也在A5X上测试创意代理架构。"
+        },
+        {
+          "heading": "配套技术",
+          "body": "A5X集成Vera Rubin NVL72、ConnectX-9 SuperNIC、谷歌云Virgo网络和第四代液冷。谷歌云还将提供机架级NVIDIA机密计算（A4X Max）及G4 VM上的机密计算正式可用。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
+      "published": "2026-10-21T10:45:17.000Z",
+      "score": 25.55,
+      "eventKey": "google-cloud-nvidia-vera-rubin-ga",
+      "originalTitle": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure",
+        "retrievedAt": "2026-10-22T01:29:13.271Z",
+        "articlePublished": "2026-10-21T10:45:17.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Google Cloud与NVIDIA宣布Vera Rubin基础设施正式可用（GA），A5X实例下月上线，计划扩展至欧洲，并规划最多96万颗Rubin GPU部署，属于重要基础设施里程碑。",
+        "evidence": [
+          "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers.",
+          "Google Cloud plans to scale its Vera Rubin-based infrastructure to as many as 960,000 Rubin GPUs across multiple sites."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "19fd55921ab739",
+      "title": "英伟达发布机密裸金属，扩展机密计算至第三方基础设施",
+      "summary": "NVIDIA于10月21日推出Confidential Bare Metal新部署选项，将机密计算扩展至第三方云、neocloud和企业基础设施，支持前沿模型构建者在专用硬件上运行敏感工作负载。该方案提供三种部署模式，并扩展至Grace Blackwell和Rubin系统，Cohere和Google Cloud已宣布支持。",
+      "points": [
+        "Confidential Bare Metal允许模型构建者在第三方基础设施上运行敏感工作负载，同时保留对模型和数据的控制。新增平台安全控制包括保护传输中数据、测量平台完整性和强制硬件级访问限制。",
+        "NVIDIA Confidential Computing现提供三种部署选项：Confidential Bare Metal（裸金属）、Confidential Containers（Kubernetes环境）和Confidential Virtual Machines（虚拟化环境），组织可根据信任边界和运营需求选择。",
+        "Cohere计划将Confidential Bare Metal集成到Cohere Model Vault，扩展硬件根安全至GPU。Google Cloud将支持A4X Max实例（基于GB300 NVL72），提供非虚拟化加速计算和加密保护。",
+        "支持扩展到Grace Blackwell NVL72、x86 HGX Rubin NVL8和DGX Rubin NVL8。CoreWeave、Firmus、GMI Cloud、Google Cloud、IREN、Lambda、Microsoft Azure、Nebius、Nscale和Vultr支持部署。"
+      ],
+      "cards": [
+        {
+          "heading": "新部署选项",
+          "body": "Confidential Bare Metal允许模型构建者在第三方基础设施上运行敏感工作负载，同时保留对模型和数据的控制。新增平台安全控制包括保护传输中数据、测量平台完整性和强制硬件级访问限制。"
+        },
+        {
+          "heading": "三种部署模式",
+          "body": "NVIDIA Confidential Computing现提供三种部署选项：Confidential Bare Metal（裸金属）、Confidential Containers（Kubernetes环境）和Confidential Virtual Machines（虚拟化环境），组织可根据信任边界和运营需求选择。"
+        },
+        {
+          "heading": "生态合作",
+          "body": "Cohere计划将Confidential Bare Metal集成到Cohere Model Vault，扩展硬件根安全至GPU。Google Cloud将支持A4X Max实例（基于GB300 NVL72），提供非虚拟化加速计算和加密保护。"
+        },
+        {
+          "heading": "系统支持",
+          "body": "支持扩展到Grace Blackwell NVL72、x86 HGX Rubin NVL8和DGX Rubin NVL8。CoreWeave、Firmus、GMI Cloud、Google Cloud、IREN、Lambda、Microsoft Azure、Nebius、Nscale和Vultr支持部署。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure",
+      "published": "2026-10-21T10:30:02.000Z",
+      "score": 25.51,
+      "eventKey": "nvidia-confidential-bare-metal-launch",
+      "originalTitle": "NVIDIA Confidential Computing Expands, Enabling Frontier Model Builders to Securely Scale Across Global Infrastructure",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/confidential-computing-model-builders-infrastructure",
+        "retrievedAt": "2026-10-22T01:29:13.248Z",
+        "articlePublished": "2026-10-21T10:30:02.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "NVIDIA推出Confidential Bare Metal新部署选项，扩展机密计算至Grace Blackwell和Rubin系统，Cohere和Google Cloud宣布支持，属于平台安全能力的重要扩展。",
+        "evidence": [
+          "Today, NVIDIA is expanding that layer with Confidential Bare Metal, a new deployment option with NVIDIA Confidential Computing that enables frontier model builders to run sensitive workloads on dedicated third-party infrastructure while ret",
+          "NVIDIA Confidential Computing now offers a converged security architecture with three deployment options: Confidential Bare Metal for bare-metal infrastructure Confidential Containers for Kubernetes environments Confidential Virtual Machine",
+          " we’re extending hardware-rooted security directly to the GPU, protecting customer data in memory and across interconnects during execution.” Google Cloud is extending support for Confidential Bare Metal to A4X Max instances powered by NVID"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "b67063173d51c",
+      "title": "英特尔亚利桑那州Fab 62安装设备，俄亥俄厂推进",
+      "summary": "英特尔宣布已开始在亚利桑那州Fab 62安装生产设备，该厂有望于2028年底前量产。公司同时确认已将High-NA EUV光刻集成至大规模量产，并更新俄亥俄州Ohio One制造基地进展。",
+      "points": [
+        "英特尔于周三宣布已开始在亚利桑那州Fab 62安装生产工具，该厂按计划将于2028年底前实现大规模量产。",
+        "公司确认已将High-NA EUV光刻技术集成至高产量制造（HVM）流程，这是先进制程的关键突破。",
+        "英特尔持续投资美国本土的领先制程研发、先进封装和光掩模生产能力。Intel Foundry首席技术官Naga Chandrasekaran强调美国制造与真正美国本土技术的区别在于研发过程。"
+      ],
+      "cards": [
+        {
+          "heading": "Fab 62进度",
+          "body": "英特尔于周三宣布已开始在亚利桑那州Fab 62安装生产工具，该厂按计划将于2028年底前实现大规模量产。"
+        },
+        {
+          "heading": "High-NA EUV量产",
+          "body": "公司确认已将High-NA EUV光刻技术集成至高产量制造（HVM）流程，这是先进制程的关键突破。"
+        },
+        {
+          "heading": "美国投资布局",
+          "body": "英特尔持续投资美国本土的领先制程研发、先进封装和光掩模生产能力。Intel Foundry首席技术官Naga Chandrasekaran强调美国制造与真正美国本土技术的区别在于研发过程。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-production-tools-at-fab-62-in-arizona-provides-updates-on-ohio-chip-fab-confirms-high-na-euv-for-high-volume-manufacturing-in-2028",
+      "published": "2026-10-21T19:35:53.000Z",
+      "score": 24.02,
+      "eventKey": "intel-fab62-tool-installation-highna-euv-2028",
+      "originalTitle": "Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-production-tools-at-fab-62-in-arizona-provides-updates-on-ohio-chip-fab-confirms-high-na-euv-for-high-volume-manufacturing-in-2028",
+        "retrievedAt": "2026-10-22T01:29:14.259Z",
+        "articlePublished": "2026-10-21T19:35:53.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英特尔宣布在亚利桑那州Fab 62开始安装生产工具，并确认High-NA EUV将于2028年用于高量产，这是重要的制造里程碑。",
+        "evidence": [
+          "Intel on Wednesday announced that it had started installing production tools at its Fab 62 in Arizona, and the fab is on track for mass production by late 2028.",
+          "The company also reported progress on its Ohio One manufacturing complex and confirmed that it has integrated High-NA EUV lithography into high-volume manufacturing (HVM)."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "e85d72a4a5a04",
+      "title": "博通-凸版合资新加坡FC-BGA基板厂开业",
+      "summary": "Advanced Substrate Technologies（AST）——凸版控股与博通的合资企业——在新加坡开设高端FC-BGA基板工厂，为新加坡首例、凸版海外首例。该厂提前三个月投产，以缓解AI芯片基板短缺。",
+      "points": [
+        "AST位于新加坡裕廊湖区，占地约95,000平方米，配备太阳能板和水回收技术，将生产用于AI计算和网络芯片的大型高多层FC-BGA基板。",
+        "工厂自2024年3月动工，已招聘超200名工程师和技术人员，目标2026年底启动高价值制造。AST CEO Yoshiyuki Iida称该厂有助于缓解AI和网络芯片生产瓶颈。",
+        "博通半导体解决方案集团总裁Charlie Kawwas表示，该厂提前三个月上线，在基板短缺期间增强供应链韧性。新加坡经济发展局和JTC支持该项目，凸版计划随需求增长扩大产能。"
+      ],
+      "cards": [
+        {
+          "heading": "工厂概况",
+          "body": "AST位于新加坡裕廊湖区，占地约95,000平方米，配备太阳能板和水回收技术，将生产用于AI计算和网络芯片的大型高多层FC-BGA基板。"
+        },
+        {
+          "heading": "产能与招聘",
+          "body": "工厂自2024年3月动工，已招聘超200名工程师和技术人员，目标2026年底启动高价值制造。AST CEO Yoshiyuki Iida称该厂有助于缓解AI和网络芯片生产瓶颈。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "博通半导体解决方案集团总裁Charlie Kawwas表示，该厂提前三个月上线，在基板短缺期间增强供应链韧性。新加坡经济发展局和JTC支持该项目，凸版计划随需求增长扩大产能。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/broadcom-toppan-jv-opens-singapore-fc-bga-substrate-facility-for-ai-chip-production/",
+      "published": "2026-10-21T02:19:18.000Z",
+      "score": 22.14,
+      "eventKey": "broadcom-toppan-singapore-fc-bga-facility-opening",
+      "originalTitle": "Broadcom-TOPPAN JV Opens Singapore FC-BGA Substrate Facility for AI Chip Production",
+      "provenance": {
+        "url": "https://www.eetasia.com/broadcom-toppan-jv-opens-singapore-fc-bga-substrate-facility-for-ai-chip-production/",
+        "retrievedAt": "2026-10-22T01:29:29.343Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "博通与凸版合资的新加坡FC-BGA基板工厂开业，是新的制造设施里程碑，提前三个月投产，属于重要供应链事件。",
+        "evidence": [
+          "Advanced Substrate Technologies (AST), a joint venture between TOPPAN Holdings Inc. and Broadcom Inc., has opened a manufacturing facility in Singapore for high-end flip-chip ball grid array (FC-BGA) substrates.",
+          "This facility, brought online three months early, strengthens our supply chain resilience by delivering vital relief while the industry is constrained by substrate shortages."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1a820e1709ed84",
+      "title": "西门子为EDA智能体新增自验证能力",
+      "summary": "西门子与Nvidia扩大合作，在Fuse EDA AI Agent中新增自验证功能，支持半导体和PCB设计中的长时运行智能体工作流。该功能于DAC 2026发布，结合西门子EDA工具与Nvidia AI模型，实现智能体自主验证决策。",
+      "points": [
+        "西门子与Nvidia合作，将Nvidia Nemotron 3 Ultra模型、NeMo Gym库及OpenShell安全运行时集成到Fuse EDA AI Agent，覆盖Catapult、Solido、Aprisa、Calibre等工具。",
+        "智能体通过仿真、验证和物理设计工具生成工程证据，而非依赖语言模型判断正确性。可监控工作流、检查结果、调整配置并持续验证。",
+        "以Solido Characterization Suite为例，智能体驱动的库表征可将周转时间缩短10倍以上，token成本降低5至10倍。",
+        "该扩展在DAC 2026发布，继2025年DAC推出Fuse EDA AI系统、2026年GTC推出Agent后，新增长时运行能力。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "西门子与Nvidia合作，将Nvidia Nemotron 3 Ultra模型、NeMo Gym库及OpenShell安全运行时集成到Fuse EDA AI Agent，覆盖Catapult、Solido、Aprisa、Calibre等工具。"
+        },
+        {
+          "heading": "自验证机制",
+          "body": "智能体通过仿真、验证和物理设计工具生成工程证据，而非依赖语言模型判断正确性。可监控工作流、检查结果、调整配置并持续验证。"
+        },
+        {
+          "heading": "性能提升",
+          "body": "以Solido Characterization Suite为例，智能体驱动的库表征可将周转时间缩短10倍以上，token成本降低5至10倍。"
+        },
+        {
+          "heading": "发布节点",
+          "body": "该扩展在DAC 2026发布，继2025年DAC推出Fuse EDA AI系统、2026年GTC推出Agent后，新增长时运行能力。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 4,
+      "tags": [
+        "EDA"
+      ],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/siemens-adds-self-verification-for-long-running-eda-agents/",
+      "published": "2026-10-21T13:30:00.000Z",
+      "score": 22.01,
+      "eventKey": "siemens-fuse-eda-self-verification-launch",
+      "originalTitle": "Siemens Adds Self-Verification for Long-Running EDA Agents",
+      "provenance": {
+        "url": "https://www.embedded.com/siemens-adds-self-verification-for-long-running-eda-agents/",
+        "retrievedAt": "2026-10-22T01:29:29.602Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "西门子扩展与英伟达合作，为Fuse EDA AI Agent增加自验证能力，是EDA领域的具体新功能发布。",
+        "evidence": [
+          "Siemens recently expanded its strategic partnership with Nvidia to add new AI capabilities to the Fuse EDA AI Agent, enabling self-verifying agentic AI workflows for semiconductor and printed-circuit board (PCB) design.",
+          "This new expansion, released at DAC 2026, adds long-running agents that can keep working after the first tool call."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "174fe3d489dc",
+      "title": "SK海力士推进iHBM量产，热阻降低30%",
+      "summary": "SK海力士正推动新一代iHBM技术迈向量产阶段，并已开始讨论量产计划。该技术在HBM封装内部引入集成散热元件，可将热阻降低约30%，计划应用于HBM5等下一代产品。",
+      "points": [
+        "iHBM在封装内部引入ICE集成散热元件，由高导热不导电的硅基材料制成，直接放置在热量最集中区域，新增热传导通道将热量导出，热阻降低约30%。",
+        "iHBM基于现有成熟的MR-MUF封装工艺和晶圆级封装技术，可利用现有生产体系大规模制造，并与系统级封装架构兼容，客户无需大幅重新设计。",
+        "SK海力士计划将iHBM应用于未来的HBM5等下一代产品，以满足高性能计算平台和AI数据中心对超高带宽、超高密度存储的需求。"
+      ],
+      "cards": [
+        {
+          "heading": "散热方案",
+          "body": "iHBM在封装内部引入ICE集成散热元件，由高导热不导电的硅基材料制成，直接放置在热量最集中区域，新增热传导通道将热量导出，热阻降低约30%。"
+        },
+        {
+          "heading": "量产基础",
+          "body": "iHBM基于现有成熟的MR-MUF封装工艺和晶圆级封装技术，可利用现有生产体系大规模制造，并与系统级封装架构兼容，客户无需大幅重新设计。"
+        },
+        {
+          "heading": "应用规划",
+          "body": "SK海力士计划将iHBM应用于未来的HBM5等下一代产品，以满足高性能计算平台和AI数据中心对超高带宽、超高密度存储的需求。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583230.htm",
+      "published": "2026-10-21T11:27:41.000Z",
+      "score": 21.67,
+      "eventKey": "skhynix-ihbm-mass-production-thermal-improvement",
+      "originalTitle": "SK海力士加速部署iHBM技术 新一代HBM散热能力提升30%",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583230.htm",
+        "retrievedAt": "2026-10-22T01:29:29.711Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SK海力士加速iHBM技术量产部署，披露热阻降低30%的具体参数，是HBM技术演进的新进展。",
+        "evidence": [
+          "韩国存储芯片巨头SK海力士正在推动新一代iHBM(Integrated High Bandwidth Memory)技术迈向量产阶段,并已开始讨论相关量产计划。",
+          "根据SK海力士公布的数据,该方案能够将热阻降低约30%,帮助芯片即使在高温和高负载条件下仍维持稳定运行。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "c24660e14134b",
+      "title": "英伟达携手伙伴扩产AI基础设施",
+      "summary": "英伟达宣布与Amkor、IBIDEN、KYEC、三星电机、SPIL和Unimicron等供应链伙伴合作，扩大全球制造产能，以应对AI加速计算和全栈AI工厂平台的强劲需求。计划三年内将基板产能提升2.5倍，并与Amkor合作在韩国将中介层晶圆产能提升超300%。",
+      "points": [
+        "英伟达计划未来三年将基板产能提升2.5倍。IBIDEN获数十亿美元产能预留预付款，支持其日本小野工厂扩产至当前3倍，2028年第一季度开始爬坡；三星电机加入供应链，2028年英伟达相关产能将占其年总产能重要部分；Unimicron台湾KF扩产预计2027年第二季度开始增加产能，2028年中达满产。",
+        "英伟达与Amkor计划在韩国扩大先进封装产能，目标到2028年底中介层晶圆产能增长超300%，支持当前及下一代平台的高产量生产。",
+        "英伟达预计2026至2027年半导体测试总产能翻倍，依托美国、台湾和新加坡的扩建。向KYEC提供11亿美元产能预留预付款，支持美国新测试设施，2027年4月目标量产；新加坡测试业务预计2027年2月开始量产。",
+        "英伟达与SPIL计划在台湾扩大共封装光学用光学引擎产能，目标2027年中期增长15倍，2028年底再翻一番。"
+      ],
+      "cards": [
+        {
+          "heading": "基板产能扩张",
+          "body": "英伟达计划未来三年将基板产能提升2.5倍。IBIDEN获数十亿美元产能预留预付款，支持其日本小野工厂扩产至当前3倍，2028年第一季度开始爬坡；三星电机加入供应链，2028年英伟达相关产能将占其年总产能重要部分；Unimicron台湾KF扩产预计2027年第二季度开始增加产能，2028年中达满产。"
+        },
+        {
+          "heading": "先进封装扩产",
+          "body": "英伟达与Amkor计划在韩国扩大先进封装产能，目标到2028年底中介层晶圆产能增长超300%，支持当前及下一代平台的高产量生产。"
+        },
+        {
+          "heading": "测试产能翻倍",
+          "body": "英伟达预计2026至2027年半导体测试总产能翻倍，依托美国、台湾和新加坡的扩建。向KYEC提供11亿美元产能预留预付款，支持美国新测试设施，2027年4月目标量产；新加坡测试业务预计2027年2月开始量产。"
+        },
+        {
+          "heading": "共封装光学扩产",
+          "body": "英伟达与SPIL计划在台湾扩大共封装光学用光学引擎产能，目标2027年中期增长15倍，2028年底再翻一番。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+      "published": "2026-10-21T20:54:26.000Z",
+      "score": 20.24,
+      "eventKey": "nvidia-supply-chain-capacity-expansion-2026",
+      "originalTitle": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+        "retrievedAt": "2026-10-22T01:29:30.770Z",
+        "articlePublished": "2026-10-21T20:54:26.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达宣布与Amkor、IBIDEN、KYEC、三星电机、SPIL、Unimicron等供应链伙伴扩大基板、先进封装、测试和光引擎产能，包含具体数字（基板产能2.5倍、Amkor韩国中介层晶圆产能增300%以上、KYEC 11亿美元预付款、测试产能翻倍、光引擎15倍等），是重要供应链扩产事件。",
+        "evidence": [
+          "NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.",
+          "increase substrate capacity for its products by 2.5x over the next three years.",
+          "Scaling Advanced Packaging for Next-Generation Platforms NVIDIA and Amkor plan to expand advanced packaging capacity in South Korea, targeting a greater than 300% increase in interposer wafer capacity by the end of 2028."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "18df79c859dddd",
+      "title": "英伟达与思科联合推出USFP光模块规格",
+      "summary": "英伟达与思科合作开发USFP光收发器规格，支持每通道400Gb/s，带宽密度为现有200Gb/s模块的四倍，能效提升约1.3倍，容量最高12.8Tb/s。首批收发器将集成16条全双工通道于OSFP尺寸，计划建立开放行业规范。",
+      "points": [
+        "USFP支持400Gb/s每通道，带宽密度为现有200Gb/s模块的四倍，能效提升约1.3倍，总容量最高12.8Tb/s。首批收发器集成16条全双工通道，采用OSFP尺寸，未来可扩展至32通道。",
+        "采用二维阵列连接器，具备两步插入机制，高速电触点仅在模块插入后接合，减少磨损并提升信号完整性。模块功耗最高100W，无需专用嵌入式冷却回路，简化交换机设计。",
+        "英伟达与思科正联合TE Connectivity和Amphenol开发连接器、笼子及模块，并计划通过社区主导的多源项目建立开放行业规范。合作基于Spectrum-X与Silicon One网络，面向AI基础设施。"
+      ],
+      "cards": [
+        {
+          "heading": "规格与性能",
+          "body": "USFP支持400Gb/s每通道，带宽密度为现有200Gb/s模块的四倍，能效提升约1.3倍，总容量最高12.8Tb/s。首批收发器集成16条全双工通道，采用OSFP尺寸，未来可扩展至32通道。"
+        },
+        {
+          "heading": "连接器创新",
+          "body": "采用二维阵列连接器，具备两步插入机制，高速电触点仅在模块插入后接合，减少磨损并提升信号完整性。模块功耗最高100W，无需专用嵌入式冷却回路，简化交换机设计。"
+        },
+        {
+          "heading": "生态合作",
+          "body": "英伟达与思科正联合TE Connectivity和Amphenol开发连接器、笼子及模块，并计划通过社区主导的多源项目建立开放行业规范。合作基于Spectrum-X与Silicon One网络，面向AI基础设施。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "eeNews Europe",
+      "sourceLang": "en",
+      "url": "https://www.eenewseurope.com/en/nvidia-and-cisco-unveil-usfp-optics-for-ai-factories",
+      "published": "2026-10-21T06:36:01.000Z",
+      "score": 18.86,
+      "eventKey": "nvidia-cisco-usfp-optics-standard",
+      "originalTitle": "NVIDIA and Cisco unveil USFP optics for AI factories",
+      "provenance": {
+        "url": "https://www.eenewseurope.com/en/nvidia-and-cisco-unveil-usfp-optics-for-ai-factories",
+        "retrievedAt": "2026-10-22T01:29:31.396Z",
+        "articlePublished": "2026-10-21T06:36:01.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达与思科联合发布USFP新型光收发器外形规格，支持400Gb/s每通道，带宽密度为现有200Gb/s模块的4倍，容量达12.8Tb/s，并计划建立开放行业规范，是新的光互连技术标准事件。",
+        "evidence": [
+          "News | October 21, 2026 By Asma Adhimi NVIDIA and Cisco have teamed up to develop Ultra-Dense Small Form Factor Pluggable (USFP), a new optical transceiver form factor designed to support 400 Gb/s-per-lane connectivity in next-generation AI",
+          "The technology promises four times the bandwidth density of current 200 Gb/s-per-lane pluggable optics, with improved power efficiency and capacity of up to 12.8 Tb/s.",
+          "According to the companies, USFP offers four times the bandwidth and front-panel bandwidth density of existing 200Gb/s-per-lane pluggable modules, alongside approximately 1.3 times better power efficiency. “Building the world’s largest AI f"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "174c914bb33aa9",
+      "title": "英伟达发布模块化AI工厂DSX POD",
+      "summary": "英伟达在GTC大会推出模块化AI工厂参考设计DSX POD，将计算、网络、供电和液冷预集成于集装箱，部署周期从约6个月缩短至最短14天。计划2027年初通过戴尔、HPE、联想等合作伙伴全球交付。",
+      "points": [
+        "DSX POD将基础设施部署周期从传统约6个月缩短至最短14天，前提是场地及电力、冷却、网络等配套设施已准备就绪。",
+        "计算、网络、布线、机架供电、液冷管路安装及功能验证均在工厂完成，设备抵达现场后只需接入配套设施即可部署，减少现场施工和物流问题。",
+        "英伟达与戴尔科技、惠普企业、联想、技嘉、工业富联、和硕、云达科技、纬创、施耐德电气、维谛技术等合作，全球合作伙伴计划2027年初开始交付。"
+      ],
+      "cards": [
+        {
+          "heading": "部署周期",
+          "body": "DSX POD将基础设施部署周期从传统约6个月缩短至最短14天，前提是场地及电力、冷却、网络等配套设施已准备就绪。"
+        },
+        {
+          "heading": "集成内容",
+          "body": "计算、网络、布线、机架供电、液冷管路安装及功能验证均在工厂完成，设备抵达现场后只需接入配套设施即可部署，减少现场施工和物流问题。"
+        },
+        {
+          "heading": "合作伙伴",
+          "body": "英伟达与戴尔科技、惠普企业、联想、技嘉、工业富联、和硕、云达科技、纬创、施耐德电气、维谛技术等合作，全球合作伙伴计划2027年初开始交付。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/016/138.htm",
+      "published": "2026-10-21T14:36:19.000Z",
+      "score": 18.19,
+      "eventKey": "nvidia-dsx-pod-modular-ai-factory-launch",
+      "originalTitle": "黄仁勋发布 AI“预制工厂”DSX POD：最快 14 天部署投产，英伟达计划 2027 年初全球交付",
+      "provenance": {
+        "url": "https://www.ithome.com/1/016/138.htm",
+        "retrievedAt": "2026-10-22T01:29:30.544Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "黄仁勋在GTC柏林发布模块化AI工厂参考设计DSX POD，可将部署周期从约6个月缩短至最快14天，计划2027年初通过合作伙伴全球交付，是英伟达AI基础设施的重要新动作。",
+        "evidence": [
+          "IT之家 10 月 21 日消息,英伟达 CEO 黄仁勋今日在德国柏林举行的 GTC 大会上宣布推出模块化 AI 工厂参考设计 DSX POD,面向以 Vera Rubin 平台为核心的完整 AI 工厂系统。",
+          "英伟达表示,该方案将计算、网络、布线、机架供电、液冷管路安装及功能验证等工作提前转移至工厂完成,计划于 2027 年初通过合作伙伴在全球交付。",
+          "英伟达表示,在部署场地及配套基础设施已经准备就绪的情况下,DSX POD 可将基础设施部署周期从传统方式的约 6 个月缩短至最短 14 天。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "10ee4c57891f0f",
+      "title": "SEMI预测2026年硅晶圆出货量增长11.8%创新高",
+      "summary": "SEMI发布年度预测，2026年全球硅晶圆出货量预计增长11.8%至144.2亿平方英寸，AI需求驱动先进外延片和存储抛光片增长。2027至2029年将连续创纪录，2029年达170.34亿平方英寸。",
+      "points": [
+        "SEMI预测2026年硅晶圆出货量达14,420百万平方英寸（MSI），同比增长11.8%。2027至2029年将连续创历史新高，到2029年预计达到17,034 MSI。",
+        "2026年增长主要由AI相关需求驱动，支持先进逻辑用外延片和存储用抛光片。存储需求不仅限于HBM，还扩展至服务器DRAM和企业级NAND闪存。成熟制程利用率回升及客户库存调整缓解也支撑增长。",
+        "SEMI预计AI基础设施的持续扩张将支撑硅晶圆需求增长至2029年。硅晶圆是大多数半导体的基础材料，直径最大300毫米。数据涵盖抛光片和外延片，不包括非抛光或再生晶圆。"
+      ],
+      "cards": [
+        {
+          "heading": "出货量预测",
+          "body": "SEMI预测2026年硅晶圆出货量达14,420百万平方英寸（MSI），同比增长11.8%。2027至2029年将连续创历史新高，到2029年预计达到17,034 MSI。"
+        },
+        {
+          "heading": "增长动力",
+          "body": "2026年增长主要由AI相关需求驱动，支持先进逻辑用外延片和存储用抛光片。存储需求不仅限于HBM，还扩展至服务器DRAM和企业级NAND闪存。成熟制程利用率回升及客户库存调整缓解也支撑增长。"
+        },
+        {
+          "heading": "长期展望",
+          "body": "SEMI预计AI基础设施的持续扩张将支撑硅晶圆需求增长至2029年。硅晶圆是大多数半导体的基础材料，直径最大300毫米。数据涵盖抛光片和外延片，不包括非抛光或再生晶圆。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/semi-forecasts-11-8-growth-in-silicon-wafer-shipments-in-2026-with-record-highs-expected-through-2029",
+      "published": "2026-10-21T20:29:48.000Z",
+      "score": 27.17,
+      "eventKey": "semi-2026-silicon-wafer-shipment-forecast",
+      "originalTitle": "SEMI Forecasts 11.8% Growth in Silicon Wafer Shipments in 2026, With Record Highs Expected through 2029",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/semi-forecasts-11-8-growth-in-silicon-wafer-shipments-in-2026-with-record-highs-expected-through-2029",
+        "retrievedAt": "2026-10-22T01:29:12.533Z",
+        "articlePublished": "2026-10-21T20:29:48.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SEMI发布2026年硅晶圆出货量增长11.8%的官方预测，并预计2027-2029年创纪录新高，是重要的市场数据。",
+        "evidence": [
+          "Global silicon wafer shipments are projected to increase 11.8% in 2026 to 14,420 million square inches (MSI), SEMI reported today in its annual silicon shipment forecast.",
+          "Shipments are expected to reach successive record highs from 2027 through 2029, rising to 17,034 MSI by the end of the forecast period."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "166a6cac04fe72",
+      "title": "Navitas发布2300V超高压SiC功率模块系列",
+      "summary": "Navitas推出采用SiCPAK封装的2300V全桥SiC功率模块G4H08MT23GB4，导通电阻8mΩ，基于第四代GeneSiC Trench-Assisted Planar架构，面向固态变压器、储能及AI数据中心供电。模块即日提供样品，并支持3300V产品组合扩展。",
+      "points": [
+        "G4H08MT23GB4系列为2300V全桥模块，采用SiCPAK标准封装，宣称同类最低导通电阻8mΩ，隔离能力超5kV，适用于固态变压器、储能、太阳能逆变器及EV兆瓦充电。",
+        "基于第四代GeneSiC Trench-Assisted Planar（TAP）架构，采用AlN AMB基板提升散热，环氧树脂灌封较硅胶导热提升10倍，压接引脚载流能力翻倍，可选预涂TIM。",
+        "模块按内部AEC-Plus标准认证，超出AEC-Q101和JEDEC要求，包含动态反向偏压、动态栅极开关测试，静态高温高压测试时长增至三倍以上，并增加功率循环和HV-H3TRB测试。",
+        "G4H08MT23GB4(HC)系列样品即日提供，可选预涂TIM和高电流版本；配套双脉冲测试系统EVB-UHVSIC-GB-E-DPT-1可按需提供，另有TAP技术白皮书可下载。"
+      ],
+      "cards": [
+        {
+          "heading": "核心参数",
+          "body": "G4H08MT23GB4系列为2300V全桥模块，采用SiCPAK标准封装，宣称同类最低导通电阻8mΩ，隔离能力超5kV，适用于固态变压器、储能、太阳能逆变器及EV兆瓦充电。"
+        },
+        {
+          "heading": "技术架构",
+          "body": "基于第四代GeneSiC Trench-Assisted Planar（TAP）架构，采用AlN AMB基板提升散热，环氧树脂灌封较硅胶导热提升10倍，压接引脚载流能力翻倍，可选预涂TIM。"
+        },
+        {
+          "heading": "可靠性认证",
+          "body": "模块按内部AEC-Plus标准认证，超出AEC-Q101和JEDEC要求，包含动态反向偏压、动态栅极开关测试，静态高温高压测试时长增至三倍以上，并增加功率循环和HV-H3TRB测试。"
+        },
+        {
+          "heading": "供货与支持",
+          "body": "G4H08MT23GB4(HC)系列样品即日提供，可选预涂TIM和高电流版本；配套双脉冲测试系统EVB-UHVSIC-GB-E-DPT-1可按需提供，另有TAP技术白皮书可下载。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/navitas-211026.shtml",
+      "published": "2026-10-21T20:11:45.000Z",
+      "score": 26.12,
+      "eventKey": "navitas-launch-uhv-sic-power-module-family",
+      "originalTitle": "Navitas unveils UHV SiC power module for energy and grid infrastructure",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/navitas-211026.shtml",
+        "retrievedAt": "2026-10-22T01:29:13.100Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Navitas发布全新2300V超高压SiC功率模块系列，采用第四代GeneSiC TAP架构，具备8mΩ导通电阻，面向固态变压器、电网储能等AI数据中心供电基础设施，属于具体新产品发布。",
+        "evidence": [
+          "unced an ultra-high-voltage (UHV) SiC power module family for advanced energy and grid infrastructure.",
+          "The new G4H08MT23GB4 2300V full-bridge module family uses the industry-standard SiCPAK form factor and has what is claimed to be a class-leading RDSON (8mΩ).",
+          "These gains are enabled through its deployment of Navitas' fourth-generation GeneSiC Trench-Assisted Planar (TAP) architecture, with the launch extending Navitas’ 2300V and 3300V ultra-high-voltage SiC portfolio."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "Semiconductor Digest",
+          "url": "https://www.semiconductor-digest.com/navitas-unveils-next-generation-ultra-high-voltage-sic-power-module"
+        }
+      ]
+    },
+    {
+      "id": "17c8413be48585",
+      "title": "消息称：三星与SK海力士升级中国NAND工厂以应对长江存储",
+      "summary": "据报道，据路透社10月21日报道，三星电子和SK海力士正升级其中国NAND闪存工厂，以生产200层以上芯片，旨在夺回被长江存储抢占的市场。尽管美国对中国工厂升级的正式限制仍存在，但此举显示美国立场可能软化。",
+      "points": [
+        "三星和SK海力士计划在中国工厂生产超过200层的NAND闪存芯片，以提升技术竞争力。消息来源为四位知情人士，报道日期为10月21日。",
+        "此举旨在应对长江存储（YMTC）的竞争，夺回失去的市场份额。尽管美国对中国工厂升级的正式限制仍存在，但报道暗示美国立场可能软化。"
+      ],
+      "cards": [
+        {
+          "heading": "升级内容",
+          "body": "三星和SK海力士计划在中国工厂生产超过200层的NAND闪存芯片，以提升技术竞争力。消息来源为四位知情人士，报道日期为10月21日。"
+        },
+        {
+          "heading": "竞争背景",
+          "body": "此举旨在应对长江存储（YMTC）的竞争，夺回失去的市场份额。尽管美国对中国工厂升级的正式限制仍存在，但报道暗示美国立场可能软化。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261021VL214/samsung-sk-hynix-nand-ymtc-chips.html",
+      "published": "2026-10-21T07:57:45.000Z",
+      "score": 24.08,
+      "eventKey": "samsung-sk-hynix-china-nand-fab-upgrade-200layers",
+      "originalTitle": "Samsung, SK Hynix reportedly upgrading China NAND fabs to fend off YMTC amid softening US stance",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261021VL214/samsung-sk-hynix-nand-ymtc-chips.html",
+        "retrievedAt": "2026-10-22T01:29:14.106Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星和SK海力士升级在华NAND工厂至200层以上制程，以应对长江存储竞争，是新的具体产能/技术动作，涉及中国NAND市场竞争格局变化。",
+        "evidence": [
+          "Samsung Electronics and SK Hynix are upgrading their NAND flash factories in China to make chips with more than 200 layers, Reuters reported on October 21, citing four people familiar with the plans.",
+          "The move would let the South Korean memory makers win back ground lost to Yangtze Memory Technologies Co (YMTC), even though US curbs on upgrading their China operations remain formally in place."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/dram/samsung-and-sk-hynix-are-upgrading-chinese-factories-to-produce-advanced-ram-chips-as-ai-data-center-competition-ramps-up-big-players-move-to-fight-off-the-threat-from-cxmt-and-co"
+        }
+      ]
+    },
+    {
+      "id": "1f0502732b892c",
+      "title": "AMD与英特尔统一PyTorch CPU优化至oneDNN",
+      "summary": "AMD和英特尔计划将面向x86处理器的PyTorch优化整合到oneDNN中，为AI开发者提供跨两家公司CPU的性能提升统一路径，并减少维护独立软件路径的工作量。",
+      "points": [
+        "两家公司计划将PyTorch在x86处理器上的优化整合到oneDNN，使开发者无需分别适配AMD和Intel的CPU即可获得性能改进。",
+        "此举旨在消除维护两套独立软件路径的负担，简化AI开发者在x86平台上的部署流程。"
+      ],
+      "cards": [
+        {
+          "heading": "统一优化路径",
+          "body": "两家公司计划将PyTorch在x86处理器上的优化整合到oneDNN，使开发者无需分别适配AMD和Intel的CPU即可获得性能改进。"
+        },
+        {
+          "heading": "减少维护负担",
+          "body": "此举旨在消除维护两套独立软件路径的负担，简化AI开发者在x86平台上的部署流程。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261021VL211/amd-intel-x86-cpu-software.html",
+      "published": "2026-10-21T07:56:00.000Z",
+      "score": 24.08,
+      "eventKey": "amd-intel-unify-pytorch-onednn",
+      "originalTitle": "AMD and Intel align PyTorch CPU optimizations around oneDNN",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261021VL211/amd-intel-x86-cpu-software.html",
+        "retrievedAt": "2026-10-22T01:29:14.275Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "AMD与英特尔计划将x86处理器的PyTorch优化统一到oneDNN，是两家公司在软件生态层面的新合作动作，有具体事实。",
+        "evidence": [
+          "AMD and Intel plan to consolidate their PyTorch optimizations for x86 processors in oneDNN, aiming to give AI developers a common path to performance improvements across both companies' CPUs and reduce the work of maintaining separate softw"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ea27cd8ea2c3d",
+      "title": "边缘AI MCU集成多模态计算与分层内存",
+      "summary": "EE Times报道了一款新型MCU，将AI原生加速与集成高带宽DRAM结合，内存可扩展至数百MB，面向边缘AI多模态计算场景。该产品定位边缘设备端AI推理，强调内存分层设计。",
+      "points": [
+        "MCU集成AI原生加速单元，无需外部内存即可支持多模态计算；内置高带宽DRAM，容量可扩展至数百MB，满足边缘AI工作负载。",
+        "面向边缘AI设备，如智能传感器、嵌入式视觉和语音处理，减少对云端依赖，降低延迟并提升数据隐私。"
+      ],
+      "cards": [
+        {
+          "heading": "核心特性",
+          "body": "MCU集成AI原生加速单元，无需外部内存即可支持多模态计算；内置高带宽DRAM，容量可扩展至数百MB，满足边缘AI工作负载。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "面向边缘AI设备，如智能传感器、嵌入式视觉和语音处理，减少对云端依赖，降低延迟并提升数据隐私。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "EE Times",
+      "sourceLang": "en",
+      "url": "https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
+      "published": "2026-10-21T07:30:00.000Z",
+      "score": 23.01,
+      "eventKey": "new-edge-ai-mcu-multimodal-compute-launch",
+      "originalTitle": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
+      "provenance": {
+        "url": "https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
+        "retrievedAt": "2026-10-22T01:29:29.276Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "新型边缘AI MCU发布，集成AI加速和高带宽DRAM，是具体的芯片产品动态。",
+        "evidence": [
+          "A new MCU combines AI-native acceleration with integrated high-bandwidth DRAM scalable to hundreds of megabytes."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "43e22dd720a60",
+      "title": "ASML等设备商加速向马斯克Terafab供货",
+      "summary": "马斯克在SpaceX Q3 2026财报电话会上称，ASML等关键半导体设备供应商已加快向Terafab发货，以支持其激进时间表。该项目位于得州Gibbons Creek，目标2028年第三或第四季度实现量产，马斯克承认时间表高度理想化且存在较大不确定性。",
+      "points": [
+        "马斯克表示ASML及其他关键半导体设备供应商已加快向Terafab发货，以配合特斯拉与SpaceX合资大型半导体制造项目的激进时间表。",
+        "项目主工厂位于得克萨斯州Gibbons Creek，目标在2028年第三或第四季度实现批量芯片生产。马斯克强调该时间表高度理想化，存在较大误差范围。",
+        "该消息于10月20日在X平台直播的SpaceX 2026年第三季度财报电话会上公布，马斯克在直播中作出上述表态。"
+      ],
+      "cards": [
+        {
+          "heading": "设备加速交付",
+          "body": "马斯克表示ASML及其他关键半导体设备供应商已加快向Terafab发货，以配合特斯拉与SpaceX合资大型半导体制造项目的激进时间表。"
+        },
+        {
+          "heading": "量产目标",
+          "body": "项目主工厂位于得克萨斯州Gibbons Creek，目标在2028年第三或第四季度实现批量芯片生产。马斯克强调该时间表高度理想化，存在较大误差范围。"
+        },
+        {
+          "heading": "公告场合",
+          "body": "该消息于10月20日在X平台直播的SpaceX 2026年第三季度财报电话会上公布，马斯克在直播中作出上述表态。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "设备"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-asml-and-other-critical-semiconductor-equipment-suppliers-will-expedite-shipments-to-terafab-facility-targets-volume-chip-production-by-q3-q4-2028-in-highly-aspirational-timeline",
+      "published": "2026-10-21T15:30:00.000Z",
+      "score": 21.34,
+      "eventKey": "terafab-asml-equipment-expedited-shipment-2028",
+      "originalTitle": "ASML and other critical semiconductor equipment suppliers expedite shipments to Musk's Terafab",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-asml-and-other-critical-semiconductor-equipment-suppliers-will-expedite-shipments-to-terafab-facility-targets-volume-chip-production-by-q3-q4-2028-in-highly-aspirational-timeline",
+        "retrievedAt": "2026-10-22T01:29:29.601Z",
+        "articlePublished": "2026-10-21T15:30:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "马斯克在SpaceX Q3财报电话会议上宣布ASML等关键设备供应商已加快向Terafab发货，并给出2028年Q3/Q4量产的新时间表。这是对既有Terafab计划的实质性新进展（设备发货确认），属于重要事件。",
+        "evidence": [
+          "(Image credit: SpaceXAI / Future) Elon Musk says ASML and other critical semiconductor equipment suppliers have expedited shipments for the ambitious Terafab semiconductor manufacturing facility, supporting his aggressive timeline for the j",
+          "He made the announcement during a live broadcast of SpaceX's Q3 2026 earnings call on X yesterday, October 20.",
+          "Musk also said the company is targeting volume chip production at the project's primary facility in Gibbons Creek, Texas, by the third or fourth quarter of 2028, emphasizing that the timeline is highly aspirational and carries \"big error ba"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d7f376a349e8e",
+      "title": "Groq下一代LPU将采用3D堆叠DRAM",
+      "summary": "英伟达旗下AI推理芯片公司Groq计划在下一代LPU中引入3D堆叠DRAM技术，替代当前SRAM方案，以提升存储容量。新架构将堆叠多层DRAM并利用TSV实现层间连接，类似HBM设计。",
+      "points": [
+        "Groq计划放弃单纯依赖SRAM，转而采用DRAM并结合3D堆叠封装技术。通过TSV实现层间连接，可在单个垂直结构中堆叠多层DRAM，提高单位面积存储密度。",
+        "现有一代Groq LPU采用500MB SRAM，带宽150TB/s。LPX机架配置256颗芯片，总计128GB SRAM和640TB/s扩展带宽，单颗提供约1.20 PFLOPs FP8算力。",
+        "报道称Groq可能不会完全放弃SRAM，而是将DRAM与SRAM产品线并行发展，根据不同应用场景提供差异化解决方案。"
+      ],
+      "cards": [
+        {
+          "heading": "架构转变",
+          "body": "Groq计划放弃单纯依赖SRAM，转而采用DRAM并结合3D堆叠封装技术。通过TSV实现层间连接，可在单个垂直结构中堆叠多层DRAM，提高单位面积存储密度。"
+        },
+        {
+          "heading": "现役产品",
+          "body": "现有一代Groq LPU采用500MB SRAM，带宽150TB/s。LPX机架配置256颗芯片，总计128GB SRAM和640TB/s扩展带宽，单颗提供约1.20 PFLOPs FP8算力。"
+        },
+        {
+          "heading": "并行策略",
+          "body": "报道称Groq可能不会完全放弃SRAM，而是将DRAM与SRAM产品线并行发展，根据不同应用场景提供差异化解决方案。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583216.htm",
+      "published": "2026-10-21T07:55:14.000Z",
+      "score": 21.08,
+      "eventKey": "groq-next-gen-lpu-3d-stacked-dram",
+      "originalTitle": "英伟达旗下Groq下一代LPU架构转向3D堆叠DRAM 瞄准更大模型时代的容量需求",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583216.htm",
+        "retrievedAt": "2026-10-22T01:29:30.175Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Groq下一代LPU架构将从SRAM转向3D堆叠DRAM，这是其产品路线图的具体新变化，涉及存储架构重大调整，有具体技术细节（TSV、HBM类似方案），属于有具体新事实的常规动态。",
+        "evidence": [
+          "已被英伟达纳入麾下的 AI 推理芯片公司 Groq 正计划在下一代 LPU(Language Processing Unit,语言处理单元)产品中引入 3D 堆叠 DRAM 技术,以替代当前广泛采用的 SRAM 方案。",
+          "公司计划放弃单纯依赖 SRAM 的方案,转而采用 DRAM,并结合 3D Stacked(3D 堆叠)封装技术打造新架构。",
+          "通过采用 3D 堆叠技术,Groq 可以在单个垂直结构芯片中堆叠多层 DRAM,并利用 TSV(硅通孔)技术实现层间连接。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "735b9bba1b4fb",
+      "title": "美光桃园厂工会22日罢工一日，影响内存产出",
+      "summary": "美光台湾桃园厂员工因年度奖金与利润分享机制谈判破裂，将于10月22日罢工一日。罢工可能影响内存生产，但工会表示旨在施压而非终止谈判。",
+      "points": [
+        "桃园工会要求美光提出今年额外奖金的明确方案，并建立未来利润分配的透明公式。9月谈判失败后，员工于10月初批准罢工行动。",
+        "半导体晶圆厂需24小时运转，罢工将造成财务冲击。当前内存需求强劲，但预计对美光内存产出的影响较小。",
+        "工会强调罢工是施压手段，若公司提出全台员工可接受的条件，工会愿意达成协议。"
+      ],
+      "cards": [
+        {
+          "heading": "罢工诉求",
+          "body": "桃园工会要求美光提出今年额外奖金的明确方案，并建立未来利润分配的透明公式。9月谈判失败后，员工于10月初批准罢工行动。"
+        },
+        {
+          "heading": "影响评估",
+          "body": "半导体晶圆厂需24小时运转，罢工将造成财务冲击。当前内存需求强劲，但预计对美光内存产出的影响较小。"
+        },
+        {
+          "heading": "谈判态度",
+          "body": "工会强调罢工是施压手段，若公司提出全台员工可接受的条件，工会愿意达成协议。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/dram/microns-taiwan-union-will-launch-a-one-day-strike-this-week-threatening-round-the-clock-fab-operations-workers-demand-concrete-terms-for-2026-bonus-and-clearer-profit-sharing-arrangements",
+      "published": "2026-10-21T11:00:00.000Z",
+      "score": 15.59,
+      "eventKey": "micron-taiwan-union-strike-oct22",
+      "originalTitle": "Micron's Taiwan union will launch a one-day strike this week, threatening memory production",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/dram/microns-taiwan-union-will-launch-a-one-day-strike-this-week-threatening-round-the-clock-fab-operations-workers-demand-concrete-terms-for-2026-bonus-and-clearer-profit-sharing-arrangements",
+        "retrievedAt": "2026-10-22T01:29:30.840Z",
+        "articlePublished": "2026-10-21T11:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美光台湾桃园工会宣布10月22日举行一日罢工，威胁内存生产，这是影响存储供应链的重要事件。",
+        "evidence": [
+          "Micron faces a one-day labor stoppage at its Taoyuan operations in Taiwan on October 22, Reuters reports.",
+          "Micron's employees are striking for concrete terms for this year's bonus and a clearer mechanism for sharing the company's future profits.",
+          "The strike's teeth come from the resultant financial impact on Micron's operations, as semiconductor fabs are supposed to operate around the clock."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1583234.htm"
+        },
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261021PD258/micron-taiwan-profit-labor-performance.html"
+        }
+      ]
+    },
+    {
+      "id": "1c370b681ec27d",
+      "title": "印度OSAT建设推动半导体测试设备需求",
+      "summary": "NI表示Kaynes Semicon已选用其半导体测试系统，其他印度OSAT厂商也在评估设备，为生产做准备。印度OSAT产能建设正带动测试设备采购。",
+      "points": [
+        "NI确认Kaynes Semicon已选择其半导体测试系统，用于即将投产的封装测试产线。",
+        "多家印度OSAT厂商仍在评估测试设备，随着生产准备推进，测试设备采购需求将持续增长。"
+      ],
+      "cards": [
+        {
+          "heading": "Kaynes选用NI测试系统",
+          "body": "NI确认Kaynes Semicon已选择其半导体测试系统，用于即将投产的封装测试产线。"
+        },
+        {
+          "heading": "其他OSAT评估中",
+          "body": "多家印度OSAT厂商仍在评估测试设备，随着生产准备推进，测试设备采购需求将持续增长。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "EE Times",
+      "sourceLang": "en",
+      "url": "https://www.eetimes.com/indias-osat-buildout-puts-semiconductor-testing-in-focus/",
+      "published": "2026-10-21T13:39:13.000Z",
+      "score": 24.03,
+      "eventKey": "ni-test-systems-kaynes-semicon-selection",
+      "originalTitle": "India’s OSAT Buildout Puts Semiconductor Testing in Focus",
+      "provenance": {
+        "url": "https://www.eetimes.com/indias-osat-buildout-puts-semiconductor-testing-in-focus/",
+        "retrievedAt": "2026-10-22T01:29:29.091Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "NI的半导体测试系统被印度OSAT厂商Kaynes Semicon选中，这是具体的设备选型新动态。",
+        "evidence": [
+          "NI said Kaynes Semicon has selected its semiconductor test systems, while other Indian OSATs continue to evaluate equipment as manufacturers prepare for production."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

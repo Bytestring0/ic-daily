@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-21T01:33:34.204Z",
-  "total": 5,
+  "generatedAt": "2026-10-22T01:33:42.859Z",
+  "total": 6,
   "editions": [
+    {
+      "date": "2026-10-22",
+      "count": 20,
+      "intro": "本期共 20 条动态，其中 11 条值得重点关注，集中在芯片设计、存储、市场与产业方向。",
+      "top": [
+        "英飞凌与英伟达合作开发800V直流AI数据中心GaN电源",
+        "三星拟用台积电3nm生产英伟达HBM基板引发担忧",
+        "谷歌云与NVIDIA发布Vera Rubin A5X实例正式可用"
+      ],
+      "categories": {
+        "design": 8,
+        "memory": 3,
+        "market": 5,
+        "foundry": 1,
+        "eda": 1,
+        "equipment": 2
+      }
+    },
     {
       "date": "2026-10-21",
       "count": 19,
