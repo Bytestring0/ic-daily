@@ -1,0 +1,743 @@
+{
+  "date": "2026-10-23",
+  "generatedAt": "2026-10-23T01:31:59.714Z",
+  "intro": "本期共 13 条动态，其中 7 条值得重点关注，集中在设备、芯片设计、市场与产业、存储方向。",
+  "stats": {
+    "count": 13,
+    "sources": 7,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "equipment": 1,
+      "design": 4,
+      "market": 1,
+      "memory": 3,
+      "research": 2,
+      "foundry": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 305019,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 28,
+      "readable": 24,
+      "accepted": 13,
+      "rejected": 4461,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "a5ecccaa8f7f9",
+      "title": "中微公司出货首台Primo Domingo选择性刻蚀设备",
+      "summary": "中微公司（AMEC）向国内一家主要半导体研发制造客户出货首台Primo Domingo高选择性气相刻蚀系统，这是中国推进下一代3D芯片本土设备研发的一步。该设备针对先进3D芯片制造中的关键缺口。",
+      "points": [
+        "Primo Domingo是高选择性气相刻蚀系统，面向下一代3D芯片制造中的关键工艺缺口，属于本土设备自主化的重要进展。",
+        "首台设备已发往国内一家主要半导体研发制造客户，但客户名称未披露。",
+        "此次出货标志着中微公司在先进3D芯片制造设备领域迈出实际一步，助力中国减少对进口设备的依赖。"
+      ],
+      "cards": [
+        {
+          "heading": "设备定位",
+          "body": "Primo Domingo是高选择性气相刻蚀系统，面向下一代3D芯片制造中的关键工艺缺口，属于本土设备自主化的重要进展。"
+        },
+        {
+          "heading": "出货对象",
+          "body": "首台设备已发往国内一家主要半导体研发制造客户，但客户名称未披露。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "此次出货标志着中微公司在先进3D芯片制造设备领域迈出实际一步，助力中国减少对进口设备的依赖。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261022VL221/amec-3d-etching-wafer-manufacturing-equipment.html",
+      "published": "2026-10-23T00:26:04.000Z",
+      "score": 28.83,
+      "eventKey": "amec-primo-domingo-first-shipment",
+      "originalTitle": "AMEC ships first Primo Domingo selective etching system, targeting critical gaps in China's advanced 3D chipmaking",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261022VL221/amec-3d-etching-wafer-manufacturing-equipment.html",
+        "retrievedAt": "2026-10-23T01:28:11.781Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "中微公司（AMEC）首次出货Primo Domingo高选择性气相蚀刻系统，这是国产设备在先进3D芯片制造领域的关键进展，属于设备领域的重要新事实。",
+        "evidence": [
+          "China's Advanced Micro-Fabrication Equipment (AMEC) has shipped the first unit of its Primo Domingo high-selectivity vapor-phase etching system to a major domestic semiconductor research and manufacturing customer, marking a step forward in",
+          " China's efforts to develop indigenous equipment for next-generation 3D chips."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "a6fbac3c1fd29",
+      "title": "英伟达发布Minerva平台，实现AI工厂可观测性",
+      "summary": "英伟达于10月22日推出AIOps平台Minerva，整合基础设施与AI工作负载的遥测数据，利用AI模型提供可操作洞察，帮助运营团队提前发现问题、提升AI工厂产出率。该平台已获IREN等多家合作伙伴采用，戴尔、联想、超微等将提供集成方案。",
+      "points": [
+        "Minerva收集GPU、网络、存储、调度器及工作负载的遥测数据，构建动态知识图谱，可追踪慢训练任务至具体组件，并利用监督与非监督机器学习分析每小时数十亿数据点，识别异常、预测故障并关联事件。",
+        "平台内置原生AI助手，支持自然语言查询集群健康状态并获取修复建议，也可通过API连接外部自动化系统，实现人工或自动修复。",
+        "IREN、Aolani、Bitdeer AI、IBM、Jio、Lambda、Quake AI和特斯拉计划部署Minerva；戴尔、联想和超微将把Minerva纳入其AI工厂运营产品组合。"
+      ],
+      "cards": [
+        {
+          "heading": "平台功能",
+          "body": "Minerva收集GPU、网络、存储、调度器及工作负载的遥测数据，构建动态知识图谱，可追踪慢训练任务至具体组件，并利用监督与非监督机器学习分析每小时数十亿数据点，识别异常、预测故障并关联事件。"
+        },
+        {
+          "heading": "AI助手",
+          "body": "平台内置原生AI助手，支持自然语言查询集群健康状态并获取修复建议，也可通过API连接外部自动化系统，实现人工或自动修复。"
+        },
+        {
+          "heading": "合作伙伴",
+          "body": "IREN、Aolani、Bitdeer AI、IBM、Jio、Lambda、Quake AI和特斯拉计划部署Minerva；戴尔、联想和超微将把Minerva纳入其AI工厂运营产品组合。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+      "published": "2026-10-22T15:00:02.000Z",
+      "score": 26.26,
+      "eventKey": "nvidia-minerva-aiops-platform-launch",
+      "originalTitle": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure",
+        "retrievedAt": "2026-10-23T01:28:11.596Z",
+        "articlePublished": "2026-10-22T15:00:02.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达发布Minerva AIOps平台，用于AI工厂的端到端可观测性，属于有具体新事实的常规产品发布。",
+        "evidence": [
+          "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive.",
+          "It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1b27cf4a410974",
+      "title": "TrendForce预测2027年服务器CPU出货增超40% Arm份额达30%",
+      "summary": "TrendForce预测服务器CPU出货2026年增长31%、2027年增长超40%，受益于代理式AI工作负载对CPU需求提升。Arm指令集阵营市占率将从2026年的23%升至2027年的30%，英特尔因下代Diamond Rapids出货迟缓而份额下滑。",
+      "points": [
+        "TrendForce预估服务器CPU出货2026年增长31%，2027年增长超40%，增长动力来自代理式人工智能工作负载对CPU与加速器需求比例的提升。",
+        "基于Arm指令集的非x86阵营2026年市占23%，2027年升至30%。英特尔份额从2026年的50%降至2027年的42%，AMD从27%升至28%，英伟达维持12%。",
+        "2026年份额：英特尔50%、AMD27%、英伟达12%、AWS4%、谷歌3%、其他4%。2027年：英特尔42%、AMD28%、英伟达12%、AWS5%、谷歌6%、其他7%。",
+        "英特尔市占下滑源于下一代处理器Diamond Rapids出货迟缓，该处理器为英特尔应对Arm阵营竞争的关键产品。"
+      ],
+      "cards": [
+        {
+          "heading": "出货增长预测",
+          "body": "TrendForce预估服务器CPU出货2026年增长31%，2027年增长超40%，增长动力来自代理式人工智能工作负载对CPU与加速器需求比例的提升。"
+        },
+        {
+          "heading": "市占率变化",
+          "body": "基于Arm指令集的非x86阵营2026年市占23%，2027年升至30%。英特尔份额从2026年的50%降至2027年的42%，AMD从27%升至28%，英伟达维持12%。"
+        },
+        {
+          "heading": "厂商份额明细",
+          "body": "2026年份额：英特尔50%、AMD27%、英伟达12%、AWS4%、谷歌3%、其他4%。2027年：英特尔42%、AMD28%、英伟达12%、AWS5%、谷歌6%、其他7%。"
+        },
+        {
+          "heading": "下滑原因",
+          "body": "英特尔市占下滑源于下一代处理器Diamond Rapids出货迟缓，该处理器为英特尔应对Arm阵营竞争的关键产品。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/016/801.htm",
+      "published": "2026-10-23T01:08:35.000Z",
+      "score": 24.95,
+      "eventKey": "trendforce-2027-server-cpu-shipment-arm-share-forecast",
+      "originalTitle": "TrendForce 预测：2027 年服务器 CPU 出货有望增长超 40%，Arm 指令集可拿下三成份额",
+      "provenance": {
+        "url": "https://www.ithome.com/1/016/801.htm",
+        "retrievedAt": "2026-10-23T01:28:12.129Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "TrendForce发布2026-2027年服务器CPU出货量增长预测及Arm架构市占率提升至30%的新预测数据，属于有具体数字的市场预测。",
+        "evidence": [
+          "IT之家 10 月 23 日消息,TrendForce(集邦)昨日发布预测,认为服务器 CPU 出货有望在 2026、2027 两年分别增长 31% 和超 40%。",
+          "英特尔AMD英伟达AWS谷歌其它2026 年50%27%12%4%3%4%2027 年42%28%12%5%6%7%总体来看,基本全数基于 Arm 指令集的非 x86 阵营在今明两年有望分别拿下 23% 和 30% 市占,份额显著提升。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354008/server-cpu-shipments-projected-to-grow-over-40-yoy-in-2027-with-arm-based-products-continuing-to-gain-market-share"
+        }
+      ]
+    },
+    {
+      "id": "10faae32b7e1e0",
+      "title": "美光放弃4F² DRAM，转向传统微缩与3D DRAM",
+      "summary": "美光首席技术官Scott DeBoer在技术网络研讨会上表示，公司不计划采用4F² DRAM架构，认为其复杂性和成本不具可行扩展性。美光将延续现有DRAM架构微缩，并并行开发3D DRAM。此前中国长鑫存储宣布年底推出基于4F²的DDR5服务器内存模组。",
+      "points": [
+        "美光明确不采用4F² DRAM，理由是增加复杂度和成本，且不提供可行的扩展路径。DeBoer称公司已研究该方案二十年并制造多个原型。",
+        "美光计划继续微缩现有DRAM架构，同时并行开发3D DRAM。预计还需数代传统DRAM（采用晶圆键合、新材料、高数值孔径EUV）后，3D DRAM才会在成本性能合理时引入。",
+        "长鑫存储计划年底推出基于4F²架构的DDR5服务器内存模组，成为首家公布具体4F²路线的存储厂商。DeBoer认为4F²在旧节点可制造，但超出美光当前技术后遭遇物理限制。"
+      ],
+      "cards": [
+        {
+          "heading": "技术决策",
+          "body": "美光明确不采用4F² DRAM，理由是增加复杂度和成本，且不提供可行的扩展路径。DeBoer称公司已研究该方案二十年并制造多个原型。"
+        },
+        {
+          "heading": "未来路线",
+          "body": "美光计划继续微缩现有DRAM架构，同时并行开发3D DRAM。预计还需数代传统DRAM（采用晶圆键合、新材料、高数值孔径EUV）后，3D DRAM才会在成本性能合理时引入。"
+        },
+        {
+          "heading": "行业背景",
+          "body": "长鑫存储计划年底推出基于4F²架构的DDR5服务器内存模组，成为首家公布具体4F²路线的存储厂商。DeBoer认为4F²在旧节点可制造，但超出美光当前技术后遭遇物理限制。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "Bits&Chips",
+      "sourceLang": "en",
+      "url": "https://bits-chips.com/article/micron-rules-out-4f%c2%b2-dram-in-favor-of-continued-scaling-and-3d-transition",
+      "published": "2026-10-22T10:29:24.000Z",
+      "score": 24.51,
+      "eventKey": "micron-rules-out-4f2-dram-3d-transition",
+      "originalTitle": "Micron rules out 4F² DRAM in favor of continued scaling and 3D transition",
+      "provenance": {
+        "url": "https://bits-chips.com/article/micron-rules-out-4f%c2%b2-dram-in-favor-of-continued-scaling-and-3d-transition",
+        "retrievedAt": "2026-10-23T01:28:18.492Z",
+        "articlePublished": "2026-10-22T10:29:24.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美光明确排除4F2 DRAM路线，继续6F2缩放并并行开发3D DRAM，这是重要的技术路线决策。",
+        "evidence": [
+          "Micron doesn’t plan to adopt 4F2 DRAM, arguing that its added complexity and cost don’t offer a viable scaling path.",
+          "Instead, Micron intends to continue shrinking its existing DRAM architecture while developing 3D DRAM in parallel."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1e2bdb53d1777b",
+      "title": "英特尔CTO称前沿晶圆产量上限约两倍",
+      "summary": "英特尔CTO普什卡·拉纳德在播客中表示，即便资金充足，全球尖端晶圆产量最多翻倍，而非十倍。他指供应链协同扩产受限，ASML年产EUV光刻机不足100台，设备交付周期约18个月，产能要到2028年前后落地。",
+      "points": [
+        "拉纳德称前沿晶圆产量增长上限约为两倍，而非十倍。限制源于整个半导体供应链协同扩产能力，而非单一环节。",
+        "ASML每年生产EUV光刻机不足100台，到本十年末难以大幅扩产。英特尔、台积电、SK海力士等共同争夺这些设备。",
+        "今天下单的设备约18个月后交付，对应产能要到2028年前后才能落地。新建晶圆厂无法自动增加产量，因设备供应跟不上。",
+        "设备供应商、上游及子供应商需同步扩产。光刻机、零部件、材料、检测设备与工厂建设任一环节卡脖子，都会限制先进晶圆产出。"
+      ],
+      "cards": [
+        {
+          "heading": "产量上限",
+          "body": "拉纳德称前沿晶圆产量增长上限约为两倍，而非十倍。限制源于整个半导体供应链协同扩产能力，而非单一环节。"
+        },
+        {
+          "heading": "设备瓶颈",
+          "body": "ASML每年生产EUV光刻机不足100台，到本十年末难以大幅扩产。英特尔、台积电、SK海力士等共同争夺这些设备。"
+        },
+        {
+          "heading": "交付周期",
+          "body": "今天下单的设备约18个月后交付，对应产能要到2028年前后才能落地。新建晶圆厂无法自动增加产量，因设备供应跟不上。"
+        },
+        {
+          "heading": "供应链联动",
+          "body": "设备供应商、上游及子供应商需同步扩产。光刻机、零部件、材料、检测设备与工厂建设任一环节卡脖子，都会限制先进晶圆产出。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/016/761.htm",
+      "published": "2026-10-22T22:48:15.000Z",
+      "score": 22.56,
+      "eventKey": "intel-cto-frontier-wafer-capacity-double-limit",
+      "originalTitle": "英特尔 CTO 称前沿晶圆产量最多翻倍，AI 算力扩张遭遇供应链天花板",
+      "provenance": {
+        "url": "https://www.ithome.com/1/016/761.htm",
+        "retrievedAt": "2026-10-23T01:28:14.422Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔CTO在播客中表示全球前沿晶圆产量增长上限约为两倍，并解释供应链瓶颈，属于高管对行业产能的公开表态，有具体观点和事实。",
+        "evidence": [
+          "IT之家 10 月 23 日消息,在接受 Dwarkesh 播客时,英特尔首席技术官(CTO)普什卡 · 拉纳德(Pushkar Ranade)表示:即便资金充足,全球尖端晶圆产量也难以扩大十倍,更现实的增长上限约为两倍。",
+          "对此他回应称“不是 10 倍,但可能达到 2 倍,是的。",
+          "其中,ASML 每年生产的 EUV 光刻机不足 100 台,且到本十年末也难以大幅扩产,而英特尔、台积电以及 SK 海力士等存储厂商共同争夺这些设备。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "b5731f759836e",
+      "title": "三星2纳米工艺结合HBM基底芯片或为高通备选",
+      "summary": "三星计划将下一代外置5G调制解调器M2800转向2纳米工艺，预计2027年完成研发，配合2028年Galaxy S28系列。同时，三星正验证自家2纳米工艺制造NVHBM基底芯片的可行性，以在台积电产能紧张时提供替代方案，或为高通提供双代工厂选择。",
+      "points": [
+        "三星系统LSI部门开发M2800，预计2027年完成研发，配合2028年Galaxy S28系列与Exynos 2800共同工作。此前外置调制解调器主要采用4纳米工艺。",
+        "三星将部分4纳米产能转向HBM基底芯片制造，标准HBM产品仍用4纳米工艺。基底芯片影响HBM性能、功耗和集成能力。",
+        "英伟达定制化HBM项目NVHBM要求供应商采用台积电3纳米工艺。三星正验证自家2纳米工艺制造NVHBM基底芯片的可行性，作为台积电产能紧张时的替代方案，仍处于验证阶段。",
+        "若三星2纳米良率改善、产能扩大且报价有竞争力，高通可能考虑双代工厂策略。目前无证据表明高通已决定将旗舰骁龙处理器交由三星生产。"
+      ],
+      "cards": [
+        {
+          "heading": "M2800转向2纳米",
+          "body": "三星系统LSI部门开发M2800，预计2027年完成研发，配合2028年Galaxy S28系列与Exynos 2800共同工作。此前外置调制解调器主要采用4纳米工艺。"
+        },
+        {
+          "heading": "HBM基底芯片",
+          "body": "三星将部分4纳米产能转向HBM基底芯片制造，标准HBM产品仍用4纳米工艺。基底芯片影响HBM性能、功耗和集成能力。"
+        },
+        {
+          "heading": "NVHBM验证",
+          "body": "英伟达定制化HBM项目NVHBM要求供应商采用台积电3纳米工艺。三星正验证自家2纳米工艺制造NVHBM基底芯片的可行性，作为台积电产能紧张时的替代方案，仍处于验证阶段。"
+        },
+        {
+          "heading": "高通双代工可能",
+          "body": "若三星2纳米良率改善、产能扩大且报价有竞争力，高通可能考虑双代工厂策略。目前无证据表明高通已决定将旗舰骁龙处理器交由三星生产。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583392.htm",
+      "published": "2026-10-22T12:42:49.000Z",
+      "score": 21.88,
+      "eventKey": "samsung-m2800-2nm-modem-nvhbm-base-die-validation",
+      "originalTitle": "三星将HBM基底芯片与2纳米工艺结合 或为高通提供台积电之外的新选择",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583392.htm",
+        "retrievedAt": "2026-10-23T01:28:15.690Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星计划将下一代外置5G调制解调器M2800转向2纳米工艺制造，并正在验证利用自家2纳米工艺制造NVHBM基底芯片的可行性，这是新的具体产品与工艺决策动态。",
+        "evidence": [
+          "三星计划将下一代外置5G调制解调器M2800转向2纳米工艺制造。",
+          "行业消息称,三星正在验证利用自家2纳米工艺制造NVHBM基底芯片的可行性,以便在台积电先进制程产能紧张时拥有替代方案。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "17d9f7bbb5b91a",
+      "title": "SK海力士取消Solidigm赴美IPO计划",
+      "summary": "SK海力士因金融市场波动和近期股价走势，决定取消子公司Solidigm的美国IPO。公司声明称将继续探索为Solidigm扩张提供资金并提升股东价值的途径，包括评估未来投资的时机、规模和融资方式。",
+      "points": [
+        "受金融市场波动加剧及半导体板块广泛回调影响，尽管SK海力士与Solidigm经营业绩表现强劲，公司仍决定重新审视上市安排。",
+        "SK海力士表示将继续探索为Solidigm扩张提供资金并提升股东价值的途径，包括评估未来投资的时机、规模和融资方式，并强调该决定不代表Solidigm增长前景或投资需求发生改变。",
+        "Solidigm成立于2021年，源于SK海力士分阶段收购英特尔NAND闪存及存储业务后更名而来，总部位于美国加州兰乔科尔多瓦，全球拥有13个运营地点，员工超2000人。"
+      ],
+      "cards": [
+        {
+          "heading": "取消原因",
+          "body": "受金融市场波动加剧及半导体板块广泛回调影响，尽管SK海力士与Solidigm经营业绩表现强劲，公司仍决定重新审视上市安排。"
+        },
+        {
+          "heading": "后续计划",
+          "body": "SK海力士表示将继续探索为Solidigm扩张提供资金并提升股东价值的途径，包括评估未来投资的时机、规模和融资方式，并强调该决定不代表Solidigm增长前景或投资需求发生改变。"
+        },
+        {
+          "heading": "公司背景",
+          "body": "Solidigm成立于2021年，源于SK海力士分阶段收购英特尔NAND闪存及存储业务后更名而来，总部位于美国加州兰乔科尔多瓦，全球拥有13个运营地点，员工超2000人。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/016/767.htm",
+      "published": "2026-10-22T23:35:17.000Z",
+      "score": 17.69,
+      "eventKey": "skhynix-cancel-solidigm-ipo",
+      "originalTitle": "因市场波动，SK 海力士宣布取消旗下公司 Solidigm 赴美 IPO 计划",
+      "provenance": {
+        "url": "https://www.ithome.com/1/016/767.htm",
+        "retrievedAt": "2026-10-23T01:28:16.348Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SK海力士因市场波动正式取消子公司Solidigm赴美IPO计划，这是重要的资本市场决策，直接影响存储产业融资格局。",
+        "evidence": [
+          "IT之家 10 月 23 日消息,据路透社报道,SK 海力士表示,受金融市场波动和近期股价走势影响,已决定取消其子公司 Solidigm 的美国首次公开募股(IPO)。",
+          "SK 海力士在一份声明中表示,将继续探索为 Solidigm 的扩张提供资金并提升股东价值的途径,包括评估未来投资的时机、规模和融资方式。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "3393f65f783b6",
+      "title": "PSMC评估台湾、日本、新加坡扩产3D AI代工",
+      "summary": "力积电（PSMC）正紧急扩展3D AI代工业务，评估在台湾、新加坡和日本新建工厂，并探索与客户的战略合资。其产品组合包括集成无源器件（IPD）、中介层、晶圆对晶圆（WoW）技术及后晶圆精加工（PWF）服务，IPD需求预计持续至2028年。",
+      "points": [
+        "PSMC正评估在台湾、新加坡和日本新建工厂，并探索与客户的战略合资，以扩展3D AI代工业务。",
+        "产品包括集成无源器件（IPDs）、中介层、晶圆对晶圆（WoW）技术及后晶圆精加工（PWF）服务。",
+        "随着AI服务器功耗上升，IPD需求预计持续可见至2028年。"
+      ],
+      "cards": [
+        {
+          "heading": "扩产计划",
+          "body": "PSMC正评估在台湾、新加坡和日本新建工厂，并探索与客户的战略合资，以扩展3D AI代工业务。"
+        },
+        {
+          "heading": "产品组合",
+          "body": "产品包括集成无源器件（IPDs）、中介层、晶圆对晶圆（WoW）技术及后晶圆精加工（PWF）服务。"
+        },
+        {
+          "heading": "需求展望",
+          "body": "随着AI服务器功耗上升，IPD需求预计持续可见至2028年。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261022PD249/psmc-3d-taiwan-production-revenue.html",
+      "published": "2026-10-23T00:32:18.000Z",
+      "score": 28.85,
+      "eventKey": "psmc-3d-ai-foundry-expansion-taiwan-japan-singapore",
+      "originalTitle": "PSMC eyes Taiwan, Japan, Singapore for 3D AI foundry expansion",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261022PD249/psmc-3d-taiwan-production-revenue.html",
+        "retrievedAt": "2026-10-23T01:28:11.456Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "PSMC正评估在中国台湾、新加坡、日本新建3D AI代工厂，并探索与客户战略合资，属于具体新事实。",
+        "evidence": [
+          "Powerchip Semiconductor Manufacturing (PSMC) is urgently expanding its 3D AI foundry business and evaluating new plants in Taiwan, Singapore, and Japan, while exploring strategic joint ventures with customers.",
+          "Its product portfolio includes integrated passive devices (IPDs), interposers, wafer-on-wafer (WoW) technology, and post-wafer finish (PWF) services, with demand for IPDs expected to remain visible through 2028 as AI server power consumptio"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "158a9cbe59be3",
+      "title": "UMC与AP Memory合作开发AI芯片供电电容",
+      "summary": "联电（UMC）与爱普科技（AP Memory）于10月22日宣布技术与制造合作，结合联电的深沟槽电容（DTC）技术与爱普的硅电容设计能力，开发面向AI数据中心的新一代供电解决方案。合作背景是AI与HPC芯片功耗上升，推动供电向芯片近端和先进封装集成转移。",
+      "points": [
+        "双方将整合UMC的DTC技术及晶圆制造能力，与AP Memory的硅电容设计和系统集成专长，共同开发用于AI数据中心的下一代供电方案。",
+        "AI与HPC芯片功耗持续攀升，加速了供电方案向近芯片（near-chip）供电和先进封装集成方向演进，DTC硅电容可提升供电效率与稳定性。",
+        "合作于2026年10月22日正式宣布，目前处于技术开发阶段，尚未披露具体量产时间或产品参数。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "双方将整合UMC的DTC技术及晶圆制造能力，与AP Memory的硅电容设计和系统集成专长，共同开发用于AI数据中心的下一代供电方案。"
+        },
+        {
+          "heading": "技术背景",
+          "body": "AI与HPC芯片功耗持续攀升，加速了供电方案向近芯片（near-chip）供电和先进封装集成方向演进，DTC硅电容可提升供电效率与稳定性。"
+        },
+        {
+          "heading": "宣布时间",
+          "body": "合作于2026年10月22日正式宣布，目前处于技术开发阶段，尚未披露具体量产时间或产品参数。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261022PD244/umc-ap-memory-silicon-packaging-technology.html",
+      "published": "2026-10-23T00:36:39.000Z",
+      "score": 26.86,
+      "eventKey": "umc-apmemory-dtc-silicon-capacitor-partnership",
+      "originalTitle": "UMC, AP Memory advance AI chip power delivery with validated DTC silicon capacitors for advanced packaging",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261022PD244/umc-ap-memory-silicon-packaging-technology.html",
+        "retrievedAt": "2026-10-23T01:28:12.387Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "联电与AP Memory宣布合作开发基于深沟槽电容技术的硅电容，用于AI芯片先进封装的电源传输，属于有具体新事实的常规供应链动态。",
+        "evidence": [
+          "UMC and AP Memory announced a technology and manufacturing partnership on October 22 to develop next-generation power delivery solutions for AI data centers, combining UMC's deep trench capacitor (DTC) technology and wafer manufacturing cap",
+          "abilities with AP Memory's silicon capacitor design and system integration expertise."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "e13ac81438692",
+      "title": "SPIE会议聚焦EPE：OPC被视为关键与挑战",
+      "summary": "在SPIE光刻会议上，专家小组讨论边缘放置误差（EPE）成为系统级问题。OPC被观众调查视为EPE主要来源和未来削减的关键，但EDA需更完整建模制造系统，AI需与物理验证结合。",
+      "points": [
+        "EPE已从窄泛光刻指标演变为系统级度量，涉及掩模、扫描仪、光刻胶、刻蚀、计量、OPC及下游集成。各学科局部优化不保证整体最优。",
+        "观众调查显示OPC既是EPE主要来源，也是未来削减EPE的首要手段。最终投票中58%对OPC削减EPE有信心。",
+        "EDA需更完整表示制造系统，包括图案依赖的掩模轮廓、真实计量行为、扫描仪效应和工艺变异性，而非理想化模型。",
+        "AI有望在EPE削减中带来最大增益，但需与物理和验证结合。数据需物理意义明确且可重复，建模应指导测量，测量改进建模。"
+      ],
+      "cards": [
+        {
+          "heading": "EPE系统级挑战",
+          "body": "EPE已从窄泛光刻指标演变为系统级度量，涉及掩模、扫描仪、光刻胶、刻蚀、计量、OPC及下游集成。各学科局部优化不保证整体最优。"
+        },
+        {
+          "heading": "OPC双重角色",
+          "body": "观众调查显示OPC既是EPE主要来源，也是未来削减EPE的首要手段。最终投票中58%对OPC削减EPE有信心。"
+        },
+        {
+          "heading": "EDA建模需求",
+          "body": "EDA需更完整表示制造系统，包括图案依赖的掩模轮廓、真实计量行为、扫描仪效应和工艺变异性，而非理想化模型。"
+        },
+        {
+          "heading": "AI与数据策略",
+          "body": "AI有望在EPE削减中带来最大增益，但需与物理和验证结合。数据需物理意义明确且可重复，建模应指导测量，测量改进建模。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 3,
+      "tags": [
+        "设备"
+      ],
+      "source": "Semiconductor Engineering",
+      "sourceLang": "en",
+      "url": "https://semiengineering.com/beyond-the-epe-budget-building-the-next-generation-of-computational-lithography",
+      "published": "2026-10-22T07:08:02.000Z",
+      "score": 24.95,
+      "eventKey": "spie-photomask-epe-computational-lithography-panel",
+      "originalTitle": "Beyond The EPE Budget: Building The Next Generation Of Computational Lithography",
+      "provenance": {
+        "url": "https://semiengineering.com/beyond-the-epe-budget-building-the-next-generation-of-computational-lithography",
+        "retrievedAt": "2026-10-23T01:28:14.052Z",
+        "articlePublished": "2026-10-22T07:08:02.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SPIE Photomask Technology + EUV Lithography会议上专家小组讨论EPE作为系统级指标及计算光刻发展方向，属于行业会议讨论，有具体参与者信息。",
+        "evidence": [
+          "At the recent SPIE Photomask Technology + Extreme Ultraviolet Lithography conference, an expert panel discussed the growing importance of edge placement error (EPE).",
+          "I had the pleasure of joining moderator Jed Rankin of IBM and fellow panelists Hans Stiepan of Carl Zeiss SMT, Ezequiel Vidal-Russell of Micron Technology, Jo Finders of ASML, Il-Yong Jang of Tekscend, and Vivek Balasubramanian of Applied M"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "12b847cbbb1496",
+      "title": "SiPearl与Egis集团签署CPU战略合作协议",
+      "summary": "Egis集团与法国SiPearl在台湾签署战略合作协议，共同打造基于Mobius 100 CPU和UCIe chiplet的市场平台，深化欧亚半导体合作，聚焦主权AI与高性能计算数据中心基础设施。",
+      "points": [
+        "双方将联合构建Mobius 100 CPU与UCIe chiplet市场，建立主权AI和高性能计算数据中心基础设施的合作框架。",
+        "在Egis集团TechDay台湾-法国战略CPU合作签署仪式上正式签约，凸显欧亚产业协同深化。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "双方将联合构建Mobius 100 CPU与UCIe chiplet市场，建立主权AI和高性能计算数据中心基础设施的合作框架。"
+        },
+        {
+          "heading": "签署仪式",
+          "body": "在Egis集团TechDay台湾-法国战略CPU合作签署仪式上正式签约，凸显欧亚产业协同深化。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261022VL222/alliance-industrial-taiwan-europe-cpu.html",
+      "published": "2026-10-22T10:26:35.000Z",
+      "score": 24.5,
+      "eventKey": "egis-sipearl-mobius100-cpu-ucie-partnership",
+      "originalTitle": "Taiwan-France semiconductor alliance strengthens with CPU pact between SiPearl and Egis Group",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261022VL222/alliance-industrial-taiwan-europe-cpu.html",
+        "retrievedAt": "2026-10-23T01:28:14.361Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Egis Group与SiPearl签署CPU合作协议，共建Mobius 100 CPU和UCIe chiplet市场，是具体商业合作新动态。",
+        "evidence": [
+          "Highlighting the deepening industrial synergies between Europe and Asia, the Egis Group TechDay Taiwan-France Strategic CPU Partnership Signing Ceremony hosted the official signing between Egis Group and SiPearl.",
+          "The landmark ceremony unveiled a joint initiative to build a Mobius 100 CPU and UCIe chiplet-based marketplace, establishing a cooperative framework for sovereign AI and high-performance computing (HPC) data center infrastructure."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "13d84bbfe4c1ee",
+      "title": "消息称：三星重组存储研发激励体系加速下一代芯片",
+      "summary": "据报道，三星电子据报正重组半导体研发运营和绩效薪酬体系，以加速下一代DRAM和NAND闪存开发，拉近研究人员与生产团队距离，并应对人才激励与保留问题。",
+      "points": [
+        "三星正在调整半导体研究运营，使研究人员与生产团队更紧密协作，以加速下一代DRAM和NAND闪存开发。",
+        "绩效薪酬体系将进行改革，以解决激励不足和人才保留的担忧。"
+      ],
+      "cards": [
+        {
+          "heading": "研发重组",
+          "body": "三星正在调整半导体研究运营，使研究人员与生产团队更紧密协作，以加速下一代DRAM和NAND闪存开发。"
+        },
+        {
+          "heading": "激励调整",
+          "body": "绩效薪酬体系将进行改革，以解决激励不足和人才保留的担忧。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261022VL214/samsung-dram-incentives-nand-talent.html",
+      "published": "2026-10-22T05:55:00.000Z",
+      "score": 23.74,
+      "eventKey": "samsung-dram-nand-rd-incentive-overhaul",
+      "originalTitle": "Samsung reportedly overhauls DRAM, NAND R&D incentives to retain talent and accelerate next-gen memory chips",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261022VL214/samsung-dram-incentives-nand-talent.html",
+        "retrievedAt": "2026-10-23T01:28:14.407Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星电子据报道重组半导体研发运营和绩效薪酬体系，以加速下一代DRAM和NAND闪存开发并留住人才，属于公司内部管理动态，有具体新事实。",
+        "evidence": [
+          "Samsung Electronics is reportedly restructuring its semiconductor research operations and performance-based compensation system to accelerate next-generation DRAM and NAND flash development, bringing researchers and production teams closer "
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "80aed42fe69ed",
+      "title": "NXP 推出 FRDM-IMXRT1186 开发板，面向工业自动化",
+      "summary": "NXP 发布 FRDM-IMXRT1186 开发板，集成双 Cortex-M7 与 Cortex-M33 核心，支持双千兆以太网（含 TSN）和 EtherCAT，瞄准工业自动化与实时控制应用。",
+      "points": [
+        "板载双核处理器，包括 Cortex-M7 和 Cortex-M33，兼顾高性能计算与低功耗实时控制，适用于工业与嵌入式场景。",
+        "配备双千兆以太网接口，支持 TSN（时间敏感网络）和 EtherCAT 协议，满足工业实时通信需求。",
+        "面向工业自动化、实时控制系统等场景，提供开发平台以加速原型验证与产品开发。"
+      ],
+      "cards": [
+        {
+          "heading": "核心配置",
+          "body": "板载双核处理器，包括 Cortex-M7 和 Cortex-M33，兼顾高性能计算与低功耗实时控制，适用于工业与嵌入式场景。"
+        },
+        {
+          "heading": "网络特性",
+          "body": "配备双千兆以太网接口，支持 TSN（时间敏感网络）和 EtherCAT 协议，满足工业实时通信需求。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "面向工业自动化、实时控制系统等场景，提供开发平台以加速原型验证与产品开发。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Electronics-Lab",
+      "sourceLang": "en",
+      "url": "https://www.electronics-lab.com/news/nxp-frdm-imxrt1186-development-board-targets-industrial-automation-and-real-time-control/",
+      "published": "2026-10-22T05:00:51.000Z",
+      "score": 18.59,
+      "eventKey": "nxp-frdm-imxrt1186-dev-board-launch",
+      "originalTitle": "NXP FRDM-IMXRT1186 Development Board Targets Industrial Automation and Real-Time Control",
+      "provenance": {
+        "url": "https://www.electronics-lab.com/news/nxp-frdm-imxrt1186-development-board-targets-industrial-automation-and-real-time-control/",
+        "retrievedAt": "2026-10-23T01:28:16.201Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "NXP发布FRDM-IMXRT1186开发板，面向工业自动化和实时控制，集成双Cortex-M7/M33核心、双千兆以太网TSN和EtherCAT支持，是具体的产品发布。",
+        "evidence": [
+          "Featuring dual Cortex-M7 and Cortex-M33 cores, dual Gigabit Ethernet with TSN, and EtherCAT support, the board targets industrial and embedded applications."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

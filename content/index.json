@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-10-22T01:33:42.859Z",
-  "total": 6,
+  "generatedAt": "2026-10-23T01:31:59.717Z",
+  "total": 7,
   "editions": [
+    {
+      "date": "2026-10-23",
+      "count": 13,
+      "intro": "本期共 13 条动态，其中 7 条值得重点关注，集中在设备、芯片设计、市场与产业、存储方向。",
+      "top": [
+        "中微公司出货首台Primo Domingo选择性刻蚀设备",
+        "英伟达发布Minerva平台，实现AI工厂可观测性",
+        "TrendForce预测2027年服务器CPU出货增超40% Arm份额达30%"
+      ],
+      "categories": {
+        "equipment": 1,
+        "design": 4,
+        "market": 1,
+        "memory": 3,
+        "research": 2,
+        "foundry": 2
+      }
+    },
     {
       "date": "2026-10-22",
       "count": 20,
