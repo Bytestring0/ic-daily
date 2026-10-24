@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-10-23T01:31:59.717Z",
-  "total": 7,
+  "generatedAt": "2026-10-24T01:34:41.740Z",
+  "total": 8,
   "editions": [
+    {
+      "date": "2026-10-24",
+      "count": 16,
+      "intro": "本期共 16 条动态，其中 9 条值得重点关注，集中在政策与地缘、市场与产业、芯片设计方向。",
+      "top": [
+        "Vertical Semiconductor获7300万美元CHIPS法案资助",
+        "消息称：英伟达B300疑似流入中国电信网络，引发出口管制质疑",
+        "AI推动芯片开发周期缩短至9个月"
+      ],
+      "categories": {
+        "policy": 4,
+        "market": 2,
+        "design": 3,
+        "foundry": 2,
+        "memory": 2,
+        "material": 1,
+        "research": 1,
+        "equipment": 1
+      }
+    },
     {
       "date": "2026-10-23",
       "count": 13,

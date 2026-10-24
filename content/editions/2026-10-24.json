@@ -1,0 +1,884 @@
+{
+  "date": "2026-10-24",
+  "generatedAt": "2026-10-24T01:34:41.736Z",
+  "intro": "本期共 16 条动态，其中 9 条值得重点关注，集中在政策与地缘、市场与产业、芯片设计方向。",
+  "stats": {
+    "count": 16,
+    "sources": 5,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "policy": 4,
+      "market": 2,
+      "design": 3,
+      "foundry": 2,
+      "memory": 2,
+      "material": 1,
+      "research": 1,
+      "equipment": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 148919,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 26,
+      "readable": 26,
+      "accepted": 16,
+      "rejected": 4494,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1f9362db66c8d9",
+      "title": "Vertical Semiconductor获7300万美元CHIPS法案资助",
+      "summary": "美国商务部CHIPS研发办公室与MIT孵化的功率半导体初创公司Vertical Semiconductor签署意向书，拟提供最高7300万美元联邦激励，用于加速垂直氮化镓功率晶体管研发和商业化，并推动美国AI数据中心电力基础设施建设。",
+      "points": [
+        "Vertical Semiconductor与美国商务部CHIPS研发办公室签署意向书，拟获最高7300万美元联邦激励，用于加速垂直GaN功率晶体管研发，推动该技术在美国本土生产，强化AI和高性能计算电力基础设施。",
+        "公司源自MIT，2024年成立，开发垂直GaN FinFET技术，面向AI数据中心和关键能源基础设施，实现极高效率和功率密度。技术源于美国能源部ARPA-E支持的研究。",
+        "项目将开发2.5MW AI机架，目标降低30%能量损耗、缩小50%物理体积，并将废弃电力转化为可用算力。垂直GaN器件将部署于AI数据中心全电力链。",
+        "CEO Cynthia Liao称电力是AI基础设施最大瓶颈，该资助将加速垂直GaN商业化。商务部长Howard Lutnick表示投资将扩大国内研发、保障供应链并创造高薪岗位。"
+      ],
+      "cards": [
+        {
+          "heading": "资助金额与用途",
+          "body": "Vertical Semiconductor与美国商务部CHIPS研发办公室签署意向书，拟获最高7300万美元联邦激励，用于加速垂直GaN功率晶体管研发，推动该技术在美国本土生产，强化AI和高性能计算电力基础设施。"
+        },
+        {
+          "heading": "技术背景",
+          "body": "公司源自MIT，2024年成立，开发垂直GaN FinFET技术，面向AI数据中心和关键能源基础设施，实现极高效率和功率密度。技术源于美国能源部ARPA-E支持的研究。"
+        },
+        {
+          "heading": "预期成果",
+          "body": "项目将开发2.5MW AI机架，目标降低30%能量损耗、缩小50%物理体积，并将废弃电力转化为可用算力。垂直GaN器件将部署于AI数据中心全电力链。"
+        },
+        {
+          "heading": "官方表态",
+          "body": "CEO Cynthia Liao称电力是AI基础设施最大瓶颈，该资助将加速垂直GaN商业化。商务部长Howard Lutnick表示投资将扩大国内研发、保障供应链并创造高薪岗位。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/vertical-semiconductor-231026.shtml",
+      "published": "2026-10-23T16:34:53.000Z",
+      "score": 27.51,
+      "eventKey": "vertical-semiconductor-chips-act-73m-funding",
+      "originalTitle": "Vertical Semiconductor gains $73m in US CHIPS Act funding",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/vertical-semiconductor-231026.shtml",
+        "retrievedAt": "2026-10-24T01:33:26.035Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Vertical Semiconductor获得美国CHIPS法案7300万美元资助，用于垂直GaN功率晶体管研发，这是新的政府拨款事件，属于政策与功率半导体领域的重要动态。",
+        "evidence": [
+          "n 2024 — has signed a letter of intent with the US Department of Commerce’s CHIPS Research and Development Office (CRDO) to receive up to $73m in federal incentives under the CHIPS and Science Act.",
+          "Vertical Semiconductor is developing vertical GaN FinFET technology that drives extreme efficiency and power density in power systems for AI data centers and critical energy infrastructure."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261023PR201/materials-electronics-semiconductors-development-quartz.html"
+        }
+      ]
+    },
+    {
+      "id": "13fe7d830d05b2",
+      "title": "消息称：英伟达B300疑似流入中国电信网络，引发出口管制质疑",
+      "summary": "据报道，以色列安全公司Lava通过监控与中国电信相关的端点，发现32块英伟达Blackwell Ultra B300 GPU。这些芯片受美国出口管制禁止对华销售，但网络数据无法确认GPU物理位置。",
+      "points": [
+        "Lava监控到32块英伟达B300 GPU，关联中国电信（国有运营商）的端点。芯片型号为Blackwell Ultra B300。",
+        "B300芯片受美国出口管制，禁止向中国销售。此次发现引发对管制有效性的质疑。",
+        "网络数据仅显示端点关联，无法确认GPU实际物理位置，因此不能断定芯片已进入中国境内。"
+      ],
+      "cards": [
+        {
+          "heading": "发现细节",
+          "body": "Lava监控到32块英伟达B300 GPU，关联中国电信（国有运营商）的端点。芯片型号为Blackwell Ultra B300。"
+        },
+        {
+          "heading": "管制背景",
+          "body": "B300芯片受美国出口管制，禁止向中国销售。此次发现引发对管制有效性的质疑。"
+        },
+        {
+          "heading": "数据局限",
+          "body": "网络数据仅显示端点关联，无法确认GPU实际物理位置，因此不能断定芯片已进入中国境内。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023VL220/nvidia-chips-security-blackwell-china-telecom.html",
+      "published": "2026-10-23T07:17:12.000Z",
+      "score": 25.96,
+      "eventKey": "nvidia-b300-china-telecom-export-control-detection",
+      "originalTitle": "Nvidia B300 chips reportedly surface on China Telecom-linked network, raising export-control questions",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023VL220/nvidia-chips-security-blackwell-china-telecom.html",
+        "retrievedAt": "2026-10-24T01:33:26.021Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "以色列安全公司发现与中国电信关联网络中出现32块英伟达B300 GPU，涉及出口管制执行问题，是具体新事实。",
+        "evidence": [
+          "Israeli security firm Lava identified 32 Nvidia Blackwell Ultra B300 GPUs through monitoring endpoints linked to China Telecom, a state-owned carrier.",
+          "The chips are barred from sale to China under US export controls."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1b0c3ab3ac23a2",
+      "title": "AI推动芯片开发周期缩短至9个月",
+      "summary": "钰创董事长卢超群表示，AI驱动增长将使2026年半导体产业规模突破1.6万亿美元，同时芯片开发周期加速至每9个月推出新产品。他警告未来3至5年对台湾至关重要，需强化软件、系统与架构优势。",
+      "points": [
+        "AI驱动的增长将推动半导体产业在2026年突破1.6万亿美元规模，芯片开发周期从传统周期缩短至每9个月一个新产品。",
+        "卢超群警告未来3至5年是台湾关键期，若不在软件、系统和架构层面建立更强优势，将面临激烈竞争。"
+      ],
+      "cards": [
+        {
+          "heading": "产业预测",
+          "body": "AI驱动的增长将推动半导体产业在2026年突破1.6万亿美元规模，芯片开发周期从传统周期缩短至每9个月一个新产品。"
+        },
+        {
+          "heading": "台湾挑战",
+          "body": "卢超群警告未来3至5年是台湾关键期，若不在软件、系统和架构层面建立更强优势，将面临激烈竞争。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD213/growth-etron-taiwan-software-development.html",
+      "published": "2026-10-23T01:55:00.000Z",
+      "score": 25.06,
+      "eventKey": "etron-chair-ai-chip-rd-cycle-9-months",
+      "originalTitle": "AI cuts chip R&D cycles to 9 months, says Etron chair",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD213/growth-etron-taiwan-software-development.html",
+        "retrievedAt": "2026-10-24T01:33:26.218Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "钰创董事长卢超群称AI将推动半导体行业2026年突破1.6万亿美元，芯片研发周期缩短至9个月。属于行业观点，但包含具体数字预测，可作为市场动态收录。",
+        "evidence": [
+          "AI-driven growth will push the semiconductor industry past the US$1.6 trillion mark in 2026, while accelerating chip development cycles to one new product every nine months, Etron Chairman Nicky Lu said.",
+          "He warned that the next 3 to 5 years will be critical for Taiwan, which risks facing intense competition unless it builds stronger software, system, and architecture advantages."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "bfce8a2df9b97",
+      "title": "英伟达Vera CPU获AI初创Modal订单",
+      "summary": "英伟达获得AI初创公司Modal的CPU供应订单，标志其Vera CPU进入服务器市场，与Intel和AMD竞争。订单金额和部署规模未披露，但反映AI基础设施竞争转向全栈系统集成。",
+      "points": [
+        "英伟达获得AI初创公司Modal的CPU供应订单，但订单金额和部署规模未披露。Modal年营收低于10亿美元，订单象征意义大于短期收入。",
+        "该订单显示英伟达从GPU扩展至通用计算CPU领域，挑战Intel和AMD在服务器CPU市场的地位，AI基础设施竞争正转向全栈系统集成。"
+      ],
+      "cards": [
+        {
+          "heading": "订单详情",
+          "body": "英伟达获得AI初创公司Modal的CPU供应订单，但订单金额和部署规模未披露。Modal年营收低于10亿美元，订单象征意义大于短期收入。"
+        },
+        {
+          "heading": "市场影响",
+          "body": "该订单显示英伟达从GPU扩展至通用计算CPU领域，挑战Intel和AMD在服务器CPU市场的地位，AI基础设施竞争正转向全栈系统集成。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD219/nvidia-cpu-intel-amd-infrastructure.html",
+      "published": "2026-10-23T03:58:39.000Z",
+      "score": 23.41,
+      "eventKey": "nvidia-vera-cpu-modal-order",
+      "originalTitle": "Analysis: Nvidia's Vera CPU takes on Intel and AMD with a platform play",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD219/nvidia-cpu-intel-amd-infrastructure.html",
+        "retrievedAt": "2026-10-24T01:33:26.454Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达Vera CPU获得AI初创公司Modal的服务器CPU订单，是具体的新商业动态，虽金额未披露，但标志着英伟达CPU在服务器市场的实际订单进展。",
+        "evidence": [
+          "Nvidia has won a CPU supply order from AI startup Modal, challenging Intel and AMD in the server CPU market as it expands beyond GPUs into general-purpose computing."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "158b7955514e6",
+      "title": "三星追加采购德州2纳米设备，月产能目标2万片",
+      "summary": "三星追加采购每月可支持约6000片晶圆生产的2纳米设备，用于泰勒一厂扩产。此前已启动设备采购安装，目标月产1万片，加上试产线，工厂有望在2027年下半年达到月产2万片设计上限。",
+      "points": [
+        "三星泰勒一厂初始投资170亿美元，此前已启动设备采购安装，目标月产约1万片晶圆。此次新增设备订单每月可支持约6000片，加上试产线，工厂有望达到月产2万片设计上限。",
+        "泰勒一厂将采用2纳米级制程，使用三星GAAFET技术的MBCFET结构，栅极从多方向包围晶体管沟道，改善低电压工作特性。但制程名称不代表实际尺寸，良率和性能还取决于设计优化。",
+        "三星面临台积电在先进制程的激烈竞争，特斯拉是重要客户之一，市场关注AI芯片和自动驾驶合作。目前公开报道未披露新增设备对应的具体客户订单及产能比例。",
+        "三星计划继续扩建泰勒工厂园区，泰勒二厂计划2026年底启动建设，目标2030年开始运营。三星正分阶段扩大美国先进逻辑芯片制造能力，但产能转化为利润仍取决于良率和客户需求。"
+      ],
+      "cards": [
+        {
+          "heading": "扩产计划",
+          "body": "三星泰勒一厂初始投资170亿美元，此前已启动设备采购安装，目标月产约1万片晶圆。此次新增设备订单每月可支持约6000片，加上试产线，工厂有望达到月产2万片设计上限。"
+        },
+        {
+          "heading": "制程技术",
+          "body": "泰勒一厂将采用2纳米级制程，使用三星GAAFET技术的MBCFET结构，栅极从多方向包围晶体管沟道，改善低电压工作特性。但制程名称不代表实际尺寸，良率和性能还取决于设计优化。"
+        },
+        {
+          "heading": "竞争与客户",
+          "body": "三星面临台积电在先进制程的激烈竞争，特斯拉是重要客户之一，市场关注AI芯片和自动驾驶合作。目前公开报道未披露新增设备对应的具体客户订单及产能比例。"
+        },
+        {
+          "heading": "后续扩建",
+          "body": "三星计划继续扩建泰勒工厂园区，泰勒二厂计划2026年底启动建设，目标2030年开始运营。三星正分阶段扩大美国先进逻辑芯片制造能力，但产能转化为利润仍取决于良率和客户需求。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583588.htm",
+      "published": "2026-10-23T13:42:05.000Z",
+      "score": 22.03,
+      "eventKey": "samsung-texas-2nm-equipment-expansion",
+      "originalTitle": "三星追加采购德州2纳米芯片生产设备：月产能有望在2027年下半年达到2万片晶圆",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583588.htm",
+        "retrievedAt": "2026-10-24T01:33:27.334Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星追加采购德州2纳米芯片生产设备，目标月产能2万片，这是三星泰勒工厂扩产的具体新进展。",
+        "evidence": [
+          "根据此次报道,三星此前已经启动相关设备采购和安装工作,目标是建立每月约1万片晶圆的生产能力。",
+          "总体来看,三星此次追加采购每月可支持约6000片晶圆生产的2纳米设备,是泰勒一厂扩大先进制程产能的重要一步。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "13b5b11d6a5346",
+      "title": "长鑫科技看好DRAM前景，前三季度扭亏为盈",
+      "summary": "长鑫科技表示对全球及中国DRAM产业中长期前景保持信心，因AI需求增长强化DRAM战略地位。公司2026年前三季度营收预计2650-2700亿元，同比增725.96%-741.54%，归母净利润扭亏为盈。",
+      "points": [
+        "2026年前三季度营收2650-2700亿元，同比预增725.96%-741.54%；归母净利润1310-1325亿元，同比扭亏为盈。",
+        "2025年10月量产LPDDR5X，覆盖12GB、16GB、24GB容量点；LPCAMM模组16GB和32GB。2026年9月LPDDR6量产商用，首发于小米18 Fold。",
+        "2025年下半年以来AI算力需求快速增长，DRAM供不应求、价格大幅上涨；公司提升产能利用率，规模效应显现。",
+        "AI对数据吞吐需求迅速增长，DRAM作为战略性基础设施地位强化；中国是全球最大半导体应用市场，提升自给能力意义重大。"
+      ],
+      "cards": [
+        {
+          "heading": "业绩预告",
+          "body": "2026年前三季度营收2650-2700亿元，同比预增725.96%-741.54%；归母净利润1310-1325亿元，同比扭亏为盈。"
+        },
+        {
+          "heading": "产品进展",
+          "body": "2025年10月量产LPDDR5X，覆盖12GB、16GB、24GB容量点；LPCAMM模组16GB和32GB。2026年9月LPDDR6量产商用，首发于小米18 Fold。"
+        },
+        {
+          "heading": "增长驱动",
+          "body": "2025年下半年以来AI算力需求快速增长，DRAM供不应求、价格大幅上涨；公司提升产能利用率，规模效应显现。"
+        },
+        {
+          "heading": "战略定位",
+          "body": "AI对数据吞吐需求迅速增长，DRAM作为战略性基础设施地位强化；中国是全球最大半导体应用市场，提升自给能力意义重大。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/017/262.htm",
+      "published": "2026-10-23T13:27:18.000Z",
+      "score": 20.99,
+      "eventKey": "cxmt-dram-outlook-statement",
+      "originalTitle": "长鑫科技：对全球和中国 DRAM 产业中长期前景保持坚定信心",
+      "provenance": {
+        "url": "https://www.ithome.com/1/017/262.htm",
+        "retrievedAt": "2026-10-24T01:33:26.915Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "长鑫科技对DRAM产业前景表态，并重申前三季度业绩预告，属于公司层面的常规动态。",
+        "evidence": [
+          "IT之家 10 月 23 日消息,据《科创板日报》今日报道,记者今日从长鑫科技方面了解到,从中长期看,AI 对数据吞吐的需求仍在迅速增长,DRAM 作为战略性基础设施的地位将会更加强化;中国作为全球最大的半导体应用市场,提升 DRAM 自给能力也具有重要的现实意义,发展空间广阔。",
+          "长鑫科技 10 月 16 日发布 2026 年前三季度(2026 年 1 月~2026 年 9 月)业绩预告报告:营业总收入:2650 亿元 ~2700 亿元,同比预增 725.96%~741.54%归母净利润:1310 亿元 ~1325 亿元,同比扭亏为盈长鑫科技此前在公告中表示,2025 年下半年以来 AI 算力需求快速增长,全球 DRAM 行业景气度大幅提升,产品供不应求、价格大幅上涨;公司稳步推进产能建设、产品研发和工艺技术提升,单位晶圆产出和产能利用率持续提高,规模"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1318c4263ebdce",
+      "title": "FCC首次依据芯片级新规禁售两款设备",
+      "summary": "美国联邦通信委员会（FCC）依据新规，首次以设备内部芯片为由禁售两款产品：行车记录仪和无线视频发射器。禁售原因是其搭载的海思Smart Vision SoC含人脸检测算法，海思隶属华为，被列入FCC的Covered List。",
+      "points": [
+        "FCC新规允许基于内部芯片而非产品或品牌实施禁令，堵住了使用中国出口管制清单厂商部件的贴牌产品漏洞。",
+        "海思Hi3516CV610 UHD Smart Vision SoC面向监控和相机产品，集成WiFi、以太网、视频编码、Arm Cortex-A7及NPU，NPU被FCC视为风险来源。",
+        "FCC首次依据该规则禁售两款设备：行车记录仪和无线视频发射器，均因含海思SoC被禁。"
+      ],
+      "cards": [
+        {
+          "heading": "新规要点",
+          "body": "FCC新规允许基于内部芯片而非产品或品牌实施禁令，堵住了使用中国出口管制清单厂商部件的贴牌产品漏洞。"
+        },
+        {
+          "heading": "涉事芯片",
+          "body": "海思Hi3516CV610 UHD Smart Vision SoC面向监控和相机产品，集成WiFi、以太网、视频编码、Arm Cortex-A7及NPU，NPU被FCC视为风险来源。"
+        },
+        {
+          "heading": "首次执行",
+          "body": "FCC首次依据该规则禁售两款设备：行车记录仪和无线视频发射器，均因含海思SoC被禁。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
+      "published": "2026-10-23T12:15:00.000Z",
+      "score": 20.79,
+      "eventKey": "fcc-first-chip-level-ban-hisilicon-devices",
+      "originalTitle": "FCC issues first bans under new chip-level rule",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
+        "retrievedAt": "2026-10-24T01:33:27.143Z",
+        "articlePublished": "2026-10-23T12:15:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "FCC首次依据新芯片级规则，因设备内含海思SoC而禁止两款设备在美销售，这是美国出口管制执行层面的重要新里程碑。",
+        "evidence": [
+          "The FCC recently imposed a new rule allowing it to ban devices based on the internal chips instead of basing bans on individual products or brands, thus closing the loophole of rebranded products with parts from Chinese manufacturers on US ",
+          "Using this new rule, the FCC has banned two devices from being sold and marketed in the US for the first time: a dashboard camera and a wireless video transmitter.",
+          "As reported by The Verge, these devices were banned due to the HiSilicon Smart Vision SoC (System on a Chip) they contain, which features built-in detection algorithms for faces."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1f84aee15b6cf7",
+      "title": "消息称：特斯拉与英伟达拟投37万亿韩元助三星电机扩产ABF载板",
+      "summary": "据报道，特斯拉与英伟达据报拟合计投资3.7万亿韩元（约28亿美元），支持三星电机在韩国扩建ABF载板产能。此举反映科技巨头正积极锁定AI用高性能半导体载板的稳定供应。",
+      "points": [
+        "特斯拉与英伟达拟合计投资KRW3.7 trillion（约US$2.8 billion），用于三星电机在韩国的ABF载板产能扩建。",
+        "扩建旨在保障AI应用所需的高性能半导体载板供应，三星电机为全球主要ABF载板供应商之一。"
+      ],
+      "cards": [
+        {
+          "heading": "投资规模",
+          "body": "特斯拉与英伟达拟合计投资KRW3.7 trillion（约US$2.8 billion），用于三星电机在韩国的ABF载板产能扩建。"
+        },
+        {
+          "heading": "扩建目的",
+          "body": "扩建旨在保障AI应用所需的高性能半导体载板供应，三星电机为全球主要ABF载板供应商之一。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD226/tesla-nvidia-semco-production-abf-substrate.html",
+      "published": "2026-10-23T03:44:29.000Z",
+      "score": 20.37,
+      "eventKey": "tesla-nvidia-invest-semco-abf-capacity",
+      "originalTitle": "Tesla, Nvidia reportedly invest KRW3.7 trillion to secure Samsung Electro-Mechanics ABF capacity",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD226/tesla-nvidia-semco-production-abf-substrate.html",
+        "retrievedAt": "2026-10-24T01:33:27.601Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道称特斯拉和英伟达拟合计投资3.7万亿韩元，帮助三星电机扩产ABF基板产能，这是AI供应链上游的具体新投资动态。",
+        "evidence": [
+          "Tesla and Nvidia are reportedly investing a combined KRW3.7 trillion (US$2.8 billion) to help Samsung Electro-Mechanics expand Ajinomoto Build-up Film (ABF) substrate production facilities in South Korea.",
+          "The move reflects growing efforts by global technology companies to secure stable supplies of high-performance semiconductor substrates for AI applications."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "26832ddd333c5",
+      "title": "长江存储研发9600 MT/s LPDDR5X，规划第三座晶圆厂量产",
+      "summary": "据Counterpoint Research，长江存储自2025年10月起在第二座晶圆厂研发第二代16Gb LPDDR5，目标速率7500 MT/s，月产能约5000片晶圆。在此基础上，公司正开发9600 MT/s版本，计划采用VCT与4F2架构，并在第三座晶圆厂推进量产，但尚未证实完成验证或进入量产。",
+      "points": [
+        "长江存储自2025年10月起在第二座晶圆厂研发第二代16Gb LPDDR5，目标速率7500 MT/s，月产能约5000片晶圆；该项目仍处研发测试阶段。",
+        "9600 MT/s版本计划采用垂直沟道晶体管（VCT）和4F2存储单元架构，并规划在第三座晶圆厂量产，但尚无验证完成或量产时间表。",
+        "长鑫存储（CXMT）也计划2026年底前推出基于4F2架构的DDR5 RDIMM；美光曾质疑4F2架构规模化存在根本性障碍。"
+      ],
+      "cards": [
+        {
+          "heading": "研发进展",
+          "body": "长江存储自2025年10月起在第二座晶圆厂研发第二代16Gb LPDDR5，目标速率7500 MT/s，月产能约5000片晶圆；该项目仍处研发测试阶段。"
+        },
+        {
+          "heading": "下一代方案",
+          "body": "9600 MT/s版本计划采用垂直沟道晶体管（VCT）和4F2存储单元架构，并规划在第三座晶圆厂量产，但尚无验证完成或量产时间表。"
+        },
+        {
+          "heading": "行业背景",
+          "body": "长鑫存储（CXMT）也计划2026年底前推出基于4F2架构的DDR5 RDIMM；美光曾质疑4F2架构规模化存在根本性障碍。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583554.htm",
+      "published": "2026-10-23T08:57:29.000Z",
+      "score": 16.24,
+      "eventKey": "ymtc-9600-lpddr5x-vct-4f2-development",
+      "originalTitle": "长江存储据称正研发9600 MT/s LPDDR5X内存 计划推进量产",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583554.htm",
+        "retrievedAt": "2026-10-24T01:33:27.498Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "长江存储据报正研发9600 MT/s LPDDR5X内存并计划在第三座晶圆厂量产，采用VCT和4F2架构，这是其DRAM业务的新进展，与历史中长鑫存储4F2 DDR5计划不同。",
+        "evidence": [
+          "根据Counterpoint Research的报告,长江存储自2025年10月起,已在第二座晶圆厂开展第二代16Gb LPDDR5内存的研发和测试,目标数据传输速率为7500 MT/s,相关产线月产能约为5000片晶圆。",
+          "在此基础上,长江存储还在开发速度更高的9600 MT/s版本。",
+          "与前一代研发项目不同,新方案计划采用垂直沟道晶体管(VCT)和4F2存储单元架构,并计划在第三座晶圆厂推进量产。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "112817bc8c99b6",
+      "title": "台湾半导体首次罢工暂停，美光桃园工会拒绝新方案",
+      "summary": "台湾半导体业首次罢工——美光桃园工会发起的24小时警告性罢工于10月23日上午结束。内部投票中近70%会员反对资方薪酬方案，劳资谈判定于10月27日重启。",
+      "points": [
+        "24小时警告性罢工于2026年10月23日上午结束，为台湾半导体业首次罢工。",
+        "内部投票中，近70%工会成员签署声明，反对管理层提出的薪酬结构。",
+        "正式劳资谈判定于10月27日恢复。"
+      ],
+      "cards": [
+        {
+          "heading": "罢工结果",
+          "body": "24小时警告性罢工于2026年10月23日上午结束，为台湾半导体业首次罢工。"
+        },
+        {
+          "heading": "会员投票",
+          "body": "内部投票中，近70%工会成员签署声明，反对管理层提出的薪酬结构。"
+        },
+        {
+          "heading": "后续谈判",
+          "body": "正式劳资谈判定于10月27日恢复。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html",
+      "published": "2026-10-23T08:43:34.000Z",
+      "score": 26.2,
+      "eventKey": "micron-taoyuan-strike-end-negotiation-resume",
+      "originalTitle": "Taiwan's inaugural semiconductor strike pauses as nearly 70% of Micron Taoyuan Union rejects new bonus offer",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD239/strike-taiwan-micron-management-2026.html",
+        "retrievedAt": "2026-10-24T01:33:26.109Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "美光桃园厂罢工结束，近70%工会成员拒绝新奖金方案，谈判将于10月27日恢复。这是此前罢工事件的后续进展，包含新的投票结果和谈判时间。",
+        "evidence": [
+          "A 24-hour warning strike spearheaded by Micron Technology's Taoyuan union concluded on the morning of October 23, 2026.",
+          "During the action, an internal ballot saw nearly 70% of all union members sign statements opposing management's proposed compensation structure.",
+          "Formal labor-management negotiations are set to resume on October 27."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "a74b4656061e4",
+      "title": "日本联合开发2nm医疗AI芯片，Rapidus或代工",
+      "summary": "LSTC、北海道大学、富士胶片、GE HealthCare Japan与imec于10月20日在东京宣布联合开发用于下一代医学影像系统的2nm AI推理芯片，旨在提升图像处理效率并实现设备端实时计算。Rapidus被列为潜在代工厂。",
+      "points": [
+        "LSTC联合北海道大学、富士胶片、GE HealthCare Japan及imec，开发专用2nm AI推理芯片，用于医学影像系统，实现实时计算。",
+        "芯片采用2nm制程，专为AI推理设计，目标大幅加速图像处理效率，支持设备端实时运算。",
+        "Rapidus被列为潜在代工厂，但未公布量产时间表。项目于10月20日在东京宣布启动。"
+      ],
+      "cards": [
+        {
+          "heading": "合作方与目标",
+          "body": "LSTC联合北海道大学、富士胶片、GE HealthCare Japan及imec，开发专用2nm AI推理芯片，用于医学影像系统，实现实时计算。"
+        },
+        {
+          "heading": "芯片规格",
+          "body": "芯片采用2nm制程，专为AI推理设计，目标大幅加速图像处理效率，支持设备端实时运算。"
+        },
+        {
+          "heading": "代工与时间表",
+          "body": "Rapidus被列为潜在代工厂，但未公布量产时间表。项目于10月20日在东京宣布启动。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD230/medical-2nm-ibm-rapidus-design.html",
+      "published": "2026-10-23T07:22:37.000Z",
+      "score": 25.97,
+      "eventKey": "japan-lstc-2nm-medical-ai-chip-rapidus",
+      "originalTitle": "Japan targets 2nm medical AI chip with IBM design, Rapidus eyed for foundry",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD230/medical-2nm-ibm-rapidus-design.html",
+        "retrievedAt": "2026-10-24T01:33:26.375Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "日本LSTC、北海道大学、富士胶片、GE医疗和imec联合开发2nm医疗AI推理芯片，Rapidus可能作为代工厂。这是新的合作项目，涉及2nm芯片设计。",
+        "evidence": [
+          "Japan's Leading-edge Semiconductor Technology Center (LSTC), Hokkaido University, Fujifilm Corporation, GE HealthCare Japan, and imec announced a joint initiative in Tokyo on October 20 to develop a next-generation medical imaging system po",
+          "wered by a dedicated 2nm AI inference chip."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1efef78b8e7c8",
+      "title": "ST推出MasterGaN7集成GaN晶体管与驱动器",
+      "summary": "STMicroelectronics扩展MasterGaN集成晶体管/驱动器系列，推出MasterGaN7器件，内置650V增强型GaN晶体管（额定电流6A），采用半桥配置并集成栅极驱动器，支持最高2MHz开关频率，现已量产。",
+      "points": [
+        "MasterGaN7包含两个650V增强型GaN晶体管，最大电流6A，半桥配置，集成高压高频栅极驱动器，采用9mm x 9mm QFN封装，工作温度-40°C至125°C。",
+        "传播延迟45ns，超快唤醒和短最小导通时间，支持最高2MHz开关频率。新增LDO稳压器稳定栅极驱动电压，集成自举二极管，支持关断模式以降低空载功耗。",
+        "适用于电源适配器、充电器、工业照明和太阳能微逆变器。支持有源钳位反激、不对称半桥、LLC、PFC等拓扑。现已量产，1000片单价$3.83，评估板EVLMG7已开售。"
+      ],
+      "cards": [
+        {
+          "heading": "器件规格",
+          "body": "MasterGaN7包含两个650V增强型GaN晶体管，最大电流6A，半桥配置，集成高压高频栅极驱动器，采用9mm x 9mm QFN封装，工作温度-40°C至125°C。"
+        },
+        {
+          "heading": "性能特性",
+          "body": "传播延迟45ns，超快唤醒和短最小导通时间，支持最高2MHz开关频率。新增LDO稳压器稳定栅极驱动电压，集成自举二极管，支持关断模式以降低空载功耗。"
+        },
+        {
+          "heading": "应用与供货",
+          "body": "适用于电源适配器、充电器、工业照明和太阳能微逆变器。支持有源钳位反激、不对称半桥、LLC、PFC等拓扑。现已量产，1000片单价$3.83，评估板EVLMG7已开售。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/st-231026.shtml",
+      "published": "2026-10-23T14:15:57.000Z",
+      "score": 25.12,
+      "eventKey": "st-mastergan7-family-launch",
+      "originalTitle": "ST extends MasterGaN integrated transistor/driver family",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/st-231026.shtml",
+        "retrievedAt": "2026-10-24T01:33:26.384Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "ST发布新款MasterGaN7集成氮化镓晶体管/驱动器，650V/6A，支持2MHz开关频率，已量产。属于具体新产品发布。",
+        "evidence": [
+          "News: Microelectronics 23 October 2026 ST extends MasterGaN integrated transistor/driver family STMicroelectronics of Geneva, Switzerland has extended its MasterGaN integrated transistor/driver family with new MasterGaN7 devices that contai",
+          "n 650V enhancement-mode gallium nitride (GaN) transistors with 6A maximum current rating.",
+          "Combining propagation delay of 45ns with ultra-fast wake-up time and short minimum on-time, the new MasterGaN7 devices can operate at switching frequency of up to 2MHz."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "78c80a3cf8aee",
+      "title": "Atomera与IQE合作开发RF GaN-on-Si技术",
+      "summary": "Atomera与IQE签署联合开发协议，将Atomera的MST硅衬底技术与IQE的化合物半导体外延技术结合，开发面向高频市场的RF GaN-on-Si材料。双方将进行多轮开发，优化多层结构并生产测试晶圆，目标向代工厂、IDM和无晶圆厂客户提供样品。",
+      "points": [
+        "Atomera与IQE签署JDA，将Atomera的MST技术应用于硅衬底，结合IQE的GaN外延能力，开发RF GaN-on-Si材料。初期聚焦RF应用，后续可能扩展至功率电子领域。",
+        "MST技术可减少寄生界面电荷一个数量级，提升RF GaN在硅衬底上的线性度和损耗性能，同时降低生产成本，适合大规模RF市场。",
+        "双方预计进行多轮开发，工程团队将共同优化多层结构，生产并测试MST-enabled GaN-on-Si晶圆，尽快提供样品供客户评估。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "Atomera与IQE签署JDA，将Atomera的MST技术应用于硅衬底，结合IQE的GaN外延能力，开发RF GaN-on-Si材料。初期聚焦RF应用，后续可能扩展至功率电子领域。"
+        },
+        {
+          "heading": "技术优势",
+          "body": "MST技术可减少寄生界面电荷一个数量级，提升RF GaN在硅衬底上的线性度和损耗性能，同时降低生产成本，适合大规模RF市场。"
+        },
+        {
+          "heading": "开发计划",
+          "body": "双方预计进行多轮开发，工程团队将共同优化多层结构，生产并测试MST-enabled GaN-on-Si晶圆，尽快提供样品供客户评估。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/atomera-iqe-231026.shtml",
+      "published": "2026-10-23T13:21:48.000Z",
+      "score": 24.97,
+      "eventKey": "atomera-iqe-rf-gan-on-si-jda",
+      "originalTitle": "Atomera signs JDA with IQE to bring high-performance, cost-effective RF GaN-on-Si to volume markets",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/atomera-iqe-231026.shtml",
+        "retrievedAt": "2026-10-24T01:33:26.866Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Atomera与IQE签署联合开发协议，将MST技术应用于RF GaN-on-Si衬底，目标高性价比RF市场。属于具体技术合作新动态。",
+        "evidence": [
+          "tered into a joint development agreement (JDA) with epiwafer and substrate maker IQE plc of Cardiff, Wales, UK to bring high-performance, cost-effective RF gallium nitride GaN to market.",
+          "The collaboration leverages Atomera’s recently announced application of Mears Silicon Technology (MST) to silicon substrates for RF GaN and IQE’s compound semiconductor epitaxy expertise.",
+          "The companies will collaborate to demonstrate GaN epitaxy on Atomera’s MST-enabled silicon wafers."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "50c2c1b43e651",
+      "title": "FCC豁免英特尔外国机器人禁令以防芯片中断",
+      "summary": "美国联邦通信委员会批准英特尔豁免申请，允许其更新自动导引车车队，规避外国制造移动机器人禁令，避免芯片生产中断。",
+      "points": [
+        "FCC批准英特尔对外国制造移动机器人禁令的豁免，允许其更新自动导引车（AGV）车队。英特尔此前申请豁免，称禁令将威胁美国芯片生产。"
+      ],
+      "cards": [
+        {
+          "heading": "豁免内容",
+          "body": "FCC批准英特尔对外国制造移动机器人禁令的豁免，允许其更新自动导引车（AGV）车队。英特尔此前申请豁免，称禁令将威胁美国芯片生产。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023VL218/fcc-intel-ban-robot-mobile.html",
+      "published": "2026-10-23T04:00:22.000Z",
+      "score": 23.41,
+      "eventKey": "fcc-grants-intel-agv-waiver",
+      "originalTitle": "FCC grants Intel a waiver to foreign robot ban to prevent chip disruptions",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023VL218/fcc-intel-ban-robot-mobile.html",
+        "retrievedAt": "2026-10-24T01:33:26.420Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "FCC正式批准英特尔豁免外国机器人禁令，这是对历史中英特尔申请豁免事件的新进展，具有明确政策结果。",
+        "evidence": [
+          "The US Federal Communications Commission (FCC) granted Intel a waiver to its ban on foreign-made mobile robots, which will allow it to update its fleet of autonomous guided vehicles (AGVs).",
+          "Intel had earlier petitioned the agency for an exemption, saying that not doing so would threaten chip production in the country."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "bcc1b4605d3f8",
+      "title": "ASML将员工满意度纳入高管薪酬考核",
+      "summary": "ASML CEO富凯计划将员工满意度纳入高管薪酬考核，以缓解组织重组引发的不满。公司年度调查显示敬业度指数从78%降至73.5%，新设工作体验指数将直接影响管理委员会成员薪酬。",
+      "points": [
+        "ASML年度员工调查中，约4.4万名员工超3.8万人参与，敬业度指数从去年的78%降至73.5%。CEO富凯承认公司经历动荡时期，员工敬业度下降反映重大变革带来的冲击。",
+        "管理团队从调查中选出6道问题组成工作体验指数，纳入高管长期激励计划。考核涉及员工能否放心表达意见、是否信任高层、岗位职责清晰度、团队效率、组织合理性及直属经理关怀。",
+        "ASML今年1月宣布或裁减1700岗位，重点压缩管理层级，聚焦工程研发。公司后称裁员规模将小于最初公布，发言人承认改革给员工带来冲击，但强调对增强创新能力必不可少。"
+      ],
+      "cards": [
+        {
+          "heading": "敬业度下滑",
+          "body": "ASML年度员工调查中，约4.4万名员工超3.8万人参与，敬业度指数从去年的78%降至73.5%。CEO富凯承认公司经历动荡时期，员工敬业度下降反映重大变革带来的冲击。"
+        },
+        {
+          "heading": "薪酬挂钩方案",
+          "body": "管理团队从调查中选出6道问题组成工作体验指数，纳入高管长期激励计划。考核涉及员工能否放心表达意见、是否信任高层、岗位职责清晰度、团队效率、组织合理性及直属经理关怀。"
+        },
+        {
+          "heading": "组织调整背景",
+          "body": "ASML今年1月宣布或裁减1700岗位，重点压缩管理层级，聚焦工程研发。公司后称裁员规模将小于最初公布，发言人承认改革给员工带来冲击，但强调对增强创新能力必不可少。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "设备"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/017/300.htm",
+      "published": "2026-10-24T00:34:10.000Z",
+      "score": 22.84,
+      "eventKey": "asml-employee-satisfaction-executive-compensation",
+      "originalTitle": "光刻机巨头 ASML 拟将员工满意度纳入高管薪酬考核，缓解组织重组后的内部不满",
+      "provenance": {
+        "url": "https://www.ithome.com/1/017/300.htm",
+        "retrievedAt": "2026-10-24T01:33:26.663Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "ASML将员工满意度纳入高管薪酬考核，这是公司治理层面的具体新动作，有明确事实依据。",
+        "evidence": [
+          "据《商业内幕》获得的内部备忘录,富凯上周向员工透露,ASML 计划把员工满意度纳入高管薪酬考核,以缓解大规模组织重组引发的不满情绪。",
+          "为此,ASML 管理团队从调查中选出 6 道问题,组成新的“工作体验指数”,并将其纳入高管薪酬的长期激励计划。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "125f871f73b202",
+      "title": "Rapidus争取美国AI客户，2nm量产仍按计划",
+      "summary": "Rapidus董事长东哲郎表示，公司仍按计划在2027年下半年量产2nm芯片，但赢得客户是关键挑战，初期需求预计主要来自AI需求强劲的美国市场。",
+      "points": [
+        "Rapidus预计2027年下半年开始2nm芯片量产，目前进度基本符合计划。",
+        "赢得客户仍是关键挑战，初期需求预计主要来自美国，因当地AI相关需求强劲。"
+      ],
+      "cards": [
+        {
+          "heading": "量产时间表",
+          "body": "Rapidus预计2027年下半年开始2nm芯片量产，目前进度基本符合计划。"
+        },
+        {
+          "heading": "客户策略",
+          "body": "赢得客户仍是关键挑战，初期需求预计主要来自美国，因当地AI相关需求强劲。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html",
+      "published": "2026-10-23T06:21:57.000Z",
+      "score": 20.8,
+      "eventKey": "rapidus-2nm-mass-production-2h27-us-customers",
+      "originalTitle": "Rapidus courts US AI customers ahead of planned 2H27 2nm mass production",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD228/rapidus-production-2nm-chairman-investment.html",
+        "retrievedAt": "2026-10-24T01:33:26.947Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Rapidus董事长重申2027年下半年2nm量产计划，并明确初期需求将主要来自美国AI客户，这是对量产时间表和客户策略的具体新表述。",
+        "evidence": [
+          "Rapidus chairman Tetsuro Higashi said the Japanese chipmaker remains broadly on track to begin mass production of 2nm chips in the second half of 2027.",
+          "Winning customers remains a key challenge, and initial demand is expected to come mainly from the United States, where demand related to artificial intelligence is strong."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
