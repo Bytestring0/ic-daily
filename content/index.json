@@ -1,7 +1,20 @@
 {
-  "generatedAt": "2026-10-24T01:34:41.740Z",
-  "total": 8,
+  "generatedAt": "2026-10-25T01:06:40.791Z",
+  "total": 9,
   "editions": [
+    {
+      "date": "2026-10-25",
+      "count": 2,
+      "intro": "本期共 2 条动态，其中 1 条值得重点关注，集中在芯片设计方向。",
+      "top": [
+        "英伟达发布OOI共封装光学原型",
+        "Magnate科技看好航空与半导体设备增长"
+      ],
+      "categories": {
+        "design": 1,
+        "market": 1
+      }
+    },
     {
       "date": "2026-10-24",
       "count": 16,

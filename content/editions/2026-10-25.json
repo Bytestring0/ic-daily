@@ -1,0 +1,142 @@
+{
+  "date": "2026-10-25",
+  "generatedAt": "2026-10-25T01:06:40.788Z",
+  "intro": "本期共 2 条动态，其中 1 条值得重点关注，集中在芯片设计方向。",
+  "stats": {
+    "count": 2,
+    "sources": 1,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 1,
+      "market": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 88715,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 7,
+      "readable": 6,
+      "accepted": 2,
+      "rejected": 4464,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1fe6180d3366ba",
+      "title": "英伟达发布OOI共封装光学原型",
+      "summary": "英伟达在SEMICON West 2026上发布下一代共封装光学技术Optics-on-Interposer（OOI）原型，将光学引擎从传统有机封装基板移至承载计算芯片的硅中介层，以提升带宽密度并降低功耗，面向2028年后AI系统互连需求。",
+      "points": [
+        "OOI将光学引擎集成到硅中介层上，与计算芯片同层封装，取代传统有机封装基板方案，缩短电信号传输路径，提升带宽密度并降低功耗。",
+        "原型在SEMICON West 2026展会期间公开，该展会为半导体制造与封装领域重要行业活动，英伟达选择此平台展示下一代互连技术。",
+        "技术面向2028年之后的AI系统互连需求，旨在应对未来AI加速器集群对更高带宽、更低能耗的通信要求。"
+      ],
+      "cards": [
+        {
+          "heading": "技术架构",
+          "body": "OOI将光学引擎集成到硅中介层上，与计算芯片同层封装，取代传统有机封装基板方案，缩短电信号传输路径，提升带宽密度并降低功耗。"
+        },
+        {
+          "heading": "发布场合",
+          "body": "原型在SEMICON West 2026展会期间公开，该展会为半导体制造与封装领域重要行业活动，英伟达选择此平台展示下一代互连技术。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "技术面向2028年之后的AI系统互连需求，旨在应对未来AI加速器集群对更高带宽、更低能耗的通信要求。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD240/nvidia-cpo-interposer-technology-2026.html",
+      "published": "2026-10-25T00:45:44.000Z",
+      "score": 23.95,
+      "eventKey": "nvidia-ooi-cpo-prototype-unveil",
+      "originalTitle": "Nvidia unveils OOI CPO prototype for post-2028 AI needs",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD240/nvidia-cpo-interposer-technology-2026.html",
+        "retrievedAt": "2026-10-25T01:06:20.317Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达在SEMICON West 2026发布下一代共封装光学（CPO）技术OOI原型，将光学引擎移至硅中介层，是重要的技术进展。",
+        "evidence": [
+          "Nvidia has unveiled a prototype of its next-generation co-packaged optics (CPO) technology, Optics-on-Interposer (OOI), at SEMICON West 2026.",
+          "The design moves the optical engine from a conventional organic package substrate to the silicon interposer carrying the compute chips, increasing bandwidth density and reducing power consumption for future AI system interconnects."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1fdab7f477ac7a",
+      "title": "Magnate科技看好航空与半导体设备增长",
+      "summary": "Magnate Technology预计航空发动机需求上升及半导体设备机会将支撑增长，公司正扩大产能。该公司预测2026年营收接近20亿新台币（约6150万美元），并预计2027年营收增长15%至20%。",
+      "points": [
+        "公司预测2026年营收接近新台币20亿元（约合6150万美元），并预计2027年营收将同比增长15%至20%。",
+        "增长动力来自航空发动机零件需求上升，以及半导体设备相关业务机会，公司正扩大生产产能以应对需求。",
+        "作为航空航天零部件制造商，其扩产计划对全球航空及芯片供应链具有潜在影响，但具体客户与订单细节未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "营收预测",
+          "body": "公司预测2026年营收接近新台币20亿元（约合6150万美元），并预计2027年营收将同比增长15%至20%。"
+        },
+        {
+          "heading": "增长驱动",
+          "body": "增长动力来自航空发动机零件需求上升，以及半导体设备相关业务机会，公司正扩大生产产能以应对需求。"
+        },
+        {
+          "heading": "供应链影响",
+          "body": "作为航空航天零部件制造商，其扩产计划对全球航空及芯片供应链具有潜在影响，但具体客户与订单细节未披露。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD207/growth-revenue-aircraft-demand-equipment.html",
+      "published": "2026-10-25T00:41:58.000Z",
+      "score": 26.94,
+      "eventKey": "magnate-technology-aerospace-semiconductor-growth-forecast",
+      "originalTitle": "Magnate Technology sees aerospace, semiconductor growth opportunities",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD207/growth-revenue-aircraft-demand-equipment.html",
+        "retrievedAt": "2026-10-25T01:06:20.165Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Magnate Technology对航空航天和半导体设备增长的预测及2026-2027年营收展望，属于有具体数字的常规产业动态。",
+        "evidence": [
+          "Magnate Technology expects rising aircraft engine demand and semiconductor equipment opportunities to support growth as it expands production capacity, with implications for global aviation and chip supply chains.",
+          "The aerospace components maker forecasts revenue of nearly NT$2 billion (US$61.5 million) in 2026 and expects 15% to 20% revenue growth in 2027."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
