@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-26",
+  "generatedAt": "2026-10-26T01:10:09.959Z",
+  "intro": "本期共 4 条动态，其中 1 条值得重点关注，集中在市场与产业方向。",
+  "stats": {
+    "count": 4,
+    "sources": 4,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "market": 1,
+      "research": 1,
+      "design": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 196915,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 15,
+      "readable": 11,
+      "accepted": 4,
+      "rejected": 4469,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "349e0464cb945",
+      "title": "黄仁勋称AI软件许可年费约每GPU 2000美元",
+      "summary": "NVIDIA CEO黄仁勋在GTC柏林问答环节表示，AI工厂中运行NVIDIA软件的成本约为每GPU每年2000美元，暗示软件许可将成为业务增长点。该数字为举例而非正式定价，具体覆盖范围未明确。",
+      "points": [
+        "黄仁勋在GTC柏林表示，运行支撑AI工厂代理的NVIDIA软件成本约每GPU每年2000美元，但未说明是否涵盖现有AI Enterprise套件或未来新许可模式。",
+        "NVIDIA AI Enterprise套件当前定价为每GPU一年订阅4500美元（含支持），或五年18000美元。2000美元数字可能代表更窄的代理聚焦包，而非降价。",
+        "若每百万GPU按2000美元许可，年收入可达20亿美元。NVIDIA正寻求在硬件之外增加经常性软件收入。"
+      ],
+      "cards": [
+        {
+          "heading": "软件定价信号",
+          "body": "黄仁勋在GTC柏林表示，运行支撑AI工厂代理的NVIDIA软件成本约每GPU每年2000美元，但未说明是否涵盖现有AI Enterprise套件或未来新许可模式。"
+        },
+        {
+          "heading": "现有许可对比",
+          "body": "NVIDIA AI Enterprise套件当前定价为每GPU一年订阅4500美元（含支持），或五年18000美元。2000美元数字可能代表更窄的代理聚焦包，而非降价。"
+        },
+        {
+          "heading": "收入潜力",
+          "body": "若每百万GPU按2000美元许可，年收入可达20亿美元。NVIDIA正寻求在硬件之外增加经常性软件收入。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354113/nvidia-eyes-software-revenue-with-a-usd-2-000-per-gpu-yearly-figure-from-huang",
+      "published": "2026-10-25T15:21:49.000Z",
+      "score": 25.37,
+      "eventKey": "nvidia-2000-per-gpu-software-license-fee-huang",
+      "originalTitle": "NVIDIA Eyes Software Revenue With a $2,000 per GPU Yearly Figure From Huang",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354113/nvidia-eyes-software-revenue-with-a-usd-2-000-per-gpu-yearly-figure-from-huang",
+        "retrievedAt": "2026-10-26T01:08:11.999Z",
+        "articlePublished": "2026-10-25T15:21:49.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "黄仁勋在GTC Berlin提出每年每GPU约2000美元的软件许可费用设想，是英伟达软件业务定价的新表态。",
+        "evidence": [
+          "During a Q&A session at GTC Berlin last week, Huang said software licensing will become a growing part of NVIDIA's business, and that it costs about $2,000 per GPU per year to run all the NVIDIA software that powers agents in AI factories."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/017/720.htm"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/017/747.htm"
+        }
+      ]
+    },
+    {
+      "id": "589623a6a476e",
+      "title": "中科院等提出Pt-W合金用于高NA EUV掩膜吸收层",
+      "summary": "中国科学院、吉林大学等机构在iScience发表论文，研究Pt-W合金作为下一代低折射率EUV掩膜吸收层的薄膜性能与成像表现，为更薄的高NA EUV掩膜吸收层提供潜在替代方案。",
+      "points": [
+        "论文由中国科学院、吉林大学、光学系统先进制造国家重点实验室及中国科学院大学的研究人员合作完成，发表于2026年8月的iScience期刊。",
+        "研究评估了Pt-W合金作为低n值EUV掩膜吸收层的薄膜性能和成像表现，旨在替代传统吸收层，支持更薄的高NA EUV掩膜设计。",
+        "论文题为“Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance”，作者包括Li Zhonghua、Tang Haolong等，DOI为10.1016/j.isci.2026.116912。"
+      ],
+      "cards": [
+        {
+          "heading": "研究主体",
+          "body": "论文由中国科学院、吉林大学、光学系统先进制造国家重点实验室及中国科学院大学的研究人员合作完成，发表于2026年8月的iScience期刊。"
+        },
+        {
+          "heading": "核心发现",
+          "body": "研究评估了Pt-W合金作为低n值EUV掩膜吸收层的薄膜性能和成像表现，旨在替代传统吸收层，支持更薄的高NA EUV掩膜设计。"
+        },
+        {
+          "heading": "论文信息",
+          "body": "论文题为“Evaluating an alternative Pt-W alloy as a low-n EUV mask absorber: Film properties and imaging performance”，作者包括Li Zhonghua、Tang Haolong等，DOI为10.1016/j.isci.2026.116912。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Engineering",
+      "sourceLang": "en",
+      "url": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al",
+      "published": "2026-10-25T21:17:41.000Z",
+      "score": 27.36,
+      "eventKey": "cas-pt-w-alloy-high-na-euv-mask-absorber-paper",
+      "originalTitle": "Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.)",
+      "provenance": {
+        "url": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al",
+        "retrievedAt": "2026-10-26T01:08:13.633Z",
+        "articlePublished": "2026-10-25T21:17:41.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "中科院等机构发表关于Pt-W合金作为High-NA EUV掩膜吸收层替代材料的论文，属于具体的新研究事实。",
+        "evidence": [
+          "Researchers at Chinese Academy of Sciences, Jilin University, State Key Laboratory of Advanced Manufacturing for Optical Systems, and University of Chinese Academy of Sciences published a technical paper titled “Evaluating an alternative Pt",
+          "-W alloy as a low-n EUV mask absorber: Film properties and imaging performance.” “In this study, we investigate an alternative Pt-W alloy as a next-generation low-n EUV mask absorber,” states the paper."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c57114dee35da",
+      "title": "SiPearl与神盾合作开发Rhea2处理器",
+      "summary": "欧洲CPU初创企业SiPearl与中国台湾IP企业神盾签署战略合作与投资协议，其下一代处理器Rhea2将基于双方合作开发的Mobius100服务器CPU同款架构。Mobius100基于Arm Neoverse V3，采用台积电N3P工艺，预计2027年进入工程样品阶段，2028年下半年量产。",
+      "points": [
+        "SiPearl与神盾签署战略合作与投资协议，Rhea2将基于与神盾下属安国合作开发的Mobius100服务器CPU同款架构。",
+        "基于Arm Neoverse V3，采用台积电N3P工艺，双芯粒封装提供128+12核心（12个冗余），支持12800MT/s DDR5 MRDIMM，提供PCIe Gen6/CXL Gen3通道。",
+        "利用神盾下属乾瞻的IP提供8个UCIe 2.0-S互连接口。",
+        "Mobius100预计2027年进入工程样品阶段，2028年下半年量产，Rhea2将在其后不久发布。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "SiPearl与神盾签署战略合作与投资协议，Rhea2将基于与神盾下属安国合作开发的Mobius100服务器CPU同款架构。"
+        },
+        {
+          "heading": "Mobius100规格",
+          "body": "基于Arm Neoverse V3，采用台积电N3P工艺，双芯粒封装提供128+12核心（12个冗余），支持12800MT/s DDR5 MRDIMM，提供PCIe Gen6/CXL Gen3通道。"
+        },
+        {
+          "heading": "互连与IP",
+          "body": "利用神盾下属乾瞻的IP提供8个UCIe 2.0-S互连接口。"
+        },
+        {
+          "heading": "时间表",
+          "body": "Mobius100预计2027年进入工程样品阶段，2028年下半年量产，Rhea2将在其后不久发布。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/017/684.htm",
+      "published": "2026-10-25T12:18:14.000Z",
+      "score": 22.86,
+      "eventKey": "sipearl-egis-rhea2-processor-partnership",
+      "originalTitle": "欧洲 CPU 初创企业 SiPearl 将与神盾合作开发下代处理器 Rhea2",
+      "provenance": {
+        "url": "https://www.ithome.com/1/017/684.htm",
+        "retrievedAt": "2026-10-26T01:08:12.254Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SiPearl与神盾签署战略合作与投资协议，并披露下一代处理器Rhea2将基于Mobius100同款架构，Mobius100预计2027年进入工程样品阶段、2028年下半年量产。这是新的合作进展和产品路线图细节。",
+        "evidence": [
+          "IT之家 10 月 25 日消息,欧洲 CPU 初创企业 SiPearl 本月 22 日宣布与中国台湾地区芯片 IP 与设计服务企业神盾 (Egis) 签署战略合作与投资协议。",
+          "SiPearl 的下代处理器 Rhea2 将基于其同神盾下属安国 (Alcor Micro) 合作开发的 Mobius100 服务器 CPU 同款架构。",
+          "Mobius100 CPU 预计 2027 年进入工程样品 (ES) 阶段,2028H2 量产。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ffa5a06ad9ac5",
+      "title": "微软测试Windows 11对英特尔APX支持",
+      "summary": "微软在Windows 11测试版本中加入对英特尔APX指令集的支持选项，该技术将通用寄存器从16个增至32个，可减少内存读写操作。目前该功能处于开发阶段，普通用户短期内无法体验。",
+      "points": [
+        "APX由英特尔2023年公布，将通用寄存器从16个增至32个，并引入三操作数指令、条件加载/存储/比较指令及PUSH2/POP2指令，优化状态标志更新。",
+        "据英特尔数据，经APX优化编译的程序代码可减少约10%内存读取、超20%内存写入，总体指令数量降低约10%。",
+        "微软在Windows Insider测试版中加入系统开关，说明为“让Windows使用APX以获得更好的性能”，启用后需重启，表明已开始实际验证。"
+      ],
+      "cards": [
+        {
+          "heading": "APX技术要点",
+          "body": "APX由英特尔2023年公布，将通用寄存器从16个增至32个，并引入三操作数指令、条件加载/存储/比较指令及PUSH2/POP2指令，优化状态标志更新。"
+        },
+        {
+          "heading": "性能收益",
+          "body": "据英特尔数据，经APX优化编译的程序代码可减少约10%内存读取、超20%内存写入，总体指令数量降低约10%。"
+        },
+        {
+          "heading": "测试状态",
+          "body": "微软在Windows Insider测试版中加入系统开关，说明为“让Windows使用APX以获得更好的性能”，启用后需重启，表明已开始实际验证。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583792.htm",
+      "published": "2026-10-25T15:04:31.000Z",
+      "score": 17.33,
+      "eventKey": "microsoft-windows11-intel-apx-support-testing",
+      "originalTitle": "英特尔与微软合作推进APX技术 Windows 11未来有望获得64位性能提升",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583792.htm",
+        "retrievedAt": "2026-10-26T01:08:12.882Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "微软在Windows 11测试版中加入对英特尔APX指令集的支持，这是APX技术落地的新进展。",
+        "evidence": [
+          "最新消息显示,微软已经在Windows 11测试版本中加入对英特尔APX指令集的支持选项,为未来PC性能优化铺平道路。",
+          "在最近曝光的Windows Insider测试版本中,开发者已经能够看到一个新的系统开关,其说明为“让Windows使用APX以获得更好的性能”。"
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

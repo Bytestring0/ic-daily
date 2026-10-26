@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-10-25T01:06:40.791Z",
-  "total": 9,
+  "generatedAt": "2026-10-26T01:10:09.962Z",
+  "total": 10,
   "editions": [
+    {
+      "date": "2026-10-26",
+      "count": 4,
+      "intro": "本期共 4 条动态，其中 1 条值得重点关注，集中在市场与产业方向。",
+      "top": [
+        "黄仁勋称AI软件许可年费约每GPU 2000美元",
+        "中科院等提出Pt-W合金用于高NA EUV掩膜吸收层",
+        "SiPearl与神盾合作开发Rhea2处理器"
+      ],
+      "categories": {
+        "market": 1,
+        "research": 1,
+        "design": 2
+      }
+    },
     {
       "date": "2026-10-25",
       "count": 2,
