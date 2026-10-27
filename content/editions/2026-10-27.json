@@ -1,0 +1,900 @@
+{
+  "date": "2026-10-27",
+  "generatedAt": "2026-10-27T02:05:20.186Z",
+  "intro": "本期共 16 条动态，其中 10 条值得重点关注，集中在市场与产业、芯片设计、晶圆代工、研究与论文方向。",
+  "stats": {
+    "count": 16,
+    "sources": 9,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "market": 3,
+      "design": 5,
+      "foundry": 1,
+      "research": 2,
+      "equipment": 2,
+      "eda": 1,
+      "memory": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 254053,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 27,
+      "readable": 27,
+      "accepted": 16,
+      "rejected": 4449,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "3ac5c01e340ef",
+      "title": "华尔街银团与黑石为Anthropic融资630亿美元购博通AI芯片",
+      "summary": "美国银行、花旗、摩根士丹利及黑石将提供630亿美元融资，通过新设特殊目的实体购买博通AI加速芯片和网络设备并出租给Anthropic。设备预计2027年开始交付，属此前公布的算力供应协议一部分。Anthropic同日提交IPO申请。",
+      "points": [
+        "美国银行、花旗和摩根士丹利安排第一顺位抵押融资，黑石提供第二顺位抵押融资承诺出资。博通提供残值支持，承担资产价值下跌损失，上限与第一顺位债务持平，但未披露具体规模。",
+        "设备预计从2027年开始交付，属于此前公布的博通参与的战略性算力供应协议。此前阿波罗和黑石已与博通达成350亿美元协议用于扩容Anthropic算力。",
+        "Anthropic于当地时间周一提交IPO申请，有望创纪录，但高额亏损和安全隐患披露可能考验投资者意愿。"
+      ],
+      "cards": [
+        {
+          "heading": "融资结构",
+          "body": "美国银行、花旗和摩根士丹利安排第一顺位抵押融资，黑石提供第二顺位抵押融资承诺出资。博通提供残值支持，承担资产价值下跌损失，上限与第一顺位债务持平，但未披露具体规模。"
+        },
+        {
+          "heading": "交付时间",
+          "body": "设备预计从2027年开始交付，属于此前公布的博通参与的战略性算力供应协议。此前阿波罗和黑石已与博通达成350亿美元协议用于扩容Anthropic算力。"
+        },
+        {
+          "heading": "IPO动态",
+          "body": "Anthropic于当地时间周一提交IPO申请，有望创纪录，但高额亏损和安全隐患披露可能考验投资者意愿。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/018/199.htm",
+      "published": "2026-10-26T23:20:26.000Z",
+      "score": 24.55,
+      "eventKey": "banks-blackstone-63b-financing-anthropic-broadcom-chips",
+      "originalTitle": "630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资",
+      "provenance": {
+        "url": "https://www.ithome.com/1/018/199.htm",
+        "retrievedAt": "2026-10-27T02:02:30.686Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "华尔街银行为Anthropic采购博通AI芯片提供630亿美元融资，是AI算力基础设施领域的大规模融资事件。",
+        "evidence": [
+          "IT之家 10 月 27 日消息,据路透社报道,美国银行(Bank of America)、黑石(Blackstone)、花旗(Citi)和摩根士丹利(Morgan Stanley)将提供 630 亿美元(IT之家注:现汇率约合 4,206.79 亿元人民币)融资,用于为 Anthropic 采购博通(Broadcom)的人工智能芯片与网络设备,这是和人工智能算力建设相关的规模最大的一笔债务交易之一。",
+          "相关企业当地时间周一表示,这笔交易将通过一家新设立的特殊目的实体实施,由该实体购入博通的 AI 加速芯片和网络设备,再出租给开发 Claude 的 Anthropic。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "16026738f51224",
+      "title": "英特尔收购Classiq，打造全栈量子计算平台",
+      "summary": "英特尔宣布达成最终协议收购量子计算软件公司Classiq，将Classiq的合成平台与英特尔的硅自旋量子比特制造及软件结合，构建全栈量子计算平台。交易预计2027年上半年完成，尚待监管批准。",
+      "points": [
+        "英特尔已与Classiq达成最终收购协议。Classiq提供量子计算软件合成平台，与量子比特硬件无关，类似EDA在芯片设计中的抽象层作用。交易完成后英特尔将继续支持Classiq的多平台集成。",
+        "英特尔自2015年起投资量子计算，是唯一能利用传统硅半导体设备大规模生产量子比特芯片和低温控制电子器件的公司。结合Classiq的自动化算法合成平台，英特尔将提供全栈量子解决方案。",
+        "交易需获得监管批准及其他惯例交割条件，预计2027年上半年完成。交割前英特尔和Classiq将继续作为独立公司运营。"
+      ],
+      "cards": [
+        {
+          "heading": "收购内容",
+          "body": "英特尔已与Classiq达成最终收购协议。Classiq提供量子计算软件合成平台，与量子比特硬件无关，类似EDA在芯片设计中的抽象层作用。交易完成后英特尔将继续支持Classiq的多平台集成。"
+        },
+        {
+          "heading": "技术互补",
+          "body": "英特尔自2015年起投资量子计算，是唯一能利用传统硅半导体设备大规模生产量子比特芯片和低温控制电子器件的公司。结合Classiq的自动化算法合成平台，英特尔将提供全栈量子解决方案。"
+        },
+        {
+          "heading": "交易时间表",
+          "body": "交易需获得监管批准及其他惯例交割条件，预计2027年上半年完成。交割前英特尔和Classiq将继续作为独立公司运营。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354153/intel-to-acquire-classiq-to-create-a-full-stack-quantum-computing-platform",
+      "published": "2026-10-26T20:46:43.000Z",
+      "score": 19.13,
+      "eventKey": "intel-acquires-classiq-quantum-platform",
+      "originalTitle": "(PR) Intel to Acquire Classiq to Create a Full-stack Quantum Computing Platform",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354153/intel-to-acquire-classiq-to-create-a-full-stack-quantum-computing-platform",
+        "retrievedAt": "2026-10-27T02:02:33.121Z",
+        "articlePublished": "2026-10-26T20:46:43.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 5,
+        "reason": "英特尔宣布收购量子计算软件公司Classiq，打造全栈量子计算平台，属重大并购事件，预计2027年上半年完成交割。",
+        "evidence": [
+          "Intel Corporation today announced that it has entered into a definitive agreement to acquire Classiq, a leading provider of quantum computing software.",
+          "The transaction is subject to regulatory approvals and other customary closing conditions and is expected to close in the first half of 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "d42a82b2b1014",
+      "title": "英特尔CEO称与AMD探讨合作，14A工艺将风险试产",
+      "summary": "英特尔CEO陈立武透露已与AMD CEO苏姿丰讨论合作可能，同时英特尔14A工艺PDK将进入0.9版本，具备流片能力，计划明年初推出1.0版本支持量产。投行报告称英特尔获多项代工订单，包括博通、Google等。",
+      "points": [
+        "英特尔已拥有14A工艺0.5版本PDK，不久将发布0.9版本，该版本意味着具备流片能力，可进入风险试产；计划明年初推出1.0版本PDK以支持正式量产。",
+        "陈立武表示已与AMD董事长兼CEO苏姿丰交流，讨论未来可能合作的领域，但未披露具体方向。英特尔与AMD长期竞争，合作动向引发业界关注。",
+        "投行KeyBanc报告称英特尔已获博通网络交换芯片、Google服务器CPU订单，微软服务器处理器和英伟达游戏GPU据称也将由英特尔代工。苹果可能达成长期代工协议，但未获官方确认。",
+        "英特尔EMIB-T基板生产良率约50%-60%，供应商Ibiden表现较好，UMTC良率仅20%-30%。"
+      ],
+      "cards": [
+        {
+          "heading": "14A工艺进展",
+          "body": "英特尔已拥有14A工艺0.5版本PDK，不久将发布0.9版本，该版本意味着具备流片能力，可进入风险试产；计划明年初推出1.0版本PDK以支持正式量产。"
+        },
+        {
+          "heading": "与AMD合作探讨",
+          "body": "陈立武表示已与AMD董事长兼CEO苏姿丰交流，讨论未来可能合作的领域，但未披露具体方向。英特尔与AMD长期竞争，合作动向引发业界关注。"
+        },
+        {
+          "heading": "代工订单传闻",
+          "body": "投行KeyBanc报告称英特尔已获博通网络交换芯片、Google服务器CPU订单，微软服务器处理器和英伟达游戏GPU据称也将由英特尔代工。苹果可能达成长期代工协议，但未获官方确认。"
+        },
+        {
+          "heading": "先进封装良率",
+          "body": "英特尔EMIB-T基板生产良率约50%-60%，供应商Ibiden表现较好，UMTC良率仅20%-30%。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583928.htm",
+      "published": "2026-10-26T11:25:45.000Z",
+      "score": 16.57,
+      "eventKey": "intel-14a-risk-production-pdk-amd-collaboration",
+      "originalTitle": "英特尔CEO称已与苏姿丰探讨合作可能性 14A工艺即将迈入风险试产阶段",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583928.htm",
+        "retrievedAt": "2026-10-27T02:02:33.245Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英特尔CEO陈立武透露14A工艺即将进入风险试产阶段（0.9版本PDK），并首次公开与AMD探讨合作可能性，属于重要进展。",
+        "evidence": [
+          "目前英特尔已经拥有14A工艺的0.5版本PDK(工艺设计套件),不久后将发布0.9版本PDK,并计划于明年初推出1.0版本PDK,以支持正式量产。",
+          "在谈话过程中,陈立武还透露,他已经与AMD董事长兼首席执行官苏姿丰(Lisa Su)进行过交流,双方讨论了未来可能开展合作的领域。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "12ab342f3bf958",
+      "title": "UIUC实现2.75GHz GaN蓝光微LED带宽纪录",
+      "summary": "伊利诺伊大学厄巴纳-香槟分校团队在GaN蓝光微LED中实现2.75GHz调制带宽纪录，5μm器件在15kA/cm²电流密度下保持线性度和稳定性。研究为数据中心和AI计算的光互连提供扩展路线图。",
+      "points": [
+        "UIUC团队制备了直径从100μm到2μm的蓝光微LED，其中5μm器件实现2.75GHz调制带宽纪录，在15kA/cm²极端电流密度下保持优异线性度和稳定性。",
+        "史密斯图测量显示，标准100μm微LED受结电容限制；直径降至20μm以下电容显著下降，实现高速。但进一步缩小至5μm以下会增加接触和电流扩展电阻，导致与50Ω系统阻抗失配。",
+        "该工作首次建立微LED发射器的器件级路线图，为高带宽光互连提供设计路径，有望替代铜互连，突破数据中心和AI计算的能耗与带宽瓶颈。"
+      ],
+      "cards": [
+        {
+          "heading": "带宽纪录",
+          "body": "UIUC团队制备了直径从100μm到2μm的蓝光微LED，其中5μm器件实现2.75GHz调制带宽纪录，在15kA/cm²极端电流密度下保持优异线性度和稳定性。"
+        },
+        {
+          "heading": "技术分析",
+          "body": "史密斯图测量显示，标准100μm微LED受结电容限制；直径降至20μm以下电容显著下降，实现高速。但进一步缩小至5μm以下会增加接触和电流扩展电阻，导致与50Ω系统阻抗失配。"
+        },
+        {
+          "heading": "研究意义",
+          "body": "该工作首次建立微LED发射器的器件级路线图，为高带宽光互连提供设计路径，有望替代铜互连，突破数据中心和AI计算的能耗与带宽瓶颈。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/uiuc-261026.shtml",
+      "published": "2026-10-26T09:47:10.000Z",
+      "score": 26.29,
+      "eventKey": "uiuc-gan-microled-2.75ghz-record",
+      "originalTitle": "University of Illinois at Urbana-Champaign (UIUC) has achieved a record modulation bandwidth of 2.75GHz in a gallium nitride (GaN) blue micro-LED (Abdelghany Abouelnagga et a",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/uiuc-261026.shtml",
+        "retrievedAt": "2026-10-27T02:02:31.112Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "UIUC在GaN蓝色micro-LED上实现2.75GHz调制带宽纪录，为具体研究里程碑，对光互连和AI计算有重要意义。",
+        "evidence": [
+          "Their 5μm-diameter device achieved record bandwidth of 2.75GHz, while maintaining excellent linearity and stability under extreme current densities (of 15kA cm-2). “By unifying modulation, linearity and impedance measurements across such a "
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1aecab11d840f6",
+      "title": "应用材料增持Besi股份至20%",
+      "summary": "应用材料宣布追加对荷兰封装设备商Besi的投资，持股比例从9%升至约20%，成为其第一大股东。公司表示无意进一步增持或寻求董事会席位，双方合作已从混合键合扩展至更广泛的新型互连架构。",
+      "points": [
+        "应用材料于10月26日宣布追加投资，持股比例从9%升至约20%，成为Besi第一大股东。公司明确表示当前无意进一步扩大持股，也无意寻求Besi董事会席位。",
+        "两家企业自2020年启动联合开发，合作关系良好。本月Besi加入应用材料硅谷EPIC中心，合作范围从混合键合拓展至更广泛的新型互连架构和应用。"
+      ],
+      "cards": [
+        {
+          "heading": "持股变动",
+          "body": "应用材料于10月26日宣布追加投资，持股比例从9%升至约20%，成为Besi第一大股东。公司明确表示当前无意进一步扩大持股，也无意寻求Besi董事会席位。"
+        },
+        {
+          "heading": "合作历程",
+          "body": "两家企业自2020年启动联合开发，合作关系良好。本月Besi加入应用材料硅谷EPIC中心，合作范围从混合键合拓展至更广泛的新型互连架构和应用。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/018/236.htm",
+      "published": "2026-10-27T01:26:29.000Z",
+      "score": 24.9,
+      "eventKey": "applied-materials-increases-besi-stake-to-20-percent",
+      "originalTitle": "应用材料追加对先进封装设备制造商 Besi 投资，持股比例升至 20%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/018/236.htm",
+        "retrievedAt": "2026-10-27T02:02:30.622Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "应用材料将持股比例从9%提升至20%，这是对Besi投资的新里程碑，涉及先进封装设备领域。",
+        "evidence": [
+          "IT之家 10 月 27 日消息,Applied Materials(应用材料)美国当地时间本月 26 日宣布将追加对荷兰半导体封装设备制造商 Besi 的投资,使其对后者的持股比例从此前的 9% 约升至 20%。",
+          "应用材料同时表示,该企业当前无意进一步扩大在 Besi 的持股,也无意寻求 Besi 董事会的席位。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "bf30431416b0a",
+      "title": "Cadence发布Maestro AI模型组合",
+      "summary": "Cadence推出Maestro AI模型组合，为芯片设计提供领域专用AI能力，集成强化学习与EDA工具，实现智能体工程平台。初步结果显示质量提升30%，token效率提升5倍，并获NVIDIA、Socionext等客户支持。",
+      "points": [
+        "Cadence于10月26日发布Maestro AI模型组合，支持AuraStack、ChipStack、InnoStack和ViraStack等AI超级代理，结合强化学习与EDA/SDA工具，提供安全、可管理的平台。",
+        "初步结果显示，相比通用基础模型，Maestro在结果质量上提升30%，token效率提升5倍。通过闭环反馈机制，实现递归自我改进。",
+        "NVIDIA副总裁Tim Costa表示合作将Nemotron和OpenShell引入Maestro；Socionext部署InnoStack预计整体生产力提升5倍；Silicon Labs利用ChipStack加速低功耗验证调试。"
+      ],
+      "cards": [
+        {
+          "heading": "产品发布",
+          "body": "Cadence于10月26日发布Maestro AI模型组合，支持AuraStack、ChipStack、InnoStack和ViraStack等AI超级代理，结合强化学习与EDA/SDA工具，提供安全、可管理的平台。"
+        },
+        {
+          "heading": "性能提升",
+          "body": "初步结果显示，相比通用基础模型，Maestro在结果质量上提升30%，token效率提升5倍。通过闭环反馈机制，实现递归自我改进。"
+        },
+        {
+          "heading": "客户反馈",
+          "body": "NVIDIA副总裁Tim Costa表示合作将Nemotron和OpenShell引入Maestro；Socionext部署InnoStack预计整体生产力提升5倍；Silicon Labs利用ChipStack加速低功耗验证调试。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 4,
+      "tags": [
+        "EDA"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/cadence-unveils-domain-specialized-maestro-ai-models-for-chip-design",
+      "published": "2026-10-26T18:30:33.000Z",
+      "score": 24.75,
+      "eventKey": "cadence-maestro-ai-model-portfolio-launch",
+      "originalTitle": "Cadence Unveils Domain-Specialized Maestro AI Models for Chip Design",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/cadence-unveils-domain-specialized-maestro-ai-models-for-chip-design",
+        "retrievedAt": "2026-10-27T02:02:32.199Z",
+        "articlePublished": "2026-10-26T18:30:33.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Cadence发布Maestro AI模型组合，是EDA领域的重要产品发布，涵盖多个AI超级代理。",
+        "evidence": [
+          "Cadence (Nasdaq: CDNS) today announced the Maestro AI Model Portfolio, which powers Cadence AI Super Agents across semiconductor and system design workflows.",
+          "By integrating these models with reinforcement learning (RL) loops and its proven electronic design automation (EDA) and system design automation (SDA) tools, Cadence delivers a deeply integrated agentic engineering platform designed to imp"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/018/193.htm"
+        },
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261027VL201/design-cadence-demand-revenue-outlook.html"
+        }
+      ]
+    },
+    {
+      "id": "a292fa9ba92f1",
+      "title": "英伟达下调Vera Rubin的HBM4与NVLink规格",
+      "summary": "英伟达正式下调Vera Rubin产品线的HBM4速率和NVLink带宽目标。HBM4每引脚速率从11.7Gbps降至9.6Gbps，NVL72总内存带宽从1580TB/s降至1400TB/s；NVLink双向带宽从3.6TB/s降至3TB/s。调整后，Rubin在内存容量和带宽上落后于AMD的Helios系统。",
+      "points": [
+        "HBM4每引脚速率从11.7Gbps降至9.6Gbps，Vera Rubin NVL72总内存带宽从1580TB/s降至1400TB/s。原因并非供应商问题，而是英伟达对内存总线宽度和信号完整性实现不足。",
+        "每GPU NVLink带宽从1.8TB/s降至1.5TB/s，双向从3.6TB/s降至3TB/s。英伟达将NVLink奈奎斯特频率目标从56GHz降至47GHz，以降低SerDes、线缆和材料电气要求，提升良率和可行性。",
+        "AMD Instinct MI455X每GPU配备432GB HBM4，带宽23.3TB/s；Rubin仅288GB、19.2TB/s。机架级Helios总内存约31TB、带宽1.67PB/s，Rubin NVL72约20.7TB、1.4PB/s。UALoE双向3.6TB/s，高于NVLink的3TB/s。"
+      ],
+      "cards": [
+        {
+          "heading": "内存规格下调",
+          "body": "HBM4每引脚速率从11.7Gbps降至9.6Gbps，Vera Rubin NVL72总内存带宽从1580TB/s降至1400TB/s。原因并非供应商问题，而是英伟达对内存总线宽度和信号完整性实现不足。"
+        },
+        {
+          "heading": "NVLink带宽削减",
+          "body": "每GPU NVLink带宽从1.8TB/s降至1.5TB/s，双向从3.6TB/s降至3TB/s。英伟达将NVLink奈奎斯特频率目标从56GHz降至47GHz，以降低SerDes、线缆和材料电气要求，提升良率和可行性。"
+        },
+        {
+          "heading": "对比AMD Helios",
+          "body": "AMD Instinct MI455X每GPU配备432GB HBM4，带宽23.3TB/s；Rubin仅288GB、19.2TB/s。机架级Helios总内存约31TB、带宽1.67PB/s，Rubin NVL72约20.7TB、1.4PB/s。UALoE双向3.6TB/s，高于NVLink的3TB/s。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354133/nvidia-cuts-hbm4-speed-and-nvlink-bandwidth-targets-for-vera-rubin",
+      "published": "2026-10-26T07:56:41.000Z",
+      "score": 23.99,
+      "eventKey": "nvidia-vera-rubin-spec-cut-hbm4-nvlink",
+      "originalTitle": "NVIDIA Cuts HBM4 Speed and NVLink Bandwidth Targets for \"Vera Rubin\"",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354133/nvidia-cuts-hbm4-speed-and-nvlink-bandwidth-targets-for-vera-rubin",
+        "retrievedAt": "2026-10-27T02:02:30.807Z",
+        "articlePublished": "2026-10-26T07:56:41.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达官方更新Vera Rubin产品规格，降低HBM4速率（11.7 Gbps降至9.6 Gbps）、总内存带宽（1580 TB/s降至1400 TB/s）及NVLink带宽（1.8 TB/s降至1.5 TB/s），这是产品规格的实质性变更，属于重要事件。",
+        "evidence": [
+          "NVIDIA has officially implemented changes across its \"Vera Rubin\" product line, reducing target specifications for memory and interconnect fabric.",
+          "Previously, NVIDIA used HBM4 with a speed of 11.7 Gbps per pin, which has now been reduced to 9.6 Gbps per pin.",
+          "In a \"Vera Rubin\" NVL72 rack-scale solution, NVIDIA now offers a total memory bandwidth of 1,400 TB/s, down from the previously advertised 1,580 TB/s."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1583904.htm"
+        }
+      ]
+    },
+    {
+      "id": "10e39e9fc69c00",
+      "title": "三家美国公司开发EUV新光源挑战锡等离子体",
+      "summary": "XLight、Inversion Semiconductor和Tau Systems三家美国公司正在开发基于自由电子激光的EUV光源，替代ASML光刻机中的锡等离子体方案。新方案有望提供更高功率、更纯净可控的光，并突破13.5纳米波长限制。",
+      "points": [
+        "三家公司均采用加速器方案，将电子加速至接近光速并操纵其轨迹产生EUV辐射，取代加热锡滴产生13.5纳米光的传统方法。",
+        "ASML去年已演示1000瓦EUV源功率，并称激光等离子体架构可进一步扩展，但表示光学和工件台等部件最终将限制性能。",
+        "新光源承诺更高可用功率、更清洁可控的光，并有望突破13.5纳米波长限制，为未来光刻技术提供新自由度。"
+      ],
+      "cards": [
+        {
+          "heading": "技术路线",
+          "body": "三家公司均采用加速器方案，将电子加速至接近光速并操纵其轨迹产生EUV辐射，取代加热锡滴产生13.5纳米光的传统方法。"
+        },
+        {
+          "heading": "ASML现状",
+          "body": "ASML去年已演示1000瓦EUV源功率，并称激光等离子体架构可进一步扩展，但表示光学和工件台等部件最终将限制性能。"
+        },
+        {
+          "heading": "潜在优势",
+          "body": "新光源承诺更高可用功率、更清洁可控的光，并有望突破13.5纳米波长限制，为未来光刻技术提供新自由度。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "Bits&Chips",
+      "sourceLang": "en",
+      "url": "https://bits-chips.com/article/beyond-tin-three-challengers-take-aim-at-euvs-light-source",
+      "published": "2026-10-26T11:47:42.000Z",
+      "score": 22.63,
+      "eventKey": "us-companies-accelerator-euv-source-alternatives",
+      "originalTitle": "Beyond tin: Three challengers take aim at EUV’s light source",
+      "provenance": {
+        "url": "https://bits-chips.com/article/beyond-tin-three-challengers-take-aim-at-euvs-light-source",
+        "retrievedAt": "2026-10-27T02:02:35.593Z",
+        "articlePublished": "2026-10-26T11:47:42.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道三家美国公司（XLight、Inversion Semiconductor、Tau Systems）开发基于加速器的EUV光源替代方案，挑战ASML的锡等离子体光源。这是EUV光源技术路线的新动态。",
+        "evidence": [
+          "Three US companies are developing accelerator-based alternatives to the tin-plasma source at the heart of ASML’s EUV scanners.",
+          "All hailing from the US, XLight, Inversion Semiconductor and Tau Systems are developing sources that replace exploding tin droplets with high-energy electrons from a free-electron laser (FEL).",
+          "Instead of heating tin until it radiates at the desired wavelength, they accelerate electrons to close to the speed of light and manipulate their trajectories to make them emit EUV radiation."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ef56a67346a34",
+      "title": "三星与SK海力士调整HBM4策略，8层方案2027年中放量",
+      "summary": "三星电子和SK海力士计划从2027年第二季度起大幅增加面向英伟达Rubin Ultra的8层HBM4供应，而非此前主推的12层方案。英伟达已于2026年第三季度与两家公司讨论引入更多8层HBM4配置，主要因12层堆叠散热和良率挑战。两家公司仍需为8层HBM4获得独立认证。",
+      "points": [
+        "三星和SK海力士计划从2027年第二季度开始，大幅增加面向英伟达下一代AI加速器Rubin Ultra的8层HBM4内存供应。英伟达已于2026年第三季度与两家公司展开讨论，希望为未来产品引入更多8层HBM4配置。",
+        "12层堆叠因DRAM层数增加导致热阻上升、散热困难，晶圆键合缺陷概率增加，良率下降。8层方案虽单堆容量妥协，但更易制造和冷却，被视为兼顾成本、产能与稳定性的折中方案。",
+        "三星和SK海力士仍在量产12层HBM4产品，并已获得英伟达认证。未来数年内12层HBM4预计仍是高端HBM市场重要组成部分，但从2027年中起8层版本市场占比有望显著提升。",
+        "两家公司需为8层HBM4获得独立认证，目前正在准备零部件、材料及品质验证流程。由于技术复杂度低于12层，认证难度预计较低。英伟达也在评估8层HBM4E方案，最终配置取决于Rubin Ultra设计需求、供货能力和成本结构。"
+      ],
+      "cards": [
+        {
+          "heading": "供应时间与对象",
+          "body": "三星和SK海力士计划从2027年第二季度开始，大幅增加面向英伟达下一代AI加速器Rubin Ultra的8层HBM4内存供应。英伟达已于2026年第三季度与两家公司展开讨论，希望为未来产品引入更多8层HBM4配置。"
+        },
+        {
+          "heading": "调整原因",
+          "body": "12层堆叠因DRAM层数增加导致热阻上升、散热困难，晶圆键合缺陷概率增加，良率下降。8层方案虽单堆容量妥协，但更易制造和冷却，被视为兼顾成本、产能与稳定性的折中方案。"
+        },
+        {
+          "heading": "12层HBM4仍保留",
+          "body": "三星和SK海力士仍在量产12层HBM4产品，并已获得英伟达认证。未来数年内12层HBM4预计仍是高端HBM市场重要组成部分，但从2027年中起8层版本市场占比有望显著提升。"
+        },
+        {
+          "heading": "认证与后续规划",
+          "body": "两家公司需为8层HBM4获得独立认证，目前正在准备零部件、材料及品质验证流程。由于技术复杂度低于12层，认证难度预计较低。英伟达也在评估8层HBM4E方案，最终配置取决于Rubin Ultra设计需求、供货能力和成本结构。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583930.htm",
+      "published": "2026-10-26T11:27:18.000Z",
+      "score": 21.57,
+      "eventKey": "samsung-sk-hynix-hbm4-8hi-nvidia-rubin-ultra-supply",
+      "originalTitle": "三星与SK海力士调整HBM4策略：8层堆叠方案或于2027年中大规模供应英伟达",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583930.htm",
+        "retrievedAt": "2026-10-27T02:02:32.643Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星与SK海力士调整HBM4策略，计划从2027年第二季度起大幅增加面向英伟达Rubin Ultra的8层HBM4供应，并需为8层方案获得独立认证。这是对HBM4供应结构的重大策略调整，属于新事实。",
+        "evidence": [
+          "最新消息显示,三星电子和SK海力士计划从2027年第二季度开始,大幅增加面向英伟达下一代AI加速器Rubin Ultra的8层HBM4内存供应,而非此前被广泛看好的12层堆叠方案。",
+          "报道称,英伟达已于2026年第三季度与三星和SK海力士展开讨论,希望为未来产品引入更多8层HBM4配置。",
+          "根据韩国媒体披露的信息,三星和SK海力士还需要为8层HBM4获得独立认证。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1509313cf3d078",
+      "title": "SK海力士拟推50万亿至60万亿韩元股东回报",
+      "summary": "SK海力士计划在28日董事会后公布新增股东回报方案，规模50万亿至60万亿韩元，叠加此前40万亿韩元回购注销，今年总回报将达100万亿韩元，创历史新高。",
+      "points": [
+        "SK海力士拟于28日经董事会决议后公布新增股东回报方案，规模50万亿至60万亿韩元（约350亿至420亿美元），以特别分红为主，同时考虑追加部分回购注销。",
+        "加上已完成的40万亿韩元股票回购注销，SK海力士今年股东回报总额将达100万亿韩元，为去年的7倍，创韩国上市企业历史纪录。",
+        "SK海力士受益于AI存储芯片行情，业绩预期高增。三星电子计划今年投入90万亿至110万亿韩元用于股东回报，双方将角逐韩国企业最大股东回报席位。"
+      ],
+      "cards": [
+        {
+          "heading": "回报方案细节",
+          "body": "SK海力士拟于28日经董事会决议后公布新增股东回报方案，规模50万亿至60万亿韩元（约350亿至420亿美元），以特别分红为主，同时考虑追加部分回购注销。"
+        },
+        {
+          "heading": "历史性总回报",
+          "body": "加上已完成的40万亿韩元股票回购注销，SK海力士今年股东回报总额将达100万亿韩元，为去年的7倍，创韩国上市企业历史纪录。"
+        },
+        {
+          "heading": "竞争与背景",
+          "body": "SK海力士受益于AI存储芯片行情，业绩预期高增。三星电子计划今年投入90万亿至110万亿韩元用于股东回报，双方将角逐韩国企业最大股东回报席位。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1583916.htm",
+      "published": "2026-10-26T11:04:44.000Z",
+      "score": 16.51,
+      "eventKey": "skhynix-new-shareholder-return-plan-60t-krw",
+      "originalTitle": "SK海力士拟推出新增股东回报方案 最高60万亿韩元",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1583916.htm",
+        "retrievedAt": "2026-10-27T02:02:33.317Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SK海力士计划公布50万亿至60万亿韩元的新增股东回报方案，这是具体的财务决策信息。",
+        "evidence": [
+          "据业内消息人士透露,SK海力士(000660.KS)准备公布一份新增股东回报方案,规模达50万亿至60万亿韩元(折合350亿至420亿美元)。",
+          "业内人士26日称,SK海力士将于28日经董事会决议敲定今年股东回报方案,并在当日随同三季报一同对外披露。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1f3fd356597892",
+      "title": "HTSI拟投资逾2.15亿美元扩产晶圆测试",
+      "summary": "晶圆测试方案供应商HTSI于10月22日批准预算，将在新竹建设研发中心、在台湾中南部建设制造中心，总投资预计超过新台币70亿元（约2.15亿美元），以扩大先进芯片测试产能。",
+      "points": [
+        "董事会于10月22日批准预算授权，总投资预计超过新台币70亿元（约合2.15亿美元），用于新竹研发中心与台湾中南部制造中心建设。",
+        "新竹研发中心将聚焦先进晶圆测试技术开发；中南部制造中心将扩充测试产能，服务先进芯片测试需求。",
+        "HTSI是半导体晶圆测试解决方案供应商，此次扩张旨在强化其在台湾的运营布局，提升高端测试服务能力。"
+      ],
+      "cards": [
+        {
+          "heading": "投资规模",
+          "body": "董事会于10月22日批准预算授权，总投资预计超过新台币70亿元（约合2.15亿美元），用于新竹研发中心与台湾中南部制造中心建设。"
+        },
+        {
+          "heading": "建设内容",
+          "body": "新竹研发中心将聚焦先进晶圆测试技术开发；中南部制造中心将扩充测试产能，服务先进芯片测试需求。"
+        },
+        {
+          "heading": "公司定位",
+          "body": "HTSI是半导体晶圆测试解决方案供应商，此次扩张旨在强化其在台湾的运营布局，提升高端测试服务能力。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261023PD241/taiwan-testing-equipment-budget-investment.html",
+      "published": "2026-10-26T02:58:19.000Z",
+      "score": 25.16,
+      "eventKey": "htsi-215m-advanced-testing-expansion",
+      "originalTitle": "Taiwan wafer-testing supplier Hermes Testing Solutions commits more than US$215 million to advanced chip testing expansion",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261023PD241/taiwan-testing-equipment-budget-investment.html",
+        "retrievedAt": "2026-10-27T02:02:30.576Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "台湾晶圆测试供应商HTSI董事会批准超2.15亿美元投资，用于新研发中心和制造中心，是具体的产能扩张动态。",
+        "evidence": [
+          "Hermes Testing Solutions Inc. (HTSI), a semiconductor wafer-testing solutions provider, is expanding its Taiwan operations.",
+          "Its board approved budget authorisations on October 22 for a new R&D centre in Hsinchu and a manufacturing centre in south-central Taiwan, with total investment expected to exceed NT$7 billion (approx."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "16b2237fdad9a1",
+      "title": "英伟达被曝停止接受RTX 5090订单",
+      "summary": "据Der8auer报道，英伟达已停止接受RTX 5090订单，且无法预订，AIB合作伙伴称未收到停产通知但无法采购GB202与GDDR7组合。散热器厂商预测订单大幅下滑，可能预示该旗舰显卡提前退市。",
+      "points": [
+        "英伟达未正式宣布停产，但AIB伙伴无法购买GB202与32GB GDDR7完整套件，且无法下预订单，与以往缺货时允许延期订单不同。",
+        "散热器OEM称，两家合作伙伴已将2027年第一季度RTX 5090散热器订单预测较2026年第三季度大幅下调，第二季度尚未收到任何订单。",
+        "有分析认为英伟达可能不再捆绑GPU与显存，让AIB自行采购显存，以此非正式结束5090销售，或已完全切断供应。"
+      ],
+      "cards": [
+        {
+          "heading": "订单冻结",
+          "body": "英伟达未正式宣布停产，但AIB伙伴无法购买GB202与32GB GDDR7完整套件，且无法下预订单，与以往缺货时允许延期订单不同。"
+        },
+        {
+          "heading": "散热器预测",
+          "body": "散热器OEM称，两家合作伙伴已将2027年第一季度RTX 5090散热器订单预测较2026年第三季度大幅下调，第二季度尚未收到任何订单。"
+        },
+        {
+          "heading": "可能原因",
+          "body": "有分析认为英伟达可能不再捆绑GPU与显存，让AIB自行采购显存，以此非正式结束5090销售，或已完全切断供应。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354144/nvidia-allegedly-stops-accepting-rtx-5090-orders",
+      "published": "2026-10-26T20:29:23.000Z",
+      "score": 21.08,
+      "eventKey": "nvidia-rtx5090-order-stop-aib-reports",
+      "originalTitle": "NVIDIA Allegedly Stops Accepting RTX 5090 Orders",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354144/nvidia-allegedly-stops-accepting-rtx-5090-orders",
+        "retrievedAt": "2026-10-27T02:02:32.611Z",
+        "articlePublished": "2026-10-26T20:29:23.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "据Der8auer报道，英伟达已停止接受RTX 5090订单，AIB合作伙伴无法下单，散热器OEM也未收到2027年Q2的5090散热器订单。这是关于英伟达GPU供应策略的具体新动态。",
+        "evidence": [
+          "This time, NVIDIA board partners are reporting that NVIDIA has officially stopped accepting orders for the 5090, according to a recent report by Der8auer on YouTube, and it appears as though it's not just a temporary freeze on GB202 supply,",
+          " as has been the case prior, since pre-orders are also not available to buyers.Unnamed AIB partner via Der8auer on YouTubeNo, NVIDIA did not inform us that the RTX 5090 is EOL.",
+          "Two of our partners already reduce quite much the order forecast for RTX 5090 based heatsinks in Q1 2027, when compared with Q3 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "9ac932aada099",
+      "title": "美光弃用4F2，转向晶圆键合与High-NA EUV推进DRAM",
+      "summary": "美光从路线图中移除4F2存储单元，改用其他方法继续微缩DRAM。公司计划在即将推出的1ε DRAM制程中引入晶圆键合，并在后续世代采用High-NA EUV光刻。同时，美光正在开发垂直高带宽内存（vHBM）和垂直边缘推理内存（vEIM），将直接集成在处理器顶部。",
+      "points": [
+        "美光已放弃4F2存储单元路线，为继续微缩DRAM，计划在即将推出的1ε DRAM制程中引入晶圆键合技术，并在后续世代采用High-NA EUV光刻。",
+        "美光正在开发垂直高带宽内存（vHBM）和垂直边缘推理内存（vEIM），这些新型内存将直接集成在处理器顶部，以提升性能并降低功耗。"
+      ],
+      "cards": [
+        {
+          "heading": "技术路线调整",
+          "body": "美光已放弃4F2存储单元路线，为继续微缩DRAM，计划在即将推出的1ε DRAM制程中引入晶圆键合技术，并在后续世代采用High-NA EUV光刻。"
+        },
+        {
+          "heading": "新型内存开发",
+          "body": "美光正在开发垂直高带宽内存（vHBM）和垂直边缘推理内存（vEIM），这些新型内存将直接集成在处理器顶部，以提升性能并降低功耗。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors",
+      "published": "2026-10-26T14:00:00.000Z",
+      "score": 21,
+      "eventKey": "micron-wafer-bonding-high-na-euv-next-gen-dram",
+      "originalTitle": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors",
+        "retrievedAt": "2026-10-27T02:02:32.767Z",
+        "articlePublished": "2026-10-26T14:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美光计划在1ε DRAM制程中引入晶圆键合技术，并在后续世代采用High-NA EUV光刻；同时开发垂直高带宽内存（vHBM）和垂直边缘推理内存（vEIM），直接集成在处理器顶部。这是美光DRAM路线图的重要技术决策。",
+        "evidence": [
+          "Instead, Micron intends to introduce wafer bonding with its upcoming 1ε DRAM process technology and adopt High-NA EUV lithography for subsequent generations.",
+          "Meanwhile, the company is developing new types of memory, including vertical high-bandwidth memory (vHBM) and vertical edge inference memory (vEIM), which will be integrated directly on top of processors.Get Tom's Hardware's best news and i"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "548b577a42d02",
+      "title": "Intel内部驱动确认Raptor Lake Next存在",
+      "summary": "Intel通过内部测试驱动文件“RPL-NEXT”间接确认Raptor Lake Next CPU的存在，该系列最早于6月被Tom's Hardware报道。同日，越南出口清单显示相关CPU自8月起已出货，并包含缓存与频率信息。",
+      "points": [
+        "Intel发布内部测试驱动，标签为“RPL-NEXT”，指向Raptor Lake Next。该驱动于10月26日被Tom's Hardware发现，为Intel首次间接确认该系列CPU的存在。",
+        "Club386同日公布越南出口清单，显示自8月起已有标注“Raptor Lake Next”的CPU出货，清单包含缓存容量和时钟速度等规格，但未披露具体型号或数量。"
+      ],
+      "cards": [
+        {
+          "heading": "驱动文件曝光",
+          "body": "Intel发布内部测试驱动，标签为“RPL-NEXT”，指向Raptor Lake Next。该驱动于10月26日被Tom's Hardware发现，为Intel首次间接确认该系列CPU的存在。"
+        },
+        {
+          "heading": "越南出口记录",
+          "body": "Club386同日公布越南出口清单，显示自8月起已有标注“Raptor Lake Next”的CPU出货，清单包含缓存容量和时钟速度等规格，但未披露具体型号或数量。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-quietly-confirms-raptor-lake-next-cpus-through-internal-driver-publication-lga-1700-chips-also-appear-in-shipping-manifests-dating-back-to-august",
+      "published": "2026-10-26T18:50:28.000Z",
+      "score": 16.8,
+      "eventKey": "intel-raptor-lake-next-cpu-confirmation",
+      "originalTitle": "Intel quietly confirms Raptor Lake Next CPUs through internal driver publication",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/cpus/intel-quietly-confirms-raptor-lake-next-cpus-through-internal-driver-publication-lga-1700-chips-also-appear-in-shipping-manifests-dating-back-to-august",
+        "retrievedAt": "2026-10-27T02:02:33.052Z",
+        "articlePublished": "2026-10-26T18:50:28.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔通过内部驱动发布和越南出货清单确认Raptor Lake Next CPU的存在，这是新的产品确认信息。",
+        "evidence": [
+          "Intel has published an internal test driver with the \"RPL-NEXT\" label, presumably in reference to Raptor Lake Next CPUs that Tom's Hardware first reported on in June.",
+          "On the same day as the driver was uncovered, shipping manifests from Vietnam were published by Club386, showing exports of CPUs labeled \"Raptor Lake Next\" dating back to August, complete with cache and clock speed information.Get Tom's Hard"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1afd511a5de5e8",
+      "title": "英特尔Nova Lake-S 28核CPU基准测试曝光",
+      "summary": "据报道，泄露的PassMark基准测试显示，英特尔Nova Lake-S旗舰28核CPU（可能为Core Ultra 9 4970K BFC）多核得分61,509，约为AMD Ryzen 9 9950X3D的85%，单核性能超过Core Ultra 9 285K，但内存性能偏低。",
+      "points": [
+        "28核Nova Lake-S CPU多核得分最高61,509，8核版本得分23,478。若准确，28核性能约为AMD Ryzen 9 9950X3D的85%。",
+        "8核和24核版本单核得分分别达5,085和5,210，28核版本单核超过Core Ultra 9 285K，但内存性能得分仅2,523.4，远低于285K的约3,500。"
+      ],
+      "cards": [
+        {
+          "heading": "多核性能",
+          "body": "28核Nova Lake-S CPU多核得分最高61,509，8核版本得分23,478。若准确，28核性能约为AMD Ryzen 9 9950X3D的85%。"
+        },
+        {
+          "heading": "单核与内存",
+          "body": "8核和24核版本单核得分分别达5,085和5,210，28核版本单核超过Core Ultra 9 285K，但内存性能得分仅2,523.4，远低于285K的约3,500。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354143/28-core-intel-nova-lake-s-cpu-shows-promising-performance-boost-in-leaked-benchmark",
+      "published": "2026-10-26T18:11:16.000Z",
+      "score": 25.69,
+      "eventKey": "intel-nova-lake-s-28core-leaked-benchmark",
+      "originalTitle": "28-Core Intel Nova Lake-S CPU Shows Promising Performance Boost in Leaked Benchmark",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354143/28-core-intel-nova-lake-s-cpu-shows-promising-performance-boost-in-leaked-benchmark",
+        "retrievedAt": "2026-10-27T02:02:30.659Z",
+        "articlePublished": "2026-10-26T18:11:16.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "泄露的英特尔Nova Lake-S 28核CPU基准测试显示性能提升，虽非官方数据，但提供了具体性能数字和产品信息。",
+        "evidence": [
+          "A new PassMark benchmark spotted by VideoCardz now purports to show expected performance of that 28-core Nova Lake-S CPU in two separate benchmark runs.",
+          "Meanwhile, the 28-core—ostensibly the Core Ultra 9 4970K BFC—scores as high as 61,509 points in the multithreaded CPU test, and the eight-core variant, likely a Core Ultra 3 or 5 CPU, scores 23,478 points."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "dad8777768562",
+      "title": "imec研究垂直DRAM堆叠散热设计",
+      "summary": "imec研究人员发表论文，评估一种将DRAM芯片垂直旋转至GPU上方并设置冷却腔的3D内存架构，通过封装级热仿真分析堆叠高度、容量、冷却腔材料等因素对散热的影响，作为HBM-on-GPU的替代方案。",
+      "points": [
+        "imec团队提出3D体积DRAM-on-GPU集成方案，将DRAM芯片垂直堆叠在GPU上方，并在其间设置冷却腔，替代传统2.5D HBM和直接堆叠HBM-on-GPU。",
+        "封装级热仿真考察了堆叠高度、内存容量与组织、冷却腔材料、堆叠方向、塑封插入以及分布式内存控制器/片上网络层等因素。",
+        "论文题为“Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration”，2026年9月发表于arXiv，作者包括Yukai Chen、Melina Lofrano等。"
+      ],
+      "cards": [
+        {
+          "heading": "研究内容",
+          "body": "imec团队提出3D体积DRAM-on-GPU集成方案，将DRAM芯片垂直堆叠在GPU上方，并在其间设置冷却腔，替代传统2.5D HBM和直接堆叠HBM-on-GPU。"
+        },
+        {
+          "heading": "仿真参数",
+          "body": "封装级热仿真考察了堆叠高度、内存容量与组织、冷却腔材料、堆叠方向、塑封插入以及分布式内存控制器/片上网络层等因素。"
+        },
+        {
+          "heading": "论文信息",
+          "body": "论文题为“Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration”，2026年9月发表于arXiv，作者包括Yukai Chen、Melina Lofrano等。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 2,
+      "tags": [
+        "存储"
+      ],
+      "source": "Semiconductor Engineering",
+      "sourceLang": "en",
+      "url": "https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec",
+      "published": "2026-10-26T07:02:36.000Z",
+      "score": 24.84,
+      "eventKey": "imec-vertical-dram-stacking-thermal-design-paper",
+      "originalTitle": "Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)",
+      "provenance": {
+        "url": "https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec",
+        "retrievedAt": "2026-10-27T02:02:32.486Z",
+        "articlePublished": "2026-10-26T07:02:36.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "imec研究人员发表关于3D垂直DRAM堆叠热设计的论文，属于研究领域的新成果。",
+        "evidence": [
+          "Researchers at imec published “Beyond HBM-on-GPU: Thermal Design Envelope for 3D Volumetric DRAM-on-GPU Integration.” Summary: Researchers evaluated a 3D memory architecture that rotates DRAM dies vertically above a GPU and places cooling c",
+          "Package-level thermal simulations examined stack height, memory capacity and organization, cooling-cavity materials, stack orientation, mold insertion, and the addition of a distributed memory-controller/network-on-chip tier."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

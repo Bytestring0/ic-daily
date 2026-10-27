@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-10-26T01:10:09.962Z",
-  "total": 10,
+  "generatedAt": "2026-10-27T02:05:20.191Z",
+  "total": 11,
   "editions": [
+    {
+      "date": "2026-10-27",
+      "count": 16,
+      "intro": "本期共 16 条动态，其中 10 条值得重点关注，集中在市场与产业、芯片设计、晶圆代工、研究与论文方向。",
+      "top": [
+        "华尔街银团与黑石为Anthropic融资630亿美元购博通AI芯片",
+        "英特尔收购Classiq，打造全栈量子计算平台",
+        "英特尔CEO称与AMD探讨合作，14A工艺将风险试产"
+      ],
+      "categories": {
+        "market": 3,
+        "design": 5,
+        "foundry": 1,
+        "research": 2,
+        "equipment": 2,
+        "eda": 1,
+        "memory": 2
+      }
+    },
     {
       "date": "2026-10-26",
       "count": 4,
