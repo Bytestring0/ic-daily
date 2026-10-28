@@ -1,0 +1,1193 @@
+{
+  "date": "2026-10-28",
+  "generatedAt": "2026-10-28T02:12:23.671Z",
+  "intro": "本期共 21 条动态，其中 11 条值得重点关注，集中在芯片设计、晶圆代工、存储、市场与产业方向。",
+  "stats": {
+    "count": 21,
+    "sources": 10,
+    "sourcesFetched": 31,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 7,
+      "foundry": 2,
+      "memory": 5,
+      "market": 4,
+      "equipment": 1,
+      "eda": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      },
+      {
+        "source": "SemiAnalysis",
+        "error": "HTTP 403"
+      }
+    ],
+    "durationMs": 182164,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 42,
+      "readable": 39,
+      "accepted": 21,
+      "rejected": 4444,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "79fd636e340ad",
+      "title": "英伟达与甲骨文扩大合作，Vera Rubin 上云",
+      "summary": "英伟达与甲骨文宣布将 OCI Supercluster 扩展至多吉瓦规模，搭载 NVIDIA Vera Rubin NVL72 系统；同时 Vera Rubin NVL72 与 Vera CPU 已在 OCI 上正式可用。OCI 还计划推出 HGX Rubin NVL8 平台，OpenAI 已在 Abilene 使用超 10 万块 Blackwell GPU 训练 GPT-6 Astra。",
+      "points": [
+        "OCI Supercluster 将采用 Vera Rubin NVL72 系统扩展至多吉瓦规模，每机架通过 NVLink 连接 72 颗 GPU，网络可扩展至数十万 GPU，支持大规模 AI 训练与推理。",
+        "NVIDIA Vera CPU 在 OCI 正式可用，具备高单线程性能与高内存带宽，加速 AI 智能体的工具调用和代码执行，减少 GPU 空闲等待。",
+        "OCI 计划推出 HGX Rubin NVL8，配备 8 颗 Rubin GPU、两颗 64 核 Intel Xeon 6 CPU、4TB DDR5 内存和 6.4Tbps RDMA 网络，面向训练与推理。",
+        "OpenAI 已在 Abilene 的 OCI Supercluster 上使用超 10 万块 NVIDIA Blackwell GPU 训练和运行 GPT-6 Astra，并早期试用 Vera CPU 处理智能体工作负载。"
+      ],
+      "cards": [
+        {
+          "heading": "多吉瓦扩展",
+          "body": "OCI Supercluster 将采用 Vera Rubin NVL72 系统扩展至多吉瓦规模，每机架通过 NVLink 连接 72 颗 GPU，网络可扩展至数十万 GPU，支持大规模 AI 训练与推理。"
+        },
+        {
+          "heading": "Vera CPU 上云",
+          "body": "NVIDIA Vera CPU 在 OCI 正式可用，具备高单线程性能与高内存带宽，加速 AI 智能体的工具调用和代码执行，减少 GPU 空闲等待。"
+        },
+        {
+          "heading": "HGX Rubin NVL8",
+          "body": "OCI 计划推出 HGX Rubin NVL8，配备 8 颗 Rubin GPU、两颗 64 核 Intel Xeon 6 CPU、4TB DDR5 内存和 6.4Tbps RDMA 网络，面向训练与推理。"
+        },
+        {
+          "heading": "OpenAI 应用",
+          "body": "OpenAI 已在 Abilene 的 OCI Supercluster 上使用超 10 万块 NVIDIA Blackwell GPU 训练和运行 GPT-6 Astra，并早期试用 Vera CPU 处理智能体工作负载。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+      "published": "2026-10-27T16:00:00.000Z",
+      "score": 31.31,
+      "eventKey": "nvidia-oracle-vera-rubin-multigigawatt-oci-ga",
+      "originalTitle": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+      "provenance": {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+        "retrievedAt": "2026-10-28T02:10:31.923Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达与甲骨文宣布将OCI上的Vera Rubin NVL72系统扩展至多吉瓦规模，并宣布Vera Rubin NVL72和Vera CPU在OCI上正式可用，同时计划引入HGX Rubin NVL8系统。这是新的合作里程碑和产品可用性公告。",
+        "evidence": [
+          "NVIDIA Vera Rubin NVL72 and NVIDIA Vera CPUs Are Now Generally Available on OCI, With Plans to Introduce HGX Rubin NVL8 Systems to Help Organizations Accelerate Frontier Model Training, Improve Inference Efficiency and Scale Agentic Workloa",
+          "ds NVIDIA and Oracle today announced plans to expand Oracle Cloud Infrastructure (OCI) Superclusters with NVIDIA Vera Rubin NVL72 systems to multi-gigawatt scale, supporting growing customer demand for AI training, inference and agentic app",
+          "Oracle and NVIDIA also expanded their AI infrastructure collaboration with the general availability of NVIDIA Vera Rubin NVL72 and NVIDIA Vera CPUs on OCI."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/018/728.htm"
+        }
+      ]
+    },
+    {
+      "id": "1b29be6da5f7ec",
+      "title": "英飞凌在欧建首条 300mm GaN 功率半导体产线",
+      "summary": "英飞凌将在奥地利菲拉赫投资约 11 亿欧元，建设全球首条 300mm 晶圆 GaN 功率半导体高量产线，计划 2027 年底投产。欧盟已批准 3.19 亿欧元国家援助，项目获欧洲芯片法案支持。",
+      "points": [
+        "英飞凌将在菲拉赫现有洁净室投资约 11 亿欧元，利用现有设施扩建 300mm GaN 产能，计划 2027 年底开始生产。",
+        "300mm 晶圆相比 200mm 可多产 2.3 倍芯片，英飞凌两年前已实现全球首片 300mm GaN 晶圆加工，现转入高量产。",
+        "欧盟委员会已批准 3.19 亿欧元国家援助，奥地利政府将按条件提供支持，项目纳入欧洲芯片法案。",
+        "GaN 功率器件用于 AI 数据中心、能源基础设施、电动汽车、机器人和消费电子，可显著提升能效。"
+      ],
+      "cards": [
+        {
+          "heading": "投资与产能",
+          "body": "英飞凌将在菲拉赫现有洁净室投资约 11 亿欧元，利用现有设施扩建 300mm GaN 产能，计划 2027 年底开始生产。"
+        },
+        {
+          "heading": "技术优势",
+          "body": "300mm 晶圆相比 200mm 可多产 2.3 倍芯片，英飞凌两年前已实现全球首片 300mm GaN 晶圆加工，现转入高量产。"
+        },
+        {
+          "heading": "政府支持",
+          "body": "欧盟委员会已批准 3.19 亿欧元国家援助，奥地利政府将按条件提供支持，项目纳入欧洲芯片法案。"
+        },
+        {
+          "heading": "应用领域",
+          "body": "GaN 功率器件用于 AI 数据中心、能源基础设施、电动汽车、机器人和消费电子，可显著提升能效。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/infineon-271026.shtml",
+      "published": "2026-10-27T11:34:01.000Z",
+      "score": 26.57,
+      "eventKey": "infineon-1.1bn-eur-300mm-gan-fab-villach",
+      "originalTitle": "Infineon establishing first high-volume fab for GaN power semiconductors on 300mm wafers in Europe",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/infineon-271026.shtml",
+        "retrievedAt": "2026-10-28T02:10:33.796Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英飞凌宣布在奥地利菲拉赫投资约11亿欧元，建设全球首个300mm GaN功率半导体高量产工厂，计划2027年底投产，并获欧盟芯片法案3.19亿欧元国家援助。这是重要的产能建设与投资事件。",
+        "evidence": [
+          "As part of the project, the firm will invest about €1.1bn in its existing cleanroom facilities at the site in Villach, Austria by 2034.",
+          "Production is scheduled to start by the end of 2027.",
+          "The European Commission has approved the €319m in state aid."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1a45d9ff4a09b8",
+      "title": "SK海力士前三季度净利173.68万亿韩元，同比增527%",
+      "summary": "SK海力士发布2026财年前三季度业绩快报，营收236.51万亿韩元，同比增长267.7%；归母净利润173.68万亿韩元，同比增长527%。第三季度单季营收104.62万亿韩元，净利润39.53万亿韩元，均超市场预期，AI存储景气持续。",
+      "points": [
+        "2026年1-9月营收236.51万亿韩元（约1.19万亿元人民币），同比增267.7%；归母净利润173.68万亿韩元（约8,765.87亿元人民币），同比增527%；营业利润181.49万亿韩元，同比增547.3%。",
+        "Q3营收104.62万亿韩元（约5,279.94亿元人民币），同比增327.9%，环比增31.9%；归母净利润39.53万亿韩元，同比增213.9%，环比降57.9%，主因法人税费用上升。",
+        "实际营收和营业利润均超花旗预测（营收101.2万亿、营业利润81.3万亿韩元）。花旗维持买入评级，目标价300万韩元；RBC维持跑赢大市。"
+      ],
+      "cards": [
+        {
+          "heading": "前三季度业绩",
+          "body": "2026年1-9月营收236.51万亿韩元（约1.19万亿元人民币），同比增267.7%；归母净利润173.68万亿韩元（约8,765.87亿元人民币），同比增527%；营业利润181.49万亿韩元，同比增547.3%。"
+        },
+        {
+          "heading": "第三季度表现",
+          "body": "Q3营收104.62万亿韩元（约5,279.94亿元人民币），同比增327.9%，环比增31.9%；归母净利润39.53万亿韩元，同比增213.9%，环比降57.9%，主因法人税费用上升。"
+        },
+        {
+          "heading": "机构预期",
+          "body": "实际营收和营业利润均超花旗预测（营收101.2万亿、营业利润81.3万亿韩元）。花旗维持买入评级，目标价300万韩元；RBC维持跑赢大市。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/018/716.htm",
+      "published": "2026-10-27T23:32:07.000Z",
+      "score": 19.56,
+      "eventKey": "sk-hynix-2026-q3-earnings-record",
+      "originalTitle": "SK 海力士 2026 财年前三季度报归母净利润 173.68 万亿韩元，同比增长 527%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/018/716.htm",
+        "retrievedAt": "2026-10-28T02:10:38.482Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SK海力士发布2026财年前三季度及第三季度财报，营收236.51万亿韩元（同比增267.7%），归母净利润173.68万亿韩元（同比增527%），单季营收104.62万亿韩元，业绩超预期，是重要的财务数据。",
+        "evidence": [
+          "IT之家 10 月 28 日消息,SK 海力士今日发布 2026 财年(2026 年 1 月~2026 年 12 月)前三季度报(2026 年 1 月~2026 年 9 月)业绩快报及第三财季(2026 年 7 月~2026 年 9 月)业绩快报报告:2026 财年前三季度报营业总收入:236.51 万亿韩元(IT之家注:现汇率约合 1.19 万亿元人民币),同比增长 267.7%归母净利润:173.68 万亿韩元(现汇率约合 8,765.87 亿元人民币),同比增长 527",
+          "2026 财年第三季度单季:实现营收 104.62 万亿韩元(现汇率约合 5,279.94 亿元人民币),同比 327.9%,环比 31.9%;归属母公司股东净利润 39.53 万亿韩元(现汇率约合 1995.3 亿元人民币),同比 213.9%,环比 57.9%。",
+          "2026 年前三季度累计:实现营收 236.51 万亿韩元(现汇率约合 1.19 万亿元人民币),同比 267.7%;归属母公司股东净利润 173.68 万亿韩元(现汇率约合 8,765.87 亿元人民币),同比 527%;营业利润 181.49 万亿韩元(现汇率约合 9,159.63 亿元人民币),同比 547.3%。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "fce92bfb136f5",
+      "title": "寒武纪前三季净利增131%，CEO否认百万芯片预测",
+      "summary": "寒武纪发布2026年前三季度财报，归母净利润同比增长131.49%，营收翻倍以上；第三季度净利润同比增近150%。CEO否认公司曾给出百万芯片出货预测。",
+      "points": [
+        "2026年前三季度归母净利润同比增长131.49%，营收同比翻倍以上；第三季度净利润同比增近150%，显示AI芯片需求强劲。",
+        "CEO明确表示公司从未给出过100万片芯片的出货预测，强调市场传闻不实，但未透露具体出货目标。"
+      ],
+      "cards": [
+        {
+          "heading": "业绩表现",
+          "body": "2026年前三季度归母净利润同比增长131.49%，营收同比翻倍以上；第三季度净利润同比增近150%，显示AI芯片需求强劲。"
+        },
+        {
+          "heading": "CEO澄清",
+          "body": "CEO明确表示公司从未给出过100万片芯片的出货预测，强调市场传闻不实，但未透露具体出货目标。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261027PD225/cambricon-profit-revenue-2026.html",
+      "published": "2026-10-28T00:42:20.000Z",
+      "score": 28.76,
+      "eventKey": "cambricon-q3-2026-profit-revenue-growth",
+      "originalTitle": "Cambricon profit jumps 131%, CEO says firm never gave 1 million-chip forecast",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261027PD225/cambricon-profit-revenue-2026.html",
+        "retrievedAt": "2026-10-28T02:10:32.929Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "寒武纪公布2026年前三季度净利润同比增长131.49%，营收翻倍以上，第三季度净利润同比增长近150%。这是具体的财务业绩数据。",
+        "evidence": [
+          "Chinese AI chipmaker Cambricon Technologies reported a 131.49% increase in net profit attributable to shareholders for the first nine months of 2026, while revenue more than doubled.",
+          "Third-quarter net profit rose nearly 150% from a year earlier."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "126d877064d707",
+      "title": "消息称：Solidigm拟在美投450亿美元建NAND晶圆厂",
+      "summary": "据报道，SK海力士旗下NAND与SSD企业Solidigm正与美国商务部洽谈在美新建晶圆厂事宜，计划投资450亿美元，最终规模或扩至近1000亿美元。潜在选址包括纽约州等多个州，最早明年动工，但需获商务部许可。",
+      "points": [
+        "Solidigm计划投资450亿美元（约合3006.47亿元人民币）建设美国晶圆厂，并有望最终扩展至近1000亿美元。",
+        "潜在建厂地址包括纽约州在内的多个州，晶圆厂最早可能于明年动工，目前正与美国商务部洽谈。",
+        "Solidigm计划先在中国实践新技术，再转移至拟设的美国晶圆厂，但该技术转移需获得美国商务部许可。"
+      ],
+      "cards": [
+        {
+          "heading": "投资规模",
+          "body": "Solidigm计划投资450亿美元（约合3006.47亿元人民币）建设美国晶圆厂，并有望最终扩展至近1000亿美元。"
+        },
+        {
+          "heading": "选址与进度",
+          "body": "潜在建厂地址包括纽约州在内的多个州，晶圆厂最早可能于明年动工，目前正与美国商务部洽谈。"
+        },
+        {
+          "heading": "技术转移安排",
+          "body": "Solidigm计划先在中国实践新技术，再转移至拟设的美国晶圆厂，但该技术转移需获得美国商务部许可。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/018/747.htm",
+      "published": "2026-10-28T01:35:00.000Z",
+      "score": 24.9,
+      "eventKey": "solidigm-45b-us-nand-fab-plan",
+      "originalTitle": "消息称 Solidigm 计划在美斥资 450 亿美元建设 NAND 晶圆厂",
+      "provenance": {
+        "url": "https://www.ithome.com/1/018/747.htm",
+        "retrievedAt": "2026-10-28T02:10:34.634Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Solidigm计划在美国投资450亿美元建设NAND晶圆厂，这是新的重大投资建厂计划，涉及具体金额和潜在建厂地点，属于重要产业动态。",
+        "evidence": [
+          "IT之家 10 月 28 日消息,彭博社当地时间昨日报道称,SK 海力士完全控股的 NAND 与 SSD 企业 Solidigm(思得)正就在美新建晶圆厂事宜与美国商务部洽谈。",
+          "Solidigm 计划为此投资 450 亿美元(IT之家注:现汇率约合 3,006.47 亿元人民币),并最终有望扩展近 1000 亿美元。",
+          "消息人士透露,潜在的建厂地址包括纽约州在内的多个州,晶圆厂最早可能明年动工。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "d0adfe76f39ed",
+      "title": "英伟达与Meta扩大Muse模型及AI基础设施合作",
+      "summary": "英伟达与Meta宣布扩大在Muse及Muse系列模型上的合作，以提升推理与训练性能。Meta将扩大部署英伟达Vera Rubin和Vera CPU，并采用Spectrum-X以太网与BlueField-4；英伟达同时向Meta股权投资30亿美元。",
+      "points": [
+        "双方将扩大在Muse及Muse系列模型上的合作，优化推理与训练性能，并考虑在OpenShell参考架构和Sentry监控方面开展合作。",
+        "Meta将扩大部署英伟达Vera Rubin和Vera CPU，并采用Spectrum-X以太网与BlueField-4，以提升网络效率与吞吐量。",
+        "英伟达将向Meta的股权发行投资30亿美元，强化长期合作伙伴关系。"
+      ],
+      "cards": [
+        {
+          "heading": "模型合作",
+          "body": "双方将扩大在Muse及Muse系列模型上的合作，优化推理与训练性能，并考虑在OpenShell参考架构和Sentry监控方面开展合作。"
+        },
+        {
+          "heading": "基础设施部署",
+          "body": "Meta将扩大部署英伟达Vera Rubin和Vera CPU，并采用Spectrum-X以太网与BlueField-4，以提升网络效率与吞吐量。"
+        },
+        {
+          "heading": "股权投资",
+          "body": "英伟达将向Meta的股权发行投资30亿美元，强化长期合作伙伴关系。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+      "published": "2026-10-27T05:52:00.000Z",
+      "score": 24.62,
+      "eventKey": "nvidia-meta-expand-collaboration-muse-vera-rubin",
+      "originalTitle": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+      "provenance": {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+        "retrievedAt": "2026-10-28T02:10:34.786Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达与Meta扩大合作，Meta将扩展部署Vera Rubin和Vera CPU，英伟达将投资30亿美元参与Meta股权发行，这是重要的产业合作与投资事件。",
+        "evidence": [
+          "Meta intends to expand the deployment of NVIDIA infrastructure, including Vera Rubin and Vera CPUs for next-generation AI agents to deliver maximum performance per watt.",
+          "In addition, NVIDIA will invest $3 billion in Meta’s equity offering. “AI agents represent a new computing paradigm — software that understands our goals, reasons, uses tools and gets work done on our behalf,” said Jensen Huang, founder and"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1584058.htm"
+        }
+      ]
+    },
+    {
+      "id": "11f2fb05ee3b15",
+      "title": "大众集团与NXP深化合作，S32K5 MCU入选新一代汽车架构",
+      "summary": "大众集团扩大与NXP的合作，选用NXP S32K5微控制器作为下一代软件定义汽车（SDV）架构的核心组件，首款采用该架构的车型计划于2027年推出。该架构由大众与Rivian的合资公司RV Tech开发，将用于大众集团多品牌及Rivian车型。",
+      "points": [
+        "大众集团选用NXP S32K5 MCU作为区域控制器核心处理技术，用于连接传感器和执行器，处理灯光、舒适、底盘及安全等功能。中央高性能处理器负责AI自动驾驶和高级信息娱乐等负载。",
+        "新架构由RV Tech（大众与Rivian合资）开发，采用区域架构替代传统多ECU设计，减少芯片和ECU数量。首款车型计划2027年推出，将部署于大众集团各品牌和Rivian车型。",
+        "该协议支持大众的半导体战略，通过早期定义需求、跨品牌共用组件实现规模经济。NXP CEO表示将提供可扩展实时计算和边缘智能，配合大众2030目标。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "大众集团选用NXP S32K5 MCU作为区域控制器核心处理技术，用于连接传感器和执行器，处理灯光、舒适、底盘及安全等功能。中央高性能处理器负责AI自动驾驶和高级信息娱乐等负载。"
+        },
+        {
+          "heading": "架构与时间表",
+          "body": "新架构由RV Tech（大众与Rivian合资）开发，采用区域架构替代传统多ECU设计，减少芯片和ECU数量。首款车型计划2027年推出，将部署于大众集团各品牌和Rivian车型。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "该协议支持大众的半导体战略，通过早期定义需求、跨品牌共用组件实现规模经济。NXP CEO表示将提供可扩展实时计算和边缘智能，配合大众2030目标。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "eeNews Europe",
+      "sourceLang": "en",
+      "url": "https://www.eenewseurope.com/en/volkswagen-group-and-nxp-team-up-on-next-generation-vehicle-chips",
+      "published": "2026-10-27T09:30:07.000Z",
+      "score": 24.22,
+      "eventKey": "volkswagen-nxp-s32k5-sdv-partnership",
+      "originalTitle": "Volkswagen Group and NXP team up on next-generation vehicle chips",
+      "provenance": {
+        "url": "https://www.eenewseurope.com/en/volkswagen-group-and-nxp-team-up-on-next-generation-vehicle-chips",
+        "retrievedAt": "2026-10-28T02:10:35.938Z",
+        "articlePublished": "2026-10-27T09:30:07.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "大众集团与恩智浦扩大合作，选定S32K5 MCU作为下一代软件定义汽车架构核心组件，首款车型计划2027年推出。这是新的合作事件，有具体事实。",
+        "evidence": [
+          "News | October 27, 2026 By Asma Adhimi Volkswagen Group has expanded its partnership with NXP Semiconductors, selecting the chipmaker’s S32K5 microcontrollers (MCUs) as a core component of its next-generation software-defined vehicle (SDV) ",
+          "The first vehicle using the new architecture is scheduled for 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "938d550ce30b0",
+      "title": "美光G11 NAND采用晶圆对晶圆键合，2027下半年推400层",
+      "summary": "美光宣布其下一代G11 3D NAND将首次采用晶圆对晶圆混合键合堆叠技术，计划在2027年下半年推出400层NAND。G11目标将存储密度从G9的21 Gb/mm²提升至42 Gb/mm²，I/O速度从3,600 MT/s提升至5,400 MT/s。",
+      "points": [
+        "G11采用晶圆对晶圆3D堆叠，将存储单元晶圆与外围逻辑晶圆通过混合键合结合，类似长江存储Xtacking方案，以突破当前200+层G9技术的极限。",
+        "美光计划在2027年下半年出货400层NAND，距离发布不到一年，标志着3D硅片商业化加速。",
+        "G11存储密度目标42 Gb/mm²，较G9的21 Gb/mm²翻倍；I/O速度从3,600 MT/s提升至5,400 MT/s，每比特传输能耗降低25%。"
+      ],
+      "cards": [
+        {
+          "heading": "技术路线",
+          "body": "G11采用晶圆对晶圆3D堆叠，将存储单元晶圆与外围逻辑晶圆通过混合键合结合，类似长江存储Xtacking方案，以突破当前200+层G9技术的极限。"
+        },
+        {
+          "heading": "量产时间",
+          "body": "美光计划在2027年下半年出货400层NAND，距离发布不到一年，标志着3D硅片商业化加速。"
+        },
+        {
+          "heading": "性能指标",
+          "body": "G11存储密度目标42 Gb/mm²，较G9的21 Gb/mm²翻倍；I/O速度从3,600 MT/s提升至5,400 MT/s，每比特传输能耗降低25%。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354167/micron-plans-400-layer-3d-nand-with-wafer-to-wafer-bonding-in-2027",
+      "published": "2026-10-27T08:35:36.000Z",
+      "score": 24.07,
+      "eventKey": "micron-g11-400-layer-3d-nand-w2w-bonding",
+      "originalTitle": "Micron Plans 400-Layer 3D NAND with Wafer-to-Wafer Bonding in 2027",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354167/micron-plans-400-layer-3d-nand-with-wafer-to-wafer-bonding-in-2027",
+        "retrievedAt": "2026-10-28T02:10:35.357Z",
+        "articlePublished": "2026-10-27T08:35:36.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美光宣布G11 3D NAND将采用晶圆对晶圆键合技术，目标2027年下半年推出400层NAND，密度从21Gb/mm²翻倍至42Gb/mm²，I/O速度从3600 MT/s提升至5400 MT/s。这是美光NAND技术路线图的重要新里程碑。",
+        "evidence": [
+          "With G11, Micron aims to use wafer-on-wafer 3D NAND stacking to double the capacity of NAND modules.",
+          "In this way, Micron plans to ship 400-layer NAND in the second half of 2027, which is less than a year away, and we are about to see more commercialization of 3D silicon.",
+          "From 21 Gb/mm2 for G9, the G11 generation is targeting 42 Gb/mm2."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "492efc7a35a6",
+      "title": "IBM进驻千岁市支持Rapidus 2纳米量产",
+      "summary": "IBM宣布在北海道千岁市设立据点，加强与Rapidus的合作，支持其2027年实现2纳米芯片量产目标。Rapidus已获IBM 2纳米技术授权，晶圆厂建设推进中。",
+      "points": [
+        "Rapidus由丰田、索尼、软银等日本企业出资成立，获得IBM研发的2纳米制造技术授权，双方持续联合研发。IBM进驻千岁市旨在强化技术转移和人才培养。",
+        "Rapidus位于千岁市的晶圆厂已启动试生产线设备安装，计划未来数月扩大工艺验证规模，目标2027年正式量产2纳米芯片。",
+        "日本政府提供大规模财政支持，认为先进逻辑芯片关乎经济竞争力和产业安全。Rapidus直接切入2纳米节点，若成功将使日本重返先进制程阵营。"
+      ],
+      "cards": [
+        {
+          "heading": "合作背景",
+          "body": "Rapidus由丰田、索尼、软银等日本企业出资成立，获得IBM研发的2纳米制造技术授权，双方持续联合研发。IBM进驻千岁市旨在强化技术转移和人才培养。"
+        },
+        {
+          "heading": "量产进展",
+          "body": "Rapidus位于千岁市的晶圆厂已启动试生产线设备安装，计划未来数月扩大工艺验证规模，目标2027年正式量产2纳米芯片。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "日本政府提供大规模财政支持，认为先进逻辑芯片关乎经济竞争力和产业安全。Rapidus直接切入2纳米节点，若成功将使日本重返先进制程阵营。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584072.htm",
+      "published": "2026-10-27T16:20:30.000Z",
+      "score": 22.36,
+      "eventKey": "ibm-chitose-office-rapidus-2nm-support",
+      "originalTitle": "IBM进驻Rapidus所在地千岁市 助力日本冲刺2027年2纳米芯片量产目标",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584072.htm",
+        "retrievedAt": "2026-10-28T02:10:36.583Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "IBM在Rapidus所在地千岁市设立据点，是支持2nm量产的具体新动作。",
+        "evidence": [
+          "随着日本全力推进本土先进半导体产业建设,IBM宣布进一步加强与Rapidus的合作,并在北海道千岁市设立据点。",
+          "千岁市正是Rapidus首座2纳米晶圆厂所在地,日本政府希望借助这一项目在2027年实现先进2纳米芯片的大规模量产。",
+          "IBM此次进驻千岁市,被视为对Rapidus量产计划的重要支持,有助于强化技术转移、人才培养以及生产准备工作。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "39e47f36db490",
+      "title": "长鑫拒绝苹果等海外订单，优先保障国内存储需求",
+      "summary": "长鑫存储近期拒绝苹果及一家中国台湾服务器制造商的订单，因国内客户需求密集，产能全力满足本地市场。长鑫已向小米等供应LPDDR6 DRAM，但产能仍是瓶颈。",
+      "points": [
+        "长鑫存储拒绝向苹果供应内存，也未接受其压价条件；同时拒绝一家中国台湾服务器制造商的DDR5内存采购计划。",
+        "当前国内客户订单密集，长鑫产能正全力满足本地需求，已向小米等合作伙伴供应LPDDR6 DRAM，但产能仍面临瓶颈。",
+        "业内人士认为长鑫满足国内DRAM需求的目标可能持续十年，华为、小米等对三星、SK海力士的依赖将逐步降低。"
+      ],
+      "cards": [
+        {
+          "heading": "拒绝海外订单",
+          "body": "长鑫存储拒绝向苹果供应内存，也未接受其压价条件；同时拒绝一家中国台湾服务器制造商的DDR5内存采购计划。"
+        },
+        {
+          "heading": "产能优先国内",
+          "body": "当前国内客户订单密集，长鑫产能正全力满足本地需求，已向小米等合作伙伴供应LPDDR6 DRAM，但产能仍面临瓶颈。"
+        },
+        {
+          "heading": "行业影响",
+          "body": "业内人士认为长鑫满足国内DRAM需求的目标可能持续十年，华为、小米等对三星、SK海力士的依赖将逐步降低。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "雷锋网",
+      "sourceLang": "zh",
+      "url": "https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html",
+      "published": "2026-10-27T09:34:00.000Z",
+      "score": 22.24,
+      "eventKey": "cxmt-rejects-apple-overseas-orders-domestic-priority",
+      "originalTitle": "长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求；Anthropic公开上市申请，最快11月中旬上市；周畅被曝离职？接近字节人士回应",
+      "provenance": {
+        "url": "https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html",
+        "retrievedAt": "2026-10-28T02:10:38.406Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "长鑫存储拒绝苹果等海外订单、优先保障国内客户供应，是新的商业决策动态，有具体事实依据。",
+        "evidence": [
+          "Anthropic公开上市申请:半年净亏807亿美元,最快 11 月中旬上市8.起售价5499元,苹果发布新款iPad mini今日头条长鑫拒绝苹果等海外订单,优先保障国内存储芯片需求10月26日消息,据媒体报道,长鑫近期拒绝与外国客户达成交易,旨在实现中国存储行业的自给自足。",
+          "长鑫不仅拒绝向苹果提供内存供应,一家中国台湾服务器制造商也同样被拒绝。",
+          "产业链消息指出,苹果此前向长鑫存储商谈希望拿到比三星、SK海力士、美光更有价格优势的内存供应配额,但长鑫存储没有接受压价条件。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "10d2ffb0e040e3",
+      "title": "中国科技巨头与三星SK海力士签十年长约",
+      "summary": "因本土存储厂商产能和技术不足，阿里巴巴、腾讯、字节跳动等正与三星电子和SK海力士洽谈长达十年的DRAM供应协议，部分预计持续至2035年，重点采购服务器DDR和LPDDR内存。",
+      "points": [
+        "阿里巴巴、腾讯、字节跳动等正寻求与三星、SK海力士签署长达十年的供应协议，远超常见的3-5年周期，部分预计持续至2035年。",
+        "采购重点为服务器DDR内存和LPDDR内存，LPDDR因低功耗优势正越来越多用于AI服务器平台，供应形势紧张。",
+        "长鑫存储和长江存储在高性能服务器内存领域存在产品竞争力和量产能力不足，难以满足国内云计算服务商需求。"
+      ],
+      "cards": [
+        {
+          "heading": "长期协议",
+          "body": "阿里巴巴、腾讯、字节跳动等正寻求与三星、SK海力士签署长达十年的供应协议，远超常见的3-5年周期，部分预计持续至2035年。"
+        },
+        {
+          "heading": "采购重点",
+          "body": "采购重点为服务器DDR内存和LPDDR内存，LPDDR因低功耗优势正越来越多用于AI服务器平台，供应形势紧张。"
+        },
+        {
+          "heading": "本土厂商短板",
+          "body": "长鑫存储和长江存储在高性能服务器内存领域存在产品竞争力和量产能力不足，难以满足国内云计算服务商需求。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584034.htm",
+      "published": "2026-10-27T12:41:50.000Z",
+      "score": 19.76,
+      "eventKey": "china-tech-giants-10yr-dram-supply-deals-samsung-sk-hynix",
+      "originalTitle": "中国DRAM自主化进程受阻 科技巨头转向三星与SK海力士签署十年长约",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584034.htm",
+        "retrievedAt": "2026-10-28T02:10:38.605Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道中国科技巨头（阿里巴巴、腾讯、字节跳动）与三星、SK海力士签署长达十年的DRAM/LPDDR长期供应协议，这是新的供应链动态，有具体事实。",
+        "evidence": [
+          "由于本土厂商产能和技术能力暂时无法满足市场需求,包括阿里巴巴、腾讯和字节跳动在内的多家中国科技巨头正寻求与三星电子及SK海力士签署长达十年的长期供应协议,以确保未来服务器内存供应稳定。",
+          "报道称,这些长期协议的期限远超行业常见的三至五年合同周期,部分协议预计将持续至2035年。",
+          "此次采购重点主要集中在服务器DDR内存和LPDDR内存产品。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1b62c8bf21dfd6",
+      "title": "MiCo Ceramics斥资1500亿韩元收购LGD闲置工厂",
+      "summary": "韩国半导体设备零部件商MiCo Ceramics将以1500亿韩元（约1.132亿美元）收购LG Display位于龟尾的闲置工厂，用于扩大陶瓷加热器和静电吸盘等关键产品产能。",
+      "points": [
+        "收购对象为LG Display在庆尚北道龟尾的闲置土地和建筑，交易金额1500亿韩元（约1.132亿美元），预计将用于扩建半导体零部件生产线。",
+        "新工厂将用于扩大陶瓷加热器和静电吸盘（ESC）的产能，这两类产品是半导体制造设备的核心耗材。",
+        "该交易反映显示行业收缩释放的房地产资产正被半导体供应链企业收购，用于扩充产能，显示行业与半导体行业间的资源转移。"
+      ],
+      "cards": [
+        {
+          "heading": "交易详情",
+          "body": "收购对象为LG Display在庆尚北道龟尾的闲置土地和建筑，交易金额1500亿韩元（约1.132亿美元），预计将用于扩建半导体零部件生产线。"
+        },
+        {
+          "heading": "产品扩产",
+          "body": "新工厂将用于扩大陶瓷加热器和静电吸盘（ESC）的产能，这两类产品是半导体制造设备的核心耗材。"
+        },
+        {
+          "heading": "行业趋势",
+          "body": "该交易反映显示行业收缩释放的房地产资产正被半导体供应链企业收购，用于扩充产能，显示行业与半导体行业间的资源转移。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261027PD233/component-lg-display-equipment-capacity-acquisition.html",
+      "published": "2026-10-28T00:38:20.000Z",
+      "score": 28.75,
+      "eventKey": "mico-ceramics-acquires-lgd-gumi-plant",
+      "originalTitle": "MiCo Ceramics acquires idle LGD plant for KRW150 billion to boost semiconductor component capacity",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261027PD233/component-lg-display-equipment-capacity-acquisition.html",
+        "retrievedAt": "2026-10-28T02:10:32.894Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "MiCo Ceramics以1500亿韩元（约1.132亿美元）收购LG Display位于龟尾的闲置工厂，用于扩大陶瓷加热器和静电吸盘等半导体设备部件的产能。这是具体的并购交易。",
+        "evidence": [
+          "South Korean semiconductor equipment component maker MiCo Ceramics is set to acquire an idle facility in Gumi, North Gyeongsang Province, from LG Display (LGD) for KRW150 billion (approx.",
+          "US$113.2 million).",
+          "The acquisition of the land and buildings will allow MiCo Ceramics to expand production capacity for key products, including ceramic heaters and electrostatic chucks (ESCs)."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "19f97808a1eff4",
+      "title": "SemiQ发布Gen4 1200V与750V SiC MOSFET系列",
+      "summary": "SemiQ宣布推出第四代QSiC碳化硅功率器件，包括1200V和750V裸片及MOSFET。Gen4技术采用优化单元拓扑，单元间距缩小36%，比导通电阻降低23%，1200V器件导通电阻较Gen3下降21%。",
+      "points": [
+        "Gen4 1200V器件RDS(on)从14Ω降至11Ω，总开关能量从1677mJ降至1491mJ（降幅超11%），芯片尺寸保持5mm x 5mm。750V器件RDS(on)仅9mΩ，总开关能量871μJ。",
+        "Gen4 MOSFET裸片分别经过超过1400V和800V的晶圆级栅氧老化筛选，两款器件均通过800mJ雪崩测试。",
+        "器件提供4引脚TO-247-4L封装和裸片形式，面向EV充电基础设施、高压DC/DC和DC/AC转换器、太阳能逆变器、SMPS、UPS、感应加热、焊接及电机驱动。",
+        "新产品在2026年慕尼黑electronica展会（11月10-13日）Alfatec展位#A6.620展出。SemiQ总裁Timothy Han表示器件旨在提升功率密度和效率。"
+      ],
+      "cards": [
+        {
+          "heading": "性能提升",
+          "body": "Gen4 1200V器件RDS(on)从14Ω降至11Ω，总开关能量从1677mJ降至1491mJ（降幅超11%），芯片尺寸保持5mm x 5mm。750V器件RDS(on)仅9mΩ，总开关能量871μJ。"
+        },
+        {
+          "heading": "可靠性测试",
+          "body": "Gen4 MOSFET裸片分别经过超过1400V和800V的晶圆级栅氧老化筛选，两款器件均通过800mJ雪崩测试。"
+        },
+        {
+          "heading": "封装与目标应用",
+          "body": "器件提供4引脚TO-247-4L封装和裸片形式，面向EV充电基础设施、高压DC/DC和DC/AC转换器、太阳能逆变器、SMPS、UPS、感应加热、焊接及电机驱动。"
+        },
+        {
+          "heading": "展示与供货",
+          "body": "新产品在2026年慕尼黑electronica展会（11月10-13日）Alfatec展位#A6.620展出。SemiQ总裁Timothy Han表示器件旨在提升功率密度和效率。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/semiq-271026.shtml",
+      "published": "2026-10-27T20:56:04.000Z",
+      "score": 28.13,
+      "eventKey": "semiq-gen4-sic-mosfet-family-launch",
+      "originalTitle": "SemiQ makes available Gen4 1200V and 750V SiC MOSFETs",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/semiq-271026.shtml",
+        "retrievedAt": "2026-10-28T02:10:33.528Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SemiQ发布第四代1200V和750V SiC MOSFET产品系列，包含具体参数改进（导通电阻降低23%、开关能量降低11%）和新750V产品，属于有具体新事实的常规产品发布。",
+        "evidence": [
+          "ial wafers for high-voltage applications — has announced the availability of its fourth-generation QSiC silicon carbide power devices, launching a family of 1200V and 750V SiC bare dies and MOSFETs.",
+          "SemiQ Gen4 technology incorporates an optimized cell topology, featuring a 36% reduction in cell pitch, along with optimized JFET and P-well implantation.",
+          "These design improvements enable a 23% reduction in specific on-resistance (Ron(sp)) versus previous generations, and have a higher current capability, reduced conduction losses, improved power density and increased overall system efficienc"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "145d45f49e641a",
+      "title": "S2C展示RISC-V原型验证与AI调试方案",
+      "summary": "S2C在第六届RISC-V中国峰会上演示了FPGA原型验证和AI辅助调试流程，包括基于Andes AX66的RISC-V配置在Prodigy S8-100上运行Linux KVM，以及利用RCF Agent自动化RTL编译分析。这些方案旨在加速RISC-V芯片的bring-up和软件验证。",
+      "points": [
+        "S2C演示了基于Andes AX66的RISC-V配置，在Prodigy S8-100系统上运行Linux KVM，使用AMD Versal Premium VP1902 FPGA，资源占用55%，支持多核64位RISC-V原型验证和边缘AI推理负载评估。",
+        "S2C展示了RCF Agent，使用开源香山处理器RTL，自动执行编译、收集错误并生成初步分析，减少工程师重复工作。另在论坛上提出LLM辅助虚拟平台调试流程，支持断点、跟踪和状态保存，帮助团队协作定位复杂故障。"
+      ],
+      "cards": [
+        {
+          "heading": "FPGA原型演示",
+          "body": "S2C演示了基于Andes AX66的RISC-V配置，在Prodigy S8-100系统上运行Linux KVM，使用AMD Versal Premium VP1902 FPGA，资源占用55%，支持多核64位RISC-V原型验证和边缘AI推理负载评估。"
+        },
+        {
+          "heading": "AI辅助调试",
+          "body": "S2C展示了RCF Agent，使用开源香山处理器RTL，自动执行编译、收集错误并生成初步分析，减少工程师重复工作。另在论坛上提出LLM辅助虚拟平台调试流程，支持断点、跟踪和状态保存，帮助团队协作定位复杂故障。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "SemiWiki",
+      "sourceLang": "en",
+      "url": "https://semiwiki.com/prototyping/s2c-eda/375383-s2c-showcases-ai-assisted-risc-v-verification-and-fpga-prototyping-at-risc-v-summit-china",
+      "published": "2026-10-27T13:00:09.000Z",
+      "score": 25.81,
+      "eventKey": "s2c-risc-v-fpga-prototyping-ai-demo",
+      "originalTitle": "S2C Targets Faster RISC-V Bring-Up With Prototyping and AI",
+      "provenance": {
+        "url": "https://semiwiki.com/prototyping/s2c-eda/375383-s2c-showcases-ai-assisted-risc-v-verification-and-fpga-prototyping-at-risc-v-summit-china",
+        "retrievedAt": "2026-10-28T02:10:35.259Z",
+        "articlePublished": "2026-10-27T13:00:09.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "S2C在第六届RISC-V中国峰会上展示基于Andes AX66的FPGA原型验证系统，运行Linux KVM，并演示AI辅助调试工具RCF Agent。这是具体的EDA/原型验证工具动态。",
+        "evidence": [
+          "At its booth, S2C demonstrated an Andes Technology AX66-based RISC-V configuration running Linux KVM on its Prodigy S8-100 FPGA prototyping system.",
+          "S2C also demonstrated RCF Agent using RTL from the open-source XiangShan RISC-V processor."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1649aa1970fa60",
+      "title": "Intel 展示 Crescent Island GPU 裸片：32 个 Xe3P 核心",
+      "summary": "Intel 官网公布 D 系列推理显卡 D270 的 GPU 裸片照片，确认其采用 Xe3P 架构，配备 32 个 Xe3P 核心、256 个 XMX 引擎和 32 MB 统一 L2 缓存。该芯片专为 AI 推理设计，支持 FP4/FP8 格式，功耗 350 W，采用风冷 PCIe 5.0 x16 接口。",
+      "points": [
+        "D270 GPU 配备 32 个 Xe3P 核心、256 个 XMX 引擎、256 个向量引擎，以及 32 MB 统一 L2 缓存。每个核心拥有 1 MB 寄存器文件和 512 KB L1 缓存。",
+        "XMX 引擎从 Xe3 的四级脉动阵列改为 16 级深度处理，支持 FP4 和 FP8 数据格式。芯片不含图形处理单元，纯为 AI 推理设计，并集成 4 个编码器和 4 个解码器以支持多模态任务。",
+        "该加速器为 350 W 风冷 PCIe 5.0 x16 卡，适配标准服务器机架，无需液冷。Intel 针对长上下文（100K）和智能体任务优化，但实际性能尚未公布。"
+      ],
+      "cards": [
+        {
+          "heading": "核心规格",
+          "body": "D270 GPU 配备 32 个 Xe3P 核心、256 个 XMX 引擎、256 个向量引擎，以及 32 MB 统一 L2 缓存。每个核心拥有 1 MB 寄存器文件和 512 KB L1 缓存。"
+        },
+        {
+          "heading": "架构改进",
+          "body": "XMX 引擎从 Xe3 的四级脉动阵列改为 16 级深度处理，支持 FP4 和 FP8 数据格式。芯片不含图形处理单元，纯为 AI 推理设计，并集成 4 个编码器和 4 个解码器以支持多模态任务。"
+        },
+        {
+          "heading": "产品定位",
+          "body": "该加速器为 350 W 风冷 PCIe 5.0 x16 卡，适配标准服务器机架，无需液冷。Intel 针对长上下文（100K）和智能体任务优化，但实际性能尚未公布。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354171/intel-crescent-island-gpu-die-shows-up-32-xe3p-cores-and-256-xmx-engines",
+      "published": "2026-10-27T12:15:09.000Z",
+      "score": 24.68,
+      "eventKey": "intel-crescent-island-gpu-die-specs",
+      "originalTitle": "Intel \"Crescent Island\" GPU Die Shows Up: 32 Xe3P Cores and 256 XMX Engines",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354171/intel-crescent-island-gpu-die-shows-up-32-xe3p-cores-and-256-xmx-engines",
+        "retrievedAt": "2026-10-28T02:10:34.731Z",
+        "articlePublished": "2026-10-27T12:15:09.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔Crescent Island GPU裸片信息曝光，包含32个Xe3P核心、256个XMX引擎等具体规格参数，属于有具体新事实的芯片设计动态。",
+        "evidence": [
+          "The D270 GPU SKU features 32 Xe3P cores, 256 XMX engines, and 32 MB of unified L2 cache.",
+          "The XMX engines have been redesigned from the four-deep systolic design of the regular Xe3 to 16-deep processing on the Xe3P.",
+          "Additional details include support for the FP4 data format alongside FP8, as well as large register files of 1 MB per core and an L1 cache of 512 KB per core."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "199af49bf4e54a",
+      "title": "晶圆厂设备市场2025年达1290亿美元，供应链碎片化加剧",
+      "summary": "Yole Group报告显示，2025年晶圆厂设备（WFE）收入达1290亿美元，预计2031年接近2200亿美元，年复合增长率9%。市场增长由先进逻辑、DRAM/HBM、NAND和先进封装驱动，但供应链按总部、出货地和制造地呈现明显分化。",
+      "points": [
+        "2025年WFE收入1290亿美元，预计2031年达2200亿美元（CAGR 9%）。增长动力来自先进逻辑、DRAM/HBM、NAND和先进封装的设备强度提升，尽管终端需求不均衡。",
+        "北美总部供应商占收入约40%，而中国、台湾、韩国占出货量多数。前五大厂商（ASML、应用材料、Lam Research、东京电子、KLA）合计占约70%收入，各细分领域领导地位集中。",
+        "中国国内自给率2025年达17%，较2021年提升11个百分点。本地化最强领域为减薄和CMP，最弱为光刻和量测。近期并购如应用材料入股Besi，聚焦特定能力而非规模扩张。"
+      ],
+      "cards": [
+        {
+          "heading": "市场规模",
+          "body": "2025年WFE收入1290亿美元，预计2031年达2200亿美元（CAGR 9%）。增长动力来自先进逻辑、DRAM/HBM、NAND和先进封装的设备强度提升，尽管终端需求不均衡。"
+        },
+        {
+          "heading": "供应商格局",
+          "body": "北美总部供应商占收入约40%，而中国、台湾、韩国占出货量多数。前五大厂商（ASML、应用材料、Lam Research、东京电子、KLA）合计占约70%收入，各细分领域领导地位集中。"
+        },
+        {
+          "heading": "中国本地化",
+          "body": "中国国内自给率2025年达17%，较2021年提升11个百分点。本地化最强领域为减薄和CMP，最弱为光刻和量测。近期并购如应用材料入股Besi，聚焦特定能力而非规模扩张。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/wafer-fab-equipment-a-booming-market-built-on-a-fragmenting-supply-chain",
+      "published": "2026-10-27T14:29:24.000Z",
+      "score": 24.06,
+      "eventKey": "yole-wfe-market-129b-2025-220b-2031-forecast",
+      "originalTitle": "Wafer Fab Equipment: A Booming Market Built on a Fragmenting Supply Chain",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/wafer-fab-equipment-a-booming-market-built-on-a-fragmenting-supply-chain",
+        "retrievedAt": "2026-10-28T02:10:36.805Z",
+        "articlePublished": "2026-10-27T14:29:24.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Yole Group发布晶圆厂设备行业报告，2025年WFE收入达1290亿美元，预计2031年接近2200亿美元，年复合增长率9%；前五大厂商占约70%收入；中国本土化率2025年达17%。报告包含具体市场数据和趋势。",
+        "evidence": [
+          "By Clara Grcevic, Market & Technology Analyst, Semiconductor Equipment YOLE GROUP Wafer fab equipment revenue reached $129 billion in 2025 and is forecast to approach $220 billion by 2031, a 9% CAGR, according to Yole Group’s Status of the ",
+          "The top five vendors, ASML, Applied Materials, Lam Research, Tokyo Electron and KLA, accounted for roughly 70% of revenue, and leadership remains concentrated by process segment.",
+          "China’s domestic capture rate reached 17% in 2025, up 11 percentage points since 2021, with localization strongest in thinning and CMP and weakest in lithography and metrology."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "92c62cab51b39",
+      "title": "英伟达参投印度AI软件商Simplismart B轮融资",
+      "summary": "英伟达参与印度初创公司Simplismart的1400万美元B轮融资，该公司开发优化AI模型运行效率的软件，帮助企业减少GPU使用量。交易后Simplismart估值约1亿美元，资金将用于拓展美国市场。",
+      "points": [
+        "B轮融资1400万美元，由Dallas Venture Capital领投，英伟达、Accel、Shastra VC和Micromax参投。交易后公司估值约1亿美元，成立仅四年。",
+        "Simplismart软件位于AI模型与计算基础设施之间，自动调整模型部署和管理方式，优化响应速度、请求处理量和资源消耗，支持自有平台、客户云或本地部署。",
+        "帮助AI视频平台InVideo降低GPU服务成本56%，与HeyGen、Higgsfield、Ema及印度云服务商Yotta合作。过去六个月年化收入运行率增长14倍，达八位数规模。",
+        "英伟达与Simplismart进行技术集成，围绕Dynamo推理软件整合，并帮助对接潜在客户。英伟达认为提高推理效率可提升硬件吸引力，扩大整体市场需求。"
+      ],
+      "cards": [
+        {
+          "heading": "融资详情",
+          "body": "B轮融资1400万美元，由Dallas Venture Capital领投，英伟达、Accel、Shastra VC和Micromax参投。交易后公司估值约1亿美元，成立仅四年。"
+        },
+        {
+          "heading": "软件功能",
+          "body": "Simplismart软件位于AI模型与计算基础设施之间，自动调整模型部署和管理方式，优化响应速度、请求处理量和资源消耗，支持自有平台、客户云或本地部署。"
+        },
+        {
+          "heading": "客户成效",
+          "body": "帮助AI视频平台InVideo降低GPU服务成本56%，与HeyGen、Higgsfield、Ema及印度云服务商Yotta合作。过去六个月年化收入运行率增长14倍，达八位数规模。"
+        },
+        {
+          "heading": "英伟达合作",
+          "body": "英伟达与Simplismart进行技术集成，围绕Dynamo推理软件整合，并帮助对接潜在客户。英伟达认为提高推理效率可提升硬件吸引力，扩大整体市场需求。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/018/726.htm",
+      "published": "2026-10-28T00:09:31.000Z",
+      "score": 22.67,
+      "eventKey": "nvidia-invests-simplismart-14m-series-b",
+      "originalTitle": "英伟达投资印度初创公司 Simplismart，助力企业用更少 GPU 运行 AI 模型",
+      "provenance": {
+        "url": "https://www.ithome.com/1/018/726.htm",
+        "retrievedAt": "2026-10-28T02:10:35.858Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达参与印度AI推理软件初创公司Simplismart 1400万美元B轮融资，是具体的投资事件。",
+        "evidence": [
+          "IT之家 10 月 28 日消息,随着人工智能热潮持续挤占计算资源,英伟达(Nvidia)参与了印度初创公司 Simplismart 的 1,400 万美元(IT之家注:现汇率约合 9,357.3 万元人民币)融资。",
+          "除英伟达外,Accel、Shastra VC 和 Micromax 也参与了投资,达拉斯风险投资公司(Dallas Venture Capital)领投。",
+          "交易完成后,这家成立仅四年的初创公司估值约为 1 亿美元(现汇率约合 6.68 亿元人民币),其中包含本轮融资资金。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1084b619669df8",
+      "title": "Anduril与高通合作推美国制造加固笔记本",
+      "summary": "Anduril与高通联合推出BlueChip加固型笔记本电脑，面向军方和政府客户，采用高通Snapdragon X系列芯片并在台积电亚利桑那工厂生产。产品预计2027年开放预订，约90%零部件来自美国及盟友，目标实现100%美国制造。",
+      "points": [
+        "BlueChip为加固型笔记本电脑，面向军方、政府、急救和执法机构，具备防雨防尘能力，重量较大且续航妥协。基于Arm架构，兼容Windows、部分Linux发行版及老旧系统。",
+        "目前物料清单约90%来自美国及盟友，已制定路线图逐步实现100%美国本土供应链。显示面板仍依赖中国生产，但已找到美国供应商提供保护玻璃。",
+        "预计2027年开放预订，具体规格未定。售价未公布，预计比传统高端PC高约20%。Anduril考虑建立消费者候补名单，但主要市场为美国政府采购。"
+      ],
+      "cards": [
+        {
+          "heading": "产品定位",
+          "body": "BlueChip为加固型笔记本电脑，面向军方、政府、急救和执法机构，具备防雨防尘能力，重量较大且续航妥协。基于Arm架构，兼容Windows、部分Linux发行版及老旧系统。"
+        },
+        {
+          "heading": "供应链计划",
+          "body": "目前物料清单约90%来自美国及盟友，已制定路线图逐步实现100%美国本土供应链。显示面板仍依赖中国生产，但已找到美国供应商提供保护玻璃。"
+        },
+        {
+          "heading": "时间与价格",
+          "body": "预计2027年开放预订，具体规格未定。售价未公布，预计比传统高端PC高约20%。Anduril考虑建立消费者候补名单，但主要市场为美国政府采购。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584050.htm",
+      "published": "2026-10-27T14:13:58.000Z",
+      "score": 17.01,
+      "eventKey": "anduril-qualcomm-bluechip-laptop-announcement",
+      "originalTitle": "Anduril与高通联合推出BlueChip笔记本 目标实现100%美国制造",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584050.htm",
+        "retrievedAt": "2026-10-28T02:10:38.845Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Anduril与高通联合推出BlueChip加固型笔记本，采用高通Snapdragon X系列芯片，由台积电亚利桑那工厂生产，目标100%美国制造，是新的产品发布和供应链动态。",
+        "evidence": [
+          "根据双方公布的信息,BlueChip预计于2027年开放预订。",
+          "其中最受关注的是处理器部分,该产品将采用高通Snapdragon X系列芯片,并在台积电位于美国亚利桑那州的新工厂生产。",
+          "Luckey透露,目前BlueChip的物料清单中约90%的组成部分已经实现来自美国及盟友国家,并且公司已经制定技术路线图,计划逐步实现100%美国本土供应链。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1106dc2a153f9a",
+      "title": "EPC推出两款100V GaN电机驱动评估板",
+      "summary": "EPC发布EPC91124和EPC91125两款100V三相无刷直流电机驱动评估板，基于增强型GaN FET技术，支持18V至80V工作电压和最高100kHz PWM开关频率，面向工业自动化、协作机器人等应用。",
+      "points": [
+        "EPC91124采用EPC2361 FET（典型RDS(on) 0.75mΩ），支持35ARMS连续和45ARMS峰值相电流；EPC91125采用EPC2367 FET（1.2mΩ），支持30ARMS连续和40ARMS峰值。两款板卡尺寸均为79mm x 80mm。",
+        "评估板集成栅极驱动、三相电流检测、相电压和直流母线电压监测、辅助电源、温度监测及编码器/霍尔传感器接口，兼容Microchip dsPIC、TI C2000、ST STM32和Renesas RAxT2控制器。",
+        "相比传统硅基驱动约20kHz开关频率，GaN平台可高效运行至100kHz，降低电流纹波、噪声和无源元件尺寸，提升动态响应和功率密度。板卡控制dv/dt约10V/ns以平衡EMC。",
+        "EPC91124定价$690，EPC91125定价$680，设计文件（原理图、BOM、Gerber）可下载，参考设计板和器件通过Digi-Key和Mouser立即供货。"
+      ],
+      "cards": [
+        {
+          "heading": "板卡配置",
+          "body": "EPC91124采用EPC2361 FET（典型RDS(on) 0.75mΩ），支持35ARMS连续和45ARMS峰值相电流；EPC91125采用EPC2367 FET（1.2mΩ），支持30ARMS连续和40ARMS峰值。两款板卡尺寸均为79mm x 80mm。"
+        },
+        {
+          "heading": "集成特性",
+          "body": "评估板集成栅极驱动、三相电流检测、相电压和直流母线电压监测、辅助电源、温度监测及编码器/霍尔传感器接口，兼容Microchip dsPIC、TI C2000、ST STM32和Renesas RAxT2控制器。"
+        },
+        {
+          "heading": "高频优势",
+          "body": "相比传统硅基驱动约20kHz开关频率，GaN平台可高效运行至100kHz，降低电流纹波、噪声和无源元件尺寸，提升动态响应和功率密度。板卡控制dv/dt约10V/ns以平衡EMC。"
+        },
+        {
+          "heading": "价格与供货",
+          "body": "EPC91124定价$690，EPC91125定价$680，设计文件（原理图、BOM、Gerber）可下载，参考设计板和器件通过Digi-Key和Mouser立即供货。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://semiconductor-today.com/news_items/2026/oct/epc-271026.shtml",
+      "published": "2026-10-27T20:46:42.000Z",
+      "score": 28.1,
+      "eventKey": "epc-gan-motor-drive-eval-platforms-launch",
+      "originalTitle": "EPC adds two three-phase inverter evaluation platforms to 100V GaN motor drive portfolio",
+      "provenance": {
+        "url": "https://semiconductor-today.com/news_items/2026/oct/epc-271026.shtml",
+        "retrievedAt": "2026-10-28T02:10:33.681Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "EPC推出两款100V GaN三相逆变器评估平台EPC91124和EPC91125，支持最高100kHz开关频率，属于有具体新事实的常规产品发布。",
+        "evidence": [
+          "ilicon (eGaN) power field-effect transistors (FETs) and integrated circuits for power management applications — has announced the availability of the EPC91124 and EPC91125, two new 100V three-phase brushless DC (BLDC) motor drive evaluation",
+          "Based on EPC’s latest enhancement-mode GaN FET technology, the new platforms enable designers to evaluate high-frequency motor drive architectures with operating voltages from 18V to 80V and PWM switching frequencies up to 100kHz (150kHz ma",
+          "The EPC91124 features the EPC2361 100V eGaN FET with a typical RDS(on) of 0.75mΩ, delivering up to 35ARMS continuous phase current and 45ARMS peak."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "19906b7066886e",
+      "title": "Zotac日本补货RTX 5090 Solid OC，停售传闻存疑",
+      "summary": "在NVIDIA RTX 5090停产传闻中，Zotac日本官方商店上架RTX 5090 Solid OC显卡，售价1,190,000日元。此前有报道称OEM已无法向NVIDIA订购GPU或显存，但此次补货显示供应情况可能因地区或AIB分配而异。",
+      "points": [
+        "Zotac日本官方商店上架RTX 5090 Solid OC，售价1,190,000日元（约7,558美元），由知名爆料者@momomo_us发现。目前显示有货，但未来供应不确定。",
+        "此前有报道称OEM已无法从NVIDIA订购RTX 5090 GPU或显存，引发停产猜测。Zotac的补货可能表明供应限制源于区域或AIB分配，而非全面停产。"
+      ],
+      "cards": [
+        {
+          "heading": "补货详情",
+          "body": "Zotac日本官方商店上架RTX 5090 Solid OC，售价1,190,000日元（约7,558美元），由知名爆料者@momomo_us发现。目前显示有货，但未来供应不确定。"
+        },
+        {
+          "heading": "停产传闻背景",
+          "body": "此前有报道称OEM已无法从NVIDIA订购RTX 5090 GPU或显存，引发停产猜测。Zotac的补货可能表明供应限制源于区域或AIB分配，而非全面停产。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354199/zotac-restocks-nvidia-geforce-rtx-5090-solid-oc-in-japan-amid-reports-of-gpus-eol-status",
+      "published": "2026-10-27T23:09:21.000Z",
+      "score": 26.5,
+      "eventKey": "zotac-rtx5090-solid-oc-japan-restock",
+      "originalTitle": "Zotac Restocks NVIDIA GeForce RTX 5090 Solid OC in Japan Amid Reports of GPU's EOL Status",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354199/zotac-restocks-nvidia-geforce-rtx-5090-solid-oc-in-japan-amid-reports-of-gpus-eol-status",
+        "retrievedAt": "2026-10-28T02:10:34.025Z",
+        "articlePublished": "2026-10-27T23:09:21.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "在RTX 5090停产传闻背景下，Zotac在日本官方商店补货RTX 5090 Solid OC，售价约119万日元。这是对传闻的补充事实，属于显卡供应链动态，但事件本身与历史中的停产传闻不同，是新进展。",
+        "evidence": [
+          "The latest in the saga of the NVIDIA GeForce RTX 5090 discontinuation rumors is that OEMs are no longer able to order GPUs or VRAM for the 5090 from NVIDIA, however it seems as though Zotac is undeterred, having just published a restock of ",
+          "While the GPU appears to be in stock, and selling for as much as 1,190,000 JPY (~$7 558,17 converted), there's no telling if this will remain the case for the foreseeable future."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "759f849c2b6d4",
+      "title": "ChipAgents 扩展 AI 平台至模拟芯片设计",
+      "summary": "ChipAgents 宣布将其智能体 AI 平台 IC-Star 扩展至数字和模拟半导体工程，旨在通过统一系统协调设计流程。公司称已有超过 200 家企业部署，并引用 Andes Technology 和 eMemory 等客户案例，但数据未经独立验证。",
+      "points": [
+        "IC-Star 引擎结合组织设计知识、智能体编排、动态 AI 模型选择和物理感知智能。其持久知识组件存储设计上下文和计划，推理核心协调工具执行，模型导航器按质量、速度和成本选择 AI 模型。",
+        "数字能力涵盖规格分析、架构探索、RTL 设计、验证、调试和覆盖率收敛；模拟能力包括拓扑设计、仿真、版图生成和物理验证。",
+        "Andes Technology 将处理器验证周期从 2-3 个月缩短至约 3 周，定制项目工作量减少 30%；eMemory 报告数据手册分析和验证测试台构建工作量减少约 80%，测试模式增加 18%，功能覆盖率提升 5%。"
+      ],
+      "cards": [
+        {
+          "heading": "平台架构",
+          "body": "IC-Star 引擎结合组织设计知识、智能体编排、动态 AI 模型选择和物理感知智能。其持久知识组件存储设计上下文和计划，推理核心协调工具执行，模型导航器按质量、速度和成本选择 AI 模型。"
+        },
+        {
+          "heading": "覆盖范围",
+          "body": "数字能力涵盖规格分析、架构探索、RTL 设计、验证、调试和覆盖率收敛；模拟能力包括拓扑设计、仿真、版图生成和物理验证。"
+        },
+        {
+          "heading": "客户案例",
+          "body": "Andes Technology 将处理器验证周期从 2-3 个月缩短至约 3 周，定制项目工作量减少 30%；eMemory 报告数据手册分析和验证测试台构建工作量减少约 80%，测试模式增加 18%，功能覆盖率提升 5%。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "SemiWiki",
+      "sourceLang": "en",
+      "url": "https://semiwiki.com/eda/chipagents-ai/375026-chipagents-expands-ai-across-chip-design-the-test-is-faster-verified-results",
+      "published": "2026-10-27T17:00:45.000Z",
+      "score": 24.48,
+      "eventKey": "chipagents-ic-star-analog-expansion",
+      "originalTitle": "ChipAgents Expands AI Across Chip Design. The Test Is Faster, Verified Results",
+      "provenance": {
+        "url": "https://semiwiki.com/eda/chipagents-ai/375026-chipagents-expands-ai-across-chip-design-the-test-is-faster-verified-results",
+        "retrievedAt": "2026-10-28T02:10:35.698Z",
+        "articlePublished": "2026-10-27T17:00:45.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "ChipAgents扩展AI芯片设计平台至模拟领域，并披露超过200家企业部署及客户成果数据，属于EDA领域有具体新事实的常规动态。",
+        "evidence": [
+          "Key takeaways ▼ ChipAgents is expanding its agentic AI platform across digital and analog semiconductor engineering, aiming to connect fragmented design workflows through a common system that can plan tasks, operate engineering tools and ev",
+          "The company reports more than 200 semiconductor enterprise deployments and cites several customer outcomes.",
+          "Andes Technology shortened one processor-verification workflow from two to three months to approximately three weeks and reduced a processor customization project by 30%. eMemory reported approximately 80% less engineering effort for datash"
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
