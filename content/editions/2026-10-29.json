@@ -1,0 +1,559 @@
+{
+  "date": "2026-10-29",
+  "generatedAt": "2026-10-29T02:25:57.595Z",
+  "intro": "本期共 10 条动态，其中 5 条值得重点关注，集中在芯片设计、存储方向。",
+  "stats": {
+    "count": 10,
+    "sources": 7,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 5,
+      "memory": 2,
+      "policy": 2,
+      "eda": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 155892,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 26,
+      "readable": 25,
+      "accepted": 10,
+      "rejected": 4450,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "f1c23a0cbf177",
+      "title": "消息称：安森美洽谈近10亿美元收购Ferric",
+      "summary": "据报道，据The Information 10月27日报道，安森美正洽谈收购纽约AI芯片集成电压调节器厂商Ferric，交易金额接近10亿美元。消息援引知情人士说法，交易尚未最终确认。",
+      "points": [
+        "Ferric位于纽约，专注为AI芯片制造集成电压调节器，该技术对高性能计算供电至关重要。",
+        "交易金额接近10亿美元，目前处于洽谈阶段，尚未达成最终协议。",
+        "The Information于10月27日援引知情人士报道，安森美未公开回应。"
+      ],
+      "cards": [
+        {
+          "heading": "收购标的",
+          "body": "Ferric位于纽约，专注为AI芯片制造集成电压调节器，该技术对高性能计算供电至关重要。"
+        },
+        {
+          "heading": "交易规模",
+          "body": "交易金额接近10亿美元，目前处于洽谈阶段，尚未达成最终协议。"
+        },
+        {
+          "heading": "消息来源",
+          "body": "The Information于10月27日援引知情人士报道，安森美未公开回应。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261028VL219/onsemi-startup-acquisition-chips-performance.html",
+      "published": "2026-10-28T23:53:42.000Z",
+      "score": 28.58,
+      "eventKey": "onsemi-ferric-acquisition-talks",
+      "originalTitle": "Onsemi reportedly in talks to buy AI power-chip startup Ferric for close to US$1 billion",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261028VL219/onsemi-startup-acquisition-chips-performance.html",
+        "retrievedAt": "2026-10-29T02:24:35.308Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Onsemi拟以近10亿美元收购AI电源芯片初创公司Ferric，属于具体的并购投融资新事实。",
+        "evidence": [
+          "Onsemi has been discussing an acquisition of Ferric, a New York-based maker of integrated voltage regulators for AI chips, for close to US$1 billion, The Information reported on October 27, citing people familiar with the matter."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "dbf3754888e81",
+      "title": "长鑫存储HBM3E预计年底量产，良率仍低",
+      "summary": "据路透社报道，长鑫存储（CXMT）将在未来两个月内启动HBM3E内存量产，即年底前开始。该公司8月已进入风险生产，但良率问题依旧，前段制程良率约30%，后段叠加后更低，性能接近SK海力士上代HBM3。",
+      "points": [
+        "CXMT预计在未来两个月内开始HBM3E量产，即2026年底前正式启动。8月已开始风险生产，但良率问题持续，目前仍处于改善阶段。",
+        "前段制程良率约30%，后段处理在原始30%基础上再叠加约70%损耗。CXMT每层仅用约3000个TSV，远低于SK海力士HBM3的8000多个，导致性能接近上代HBM3而非HBM3E。",
+        "CXMT已向客户提供两种HBM3E版本：标准版和改进版，后者旨在提升良率，目前良率仅约20%。尽管良率低，但国内芯片厂商急需HBM，公司将继续优化产线。"
+      ],
+      "cards": [
+        {
+          "heading": "量产时间表",
+          "body": "CXMT预计在未来两个月内开始HBM3E量产，即2026年底前正式启动。8月已开始风险生产，但良率问题持续，目前仍处于改善阶段。"
+        },
+        {
+          "heading": "良率与TSV挑战",
+          "body": "前段制程良率约30%，后段处理在原始30%基础上再叠加约70%损耗。CXMT每层仅用约3000个TSV，远低于SK海力士HBM3的8000多个，导致性能接近上代HBM3而非HBM3E。"
+        },
+        {
+          "heading": "客户与产品",
+          "body": "CXMT已向客户提供两种HBM3E版本：标准版和改进版，后者旨在提升良率，目前良率仅约20%。尽管良率低，但国内芯片厂商急需HBM，公司将继续优化产线。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354226/cxmt-to-start-hbm3e-mass-production-by-the-end-of-2026",
+      "published": "2026-10-28T16:23:01.000Z",
+      "score": 25.33,
+      "eventKey": "cxmt-hbm3e-mass-production-end-2026",
+      "originalTitle": "CXMT to Start HBM3E Mass Production by the End of 2026",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354226/cxmt-to-start-hbm3e-mass-production-by-the-end-of-2026",
+        "retrievedAt": "2026-10-29T02:24:35.505Z",
+        "articlePublished": "2026-10-28T16:23:01.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "路透社独家报道长鑫存储预计年底前开始HBM3E量产，并披露良率、TSV数量等关键细节，是重要进展。",
+        "evidence": [
+          "According to an exclusive report from Reuters, this mass production is anticipated to begin within the next two months, meaning CXMT will officially start by the end of the year.",
+          "Back in August, CXMT began risk production of HBM3E memory.",
+          "In front-end manufacturing, CXMT achieves around 30% yields, while back-end processing adds about 70% on top of the original 30%."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1584232.htm"
+        }
+      ]
+    },
+    {
+      "id": "12957e36681d16",
+      "title": "SK海力士称客户HBM需求超供应两倍",
+      "summary": "SK海力士表示，客户对高带宽内存（HBM）的需求量是其当前供应能力的两倍以上，内存堆叠层数减少的趋势反映供应短缺而非需求疲软。",
+      "points": [
+        "SK海力士透露客户寻求的HBM数量超过其当前供应能力的两倍，显示市场供不应求局面持续。",
+        "内存堆叠层数向更短方向变化，公司解释这是供应短缺的体现，而非需求减弱，表明行业正通过调整堆叠结构应对产能限制。"
+      ],
+      "cards": [
+        {
+          "heading": "供需失衡",
+          "body": "SK海力士透露客户寻求的HBM数量超过其当前供应能力的两倍，显示市场供不应求局面持续。"
+        },
+        {
+          "heading": "堆叠趋势",
+          "body": "内存堆叠层数向更短方向变化，公司解释这是供应短缺的体现，而非需求减弱，表明行业正通过调整堆叠结构应对产能限制。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-manufacturing.html",
+      "published": "2026-10-28T15:18:23.000Z",
+      "score": 25.15,
+      "eventKey": "sk-hynix-hbm-demand-double-supply",
+      "originalTitle": "SK Hynix says customers want more than twice the HBM it can supply",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-manufacturing.html",
+        "retrievedAt": "2026-10-29T02:24:35.812Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SK海力士表示客户对HBM的需求量是其供应能力的两倍以上，反映市场供需状况。",
+        "evidence": [
+          "SK Hynix said customers are seeking more than twice the high-bandwidth memory (HBM) volume it can currently supply, as moves toward shorter memory stacks reflect supply shortages rather than weakening demand."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1a5b53556dfbd",
+      "title": "韩国FuriosaAI估值增至29亿美元，挑战英伟达",
+      "summary": "韩国AI芯片初创FuriosaAI完成D轮融资6.2亿美元，估值达29亿美元，接近上轮4倍。资金将用于扩大RNGD芯片生产，该芯片已获三星SDS、LG等采用，公司计划2027年产量超4万颗。",
+      "points": [
+        "D轮融资6.2亿美元，投资方包括美国Infinitum Partners、韩国国民成长基金（2.8亿美元）、海外投资者合计1.1亿美元，以及杰里科资本、Worldline Capital、QUDA Capital、NeoFort Holding等。",
+        "FuriosaAI今年1月开始量产RNGD芯片，台积电今年为其生产2万颗，计划2027年产量提升至4万颗以上。RNGD已获三星SDS、LG集团和Upstage采用。",
+        "公司专注AI推理市场，通过减少数据传输降低功耗，以挑战英伟达主导地位。与博通合作开发第三代AI加速器，面向大规模AI基础设施。"
+      ],
+      "cards": [
+        {
+          "heading": "融资详情",
+          "body": "D轮融资6.2亿美元，投资方包括美国Infinitum Partners、韩国国民成长基金（2.8亿美元）、海外投资者合计1.1亿美元，以及杰里科资本、Worldline Capital、QUDA Capital、NeoFort Holding等。"
+        },
+        {
+          "heading": "产品与量产",
+          "body": "FuriosaAI今年1月开始量产RNGD芯片，台积电今年为其生产2万颗，计划2027年产量提升至4万颗以上。RNGD已获三星SDS、LG集团和Upstage采用。"
+        },
+        {
+          "heading": "竞争定位",
+          "body": "公司专注AI推理市场，通过减少数据传输降低功耗，以挑战英伟达主导地位。与博通合作开发第三代AI加速器，面向大规模AI基础设施。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/019/329.htm",
+      "published": "2026-10-29T02:18:47.000Z",
+      "score": 24.99,
+      "eventKey": "furiosaai-620m-series-d-valuation-2.9b",
+      "originalTitle": "韩芯片创企 FuriosaAI 挑战英伟达：新一轮融资后估值翻两番至 29 亿美元",
+      "provenance": {
+        "url": "https://www.ithome.com/1/019/329.htm",
+        "retrievedAt": "2026-10-29T02:24:35.827Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "FuriosaAI完成6.2亿美元D轮融资，估值达29亿美元，较上轮翻两番，是重要的融资事件。",
+        "evidence": [
+          "IT之家 10 月 29 日消息,据彭博社 28 日报道,韩国 AI 芯片初创公司 FuriosaAI 完成新一轮融资,估值增至 29 亿美元(IT之家注:现汇率约合 193.74 亿元人民币),接近此前的 4 倍,为挑战英伟达等行业巨头增添了筹码。",
+          "FuriosaAI 宣布,D 轮融资筹集 6.2 亿美元(现汇率约合 41.42 亿元人民币),投资方包括美国 Infinitum Partners。",
+          "韩国国民成长基金投资 2.8 亿美元(现汇率约合 18.71 亿元人民币),海外投资者合计出资 1.1 亿美元(现汇率约合 7.35 亿元人民币),参与融资的还有杰里科资本、Worldline Capital、新加坡 QUDA Capital 和阿布扎比 NeoFort Holding 等机构。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1fd8135071b5bf",
+      "title": "消息称：美司法部问询英伟达收购Hugging Face交易",
+      "summary": "据报道，美国司法部就英伟达以129.3亿美元收购开源平台Hugging Face的交易展开问询，关注其对AI竞争的影响。问询涉及英伟达并购、投资、销售模式及客户压力，并审查了此前对SchedMD的收购。",
+      "points": [
+        "司法部近期问询涉及英伟达的并购、对外投资、销售模式，以及是否对客户施加压力。重点关注收购Hugging Face是否会让英伟达掌控AI核心分发枢纽。",
+        "英伟达以129.3亿美元（约合863.86亿元人民币）收购Hugging Face，预计2027年上半年完成。英伟达承诺Hugging Face保持开放，兼容各类芯片、云服务及AI供应商。",
+        "司法部还审查了英伟达2025年12月对SchedMD的收购，该交易引发AI专家对开源软件获取途径的担忧。英伟达已承诺维持开放获取与支持。"
+      ],
+      "cards": [
+        {
+          "heading": "问询焦点",
+          "body": "司法部近期问询涉及英伟达的并购、对外投资、销售模式，以及是否对客户施加压力。重点关注收购Hugging Face是否会让英伟达掌控AI核心分发枢纽。"
+        },
+        {
+          "heading": "交易细节",
+          "body": "英伟达以129.3亿美元（约合863.86亿元人民币）收购Hugging Face，预计2027年上半年完成。英伟达承诺Hugging Face保持开放，兼容各类芯片、云服务及AI供应商。"
+        },
+        {
+          "heading": "相关审查",
+          "body": "司法部还审查了英伟达2025年12月对SchedMD的收购，该交易引发AI专家对开源软件获取途径的担忧。英伟达已承诺维持开放获取与支持。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/019/272.htm",
+      "published": "2026-10-28T23:08:07.000Z",
+      "score": 19.46,
+      "eventKey": "doj-inquiry-nvidia-huggingface-acquisition",
+      "originalTitle": "消息称美国司法部就英伟达 129.3 亿美元收购 Hugging Face 一事展开问询",
+      "provenance": {
+        "url": "https://www.ithome.com/1/019/272.htm",
+        "retrievedAt": "2026-10-29T02:24:38.020Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美国司法部就英伟达收购Hugging Face展开反垄断问询，这是对已宣布收购案的新监管动作，属于重要事件。",
+        "evidence": [
+          "IT之家 10 月 29 日消息,据路透社报道,两位知情人士透露,美国司法部(DOJ)已就英伟达以 129.3 亿美元(IT之家注:现汇率约合 863.86 亿元人民币)收购开源平台 Hugging Face 的交易将如何影响人工智能领域的竞争展开问询。",
+          "知情人士表示,司法部近期的问询涉及英伟达的并购、对外投资、销售模式,以及该公司是否对其客户施加了压力。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "10cdf595c9a05f",
+      "title": "Enphase与英飞凌开发900V氮化镓双向开关",
+      "summary": "Enphase Energy与英飞凌宣布在Enphase固态变压器功率模块中部署900V氮化镓单芯片双向开关，面向AI数据中心供电。该器件已完成初步测试，正在集成到IQ SST开发样机中，量产认证尚待完成。",
+      "points": [
+        "900V GaN双向开关将GaN开关技术扩展至更高电压，同时保持高频工作特性，适用于紧凑高效功率转换。",
+        "主要面向AI数据中心供电，支持800V单极总线，未来可能实现1500VDC架构，减少开关数量和损耗。",
+        "Enphase主导系统级开发，基于其十余年GaN研究经验；英飞凌提供CoolGaN器件技术和工程支持。",
+        "器件已完成初步测试，正在集成到IQ SST开发样机中；生产认证预计随后进行，仍需进一步验证。"
+      ],
+      "cards": [
+        {
+          "heading": "技术突破",
+          "body": "900V GaN双向开关将GaN开关技术扩展至更高电压，同时保持高频工作特性，适用于紧凑高效功率转换。"
+        },
+        {
+          "heading": "应用目标",
+          "body": "主要面向AI数据中心供电，支持800V单极总线，未来可能实现1500VDC架构，减少开关数量和损耗。"
+        },
+        {
+          "heading": "合作分工",
+          "body": "Enphase主导系统级开发，基于其十余年GaN研究经验；英飞凌提供CoolGaN器件技术和工程支持。"
+        },
+        {
+          "heading": "当前进度",
+          "body": "器件已完成初步测试，正在集成到IQ SST开发样机中；生产认证预计随后进行，仍需进一步验证。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Power Electronics News",
+      "sourceLang": "en",
+      "url": "https://www.powerelectronicsnews.com/enphase-infineon-develop-900-v-gan-bidirectional-switches/",
+      "published": "2026-10-28T14:00:55.000Z",
+      "score": 25.94,
+      "eventKey": "enphase-infineon-900v-gan-bds",
+      "originalTitle": "Enphase, Infineon Develop 900 V GaN Bidirectional Switches",
+      "provenance": {
+        "url": "https://www.powerelectronicsnews.com/enphase-infineon-develop-900-v-gan-bidirectional-switches/",
+        "retrievedAt": "2026-10-29T02:24:49.637Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Enphase与英飞凌联合开发900V GaN双向开关并部署于固态变压器模块，属于具体技术合作新进展。",
+        "evidence": [
+          "Enphase Energy and Infineon Technologies have announced the deployment of 900 V gallium nitride (GaN) monolithic bidirectional switch (BDS) devices in Enphase solid-state transformer (SST) power modules.",
+          "The devices extend GaN switching technology to a higher voltage rating while retaining the high-frequency operation needed for compact and efficient power conversion."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ab41be1b4876a",
+      "title": "Microchip推出20A抗辐射GaN负载点转换器",
+      "summary": "Microchip发布面向航天处理器的表面贴装模块POL-05-20S-T，采用GaN技术，支持20A电流，可将4.75V至13.2V输入降至最低0.7V，并耐受50 krad(Si)总剂量辐射。",
+      "points": [
+        "POL-05-20S-T输入范围4.75V–13.2V，输出低至0.7V，额定电流20A，总剂量耐受50 krad(Si)，采用表面贴装封装，专为太空处理器设计。",
+        "采用GaN（氮化镓）功率器件，相比传统硅基方案在高频和效率方面具备优势，适合航天电源转换场景。"
+      ],
+      "cards": [
+        {
+          "heading": "关键参数",
+          "body": "POL-05-20S-T输入范围4.75V–13.2V，输出低至0.7V，额定电流20A，总剂量耐受50 krad(Si)，采用表面贴装封装，专为太空处理器设计。"
+        },
+        {
+          "heading": "技术亮点",
+          "body": "采用GaN（氮化镓）功率器件，相比传统硅基方案在高频和效率方面具备优势，适合航天电源转换场景。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Electronics-Lab",
+      "sourceLang": "en",
+      "url": "https://www.electronics-lab.com/news/microchip-debuts-20a-radiation-tolerant-gan-point-of-load-converter/",
+      "published": "2026-10-28T18:00:53.000Z",
+      "score": 25.6,
+      "eventKey": "microchip-20a-radiation-tolerant-gan-pol-launch",
+      "originalTitle": "Microchip Debuts 20A Radiation-Tolerant GaN Point-of-Load Converter",
+      "provenance": {
+        "url": "https://www.electronics-lab.com/news/microchip-debuts-20a-radiation-tolerant-gan-point-of-load-converter/",
+        "retrievedAt": "2026-10-29T02:24:35.349Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Microchip推出20A抗辐射GaN负载点转换器，面向航天处理器，是具体新产品发布。",
+        "evidence": [
+          "A surface-mount module for space-bound processors, the POL-05-20S-T steps 4.75V–13.2V rails down to as little as 0.7V while tolerating 50 krad(Si) of total dose.",
+          "The post Microchip Debuts 20A Radiation-Tolerant GaN Point-of-Load Converter appeared first on Electronics-Lab ."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f74b17f00d47e",
+      "title": "Build-A-Chip-Bench基准测试：从规格到GDS评估AI代理",
+      "summary": "ChipAgents与Nvidia合作开发Build-A-Chip-Bench基准测试，使用开源工具和PDK评估AI代理完成芯片设计全流程的能力。最佳代理在65%任务中通过硬性门槛，但总得分仅16.6%，显示AI在芯片设计上仍有较大局限。",
+      "points": [
+        "基准测试覆盖从工作负载规格到GDS版图的完整芯片设计流程，使用开源工具和开源PDK，评估AI代理完成设计工作流的能力，而非仅测试单一环节如RTL编写。",
+        "每个设计必须通过功能正确性（对照隐藏验证IP）、可布线性、保持时序和DRC检查。通过后按PPA（功耗、性能、面积）与任务约束评分。",
+        "最佳AI代理在65%的任务中通过硬性门槛，但总得分仅16.6%。前沿代理在重新审视早期决策、保护工作行为的同时优化、以及规划慢速工具运行方面存在困难。"
+      ],
+      "cards": [
+        {
+          "heading": "评估范围",
+          "body": "基准测试覆盖从工作负载规格到GDS版图的完整芯片设计流程，使用开源工具和开源PDK，评估AI代理完成设计工作流的能力，而非仅测试单一环节如RTL编写。"
+        },
+        {
+          "heading": "硬性门槛",
+          "body": "每个设计必须通过功能正确性（对照隐藏验证IP）、可布线性、保持时序和DRC检查。通过后按PPA（功耗、性能、面积）与任务约束评分。"
+        },
+        {
+          "heading": "当前成绩",
+          "body": "最佳AI代理在65%的任务中通过硬性门槛，但总得分仅16.6%。前沿代理在重新审视早期决策、保护工作行为的同时优化、以及规划慢速工具运行方面存在困难。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Semiconductor Engineering",
+      "sourceLang": "en",
+      "url": "https://semiengineering.com/introducing-build-a-chip-bench-from-workload-specification-to-gds",
+      "published": "2026-10-28T07:03:44.000Z",
+      "score": 24.78,
+      "eventKey": "chipagents-build-a-chip-bench-launch",
+      "originalTitle": "Introducing Build-A-Chip-Bench: From Workload Specification to GDS",
+      "provenance": {
+        "url": "https://semiengineering.com/introducing-build-a-chip-bench-from-workload-specification-to-gds",
+        "retrievedAt": "2026-10-29T02:24:37.606Z",
+        "articlePublished": "2026-10-28T07:03:44.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "ChipAgents发布Build-A-Chip-Bench基准测试，用于评估AI智能体从工作负载规格到GDS布局的芯片设计能力，Nvidia参与贡献，属于EDA领域具体新事实。",
+        "evidence": [
+          "Evaluate AI agents from workload specification through GDS layout, using open-source tools and an open-source PDK to assess their ability to complete the chip-design workflow.",
+          "ChipAgents is developing Build-A-Chip-Bench with contributions from Nvidia to the benchmark suite and scoring rubric.",
+          "The best agent passes the hard gate on 65% of tasks and reaches an overall score of 16.6%."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "3301d6a3c314a",
+      "title": "马来西亚查获藏于30台服务器的走私AI芯片",
+      "summary": "马来西亚海关在吉隆坡国际机场自由贸易区查获30台服务器，内藏价值逾1200万美元的先进AI芯片，涉嫌半导体走私。货物来自亚洲某国，目的地为另一亚洲国家，案件仍在调查中。",
+      "points": [
+        "10月15日，马来西亚海关在吉隆坡国际机场自由贸易区查获30台服务器，内藏先进AI芯片，总价值超过1200万美元（约4950万马来西亚林吉特）。",
+        "初步调查显示，该批货物源自一个亚洲国家，目的地为另一个未公开的亚洲国家。马来西亚正打击疑似半导体走私集团。"
+      ],
+      "cards": [
+        {
+          "heading": "查获规模",
+          "body": "10月15日，马来西亚海关在吉隆坡国际机场自由贸易区查获30台服务器，内藏先进AI芯片，总价值超过1200万美元（约4950万马来西亚林吉特）。"
+        },
+        {
+          "heading": "走私路径",
+          "body": "初步调查显示，该批货物源自一个亚洲国家，目的地为另一个未公开的亚洲国家。马来西亚正打击疑似半导体走私集团。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
+      "published": "2026-10-28T17:02:14.000Z",
+      "score": 23.44,
+      "eventKey": "malaysia-seizes-12m-ai-chips-smuggling",
+      "originalTitle": "Malaysia seizes $12 million worth of advanced AI chips hidden inside 30 servers",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/policy/malaysia-seizes-usd12-million-worth-of-advanced-ai-chips-hidden-inside-30-servers-customs-says-suspected-smuggling-network-used-the-country-as-a-transit-hub",
+        "retrievedAt": "2026-10-29T02:24:36.909Z",
+        "articlePublished": "2026-10-28T17:02:14.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "马来西亚海关查获价值1200万美元的先进AI芯片，涉及走私网络，属于政策与执法领域的重要新事实。",
+        "evidence": [
+          "Malaysian customs have seized over $12 million (49.5 million Malaysian ringgit) worth of advanced AI chips in a single bust, as the country clamps down on a suspected semiconductor smuggling syndicate.",
+          "According to a Reuters report on October 28, officials found 30 servers containing the chips at Kuala Lumpur International Airport’s free trade zone on October 15th.",
+          "Initial investigations revealed that the shipment originated in an Asian country and was bound for another undisclosed Asian country.Get Tom's Hardware's best news and in-depth reviews, straight to your inbox."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f23b1d1244b6",
+      "title": "瑞萨RZ/G3L和RZ/G3SE微处理器面向HMI与IoT边缘设备",
+      "summary": "瑞萨电子推出RZ/G3L和RZ/G3SE两款64位微处理器单元，采用Arm Cortex-A55核心和Cortex-M33协处理器，具备低功耗待机和安全特性，面向工业HMI和IoT边缘设备应用。",
+      "points": [
+        "两款MPU均采用64位Arm Cortex-A55核心，搭配Cortex-M33协处理器，适用于工业控制和嵌入式应用。",
+        "支持低功耗待机模式，集成安全功能，满足工业HMI和IoT边缘设备对能效和可靠性的要求。"
+      ],
+      "cards": [
+        {
+          "heading": "核心架构",
+          "body": "两款MPU均采用64位Arm Cortex-A55核心，搭配Cortex-M33协处理器，适用于工业控制和嵌入式应用。"
+        },
+        {
+          "heading": "关键特性",
+          "body": "支持低功耗待机模式，集成安全功能，满足工业HMI和IoT边缘设备对能效和可靠性的要求。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Electronics-Lab",
+      "sourceLang": "en",
+      "url": "https://www.electronics-lab.com/news/renesas-rz-g3l-and-rz-g3se-64-bit-microprocessor-units-target-hmi-and-iot-edge-devices/",
+      "published": "2026-10-28T06:00:15.000Z",
+      "score": 18.6,
+      "eventKey": "renesas-rz-g3l-rz-g3se-mpu-launch",
+      "originalTitle": "Renesas RZ/G3L and RZ/G3SE 64-bit Microprocessor Units Target HMI and IoT Edge Devices",
+      "provenance": {
+        "url": "https://www.electronics-lab.com/news/renesas-rz-g3l-and-rz-g3se-64-bit-microprocessor-units-target-hmi-and-iot-edge-devices/",
+        "retrievedAt": "2026-10-29T02:24:38.118Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "瑞萨发布面向HMI和IoT边缘设备的新款64位微处理器RZ/G3L和RZ/G3SE，是常规产品发布动态。",
+        "evidence": [
+          "The 64-bit MPUs feature Arm Cortex-A55 cores, a Cortex-M33 coprocessor, low-power standby, and security features for industrial and embedded applications."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
