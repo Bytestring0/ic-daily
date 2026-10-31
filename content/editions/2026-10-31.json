@@ -1,0 +1,650 @@
+{
+  "date": "2026-10-31",
+  "generatedAt": "2026-10-31T02:20:13.357Z",
+  "intro": "本期共 11 条动态，其中 8 条值得重点关注，集中在芯片设计、晶圆代工、存储方向。",
+  "stats": {
+    "count": 11,
+    "sources": 7,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 5,
+      "foundry": 2,
+      "memory": 2,
+      "market": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 130490,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 26,
+      "readable": 25,
+      "accepted": 11,
+      "rejected": 4492,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1dbf941861c503",
+      "title": "联发科获第二家AI ASIC客户，2028年量产",
+      "summary": "联发科在2026年第三季度财报电话会上确认已获得第二家AI ASIC客户，官方未公布名称，预计2028年量产并贡献营收。针对市场猜测客户为字节跳动，联发科澄清该客户并非中国公司。",
+      "points": [
+        "联发科确认已获得第二家AI ASIC客户，官方暂未公布，预计2028年进入量产并开始贡献营收。市场猜测客户为字节跳动，联发科澄清该客户并非中国公司。",
+        "首款数据中心AI加速器已于2026年9月开始小量出货，需求强劲。联发科目标2027年营收达160亿美元区间上限，相当于全球AI加速器ASIC市场约20%份额。",
+        "针对第二代AI ASIC可能延期的传闻，联发科称研发进度符合计划。多芯片设计中部分裸片已完成流片，较大裸片需额外数周，但整体按原时间表推进。",
+        "联发科正与一家美国IDM厂商及基板供应商合作提升良率，市场猜测该伙伴为英特尔，技术可能为EMIB-T。联发科强调不会依赖单一供应商，台积电仍是最重要合作伙伴。"
+      ],
+      "cards": [
+        {
+          "heading": "新客户确认",
+          "body": "联发科确认已获得第二家AI ASIC客户，官方暂未公布，预计2028年进入量产并开始贡献营收。市场猜测客户为字节跳动，联发科澄清该客户并非中国公司。"
+        },
+        {
+          "heading": "首款AI加速器",
+          "body": "首款数据中心AI加速器已于2026年9月开始小量出货，需求强劲。联发科目标2027年营收达160亿美元区间上限，相当于全球AI加速器ASIC市场约20%份额。"
+        },
+        {
+          "heading": "研发进度",
+          "body": "针对第二代AI ASIC可能延期的传闻，联发科称研发进度符合计划。多芯片设计中部分裸片已完成流片，较大裸片需额外数周，但整体按原时间表推进。"
+        },
+        {
+          "heading": "先进封装合作",
+          "body": "联发科正与一家美国IDM厂商及基板供应商合作提升良率，市场猜测该伙伴为英特尔，技术可能为EMIB-T。联发科强调不会依赖单一供应商，台积电仍是最重要合作伙伴。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/020/400.htm",
+      "published": "2026-10-30T23:35:47.000Z",
+      "score": 24.55,
+      "eventKey": "mediatek-second-ai-asic-customer-2028",
+      "originalTitle": "不是字节跳动：联发科拿下第二家 AI 芯片大客户，2028 年量产",
+      "provenance": {
+        "url": "https://www.ithome.com/1/020/400.htm",
+        "retrievedAt": "2026-10-31T02:19:10.913Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "联发科在Q3财报电话会确认获得第二家AI ASIC客户（非中国公司），项目预计2028年量产，这是新的客户获取事件，具有重要产业意义。",
+        "evidence": [
+          "IT之家 10 月 31 日消息,昨日(10 月 30 日)召开的 2026 年第三季度(7~9 月)财报电话会上,联发科(MediaTek)确认已获得第二家人工智能专用集成电路(AI ASIC)客户(官方暂未公布),预计该项目将于 2028 年进入量产并开始贡献营收。",
+          "针对市场猜测其第二家人工智能 ASIC 芯片客户是字节跳动,联发科澄清该客户并非中国公司。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "56ee013c980a8",
+      "title": "英特尔以色列Fab 28爆炸致停运两周 损失6亿美元",
+      "summary": "英特尔位于以色列Kiryat Gat的Fab 28工厂本月早些时候发生爆炸，导致整个工厂停运两周。公司预计将造成约6亿美元收入损失，并影响采用10nm级制程的服务器处理器出货，波及2026年Q4和2027年Q1。",
+      "points": [
+        "爆炸迫使Fab 28全面停运两周，英特尔预计损失约6亿美元收入，分摊在两个季度。CFO Dave Zinsner在财报电话会上表示，工厂将于本周结束前恢复生产。",
+        "此次中断将影响采用英特尔10nm级制程技术制造的服务器处理器，导致2026年第四季度和2027年第一季度的出货量减少。",
+        "爆炸发生在本月初，地点为以色列Kiryat Gat附近的Fab 28。该工厂是英特尔重要的生产设施，此次事故对服务器芯片供应链造成显著冲击。"
+      ],
+      "cards": [
+        {
+          "heading": "停运与损失",
+          "body": "爆炸迫使Fab 28全面停运两周，英特尔预计损失约6亿美元收入，分摊在两个季度。CFO Dave Zinsner在财报电话会上表示，工厂将于本周结束前恢复生产。"
+        },
+        {
+          "heading": "受影响产品",
+          "body": "此次中断将影响采用英特尔10nm级制程技术制造的服务器处理器，导致2026年第四季度和2027年第一季度的出货量减少。"
+        },
+        {
+          "heading": "事件背景",
+          "body": "爆炸发生在本月初，地点为以色列Kiryat Gat附近的Fab 28。该工厂是英特尔重要的生产设施，此次事故对服务器芯片供应链造成显著冲击。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory",
+      "published": "2026-10-30T09:30:00.000Z",
+      "score": 22.2,
+      "eventKey": "intel-fab28-explosion-shutdown-600m-loss",
+      "originalTitle": "Deadly Intel Fab 28 explosion causes two-week shutdown, to cost $600 million and severely disrupt server chip manufacturing for six months",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory",
+        "retrievedAt": "2026-10-31T02:19:11.665Z",
+        "articlePublished": "2026-10-30T09:30:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英特尔以色列Fab 28爆炸导致停产两周、损失6亿美元并影响服务器芯片出货，是重大新事件。",
+        "evidence": [
+          "The explosion at Intel's Fab 28 near Kiryat Gat, Israel, that happened earlier this month forced Intel to shut down the whole facility for two weeks, and now the company expects that it will cost it approximately $600 million in lost revenu",
+          "The disruption is expected to affect server processors manufactured using Intel's 10nm-class process technologies and will reduce the company's shipments in both the fourth quarter of 2026 and the first quarter of 2027.\"In Israel, we have b"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354327/intel-fab-28-shutdown-to-cost-usd-600-million-in-lost-revenue-production-to-restart-soon"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/020/385.htm"
+        }
+      ]
+    },
+    {
+      "id": "1530012557e2a",
+      "title": "长鑫科技Q3营收1187亿元，第六代DRAM完成样片验证",
+      "summary": "长鑫科技发布2026年三季报，Q3营收1187.14亿元，净利润889.83亿元，环比均增约19%。基于第六代技术平台的DRAM产品已完成工程样片验证，进入量产前夜。",
+      "points": [
+        "第三季度营收约1187.14亿元，环比增长19.30%；净利润约889.83亿元，环比增长19.38%。",
+        "基于第六代技术平台的DRAM产品已完成工程样片验证，下一步需在重点客户处完成客户验证，方可进入批量生产与出货阶段。",
+        "2026年前三季度研发投入110.71亿元，同比增长73.03%。8月全球首发量产LPDDR6，9月第五代平台量产，近期宣布4F2架构关键进展。",
+        "8月底宣布LPDDR6全球量产，已搭载于主流智能手机旗舰机型。峰值速率12800Mbps，带宽较LPDDR5X提升60%，功耗降低20%。"
+      ],
+      "cards": [
+        {
+          "heading": "Q3业绩",
+          "body": "第三季度营收约1187.14亿元，环比增长19.30%；净利润约889.83亿元，环比增长19.38%。"
+        },
+        {
+          "heading": "技术进展",
+          "body": "基于第六代技术平台的DRAM产品已完成工程样片验证，下一步需在重点客户处完成客户验证，方可进入批量生产与出货阶段。"
+        },
+        {
+          "heading": "研发投入",
+          "body": "2026年前三季度研发投入110.71亿元，同比增长73.03%。8月全球首发量产LPDDR6，9月第五代平台量产，近期宣布4F2架构关键进展。"
+        },
+        {
+          "heading": "LPDDR6量产",
+          "body": "8月底宣布LPDDR6全球量产，已搭载于主流智能手机旗舰机型。峰值速率12800Mbps，带宽较LPDDR5X提升60%，功耗降低20%。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584474.htm",
+      "published": "2026-10-30T12:49:57.000Z",
+      "score": 16.76,
+      "eventKey": "cxmt-q3-2026-earnings-g6-dram-samples",
+      "originalTitle": "长鑫科技：Q3营收1187.14亿元 净利润约889.83亿元",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584474.htm",
+        "retrievedAt": "2026-10-31T02:19:13.447Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "长鑫科技发布2026年三季报，Q3营收1187.14亿元、净利润889.83亿元，并披露基于第六代技术平台的DRAM产品已完成工程样片验证，属于重要财务和技术进展。",
+        "evidence": [
+          "长鑫科技2026年三季报发布,第三季度(7-9月)实现营业收入约1187.14亿元,环比增长约19.30%;实现净利润约889.83亿元,环比增长约19.38%。",
+          "同时,三季报披露了最新技术进展:基于第六代技术平台开发的DRAM产品已完成工程样片验证。",
+          "据三季报披露,长鑫科技基于第六代技术平台开发的DRAM产品已完成工程样片验证,意味着进入产品量产前夜:完成工程样片验证指企业已完成内部技术验证和早期客户评估,下一步产品在重点客户处完成客户验证后,则可进入批量生产与出货阶段。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ad04ee6bc96d2",
+      "title": "联发科上调Q4展望，AI ASIC出货推动营收增长",
+      "summary": "联发科公布2026年第三季度营收1680.6亿新台币，环比增10.4%，同比增18.3%，并预计第四季度营收环比增长最高达32%，主因AI加速器ASIC出货加速。公司于10月30日投资者会议上披露业绩，称客户需求超预期、产能改善及新平台量产。",
+      "points": [
+        "第三季度营收1680.6亿新台币（约51.7亿美元），环比增10.4%，同比增18.3%，毛利率稳定在46.3%，净利润282亿新台币，每股收益17.50新台币。",
+        "预计第四季度营收达2101亿至2218亿新台币，环比增长25%至32%，增长动力来自AI加速器ASIC出货加速。",
+        "公司称客户需求强于预期、产能可用性改善，以及新智能设备平台进入量产，推动AI ASIC出货加速。"
+      ],
+      "cards": [
+        {
+          "heading": "Q3业绩",
+          "body": "第三季度营收1680.6亿新台币（约51.7亿美元），环比增10.4%，同比增18.3%，毛利率稳定在46.3%，净利润282亿新台币，每股收益17.50新台币。"
+        },
+        {
+          "heading": "Q4展望",
+          "body": "预计第四季度营收达2101亿至2218亿新台币，环比增长25%至32%，增长动力来自AI加速器ASIC出货加速。"
+        },
+        {
+          "heading": "增长驱动",
+          "body": "公司称客户需求强于预期、产能可用性改善，以及新智能设备平台进入量产，推动AI ASIC出货加速。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261030PD245/revenue-mediatek-asic-outlook-2026.html",
+      "published": "2026-10-30T23:30:16.000Z",
+      "score": 28.53,
+      "eventKey": "mediatek-q3-2026-earnings-asic-outlook",
+      "originalTitle": "MediaTek raises ASIC outlook as fourth-quarter revenue could jump 32%",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261030PD245/revenue-mediatek-asic-outlook-2026.html",
+        "retrievedAt": "2026-10-31T02:19:10.664Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "联发科公布2026年第三季度财报，营收1680.6亿新台币，环比增10.4%，同比增18.3%，并上调ASIC展望，预计第四季度营收最高增长32%。这是新的财报事件，具有具体数字和重要市场影响。",
+        "evidence": [
+          "MediaTek reported third-quarter 2026 revenue of NT$168.06 billion (US$5.17 billion), up 10.4% quarter-over-quarter (QoQ) and 18.3% year-over-year, and projected fourth-quarter revenue growth of as much as 32% on accelerating shipments of AI",
+          " accelerator application-specific integrated circuits (ASICs).",
+          "The Taiwanese IC design company disclosed the results and outlook at an investor conference on October 30, citing stronger-than-expected customer demand, improved capacity availability, and new smart-device platforms entering mass productio"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1bfbbd00491b48",
+      "title": "SK海力士任命AI存储负责人执掌美国新部门",
+      "summary": "SK海力士任命其AI存储开发负责人领导新设立的美国部门，将技术资深人士置于美国大客户附近。此举顺应行业向定制化高带宽存储器（HBM）及与芯片开发商深化协作的转变。",
+      "points": [
+        "SK海力士已任命其AI存储开发负责人领导新成立的美国部门，该部门总部设在美国。",
+        "将技术资深人士派驻美国，旨在贴近美国主要客户，因行业正转向定制化HBM及与芯片开发商的深度合作。"
+      ],
+      "cards": [
+        {
+          "heading": "人事任命",
+          "body": "SK海力士已任命其AI存储开发负责人领导新成立的美国部门，该部门总部设在美国。"
+        },
+        {
+          "heading": "战略意图",
+          "body": "将技术资深人士派驻美国，旨在贴近美国主要客户，因行业正转向定制化HBM及与芯片开发商的深度合作。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261030VL227/sk-hynix-hbm-development-americas-technology.html",
+      "published": "2026-10-30T08:48:07.000Z",
+      "score": 24.08,
+      "eventKey": "sk-hynix-americas-unit-hbm-veteran-appointment",
+      "originalTitle": "SK Hynix taps HBM veteran to lead new American unit",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261030VL227/sk-hynix-hbm-development-americas-technology.html",
+        "retrievedAt": "2026-10-31T02:19:10.925Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SK海力士任命AI内存开发负责人领导新设立的美国部门，将技术高管派驻美国以贴近主要客户，反映HBM定制化趋势下组织调整。这是具体的人事与组织变动。",
+        "evidence": [
+          "SK Hynix has appointed its AI memory development chief to lead a newly established Americas unit based in the US, putting a technology veteran closer to major US customers as the industry shifts toward customized high-bandwidth memory (HBM)",
+          " and deeper collaboration with chip developers."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1e4ed97938205d",
+      "title": "瑞萨扩AI数据中心产能，2026年利润率目标33.2%",
+      "summary": "瑞萨电子预计AI数据中心、工业和汽车半导体需求强劲，将推动2026年营收达1.6668万亿日元（105.5亿美元），同比增长26.4%，营业利润率升至33.2%。该预测基于其2026年第三季度财报。",
+      "points": [
+        "2026年营收预计达1.6668万亿日元（约105.5亿美元），同比增长26.4%。",
+        "营业利润率预计升至33.2%，反映AI数据中心等需求强劲。",
+        "增长动力来自AI数据中心、工业应用及汽车半导体需求。"
+      ],
+      "cards": [
+        {
+          "heading": "营收预期",
+          "body": "2026年营收预计达1.6668万亿日元（约105.5亿美元），同比增长26.4%。"
+        },
+        {
+          "heading": "利润率目标",
+          "body": "营业利润率预计升至33.2%，反映AI数据中心等需求强劲。"
+        },
+        {
+          "heading": "需求驱动",
+          "body": "增长动力来自AI数据中心、工业应用及汽车半导体需求。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261030PD222/renesas-2026-revenue-capacity-demand.html",
+      "published": "2026-10-30T23:28:59.000Z",
+      "score": 23.53,
+      "eventKey": "renesas-2026-revenue-forecast-33.2-margin",
+      "originalTitle": "Renesas expands AI data center capacity, targets 33.2% margin in 2026",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261030PD222/renesas-2026-revenue-capacity-demand.html",
+        "retrievedAt": "2026-10-31T02:19:11.728Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "瑞萨发布2026财年第三季度财报，预计2026年营收1.6668万亿日元（同比增长26.4%），营业利润率目标33.2%，由AI数据中心、工业和汽车需求驱动。这是具体的财务预测。",
+        "evidence": [
+          "Japan&rsquo;s Renesas Electronics expects strong demand for AI data centers, industrial applications, and automotive semiconductors to drive 2026 revenue to JPY1.6668 trillion (US$10.55 billion), up 26.4% year-over-year, with its operating ",
+          "margin rising to 33.2%, according to its third-quarter 2026 earnings report."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "161a9efa6975cd",
+      "title": "天数智芯天垓300实测对标H200，布局云到端算力",
+      "summary": "天数智芯在媒体开放日披露第三方测试，天垓300在典型PD分离部署下端到端吞吐达H200的1.05倍，长上下文场景MoE吞吐达1.15倍。公司同时展示端侧彤央TY1200及下一代TY2000，并推出Agent与Skills软件栈降低部署成本。",
+      "points": [
+        "第三方测试中，天垓300在PD分离部署下折算单卡端到端吞吐为H200的1.05倍；GLM-5.3 64K长上下文场景MoE吞吐达1.15倍，8K-128K Agent场景首字延迟降低10%-30%。",
+        "天垓300基于天枢架构，单卡显存144GB，Tensor Core与Vector Core并行处理Attention矩阵运算和Softmax，针对MoE小规模矩阵与通信协同优化。",
+        "彤央TY1200提供300 TOPS INT8稠密算力，在Qwen3.8-27B等模型中性能达Thor T5000的1.2倍，Cosmos-R2-8B测试达1.8倍。下一代TY2000稠密算力将达600T。",
+        "软件栈引入Agent与Skills，将模型部署时间从约1小时缩短至20分钟，人工操作减为两次输入。已服务380多个客户，覆盖30多个行业。"
+      ],
+      "cards": [
+        {
+          "heading": "云端性能对比",
+          "body": "第三方测试中，天垓300在PD分离部署下折算单卡端到端吞吐为H200的1.05倍；GLM-5.3 64K长上下文场景MoE吞吐达1.15倍，8K-128K Agent场景首字延迟降低10%-30%。"
+        },
+        {
+          "heading": "架构与显存",
+          "body": "天垓300基于天枢架构，单卡显存144GB，Tensor Core与Vector Core并行处理Attention矩阵运算和Softmax，针对MoE小规模矩阵与通信协同优化。"
+        },
+        {
+          "heading": "端侧产品",
+          "body": "彤央TY1200提供300 TOPS INT8稠密算力，在Qwen3.8-27B等模型中性能达Thor T5000的1.2倍，Cosmos-R2-8B测试达1.8倍。下一代TY2000稠密算力将达600T。"
+        },
+        {
+          "heading": "软件栈创新",
+          "body": "软件栈引入Agent与Skills，将模型部署时间从约1小时缩短至20分钟，人工操作减为两次输入。已服务380多个客户，覆盖30多个行业。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "雷锋网",
+      "sourceLang": "zh",
+      "url": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html",
+      "published": "2026-10-30T09:02:00.000Z",
+      "score": 22.12,
+      "eventKey": "iluvatar-tianxi300-h200-benchmark-ty2000",
+      "originalTitle": "天数智芯天垓300实测对标H200，国产GPU接下来拼什么？",
+      "provenance": {
+        "url": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html",
+        "retrievedAt": "2026-10-31T02:19:12.521Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "天数智芯天垓300实测性能对标H200，披露具体测试数据及端侧产品规划，有具体新事实。",
+        "evidence": [
+          "天数智芯表示,今年完成的一组第三方测试中,在典型PD分离部署下,天垓300折算单卡端到端吞吐达到H200的1.05倍。",
+          "另外,根据天数智芯性能实验室的数据,在GLM-5.3的64K长上下文场景下,保障同等用户体验时,天垓300的MoE吞吐达到H200的1.15倍。",
+          "天数智芯还预告了下一代端侧产品彤央TY2000,稠密算力将达到600T,进一步扩展端侧产品的性能空间。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "981ce6538b1a5",
+      "title": "英特尔确认Nova Lake采用18A-P节点 更多细节CES公布",
+      "summary": "英特尔CEO Lip-Bu Tan在Q3 2026财报电话会上确认，旗舰客户端CPU Nova Lake将由英特尔代工采用18A-P节点生产，这是英特尔首款18A-P客户端产品，进度超前，设计订单预计为Panther Lake的两倍。",
+      "points": [
+        "CEO Lip-Bu Tan确认Nova Lake将由英特尔代工采用18A-P节点生产，取代此前计划外包给台积电N2的方案。该芯片原计划由台积电承担60-70%生产，现改为大部分自产。",
+        "Nova Lake将提供单计算芯片或双计算芯片版本，单芯片版最多28核（8个Coyote Cove P核+16个Arctic Wolf E核+4个LPE核），双芯片版达52核。传闻单芯片版先发布。",
+        "CEO表示Nova Lake进度超前，设计订单预计为Panther Lake的两倍。更多细节将在2026年1月CES上公布。"
+      ],
+      "cards": [
+        {
+          "heading": "制程确认",
+          "body": "CEO Lip-Bu Tan确认Nova Lake将由英特尔代工采用18A-P节点生产，取代此前计划外包给台积电N2的方案。该芯片原计划由台积电承担60-70%生产，现改为大部分自产。"
+        },
+        {
+          "heading": "产品规格",
+          "body": "Nova Lake将提供单计算芯片或双计算芯片版本，单芯片版最多28核（8个Coyote Cove P核+16个Arctic Wolf E核+4个LPE核），双芯片版达52核。传闻单芯片版先发布。"
+        },
+        {
+          "heading": "发布计划",
+          "body": "CEO表示Nova Lake进度超前，设计订单预计为Panther Lake的两倍。更多细节将在2026年1月CES上公布。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354311/intel-confirms-nova-lake-uses-18a-p-internal-node-more-details-at-ces",
+      "published": "2026-10-30T09:05:20.000Z",
+      "score": 19.13,
+      "eventKey": "intel-nova-lake-18a-p-confirmation",
+      "originalTitle": "Intel Confirms \"Nova Lake\" Uses 18A-P Internal Node, More Details at CES",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354311/intel-confirms-nova-lake-uses-18a-p-internal-node-more-details-at-ces",
+        "retrievedAt": "2026-10-31T02:19:13.006Z",
+        "articlePublished": "2026-10-30T09:05:20.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英特尔CEO在财报电话会上确认Nova Lake将采用Intel 18A-P节点生产，并称设计中标数量预计为Panther Lake的两倍，这是对之前台积电代工传闻的官方确认，属于重要产品路线图信息。",
+        "evidence": [
+          "During the Q3 2026 earnings call, Intel CEO Lip-Bu Tan confirmed that the company's upcoming flagship client CPU, codenamed \"Nova Lake,\" will be produced by Intel Foundry using its 18A-P node.",
+          "Today, we received confirmation directly from the Intel CEO:Intel CEO Lip-Bu Tan\"Nova Lake,\" our first Intel 18A-P client product, is tracking ahead of schedule, with design wins expected to be twice those of \"Panther Lake\" at launch."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ef3c23e4cb141",
+      "title": "消息称：传RTX 5080 24GB提前至2027年1月发布",
+      "summary": "据报道，据Board Channels爆料，NVIDIA将RTX 5080 24GB发布时间提前至2027年1月，最早12月。同时将停止向中国供应RTX 5080 16GB和RTX 5090 D V2，使24GB版成为中国市场唯一旗舰。",
+      "points": [
+        "Board Channels称RTX 5080 24GB预计2027年1月上市，最早12月，早于此前传言的Q1 2027。若1月成行，CES 2027发布可能性大，但NVIDIA未确认。",
+        "NVIDIA将停止向中国供应RTX 5080 16GB和RTX 5090 D V2，24GB版将成为中国市场唯一旗舰型号。16GB库存预计可维持约两个月。",
+        "24GB可能采用3GB GDDR7模块替代2GB，保持256-bit位宽。传闻中国售价约19999元（近3000美元），16GB版美国零售价已翻倍至约2000美元。"
+      ],
+      "cards": [
+        {
+          "heading": "发布时间提前",
+          "body": "Board Channels称RTX 5080 24GB预计2027年1月上市，最早12月，早于此前传言的Q1 2027。若1月成行，CES 2027发布可能性大，但NVIDIA未确认。"
+        },
+        {
+          "heading": "中国市场调整",
+          "body": "NVIDIA将停止向中国供应RTX 5080 16GB和RTX 5090 D V2，24GB版将成为中国市场唯一旗舰型号。16GB库存预计可维持约两个月。"
+        },
+        {
+          "heading": "规格与价格",
+          "body": "24GB可能采用3GB GDDR7模块替代2GB，保持256-bit位宽。传闻中国售价约19999元（近3000美元），16GB版美国零售价已翻倍至约2000美元。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354315/nvidia-reportedly-moves-up-rtx-5080-24-gb-launch",
+      "published": "2026-10-30T15:28:42.000Z",
+      "score": 20.2,
+      "eventKey": "nvidia-rtx5080-24gb-launch-advance",
+      "originalTitle": "NVIDIA Reportedly Moves Up RTX 5080 24 GB Launch",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354315/nvidia-reportedly-moves-up-rtx-5080-24-gb-launch",
+        "retrievedAt": "2026-10-31T02:19:12.630Z",
+        "articlePublished": "2026-10-30T15:28:42.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达据报将RTX 5080 24GB发布提前至2026年12月或2027年1月，并停止向中国供应16GB版和RTX 5090 D V2，这是新的产品发布计划调整。",
+        "evidence": [
+          "A new post from Board Channels' ChannelGate account claims NVIDIA is speeding up the launch, with availability now expected around January 2027 and December 2026 as the earliest option.",
+          "The same post says NVIDIA will stop supplying the RTX 5080 16 GB and the RTX 5090 D V2 to China, leaving the 24 GB RTX 5080 as the only flagship model in that market."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ad111d3f1159c",
+      "title": "AMD拟11月再调显卡供货价 RX 9000系列承压",
+      "summary": "据供应链消息，AMD考虑11月再次上调向显卡合作伙伴供应的GPU与GDDR6显存套装价格，此前10月1日已调整过一次。GDDR6显存2026年第三季度已上涨约8%至10%，AI基础设施需求挤压存储产能是主因。涨价尚未获官方确认，具体涨幅未公布。",
+      "points": [
+        "GDDR6显存2026年第三季度已上涨约8%至10%，现货价格自2025年底以来一度涨至数倍。AI服务器和数据中心需求增长，三星、SK海力士、美光将产能转向HBM和服务器DRAM，挤压GDDR6供应。",
+        "涉及AMD向华硕、蓝宝石、讯景等显卡制造商提供的GPU与显存组合套件。Radeon RX 9000系列采用RDNA 4架构，全部使用GDDR6显存，部分型号配备16GB，显存成本占比高。",
+        "2026年10月全球显卡平均售价环比上涨约10%，其中RX 9060 XT 16GB涨幅达17%，RX 9070和RX 9070 XT上涨约12%。AMD此前8月和10月已两次调整供货价，8月涨幅至少10%。",
+        "供应链涨价需经生产、分销、库存更替逐步传导至零售端。若11月调整落实，消费者可能在12月购物旺季感受到更明显价格压力。"
+      ],
+      "cards": [
+        {
+          "heading": "涨价背景",
+          "body": "GDDR6显存2026年第三季度已上涨约8%至10%，现货价格自2025年底以来一度涨至数倍。AI服务器和数据中心需求增长，三星、SK海力士、美光将产能转向HBM和服务器DRAM，挤压GDDR6供应。"
+        },
+        {
+          "heading": "影响范围",
+          "body": "涉及AMD向华硕、蓝宝石、讯景等显卡制造商提供的GPU与显存组合套件。Radeon RX 9000系列采用RDNA 4架构，全部使用GDDR6显存，部分型号配备16GB，显存成本占比高。"
+        },
+        {
+          "heading": "市场现状",
+          "body": "2026年10月全球显卡平均售价环比上涨约10%，其中RX 9060 XT 16GB涨幅达17%，RX 9070和RX 9070 XT上涨约12%。AMD此前8月和10月已两次调整供货价，8月涨幅至少10%。"
+        },
+        {
+          "heading": "传导预期",
+          "body": "供应链涨价需经生产、分销、库存更替逐步传导至零售端。若11月调整落实，消费者可能在12月购物旺季感受到更明显价格压力。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584496.htm",
+      "published": "2026-10-30T20:38:53.000Z",
+      "score": 18.06,
+      "eventKey": "amd-november-gpu-gddr6-price-increase",
+      "originalTitle": "AMD计划11月再次上调Radeon显卡供货价格 RX 9000系列或进一步涨价",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584496.htm",
+        "retrievedAt": "2026-10-31T02:19:13.243Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "供应链消息称AMD计划11月再次上调GPU与GDDR6显存套装供货价格，反映显存成本上涨对显卡供应链的影响，属于有具体新事实的常规市场动态。",
+        "evidence": [
+          "根据中国硬件供应链论坛博板堂传出的消息,AMD正在考虑于11月再次调整向显卡合作伙伴提供的GPU与GDDR6显存套装价格。",
+          "据供应链消息,GDDR6显存在2026年第三季度已经上涨约8%至10%。",
+          "AMD此前于10月1日调整过相关供货价格,现在又计划在11月进行新一轮调整,反映出显存成本仍在持续攀升。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "fd2d6a5052634",
+      "title": "芯原推出GLTiny轻量3D GPU编程模型",
+      "summary": "VeriSilicon发布面向可穿戴设备的轻量级3D GPU编程模型GLTiny，适用于智能手表和智能眼镜。该模型精简API和驱动，降低内存占用与CPU开销，支持glTF模型渲染及动画控制。",
+      "points": [
+        "GLTiny面向功耗和内存受限的可穿戴设备，包括智能手表和智能眼镜，基于Nano OpenGL ES GPU IP系列，精简API和轻量驱动。",
+        "支持标准glTF 3D模型原生渲染，含光照、骨骼蒙皮、形态目标和动画；提供动画播放控制、切换和速度调节API，以及高斯模糊和波纹特效。",
+        "可与VGLite矢量图形驱动混合使用，在同一帧内渲染2.5D矢量图形和3D模型。"
+      ],
+      "cards": [
+        {
+          "heading": "产品定位",
+          "body": "GLTiny面向功耗和内存受限的可穿戴设备，包括智能手表和智能眼镜，基于Nano OpenGL ES GPU IP系列，精简API和轻量驱动。"
+        },
+        {
+          "heading": "技术特性",
+          "body": "支持标准glTF 3D模型原生渲染，含光照、骨骼蒙皮、形态目标和动画；提供动画播放控制、切换和速度调节API，以及高斯模糊和波纹特效。"
+        },
+        {
+          "heading": "混合配置",
+          "body": "可与VGLite矢量图形驱动混合使用，在同一帧内渲染2.5D矢量图形和3D模型。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/verisilicon-develops-lightweight-3d-gpu-programming-model-for-wearables/",
+      "published": "2026-10-30T03:19:02.000Z",
+      "score": 24.17,
+      "eventKey": "verisilicon-gltiny-3d-gpu-programming-model-launch",
+      "originalTitle": "VeriSilicon Develops Lightweight 3D GPU Programming Model for Wearables",
+      "provenance": {
+        "url": "https://www.eetasia.com/verisilicon-develops-lightweight-3d-gpu-programming-model-for-wearables/",
+        "retrievedAt": "2026-10-31T02:19:25.797Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "VeriSilicon发布面向可穿戴设备的轻量级3D GPU编程模型GLTiny，支持Nano OpenGL ES GPU IP系列，降低驱动内存占用和CPU开销。这是具体的新产品发布。",
+        "evidence": [
+          "VeriSilicon has introduced GLTiny, a 3D GPU programming model designed for wearable devices with limited power and memory resources, including smartwatches and smart glasses.",
+          "The programming model features a streamlined application programming interface (API) and lightweight driver for the company&#8217;s Nano OpenGL ES GPU IP series.",
+          "According to VeriSilicon, the approach reduces driver memory footprint and CPU overhead, helping improve power efficiency in devices with constrained resources."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
