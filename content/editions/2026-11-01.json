@@ -1,0 +1,202 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T02:10:10.207Z",
+  "intro": "本期共 3 条动态，其中 3 条值得重点关注，集中在存储、市场与产业、晶圆代工方向。",
+  "stats": {
+    "count": 3,
+    "sources": 2,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "memory": 1,
+      "market": 1,
+      "foundry": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 82078,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 10,
+      "readable": 9,
+      "accepted": 3,
+      "rejected": 4507,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "10a4d2e81f7d82",
+      "title": "长鑫科技第六代4F2架构DRAM完成工程样片验证",
+      "summary": "长鑫科技在第三季度业绩交流会中宣布，基于4F2垂直沟道DRAM架构的第六代工艺技术平台已完成工程样片验证，这是其首次公开确认第六代平台采用4F2架构。工程样片验证完成意味着核心性能指标已在真实晶圆上达到设计预期，后续需客户端验证后方可进入规模量产。长鑫在4F2工程化进度上处于全球前列，有望成为全球首个落地4F2的企业。",
+      "points": [
+        "长鑫科技基于自研VSG（垂直包围栅）晶体管实现4F2架构，将DRAM与CMOS制造工艺解耦，通过晶圆级混合键合实现高速互联，可分别优化逻辑性能与存储密度。4F2单元面积约为6F2的三分之二，被视为破解DRAM微缩瓶颈、迈向3D DRAM的关键路径。",
+        "三星与SK海力士均将4F2列为10nm级以下关键方向，但长鑫率先完成工程样片验证。SK海力士将4F2垂直栅平台与3D DRAM并列为两大技术支柱，三星在ISSCC 2026发表相关论文。长鑫若后续顺利，有望成为全球首个落地4F2的企业。",
+        "长鑫预计年底面向服务器领域推出融合4F2技术的新一代DDR5 RDIMM产品，服务器是应用难度最高的领域之一。工程样片验证完成后，需在客户端完成验证方可进入规模量产阶段。"
+      ],
+      "cards": [
+        {
+          "heading": "技术突破",
+          "body": "长鑫科技基于自研VSG（垂直包围栅）晶体管实现4F2架构，将DRAM与CMOS制造工艺解耦，通过晶圆级混合键合实现高速互联，可分别优化逻辑性能与存储密度。4F2单元面积约为6F2的三分之二，被视为破解DRAM微缩瓶颈、迈向3D DRAM的关键路径。"
+        },
+        {
+          "heading": "进度对比",
+          "body": "三星与SK海力士均将4F2列为10nm级以下关键方向，但长鑫率先完成工程样片验证。SK海力士将4F2垂直栅平台与3D DRAM并列为两大技术支柱，三星在ISSCC 2026发表相关论文。长鑫若后续顺利，有望成为全球首个落地4F2的企业。"
+        },
+        {
+          "heading": "产品规划",
+          "body": "长鑫预计年底面向服务器领域推出融合4F2技术的新一代DDR5 RDIMM产品，服务器是应用难度最高的领域之一。工程样片验证完成后，需在客户端完成验证方可进入规模量产阶段。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584554.htm",
+      "published": "2026-10-31T14:34:11.000Z",
+      "score": 22.07,
+      "eventKey": "cxmt-g6-dram-4f2-architecture-sample-validation",
+      "originalTitle": "长鑫科技基于4F²架构的第六代技术平台DRAM完成工程样片验证",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584554.htm",
+        "retrievedAt": "2026-11-01T02:09:54.832Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "长鑫科技首次公开确认第六代DRAM技术平台基于4F2架构，并已完成工程样片验证。此前历史报道仅提及第六代DRAM完成样片验证，未披露4F2架构细节，这是新的事实披露，属于重要技术进展。",
+        "evidence": [
+          "长鑫科技在第三季度业绩交流会中表示,在4F2垂直沟道DRAM架构取得关键突破的基础之上,第六代工艺技术平台已完成工程样片的验证,这是长鑫首次宣布第六代工艺技术平台是基于4F2架构。",
+          ",按照产业实践,工程样片验证完成意味着该平台核心性能指标已在真实晶圆上达到设计预期,在客户端完成验证后可进入规模量产阶段。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "e695c5bb45e91",
+      "title": "联电称成熟制程明年涨价约10%",
+      "summary": "联电CEO王石在第三季度法说会上表示，因成熟制程产能利用率突破九成且部分技术满载，2027年全年平均销售价格预计上涨约10%，涨势自第一季度启动。8英寸与12英寸业务均有价格改善空间，年度价格协商已进入后期阶段。",
+      "points": [
+        "2027年综合ASP预计增加约10%，涨势自第一季度启动。王石称2027年将成为ASP走势转折点，8英寸与12英寸业务均有明确价格改善空间。",
+        "成熟制程产能利用率已突破九成，部分技术满载。2026Q3晶圆出货量约120万片12英寸晶圆，创历史新高，多座12英寸厂满载，8英寸厂强劲复苏。",
+        "22nm与28nm营收占整体35%，其中22nm单独占比18.3%。AI相关营收未来三年有望占总营收25%，硅光子与先进封装将成为新增长动力。"
+      ],
+      "cards": [
+        {
+          "heading": "涨价预期",
+          "body": "2027年综合ASP预计增加约10%，涨势自第一季度启动。王石称2027年将成为ASP走势转折点，8英寸与12英寸业务均有明确价格改善空间。"
+        },
+        {
+          "heading": "产能利用率",
+          "body": "成熟制程产能利用率已突破九成，部分技术满载。2026Q3晶圆出货量约120万片12英寸晶圆，创历史新高，多座12英寸厂满载，8英寸厂强劲复苏。"
+        },
+        {
+          "heading": "营收结构",
+          "body": "22nm与28nm营收占整体35%，其中22nm单独占比18.3%。AI相关营收未来三年有望占总营收25%，硅光子与先进封装将成为新增长动力。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/020/643.htm",
+      "published": "2026-10-31T23:46:05.000Z",
+      "score": 24.6,
+      "eventKey": "umc-2027-asp-10-percent-increase-guidance",
+      "originalTitle": "联电 CEO 王石：成熟制程明年预计将涨价约 10%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/020/643.htm",
+        "retrievedAt": "2026-11-01T02:09:54.470Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "联电CEO在Q3法说会明确给出2027年成熟制程ASP预计上涨约10%的具体数字，并指出涨价自2027年Q1启动，这是新的价格指引事件，属于重要市场动态。",
+        "evidence": [
+          "IT之家 11 月 1 日消息,在 10 月 28 日召开的联电(UMC)第三季度法人说明会上,联电首席执行官王石向投资者表示,因成熟制程产能利用率已突破九成且部分技术满载,2027 年全年的综合平均销售价格(ASP)预计将增加约 10%,涨势预计自 2027 年第一季度启动。",
+          "王石指出,2027 年将成为 ASP 走势的转折点,8 英寸与 12 英寸业务均有明确的价格改善空间,第一季度起有望迎来正向提升。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1a783715a8ac0b",
+      "title": "英特尔调整产能优先生产数据中心CPU",
+      "summary": "英特尔为应对AI需求，将部分客户端CPU产能转为数据中心CPU，扩建爱尔兰Fab 24生产Xeon，提前启动亚利桑那Fab 62设备安装，并将俄勒冈部分18A产线转回Intel 3。DCAI业务三季度收入73亿美元，同比增长近80%。",
+      "points": [
+        "扩建爱尔兰Fab 24以增产Xeon，产能2027年底投产。俄勒冈部分Intel 18A产线转为Intel 3，预计2027年下半年投产。加速Fab 52的18A生产，并提前安装Fab 62设备。",
+        "DCAI业务2026Q3收入73亿美元，环比增17%，同比增近80%。CEO陈立武称行业仍处史上最严重供应短缺之一，服务器供应增长有进展但未来几季仍有挑战。",
+        "优先提升Xeon 6“Granite Rapids”产量，采用Intel 3工艺。预计2027-2028年数据中心CPU需求强劲，受AI基础设施部署CPU密集型智能体与推理工作负载驱动。"
+      ],
+      "cards": [
+        {
+          "heading": "产能调整",
+          "body": "扩建爱尔兰Fab 24以增产Xeon，产能2027年底投产。俄勒冈部分Intel 18A产线转为Intel 3，预计2027年下半年投产。加速Fab 52的18A生产，并提前安装Fab 62设备。"
+        },
+        {
+          "heading": "财务表现",
+          "body": "DCAI业务2026Q3收入73亿美元，环比增17%，同比增近80%。CEO陈立武称行业仍处史上最严重供应短缺之一，服务器供应增长有进展但未来几季仍有挑战。"
+        },
+        {
+          "heading": "产品重点",
+          "body": "优先提升Xeon 6“Granite Rapids”产量，采用Intel 3工艺。预计2027-2028年数据中心CPU需求强劲，受AI基础设施部署CPU密集型智能体与推理工作负载驱动。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/020/642.htm",
+      "published": "2026-10-31T23:44:36.000Z",
+      "score": 22.6,
+      "eventKey": "intel-capacity-reallocation-client-to-data-center-cpu",
+      "originalTitle": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
+      "provenance": {
+        "url": "https://www.ithome.com/1/020/642.htm",
+        "retrievedAt": "2026-11-01T02:09:54.456Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英特尔财报电话会披露将部分产能从客户端CPU转向数据中心CPU，包括扩建爱尔兰Fab 24、提前安装亚利桑那Fab 62设备、俄勒冈18A转Intel 3等具体产能调整动作，是应对AI服务器供应短缺的重要制造策略变化。",
+        "evidence": [
+          "为此,英特尔正在将部分产能从客户端 CPU 重新分配给数据中心 CPU,扩展爱尔兰的 Fab 24 生产更多 Xeon 芯片,提前开始美国在亚利桑那州的 Fab 62 安装设备,并承诺生产 18A 芯片,同时在新墨西哥和马来西亚扩展先进封装能力。",
+          "该公司最近开始扩建位于爱尔兰莱克斯利普附近的 Fab 24 制造综合体的产能,但该产能要到 2027 年底才会投产。",
+          "为了进一步提升 Intel 3 的产能,英特尔计划将俄勒冈工厂部分制造资源从 Intel 18A 转换为 Intel 3。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/pc-components/cpus/intel-shifts-production-capacity-from-consumer-to-server-cpus-in-face-of-unprecedented-ai-demand-company-navigating-one-of-the-most-significant-supply-shortages-in-history"
+        }
+      ]
+    }
+  ]
+}
