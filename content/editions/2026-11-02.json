@@ -1,0 +1,245 @@
+{
+  "date": "2026-11-02",
+  "generatedAt": "2026-11-02T02:27:40.715Z",
+  "intro": "本期共 4 条动态，其中 2 条值得重点关注，集中在存储、政策与地缘方向。",
+  "stats": {
+    "count": 4,
+    "sources": 2,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "memory": 1,
+      "policy": 2,
+      "market": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 86354,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 12,
+      "readable": 9,
+      "accepted": 4,
+      "rejected": 4489,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "bfd9abc7baeca",
+      "title": "铠侠2027年产能售罄，2028年锁定超50%",
+      "summary": "铠侠控股在财报电话会议上表示，2027年芯片产能已全部售罄，2028年产能超50%获确定性采购承诺，并已启动2029-2030年洽谈。公司计划将1.3973万亿日元现金投入扩产，2026财年投资预计近6000亿日元。",
+      "points": [
+        "铠侠2027年芯片产能配额已基本分配完毕，处于售罄状态，所有产能均完成锁定，为历史首次。2028年产能超50%已获客户确定性承诺，并已启动2029-2030年洽谈。",
+        "截至9月底现金储备1.3973万亿日元，将全额投入成长性投资。2026财年投资规模预计近6000亿日元，提前执行原定2027财年的资本开支。",
+        "计划新建北上工厂第3制造厂房，预计2029财年内落成投产。第1、第2厂房已分别于2020年和2025年投产。"
+      ],
+      "cards": [
+        {
+          "heading": "产能售罄",
+          "body": "铠侠2027年芯片产能配额已基本分配完毕，处于售罄状态，所有产能均完成锁定，为历史首次。2028年产能超50%已获客户确定性承诺，并已启动2029-2030年洽谈。"
+        },
+        {
+          "heading": "投资计划",
+          "body": "截至9月底现金储备1.3973万亿日元，将全额投入成长性投资。2026财年投资规模预计近6000亿日元，提前执行原定2027财年的资本开支。"
+        },
+        {
+          "heading": "工厂扩建",
+          "body": "计划新建北上工厂第3制造厂房，预计2029财年内落成投产。第1、第2厂房已分别于2020年和2025年投产。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/020/849.htm",
+      "published": "2026-11-01T23:39:41.000Z",
+      "score": 24.54,
+      "eventKey": "kioxia-2027-capacity-sold-out-2028-50pct",
+      "originalTitle": "铠侠：2027 年芯片产能已售罄，2028 年配额锁定超 50%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/020/849.htm",
+        "retrievedAt": "2026-11-02T02:27:22.419Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "铠侠财报电话会披露2027年产能配额已全部售罄（历史首次）、2028年超50%锁定，并宣布2026财年资本开支提前至近6000亿日元、新建北上第3厂房，是NAND供应与扩产的重要新事实。",
+        "evidence": [
+          "IT之家 11 月 2 日消息,据日媒 ITmedia 报道,在铠侠控股 2027 财年第二财季(2026 年 7 月~2026 年 9 月)财报电话会议上,铠侠控股执行副总裁河村芳彦表示,铠侠 2027 年的芯片产能配额已基本分配完毕,处于售罄状态;所能供应的所有产能均已完成锁定,市场需求极其旺盛。",
+          "据悉,提前将次年全年的产能配额彻底锁死,这在铠侠历史上尚属首次。",
+          "此外,2028 年的产能也已有超过 50% 获得了客户的确定性采购承诺,目前铠侠甚至已经启动了面向 2029 至 2030 年的商务洽谈。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1f31c1f0d44d77",
+      "title": "英伟达10亿美元入股Naver成第三大股东",
+      "summary": "英伟达向韩国互联网巨头Naver投资10亿美元，认购完成后将持有约4.54%股权，超越创始人李海珍成为第三大股东。交易交割日期为2026年11月6日，旨在加速全球AI布局。",
+      "points": [
+        "英伟达以10亿美元（约合66.61亿元人民币）认购Naver新股，完成后持股约4.54%，超越创始人李海珍，成为第三大股东。交割日期为2026年11月6日。",
+        "交易后前两大股东仍为机构投资者：第一大股东韩国国民年金公团（NPS），第二大股东贝莱德（BlackRock）。英伟达位列第三，创始人李海珍持股被稀释。",
+        "Naver为韩国最大搜索引擎与门户网站，英伟达投资旨在加速全球AI布局，结合Naver的AI技术与韩国市场资源，拓展AI服务生态。"
+      ],
+      "cards": [
+        {
+          "heading": "交易概况",
+          "body": "英伟达以10亿美元（约合66.61亿元人民币）认购Naver新股，完成后持股约4.54%，超越创始人李海珍，成为第三大股东。交割日期为2026年11月6日。"
+        },
+        {
+          "heading": "股东结构",
+          "body": "交易后前两大股东仍为机构投资者：第一大股东韩国国民年金公团（NPS），第二大股东贝莱德（BlackRock）。英伟达位列第三，创始人李海珍持股被稀释。"
+        },
+        {
+          "heading": "战略意图",
+          "body": "Naver为韩国最大搜索引擎与门户网站，英伟达投资旨在加速全球AI布局，结合Naver的AI技术与韩国市场资源，拓展AI服务生态。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/020/884.htm",
+      "published": "2026-11-02T01:51:33.000Z",
+      "score": 19.9,
+      "eventKey": "nvidia-1b-investment-naver-third-largest-shareholder",
+      "originalTitle": "英伟达向韩国互联网巨头 Naver 投资 10 亿美元，将超越创始人成为第三大股东",
+      "provenance": {
+        "url": "https://www.ithome.com/1/020/884.htm",
+        "retrievedAt": "2026-11-02T02:27:22.571Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达向韩国Naver投资10亿美元，成为第三大股东，这是新的投资事件，具有具体金额和股权比例，属于重要产业动态。",
+        "evidence": [
+          "IT之家 11 月 2 日消息,据韩国经济日报报道,为加速全球 AI 布局,Naver 创始人兼董事会主席李海珍(Lee Hae-jin)借 10 亿美元(现汇率约合 66.61 亿元人民币)交易引入英伟达并稀释自身持股。",
+          "英伟达认购完成后将持有 Naver 约 4.54% 的股权,英伟达将超越创始人李海珍,正式升至第三大股东席位。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "3144450443eb7",
+      "title": "马斯克或让台积电运营德州芯片厂",
+      "summary": "据DIGITIMES报道，马斯克正重新考虑与台积电在Terafab项目上的合作方式，可能放弃独立建厂运营的初衷，转而让台积电运营其德州芯片厂。",
+      "points": [
+        "马斯克原计划独立建造并运营半导体晶圆厂，但据称该计划遇阻，现正重新评估与台积电的合作模式，可能由台积电负责运营其德州Terafab项目。",
+        "Terafab项目为马斯克在德州推进的芯片制造计划，此前曾寻求自主掌控制造环节，但面临技术、成本或进度挑战，促使考虑引入台积电运营。"
+      ],
+      "cards": [
+        {
+          "heading": "合作转向",
+          "body": "马斯克原计划独立建造并运营半导体晶圆厂，但据称该计划遇阻，现正重新评估与台积电的合作模式，可能由台积电负责运营其德州Terafab项目。"
+        },
+        {
+          "heading": "项目背景",
+          "body": "Terafab项目为马斯克在德州推进的芯片制造计划，此前曾寻求自主掌控制造环节，但面临技术、成本或进度挑战，促使考虑引入台积电运营。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261102PD209/tsmc-elon-musk-manufacturing-fab-investment.html",
+      "published": "2026-11-02T00:52:45.000Z",
+      "score": 26.74,
+      "eventKey": "musk-tsmc-terafab-operation-reconsideration",
+      "originalTitle": "Musk may let TSMC run his Texas chip fab as his go-it-alone plan stalls",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261102PD209/tsmc-elon-musk-manufacturing-fab-investment.html",
+        "retrievedAt": "2026-11-02T02:27:22.114Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "马斯克可能改变Terafab项目策略，考虑让台积电运营其德州芯片工厂，属于新的合作动态。",
+        "evidence": [
+          "Elon Musk is reportedly reconsidering his approach to collaborating with TSMC on the Terafab project, signaling a potential shift from his original ambition to independently build and operate semiconductor fabs."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ab17818219efd",
+      "title": "韩国10月半导体出口564.4亿美元，同比增259%",
+      "summary": "韩国产业通商资源部数据显示，2026年10月半导体出口达564.4亿美元，同比增长259%，连续第二个月突破500亿美元，占出口总额约一半。16Gb DDR5 DRAM价格涨至50美元，128Gb NAND维持30.6美元。",
+      "points": [
+        "10月半导体出口564.4亿美元，同比增259%，占韩国出口总额1153亿美元的约49%。计算机出口58.5亿美元，同比增496.6%。",
+        "16Gb DDR5 DRAM价格10月涨至50.0美元，较9月提升2美元；128Gb NAND闪存价格维持在30.6美元。",
+        "显示产品出口190亿美元（+29%），汽车170亿美元（+15%），船舶260亿美元（-44%），二次电池70亿美元（+38%）。"
+      ],
+      "cards": [
+        {
+          "heading": "出口数据",
+          "body": "10月半导体出口564.4亿美元，同比增259%，占韩国出口总额1153亿美元的约49%。计算机出口58.5亿美元，同比增496.6%。"
+        },
+        {
+          "heading": "存储价格",
+          "body": "16Gb DDR5 DRAM价格10月涨至50.0美元，较9月提升2美元；128Gb NAND闪存价格维持在30.6美元。"
+        },
+        {
+          "heading": "其他品类",
+          "body": "显示产品出口190亿美元（+29%），汽车170亿美元（+15%），船舶260亿美元（-44%），二次电池70亿美元（+38%）。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/020/867.htm",
+      "published": "2026-11-02T01:00:45.000Z",
+      "score": 24.76,
+      "eventKey": "korea-oct-2026-semiconductor-exports-56.4b",
+      "originalTitle": "韩国 2026 年 10 月半导体出口再超 500 亿美元，持续贡献近半出口总额",
+      "provenance": {
+        "url": "https://www.ithome.com/1/020/867.htm",
+        "retrievedAt": "2026-11-02T02:27:22.391Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "韩国产业通商资源部官方月度出口数据：10月半导体出口564.4亿美元，同比增长259%，连续第二个月突破500亿美元，并附DDR5/NAND价格，是新的月度贸易统计事实。",
+        "evidence": [
+          "IT之家 11 月 2 日消息,根据韩国产业通商资源部当地时间昨日提供的数据,该国 2026 年 10 月半导体出口达 564.4 亿美元(IT之家注:现汇率约合 3,759.39 亿元人民币),同比增长 259%。",
+          "这是该金额连续第二个月突破五百亿美元关口,持续贡献出口总额(1,153 亿美元)的约一半。",
+          "关键半导体产品方面,16Gb DDR5 DRAM 内存的价格在 10 月涨至 50.0 美元,较 9 月进一步提升 2 美元;128Gb NAND 闪存的价格则维持在 30.6 美元。"
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
