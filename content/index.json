@@ -1,7 +1,24 @@
 {
-  "generatedAt": "2026-11-02T02:27:40.719Z",
-  "total": 17,
+  "generatedAt": "2026-11-03T03:56:45.718Z",
+  "total": 18,
   "editions": [
+    {
+      "date": "2026-11-03",
+      "count": 13,
+      "intro": "本期共 13 条动态，其中 6 条值得重点关注，集中在市场与产业、芯片设计、设备、政策与地缘方向。",
+      "top": [
+        "苹果第四财季库存激增154%，存储芯片成本压力持续",
+        "Marvell收购Lumentum，获InP激光器供应",
+        "TEL预计营业利润大增90%并回购1500亿日元"
+      ],
+      "categories": {
+        "market": 3,
+        "design": 7,
+        "equipment": 1,
+        "policy": 1,
+        "memory": 1
+      }
+    },
     {
       "date": "2026-11-02",
       "count": 4,
