@@ -1,0 +1,919 @@
+{
+  "date": "2026-11-04",
+  "generatedAt": "2026-11-04T03:02:11.954Z",
+  "intro": "本期共 16 条动态，其中 13 条值得重点关注，集中在市场与产业、政策与地缘、材料与封测方向。",
+  "stats": {
+    "count": 16,
+    "sources": 9,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "market": 2,
+      "policy": 4,
+      "material": 2,
+      "foundry": 3,
+      "design": 5
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 175193,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 35,
+      "readable": 35,
+      "accepted": 16,
+      "rejected": 4447,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "13381df25f5810",
+      "title": "AMD三季度营收134亿美元创纪录",
+      "summary": "AMD公布2026年第三季度财报，营收134亿美元创纪录，同比增长45%，数据中心部门营收85亿美元，同比大增97%。CEO苏姿丰称Instinct GPU和EPYC CPU需求强劲，预计四季度增长加速。",
+      "points": [
+        "Q3营收134亿美元，同比增45%，环比增16%；GAAP毛利率54%，营业利润28亿美元，净利润24亿美元，摊薄每股收益1.46美元。非GAAP毛利率56%，营业利润39亿美元，每股收益2.09美元，同比增74%。",
+        "数据中心部门营收85亿美元，同比增97%，受Instinct MI450 GPU和EPYC处理器推动。客户端营收29亿美元，同比增7%；游戏业务营收7.73亿美元，同比降40%；嵌入式营收11亿美元，同比增29%。",
+        "Anthropic、Meta、Microsoft、OpenAI和OCI已部署基于Instinct MI450和第六代EPYC的Helios机架方案。HPE宣布Vultr将部署首批Helios系统，OCI推出基于第六代EPYC的E7实例。",
+        "发布ROCm 10，引入AI原生体验；EuroHPC JU选择Instinct MI430X和第六代EPYC用于LUMI-AI超算；Google Cloud和Microsoft推出基于第五代EPYC的存储优化实例。"
+      ],
+      "cards": [
+        {
+          "heading": "整体业绩",
+          "body": "Q3营收134亿美元，同比增45%，环比增16%；GAAP毛利率54%，营业利润28亿美元，净利润24亿美元，摊薄每股收益1.46美元。非GAAP毛利率56%，营业利润39亿美元，每股收益2.09美元，同比增74%。"
+        },
+        {
+          "heading": "部门表现",
+          "body": "数据中心部门营收85亿美元，同比增97%，受Instinct MI450 GPU和EPYC处理器推动。客户端营收29亿美元，同比增7%；游戏业务营收7.73亿美元，同比降40%；嵌入式营收11亿美元，同比增29%。"
+        },
+        {
+          "heading": "客户与产品",
+          "body": "Anthropic、Meta、Microsoft、OpenAI和OCI已部署基于Instinct MI450和第六代EPYC的Helios机架方案。HPE宣布Vultr将部署首批Helios系统，OCI推出基于第六代EPYC的E7实例。"
+        },
+        {
+          "heading": "生态进展",
+          "body": "发布ROCm 10，引入AI原生体验；EuroHPC JU选择Instinct MI430X和第六代EPYC用于LUMI-AI超算；Google Cloud和Microsoft推出基于第五代EPYC的存储优化实例。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "AMD Investor Relations",
+      "sourceLang": "en",
+      "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+      "published": "2026-11-03T08:15:00.000Z",
+      "score": 29.04,
+      "eventKey": "amd-q3-2026-record-revenue-datacenter-97pct",
+      "originalTitle": "AMD Reports Third Quarter 2026 Financial Results",
+      "provenance": {
+        "url": "https://ir.amd.com/news-events/press-releases/detail/1303/amd-reports-third-quarter-2026-financial-results",
+        "retrievedAt": "2026-11-04T03:00:25.535Z",
+        "articlePublished": "2026-11-03T08:15:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "AMD发布2026年第三季度财报，营收134亿美元创纪录，数据中心业务同比增长97%，非GAAP每股收益增长74%，为重要财务事件。",
+        "evidence": [
+          "Third quarter revenue was $13.4 billion, gross margin was 54%, operating income was $2.8 billion, net income was $2.4 billion and diluted earnings per share was $1.46.",
+          " Up 75% $3,094 Up 27% Operating margin 29% 24% Up 5 ppts 27% Up 2 ppts Net income ($M) $3,471 $1,965 Up 77% $2,760 Up 26% Diluted earnings per share $2.09 $1.20 Up 74% $1.66 Up 26% Segment Summary Data Center segment revenue was a record $8",
+          ".5 billion, up 97% year-over-year, driven by strong demand for AMD EPYCTM processors and the launch of AMD InstinctTM MI450 Series GPUs."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354446/amd-reports-record-usd-13-4b-third-quarter-2026-revenue"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/021/871.htm"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/021/881.htm"
+        }
+      ]
+    },
+    {
+      "id": "13e38d3de3610f",
+      "title": "SK海力士纽约建厂受出口管制制约",
+      "summary": "SK海力士美国子公司Solidigm计划在纽约州马西投资450亿美元建设两座NAND闪存工厂，但公司希望先扩大大连工厂产能以筹集资金，而美国商务部对新增设备出口中国的审批迟迟未决，项目面临政策两难。",
+      "points": [
+        "Solidigm计划在纽约州马西建设两座NAND闪存工厂，初期投资约450亿美元，若后续扩大，长期投资总额可能达1000亿美元。",
+        "自8月底以来，Solidigm高管与美国商务部官员进行了近10次会谈。最近一次会谈中，商务部副部长Jeffrey Kessler仍坚持不允许通过新增美国设备升级或扩大中国工厂产能。",
+        "SK海力士希望扩大大连工厂产能以增加收入，为纽约项目提供资金，但美国出口管制政策收紧，撤销了部分便利安排，要求逐年申请许可证。大连工厂Mod B区域厂房2023年建成，设备未完全安装。",
+        "纽约州官员希望未来几周内明确许可问题，因为联邦投资税收抵免政策将于2026年底到期，若项目无法及时推进，企业可能错过税收优惠。"
+      ],
+      "cards": [
+        {
+          "heading": "投资规模",
+          "body": "Solidigm计划在纽约州马西建设两座NAND闪存工厂，初期投资约450亿美元，若后续扩大，长期投资总额可能达1000亿美元。"
+        },
+        {
+          "heading": "谈判进展",
+          "body": "自8月底以来，Solidigm高管与美国商务部官员进行了近10次会谈。最近一次会谈中，商务部副部长Jeffrey Kessler仍坚持不允许通过新增美国设备升级或扩大中国工厂产能。"
+        },
+        {
+          "heading": "政策困境",
+          "body": "SK海力士希望扩大大连工厂产能以增加收入，为纽约项目提供资金，但美国出口管制政策收紧，撤销了部分便利安排，要求逐年申请许可证。大连工厂Mod B区域厂房2023年建成，设备未完全安装。"
+        },
+        {
+          "heading": "时间压力",
+          "body": "纽约州官员希望未来几周内明确许可问题，因为联邦投资税收抵免政策将于2026年底到期，若项目无法及时推进，企业可能错过税收优惠。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584930.htm",
+      "published": "2026-11-03T22:10:50.000Z",
+      "score": 18.2,
+      "eventKey": "sk-hynix-ny-fab-plan-export-license-obstacle",
+      "originalTitle": "SK海力士450亿美元纽约建厂计划遭遇阻碍 扩产融资陷入两难",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584930.htm",
+        "retrievedAt": "2026-11-04T03:00:40.909Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "报道披露了SK海力士450亿美元纽约建厂计划遭遇美国商务部出口许可审批阻碍的详细情况，包括Solidigm高管与美国商务部近10次会谈、副部长Jeffrey Kessler的立场，以及大连工厂扩产与纽约建厂资金挂钩的困境。这是对历史中Solidigm建厂计划的重要新进展。",
+        "evidence": [
+          "Solidigm计划在纽约州马西(Marcy)建设两座NAND闪存工厂,初期投资规模约为450亿美元。",
+          "知情人士透露,SK海力士美国子公司Solidigm的高管自今年8月底以来,已经与美国商务部官员进行了接近10次会谈。",
+          "在最近一次会谈中,美国商务部副部长Jeffrey Kessler仍坚持不允许通过新增美国设备升级或扩大中国工厂产能的立场。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c61262e389ef0",
+      "title": "三季度全球半导体销售额达5177亿美元",
+      "summary": "SIA数据显示，2026年第三季度全球半导体销售额达5177亿美元，环比增长24.1%。9月单月销售额1726亿美元，同比增146.8%，所有主要区域市场均实现同比增长。",
+      "points": [
+        "三季度全球半导体销售额5177亿美元，环比增24.1%，连续第三个季度环比增长超20%。SIA总裁称增长强劲，凸显半导体对全球创新的核心作用。",
+        "9月各区域同比均增长：美洲增191.7%，亚太及其他增141.4%，中国增124.9%，欧洲增102.5%，日本增73.4%。环比方面，美洲增11%，日本增8.7%，欧洲增8.1%。"
+      ],
+      "cards": [
+        {
+          "heading": "季度数据",
+          "body": "三季度全球半导体销售额5177亿美元，环比增24.1%，连续第三个季度环比增长超20%。SIA总裁称增长强劲，凸显半导体对全球创新的核心作用。"
+        },
+        {
+          "heading": "区域表现",
+          "body": "9月各区域同比均增长：美洲增191.7%，亚太及其他增141.4%，中国增124.9%，欧洲增102.5%，日本增73.4%。环比方面，美洲增11%，日本增8.7%，欧洲增8.1%。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/global-semiconductor-sales-up-24-to-517-7b-in-3q-2026/",
+      "published": "2026-11-03T23:42:41.000Z",
+      "score": 27.45,
+      "eventKey": "sia-q3-2026-global-semiconductor-sales-517.7b",
+      "originalTitle": "Global Semiconductor Sales Up 24% to $517.7B in 3Q 2026",
+      "provenance": {
+        "url": "https://www.eetasia.com/global-semiconductor-sales-up-24-to-517-7b-in-3q-2026/",
+        "retrievedAt": "2026-11-04T03:00:40.259Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SIA数据显示2026年第三季度全球半导体销售额达5177亿美元，环比增长24.1%，9月销售额同比增长146.8%，为重要行业数据。",
+        "evidence": [
+          "Worldwide semiconductor sales reached $517.7 billion in the third quarter of 2026, up by 24.1% from the second quarter, according to the Semiconductor Industry Association (SIA).",
+          "September sales totaled $172.6 billion, representing a 146.8% increase from the same month in 2025 and a 7.9% rise from August 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f2ad5faeb3349",
+      "title": "Wolfspeed推出透明SiC衬底",
+      "summary": "Wolfspeed商业发布透明碳化硅（TSiC）技术，光学级衬底面向AR波导、量子计算和先进光学应用。该材料利用SiC的高折射率、低双折射等特性，有望实现更宽视场和紧凑AR设备，同时SiC晶体可承载量子比特。公司正推进200mm光学级衬底并开发300mm技术。",
+      "points": [
+        "TSiC衬底具有低光学吸收和高平坦度，SiC的高折射率（约2.6）和低双折射使单层波导可替代多层光学堆栈，提升AR视场和图像质量。",
+        "SiC晶体可承载量子比特并保持量子态，通过光传输量子信息，这一组合功能区别于其他材料。",
+        "基于35年以上SiC经验，包括LED和高纯半绝缘晶圆技术。目前推进200mm光学级衬底，同时开发300mm TSiC以应对未来需求。"
+      ],
+      "cards": [
+        {
+          "heading": "材料特性",
+          "body": "TSiC衬底具有低光学吸收和高平坦度，SiC的高折射率（约2.6）和低双折射使单层波导可替代多层光学堆栈，提升AR视场和图像质量。"
+        },
+        {
+          "heading": "量子计算潜力",
+          "body": "SiC晶体可承载量子比特并保持量子态，通过光传输量子信息，这一组合功能区别于其他材料。"
+        },
+        {
+          "heading": "技术路线",
+          "body": "基于35年以上SiC经验，包括LED和高纯半绝缘晶圆技术。目前推进200mm光学级衬底，同时开发300mm TSiC以应对未来需求。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/wolfspeed-intros-transparent-sic-substrates-for-ar-quantum-computing/",
+      "published": "2026-11-03T23:53:08.000Z",
+      "score": 25.48,
+      "eventKey": "wolfspeed-transparent-sic-substrate-commercial-launch",
+      "originalTitle": "Wolfspeed Intros Transparent SiC Substrates for AR, Quantum Computing",
+      "provenance": {
+        "url": "https://www.eetasia.com/wolfspeed-intros-transparent-sic-substrates-for-ar-quantum-computing/",
+        "retrievedAt": "2026-11-04T03:00:41.434Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Wolfspeed首次商业化推出透明碳化硅（TSiC）衬底，面向AR和量子计算等新兴应用，是具体的新产品发布。",
+        "evidence": [
+          "Wolfspeed Inc. has commercially introduced its transparent silicon carbide (TSiC) technology, targeting applications in augmented reality (AR), quantum computing and advanced optics.",
+          "The company&#8217;s optical-grade TSiC substrates are designed for low optical absorption and high wafer flatness."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1558fc6582c6f",
+      "title": "Tower与Innolight推进近封装光学量产",
+      "summary": "Tower Semiconductor与Innolight深化合作，推进近封装光学（NPO）应用。Innolight首款NPO器件已进入早期生产，采用Tower的PH18M硅光工艺，同时多款NPO产品已在300mm平台完成流片。",
+      "points": [
+        "Innolight首款NPO器件进入早期生产，采用Tower的PH18M硅光工艺，在Tower美国加州工厂制造。",
+        "Innolight已在Tower的300mm硅光平台完成多款NPO产品的流片，为未来产品世代做准备。",
+        "Innolight已成为Tower四个工厂的基石客户，分布在美国加州纽波特比奇、德州圣安东尼奥、以色列和日本。",
+        "NPO架构通常需集成16个以上光通道，Tower的200mm和300mm硅光平台提供高良率与单片集成能力，支持波分复用等功能。"
+      ],
+      "cards": [
+        {
+          "heading": "首款器件投产",
+          "body": "Innolight首款NPO器件进入早期生产，采用Tower的PH18M硅光工艺，在Tower美国加州工厂制造。"
+        },
+        {
+          "heading": "300mm流片",
+          "body": "Innolight已在Tower的300mm硅光平台完成多款NPO产品的流片，为未来产品世代做准备。"
+        },
+        {
+          "heading": "多工厂合作",
+          "body": "Innolight已成为Tower四个工厂的基石客户，分布在美国加州纽波特比奇、德州圣安东尼奥、以色列和日本。"
+        },
+        {
+          "heading": "NPO技术优势",
+          "body": "NPO架构通常需集成16个以上光通道，Tower的200mm和300mm硅光平台提供高良率与单片集成能力，支持波分复用等功能。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/tower-semiconductor-and-innolight-advance-high-performance-near-package-optics-for-ai-infrastructure",
+      "published": "2026-11-03T19:25:52.000Z",
+      "score": 24.74,
+      "eventKey": "tower-innolight-npo-early-production-tapeout",
+      "originalTitle": "Tower Semiconductor and Innolight Advance High-Performance Near-Package Optics for AI Infrastructure",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/tower-semiconductor-and-innolight-advance-high-performance-near-package-optics-for-ai-infrastructure",
+        "retrievedAt": "2026-11-04T03:00:28.321Z",
+        "articlePublished": "2026-11-03T19:25:52.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Tower Semiconductor与Innolight在NPO（近封装光学）领域的合作取得关键里程碑：首款NPO器件已进入早期生产，采用Tower的PH18M硅光子工艺，并在其美国加州工厂流片。同时，Innolight已在Tower的300mm硅光子平台上完成多个NPO产品的tape-out。这是具体的研发与生产进展。",
+        "evidence": [
+          "Leveraging Tower’s high-volume 200mm and 300mm Silicon Photonics platforms, Innolight has achieved a key milestone in the development of its Near-Package Optics (NPO) portfolio with its first NPO device entering early production using Tower",
+          "In parallel, Innolight has taped-out multiple NPO products on Tower’s 300mm Silicon Photonics platform to support future product generations."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "41259b95ad390",
+      "title": "消息称：DeepSeek V5拟用华为昇腾950训练",
+      "summary": "据报道，DeepSeek计划采用华为昇腾950芯片作为下一代V5模型的核心训练硬件，将双方合作从推理扩展至2027年的完整模型训练，这是中国替代英伟达方案的关键测试。",
+      "points": [
+        "DeepSeek V5将使用华为Ascend 950作为核心训练芯片，替代此前依赖的英伟达GPU，标志合作从推理阶段延伸至训练阶段。",
+        "目标在2027年实现基于昇腾950的完整模型训练，目前处于规划阶段，尚未公布具体训练规模或性能基准。",
+        "此举被视为中国AI芯片生态的关键测试，验证昇腾950能否支撑前沿大模型训练，挑战英伟达在训练市场的统治地位。"
+      ],
+      "cards": [
+        {
+          "heading": "训练硬件切换",
+          "body": "DeepSeek V5将使用华为Ascend 950作为核心训练芯片，替代此前依赖的英伟达GPU，标志合作从推理阶段延伸至训练阶段。"
+        },
+        {
+          "heading": "时间表",
+          "body": "目标在2027年实现基于昇腾950的完整模型训练，目前处于规划阶段，尚未公布具体训练规模或性能基准。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "此举被视为中国AI芯片生态的关键测试，验证昇腾950能否支撑前沿大模型训练，挑战英伟达在训练市场的统治地位。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261104VL213/deepseek-training-ascend-huawei-nvidia.html",
+      "published": "2026-11-04T01:26:38.000Z",
+      "score": 23.74,
+      "eventKey": "deepseek-v5-huawei-ascend-950-training-plan",
+      "originalTitle": "DeepSeek V5 reportedly targets Huawei Ascend 950 training in 2027, a crucial test for a Chinese alternative to Nvidia",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261104VL213/deepseek-training-ascend-huawei-nvidia.html",
+        "retrievedAt": "2026-11-04T03:00:29.848Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "据报道，DeepSeek计划在2027年使用华为Ascend 950芯片作为其下一代V5模型的核心训练硬件，将双方合作从推理扩展至完整模型训练。这是关于中国AI芯片生态的具体新动态。",
+        "evidence": [
+          "DeepSeek plans to use Huawei's Ascend 950 chips as the core training hardware for its next-generation V5 model, potentially extending the companies' partnership from inference to full model training in 2027."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1584854.htm"
+        }
+      ]
+    },
+    {
+      "id": "72e2ec0b13bcf",
+      "title": "联发科获英伟达35亿美元投资，剑指AI",
+      "summary": "联发科CEO蔡明介在2026年台湾周开幕式上表示，公司正从手机芯片扩展至计算、汽车和AI数据中心领域，英伟达与Alphabet投资其可转债不仅带来资金，更体现全球AI巨头对联发科的信心。",
+      "points": [
+        "英伟达向联发科投资35亿美元，Alphabet也参与可转债认购，总金额未披露，但蔡明介强调这代表战略信任而非单纯资本注入。",
+        "联发科正从智能手机和连接芯片，向高性能计算、汽车电子和AI数据中心芯片领域扩张，目标成为全球AI领导者。",
+        "英伟达与联发科此前已在车用芯片和AI PC领域合作，此次投资进一步绑定双方在AI算力市场的协同。"
+      ],
+      "cards": [
+        {
+          "heading": "投资规模",
+          "body": "英伟达向联发科投资35亿美元，Alphabet也参与可转债认购，总金额未披露，但蔡明介强调这代表战略信任而非单纯资本注入。"
+        },
+        {
+          "heading": "业务扩展",
+          "body": "联发科正从智能手机和连接芯片，向高性能计算、汽车电子和AI数据中心芯片领域扩张，目标成为全球AI领导者。"
+        },
+        {
+          "heading": "合作背景",
+          "body": "英伟达与联发科此前已在车用芯片和AI PC领域合作，此次投资进一步绑定双方在AI算力市场的协同。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261103PD238/mediatek-nvidia-taiwan-ceo-rick-tsai.html",
+      "published": "2026-11-03T23:06:06.000Z",
+      "score": 23.35,
+      "eventKey": "mediatek-ai-leadership-nvidia-3.5b-investment",
+      "originalTitle": "MediaTek targets global AI leadership as Nvidia invests US$3.5 billion",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261103PD238/mediatek-nvidia-taiwan-ceo-rick-tsai.html",
+        "retrievedAt": "2026-11-04T03:00:31.453Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "联发科CEO在台湾周2026开幕式上演讲，提及英伟达和Alphabet投资联发科可转债，这是新的公开表态。",
+        "evidence": [
+          "MediaTek CEO Rick Tsai delivered a speech at the opening ceremony of Taiwan Weeks 2026 on November 3, emphasizing that the company is expanding beyond smartphone and connectivity chips into computing, automotive, and artificial intelligence",
+          "He also noted that Nvidia and Alphabet's recent investment in MediaTek convertible bonds represents more than just capital injections, but also confidence in MediaTek from leading global AI players."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d103ec27dd145",
+      "title": "消息称：三星泰勒二厂拟为AMD等产HBM基础裸片",
+      "summary": "据报道，据韩媒报道，三星电子晶圆代工业务计划在美国得克萨斯州泰勒集群的第二晶圆厂为AMD等客户生产HBM基础裸片。该厂本月动工，预计2030年投运，产品还可能用于博通为客户打造的AI ASIC。",
+      "points": [
+        "三星泰勒集群首座晶圆厂将于2026年内投运，第二晶圆厂本月动工，预计2030年投运，将承接HBM基础裸片代工订单。",
+        "除AMD外，业内人士认为泰勒二厂制造的HBM基础裸片也可能被用于博通为客户打造的AI ASIC，扩大代工客户群。",
+        "自HBM4世代起，内存制造商自有工艺难以满足基础裸片与XPU通信的性能需求，定制HBM需将部分XPU功能卸载至基础裸片，促使外部代工需求增加。"
+      ],
+      "cards": [
+        {
+          "heading": "产能规划",
+          "body": "三星泰勒集群首座晶圆厂将于2026年内投运，第二晶圆厂本月动工，预计2030年投运，将承接HBM基础裸片代工订单。"
+        },
+        {
+          "heading": "客户范围",
+          "body": "除AMD外，业内人士认为泰勒二厂制造的HBM基础裸片也可能被用于博通为客户打造的AI ASIC，扩大代工客户群。"
+        },
+        {
+          "heading": "技术背景",
+          "body": "自HBM4世代起，内存制造商自有工艺难以满足基础裸片与XPU通信的性能需求，定制HBM需将部分XPU功能卸载至基础裸片，促使外部代工需求增加。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/021/954.htm",
+      "published": "2026-11-04T01:57:58.000Z",
+      "score": 22.83,
+      "eventKey": "samsung-taylor-fab2-hbm-base-die-amd",
+      "originalTitle": "消息称三星电子计划在美国泰勒第二晶圆厂为 AMD 等客户生产 HBM 基础裸片",
+      "provenance": {
+        "url": "https://www.ithome.com/1/021/954.htm",
+        "retrievedAt": "2026-11-04T03:00:31.885Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星电子计划在泰勒第二晶圆厂为AMD等客户生产HBM基础裸片，这是重要的新产能规划消息。",
+        "evidence": [
+          "IT之家 11 月 4 日消息,韩媒《每日经济》当地时间昨日报道称,三星电子晶圆代工业务计划在其美国得克萨斯州泰勒市集群的第二晶圆厂为 AMD 等客户生产 HBM 基础裸片 (Base Die)。",
+          "IT之家注意到,三星晶圆代工泰勒集群的首座晶圆厂将在 2026 年内投运;第二晶圆厂则将在本月动工,预计 2030 年投运。",
+          "业内人士认为,三星晶圆代工泰勒第二晶圆厂制造的 HBM 基础裸片除流向 AMD 外,也可能被用于博通为客户打造的 AI ASIC。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1584892.htm"
+        }
+      ]
+    },
+    {
+      "id": "13139fd01d8915",
+      "title": "走私者利用管制漏洞将HBM运入中国",
+      "summary": "据The Information报道，一名内存走私者透露，通过将受出口管制的HBM芯片与低性能处理器搭配，利用管制规则只审查处理器性能的漏洞，将三星和SK海力士的HBM从韩国带入中国。",
+      "points": [
+        "走私者拥有芯片设计公司，制造符合美韩出口管制的廉价低性能处理器，再搭配三星和SK海力士的高价HBM，因管制规则仅关注处理器性能，HBM得以规避监管。",
+        "HBM芯片单独出口至中国被禁止，但搭配低性能处理器后，整体系统未被管制规则覆盖，形成漏洞。"
+      ],
+      "cards": [
+        {
+          "heading": "走私手法",
+          "body": "走私者拥有芯片设计公司，制造符合美韩出口管制的廉价低性能处理器，再搭配三星和SK海力士的高价HBM，因管制规则仅关注处理器性能，HBM得以规避监管。"
+        },
+        {
+          "heading": "管制对象",
+          "body": "HBM芯片单独出口至中国被禁止，但搭配低性能处理器后，整体系统未被管制规则覆盖，形成漏洞。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+      "published": "2026-11-03T12:04:32.000Z",
+      "score": 20.51,
+      "eventKey": "hbm-smuggling-south-korea-china-trade-loophole",
+      "originalTitle": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+        "retrievedAt": "2026-11-04T03:00:32.659Z",
+        "articlePublished": "2026-11-03T12:04:32.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "揭露利用出口管制漏洞将韩国HBM走私至中国的新手法，涉及政策与供应链安全，具有重要产业影响。",
+        "evidence": [
+          "A memory smuggler has detailed how he gets export-controlled HBM chips from South Korea into China using a loophole.",
+          "According to The Information, the smuggler owns a chip design firm that build cheap, low-performing processors that fall under the U.S. and South Korea’s export controls.",
+          "They are then paired with expensive HBM from Samsung and SK hynix, that, on their own, are banned for export to China."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1584838.htm"
+        }
+      ]
+    },
+    {
+      "id": "35e96f9a1352a",
+      "title": "上海凯锐恩实现半导体工艺保护流体材料突破",
+      "summary": "上海凯锐恩半导体科技历时近七年，开发出晶圆级工艺保护的流体成型材料及配套热压成型设备，实现“材料+设备+工艺”三位一体，产品已应用于芯片先进封装领域，打破国外垄断。",
+      "points": [
+        "绕开传统保护胶带专利壁垒，以耐腐蚀、无气泡、无剥离残留的流体成型材料替代胶带，解决固有物理缺陷，技术处于国际领先水平。",
+        "产品已应用于芯片先进封装领域，实现国内半导体工艺保护流体材料的产业化突破。与国内外头部芯片制造商合作，在晶圆减薄保护、切割保护等场景完成多轮工艺验证。",
+        "该技术有助于摆脱半导体保护材料与设备的进口依赖，建立全球领先的自主产业体系，为先进封装关键材料升级开辟新路径。"
+      ],
+      "cards": [
+        {
+          "heading": "技术突破",
+          "body": "绕开传统保护胶带专利壁垒，以耐腐蚀、无气泡、无剥离残留的流体成型材料替代胶带，解决固有物理缺陷，技术处于国际领先水平。"
+        },
+        {
+          "heading": "产业化进展",
+          "body": "产品已应用于芯片先进封装领域，实现国内半导体工艺保护流体材料的产业化突破。与国内外头部芯片制造商合作，在晶圆减薄保护、切割保护等场景完成多轮工艺验证。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "该技术有助于摆脱半导体保护材料与设备的进口依赖，建立全球领先的自主产业体系，为先进封装关键材料升级开辟新路径。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "雷锋网",
+      "sourceLang": "zh",
+      "url": "https://www.leiphone.com/category/industrynews/PHr6tfngmZX7R5db.html",
+      "published": "2026-11-03T09:41:00.000Z",
+      "score": 20.12,
+      "eventKey": "kairuien-fluid-protection-material-advanced-packaging-breakthrough",
+      "originalTitle": "国内首个半导体工艺保护流体材料重大突破",
+      "provenance": {
+        "url": "https://www.leiphone.com/category/industrynews/PHr6tfngmZX7R5db.html",
+        "retrievedAt": "2026-11-04T03:00:48.894Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "国内半导体工艺保护流体材料取得突破，属于材料领域的产业化进展，有具体事实（上海凯锐恩开发流体成型材料及设备，应用于先进封装），符合半导体产业新闻收录标准。",
+        "evidence": [
+          "历时近七年自主攻关,上海凯锐恩半导体科技有限公司成功开发出应用于晶圆级工艺保护的流体成型材料及配套热压成型设备,建立起完整的知识产权体系,实现“材料+设备+工艺”三位一体。",
+          "产品已应用于芯片先进封装领域,实现了国内半导体工艺保护流体材料的产业化突破,技术处于国际领先水平。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "142eb9567f31",
+      "title": "大众中国重建技术体系：架构联合小鹏，芯片三路线",
+      "summary": "大众汽车在中国发布VEGA本地技术体系，涵盖整车平台、电子电气架构及ADAS，其中CEA架构与小鹏联合开发；同时布局三条ADAS芯片路线，包括与地平线合资公司酷睿程自研C7H芯片，计划2028年量产。",
+      "points": [
+        "10月28日发布VEGA体系，基于CEA架构的AI工具链C-Brain将软件测试周期从3天缩短至2-3小时，问题诊断从2周压缩至20分钟。",
+        "大众在中国布局三条ADAS芯片路线，其中酷睿程开发代号Nash Architecture的C7H SoC，计划2028年量产，地平线提供IP和AI模型支持。",
+        "CEA由VCTC、CARIAD中国与小鹏汽车基于小鹏EEA 3.0联合开发，小鹏2026年演进至EEA 4.0，CEA 1.0面临升级问题。",
+        "大众计划2027年实现L3级自动驾驶技术就绪，但Counterpoint预计面向个人用户的商业化最早2029年。"
+      ],
+      "cards": [
+        {
+          "heading": "本地技术体系",
+          "body": "10月28日发布VEGA体系，基于CEA架构的AI工具链C-Brain将软件测试周期从3天缩短至2-3小时，问题诊断从2周压缩至20分钟。"
+        },
+        {
+          "heading": "芯片三路线",
+          "body": "大众在中国布局三条ADAS芯片路线，其中酷睿程开发代号Nash Architecture的C7H SoC，计划2028年量产，地平线提供IP和AI模型支持。"
+        },
+        {
+          "heading": "架构合作",
+          "body": "CEA由VCTC、CARIAD中国与小鹏汽车基于小鹏EEA 3.0联合开发，小鹏2026年演进至EEA 4.0，CEA 1.0面临升级问题。"
+        },
+        {
+          "heading": "L3规划",
+          "body": "大众计划2027年实现L3级自动驾驶技术就绪，但Counterpoint预计面向个人用户的商业化最早2029年。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1584798.htm",
+      "published": "2026-11-03T05:59:27.000Z",
+      "score": 18.5,
+      "eventKey": "volkswagen-china-tech-architecture-chip-strategy",
+      "originalTitle": "大众汽车在中国重建技术体系：架构联合小鹏开发 芯片押注三条路线",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1584798.htm",
+        "retrievedAt": "2026-11-04T03:00:40.668Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道详细分析了大众汽车在中国重建技术体系的策略，包括与小鹏联合开发CEA架构、通过合资公司酷睿程自研ADAS芯片（C7H SoC计划2028年量产）以及三条芯片技术路线。虽然部分信息（大众与NXP合作）已有历史记录，但本文提供了关于酷睿程C7H芯片和大众中国技术战略的新细节。",
+        "evidence": [
+          "Counterpoint Research指出,大众在中国布局了三条ADAS芯片技术路线,其中包括通过与地平线成立的合资公司酷睿程推进自研芯片。",
+          "按照该机构披露的信息,酷睿程正在开发代号为Nash Architecture的C7H系统级芯片(SoC),计划于2028年实现量产。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "2f81c92a0aaa",
+      "title": "Intel 14A制程PDK 0.9发布，迈向量产",
+      "summary": "Intel Foundry上周发布Intel 14A制程设计套件（PDK）0.9版本，标志着该下一代制造技术取得重要里程碑。公司计划在2027年第一季度发布PDK 1.0，届时将验证其大规模量产准备就绪。",
+      "points": [
+        "Intel Foundry上周发布Intel 14A制程设计套件（PDK）0.9版本，这是该下一代制造技术开发的重要里程碑，性能与良率已达到该阶段预期，并有硅验证结果支持。",
+        "Intel计划在2027年第一季度发布PDK 1.0，届时将验证该技术是否具备大规模量产（HVM）的成熟度。"
+      ],
+      "cards": [
+        {
+          "heading": "PDK 0.9发布",
+          "body": "Intel Foundry上周发布Intel 14A制程设计套件（PDK）0.9版本，这是该下一代制造技术开发的重要里程碑，性能与良率已达到该阶段预期，并有硅验证结果支持。"
+        },
+        {
+          "heading": "PDK 1.0计划",
+          "body": "Intel计划在2027年第一季度发布PDK 1.0，届时将验证该技术是否具备大规模量产（HVM）的成熟度。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027",
+      "published": "2026-11-03T15:20:27.000Z",
+      "score": 18.06,
+      "eventKey": "intel-14a-pdk-0.9-availability",
+      "originalTitle": "Intel 14A moves closer to production as PDK 0.9 becomes available",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-14a-moves-closer-to-production-as-pdk-0-9-becomes-available-process-design-kit-gives-developers-important-production-milestone-ahead-of-1-0-in-2027",
+        "retrievedAt": "2026-11-04T03:00:40.886Z",
+        "articlePublished": "2026-11-03T15:20:27.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "报道称英特尔代工上周发布了Intel 14A制程的PDK 0.9版本，这是该下一代制造技术的重要里程碑，公司表示性能与良率已达到该开发阶段预期，并计划2027年第一季度发布PDK 1.0以验证高量产准备就绪。这是关于Intel 14A制程进展的新事实。",
+        "evidence": [
+          "Intel Foundry last week made available its Intel 14A process design kit (PDK) version 0.9, an important milestone in the development of this next-generation manufacturing technology.",
+          "Intel plans to release PDK 1.0 in the first quarter of 2027, which will validate the technology's readiness for high-volume manufacturing (HVM).Get Tom's Hardware's best news and in-depth reviews, straight to your inbox."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "154d58848d4e90",
+      "title": "英伟达要求数据中心客户限制中国业务占比",
+      "summary": "英伟达据报已通过销售和区域团队告知数据中心客户，须限制与中国公司的业务占比，不得超过总业务的49%，确保51%为非中国客户。该政策尚未以官方文件形式正式发布。",
+      "points": [
+        "数据中心运营商须追踪中国客户占其整体业务的比例，限制在49%以内，确保至少51%为非中国客户。",
+        "据金融时报报道，新政策由英伟达销售和区域团队向客户传达，未通过正式文件或官方文档形式发布。"
+      ],
+      "cards": [
+        {
+          "heading": "业务占比限制",
+          "body": "数据中心运营商须追踪中国客户占其整体业务的比例，限制在49%以内，确保至少51%为非中国客户。"
+        },
+        {
+          "heading": "传达方式",
+          "body": "据金融时报报道，新政策由英伟达销售和区域团队向客户传达，未通过正式文件或官方文档形式发布。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+      "published": "2026-11-03T13:31:11.000Z",
+      "score": 15.76,
+      "eventKey": "nvidia-data-center-china-business-49pct-limit",
+      "originalTitle": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-tells-data-center-operators-to-limit-business-from-chinese-customers-with-new-global-restrictions-report-claims-allegedly-restricted-to-49-percent-of-the-total-ensuring-51-percent-are-non-chinese-outfits",
+        "retrievedAt": "2026-11-04T03:00:40.967Z",
+        "articlePublished": "2026-11-03T13:31:11.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "FT报道英伟达要求数据中心运营商将中国客户业务限制在总业务49%以内，这是新的全球性出口限制政策，影响重大。",
+        "evidence": [
+          "Nvidia has purportedly told its data center customers that they must limit the amount of business that they do with Chinese companies in what is a new policy for the U.S. company.",
+          "The move would mean that data center operators who sell their services to Chinese companies must now track what proportion of their overall business they make up, limiting them to just 49% of the total and ensuring 51% are non-Chinese outfi"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "19a0a790a2225d",
+      "title": "Altera推出Agilex 2X FPGA系列，覆盖AI与嵌入式",
+      "summary": "Altera发布Agilex 2X FPGA产品组合，包含四个系列，覆盖AI基础设施到智能边缘应用。首款Agilex 27基于第三代HyperFlex架构，性能功耗比较上代提升1.8倍，支持最高256Gbps收发器。",
+      "points": [
+        "Agilex 2X包含四个系列：Agilex 27面向带宽密集型应用，Agilex 25面向视频与传感器，Agilex 23面向机器人与工业自动化，Agilex 22面向I/O密集型控制。",
+        "Agilex 27基于第三代HyperFlex架构，性能功耗比较上代Agilex 7提升1.8倍，支持800GbE和1.6TbE以太网、PCIe 6.0/7.0及DDR5/LPDDR5X/LPDDR6内存接口。",
+        "设备集成Secure Device Manager，支持安全启动、设备身份认证、防篡改保护及后量子密码就绪的加密能力，并支持MACsec、PCIe IDE和IME线速加密。"
+      ],
+      "cards": [
+        {
+          "heading": "产品组合",
+          "body": "Agilex 2X包含四个系列：Agilex 27面向带宽密集型应用，Agilex 25面向视频与传感器，Agilex 23面向机器人与工业自动化，Agilex 22面向I/O密集型控制。"
+        },
+        {
+          "heading": "性能提升",
+          "body": "Agilex 27基于第三代HyperFlex架构，性能功耗比较上代Agilex 7提升1.8倍，支持800GbE和1.6TbE以太网、PCIe 6.0/7.0及DDR5/LPDDR5X/LPDDR6内存接口。"
+        },
+        {
+          "heading": "安全特性",
+          "body": "设备集成Secure Device Manager，支持安全启动、设备身份认证、防篡改保护及后量子密码就绪的加密能力，并支持MACsec、PCIe IDE和IME线速加密。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/altera-expands-fpga-lineup-with-agilex-2x-portfolio-for-ai-and-embedded-systems/",
+      "published": "2026-11-03T23:12:14.000Z",
+      "score": 27.37,
+      "eventKey": "altera-agilex-2x-fpga-portfolio-launch",
+      "originalTitle": "Altera Expands FPGA Lineup with Agilex 2X Portfolio for AI and Embedded Systems",
+      "provenance": {
+        "url": "https://www.eetasia.com/altera-expands-fpga-lineup-with-agilex-2x-portfolio-for-ai-and-embedded-systems/",
+        "retrievedAt": "2026-11-04T03:00:40.260Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Altera发布Agilex 2X FPGA产品组合，涵盖四个系列，首款Agilex 27面向AI基础设施，性能功耗比提升1.8倍，支持256Gbps收发器及PCIe 7.0。",
+        "evidence": [
+          "Altera Corp. has announced its Agilex 2X FPGA portfolio, covering high-performance, mid-range and power- and cost-optimized devices for applications ranging from AI infrastructure to intelligent edge systems.",
+          "The lineup comprises four families, with Agilex 27 the first to launch.",
+          "Based on the third-generation HyperFlex fabric, the devices are specified to deliver up to 1.8 times the performance per watt of the previous-generation Agilex 7."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "80e5b54012922",
+      "title": "SemiQ预告Gen4 1700V SiC MOSFET模块",
+      "summary": "SemiQ在electronica 2026上预告其Gen4 1700V SiC半桥MOSFET模块，型号GCMS1P7C170S4B1-N，电流能力达830A，导通电阻仅1.7mΩ，采用标准62mm x 152mm S4封装，便于现有系统升级。该模块面向电动汽车、电机驱动、智能电网和UPS应用。",
+      "points": [
+        "Gen4 1700V SiC半桥MOSFET模块，最大电流830A，RDSon仅1.7mΩ，采用标准62mm x 152mm S4封装，无需重新设计即可升级现有系统。",
+        "面向电动汽车、电机驱动、智能电网基础设施和UPS等大功率高散热需求场景。",
+        "同时展出QSiC Gen3系列，包括1200V Dual3模块、608A S3模块（RDSon 2.4mΩ）、SOT-227模块、B2T1六管模块和B3全桥模块，覆盖充电桩、储能、服务器电源等。"
+      ],
+      "cards": [
+        {
+          "heading": "核心参数",
+          "body": "Gen4 1700V SiC半桥MOSFET模块，最大电流830A，RDSon仅1.7mΩ，采用标准62mm x 152mm S4封装，无需重新设计即可升级现有系统。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "面向电动汽车、电机驱动、智能电网基础设施和UPS等大功率高散热需求场景。"
+        },
+        {
+          "heading": "其他产品线",
+          "body": "同时展出QSiC Gen3系列，包括1200V Dual3模块、608A S3模块（RDSon 2.4mΩ）、SOT-227模块、B2T1六管模块和B3全桥模块，覆盖充电桩、储能、服务器电源等。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-today.com/news_items/2026/nov/semiq-031126.shtml",
+      "published": "2026-11-03T16:04:55.000Z",
+      "score": 27.18,
+      "eventKey": "semiq-gen4-1700v-830a-sic-module-preview",
+      "originalTitle": "SemiQ previewing Gen4 1700V, 830A SiC MOSFET modules at electronica",
+      "provenance": {
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/semiq-031126.shtml",
+        "retrievedAt": "2026-11-04T03:00:25.974Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SemiQ在electronica 2026预览Gen4 1700V SiC MOSFET半桥模块，支持830A电流，导通电阻仅1.7mΩ，采用标准S4封装。",
+        "evidence": [
+          "iQ Inc of Lake Forest, CA, USA — which designs, develops and manufactures custom silicon carbide (SiC) power semiconductors and 150mm SiC epitaxial wafers for high-voltage applications — is giving an advanced preview of an upcoming Gen4 170",
+          "0V SiC half-bridge MOSFET module (GCMS1P7C170S4B1-N).",
+          "The device uses SemiQ’s fourth-generation SiC to enable the highest current capability (830A) and has an ultra-low RDSon of just 1.7mΩ."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "202c239ed12bd",
+      "title": "博世组建半导体部门，拓展机器人及外部代工",
+      "summary": "博世计划成立独立的半导体部门，以拓展机器人、AI基础设施及外部客户制造业务。此举将把其以汽车电子为核心的芯片战略延伸至更多市场。",
+      "points": [
+        "新部门将专注机器人、AI基础设施及面向外部客户的芯片制造，在原有汽车电子芯片基础上拓展业务范围。",
+        "博世长期深耕汽车半导体，此次组建独立部门标志着其芯片战略向非汽车领域扩展，覆盖更多高增长市场。"
+      ],
+      "cards": [
+        {
+          "heading": "部门定位",
+          "body": "新部门将专注机器人、AI基础设施及面向外部客户的芯片制造，在原有汽车电子芯片基础上拓展业务范围。"
+        },
+        {
+          "heading": "战略延伸",
+          "body": "博世长期深耕汽车半导体，此次组建独立部门标志着其芯片战略向非汽车领域扩展，覆盖更多高增长市场。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261104VL204/bosch-robotics-business-manufacturing-market.html",
+      "published": "2026-11-04T00:48:04.000Z",
+      "score": 26.64,
+      "eventKey": "bosch-creates-dedicated-semiconductor-division",
+      "originalTitle": "Bosch creates semiconductor division to expand in robotics, external chipmaking",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261104VL204/bosch-robotics-business-manufacturing-market.html",
+        "retrievedAt": "2026-11-04T03:00:26.592Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "博世宣布成立独立的半导体部门，目标2030年半导体销售额达50亿欧元，并扩展代工业务。这是公司组织架构的重大调整，属于重要事件。",
+        "evidence": [
+          "Bosch plans to create a dedicated semiconductor division as it seeks more business in robotics, AI infrastructure, and manufacturing for external customers, extending a chip strategy rooted in automotive electronics into additional markets."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/021/931.htm"
+        }
+      ]
+    }
+  ]
+}
