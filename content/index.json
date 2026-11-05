@@ -1,7 +1,27 @@
 {
-  "generatedAt": "2026-11-04T03:02:11.959Z",
-  "total": 19,
+  "generatedAt": "2026-11-05T03:29:49.754Z",
+  "total": 20,
   "editions": [
+    {
+      "date": "2026-11-05",
+      "count": 21,
+      "intro": "本期共 21 条动态，其中 11 条值得重点关注，集中在材料与封测、市场与产业、晶圆代工、存储方向。",
+      "top": [
+        "消息称：三井化学拟82亿美元收购JSR，强化半导体材料业务",
+        "AMD季度营收指引首超英特尔",
+        "消息称：三星拟建2nm晶圆厂扩产HBM基础裸片"
+      ],
+      "categories": {
+        "material": 1,
+        "market": 6,
+        "foundry": 2,
+        "memory": 4,
+        "equipment": 3,
+        "policy": 1,
+        "eda": 1,
+        "design": 3
+      }
+    },
     {
       "date": "2026-11-04",
       "count": 16,

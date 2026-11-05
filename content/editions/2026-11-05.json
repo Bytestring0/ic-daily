@@ -1,0 +1,1153 @@
+{
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T03:29:49.750Z",
+  "intro": "本期共 21 条动态，其中 11 条值得重点关注，集中在材料与封测、市场与产业、晶圆代工、存储方向。",
+  "stats": {
+    "count": 21,
+    "sources": 10,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "material": 1,
+      "market": 6,
+      "foundry": 2,
+      "memory": 4,
+      "equipment": 3,
+      "policy": 1,
+      "eda": 1,
+      "design": 3
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 150223,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 46,
+      "readable": 45,
+      "accepted": 21,
+      "rejected": 4451,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "e0c3415fdc9b",
+      "title": "消息称：三井化学拟82亿美元收购JSR，强化半导体材料业务",
+      "summary": "据报道，据日经亚洲和路透社报道，三井化学计划从日本投资（JIC）手中收购半导体材料厂商JSR，交易金额可能超过1.3万亿日元（约82亿美元），将成为日本化学品行业最大收购案。",
+      "points": [
+        "交易金额可能超过1.3万亿日元（约82亿美元），若完成将成为日本化学品行业史上最大收购案。",
+        "三井化学计划从国有背景的日本投资（JIC）手中收购JSR。JIC于2024年将JSR私有化，目前持有其股份。",
+        "收购旨在强化三井化学在半导体材料领域的布局，JSR在光刻胶等关键材料市场占据领先地位。"
+      ],
+      "cards": [
+        {
+          "heading": "交易规模",
+          "body": "交易金额可能超过1.3万亿日元（约82亿美元），若完成将成为日本化学品行业史上最大收购案。"
+        },
+        {
+          "heading": "交易结构",
+          "body": "三井化学计划从国有背景的日本投资（JIC）手中收购JSR。JIC于2024年将JSR私有化，目前持有其股份。"
+        },
+        {
+          "heading": "战略意图",
+          "body": "收购旨在强化三井化学在半导体材料领域的布局，JSR在光刻胶等关键材料市场占据领先地位。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105VL213/mitsui-chemicals-jsr-materials-acquisition.html",
+      "published": "2026-11-05T02:13:02.000Z",
+      "score": 28.79,
+      "eventKey": "mitsui-chemicals-jsr-acquisition-8.2b",
+      "originalTitle": "Mitsui Chemicals reportedly plans US$8.2B acquisition of JSR in Japan chip materials push",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105VL213/mitsui-chemicals-jsr-materials-acquisition.html",
+        "retrievedAt": "2026-11-05T03:28:26.703Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三井化学拟以约82亿美元收购JSR，若完成将成为日本化学品行业最大收购案，涉及半导体材料领域重大并购，具有重要产业影响。",
+        "evidence": [
+          "Mitsui Chemicals is planning to acquire semiconductor materials maker JSR from state-backed Japan Investment (JIC) in a deal potentially worth more than JPY1.3 trillion (US$8.2 billion), which would rank as the largest acquisition in Japan'",
+          "s chemicals sector, according to reports by Nikkei Asia and Reuters on November 4, 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1986afb7bc9a6f",
+      "title": "AMD季度营收指引首超英特尔",
+      "summary": "AMD发布创纪录的2026年Q3财报，并指引Q4营收约170亿美元，首次高于英特尔预期的150至160亿美元区间。增长主要来自数据中心业务，EPYC和Instinct MI450系列需求强劲。",
+      "points": [
+        "AMD指引Q4营收约170亿美元（±3%），区间165亿至175亿美元；英特尔预期150亿至160亿美元。AMD指引下限高于英特尔上限，除非大幅偏离，否则季度营收超越几乎锁定。",
+        "AMD数据中心部门Q3营收创纪录达85亿美元，同比增长97%，受EPYC需求及Instinct MI450系列GPU在Helios机架中部署推动。Q4该部门预计环比增长约50%。",
+        "英特尔Q4展望低于预期，部分因以色列Fab 28停产两周，预计损失约3亿美元营收。PC市场疲软，全球Q3 PC出货量同比下降20.1%，英特尔预计疲软持续至2027年上半年。"
+      ],
+      "cards": [
+        {
+          "heading": "营收指引对比",
+          "body": "AMD指引Q4营收约170亿美元（±3%），区间165亿至175亿美元；英特尔预期150亿至160亿美元。AMD指引下限高于英特尔上限，除非大幅偏离，否则季度营收超越几乎锁定。"
+        },
+        {
+          "heading": "数据中心驱动",
+          "body": "AMD数据中心部门Q3营收创纪录达85亿美元，同比增长97%，受EPYC需求及Instinct MI450系列GPU在Helios机架中部署推动。Q4该部门预计环比增长约50%。"
+        },
+        {
+          "heading": "英特尔承压",
+          "body": "英特尔Q4展望低于预期，部分因以色列Fab 28停产两周，预计损失约3亿美元营收。PC市场疲软，全球Q3 PC出货量同比下降20.1%，英特尔预计疲软持续至2027年上半年。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354470/amd-guidance-points-to-its-first-quarter-ever-with-more-revenue-than-intel",
+      "published": "2026-11-04T18:04:36.000Z",
+      "score": 18.44,
+      "eventKey": "amd-q4-guidance-overtake-intel-revenue-first-time",
+      "originalTitle": "AMD Guidance Points to Its First Quarter Ever With More Revenue Than Intel",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354470/amd-guidance-points-to-its-first-quarter-ever-with-more-revenue-than-intel",
+        "retrievedAt": "2026-11-05T03:28:48.967Z",
+        "articlePublished": "2026-11-04T18:04:36.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "AMD在Q3财报后给出Q4指引约170亿美元，首次季度营收有望超过英特尔（英特尔Q4指引150-160亿美元），这是基于两家公司最新财报指引的对比分析，属于重要事件。",
+        "evidence": [
+          "Alongside its record Q3 2026 results, AMD guided Q4 revenue to approximately $17 billion, plus or minus 3%, or roughly $16.5 billion to $17.5 billion.",
+          "Intel, on the other hand, expects Q4 revenue between $15 billion and $16 billion.",
+          "Even the bottom of AMD's range sits above the top of Intel's, so unless either company misses its guidance badly, the flip is pretty much locked in."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1dcdbd5b6d4f86",
+      "title": "消息称：三星拟建2nm晶圆厂扩产HBM基础裸片",
+      "summary": "据报道，三星电子准备在京畿道龙仁器兴园区新建一座2nm及4nm级晶圆厂，用于扩大HBM逻辑基础裸片产能。据首尔经济日报报道，该厂预计耗资25万亿韩元（约186亿美元），若将现有产线改造为先进封装设施，总项目投资可能达30万亿韩元。",
+      "points": [
+        "三星电子计划在韩国龙仁器兴园区建设2nm及4nm级晶圆厂，专门生产HBM所需的逻辑基础裸片，以强化先进存储芯片的自主供应能力。",
+        "新厂预计耗资25万亿韩元（约186亿美元）。若将现有产线转换为先进封装设施，整体项目投资可能增至30万亿韩元，显示三星对HBM产业链的深度布局。",
+        "该消息由首尔经济日报于11月4日披露，目前仍处于准备阶段，尚未公布动工或量产时间表。"
+      ],
+      "cards": [
+        {
+          "heading": "建厂计划",
+          "body": "三星电子计划在韩国龙仁器兴园区建设2nm及4nm级晶圆厂，专门生产HBM所需的逻辑基础裸片，以强化先进存储芯片的自主供应能力。"
+        },
+        {
+          "heading": "投资规模",
+          "body": "新厂预计耗资25万亿韩元（约186亿美元）。若将现有产线转换为先进封装设施，整体项目投资可能增至30万亿韩元，显示三星对HBM产业链的深度布局。"
+        },
+        {
+          "heading": "报道来源",
+          "body": "该消息由首尔经济日报于11月4日披露，目前仍处于准备阶段，尚未公布动工或量产时间表。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105VL216/samsung-fab-hbm-2nm-production.html",
+      "published": "2026-11-05T02:55:00.000Z",
+      "score": 28.91,
+      "eventKey": "samsung-giheung-2nm-fab-hbm-base-die-plan",
+      "originalTitle": "Samsung reportedly plans 2nm fab to boost HBM base-die output",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105VL216/samsung-fab-hbm-2nm-production.html",
+        "retrievedAt": "2026-11-05T03:28:26.693Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星电子计划在京畿道器兴园区建设2nm/4nm级晶圆代工厂，以扩大HBM逻辑基础裸片产能，项目投资约25万亿韩元（约186亿美元），这是新的建厂投资计划，属于重要产业动态。",
+        "evidence": [
+          "Samsung Electronics is preparing to build a 2nm- and 4nm-class foundry fab at its Giheung campus in Yongin, South Korea, to expand production of logic base dies used in high-bandwidth memory (HBM).",
+          "The fab is estimated to cost KRW25 trillion (approx.",
+          "US$18.6 billion), with the broader project potentially reaching KRW30 trillion if an existing production line is converted into an advanced packaging facility, Seoul Economic Daily reported on November 4."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "ae3e424382f21",
+      "title": "SK海力士HBM4良率领先 扩大DRAM供应",
+      "summary": "SK海力士第六代高带宽存储器HBM4的良率据报已达60%以上，为业界最高。分析师指出，良率提升带动生产效率，使公司在集中产能生产HBM的同时，还能扩大服务器DRAM供应，这一趋势也反映在其2026年第三季度财报披露的DRAM产能增长中。",
+      "points": [
+        "SK海力士HBM4良率据报达到60%以上，为业界最高水平。高良率直接提升了生产效率，有助于降低单位成本并加快出货。",
+        "得益于良率改善，SK海力士在优先保障HBM产能的同时，仍能扩大服务器DRAM供应，满足数据中心需求。",
+        "2026年第三季度财务报告显示，公司DRAM产能持续增长，印证了良率提升对整体产能的正面影响。"
+      ],
+      "cards": [
+        {
+          "heading": "良率表现",
+          "body": "SK海力士HBM4良率据报达到60%以上，为业界最高水平。高良率直接提升了生产效率，有助于降低单位成本并加快出货。"
+        },
+        {
+          "heading": "产能调配",
+          "body": "得益于良率改善，SK海力士在优先保障HBM产能的同时，仍能扩大服务器DRAM供应，满足数据中心需求。"
+        },
+        {
+          "heading": "财报佐证",
+          "body": "2026年第三季度财务报告显示，公司DRAM产能持续增长，印证了良率提升对整体产能的正面影响。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105PD211/sk-hynix-hbm4-dram-hbm-capacity.html",
+      "published": "2026-11-05T02:45:00.000Z",
+      "score": 28.88,
+      "eventKey": "sk-hynix-hbm4-yield-60pct-dram-expansion",
+      "originalTitle": "SK Hynix leads HBM4 yield at 60%, expands DRAM supply",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105PD211/sk-hynix-hbm4-dram-hbm-capacity.html",
+        "retrievedAt": "2026-11-05T03:28:26.675Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SK海力士第六代HBM4良率据报已达60%以上，为业界最高，良率提升使公司能扩大服务器DRAM供应，这是HBM4量产进程的重要里程碑。",
+        "evidence": [
+          "SK Hynix's sixth-generation high-bandwidth memory (HBM4) yield has reportedly reached the mid-60% range, the highest in the industry.",
+          "Analysts say improved yield has lifted production efficiency, allowing the company to expand server DRAM supply even as it concentrates capacity on HBM, a trend also reflected in the growth of its DRAM capacity disclosed in its financial re"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "9911ae9a5d38",
+      "title": "Arm 2027财年第二季营收创纪录，授权业务与AI需求驱动",
+      "summary": "Arm公布2027财年第二季度财报，总营收14.4亿美元，同比增长27%，连续第五个季度增长超20%，主要受授权业务加速及AI基础设施需求强劲推动。",
+      "points": [
+        "Arm 2027财年第二季度总营收达14.4亿美元，同比增长27%，创历史纪录。这是公司连续第五个季度实现超过20%的同比增长。",
+        "增长主要来自授权业务的显著加速，以及人工智能基础设施对Arm架构芯片的强劲需求。公司未披露具体授权收入数字。",
+        "AI基础设施需求成为Arm业绩增长的关键支柱，反映市场对低功耗、高性能计算架构的持续投入。"
+      ],
+      "cards": [
+        {
+          "heading": "营收创新高",
+          "body": "Arm 2027财年第二季度总营收达14.4亿美元，同比增长27%，创历史纪录。这是公司连续第五个季度实现超过20%的同比增长。"
+        },
+        {
+          "heading": "增长驱动力",
+          "body": "增长主要来自授权业务的显著加速，以及人工智能基础设施对Arm架构芯片的强劲需求。公司未披露具体授权收入数字。"
+        },
+        {
+          "heading": "AI基础设施需求",
+          "body": "AI基础设施需求成为Arm业绩增长的关键支柱，反映市场对低功耗、高性能计算架构的持续投入。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105VL215/arm-agi-growth-licensing-cpu.html",
+      "published": "2026-11-05T02:44:16.000Z",
+      "score": 28.88,
+      "eventKey": "arm-fiscal-2q27-record-revenue-1.44b",
+      "originalTitle": "Arm reports record fiscal 2Q27 revenue on licensing momentum and AGI CPU demand",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105VL215/arm-agi-growth-licensing-cpu.html",
+        "retrievedAt": "2026-11-05T03:28:26.763Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Arm公布2027财年第二季度财报，营收14.4亿美元创纪录，同比增长27%，连续第五个季度增长超20%，受许可业务和AI基础设施需求驱动，是重要的财报数据。",
+        "evidence": [
+          "Arm delivered a record-breaking second quarter for fiscal year 2027, reporting total revenue of US$1.44 billion, up 27% year-over-year.",
+          "This milestone marks the company's fifth straight quarter of growth exceeding 20%, driven by massive acceleration in its licensing business and strong demand for its artificial intelligence (AI) infrastructure."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "132ed25069c0e6",
+      "title": "格芯获近10亿美元定制芯片设计订单，拓展物理AI",
+      "summary": "GlobalFoundries在2026年第三季度获得价值近10亿美元生命周期收入的定制硅设计订单，CEO Tim Breen在11月4日财报电话会上披露。公司正从晶圆制造向定制芯片、处理器IP和物理AI领域扩展，以获取更多客户芯片开发价值。",
+      "points": [
+        "第三季度定制硅设计订单代表近10亿美元生命周期收入，CEO Tim Breen在2026年11月4日财报电话会上确认。",
+        "公司正拓展定制芯片、处理器IP和物理AI应用，目标超越传统晶圆制造，从客户芯片开发中获取更多价值。"
+      ],
+      "cards": [
+        {
+          "heading": "订单规模",
+          "body": "第三季度定制硅设计订单代表近10亿美元生命周期收入，CEO Tim Breen在2026年11月4日财报电话会上确认。"
+        },
+        {
+          "heading": "战略方向",
+          "body": "公司正拓展定制芯片、处理器IP和物理AI应用，目标超越传统晶圆制造，从客户芯片开发中获取更多价值。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105VL212/globalfoundries-ip-processor-design-physical-ai.html",
+      "published": "2026-11-05T02:07:42.000Z",
+      "score": 28.78,
+      "eventKey": "globalfoundries-q3-2026-custom-silicon-design-wins-1b",
+      "originalTitle": "GlobalFoundries secures nearly US$1 billion in custom chip design wins as it expands into physical AI",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105VL212/globalfoundries-ip-processor-design-physical-ai.html",
+        "retrievedAt": "2026-11-05T03:28:26.709Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "GlobalFoundries在2026年第三季度财报电话会上披露获得近10亿美元终身收入的定制芯片设计订单，是公司业务拓展的具体新事实。",
+        "evidence": [
+          "The company secured custom silicon design wins representing nearly US$1 billion in lifetime revenue during the third quarter, CEO Tim Breen said on its November 4, 2026, earnings call."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "75820cb1fa5f9",
+      "title": "TSMC与ASML推进12英寸光罩High NA EUV路线图",
+      "summary": "ASML与TSMC于2026年9月宣布，将以12英寸光罩取代沿用数十年的6英寸格式，推进High NA EUV光刻。TSMC计划2030年将High NA EUV引入先进节点量产，2031年完成12英寸光罩试产线与生态系统认证，2033年实现全面就绪。",
+      "points": [
+        "ASML与TSMC计划用12英寸光罩替代6英寸格式，以支持High NA EUV光刻。该宣布于2026年9月SPIE BACUS研讨会前发布。",
+        "TSMC计划2030年将High NA EUV引入先进节点量产，2031年建立12英寸光罩试产线并启动生产线与生态系统认证。",
+        "TSMC目标2033年实现12英寸光罩High NA EUV系统全面就绪，以支持先进节点制造。"
+      ],
+      "cards": [
+        {
+          "heading": "格式转换",
+          "body": "ASML与TSMC计划用12英寸光罩替代6英寸格式，以支持High NA EUV光刻。该宣布于2026年9月SPIE BACUS研讨会前发布。"
+        },
+        {
+          "heading": "量产时间表",
+          "body": "TSMC计划2030年将High NA EUV引入先进节点量产，2031年建立12英寸光罩试产线并启动生产线与生态系统认证。"
+        },
+        {
+          "heading": "全面就绪节点",
+          "body": "TSMC目标2033年实现12英寸光罩High NA EUV系统全面就绪，以支持先进节点制造。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261104PD234/asml-tsmc-euv-photomask-digitimes.html",
+      "published": "2026-11-04T23:38:51.000Z",
+      "score": 28.37,
+      "eventKey": "asml-tsmc-12inch-photomask-high-na-euv-roadmap",
+      "originalTitle": "DIGITIMES Insight: TSMC, ASML's 2031 photomask target puts High NA EUV suppliers on the clock",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261104PD234/asml-tsmc-euv-photomask-digitimes.html",
+        "retrievedAt": "2026-11-05T03:28:27.209Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "ASML与台积电推进High NA EUV光刻的12英寸掩膜版计划，包含2030年量产、2031年试点线及2033年全面就绪的具体时间表，是重要的技术路线图里程碑。",
+        "evidence": [
+          "ASML and TSMC announced plans in September 2026, ahead of the SPIE BACUS symposium, to advance high-numerical-aperture extreme ultraviolet (High NA EUV) lithography by replacing the decades-old 6-inch photomask format with larger 12-inch ma",
+          "TSMC plans to introduce High NA EUV into advanced-node volume production from 2030, establish a 12-inch mask pilot line and begin production-line and ecosystem qualification by 2031, and achieve full readiness for 12-inch-mask High NA EUV s",
+          "ystems supporting advanced-node manufacturing by 2033."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "472146f997d10",
+      "title": "三季度全球智能手机SoC出货量同比降21%",
+      "summary": "Counterpoint Research数据显示，2026年第三季度全球智能手机SoC出货量同比下降21%，主因内存成本上升、换机周期延长及OEM谨慎库存管理。中低端市场受影响最大，高端市场也受波及但程度较轻。预计2026全年出货量将同比下滑20%。",
+      "points": [
+        "3Q26全球智能手机SoC出货量同比降21%，中低端受冲击最大，OEM减少入门机型并优先保利润。高端市场也受影响但程度较轻。",
+        "苹果和三星因供应链整合和高端化策略抗风险能力较强；UNISOC和联发科因依赖中低端面临更大挑战；高通受三星在Galaxy S26系列混用Exynos 2600及中国OEM需求疲软拖累。",
+        "2026年9月基于台积电2nm的三款旗舰SoC发布：苹果A20系列、联发科天玑9600 Pro和高通骁龙8 Elite Gen 6，预计提振4Q26高端出货，但总量仍低于去年同期。",
+        "3Q26智能手机内存价格环比涨幅放缓至5%-10%，预计4Q26再涨5%。部分入门级厂商开始使用回收内存控制成本，但SoC与外围电路深度集成限制其普及。"
+      ],
+      "cards": [
+        {
+          "heading": "市场表现",
+          "body": "3Q26全球智能手机SoC出货量同比降21%，中低端受冲击最大，OEM减少入门机型并优先保利润。高端市场也受影响但程度较轻。"
+        },
+        {
+          "heading": "厂商分化",
+          "body": "苹果和三星因供应链整合和高端化策略抗风险能力较强；UNISOC和联发科因依赖中低端面临更大挑战；高通受三星在Galaxy S26系列混用Exynos 2600及中国OEM需求疲软拖累。"
+        },
+        {
+          "heading": "旗舰芯片动态",
+          "body": "2026年9月基于台积电2nm的三款旗舰SoC发布：苹果A20系列、联发科天玑9600 Pro和高通骁龙8 Elite Gen 6，预计提振4Q26高端出货，但总量仍低于去年同期。"
+        },
+        {
+          "heading": "内存价格影响",
+          "body": "3Q26智能手机内存价格环比涨幅放缓至5%-10%，预计4Q26再涨5%。部分入门级厂商开始使用回收内存控制成本，但SoC与外围电路深度集成限制其普及。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/global-smartphone-soc-shipments-fall-21-yoy-in-3q-2026/",
+      "published": "2026-11-05T03:14:37.000Z",
+      "score": 27.96,
+      "eventKey": "counterpoint-q3-2026-smartphone-soc-shipments-down-21pct",
+      "originalTitle": "Global Smartphone SoC Shipments Fall 21% YoY in 3Q 2026",
+      "provenance": {
+        "url": "https://www.eetasia.com/global-smartphone-soc-shipments-fall-21-yoy-in-3q-2026/",
+        "retrievedAt": "2026-11-05T03:28:41.763Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Counterpoint数据显示2026年Q3全球智能手机SoC出货量同比下降21%，并给出分厂商表现及Q4展望，是具体的市场统计新事实。",
+        "evidence": [
+          "Global smartphone SoC shipments declined by 21% YoY in 3Q 2026, driven by rising memory costs, longer replacement cycles and cautious inventory management by smartphone OEMs, according to Counterpoint Research’s latest Global Smartphone SoC",
+          "Qualcomm also faced headwinds from Samsung’s decision to use a mix of Snapdragon 8 Elite Gen 5 and its own Exynos 2600 chipsets in the Galaxy S26 series, alongside softer sales among Chinese smartphone OEMs. “We saw three notable flagship c",
+          "xpected to decline by 20% YoY in 2026 and another 3%-4% YoY in 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "122785855045dd",
+      "title": "欧盟启动芯片设计平台，5.25亿欧元扶持中小业者",
+      "summary": "欧盟委员会11月4日宣布正式启动欧洲芯片设计平台，投入5.25亿欧元支持新一代芯片设计公司。平台提供设计工具、资金支持及能力中心指导，其中概念验证原型最高10万欧元，商业化开发最高1600万欧元。",
+      "points": [
+        "总资金5.25亿欧元中，4.4亿欧元为直接公共投资拨款，另有8500万美元用于芯片设计云平台基础设施及开源工具开发。欧盟承担2.85亿欧元，其余2.4亿欧元来自CHIPS JU参与方。",
+        "平台通过三方面支持企业：提供芯片设计工具、设计支持服务、知识产权模块及制造能力；资金支持分两档，概念验证原型最高10万欧元，芯片开发商业化最高1600万欧元；通过欧洲芯片能力中心网络提供指导。"
+      ],
+      "cards": [
+        {
+          "heading": "资金构成",
+          "body": "总资金5.25亿欧元中，4.4亿欧元为直接公共投资拨款，另有8500万美元用于芯片设计云平台基础设施及开源工具开发。欧盟承担2.85亿欧元，其余2.4亿欧元来自CHIPS JU参与方。"
+        },
+        {
+          "heading": "支持方式",
+          "body": "平台通过三方面支持企业：提供芯片设计工具、设计支持服务、知识产权模块及制造能力；资金支持分两档，概念验证原型最高10万欧元，芯片开发商业化最高1600万欧元；通过欧洲芯片能力中心网络提供指导。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/022/508.htm",
+      "published": "2026-11-05T01:01:34.000Z",
+      "score": 24.6,
+      "eventKey": "eu-european-chip-design-platform-launch-525m-euro",
+      "originalTitle": "欧盟启动欧洲芯片设计平台，以 5.25 亿欧元支持中小型半导体业者发展",
+      "provenance": {
+        "url": "https://www.ithome.com/1/022/508.htm",
+        "retrievedAt": "2026-11-05T03:28:43.807Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "欧盟正式启动欧洲芯片设计平台，投入5.25亿欧元支持中小型半导体设计企业，是明确的政策新动作，具有产业影响。",
+        "evidence": [
+          "IT之家 11 月 5 日消息,欧盟委员会当地时间本月 4 日宣布正式启动欧洲芯片设计平台,欧盟及其成员国将通过 5.25 亿欧元(IT之家注:现汇率约合 39.39 亿元人民币)的资金支持新一代欧洲芯片设计公司。",
+          "这一平台将通过三方面支持芯片设计企业:提供芯片设计工具、设计支持服务、知识产权模块以及平台上的制造能力;给予资金支持(概念验证原型开发最高 10 万欧元,芯片开发商业化最高 1,600 万欧元);通过欧洲芯片能力中心网络进行指导。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1168e54845401b",
+      "title": "美光公布DRAM与NAND路线图，推进3D DRAM及定制产品",
+      "summary": "美光上月披露未来数年DRAM和NAND路线图，计划采用晶圆键合、新材料、High-NA EUV光刻，并推进3D DRAM。公司还将扩大定制DRAM和NAND产品组合，以满足AI开发者对优化存储方案的需求。",
+      "points": [
+        "路线图涉及晶圆键合、使NAND单元更小的新材料、High-NA EUV光刻，以及3D DRAM的进展。这些技术旨在提升存储密度和性能。",
+        "美光计划扩大定制DRAM和NAND产品组合，因AI开发者日益需要针对其独特处理器架构和特定工作负载优化的存储解决方案。"
+      ],
+      "cards": [
+        {
+          "heading": "技术方向",
+          "body": "路线图涉及晶圆键合、使NAND单元更小的新材料、High-NA EUV光刻，以及3D DRAM的进展。这些技术旨在提升存储密度和性能。"
+        },
+        {
+          "heading": "定制化策略",
+          "body": "美光计划扩大定制DRAM和NAND产品组合，因AI开发者日益需要针对其独特处理器架构和特定工作负载优化的存储解决方案。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/dram/micron-details-ambitious-dram-and-nand-roadmap-3d-nand-high-na-euv-new-materials-and-custom-silicon-makes-a-comeback",
+      "published": "2026-11-04T14:00:00.000Z",
+      "score": 22.76,
+      "eventKey": "micron-dram-nand-roadmap-high-na-euv-custom-silicon",
+      "originalTitle": "Micron details ambitious DRAM and NAND roadmap — 3D NAND, High-NA EUV, new materials, and custom silicon makes a comeback",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/dram/micron-details-ambitious-dram-and-nand-roadmap-3d-nand-high-na-euv-new-materials-and-custom-silicon-makes-a-comeback",
+        "retrievedAt": "2026-11-05T03:28:44.716Z",
+        "articlePublished": "2026-11-04T14:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美光披露未来数年DRAM和NAND路线图，涉及晶圆键合、High-NA EUV、新材料及定制化存储产品扩展，是重要的技术路线图信息。",
+        "evidence": [
+          "Last month, Micron disclosed its DRAM and NAND memory roadmaps for the next several years, revealing plans to use wafer bonding, new materials that enable making NAND cells smaller, High-NA EUV lithography, and detailing its moves toward 3D",
+          "Perhaps the most revealing part of Micron's story is that the company plans to expand its portfolio of custom DRAM and NAND products as AI developers increasingly require memory and storage solutions optimized for their unique processor arc"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "3ba334fb6d916",
+      "title": "英伟达对华GPU订单仅交付约1%",
+      "summary": "据彭博社援引匿名消息，英伟达未来数月仅能向字节跳动、阿里巴巴、腾讯等中国客户交付数万块RTX Pro 5500工作站GPU，约占其700亿美元订单的1%，供应受限严重。",
+      "points": [
+        "中国科技巨头合计向英伟达订购约700亿美元的AI芯片，包括字节跳动、阿里巴巴、腾讯等。",
+        "未来数月仅交付“数万块”RTX Pro 5500工作站GPU，约占订单总量的1%，远低于需求。",
+        "供应限制导致出口友好的RTX Pro 5500交付受阻，尽管需求巨大，但产能无法满足。"
+      ],
+      "cards": [
+        {
+          "heading": "订单规模",
+          "body": "中国科技巨头合计向英伟达订购约700亿美元的AI芯片，包括字节跳动、阿里巴巴、腾讯等。"
+        },
+        {
+          "heading": "交付缺口",
+          "body": "未来数月仅交付“数万块”RTX Pro 5500工作站GPU，约占订单总量的1%，远低于需求。"
+        },
+        {
+          "heading": "供应原因",
+          "body": "供应限制导致出口友好的RTX Pro 5500交付受阻，尽管需求巨大，但产能无法满足。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-can-only-fulfill-1-percent-of-chinas-massive-usd70-billion-gpu-order-for-ai-chips-report-claims-supply-constraints-choke-export-friendly-rtx-pro-5500-deliveries-despite-huge-demand",
+      "published": "2026-11-04T12:15:00.000Z",
+      "score": 22.47,
+      "eventKey": "nvidia-rtx-pro-5500-china-1pct-delivery-supply-constraint",
+      "originalTitle": "Nvidia can only fulfill 1% of China’s massive $70 billion GPU order for AI chips, report claims — supply constraints choke export-friendly RTX Pro 5500 deliveries despite huge demand",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-can-only-fulfill-1-percent-of-chinas-massive-usd70-billion-gpu-order-for-ai-chips-report-claims-supply-constraints-choke-export-friendly-rtx-pro-5500-deliveries-despite-huge-demand",
+        "retrievedAt": "2026-11-05T03:28:45.014Z",
+        "articlePublished": "2026-11-04T12:15:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "据彭博社报道，英伟达仅能交付中国科技巨头订购的RTX Pro 5500工作站GPU约1%，涉及出口管制和供应链限制，是重要的市场与政策动态。",
+        "evidence": [
+          "Chinese technology giants ByteDance, Alibaba and Tencent, among others, are set to receive only a limited number of Nvidia chips that they've ordered.",
+          "Bloomberg is reporting that, according to unnamed sources, only \"some tens of thousands, or roughly 1%\" of RTX Pro 5500 workstation GPUs will be delivered over the next few months.Get Tom's Hardware's best news and in-depth reviews, straigh"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c399bd0f06b84",
+      "title": "CXMT预付款激增16倍，DRAM短缺提升份额",
+      "summary": "全球内存供应紧张为中国DRAM厂商CXMT创造扩大市场份额的机会。国际大厂优先生产HBM和先进DRAM，主流DRAM供应收紧，CXMT凭借国内需求和产能扩张获益。",
+      "points": [
+        "国际内存制造商将产能优先分配给高带宽内存（HBM）和先进DRAM，导致主流DRAM供应紧张，为CXMT扩大市场份额提供窗口。",
+        "CXMT利用中国国内DRAM需求增长和自身产能扩张，抓住供应短缺的时机提升市场地位。预付款激增16倍反映客户锁定产能的意愿。"
+      ],
+      "cards": [
+        {
+          "heading": "供应缺口机遇",
+          "body": "国际内存制造商将产能优先分配给高带宽内存（HBM）和先进DRAM，导致主流DRAM供应紧张，为CXMT扩大市场份额提供窗口。"
+        },
+        {
+          "heading": "国内需求支撑",
+          "body": "CXMT利用中国国内DRAM需求增长和自身产能扩张，抓住供应短缺的时机提升市场地位。预付款激增16倍反映客户锁定产能的意愿。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105PD212/dram-cxmt-market-share-capacity-production.html",
+      "published": "2026-11-05T02:24:06.000Z",
+      "score": 28.82,
+      "eventKey": "cxmt-prepayments-16x-market-share-expansion",
+      "originalTitle": "CXMT prepayments surge 16x with DRAM shortage lifting market share",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105PD212/dram-cxmt-market-share-capacity-production.html",
+        "retrievedAt": "2026-11-05T03:28:27.061Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "全球存储供应紧张背景下，长鑫科技预付款激增16倍，市场份额扩大，反映中国DRAM厂商在主流DRAM短缺中的市场扩张，属于有具体数据的常规动态。",
+        "evidence": [
+          "Global memory supply constraints are creating opportunities for Chinese DRAM maker CXMT to expand its market share.",
+          "As major international manufacturers prioritise high-bandwidth memory (HBM) and advanced DRAM, the tightening supply of mainstream DRAM is allowing CXMT to capitalise on domestic demand and capacity expansion."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1801955c1cfde",
+      "title": "SEMI：Q3硅晶圆出货量同比增13.4%",
+      "summary": "SEMI SMG报告显示，2026年第三季度全球硅晶圆出货量达37.56亿平方英寸，同比增长13.4%，环比增长5.1%。增长由AI相关需求及工业需求改善驱动，AI需求已扩展至功率器件和光子学领域。",
+      "points": [
+        "2026年Q3全球硅晶圆出货量37.56亿平方英寸（MSI），较2025年同期的33.13亿MSI增长13.4%，较2026年Q2的35.73亿MSI环比增长5.1%。",
+        "SEMI SMG主席Masatsugu Miura表示，AI相关需求持续扩展至功率器件和光子学，工业需求受机器人、AI服务器电源及通用工业半导体改善推动。",
+        "键合与先进封装应用持续支撑300mm抛光硅晶圆需求。"
+      ],
+      "cards": [
+        {
+          "heading": "出货量数据",
+          "body": "2026年Q3全球硅晶圆出货量37.56亿平方英寸（MSI），较2025年同期的33.13亿MSI增长13.4%，较2026年Q2的35.73亿MSI环比增长5.1%。"
+        },
+        {
+          "heading": "需求驱动因素",
+          "body": "SEMI SMG主席Masatsugu Miura表示，AI相关需求持续扩展至功率器件和光子学，工业需求受机器人、AI服务器电源及通用工业半导体改善推动。"
+        },
+        {
+          "heading": "应用支撑",
+          "body": "键合与先进封装应用持续支撑300mm抛光硅晶圆需求。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/worldwide-silicon-wafer-shipments-increase-13-4-year-on-year-in-q3-2026-semi-reports",
+      "published": "2026-11-04T20:06:27.000Z",
+      "score": 26.78,
+      "eventKey": "semi-q3-2026-silicon-wafer-shipments-13.4pct-yoy",
+      "originalTitle": "Worldwide Silicon Wafer Shipments Increase 13.4% Year-on-Year in Q3 2026, SEMI Reports",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/worldwide-silicon-wafer-shipments-increase-13-4-year-on-year-in-q3-2026-semi-reports",
+        "retrievedAt": "2026-11-05T03:28:28.840Z",
+        "articlePublished": "2026-11-04T20:06:27.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SEMI发布2026年第三季度全球硅晶圆出货量数据，同比增长13.4%至37.56亿平方英寸，环比增长5.1%。这是权威行业统计数据，反映半导体材料市场动态。",
+        "evidence": [
+          "The SEMI Silicon Manufacturers Group (SMG) reported today, in its quarterly analysis of the silicon wafer industry, that worldwide silicon wafer shipments increased 13.4% year-on-year to 3,756 million square inches (MSI) from the 3,313 MSI ",
+          "Shipments increased 5.1% quarter-over-quarter from the 3,573 MSI recorded during the second quarter of 2026. “Silicon wafer shipments increased in the third quarter, supported by strong AI-related demand and improving industrial demand,” sa"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/022/532.htm"
+        }
+      ]
+    },
+    {
+      "id": "1de095db60c4bc",
+      "title": "Eulitha加速交付AI数据中心激光器光刻设备",
+      "summary": "Eulitha已向代工厂交付多台自动化光刻工具，用于生产AI数据中心所需的InP DFB激光器，订单积压已排至2028年中。公司正扩产，新产能预计2027年第一季度上线。",
+      "points": [
+        "Eulitha已向代工厂交付多台自动化工具，用于生产InP DFB激光器，订单积压将占满产能至2028年中。",
+        "其DUV光刻工具基于专有DTL技术，可打印DFB激光器所需高分辨率光栅，用于AI芯片间及数据中心间的高速光通信。",
+        "公司正将瑞士苏黎世附近产能翻倍，新产能计划于2027年第一季度上线，以满足AI市场及AR/VR/XR等需求。"
+      ],
+      "cards": [
+        {
+          "heading": "交付与订单",
+          "body": "Eulitha已向代工厂交付多台自动化工具，用于生产InP DFB激光器，订单积压将占满产能至2028年中。"
+        },
+        {
+          "heading": "技术应用",
+          "body": "其DUV光刻工具基于专有DTL技术，可打印DFB激光器所需高分辨率光栅，用于AI芯片间及数据中心间的高速光通信。"
+        },
+        {
+          "heading": "扩产计划",
+          "body": "公司正将瑞士苏黎世附近产能翻倍，新产能计划于2027年第一季度上线，以满足AI市场及AR/VR/XR等需求。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "设备"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-today.com/news_items/2026/nov/eulitha-041126.shtml",
+      "published": "2026-11-04T19:41:43.000Z",
+      "score": 25.71,
+      "eventKey": "eulitha-litho-delivery-dfb-laser-backlog-2028",
+      "originalTitle": "Eulitha ramps up deliveries of lithography systems for AI data-center lasers",
+      "provenance": {
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/eulitha-041126.shtml",
+        "retrievedAt": "2026-11-05T03:28:29.433Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Eulitha向代工厂交付多台用于InP DFB激光器生产的DUV光刻工具，订单积压至2028年中，并计划2027年Q1扩产。这是设备供应商的具体交付和扩产动态。",
+        "evidence": [
+          "ectronic markets) has delivered multiple automated tools to foundries for the production of indium phosphide (InP) distributed feedback (DFB) lasers to be used in AI data centers.",
+          "The firm has also reported an order backlog that will fully occupy its production capacity until mid-2028.",
+          "The new production capability is scheduled to come online during first-quarter 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d701862bbaa6d",
+      "title": "IBM拟于2027年一季度推出Nanostack早期PDK",
+      "summary": "IBM计划在2027年第一季度发布面向3D晶体管芯片设计的研究阶段PDK，供无晶圆厂、工具商和设备商在量产前测试堆叠n型和p型器件。该套件目前处于研发阶段。",
+      "points": [
+        "IBM计划于2027年第一季度交付研究阶段的Nanostack PDK，面向无晶圆厂公司、EDA工具供应商及设备制造商开放测试。",
+        "该PDK用于测试堆叠的n型和p型器件，支持3D晶体管芯片设计的前期验证，为后续生产做准备。",
+        "该套件目前处于研究阶段，尚未进入量产，具体技术参数和合作细节未在原文中披露。"
+      ],
+      "cards": [
+        {
+          "heading": "发布时间",
+          "body": "IBM计划于2027年第一季度交付研究阶段的Nanostack PDK，面向无晶圆厂公司、EDA工具供应商及设备制造商开放测试。"
+        },
+        {
+          "heading": "测试对象",
+          "body": "该PDK用于测试堆叠的n型和p型器件，支持3D晶体管芯片设计的前期验证，为后续生产做准备。"
+        },
+        {
+          "heading": "当前状态",
+          "body": "该套件目前处于研究阶段，尚未进入量产，具体技术参数和合作细节未在原文中披露。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Electronics-Lab",
+      "sourceLang": "en",
+      "url": "https://www.electronics-lab.com/news/ibm-plans-early-nanostack-pdk-for-3d-transistor-chip-design/",
+      "published": "2026-11-04T18:00:43.000Z",
+      "score": 25.43,
+      "eventKey": "ibm-nanostack-pdk-3d-transistor-q1-2027",
+      "originalTitle": "IBM Plans Early Nanostack PDK for 3D Transistor Chip Design",
+      "provenance": {
+        "url": "https://www.electronics-lab.com/news/ibm-plans-early-nanostack-pdk-for-3d-transistor-chip-design/",
+        "retrievedAt": "2026-11-05T03:28:29.355Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "IBM计划在2027年第一季度发布面向3D晶体管芯片设计的研究阶段Nanostack PDK，允许无晶圆厂、工具供应商和设备制造商在量产前测试堆叠n型和p型器件。这是具体的EDA/设计工具新进展。",
+        "evidence": [
+          "A research-stage kit due in the first quarter of 2027 lets fabless firms, tool vendors, and equipment makers test stacked n-type and p-type devices ahead of production."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "199ec624b91308",
+      "title": "高通获星链移动地面网络基础设施合同",
+      "summary": "高通与SpaceX签署多年协议，为星链移动美国地面网络提供基础设施，计划2027年开始部署，涉及数万个站点，推动卫星与地面连接融合。",
+      "points": [
+        "高通获得SpaceX美国地面移动网络基础设施合同，支持星链移动的卫星与地面集成连接。",
+        "协议于11月4日宣布，部署计划2027年启动，整个协议周期内规划数万个站点。",
+        "该合作将星链移动的卫星与地面连接愿景转化为具体基础设施部署，扩大高通在通信领域布局。"
+      ],
+      "cards": [
+        {
+          "heading": "协议内容",
+          "body": "高通获得SpaceX美国地面移动网络基础设施合同，支持星链移动的卫星与地面集成连接。"
+        },
+        {
+          "heading": "时间表",
+          "body": "协议于11月4日宣布，部署计划2027年启动，整个协议周期内规划数万个站点。"
+        },
+        {
+          "heading": "战略意义",
+          "body": "该合作将星链移动的卫星与地面连接愿景转化为具体基础设施部署，扩大高通在通信领域布局。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105VL204/qualcomm-spacex-starlink-infrastructure-software.html",
+      "published": "2026-11-05T01:44:41.000Z",
+      "score": 21.71,
+      "eventKey": "qualcomm-spacex-starlink-mobile-infrastructure-deal",
+      "originalTitle": "Qualcomm wins Starlink Mobile infrastructure deal as SpaceX advances terrestrial network",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105VL204/qualcomm-spacex-starlink-infrastructure-software.html",
+        "retrievedAt": "2026-11-05T03:28:45.577Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "高通获得SpaceX Starlink Mobile美国地面移动网络基础设施合同，2027年开始部署数万个站点，是明确的商业合作新事实。",
+        "evidence": [
+          "Qualcomm has secured a role in SpaceX's planned US terrestrial mobile network, turning Starlink Mobile's ambitions for integrated satellite and ground-based connectivity into a named infrastructure deployment.",
+          "Announced November 4, the multi-year agreement calls for rollout to begin in 2027, with tens of thousands of sites planned over the life of the deal."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "10c38288d8b51e",
+      "title": "Trumpf等离子体发生器业务转向半导体制造",
+      "summary": "Trumpf将高端电源业务重心转向半导体制造用等离子体发生器，系列生产移至波兰以降低成本，研发留在弗莱堡。该业务年收入4.58亿欧元，服务Applied Materials等主要设备商。",
+      "points": [
+        "系列生产移至波兰以削减成本，研发和新产品开发集中在弗莱堡。该业务隶属Trumpf Electronics，年收入4.58亿欧元，而EUV部门收入7.91亿欧元。",
+        "Trumpf是高端电源三大供应商之一，服务几乎所有主要半导体设备制造商，包括行业龙头Applied Materials。欧洲客户包括瑞典原子层蚀刻初创Alixlabs。",
+        "等离子体发生器基于为ASML EUV系统驱动激光供电的类似技术，用于晶圆沉积和去除材料，需求随先进制程增长。"
+      ],
+      "cards": [
+        {
+          "heading": "业务调整",
+          "body": "系列生产移至波兰以削减成本，研发和新产品开发集中在弗莱堡。该业务隶属Trumpf Electronics，年收入4.58亿欧元，而EUV部门收入7.91亿欧元。"
+        },
+        {
+          "heading": "市场地位",
+          "body": "Trumpf是高端电源三大供应商之一，服务几乎所有主要半导体设备制造商，包括行业龙头Applied Materials。欧洲客户包括瑞典原子层蚀刻初创Alixlabs。"
+        },
+        {
+          "heading": "技术关联",
+          "body": "等离子体发生器基于为ASML EUV系统驱动激光供电的类似技术，用于晶圆沉积和去除材料，需求随先进制程增长。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Bits&Chips",
+      "sourceLang": "en",
+      "url": "https://bits-chips.com/article/trumpf-plasma-generator-business-redirects-to-semiconductor-production",
+      "published": "2026-11-04T06:38:00.000Z",
+      "score": 21.53,
+      "eventKey": "trumpf-plasma-generator-semiconductor-production-shift",
+      "originalTitle": "Trumpf plasma generator business redirects to semiconductor production",
+      "provenance": {
+        "url": "https://bits-chips.com/article/trumpf-plasma-generator-business-redirects-to-semiconductor-production",
+        "retrievedAt": "2026-11-05T03:28:48.825Z",
+        "articlePublished": "2026-11-04T06:38:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Trumpf将等离子体发生器业务重心转向半导体制造，并将量产移至波兰，涉及具体业务调整和营收数据。",
+        "evidence": [
+          "The German company is moving series production to Poland to cut costs, while concentrating R&D and new product development in Freiburg.",
+          "The total business for high-end power supplies now generates revenue of 458 million euros and is part of the Trumpf Electronics business unit."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "7ecbfdcafe015",
+      "title": "Macronix退出ROM业务转向AI数据中心存储",
+      "summary": "据多家报道，任天堂Switch和Switch 2卡带ROM芯片主要供应商Macronix正关闭ROM业务，转向生产面向数据中心的NOR和NAND闪存芯片。此举可能推高卡带成本，促使任天堂更多转向数字发行。",
+      "points": [
+        "Macronix将关闭ROM芯片业务，集中资源制造NOR和NAND闪存芯片，以供应AI数据中心市场。该消息来自多家报道，尚未获官方确认。",
+        "Macronix是Switch和Switch 2游戏卡带的关键ROM供应商，退出可能导致卡带生产成本上升，任天堂或需提高卡带价格、增加Game-Key卡产量，或更依赖数字销售。",
+        "当前存储芯片价格已趋昂贵，Macronix的退出可能加剧实体游戏卡带成本压力，但具体价格变动幅度和时间表尚未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "业务转向",
+          "body": "Macronix将关闭ROM芯片业务，集中资源制造NOR和NAND闪存芯片，以供应AI数据中心市场。该消息来自多家报道，尚未获官方确认。"
+        },
+        {
+          "heading": "对任天堂影响",
+          "body": "Macronix是Switch和Switch 2游戏卡带的关键ROM供应商，退出可能导致卡带生产成本上升，任天堂或需提高卡带价格、增加Game-Key卡产量，或更依赖数字销售。"
+        },
+        {
+          "heading": "存储市场背景",
+          "body": "当前存储芯片价格已趋昂贵，Macronix的退出可能加剧实体游戏卡带成本压力，但具体价格变动幅度和时间表尚未披露。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive",
+      "published": "2026-11-04T17:10:59.000Z",
+      "score": 21.29,
+      "eventKey": "macronix-exits-rom-business-ai-data-center-focus",
+      "originalTitle": "Nintendo ROM chip supplier Macronix quits to focus on chips for AI data centers, reports indicate",
+      "provenance": {
+        "url": "https://www.tomshardware.com/video-games/nintendo/nintendo-rom-chip-supplier-macronix-quits-to-focus-on-chips-for-ai-data-centers-game-key-cards-may-be-more-available-as-large-game-storage-chips-become-more-expensive",
+        "retrievedAt": "2026-11-05T03:28:45.624Z",
+        "articlePublished": "2026-11-04T17:10:59.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "旺宏电子据报道退出Nintendo ROM芯片业务，转向AI数据中心用NOR/NAND闪存，是存储芯片厂商业务转向的具体动态。",
+        "evidence": [
+          "The death of physical games could be getting closer as Macronix, one of Nintendo’s key ROM chip suppliers for Switch and Switch 2 game cartridges, is reportedly shutting down its ROM business to focus on manufacturing NOR and NAND flash chi"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d1b549bb8d5c5",
+      "title": "Valens发布低功耗USB3扩展芯片VS6310",
+      "summary": "Valens Semiconductor推出VS6310低功耗USB3扩展芯片组，可直接集成于摄像头、触摸控制器等设备，典型功耗低于1瓦，符合HDBaseT-USB3标准，支持40米传输。样品将于2026年11月中旬提供，2027年1月量产。",
+      "points": [
+        "VS6310基于VS6320开发，功耗低于1瓦，支持USB3速率2.5Gbps、USB2速率480Mbps及控制信号，通过标准Category线缆传输距离达40米，兼容所有USB传输类型，并与VS6320互操作。",
+        "面向专业AV和视频会议系统，可集成于e/PTZ摄像头、触摸控制器、有源线缆等小型外围设备，减少外接扩展盒需求，简化安装。",
+        "VS6310样品将于2026年11月中旬提供，量产计划于2027年1月开始。"
+      ],
+      "cards": [
+        {
+          "heading": "产品特性",
+          "body": "VS6310基于VS6320开发，功耗低于1瓦，支持USB3速率2.5Gbps、USB2速率480Mbps及控制信号，通过标准Category线缆传输距离达40米，兼容所有USB传输类型，并与VS6320互操作。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "面向专业AV和视频会议系统，可集成于e/PTZ摄像头、触摸控制器、有源线缆等小型外围设备，减少外接扩展盒需求，简化安装。"
+        },
+        {
+          "heading": "上市时间",
+          "body": "VS6310样品将于2026年11月中旬提供，量产计划于2027年1月开始。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/valens-semiconductor-introduces-the-vs6310-chipset",
+      "published": "2026-11-04T20:08:34.000Z",
+      "score": 26.78,
+      "eventKey": "valens-vs6310-usb3-extender-chipset-launch",
+      "originalTitle": "Valens Semiconductor Introduces the VS6310 Chipset",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/valens-semiconductor-introduces-the-vs6310-chipset",
+        "retrievedAt": "2026-11-05T03:28:28.190Z",
+        "articlePublished": "2026-11-04T20:08:34.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Valens Semiconductor发布新款低功耗USB3扩展芯片组VS6310，面向视频会议外设，功耗低于1瓦，支持40米传输，2026年11月中旬出样，2027年1月量产。这是具体的新产品发布。",
+        "evidence": [
+          "Valens Semiconductor (NYSE: VLN), a provider of high-performance connectivity chipsets, today announced the VS6310, a low-power USB3 extension chipset designed for integration directly into e/PTZ cameras, touch controllers, active cables an",
+          "With typical power consumption of less than 1 watt, the VS6310 addresses the power constraints of embedded designs, opening new opportunities across professional AV and video conferencing applications. “The VS6310 opens new opportunities fo",
+          "VS6310 samples will be available in mid-November 2026, with mass production scheduled for January 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "441807afb3793",
+      "title": "瑞萨推出低功耗RL78/G21 MCU，扩展家电控制",
+      "summary": "瑞萨电子发布16位MCU RL78/G21，面向空调、冰箱等家电的低功耗控制，工作电流仅34μA/MHz，约为RL78/G13的一半。同时扩展RL78/G23系列电容触摸通道，并增强安全功能。",
+      "points": [
+        "RL78/G21为16位MCU，工作电流34μA/MHz，集成±1.0%精度高速片上振荡器和4kB数据闪存，支持128kB或256kB代码闪存，工作电压1.6V至5.5V。",
+        "新增UARTA通信接口，支持连接额外传感器；与RL78/G13和G23引脚及功能兼容，便于设计迁移。",
+        "提供±4kV HBM静电放电耐受能力，增强制造和运行可靠性；新增防伪造、防克隆等安全特性，符合IEC 60730自检库。",
+        "RL78/G23新增R7F104G系列，44引脚版本支持24个电容触摸通道（原14个），48引脚版本支持25个（原16个），提升HMI能力。"
+      ],
+      "cards": [
+        {
+          "heading": "核心规格",
+          "body": "RL78/G21为16位MCU，工作电流34μA/MHz，集成±1.0%精度高速片上振荡器和4kB数据闪存，支持128kB或256kB代码闪存，工作电压1.6V至5.5V。"
+        },
+        {
+          "heading": "接口与兼容",
+          "body": "新增UARTA通信接口，支持连接额外传感器；与RL78/G13和G23引脚及功能兼容，便于设计迁移。"
+        },
+        {
+          "heading": "可靠性提升",
+          "body": "提供±4kV HBM静电放电耐受能力，增强制造和运行可靠性；新增防伪造、防克隆等安全特性，符合IEC 60730自检库。"
+        },
+        {
+          "heading": "触摸扩展",
+          "body": "RL78/G23新增R7F104G系列，44引脚版本支持24个电容触摸通道（原14个），48引脚版本支持25个（原16个），提升HMI能力。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/renesas-adds-low-power-rl78-mcu-for-smart-appliance-control/",
+      "published": "2026-11-04T07:42:56.000Z",
+      "score": 24.71,
+      "eventKey": "renesas-rl78-g21-mcu-launch",
+      "originalTitle": "Renesas Adds Low-power RL78 MCU for Smart Appliance Control",
+      "provenance": {
+        "url": "https://www.eetasia.com/renesas-adds-low-power-rl78-mcu-for-smart-appliance-control/",
+        "retrievedAt": "2026-11-05T03:28:56.825Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "瑞萨推出低功耗RL78/G21 MCU并扩展RL78/G23系列电容触控通道，是具体的新产品发布。",
+        "evidence": [
+          "Renesas Electronics Corp. has introduced the RL78/G21, a 16-bit microcontroller (MCU) designed for low-power system control in home appliances, including air conditioners, refrigerators, washing machines and microwave ovens.",
+          "The RL78/G21 achieves an operating current of 34 μA/MHz, nearly half that of the RL78/G13, according to Renesas."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "17f5f43ceb0efe",
+      "title": "SemiQ发布Gen4 SiC MOSFET，导通电阻降21%",
+      "summary": "SemiQ推出750V和1200V Gen4 QSiC MOSFET，相比Gen3导通电阻降低21%，开关能量降低11%。新产品采用优化单元拓扑，缩小36%单元间距，适用于EV充电器、太阳能逆变器等场景。",
+      "points": [
+        "750V型号GP4T009A075导通电阻9mΩ，1200V型号GP4T011A120导通电阻11mΩ。1200V型号总开关能量降至1491μJ，750V型号为871μJ，均保持5×5mm裸片尺寸。",
+        "提供TO-247-4L封装和裸片两种形式，H后缀代表封装，X后缀代表裸片。晶圆级栅氧老化筛选电压分别超过800V和1400V，雪崩测试达800mJ。",
+        "适用于EV充电器、太阳能逆变器、工业驱动及高压DC/DC和DC/AC转换器。四个型号即日可购。"
+      ],
+      "cards": [
+        {
+          "heading": "关键参数",
+          "body": "750V型号GP4T009A075导通电阻9mΩ，1200V型号GP4T011A120导通电阻11mΩ。1200V型号总开关能量降至1491μJ，750V型号为871μJ，均保持5×5mm裸片尺寸。"
+        },
+        {
+          "heading": "封装与筛选",
+          "body": "提供TO-247-4L封装和裸片两种形式，H后缀代表封装，X后缀代表裸片。晶圆级栅氧老化筛选电压分别超过800V和1400V，雪崩测试达800mJ。"
+        },
+        {
+          "heading": "应用与供货",
+          "body": "适用于EV充电器、太阳能逆变器、工业驱动及高压DC/DC和DC/AC转换器。四个型号即日可购。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "EDN",
+      "sourceLang": "en",
+      "url": "https://www.edn.com/sic-mosfets-cut-switching-losses-and-resistance/",
+      "published": "2026-11-04T21:10:38.000Z",
+      "score": 22.95,
+      "eventKey": "semiq-gen4-750v-1200v-sic-mosfet-launch",
+      "originalTitle": "SiC MOSFETs cut switching losses and resistance",
+      "provenance": {
+        "url": "https://www.edn.com/sic-mosfets-cut-switching-losses-and-resistance/",
+        "retrievedAt": "2026-11-05T03:28:59.364Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SemiQ发布Gen4 750V和1200V SiC MOSFET，导通电阻较Gen3降低21%，开关能量降低11%，是具体产品发布。",
+        "evidence": [
+          "SemiQ has launched 750-V and 1200-V Gen4 QSiC MOSFETs which the company says reduce on-resistance by 21% and switching energy by 11% over Gen3 devices.",
+          "The 750-V GP4T009A075 and 1200-V GP4T011A120 feature on-resistances of 9 mΩ and 11 mΩ, respectively."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
