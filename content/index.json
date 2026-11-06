@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-11-05T03:29:49.754Z",
-  "total": 20,
+  "generatedAt": "2026-11-06T03:25:11.022Z",
+  "total": 21,
   "editions": [
+    {
+      "date": "2026-11-06",
+      "count": 12,
+      "intro": "本期共 12 条动态，其中 8 条值得重点关注，集中在芯片设计、设备、市场与产业方向。",
+      "top": [
+        "ADI完成收购Alif半导体 强化AI边缘处理",
+        "ASML产能售罄至2028年 EUV出货量有望达120台",
+        "高通发布2026财年Q4及全年业绩"
+      ],
+      "categories": {
+        "design": 3,
+        "equipment": 1,
+        "market": 2,
+        "policy": 4,
+        "material": 1,
+        "foundry": 1
+      }
+    },
     {
       "date": "2026-11-05",
       "count": 21,

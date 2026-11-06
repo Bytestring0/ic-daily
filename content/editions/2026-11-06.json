@@ -1,0 +1,679 @@
+{
+  "date": "2026-11-06",
+  "generatedAt": "2026-11-06T03:25:11.014Z",
+  "intro": "本期共 12 条动态，其中 8 条值得重点关注，集中在芯片设计、设备、市场与产业方向。",
+  "stats": {
+    "count": 12,
+    "sources": 7,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 3,
+      "equipment": 1,
+      "market": 2,
+      "policy": 4,
+      "material": 1,
+      "foundry": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 109411,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 26,
+      "readable": 26,
+      "accepted": 12,
+      "rejected": 4472,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "195486351bcf9",
+      "title": "ADI完成收购Alif半导体 强化AI边缘处理",
+      "summary": "Analog Devices（ADI）已完成对Alif Semiconductor的收购，交易金额为13.5亿美元全现金。Alif的AI原生微控制器和融合处理器将并入ADI产品线，助力其“物理智能”战略，扩展工业、数据中心、国防等市场。",
+      "points": [
+        "ADI于2026年11月6日宣布完成对Alif Semiconductor的收购，该交易于9月初公布，总价13.5亿美元全现金。Alif的AI原生微控制器和融合处理器已加入ADI技术组合。",
+        "此次收购旨在推进ADI的“物理智能”愿景，即系统能处理真实世界信号并在功耗、延迟、安全和可靠性约束下本地决策。ADI将结合自身传感、信号处理、电源和连接能力与Alif的处理器。",
+        "ADI表示，收购将扩大其在工业、数据中心基础设施、国防、能源、机器人、数字健康和可穿戴设备等领域的可寻址市场。ADI CEO Vincent Roche称Alif的AI原生平台是“物理智能的实际应用”。"
+      ],
+      "cards": [
+        {
+          "heading": "交易完成",
+          "body": "ADI于2026年11月6日宣布完成对Alif Semiconductor的收购，该交易于9月初公布，总价13.5亿美元全现金。Alif的AI原生微控制器和融合处理器已加入ADI技术组合。"
+        },
+        {
+          "heading": "战略目标",
+          "body": "此次收购旨在推进ADI的“物理智能”愿景，即系统能处理真实世界信号并在功耗、延迟、安全和可靠性约束下本地决策。ADI将结合自身传感、信号处理、电源和连接能力与Alif的处理器。"
+        },
+        {
+          "heading": "市场扩展",
+          "body": "ADI表示，收购将扩大其在工业、数据中心基础设施、国防、能源、机器人、数字健康和可穿戴设备等领域的可寻址市场。ADI CEO Vincent Roche称Alif的AI原生平台是“物理智能的实际应用”。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/analog-devices-completes-acquisition-of-alif-semiconductor/",
+      "published": "2026-11-06T03:01:57.000Z",
+      "score": 25.94,
+      "eventKey": "adi-completes-alif-semiconductor-acquisition-1.35b",
+      "originalTitle": "Analog Devices Completes Acquisition of Alif Semiconductor",
+      "provenance": {
+        "url": "https://www.eetasia.com/analog-devices-completes-acquisition-of-alif-semiconductor/",
+        "retrievedAt": "2026-11-06T03:24:43.697Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "ADI完成对Alif Semiconductor的收购，交易价值13.5亿美元全现金。这是并购交易的完成，属于重要事件。",
+        "evidence": [
+          "Analog Devices Inc. (ADI) has completed its acquisition of Alif Semiconductor, adding AI-native microcontrollers and fusion processors to its technology portfolio.",
+          "The deal was announced early in September for an all-cash transaction valued at $1.35 billion ."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "11bd357de9c462",
+      "title": "ASML产能售罄至2028年 EUV出货量有望达120台",
+      "summary": "ASML在2026年第三季度财报中表示，受AI驱动的芯片扩产潮影响，其产能供不应求将持续到2028年，部分客户已洽谈2029至2030年订单。公司正研究2028年进一步扩产超30%，美银预计当年EUV出货量达120台，均价提升约5%。",
+      "points": [
+        "ASML总裁傅恪礼称，按目前规划的2027和2028年供应能力仍难满足客户需求，部分客户已开始接洽2029年甚至2030年的远期订单。公司计划2027年将低数值孔径EUV和浸润式DUV产能各提升约30%，并研究2028年再扩产超30%。",
+        "2026年第三季度净销售额116.62亿欧元，同比增长55.2%，创历史新高。年内连续三次上调全年指引，预计2026年全年净销售额440亿至450亿欧元。",
+        "CFO戴厚杰透露已与主要客户完成基于价值定价的沟通，对部分光刻机产品涨价。美银研报预计2028年EUV出货量达120台，产品平均售价提升约5%，将直接增厚每股收益。"
+      ],
+      "cards": [
+        {
+          "heading": "需求与产能",
+          "body": "ASML总裁傅恪礼称，按目前规划的2027和2028年供应能力仍难满足客户需求，部分客户已开始接洽2029年甚至2030年的远期订单。公司计划2027年将低数值孔径EUV和浸润式DUV产能各提升约30%，并研究2028年再扩产超30%。"
+        },
+        {
+          "heading": "业绩表现",
+          "body": "2026年第三季度净销售额116.62亿欧元，同比增长55.2%，创历史新高。年内连续三次上调全年指引，预计2026年全年净销售额440亿至450亿欧元。"
+        },
+        {
+          "heading": "涨价与出货",
+          "body": "CFO戴厚杰透露已与主要客户完成基于价值定价的沟通，对部分光刻机产品涨价。美银研报预计2028年EUV出货量达120台，产品平均售价提升约5%，将直接增厚每股收益。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 5,
+      "tags": [
+        "设备"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585138.htm",
+      "published": "2026-11-05T11:29:51.000Z",
+      "score": 21.35,
+      "eventKey": "asml-2028-capacity-sold-out-euv-120-units",
+      "originalTitle": "ASML 2028年产能被抢空 EUV光刻机出货量有望达120台",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585138.htm",
+        "retrievedAt": "2026-11-06T03:24:30.600Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "ASML产能紧缺、2028年扩产计划及EUV出货量预测，是光刻设备领域重要供应链动态。",
+        "evidence": [
+          "据Digitimes报道,全球光刻机巨头ASML在2026年第三季度财报中释放了明确信号:受AI驱动的先进逻辑与存储芯片扩产潮推动,行业供不应求的局面将至少持续到2028年,且ASML自身的产能已成为全产业链的关键瓶颈。",
+          "ASML总裁兼CEO傅恪礼直言,按照目前规划的2027年和2028年供应能力,仍难以完全满足客户需求。",
+          "尽管ASML此前已计划在2027年将低数值孔径EUV和浸润式DUV产能各提升约30%,但面对激增的需求,该公司正研究在2028年实现超过30%的进一步扩产。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "117ca11ad50c8",
+      "title": "高通发布2026财年Q4及全年业绩",
+      "summary": "高通公布截至2026年9月27日的第四财季及全年业绩，CEO Cristiano Amon称QCT汽车与IoT合并营收同比增长36%，并重申2027财年数据中心营收目标50亿美元。公司预计非手机业务营收将同比增长超60%，同时面临半导体行业投入成本上升的压力。",
+      "points": [
+        "第四财季非GAAP营收达到指引区间高端，QCT汽车与IoT合并营收同比增长36%。全年业绩已公布，但具体营收和利润数字未在摘要中披露。",
+        "CEO表示2027财年将是非手机业务营收拐点，包括数据中心业务爬坡，非手机营收预计同比增长超60%，并重申2027财年数据中心营收目标为50亿美元。",
+        "半导体行业晶圆制造、封装、测试、先进封装、存储等投入成本普遍上升，高通已采取行动反映在产品定价中，预计QCT毛利率将在2027财年下半年完全体现这些措施带来的收益。"
+      ],
+      "cards": [
+        {
+          "heading": "业绩亮点",
+          "body": "第四财季非GAAP营收达到指引区间高端，QCT汽车与IoT合并营收同比增长36%。全年业绩已公布，但具体营收和利润数字未在摘要中披露。"
+        },
+        {
+          "heading": "2027财年展望",
+          "body": "CEO表示2027财年将是非手机业务营收拐点，包括数据中心业务爬坡，非手机营收预计同比增长超60%，并重申2027财年数据中心营收目标为50亿美元。"
+        },
+        {
+          "heading": "成本压力与定价",
+          "body": "半导体行业晶圆制造、封装、测试、先进封装、存储等投入成本普遍上升，高通已采取行动反映在产品定价中，预计QCT毛利率将在2027财年下半年完全体现这些措施带来的收益。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354494/qualcomm-announces-fourth-quarter-and-fiscal-2026-results",
+      "published": "2026-11-05T12:39:19.000Z",
+      "score": 19.54,
+      "eventKey": "qualcomm-q4-fiscal-2026-earnings-datacenter-5b-target",
+      "originalTitle": "(PR) Qualcomm Announces Fourth Quarter and Fiscal 2026 Results",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354494/qualcomm-announces-fourth-quarter-and-fiscal-2026-results",
+        "retrievedAt": "2026-11-06T03:24:31.317Z",
+        "articlePublished": "2026-11-05T12:39:19.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "高通发布2026财年第四季度及全年财报，包含具体营收数据、非手机业务增长指引及重申2027财年数据中心50亿美元目标，属于重要财务事件。",
+        "evidence": [
+          "Qualcomm Incorporated (NASDAQ: QCOM) today announced results for its fiscal fourth quarter and year ended September 27, 2026.Cristiano Amon, President and CEO of Qualcomm Incorporated\"We are pleased to deliver fourth quarter non-GAAP revenu",
+          "es at the high end of our guidance, along with 36% year-over-year growth in combined QCT Automotive and IoT revenues,\" \"Fiscal 2027 marks the start of our non-handset revenue inflection, including the ramp of our Data Center business.",
+          "Non-handset revenues are projected to grow by more than 60% year-over-year, and we are reiterating our fiscal 2027 Data Center revenue target of $5B.\" Business Outlook The following statements are forward looking, and actual results may dif"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "afc2ab8f2b9eb",
+      "title": "DRAM市场逼近2000亿美元 DDR与LPDDR增速超HBM",
+      "summary": "Counterpoint Research数据显示，2026年第三季度全球DRAM营收同比增长369%，接近2000亿美元。传统DDR和LPDDR内存的营收增速超过HBM，显示AI服务器之外的传统内存需求强劲复苏。",
+      "points": [
+        "2026年第三季度全球DRAM营收同比增长369%，达到近2000亿美元。这一增长主要由内存价格回升和AI服务器需求推动，但传统DDR和LPDDR的增速已超过HBM。",
+        "Counterpoint Research指出，传统DDR和LPDDR内存营收增速快于HBM，表明PC、移动设备和服务器等传统应用的需求正在强劲反弹，而HBM虽仍增长但占比相对稳定。",
+        "DRAM市场在2026年经历剧烈波动，此前因AI需求爆发导致HBM供不应求，但本季度传统内存的复苏成为主要驱动力，推动整体市场规模接近2000亿美元。"
+      ],
+      "cards": [
+        {
+          "heading": "营收激增",
+          "body": "2026年第三季度全球DRAM营收同比增长369%，达到近2000亿美元。这一增长主要由内存价格回升和AI服务器需求推动，但传统DDR和LPDDR的增速已超过HBM。"
+        },
+        {
+          "heading": "增长结构",
+          "body": "Counterpoint Research指出，传统DDR和LPDDR内存营收增速快于HBM，表明PC、移动设备和服务器等传统应用的需求正在强劲反弹，而HBM虽仍增长但占比相对稳定。"
+        },
+        {
+          "heading": "市场背景",
+          "body": "DRAM市场在2026年经历剧烈波动，此前因AI需求爆发导致HBM供不应求，但本季度传统内存的复苏成为主要驱动力，推动整体市场规模接近2000亿美元。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106VL206/revenue-dram-ddr-hbm-market.html",
+      "published": "2026-11-06T02:30:00.000Z",
+      "score": 28.85,
+      "eventKey": "counterpoint-q3-2026-dram-revenue-369pct-200b",
+      "originalTitle": "DDR, LPDDR revenue growth outpaces HBM as DRAM market nears US$200 billion",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106VL206/revenue-dram-ddr-hbm-market.html",
+        "retrievedAt": "2026-11-06T03:24:28.331Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Counterpoint Research数据显示2026年第三季度全球DRAM营收同比增长369%至近2000亿美元，且传统DDR和LPDDR收入增速超过HBM。这是新的市场数据，与历史中SIA整体半导体销售数据不同，属于重要市场动态。",
+        "evidence": [
+          "Revenue from conventional DDR and LPDDR memory grew faster than that from high-bandwidth memory (HBM) in the third quarter of 2026, as global DRAM revenue surged 369% year over year to nearly US$200 billion, according to Counterpoint Resear"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585178.htm"
+        }
+      ]
+    },
+    {
+      "id": "17c293f22f92bc",
+      "title": "印度计划两年内自研GPU并推动本土处理器商用",
+      "summary": "印度电子与信息技术部秘书S.Krishnan在11月4日采访中表示，将在印度半导体使命2.0下用约24个月开发本土GPU芯片，并计划将SHAKTI和VEGA处理器商业化，以减少对外国芯片依赖。",
+      "points": [
+        "MeitY秘书Krishnan称，印度半导体使命2.0将目标定为开发本土GPU芯片，项目预计需约24个月，不会一蹴而就。",
+        "印度计划构建五层AI生态：能源、加速芯片、计算基础设施与服务器、AI模型及应用。VVDN、Kaynes、Avalon等企业已制造服务器，C-DAC的Rudra服务器支持AI负载，技术将转移给本地制造商。",
+        "印度计划将本土SHAKTI和VEGA处理器商业化，以推动半导体自主。Krishnan认为AI可能复制Y2K时代印度IT业的机遇，但工作性质不同。"
+      ],
+      "cards": [
+        {
+          "heading": "GPU目标",
+          "body": "MeitY秘书Krishnan称，印度半导体使命2.0将目标定为开发本土GPU芯片，项目预计需约24个月，不会一蹴而就。"
+        },
+        {
+          "heading": "生态布局",
+          "body": "印度计划构建五层AI生态：能源、加速芯片、计算基础设施与服务器、AI模型及应用。VVDN、Kaynes、Avalon等企业已制造服务器，C-DAC的Rudra服务器支持AI负载，技术将转移给本地制造商。"
+        },
+        {
+          "heading": "处理器商用",
+          "body": "印度计划将本土SHAKTI和VEGA处理器商业化，以推动半导体自主。Krishnan认为AI可能复制Y2K时代印度IT业的机遇，但工作性质不同。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
+      "published": "2026-11-05T18:00:00.000Z",
+      "score": 23.44,
+      "eventKey": "india-meity-indigenous-gpu-2-year-target",
+      "originalTitle": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA processors",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
+        "retrievedAt": "2026-11-06T03:24:30.309Z",
+        "articlePublished": "2026-11-05T18:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "印度电子与信息技术部秘书明确提出两年内开发本土GPU的目标，并计划商业化SHAKTI和VEGA RISC-V处理器，属于官方政策目标，有具体时间框架和项目名称。",
+        "evidence": [
+          "The target was outlined by S.Krishnan, secretary of India's Ministry of Electronics and Information Technology (MeitY), in a November 4 interview. \"Under India Semiconductor Mission 2.0, we intend to target the development of an indigenous ",
+          "We should have a GPU chip of our own.",
+          "It is a project that will require approximately 24 months, and we intend to work towards that objective,\" Krishnan said.The proposed GPU is part of a wider plan to establish an Indian hardware and software ecosystem, with Krishnan describin"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "14f27ee1cd7333",
+      "title": "京东方完成玻璃基封装载板全流程工艺验证",
+      "summary": "京东方在机构调研中披露，其玻璃基封装载板试验线已实现全自动化通线，完成全流程工艺拉通，并产出24层样品送样且通过信赖性测试。公司计划在2027年一季度前达到量产投资决策条件。",
+      "points": [
+        "已实现高深宽比TGV开孔、深孔填铜、低应力金属布线、高层数压合、高密度布线、低应力切割等全流程工艺拉通，具备完备的玻璃基封装载板制造工艺能力。",
+        "试验线已产出超过100×100mm尺寸的24层（11-211）玻璃基封装载板并送样，客样已通过相关信赖性测试。",
+        "试验线于2026年上半年实现全自动化设备通线，设计产能1000片/月。董事长陈炎顺表示，量产决策需考虑客户订单量及良率保证，争取2027年一季度达到量产投资决策条件。"
+      ],
+      "cards": [
+        {
+          "heading": "工艺能力",
+          "body": "已实现高深宽比TGV开孔、深孔填铜、低应力金属布线、高层数压合、高密度布线、低应力切割等全流程工艺拉通，具备完备的玻璃基封装载板制造工艺能力。"
+        },
+        {
+          "heading": "样品进展",
+          "body": "试验线已产出超过100×100mm尺寸的24层（11-211）玻璃基封装载板并送样，客样已通过相关信赖性测试。"
+        },
+        {
+          "heading": "量产规划",
+          "body": "试验线于2026年上半年实现全自动化设备通线，设计产能1000片/月。董事长陈炎顺表示，量产决策需考虑客户订单量及良率保证，争取2027年一季度达到量产投资决策条件。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/023/128.htm",
+      "published": "2026-11-06T02:43:50.000Z",
+      "score": 22.89,
+      "eventKey": "boe-glass-substrate-package-pilot-line-24-layer-sample",
+      "originalTitle": "京东方：已拥有完备玻璃基封装载板制造工艺能力",
+      "provenance": {
+        "url": "https://www.ithome.com/1/023/128.htm",
+        "retrievedAt": "2026-11-06T03:24:30.174Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "京东方披露玻璃基封装载板业务进展：已实现全流程工艺拉通，试验线通线，产出24层玻璃基封装载板并送样且通过信赖性测试，属于具体的材料/封装技术里程碑。",
+        "evidence": [
+          "据其介绍,公司目前已实现高深宽比 TGV 开孔、深孔填铜、低应力金属布线、高层数压合、高密度布线、低应力切割等玻璃基封装载板全流程工艺拉通,拥有完备玻璃基封装载板制造工艺能力。",
+          "目前,公司试验线已实现全自动化设备通线,已有超过 100×100mm 尺寸的 24 层(11-211)玻璃基封装载板产出并送样,客样已通过了相关信赖性测试。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "41ef9c101bde8",
+      "title": "消息称：月之暗面被曝洽谈欧洲数据中心获取英伟达芯片",
+      "summary": "据报道，据CNBC报道，中国AI公司月之暗面（Moonshot AI）正与至少一家欧洲数据中心洽谈，计划租赁8000块以上英伟达Blackwell GPU集群用于推理，并有意获取训练算力，以规避美国出口管制。",
+      "points": [
+        "月之暗面正与至少一家欧洲数据中心洽谈，租赁包含8000块或更多英伟达Blackwell GPU的集群，用于AI推理任务。",
+        "除推理外，公司还希望获得训练用算力，但未披露具体规模或合作方。"
+      ],
+      "cards": [
+        {
+          "heading": "租赁计划",
+          "body": "月之暗面正与至少一家欧洲数据中心洽谈，租赁包含8000块或更多英伟达Blackwell GPU的集群，用于AI推理任务。"
+        },
+        {
+          "heading": "训练需求",
+          "body": "除推理外，公司还希望获得训练用算力，但未披露具体规模或合作方。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters",
+      "published": "2026-11-05T16:48:30.000Z",
+      "score": 21.24,
+      "eventKey": "moonshot-europe-datacenter-nvidia-chips-talks",
+      "originalTitle": "Chinese AI lab Moonshot reportedly looked at European data centers to access Nvidia chips, report claims",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters",
+        "retrievedAt": "2026-11-06T03:24:30.700Z",
+        "articlePublished": "2026-11-05T16:48:30.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "中国AI实验室Moonshot寻求欧洲数据中心获取英伟达芯片，涉及出口管制下的芯片流通动态。",
+        "evidence": [
+          "Moonshot AI, the Chinese lab that made Kimi, is reportedly looking towards Europe to gain access to the latest Nvidia Blackwell AI GPUs.",
+          "According to CNBC, the company is in talks with at least one European data center to lease clusters with 8,000 or more GPUs for inferencing, and that it’s also interested in securing compute capacity for training.Get Tom's Hardware's best n"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "eb2b465f1156b",
+      "title": "长江存储IPO暂缓 49亿美元融资受阻",
+      "summary": "长江存储母公司长存集团8月提交科创板IPO申请，计划募资330亿元人民币（约49亿美元），但受监管收紧影响，上市进程暂缓，可能持续数月。公司扩产计划或受影响，若市场条件允许，仍有望在2027年上半年完成上市。",
+      "points": [
+        "长存集团8月提交科创板IPO申请，计划募资330亿元人民币（约49亿美元），目前处于上交所问询阶段。据知情人士透露，上市延期可能持续数月，若市场条件允许，仍有望在2027年上半年完成上市。",
+        "10月沪深300指数下跌8.5%，科创板50指数从7月高点累计下跌约40%。证监会已向投行提供非正式指导，要求放缓AI和半导体企业IPO进程，并限制现有股东大规模股份出售。",
+        "长江存储正处于扩大产能、提升技术竞争力的关键阶段，IPO融资原是其重要资金来源。公司向员工发送的内部备忘录仅以“各种因素”解释暂停战略配售，未说明具体原因。"
+      ],
+      "cards": [
+        {
+          "heading": "IPO进展",
+          "body": "长存集团8月提交科创板IPO申请，计划募资330亿元人民币（约49亿美元），目前处于上交所问询阶段。据知情人士透露，上市延期可能持续数月，若市场条件允许，仍有望在2027年上半年完成上市。"
+        },
+        {
+          "heading": "监管背景",
+          "body": "10月沪深300指数下跌8.5%，科创板50指数从7月高点累计下跌约40%。证监会已向投行提供非正式指导，要求放缓AI和半导体企业IPO进程，并限制现有股东大规模股份出售。"
+        },
+        {
+          "heading": "公司影响",
+          "body": "长江存储正处于扩大产能、提升技术竞争力的关键阶段，IPO融资原是其重要资金来源。公司向员工发送的内部备忘录仅以“各种因素”解释暂停战略配售，未说明具体原因。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585102.htm",
+      "published": "2026-11-05T06:08:28.000Z",
+      "score": 20.46,
+      "eventKey": "ymtc-ipo-delay-china-regulatory-tightening",
+      "originalTitle": "长江存储IPO计划暂缓：中国收紧芯片企业上市审批 49亿美元融资进程受阻",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585102.htm",
+        "retrievedAt": "2026-11-06T03:24:30.985Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "长江存储IPO暂缓是重大事件，涉及49亿美元融资受阻，直接影响扩产计划，属于政策与市场交叉的重要动态。",
+        "evidence": [
+          "长江存储的母公司长存集团(CCSH Corporation)今年8月正式提交了科创板IPO申请,计划募集资金330亿元人民币,约合49亿美元。",
+          "此次上市暂停,可能直接影响公司的扩产计划。",
+          "据两名了解相关情况的人士透露,长江存储的上市延期可能持续数月。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "171e5d9e54b6d",
+      "title": "华虹宏力拓展硅光子与电源管理芯片业务",
+      "summary": "中国第二大晶圆代工厂华虹宏力（Hua Hong Grace）在2026年第三季度营收创纪录、利润同比大增147.1%后，正积极拓展硅光子与电源管理芯片业务，以抓住AI基础设施需求带来的机遇。",
+      "points": [
+        "2026年第三季度营收创历史新高，利润同比飙升147.1%，为业务扩张提供资金与市场信心。",
+        "公司正进入硅光子领域，该技术用于AI数据中心高速光互连；同时布局电源管理芯片，满足AI基础设施的功耗管理需求。",
+        "AI芯片供应紧张提升了代工定价权，华虹宏力作为中国第二大晶圆代工厂，有望受益于国产替代与AI需求双重驱动。"
+      ],
+      "cards": [
+        {
+          "heading": "业绩驱动",
+          "body": "2026年第三季度营收创历史新高，利润同比飙升147.1%，为业务扩张提供资金与市场信心。"
+        },
+        {
+          "heading": "新业务方向",
+          "body": "公司正进入硅光子领域，该技术用于AI数据中心高速光互连；同时布局电源管理芯片，满足AI基础设施的功耗管理需求。"
+        },
+        {
+          "heading": "市场背景",
+          "body": "AI芯片供应紧张提升了代工定价权，华虹宏力作为中国第二大晶圆代工厂，有望受益于国产替代与AI需求双重驱动。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106VL204/photonics-silicon-expansion-revenue-demand.html",
+      "published": "2026-11-06T01:57:16.000Z",
+      "score": 26.76,
+      "eventKey": "hua-hong-grace-silicon-photonics-expansion-ai-demand",
+      "originalTitle": "Hua Hong Grace eyes silicon photonics expansion as AI chip shortages lift pricing power",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106VL204/photonics-silicon-expansion-revenue-demand.html",
+        "retrievedAt": "2026-11-06T03:24:28.841Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "华虹宏力（Hua Hong Grace）在创纪录的2026年第三季度营收和147.1%利润增长后，正拓展硅光子和电源管理芯片业务以利用AI基础设施需求。这是中国第二大代工厂的具体业务扩张新动态。",
+        "evidence": [
+          "China's second-largest contract chipmaker, Hua Hong Grace Semiconductor, is expanding into silicon photonics and power management chips to capitalise on AI infrastructure demand, following record third-quarter 2026 revenue and a 147.1% surg"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "3ada78533b584",
+      "title": "村田与唯捷创芯专利战波及三星旧款Galaxy设备",
+      "summary": "日本村田制作所与中国射频前端芯片商唯捷创芯的专利诉讼，使部分搭载争议滤波器的三星Galaxy手机和平板被卷入德国法院一审禁令范围。三星称涉事型号已停产，唯捷创芯计划上诉。",
+      "points": [
+        "原告为日本电子元件厂商村田制作所，被告为中国射频前端芯片供应商唯捷创芯（Maxscend），争议焦点为射频滤波器相关专利。",
+        "德国法院发布的一审禁令覆盖了部分三星Galaxy智能手机和平板电脑，这些设备搭载了涉诉滤波器产品。三星表示受影响型号已经停产。",
+        "唯捷创芯计划对一审禁令提起上诉，案件后续进展仍待观察。"
+      ],
+      "cards": [
+        {
+          "heading": "诉讼双方",
+          "body": "原告为日本电子元件厂商村田制作所，被告为中国射频前端芯片供应商唯捷创芯（Maxscend），争议焦点为射频滤波器相关专利。"
+        },
+        {
+          "heading": "禁令范围",
+          "body": "德国法院发布的一审禁令覆盖了部分三星Galaxy智能手机和平板电脑，这些设备搭载了涉诉滤波器产品。三星表示受影响型号已经停产。"
+        },
+        {
+          "heading": "后续动向",
+          "body": "唯捷创芯计划对一审禁令提起上诉，案件后续进展仍待观察。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105PD233/patent-samsung-galaxy-lawsuit-electronic-components.html",
+      "published": "2026-11-05T23:24:39.000Z",
+      "score": 26.34,
+      "eventKey": "murata-maxscend-rf-patent-lawsuit-samsung-germany",
+      "originalTitle": "Murata-Maxscend RF chip patent battle hits Samsung's older Galaxy devices",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105PD233/patent-samsung-galaxy-lawsuit-electronic-components.html",
+        "retrievedAt": "2026-11-06T03:24:28.387Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "村田与唯捷创芯的RF芯片专利诉讼波及三星旧款Galaxy设备，德国法院一审禁令涉及相关滤波器产品，唯捷创芯计划上诉。这是具体的法律纠纷新进展。",
+        "evidence": [
+          "A patent lawsuit between Japanese electronic components maker Murata and Chinese radio-frequency (RF) front-end chip vendor Maxscend has ensnared some Samsung Electronics Galaxy smartphones and tablets equipped with the disputed filters.",
+          "The products fall under the scope of a first-instance injunction issued by a German court, although Samsung said the affected models have already been discontinued, while Maxscend plans to appeal."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1597d8a1233a42",
+      "title": "SuperAlloy三季度进入半导体试产",
+      "summary": "SuperAlloy公布2026年第三季度业绩，合并营收同比增长18.5%至20.16亿新台币，主要受国际超跑和豪华车品牌需求推动。公司已进入半导体试产阶段，但具体产品类型和客户未披露。",
+      "points": [
+        "合并营收20.16亿新台币（约6140万美元），同比增长18.5%；营业利润2.08亿新台币，同比增长211.7%；归母净利润2.47亿新台币，同比增长478.1%。",
+        "公司于2026年第三季度进入半导体试产阶段，但未披露具体产品类型、制程或客户信息。"
+      ],
+      "cards": [
+        {
+          "heading": "三季度财务",
+          "body": "合并营收20.16亿新台币（约6140万美元），同比增长18.5%；营业利润2.08亿新台币，同比增长211.7%；归母净利润2.47亿新台币，同比增长478.1%。"
+        },
+        {
+          "heading": "半导体试产",
+          "body": "公司于2026年第三季度进入半导体试产阶段，但未披露具体产品类型、制程或客户信息。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105PD226/superalloy-production-revenue-2026-profit.html",
+      "published": "2026-11-05T18:40:00.000Z",
+      "score": 27.55,
+      "eventKey": "superalloy-semiconductor-pilot-production-3q26",
+      "originalTitle": "SuperAlloy enters semiconductor pilot production in 3Q26",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105PD226/superalloy-production-revenue-2026-profit.html",
+        "retrievedAt": "2026-11-06T03:24:28.696Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SuperAlloy在2026年第三季度进入半导体试产阶段，并公布季度财报：营收18.5%同比增长至20.16亿新台币，营业利润增长211.7%。这是公司进入半导体领域的具体新进展。",
+        "evidence": [
+          "SuperAlloy reported strong third-quarter 2026 results, with consolidated revenue rising 18.5% year-over-year to NT$2.016 billion (US$61.4 million) as demand from international supercar and luxury vehicle brands increased.",
+          "Operating profit jumped 211.7% to NT$208 million, while net income attributable to the parent company surged 478.1% to NT$247 million."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d216adc0d4e2f",
+      "title": "GSA公布2026年度半导体行业奖项提名名单",
+      "summary": "全球半导体联盟（GSA）公布2026年度奖项提名名单，涵盖领导力、财务表现、受尊敬企业等多个类别。美光董事长兼CEO Sanjay Mehrotra获张忠谋模范领导奖，颁奖典礼定于12月10日举行。",
+      "points": [
+        "2026年张忠谋模范领导奖授予美光科技董事长兼CEO Sanjay Mehrotra，表彰其在半导体行业的卓越领导与创新贡献。",
+        "提名者包括STMicroelectronics嵌入式处理集团EVP Maria Heriz、AMD高级研究员Akila Subramaniam、Meta杰出工程师Olivia Wu。",
+        "按年销售额分档评选：Altera、Axelera AI、Lightmatter入围私营企业；AMD、Broadcom、NVIDIA入围超50亿美元上市公司；Lattice、Nordic、Rambus入围5-10亿美元档。",
+        "最佳财务管理奖（超50亿美元）提名美光、Sandisk、SK海力士；分析师推荐奖由Jefferies和Needham分析师分别提名AMD/Marvell/Sandisk及Cerebras/Credo/Semtech。"
+      ],
+      "cards": [
+        {
+          "heading": "最高荣誉",
+          "body": "2026年张忠谋模范领导奖授予美光科技董事长兼CEO Sanjay Mehrotra，表彰其在半导体行业的卓越领导与创新贡献。"
+        },
+        {
+          "heading": "女性影响力奖",
+          "body": "提名者包括STMicroelectronics嵌入式处理集团EVP Maria Heriz、AMD高级研究员Akila Subramaniam、Meta杰出工程师Olivia Wu。"
+        },
+        {
+          "heading": "受尊敬企业奖",
+          "body": "按年销售额分档评选：Altera、Axelera AI、Lightmatter入围私营企业；AMD、Broadcom、NVIDIA入围超50亿美元上市公司；Lattice、Nordic、Rambus入围5-10亿美元档。"
+        },
+        {
+          "heading": "财务与分析师奖",
+          "body": "最佳财务管理奖（超50亿美元）提名美光、Sandisk、SK海力士；分析师推荐奖由Jefferies和Needham分析师分别提名AMD/Marvell/Sandisk及Cerebras/Credo/Semtech。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/global-semiconductor-alliance-announces-2026-award-nominees",
+      "published": "2026-11-05T22:28:23.000Z",
+      "score": 27.18,
+      "eventKey": "gsa-2026-award-nominees-announcement",
+      "originalTitle": "Global Semiconductor Alliance Announces 2026 Award Nominees",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/global-semiconductor-alliance-announces-2026-award-nominees",
+        "retrievedAt": "2026-11-06T03:24:29.338Z",
+        "articlePublished": "2026-11-05T22:28:23.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "GSA公布2026年各奖项完整提名名单，包括张忠谋模范领袖奖授予美光CEO梅赫罗特拉，以及多个类别的提名公司。虽然美光CEO获奖已在历史中报道，但本次是完整的提名名单公布，包含多个新提名信息，属于新的具体事实。",
+        "evidence": [
+          "The Global Semiconductor Alliance (GSA) is pleased to announce its 2026 award nominees.",
+          "The prestigious awards will be presented at the GSA Awards Celebration on Thursday, Dec.",
+          "Morris Chang Exemplary Leadership Award recipient is Sanjay Mehrotra, Chairman and CEO, Micron Technology."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
