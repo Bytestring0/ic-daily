@@ -1,0 +1,999 @@
+{
+  "date": "2026-11-07",
+  "generatedAt": "2026-11-07T02:46:43.666Z",
+  "intro": "本期共 18 条动态，其中 14 条值得重点关注，集中在材料与封测、存储、设备方向。",
+  "stats": {
+    "count": 18,
+    "sources": 6,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "material": 2,
+      "memory": 6,
+      "equipment": 1,
+      "policy": 3,
+      "market": 3,
+      "foundry": 1,
+      "design": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 117745,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 29,
+      "readable": 29,
+      "accepted": 18,
+      "rejected": 4465,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "c85b61d64e293",
+      "title": "Diamond Foundry发布全球首片200mm单晶金刚石",
+      "summary": "Diamond Foundry宣布制造出全球首片直径200毫米的单晶金刚石，标志着金刚石作为半导体材料在尺寸上取得突破。该成果在CarbonSemi 2026上公布，由CEO Martin Roscheisen视频演讲，并称D300mm尺寸也可预期。",
+      "points": [
+        "Diamond Foundry制造出全球首片D200mm单晶金刚石，直径200毫米，非拼接或多晶，而是完整单晶。该成果克服了晶体生长、等离子体物理、反应堆工程等多项挑战。",
+        "金刚石具有最高热导率、优异机械强度和电绝缘性，可用于高功率电子、AI计算、光学和量子系统。D200mm尺寸使金刚石有望成为半导体级衬底，解决AI芯片散热瓶颈。",
+        "该成果源于Stefan Gsell和Martin Fischer长达25年的研究，后纳入Diamond Foundry数百人团队。CEO Roscheisen表示，D300mm尺寸也因此变得可预测。"
+      ],
+      "cards": [
+        {
+          "heading": "技术突破",
+          "body": "Diamond Foundry制造出全球首片D200mm单晶金刚石，直径200毫米，非拼接或多晶，而是完整单晶。该成果克服了晶体生长、等离子体物理、反应堆工程等多项挑战。"
+        },
+        {
+          "heading": "应用前景",
+          "body": "金刚石具有最高热导率、优异机械强度和电绝缘性，可用于高功率电子、AI计算、光学和量子系统。D200mm尺寸使金刚石有望成为半导体级衬底，解决AI芯片散热瓶颈。"
+        },
+        {
+          "heading": "研发历程",
+          "body": "该成果源于Stefan Gsell和Martin Fischer长达25年的研究，后纳入Diamond Foundry数百人团队。CEO Roscheisen表示，D300mm尺寸也因此变得可预测。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 5,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond",
+      "published": "2026-11-06T16:03:48.000Z",
+      "score": 26.22,
+      "eventKey": "diamond-foundry-first-d200mm-single-crystal-diamond",
+      "originalTitle": "Diamond Foundry Announces First-Ever D200mm Single-Crystal Diamond",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond",
+        "retrievedAt": "2026-11-07T02:45:53.748Z",
+        "articlePublished": "2026-11-06T16:03:48.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Diamond Foundry宣布首次制造出200mm单晶金刚石，这是材料科学和半导体衬底领域的重大里程碑，具有具体的新事实。",
+        "evidence": [
+          "Diamond Foundry Inc. today announced a major milestone in the history of materials technology: the creation of the first-ever D200mm single-crystal diamond, measuring 200 millimeters in diameter.",
+          "The achievement marks a fundamental step forward in humanity’s ability to manufacture diamond as a technology material at semiconductor-relevant scale."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "14c9857c602cb9",
+      "title": "长江存储第四工厂拟2027年动工，国产设备占比最高70%",
+      "summary": "长江存储计划在武汉建设第四座工厂，目标生产300层以上NAND闪存，国产设备占比最高达70%。该厂预计2027年动工，目前处于规划阶段，尚未下达设备采购订单。此举旨在加速供应链国产化，应对美国出口管制。",
+      "points": [
+        "第四座工厂预计2027年在武汉动工，规划月产能约10万片晶圆。第三、四、五座工厂完全投运后，总产能将超过当前两倍。",
+        "新工厂将生产垂直堆叠超300层的NAND闪存，面向数据中心和AI服务器。对比三星西安厂转向286层，SK海力士大连厂计划升级至240层以上。",
+        "国产设备占比最高70%，重点在清洗、抛光和刻蚀环节。北方华创和中微公司可能受益，但光刻、检测等高端环节仍依赖海外。",
+        "Omdia数据显示，2026年Q2长江存储在中国NAND市场份额达38.5%，超过三星成为第一，高于2025年的28%。"
+      ],
+      "cards": [
+        {
+          "heading": "建厂计划",
+          "body": "第四座工厂预计2027年在武汉动工，规划月产能约10万片晶圆。第三、四、五座工厂完全投运后，总产能将超过当前两倍。"
+        },
+        {
+          "heading": "技术目标",
+          "body": "新工厂将生产垂直堆叠超300层的NAND闪存，面向数据中心和AI服务器。对比三星西安厂转向286层，SK海力士大连厂计划升级至240层以上。"
+        },
+        {
+          "heading": "国产设备",
+          "body": "国产设备占比最高70%，重点在清洗、抛光和刻蚀环节。北方华创和中微公司可能受益，但光刻、检测等高端环节仍依赖海外。"
+        },
+        {
+          "heading": "市场份额",
+          "body": "Omdia数据显示，2026年Q2长江存储在中国NAND市场份额达38.5%，超过三星成为第一，高于2025年的28%。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585252.htm",
+      "published": "2026-11-06T07:02:00.000Z",
+      "score": 20.71,
+      "eventKey": "ymtc-fab4-domestic-equipment-70pct-300l-nand",
+      "originalTitle": "长江存储计划新工厂国产设备占比最高达70% 冲击300层以上NAND闪存",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585252.htm",
+        "retrievedAt": "2026-11-07T02:45:54.872Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "长江存储第四座工厂计划2027年动工，国产设备占比最高70%，目标300层以上NAND，这是重要的扩产与技术路线信息。",
+        "evidence": [
+          "根据知情人士透露,长江存储第四座工厂预计于2027年开始动工,选址仍在公司总部所在地武汉。",
+          "这座新工厂的技术定位相当明确:生产垂直堆叠层数超过300层的先进NAND闪存芯片。",
+          "市场研究机构Omdia的数据显示,2026年第二季度,长江存储在中国NAND市场的份额已经达到38.5%,高于2025年的28%,并超过三星电子,成为中国市场份额最高的NAND制造商。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261106VL217/ymtc-nand-equipment-manufacturing.html"
+        }
+      ]
+    },
+    {
+      "id": "16560c6536b6a1",
+      "title": "消息称：传台积电应英伟达要求评估3D DRAM生产",
+      "summary": "据报道，据The Information报道，台积电正考虑进入3D DRAM制造领域，此举应最大客户英伟达要求。台积电可能新建工厂或收购现有设施，由先进封装副总裁徐国进负责评估。",
+      "points": [
+        "SK海力士、三星、美光三大存储厂产能不足，3D DRAM被视为扩展内存的唯一路径。美光已放弃4F2 DRAM，转向3D DRAM。",
+        "台积电考虑生产3D DRAM，可能新建工厂或收购现有设施以缩短上市时间。该计划由负责CoWoS和CoPoS先进封装的副总裁徐国进主导。",
+        "目前仍处于评估阶段，尚未正式决定。若实施，将标志台积电进入存储领域，但具体时间表和投资规模未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "背景",
+          "body": "SK海力士、三星、美光三大存储厂产能不足，3D DRAM被视为扩展内存的唯一路径。美光已放弃4F2 DRAM，转向3D DRAM。"
+        },
+        {
+          "heading": "台积电计划",
+          "body": "台积电考虑生产3D DRAM，可能新建工厂或收购现有设施以缩短上市时间。该计划由负责CoWoS和CoPoS先进封装的副总裁徐国进主导。"
+        },
+        {
+          "heading": "不确定性",
+          "body": "目前仍处于评估阶段，尚未正式决定。若实施，将标志台积电进入存储领域，但具体时间表和投资规模未披露。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production",
+      "published": "2026-11-06T17:55:28.000Z",
+      "score": 25.53,
+      "eventKey": "tsmc-considering-3d-dram-production-nvidia-request",
+      "originalTitle": "TSMC is Reportedly Considering 3D DRAM Production",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354547/tsmc-is-reportedly-considering-3d-dram-production",
+        "retrievedAt": "2026-11-07T02:45:52.878Z",
+        "articlePublished": "2026-11-06T17:55:28.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "据报道台积电正考虑生产3D DRAM，并可能应英伟达要求建设新工厂或收购现有设施，这是台积电进军存储领域的重大潜在动向。",
+        "evidence": [
+          "According to a report from The Information, which cites sources close to the plans, TSMC is contemplating starting the production of 3D DRAM.",
+          "According to The Information, TSMC is considering 3D DRAM manufacturing at the request of its largest customer, NVIDIA.",
+          "However, at this time, TSMC is reportedly considering building new factories for this advanced memory and also weighing the possibility of acquiring an already-built facility to convert for DRAM production."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/023/619.htm"
+        }
+      ]
+    },
+    {
+      "id": "11c7e545166480",
+      "title": "中国半导体设备商订单创纪录延至2027",
+      "summary": "中国半导体设备制造商报告创纪录订单，排期延伸至2027年。AI驱动的先进存储、逻辑芯片及封装投资带动国产设备需求，蚀刻、薄膜沉积、清洗及电镀等环节供应商均受益，但零部件交付限制可能影响订单转化为收入。",
+      "points": [
+        "中国半导体设备商订单量创纪录，排期已延伸至2027年，主要受AI驱动的先进存储、逻辑芯片及封装投资拉动，国产制造工具需求持续走强。",
+        "蚀刻、薄膜沉积、清洗及电镀等环节的设备供应商均受益于本轮扩张，覆盖芯片制造前道与后道关键工艺。",
+        "零部件交付约束可能延迟订单转化为收入的时间，设备商需应对供应链瓶颈以确保按期交付。"
+      ],
+      "cards": [
+        {
+          "heading": "订单排期",
+          "body": "中国半导体设备商订单量创纪录，排期已延伸至2027年，主要受AI驱动的先进存储、逻辑芯片及封装投资拉动，国产制造工具需求持续走强。"
+        },
+        {
+          "heading": "受益环节",
+          "body": "蚀刻、薄膜沉积、清洗及电镀等环节的设备供应商均受益于本轮扩张，覆盖芯片制造前道与后道关键工艺。"
+        },
+        {
+          "heading": "交付风险",
+          "body": "零部件交付约束可能延迟订单转化为收入的时间，设备商需应对供应链瓶颈以确保按期交付。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106VL211/china-ic-manufacturing-equipment-expansion-investment-2027.html",
+      "published": "2026-11-06T03:46:28.000Z",
+      "score": 25.17,
+      "eventKey": "china-equipment-makers-record-orders-2027",
+      "originalTitle": "China's chip equipment makers ride record AI orders into 2027, but new challenges lie ahead",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106VL211/china-ic-manufacturing-equipment-expansion-investment-2027.html",
+        "retrievedAt": "2026-11-07T02:45:52.944Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "中国半导体设备厂商订单创纪录并延续至2027年，AI驱动的先进存储、逻辑和封装投资带动国产设备需求，属于有具体新事实的常规产业动态。",
+        "evidence": [
+          "Chinese semiconductor equipment makers report record orders extending into 2027, with AI-driven investment in advanced memory, logic chips and packaging strengthening demand for domestic manufacturing tools.",
+          "The expansion is benefiting suppliers across etching, thin-film deposition, cleaning and electroplating, although component delivery constraints could delay the conversion of orders into revenue."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d69d5b5c1d203",
+      "title": "三星加速P5 Fab 2建设应对存储短缺",
+      "summary": "三星电子计划于2027年1月在韩国平泽启动P5 Fab 2厂房结构工程，加速存储产能扩张。据DealSite报道，芯片短缺预计将持续至2028年，此举旨在缓解供应紧张。",
+      "points": [
+        "三星电子计划于2027年1月在韩国平泽P5 Fab 2工厂开始结构工程，较原计划提速，以加速存储产能扩张。",
+        "据DealSite报道，芯片短缺预计将持续至2028年，三星此举旨在应对长期供应紧张，巩固存储市场地位。"
+      ],
+      "cards": [
+        {
+          "heading": "建设计划",
+          "body": "三星电子计划于2027年1月在韩国平泽P5 Fab 2工厂开始结构工程，较原计划提速，以加速存储产能扩张。"
+        },
+        {
+          "heading": "市场背景",
+          "body": "据DealSite报道，芯片短缺预计将持续至2028年，三星此举旨在应对长期供应紧张，巩固存储市场地位。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261105VL231/samsung-2028-2027-equipment-production.html",
+      "published": "2026-11-06T03:35:03.000Z",
+      "score": 25.14,
+      "eventKey": "samsung-p5-fab2-construction-jan-2027",
+      "originalTitle": "Samsung speeds P5 Fab 2 construction as memory chip shortage looks to last through 2028",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261105VL231/samsung-2028-2027-equipment-production.html",
+        "retrievedAt": "2026-11-07T02:45:52.976Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星计划2027年1月在平泽P5 Fab 2开始结构施工，加速内存产能扩张，因芯片短缺预计持续至2028年。这是具体的新建厂进展。",
+        "evidence": [
+          "Samsung Electronics plans to begin structural work at its P5 Fab 2 facility in Pyeongtaek, South Korea, in January 2027, accelerating its memory capacity expansion as chip shortages are expected to persist through 2028, DealSite reported."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "11d6be5f488a7d",
+      "title": "安森美放弃捷克20亿美元SiC扩产项目",
+      "summary": "安森美于11月6日宣布，因全球碳化硅市场形势变化，放弃捷克Rožnov价值20亿美元的碳化硅新产线建设计划。该项目2024年6月公布，安森美强调仍将维持当地现有生产并继续投资。",
+      "points": [
+        "该扩产项目于2024年6月宣布，投资额高达20亿美元（约合133.72亿元人民币），原计划在捷克Rožnov建设碳化硅新产线。",
+        "安森美称放弃系因全球碳化硅市场形势变化，但强调捷克仍是其长期制造和增长战略的重要组成部分，不反映该国投资环境变化。",
+        "安森美将继续在Rožnov生产硅基或碳化硅半导体芯片，并计划在Rožnov和Brno进行进一步投资和招聘。捷克第一副总理Karel Havlíček对此表示欢迎。"
+      ],
+      "cards": [
+        {
+          "heading": "项目背景",
+          "body": "该扩产项目于2024年6月宣布，投资额高达20亿美元（约合133.72亿元人民币），原计划在捷克Rožnov建设碳化硅新产线。"
+        },
+        {
+          "heading": "放弃原因",
+          "body": "安森美称放弃系因全球碳化硅市场形势变化，但强调捷克仍是其长期制造和增长战略的重要组成部分，不反映该国投资环境变化。"
+        },
+        {
+          "heading": "后续安排",
+          "body": "安森美将继续在Rožnov生产硅基或碳化硅半导体芯片，并计划在Rožnov和Brno进行进一步投资和招聘。捷克第一副总理Karel Havlíček对此表示欢迎。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/023/648.htm",
+      "published": "2026-11-07T02:27:33.000Z",
+      "score": 24.95,
+      "eventKey": "onsemi-cancels-czech-sic-fab-expansion-2b",
+      "originalTitle": "安森美宣布放弃价值 20 亿美元的捷克碳化硅 (SiC) 晶圆厂扩产项目",
+      "provenance": {
+        "url": "https://www.ithome.com/1/023/648.htm",
+        "retrievedAt": "2026-11-07T02:45:53.543Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "安森美放弃价值20亿美元的捷克SiC晶圆厂扩产项目，因全球SiC市场形势变化。这是重要的战略调整，涉及具体金额和项目取消。",
+        "evidence": [
+          "IT之家 11 月 7 日消息,onsemi(安森美)当地时间本月 6 日宣布,由于全球碳化硅 (SiC) 市场的形势变化,放弃捷克 Rožnov 碳化硅新产线建设计划。",
+          "该项目于 2024 年 6 月宣布,价值高达 20 亿美元(IT之家注:现汇率约合 133.72 亿元人民币)。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "146cbe643d4e57",
+      "title": "Alphabet首建仓高通，押注AI芯片转型",
+      "summary": "谷歌母公司Alphabet在第三季度首次买入高通约297.7万股，持仓市值约5.48亿美元，占高通总股本0.5%。此举被市场解读为对高通从手机芯片向AI数据中心扩张的背书，消息披露后高通股价一度上涨约5%。",
+      "points": [
+        "Alphabet第三季度首次买入高通约297.7万股，持仓市值约5.48亿美元（约合36.62亿元人民币），占高通总股本约0.5%，在Alphabet持仓组合中排名第六。",
+        "Alphabet第三季度持仓总市值约883亿美元，环比下降10.9%。当季新增4只股票、增持1只、减持3只、清仓3只，前十大持仓合计占比99.48%。",
+        "高通是安卓生态核心芯片供应商，与谷歌在智能手机、Chromebook及汽车AI芯片领域已有合作。高通预计到2029年数据中心业务营收可达150亿美元。",
+        "消息披露后高通股价一度上涨约5%。但监管文件仅显示截至9月30日的持仓，未说明买入时间、交易方式，也未确认与高通AI数据中心业务有直接采购或合作安排。"
+      ],
+      "cards": [
+        {
+          "heading": "建仓规模",
+          "body": "Alphabet第三季度首次买入高通约297.7万股，持仓市值约5.48亿美元（约合36.62亿元人民币），占高通总股本约0.5%，在Alphabet持仓组合中排名第六。"
+        },
+        {
+          "heading": "持仓变动",
+          "body": "Alphabet第三季度持仓总市值约883亿美元，环比下降10.9%。当季新增4只股票、增持1只、减持3只、清仓3只，前十大持仓合计占比99.48%。"
+        },
+        {
+          "heading": "合作背景",
+          "body": "高通是安卓生态核心芯片供应商，与谷歌在智能手机、Chromebook及汽车AI芯片领域已有合作。高通预计到2029年数据中心业务营收可达150亿美元。"
+        },
+        {
+          "heading": "市场反应",
+          "body": "消息披露后高通股价一度上涨约5%。但监管文件仅显示截至9月30日的持仓，未说明买入时间、交易方式，也未确认与高通AI数据中心业务有直接采购或合作安排。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/023/607.htm",
+      "published": "2026-11-06T22:48:04.000Z",
+      "score": 24.34,
+      "eventKey": "alphabet-qualcomm-stake-548m",
+      "originalTitle": "谷歌母公司 Alphabet 斥资约 5.48 亿美元建仓高通，押注 AI 芯片新赛道",
+      "provenance": {
+        "url": "https://www.ithome.com/1/023/607.htm",
+        "retrievedAt": "2026-11-07T02:45:53.602Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Alphabet首次建仓高通股票，涉及芯片公司投资，有具体金额和持股比例。",
+        "evidence": [
+          "IT之家 11 月 7 日消息,路透社今天(11 月 7 日)发布博文,报道称谷歌母公司 Alphabet 在第三季度首次买入芯片巨头高通约 297.7 万股股票,持仓市值约 5.48 亿美元(IT之家注:现汇率约合 36.62 亿元人民币),约占高通总股本 0.5%。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f9ff69d8df47",
+      "title": "格芯FDX Fusion工艺瞄准2030年量产",
+      "summary": "格芯副总裁Sudipto Bose透露，其FDX Fusion工艺基于FD-SOI技术，可实现7nm级性能且无需EUV光刻，计划2028年开始商业生产，2030年实现大规模量产。",
+      "points": [
+        "FDX Fusion采用先进平面晶体管，提供8nm级逻辑密度和7nm级功耗性能，无需EUV光刻和FinFET晶体管，显著降低设计和制造成本。",
+        "面向连接（Wi-Fi、蓝牙、蜂窝、卫星通信）、边缘MCU（如Alif Semiconductors）、汽车雷达（81GHz性能）以及数据中心光互连和时钟恢复电路。",
+        "计划2028年开始商业生产，2030年实现大规模量产。目前已有90多家客户正在采用FDX技术进行产品设计。"
+      ],
+      "cards": [
+        {
+          "heading": "技术特点",
+          "body": "FDX Fusion采用先进平面晶体管，提供8nm级逻辑密度和7nm级功耗性能，无需EUV光刻和FinFET晶体管，显著降低设计和制造成本。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "面向连接（Wi-Fi、蓝牙、蜂窝、卫星通信）、边缘MCU（如Alif Semiconductors）、汽车雷达（81GHz性能）以及数据中心光互连和时钟恢复电路。"
+        },
+        {
+          "heading": "量产时间",
+          "body": "计划2028年开始商业生产，2030年实现大规模量产。目前已有90多家客户正在采用FDX技术进行产品设计。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
+      "published": "2026-11-06T14:00:00.000Z",
+      "score": 22.88,
+      "eventKey": "globalfoundries-fdx-fusion-details-2028-production",
+      "originalTitle": "GlobalFoundries VP details FDX Fusion technology, sporting 7nm-class performance without the need for EUV tools — company targets 2030 for high-volume manufacturing, with planar transistors in tow",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
+        "retrievedAt": "2026-11-07T02:45:53.974Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "GlobalFoundries高管首次披露FDX Fusion工艺细节：8nm级逻辑密度、无需EUV、2028年商业生产、2030年大规模量产，是重要技术路线图新信息。",
+        "evidence": [
+          "In an interview with Tom's Hardware Premium , GlobalFoundries' Sudipto Bose, vice president of the FD-SOI business unit, shared new details about its FDX Fusion technology, including its 8nm-class logic density, advanced planar transistors,",
+          " manufacturing costs, and plans to begin commercial production in 2028."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c0ec327dbe0fd",
+      "title": "Nagare Labs推Z2RAM，SRAM速度DRAM密度",
+      "summary": "Gelsinger支持的Nagare Labs宣称其Z2RAM技术可将SRAM速度与DRAM密度结合，直接堆叠在AI芯片上。测试显示85℃下数据保持超300秒，Gen 1预计实现5倍SRAM密度、14倍DRAM速度。",
+      "points": [
+        "Z2RAM在85℃测试中数据保持超300秒，Gen 1预计实现5倍SRAM密度（六层堆叠）、14倍DRAM速度、读取能耗比SRAM低3倍。",
+        "AI芯片对带宽需求高，HBM良率与散热挑战促使探索新方案，如三星zHBM仅计划约四层堆叠。"
+      ],
+      "cards": [
+        {
+          "heading": "技术特性",
+          "body": "Z2RAM在85℃测试中数据保持超300秒，Gen 1预计实现5倍SRAM密度（六层堆叠）、14倍DRAM速度、读取能耗比SRAM低3倍。"
+        },
+        {
+          "heading": "应用背景",
+          "body": "AI芯片对带宽需求高，HBM良率与散热挑战促使探索新方案，如三星zHBM仅计划约四层堆叠。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+      "published": "2026-11-06T11:00:00.000Z",
+      "score": 22.38,
+      "eventKey": "nagare-labs-z2ram-sram-speed-dram-density",
+      "originalTitle": "Gelsinger-backed Nagare Labs’ Z2RAM promises SRAM speed at DRAM density",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+        "retrievedAt": "2026-11-07T02:45:54.053Z",
+        "articlePublished": "2026-11-06T11:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Nagare Labs的Z2RAM无电容存储器宣称具备SRAM速度与DRAM密度，85°C下数据保持超300秒，Gen 1预计5倍SRAM密度，是具体技术研发进展。",
+        "evidence": [
+          "The founders’ own papers show a fast-improving cell that, tested up to 85 degrees Celsius, holds data for over 300 seconds.",
+          "Gen 1 is projected to have 5x SRAM density with six stacked layers, 14x DRAM speed, and 3x less read energy than SRAM.AI chips require a lot of bandwidth, and it has been challenging to get sufficient yields of high-bandwidth memory (HBM) t"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "68c70b5f27870",
+      "title": "长鑫存储三季度DRAM营收份额回落至9%",
+      "summary": "Counterpoint Research数据显示，2026年第三季度长鑫存储全球DRAM营收份额从二季度的10%回落至9%，同期三星升至38%、SK海力士降至29%。全球DRAM营收同比增长近五倍，但位元出货量仅增约4%，平均售价达每千兆位1.9美元。",
+      "points": [
+        "三星电子以38%营收份额扩大领先，环比增加5个百分点；SK海力士占29%，环比下降4个百分点；长鑫存储从10%小幅回落至9%。",
+        "2026年第三季度全球DRAM营收同比增长接近五倍，但位元出货量仅增长约4%，平均售价达每千兆位1.9美元，显示营收增长主要由价格上涨推动。",
+        "AI代理增加CPU负载，服务器GPU与CPU比例已降至约2:1，英特尔CEO称此前曾达8:1。传统DRAM需求随AI基础设施扩张而增加，影响行业格局。",
+        "长鑫存储产能规模仍小于三星和SK海力士，面临扩张压力。但传统DRAM涨价有助于改善收入，中国本土采购需求提供增长动力。"
+      ],
+      "cards": [
+        {
+          "heading": "市场份额变化",
+          "body": "三星电子以38%营收份额扩大领先，环比增加5个百分点；SK海力士占29%，环比下降4个百分点；长鑫存储从10%小幅回落至9%。"
+        },
+        {
+          "heading": "价格驱动增长",
+          "body": "2026年第三季度全球DRAM营收同比增长接近五倍，但位元出货量仅增长约4%，平均售价达每千兆位1.9美元，显示营收增长主要由价格上涨推动。"
+        },
+        {
+          "heading": "AI需求结构变化",
+          "body": "AI代理增加CPU负载，服务器GPU与CPU比例已降至约2:1，英特尔CEO称此前曾达8:1。传统DRAM需求随AI基础设施扩张而增加，影响行业格局。"
+        },
+        {
+          "heading": "长鑫挑战与机会",
+          "body": "长鑫存储产能规模仍小于三星和SK海力士，面临扩张压力。但传统DRAM涨价有助于改善收入，中国本土采购需求提供增长动力。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585308.htm",
+      "published": "2026-11-06T13:33:46.000Z",
+      "score": 21.8,
+      "eventKey": "counterpoint-q3-2026-dram-share-cxmt-9pct",
+      "originalTitle": "中国存储芯片厂商长鑫存储三季度市场份额回落至9%",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585308.htm",
+        "retrievedAt": "2026-11-07T02:45:54.167Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Counterpoint数据显示长鑫存储Q3 DRAM营收份额从10%回落至9%，三星升至38%、SK海力士降至29%，DRAM均价达1.9美元/千兆位，是具体市场份额新数据。",
+        "evidence": [
+          "根据其最新报告,2026年第三季度全球DRAM市场的竞争格局出现了明显变化:三星电子以38%的营收份额重新扩大领先优势,SK海力士占据29%,长鑫存储则为9%。",
+          "与第二季度相比,三星的市场份额增加了5个百分点,而SK海力士下降了4个百分点。",
+          "报告显示,第三季度DRAM平均售价达到每千兆位1.9美元。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "15340e5f40023e",
+      "title": "英伟达要求东南亚云商登记GPU追踪系统",
+      "summary": "据彭博社报道，英伟达要求东南亚计算服务提供商若想成为官方Nvidia Cloud Partner，必须注册其Fleet Intelligence追踪系统，以监控AI加速器部署位置，应对美国对受限硬件经该地区流入中国的担忧。英伟达未立即回应置评请求。",
+      "points": [
+        "东南亚计算服务提供商需注册英伟达Fleet Intelligence追踪系统，才能成为官方Nvidia Cloud Partner（NCP），以便英伟达监控AI加速器部署位置。",
+        "此举据称旨在应对华盛顿对受限硬件通过区域走私网络流入中国的担忧，为英伟达提供额外监控手段。英伟达未立即回应置评请求。"
+      ],
+      "cards": [
+        {
+          "heading": "新规内容",
+          "body": "东南亚计算服务提供商需注册英伟达Fleet Intelligence追踪系统，才能成为官方Nvidia Cloud Partner（NCP），以便英伟达监控AI加速器部署位置。"
+        },
+        {
+          "heading": "背景与目的",
+          "body": "此举据称旨在应对华盛顿对受限硬件通过区域走私网络流入中国的担忧，为英伟达提供额外监控手段。英伟达未立即回应置评请求。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+      "published": "2026-11-06T13:49:33.000Z",
+      "score": 20.85,
+      "eventKey": "nvidia-fleet-intelligence-southeast-asia-tracking",
+      "originalTitle": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+        "retrievedAt": "2026-11-07T02:45:54.122Z",
+        "articlePublished": "2026-11-06T13:49:33.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达收紧东南亚AI GPU追踪，要求云服务商注册Fleet Intelligence系统以成为官方合作伙伴，这是应对走私的新监管动作。",
+        "evidence": [
+          "(Image credit: Getty Images) Southeast Asia computing providers are now reportedly required to register with Nvidia's Fleet Intelligence tracking system if they want to become official Nvidia Cloud Partners (NCPs).",
+          "The move, according to Bloomberg, is aimed at giving the chipmaker another way to monitor where its AI accelerators are deployed, as Washington grows increasingly frustrated with restricted hardware finding its way into China through region"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "8322ebe655a6c",
+      "title": "特斯拉公布AI加速器路线图，改用SI命名",
+      "summary": "特斯拉披露第六代推理加速器将比第四代提升80倍算力，D3训练加速器弃用SRAM架构转向多芯片堆叠HBM设计。公司同时将AI加速器更名为SI（超级智能）系列，SpaceXAI也同步更名。",
+      "points": [
+        "特斯拉预计第六代推理加速器将带来较现有第四代芯片80倍的算力提升，该路线图首次披露了公司芯片开发计划的未来方向。",
+        "D3训练加速器将放弃以SRAM为核心的架构，改用多芯片（multi-chiplet）设计并堆叠HBM内存，以提升训练性能。",
+        "特斯拉以“超级智能”（Super Intelligence）取代“人工智能”作为AI加速器命名，产品线改用SI标识。马斯克已确认SpaceXAI将更名为SpaceXSI。"
+      ],
+      "cards": [
+        {
+          "heading": "第六代推理芯片",
+          "body": "特斯拉预计第六代推理加速器将带来较现有第四代芯片80倍的算力提升，该路线图首次披露了公司芯片开发计划的未来方向。"
+        },
+        {
+          "heading": "D3训练架构转向",
+          "body": "D3训练加速器将放弃以SRAM为核心的架构，改用多芯片（multi-chiplet）设计并堆叠HBM内存，以提升训练性能。"
+        },
+        {
+          "heading": "SI品牌更名",
+          "body": "特斯拉以“超级智能”（Super Intelligence）取代“人工智能”作为AI加速器命名，产品线改用SI标识。马斯克已确认SpaceXAI将更名为SpaceXSI。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+      "published": "2026-11-06T12:00:00.000Z",
+      "score": 20.54,
+      "eventKey": "tesla-ai-accelerator-roadmap-si6-80x-d3-hbm",
+      "originalTitle": "Tesla unveils AI accelerator roadmap, adopts new 'SI' branding in 'Super Intelligence' push",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/tesla-unveils-ai-accelerator-roadmap-adopts-new-si-branding-in-super-intelligence-push-si6-to-bring-80x-more-compute-performance-dojo-3-headed-to-space",
+        "retrievedAt": "2026-11-07T02:45:54.263Z",
+        "articlePublished": "2026-11-06T12:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "特斯拉公布AI加速器路线图，第六代推理加速器性能提升80倍，D3训练芯片转向多chiplet堆叠HBM设计，并采用SI品牌。",
+        "evidence": [
+          "The Elon Musk company expects that its 6th Generation inference accelerator will bring 80X more compute performance than the existing 4th Generation chip, whereas its D3 training accelerator will cease to use SRAM-centric architecture in fa",
+          "Also, Tesla has adopted the term \"super intelligence\" instead of artificial intelligence for its AI accelerators, renaming them with SI monikers."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1a4896009da926",
+      "title": "AMD转向数据中心优先，游戏收入下滑40%",
+      "summary": "AMD CEO苏姿丰称公司为“数据中心优先”企业，Q3数据中心收入创纪录达85亿美元，同比增长97%，占总收入64%；游戏收入降至7.73亿美元，同比下滑40%，主要受半定制芯片和显卡需求疲软影响。",
+      "points": [
+        "Q3数据中心收入85亿美元，同比增长97%，占总收入64%（去年同期47%）。苏姿丰预计Q4环比再增50%，明年可能翻倍以上。",
+        "游戏业务Q3收入7.73亿美元，占总收入不足6%，同比下滑40%。主因是索尼和微软游戏机半定制芯片出货减少，以及显卡需求疲软。",
+        "AMD预计Q4客户端和游戏业务环比下滑超20%，并规划2027年PC出货量双位数下降。另有报道称Radeon GPU和GDDR6套件将再次涨价。"
+      ],
+      "cards": [
+        {
+          "heading": "数据中心业务增长",
+          "body": "Q3数据中心收入85亿美元，同比增长97%，占总收入64%（去年同期47%）。苏姿丰预计Q4环比再增50%，明年可能翻倍以上。"
+        },
+        {
+          "heading": "游戏收入骤降",
+          "body": "游戏业务Q3收入7.73亿美元，占总收入不足6%，同比下滑40%。主因是索尼和微软游戏机半定制芯片出货减少，以及显卡需求疲软。"
+        },
+        {
+          "heading": "消费端前景承压",
+          "body": "AMD预计Q4客户端和游戏业务环比下滑超20%，并规划2027年PC出货量双位数下降。另有报道称Radeon GPU和GDDR6套件将再次涨价。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354543/amd-goes-data-center-first-while-gaming-revenue-drops-40",
+      "published": "2026-11-06T17:09:31.000Z",
+      "score": 20.4,
+      "eventKey": "amd-data-center-first-strategy-q4-guidance",
+      "originalTitle": "AMD Goes \"Data Center First\" While Gaming Revenue Drops 40%",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354543/amd-goes-data-center-first-while-gaming-revenue-drops-40",
+        "retrievedAt": "2026-11-07T02:45:54.334Z",
+        "articlePublished": "2026-11-06T17:09:31.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "AMD CEO在财报后采访中提出“数据中心优先”战略，并给出Q4数据中心业务环比增长50%及游戏业务下滑40%的具体数据，是对既有财报的补充性战略表态，属于新事实。",
+        "evidence": [
+          "Speaking to Yahoo Finance's Brian Sozzi on November 5, Su said AMD's data center business should grow 50% sequentially from Q3 to Q4, and suggested it could more than double next year.",
+          "Lisa Su, AMD CEOWe are a data center first company, that is our profile, and you know, people need more computing to power all these applications.Data Center brought in a record $8.5 billion in Q3, up 97%, and now makes up 64% of AMD's $13.",
+          "Gaming fell to $773 million, or under 6% of revenue."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585316.htm"
+        }
+      ]
+    },
+    {
+      "id": "12582c86f40641",
+      "title": "SK海力士成立美国AI投资子公司Hyaico，最高投资100亿美元",
+      "summary": "SK海力士在美国成立AI投资子公司Hyaico Corp，由SK集团会长崔泰源任董事会主席，总裁宋贤钟任CEO。该公司将重组现有美国业务部门，计划向美国AI领域投资至多100亿美元。",
+      "points": [
+        "Hyaico Corp由SK海力士设立，崔泰源任董事会主席，宋贤钟任CEO。公司通过重组SK hynix NAND Product Solutions组建。",
+        "计划向美国AI领域投资至多100亿美元（约668.25亿元人民币），旨在加速全球AI发展并寻找新增长引擎。"
+      ],
+      "cards": [
+        {
+          "heading": "公司架构",
+          "body": "Hyaico Corp由SK海力士设立，崔泰源任董事会主席，宋贤钟任CEO。公司通过重组SK hynix NAND Product Solutions组建。"
+        },
+        {
+          "heading": "投资规模",
+          "body": "计划向美国AI领域投资至多100亿美元（约668.25亿元人民币），旨在加速全球AI发展并寻找新增长引擎。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/023/584.htm",
+      "published": "2026-11-06T15:05:28.000Z",
+      "score": 18.06,
+      "eventKey": "sk-hynix-hyaico-us-ai-investment-subsidiary-10b",
+      "originalTitle": "最高投资 100 亿美元：SK 海力士设立美国 AI 投资子公司 Hyaico，崔泰源掌舵",
+      "provenance": {
+        "url": "https://www.ithome.com/1/023/584.htm",
+        "retrievedAt": "2026-11-07T02:45:55.063Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SK海力士在美国设立AI投资子公司Hyaico，最高投资100亿美元，崔泰源任董事会主席，宋贤钟任CEO，是明确的公司架构与投资新动作。",
+        "evidence": [
+          "IT之家 11 月 6 日消息,美国监管机构披露文件显示,SK 海力士已在美国成立 AI 投资子公司 Hyaico Corp,SK 集团会长崔泰源担任董事会主席。",
+          "该公司将加速全球市场 AI 发展,并寻找 AI 增长新引擎,计划向美国 AI 领域投资至多 100 亿美元(IT之家注:现汇率约合 668.25 亿元人民币)。",
+          "SK 海力士总裁宋贤钟(Song Hyun-jong)将出任 Hyaico CEO。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1fa9c2beaeb5e8",
+      "title": "沪硅产业扩产至月产120万片，硅片价格回升",
+      "summary": "沪硅产业（NSIG）预计2026年底完成300mm硅片月产能扩至120万片。公司受益于硅片价格回升及硅光子SOI衬底需求增长，但盈利能力仍面临挑战。",
+      "points": [
+        "NSIG计划2026年底将300mm硅片月产能提升至120万片，当前扩产项目正在推进中。",
+        "硅片价格出现回升，同时硅光子（SiPh）用SOI衬底需求增长，为公司带来市场机会。",
+        "尽管市场环境改善，但公司盈利能力仍不乐观，扩产与成本控制是后续重点。"
+      ],
+      "cards": [
+        {
+          "heading": "扩产目标",
+          "body": "NSIG计划2026年底将300mm硅片月产能提升至120万片，当前扩产项目正在推进中。"
+        },
+        {
+          "heading": "价格与需求",
+          "body": "硅片价格出现回升，同时硅光子（SiPh）用SOI衬底需求增长，为公司带来市场机会。"
+        },
+        {
+          "heading": "盈利压力",
+          "body": "尽管市场环境改善，但公司盈利能力仍不乐观，扩产与成本控制是后续重点。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106VL208/nsig-silicon-wafer-300mm-expansion.html",
+      "published": "2026-11-06T03:59:06.000Z",
+      "score": 23.21,
+      "eventKey": "nsig-300mm-wafer-expansion-1.2m-wpm-2026",
+      "originalTitle": "China's NSIG sees silicon wafer prices rebound, but profitability remains elusive",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106VL208/nsig-silicon-wafer-300mm-expansion.html",
+        "retrievedAt": "2026-11-07T02:45:53.787Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "NSIG预计2026年底将300mm硅晶圆月产能扩至120万片，并受益于硅晶圆价格回升和SOI衬底需求增长，是具体产能扩张新事实。",
+        "evidence": [
+          "National Silicon Industry Group (NSIG) expects to complete its expansion to 1.2 million 300mm silicon wafers per month by the end of 2026, positioning the Chinese semiconductor materials supplier to benefit from recovering wafer prices and ",
+          "growing demand for silicon-on-insulator (SOI) substrates used in silicon photonics (SiPh)."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "2d3cfb5ddbac1",
+      "title": "英伟达拟改造130余座电信楼为微型数据中心",
+      "summary": "据The Information报道，英伟达正与电信运营商Brightspeed洽谈，计划将其130多座建筑改造为微型数据中心。英伟达已向Brightspeed母公司Apollo Global Management提交书面计划，并请求获取更多信息和进行现场考察。",
+      "points": [
+        "英伟达向Brightspeed母公司Apollo Global Management高管提出改造构想，对方要求提交书面计划。英伟达已提交计划，并请求获取额外信息、数据和进行现场考察。",
+        "据The Information报道，涉及改造的电信建筑超过130座，将作为微型数据中心使用。Brightspeed是一家互联网和电信服务提供商，拥有广泛的基础设施。"
+      ],
+      "cards": [
+        {
+          "heading": "谈判进展",
+          "body": "英伟达向Brightspeed母公司Apollo Global Management高管提出改造构想，对方要求提交书面计划。英伟达已提交计划，并请求获取额外信息、数据和进行现场考察。"
+        },
+        {
+          "heading": "改造规模",
+          "body": "据The Information报道，涉及改造的电信建筑超过130座，将作为微型数据中心使用。Brightspeed是一家互联网和电信服务提供商，拥有广泛的基础设施。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
+      "published": "2026-11-06T12:45:00.000Z",
+      "score": 17.67,
+      "eventKey": "nvidia-brightspeed-telco-buildings-data-center-talks",
+      "originalTitle": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
+        "retrievedAt": "2026-11-07T02:45:55.126Z",
+        "articlePublished": "2026-11-06T12:45:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "据报英伟达正与Brightspeed洽谈将其130多座旧电信楼改造为微型数据中心，是具体的新合作动态。",
+        "evidence": [
+          "Internet and telecommunications provider Brightspeed is reportedly in talks with Nvidia to convert several of its buildings into tiny data centers.",
+          "According to The Information, Nvidia pitched the idea to Apollo Global Management executives, the parent company of Brightspeed, who then asked it to submit written plans to the internet provider."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "54c663ff58dee",
+      "title": "纬创ITS三季度利润创新高，AI业务驱动",
+      "summary": "Wistron ITS公布2026年第三季度财报，毛利率、营业利润、净利润和每股收益均创历史新高，合并营收达37.52亿新台币（约1.141亿美元），同比增长25.6%，主要受AI和半导体服务扩张推动。",
+      "points": [
+        "2026年第三季度合并营收达37.52亿新台币（约1.141亿美元），环比增长3.5%，同比增长25.6%。",
+        "毛利率、营业利润、净利润和每股收益均创历史新高，得益于营收增长和运营效率提升，AI与半导体服务持续扩张。"
+      ],
+      "cards": [
+        {
+          "heading": "营收表现",
+          "body": "2026年第三季度合并营收达37.52亿新台币（约1.141亿美元），环比增长3.5%，同比增长25.6%。"
+        },
+        {
+          "heading": "利润创新高",
+          "body": "毛利率、营业利润、净利润和每股收益均创历史新高，得益于营收增长和运营效率提升，AI与半导体服务持续扩张。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106PD234/wistron-its-revenue-profit-growth.html",
+      "published": "2026-11-06T07:55:00.000Z",
+      "score": 23.86,
+      "eventKey": "wistron-its-q3-2026-record-profit",
+      "originalTitle": "Wistron ITS reports record third-quarter profit as AI and semiconductor focus accelerates",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106PD234/wistron-its-revenue-profit-growth.html",
+        "retrievedAt": "2026-11-07T02:45:54.196Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Wistron ITS公布创纪录的第三季度利润，涉及AI和半导体服务业务，有具体营收数据。",
+        "evidence": [
+          "Wistron ITS reported record gross profit, operating profit, net income, and earnings per share in the third quarter of 2026, as stronger revenue and improved operating efficiency supported continued expansion in AI and semiconductor service",
+          "Consolidated revenue reached NT$3.752 billion (approx."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1698eef6c252fd",
+      "title": "美光董事Haynesworth宣布2027年1月退休",
+      "summary": "美光科技宣布董事Linnie M. Haynesworth将在2027年1月14日年度股东大会上退休，她于2021年2月加入董事会，拥有超30年技术经验。退休后董事会将由八名成员组成，其余现任董事获提名连任。",
+      "points": [
+        "Haynesworth将在预计2027年1月14日举行的年度股东大会上退休，不再参加连任选举。她于2021年2月加入美光董事会，拥有超过30年技术经验，涵盖航空航天和网络安全领域。",
+        "Haynesworth曾于2021至2024年任治理与可持续发展委员会委员，2021至2026年任安全委员会委员并于2024至2026年担任主席，目前任职于审计委员会和薪酬委员会。",
+        "退休后美光董事会将由八名董事组成。董事会已提名其余现任董事连任，包括Alexis Black Björlin、Lynn A. Dugle、Steven J. Gomo、T. Mark Liu、Sanjay Mehrotra、A. Christine Simons、Robert H. Swan和MaryAnn Wright。"
+      ],
+      "cards": [
+        {
+          "heading": "退休安排",
+          "body": "Haynesworth将在预计2027年1月14日举行的年度股东大会上退休，不再参加连任选举。她于2021年2月加入美光董事会，拥有超过30年技术经验，涵盖航空航天和网络安全领域。"
+        },
+        {
+          "heading": "董事会任职",
+          "body": "Haynesworth曾于2021至2024年任治理与可持续发展委员会委员，2021至2026年任安全委员会委员并于2024至2026年担任主席，目前任职于审计委员会和薪酬委员会。"
+        },
+        {
+          "heading": "董事会构成",
+          "body": "退休后美光董事会将由八名董事组成。董事会已提名其余现任董事连任，包括Alexis Black Björlin、Lynn A. Dugle、Steven J. Gomo、T. Mark Liu、Sanjay Mehrotra、A. Christine Simons、Robert H. Swan和MaryAnn Wright。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 2,
+      "tags": [
+        "存储"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/micron-announces-board-of-directors-retirement",
+      "published": "2026-11-06T16:15:18.000Z",
+      "score": 19.25,
+      "eventKey": "micron-board-director-haynesworth-retirement-2027",
+      "originalTitle": "Micron Announces Board of Directors Retirement",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/micron-announces-board-of-directors-retirement",
+        "retrievedAt": "2026-11-07T02:45:55.266Z",
+        "articlePublished": "2026-11-06T16:15:18.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "美光宣布董事会成员Linnie M. Haynesworth将在2027年1月14日年度股东大会上退休，这是公司治理层面的具体人事变动，属于新事实。",
+        "evidence": [
+          "Micron Technology, Inc. today announced that Linnie M.",
+          "Haynesworth has informed the Company that she will retire from its board of directors at the annual shareholders meeting expected to be held on January 14, 2027.",
+          "Haynesworth joined Micron’s board in February 2021, bringing more than 30 years of technology experience, including deep expertise in aerospace and cybersecurity."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

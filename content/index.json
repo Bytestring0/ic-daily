@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-06T03:25:11.022Z",
-  "total": 21,
+  "generatedAt": "2026-11-07T02:46:43.671Z",
+  "total": 22,
   "editions": [
+    {
+      "date": "2026-11-07",
+      "count": 18,
+      "intro": "本期共 18 条动态，其中 14 条值得重点关注，集中在材料与封测、存储、设备方向。",
+      "top": [
+        "Diamond Foundry发布全球首片200mm单晶金刚石",
+        "长江存储第四工厂拟2027年动工，国产设备占比最高70%",
+        "消息称：传台积电应英伟达要求评估3D DRAM生产"
+      ],
+      "categories": {
+        "material": 2,
+        "memory": 6,
+        "equipment": 1,
+        "policy": 3,
+        "market": 3,
+        "foundry": 1,
+        "design": 2
+      }
+    },
     {
       "date": "2026-11-06",
       "count": 12,
