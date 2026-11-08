@@ -1,0 +1,295 @@
+{
+  "date": "2026-11-08",
+  "generatedAt": "2026-11-08T02:24:12.268Z",
+  "intro": "本期共 5 条动态，其中 2 条值得重点关注，集中在芯片设计、政策与地缘方向。",
+  "stats": {
+    "count": 5,
+    "sources": 4,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 1,
+      "policy": 1,
+      "equipment": 1,
+      "memory": 1,
+      "market": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 80461,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 10,
+      "readable": 7,
+      "accepted": 5,
+      "rejected": 4476,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "162847bbc24504",
+      "title": "消息称：英伟达注资数十亿美元助矽品扩产CoWoS",
+      "summary": "据报道，据路透社报道，因台积电CoWoS先进封装产能吃紧，英伟达正提供数十亿美元资金，支持日月光旗下矽品精密扩充CoWoS封装产能，资金将用于新无尘厂房扩建与设备采购。英伟达未回应置评，日月光不予置评。",
+      "points": [
+        "英伟达提供的数十亿美元将用于矽品精密的新无尘厂房扩建与设备采购，以扩充CoWoS封装产能。该资金此前未公开，业内高管透露此消息。",
+        "台积电主导CoWoS技术，该技术被英伟达、AMD、博通及云巨头采用。台积电产能吃紧，迫使芯片设计厂商寻求其他封测伙伴。",
+        "Yole Group预测，先进封装市场规模2026年将首超传统封装，资本支出预计逼近280亿美元（约合1872.11亿元人民币）。"
+      ],
+      "cards": [
+        {
+          "heading": "资金用途",
+          "body": "英伟达提供的数十亿美元将用于矽品精密的新无尘厂房扩建与设备采购，以扩充CoWoS封装产能。该资金此前未公开，业内高管透露此消息。"
+        },
+        {
+          "heading": "产能瓶颈",
+          "body": "台积电主导CoWoS技术，该技术被英伟达、AMD、博通及云巨头采用。台积电产能吃紧，迫使芯片设计厂商寻求其他封测伙伴。"
+        },
+        {
+          "heading": "市场背景",
+          "body": "Yole Group预测，先进封装市场规模2026年将首超传统封装，资本支出预计逼近280亿美元（约合1872.11亿元人民币）。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/023/814.htm",
+      "published": "2026-11-07T13:50:41.000Z",
+      "score": 20.91,
+      "eventKey": "nvidia-ase-cowos-expansion-funding-billions",
+      "originalTitle": "消息称因台积电产能吃紧，英伟达提供数十亿美元支持日月光扩产 CoWoS 先进封装",
+      "provenance": {
+        "url": "https://www.ithome.com/1/023/814.htm",
+        "retrievedAt": "2026-11-08T02:23:57.910Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达提供数十亿美元支持日月光扩产CoWoS封装产能，这是先进封装领域的重要新投资动态，涉及具体金额和扩产计划。",
+        "evidence": [
+          "一位业内高管透露,英伟达正在提供数十亿美元的资金支持,以协助日月光投控旗下封测大厂矽品精密扩充 CoWoS 封装产能。",
+          "该高管表示,这笔此前未公开的资金将用于支持新无尘厂房扩建与设备采购。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1899497fe16b57",
+      "title": "美议员要求黄仁勋就涉华情报指控作证",
+      "summary": "美国情报机构称中国情报人员曾招募女商人Alice Huang接近英伟达CEO黄仁勋，试图获取AI芯片情报。11月4日，三名众议院委员会主席联名致信黄仁勋，要求其11月18日出席闭门简报会。英伟达否认相关指控，称接触属正常商业往来。",
+      "points": [
+        "11月4日，众议院外交事务委员会主席马斯特、中国问题特别委员会主席穆勒纳尔、情报委员会主席克劳福德联名致信黄仁勋，要求其11月18日赴国会山参加闭门简报会，解释与Alice Huang的接触及英伟达防渗透机制。",
+        "Alice Huang（又名Huang Le）曾任新加坡AI企业Megaspeed International高管，该公司为英伟达客户，涉及AI芯片及云计算，因涉嫌协助中国获取受管制芯片而受美商务部审查。",
+        "英伟达发言人否认指控，称黄仁勋每年与数千名客户高管交流，与Alice Huang的接触属正常商业往来，不涉及敏感商业机密或国家安全信息。中国外交部称相关报道为毫无根据的猜测。"
+      ],
+      "cards": [
+        {
+          "heading": "国会质询",
+          "body": "11月4日，众议院外交事务委员会主席马斯特、中国问题特别委员会主席穆勒纳尔、情报委员会主席克劳福德联名致信黄仁勋，要求其11月18日赴国会山参加闭门简报会，解释与Alice Huang的接触及英伟达防渗透机制。"
+        },
+        {
+          "heading": "涉事人物",
+          "body": "Alice Huang（又名Huang Le）曾任新加坡AI企业Megaspeed International高管，该公司为英伟达客户，涉及AI芯片及云计算，因涉嫌协助中国获取受管制芯片而受美商务部审查。"
+        },
+        {
+          "heading": "公司回应",
+          "body": "英伟达发言人否认指控，称黄仁勋每年与数千名客户高管交流，与Alice Huang的接触属正常商业往来，不涉及敏感商业机密或国家安全信息。中国外交部称相关报道为毫无根据的猜测。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585344.htm",
+      "published": "2026-11-07T06:35:38.000Z",
+      "score": 18.7,
+      "eventKey": "us-intel-china-spy-alice-huang-jensen-huang-congress",
+      "originalTitle": "美国情报机构称中国情报机构曾招募女商人接近英伟达CEO黄仁勋 试图获取AI芯片情报",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585344.htm",
+        "retrievedAt": "2026-11-08T02:23:58.509Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "美国情报机构指控中国情报机构招募女商人接近英伟达CEO黄仁勋，众议院要求其出席闭门简报会，这是涉及半导体出口管制政策的新事件。",
+        "evidence": [
+          "11月4日,美国众议院外交事务委员会主席布莱恩·马斯特、众议院中国问题特别委员会主席约翰·穆勒纳尔,以及众议院情报委员会主席里克·克劳福德向黄仁勋发出联名信,要求他于11月18日前往国会山,参加一场闭门简报会。",
+          "议员希望黄仁勋解释自己与Alice Huang的接触情况,并介绍英伟达用于防范外国情报机构渗透的内部安全机制。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "9788dc49ab639",
+      "title": "消息称：三星向DB集团出售约300台8英寸设备",
+      "summary": "据报道，据DIGITIMES报道，三星电子已同意将其关闭的器兴8英寸S7晶圆厂约300台半导体制造设备出售给韩国DB集团。DB HiTek面临产能紧张，而三星正退出8英寸代工业务。",
+      "points": [
+        "三星电子同意向DB集团出售约300台半导体制造工具，这些设备来自其已关闭的器兴8英寸S7晶圆厂。",
+        "DB HiTek面临产能紧张，而三星准备退出8英寸代工业务，此次设备出售是三星退出计划的一部分。"
+      ],
+      "cards": [
+        {
+          "heading": "交易内容",
+          "body": "三星电子同意向DB集团出售约300台半导体制造工具，这些设备来自其已关闭的器兴8英寸S7晶圆厂。"
+        },
+        {
+          "heading": "交易背景",
+          "body": "DB HiTek面临产能紧张，而三星准备退出8英寸代工业务，此次设备出售是三星退出计划的一部分。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106VL218/samsung-equipment-manufacturing-production-capacity-production.html",
+      "published": "2026-11-07T12:40:59.000Z",
+      "score": 26.72,
+      "eventKey": "samsung-sells-300-tools-db-group-8inch-exit",
+      "originalTitle": "Samsung reportedly sells 300 chipmaking tools to DB Group",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106VL218/samsung-equipment-manufacturing-production-capacity-production.html",
+        "retrievedAt": "2026-11-08T02:23:58.284Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星电子将关闭的器兴8英寸S7代工厂约300台半导体制造设备出售给韩国DB集团，DB HiTek面临产能紧张，三星准备退出8英寸代工业务。这是具体的设备处置与业务调整动态。",
+        "evidence": [
+          "Samsung Electronics has reportedly agreed to sell approximately 300 semiconductor manufacturing tools from its shuttered 8-inch S7 foundry in Giheung to South Korea's DB Group, as DB HiTek faces tight production capacity and Samsung prepare",
+          "s to withdraw from the 8-inch foundry business."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "18a5a02b019656",
+      "title": "Solidigm考虑在美国建NAND晶圆厂",
+      "summary": "SK海力士子公司Solidigm正考虑在美国建设NAND闪存晶圆厂，但资金和投资时间表尚未确定。DIGITIMES Intelligence认为，鉴于AI驱动的存储需求和潜在美国政府支持，该项目推进可能性很高。",
+      "points": [
+        "Solidigm（SK海力士子公司）正在评估在美国建设NAND闪存晶圆厂，但资金和投资时间表尚未敲定。",
+        "DIGITIMES Intelligence判断项目推进可能性高，主要基于AI驱动的存储需求增长，以及美国政府可能提供的支持。"
+      ],
+      "cards": [
+        {
+          "heading": "建厂计划",
+          "body": "Solidigm（SK海力士子公司）正在评估在美国建设NAND闪存晶圆厂，但资金和投资时间表尚未敲定。"
+        },
+        {
+          "heading": "推进动力",
+          "body": "DIGITIMES Intelligence判断项目推进可能性高，主要基于AI驱动的存储需求增长，以及美国政府可能提供的支持。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 3,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106PD229/solidigm-fab-nand-flash-nand-funding.html",
+      "published": "2026-11-07T12:41:41.000Z",
+      "score": 24.72,
+      "eventKey": "solidigm-considering-us-nand-fab",
+      "originalTitle": "Solidigm eyes US NAND fab as funding questions linger",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106PD229/solidigm-fab-nand-flash-nand-funding.html",
+        "retrievedAt": "2026-11-08T02:23:58.014Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SK海力士子公司Solidigm考虑在美国建设NAND闪存晶圆厂，资金和投资时间表尚未确定，但DIGITIMES Intelligence认为项目很可能推进。这是新的建厂意向动态。",
+        "evidence": [
+          "Solidigm, a subsidiary of SK Hynix, is considering building a NAND flash wafer fab in the US.",
+          "Funding and the investment timeline have yet to be settled, but DIGITIMES Intelligence believes the project is highly likely to move forward, given AI-driven storage demand and the prospect of US government support."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "18bdbde802f1da",
+      "title": "CPU-Z数据：PC内存容量首次同比下降",
+      "summary": "CPU-Z Validator统计显示，PC内存容量首次出现同比下降。32GB仍是最主流配置，占比37.2%但同比下滑2.5个百分点；16GB升至33.0%，而64GB占比大跌18%至7.3%。DDR4占比升至54.5%，DDR5降至32.9%，反映高内存价格下用户转向低容量或旧平台。",
+      "points": [
+        "32GB占比37.2%（同比降2.5%），16GB升至33.0%（增12.9%），8GB升至11.0%（增5.5%），64GB降至7.3%（降18%），96GB和128GB各降超26%。",
+        "DDR4占54.5%（同比增6.0%），DDR5占32.9%（降2.9%）。DDR4平台可能因2027年初LGA1700新处理器而获得二次生命。",
+        "内存价格今年大幅上涨，Team Group预计供应短缺最严重时期在2026年Q4至2027年Q2。数据仅覆盖近三个月提交验证的系统，非全市场统计。"
+      ],
+      "cards": [
+        {
+          "heading": "容量分布变化",
+          "body": "32GB占比37.2%（同比降2.5%），16GB升至33.0%（增12.9%），8GB升至11.0%（增5.5%），64GB降至7.3%（降18%），96GB和128GB各降超26%。"
+        },
+        {
+          "heading": "内存类型趋势",
+          "body": "DDR4占54.5%（同比增6.0%），DDR5占32.9%（降2.9%）。DDR4平台可能因2027年初LGA1700新处理器而获得二次生命。"
+        },
+        {
+          "heading": "价格与市场背景",
+          "body": "内存价格今年大幅上涨，Team Group预计供应短缺最严重时期在2026年Q4至2027年Q2。数据仅覆盖近三个月提交验证的系统，非全市场统计。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354574/cpu-z-data-shows-16-gb-ram-gaining-ground-while-32-gb-and-64-gb-ram-shares-shrink",
+      "published": "2026-11-08T00:03:01.000Z",
+      "score": 26.61,
+      "eventKey": "cpu-z-validator-pc-ram-capacity-first-yoy-decline",
+      "originalTitle": "CPU-Z Data Shows 16 GB RAM Gaining Ground While 32 GB and 64 GB RAM Shares Shrink",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354574/cpu-z-data-shows-16-gb-ram-gaining-ground-while-32-gb-and-64-gb-ram-shares-shrink",
+        "retrievedAt": "2026-11-08T02:23:58.083Z",
+        "articlePublished": "2026-11-08T00:03:01.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "CPU-Z Validator统计显示PC内存容量首次同比下降，32GB和64GB占比下滑，16GB和8GB占比上升，DDR4占比回升。反映内存涨价对PC市场配置结构的具体影响。",
+        "evidence": [
+          "According to Doc TB, one of the developers behind CPU-Z, this is the first time RAM capacity on PCs has declined year over year.",
+          "32 GB is still the most popular configuration at 37.2% of validations, though its share is down 2.5% compared to a year ago.",
+          "Lower capacities are moving the other way, with 16 GB up 12.9% to 33.0% and 8 GB up 5.5% to 11.0%, while 96 GB and 128 GB setups dropped by more than 26% each."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
