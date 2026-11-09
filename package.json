@@ -25,6 +25,7 @@
     "@mozilla/readability": "^0.6.0",
     "astro": "^7.3.8",
     "fast-xml-parser": "^5.2.5",
+    "jsonrepair": "^3.15.0",
     "linkedom": "^0.18.13",
     "nodemailer": "^10.1.7",
     "yaml": "^2.8.1"

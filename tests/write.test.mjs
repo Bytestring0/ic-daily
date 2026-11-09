@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { extractJSON, write } from '../scripts/write.mjs';
+import { callLLM, extractJSON, write } from '../scripts/write.mjs';
 
 const article = i => ({
   title: `TSMC fab news ${i}`,
@@ -48,6 +48,18 @@ test('JSON extraction tolerates fences and explanatory text without accepting br
   assert.equal(extractJSON(''), null);
 });
 
+test('JSON extraction repairs trailing commas, missing quotes and literal newlines while retaining text', () => {
+  assert.deepEqual(extractJSON('{items: [{index: 0, title: "标题", summary: "摘要",},],}'), { items: [{ index: 0, title: '标题', summary: '摘要' }] });
+  assert.deepEqual(extractJSON('{"summary":"正文包含"引用"和参数"}'), { summary: '正文包含"引用"和参数' });
+  assert.deepEqual(extractJSON('{"summary":"第一行\n第二行"}'), { summary: '第一行\n第二行' });
+  assert.deepEqual(extractJSON('<think>思考中的 {不是输出}</think>\n```json\n{"items":[]}\n```'), { items: [] });
+  assert.deepEqual(extractJSON('结果 {"summary":"参数 {A} 与 [B]"} 结束'), { summary: '参数 {A} 与 [B]' });
+  assert.equal(extractJSON('{"items":[{"index":0,"title":"标题","summary":"完整的内层对象"}'), null);
+  assert.deepEqual(extractJSON('{"summary":"保留 <think>标签内容</think> 原文"}'), { summary: '保留 <think>标签内容</think> 原文' });
+  assert.equal(extractJSON('{items:[{index:1e,title:"标题",summary:"摘要"}]}'), null);
+  assert.deepEqual(extractJSON('结果 [0]：{"items":[]}'), { items: [] });
+});
+
 test('the reported 5/7 failure recovers via single-item rewrites, preserving successful batches and order', async t => {
   const items = Array.from({ length: 7 }, (_, i) => article(i));
   const calls = mockLLM(t, request => {
@@ -91,6 +103,40 @@ test('JSON schema failures and omitted items receive both bounded recovery attem
   });
   assert.equal((await write([article(0)], { strict: true }))[0].title, '第三次完成');
   assert.equal(calls.length, 3);
+});
+
+test('persistent JSON syntax errors are repaired without repeated API calls', async t => {
+  const calls = mockLLM(t, () => '{items:[{index:0,title:"标题",summary:"原文摘要",},],}');
+  assert.equal((await write([article(0)], { strict: true }))[0].summary, '原文摘要');
+  assert.equal(calls.length, 1);
+});
+
+test('the final recovery round uses a minimal schema when full drafts repeatedly fail', async t => {
+  const calls = mockLLM(t, (request, n) => {
+    if (n < 3) return '{"items":[';
+    assert.match(request.messages[1].content, /不要输出 cards、points/);
+    assert.equal(request.messages[1].content.includes('heading'), false);
+    return { title: '精简稿件', summary: '真实模型摘要。' }; // Compatible single-item response.
+  });
+  const [result] = await write([article(0)], { strict: true });
+  assert.equal(result.title, '精简稿件');
+  assert.equal(result.category, 'foundry');
+  assert.deepEqual(result.cards, []);
+  assert.equal(calls.length, 3);
+});
+
+test('bare arrays are accepted only with explicit valid indices', async t => {
+  const calls = mockLLM(t, () => [draft(1, '第二条'), draft(0, '第一条')]);
+  assert.deepEqual((await write([article(0), article(1)], { strict: true })).map(d => d.title), ['第一条', '第二条']);
+  assert.equal(calls.length, 1);
+});
+
+test('completion text arrays are normalized and truncated output is never silently repaired', async t => {
+  mockLLM(t, () => Response.json({ choices: [{ finish_reason: 'stop', message: { content: [{ type: 'text', text: '{"it' }, { type: 'text', text: 'ems":[]}' }] } }] }));
+  const cfg = { baseUrl: 'https://llm.example/v1', apiKey: 'test', model: 'u2-flash', timeoutMs: 1000 };
+  assert.equal(await callLLM(cfg, []), '{"items":[]}');
+  globalThis.fetch = async () => Response.json({ choices: [{ finish_reason: 'length', message: { content: '{"items":[]}' } }] });
+  await assert.rejects(callLLM(cfg, []), /completion_truncated/);
 });
 
 test('strict mode still stops publication after bounded retries and identifies failed items', async t => {
