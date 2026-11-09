@@ -52,7 +52,8 @@ ${lines.join('\n\n')}
   ]
 }
 
-importance 取 1-5 的整数，5 表示当日的重大事件（重大并购、制程突破、政策变动、龙头财报），1 表示日常资讯。`;
+importance 取 1-5 的整数，5 表示当日的重大事件（重大并购、制程突破、政策变动、龙头财报），1 表示日常资讯。
+必须完整输出所有条目后再结束，不要省略 index、title 或 summary；字符串中的双引号、换行必须按 JSON 规范转义。`;
 }
 
 /** 从模型返回里抠出 JSON（容忍 ```json 包裹或前后杂字） */
@@ -131,9 +132,28 @@ function fallbackItem(it) {
   };
 }
 
+/** 只接受唯一 index 与非空标题/摘要；有问题的条目留待单条补写。 */
+function validDrafts(parsed, count) {
+  const drafts = new Map();
+  const seen = new Set();
+  for (const r of parsed.items) {
+    if (!Number.isInteger(r?.index) || r.index < 0 || r.index >= count) continue;
+    if (seen.has(r.index)) {
+      drafts.delete(r.index);
+      continue;
+    }
+    seen.add(r.index);
+    if (typeof r.title === 'string' && r.title.trim() && typeof r.summary === 'string' && r.summary.trim()) {
+      drafts.set(r.index, r);
+    }
+  }
+  return drafts;
+}
+
 /**
- * 主入口：批量改写
- * 返回与入参等长的数组，每项含 title/summary/points/category/importance
+ * 主入口：批量改写，失败条目最多再单独补写两轮，已成功条目不重复请求。
+ * 严格模式耗尽重试后停止发布；非严格模式才使用规则摘要。
+ * 返回与入参等长的数组，每项含 title/summary/points/category/importance。
  */
 export async function write(items, { strict = false } = {}) {
   const cfg = loadLLM();
@@ -152,62 +172,69 @@ export async function write(items, { strict = false } = {}) {
   }
 
   const results = new Array(items.length).fill(null);
-  let aiOk = 0;
+  const errors = new Map();
+  const blocked = new Set();
+  const RETRIES = 2;
+  let pending = batches;
 
-  const outcomes = await pool(
-    batches.map((b) => async () => {
-      const messages = [
-        { role: 'system', content: SYSTEM_PROMPT },
-        { role: 'user', content: buildUserPrompt(b.slice) },
-      ];
-      const raw = await callLLM(cfg, messages);
-      const parsed = extractJSON(raw);
-      if (!Array.isArray(parsed?.items)) throw new Error('JSON 解析失败');
-      log.info(`AI 批次 ${Math.floor(b.start / BATCH) + 1}/${batches.length} 已返回`);
-      return { batch: b, parsed };
-    }),
-    cfg.concurrency,
-  );
+  for (let round = 0; round <= RETRIES && pending.length; round++) {
+    const outcomes = await pool(
+      pending.map((b) => async () => {
+        const messages = [
+          { role: 'system', content: SYSTEM_PROMPT },
+          { role: 'user', content: buildUserPrompt(b.slice) },
+        ];
+        if (round > 0) messages[1].content += '\n上次输出无法通过 JSON 或条目完整性校验。请只重写当前这一条，index 必须是 0，返回完整的 {"items":[...]} JSON，不要解释或使用代码块。';
+        const raw = await callLLM(cfg, messages);
+        const parsed = extractJSON(raw);
+        if (!Array.isArray(parsed?.items)) throw new Error('JSON 解析失败或缺少 items 数组');
+        return validDrafts(parsed, b.slice.length);
+      }),
+      cfg.concurrency,
+    );
 
-  outcomes.forEach((out, bi) => {
-    const b = batches[bi];
-    if (!out || out.__error || !out.parsed) {
-      const msg = out?.__error?.message || 'unknown';
-      log.skip(`批次 ${bi + 1} 失败(${String(msg).slice(0, 60)}) → 该批使用规则摘要`);
-      b.slice.forEach((it, k) => {
-        const base = fallbackItem(it);
-        results[b.start + k] = { ...base, category: it.source?.category || base.category };
-      });
-      return;
-    }
-
-    const byIndex = new Map();
-    for (const r of out.parsed.items) {
-      if (Number.isInteger(r?.index) && r.index >= 0 && r.index < b.slice.length) byIndex.set(r.index, r);
-    }
-
-    b.slice.forEach((it, k) => {
-      const r = byIndex.get(k);
-      if (!r || typeof r.title !== 'string' || !r.title.trim() || typeof r.summary !== 'string' || !r.summary.trim()) {
-        results[b.start + k] = { ...fallbackItem(it), category: it.source?.category || 'market' };
-        return;
+    outcomes.forEach((out, bi) => {
+      const b = pending[bi];
+      const byIndex = out instanceof Map ? out : new Map();
+      const reason = out?.__error?.message || '条目缺失、重复 index 或标题/摘要无效';
+      if (byIndex.size < b.slice.length) {
+        log.warn(`AI ${round === 0 ? `批次 ${bi + 1}/${batches.length}` : `补写第 ${round}/${RETRIES} 轮（条目 ${b.start + 1}）`} 未完整生成：${String(reason).slice(0, 80)}`);
       }
-      aiOk++;
-      const cards = Array.isArray(r.cards) ? r.cards.filter(c => c && typeof c.heading === 'string' && typeof c.body === 'string' && c.body.trim()).slice(0, 4).map(c => ({ heading: c.heading.trim().slice(0, 20), body: c.body.trim().slice(0, 240) })) : [];
-      results[b.start + k] = qualifyDraft(it, {
-        title: String(r.title || it.title).trim().slice(0, 80),
-        summary: String(r.summary || '').trim().slice(0, 600),
-        cards,
-        points: Array.isArray(r.points)
-          ? r.points.filter((p) => typeof p === 'string' && p.trim()).slice(0, 4)
-          : cards.map(c => c.body),
-        category: Object.hasOwn(CATEGORY_META, it.suggestedCategory) ? it.suggestedCategory : Object.hasOwn(CATEGORY_META, r.category) ? r.category : it.source?.category || 'market',
-        importance: Math.min(5, Math.max(1, Number(r.importance) || 3)),
+
+      b.slice.forEach((it, k) => {
+        const index = b.start + k;
+        const r = byIndex.get(k);
+        if (!r) {
+          errors.set(index, reason);
+          // Authentication and other permanent client errors cannot be fixed by rewriting.
+          if (/HTTP 4\d\d/.test(reason) && !/HTTP (408|429)\b/.test(reason)) blocked.add(index);
+          return;
+        }
+        errors.delete(index);
+        const cards = Array.isArray(r.cards) ? r.cards.filter(c => c && typeof c.heading === 'string' && typeof c.body === 'string' && c.body.trim()).slice(0, 4).map(c => ({ heading: c.heading.trim().slice(0, 20), body: c.body.trim().slice(0, 240) })) : [];
+        results[index] = qualifyDraft(it, {
+          title: String(r.title || it.title).trim().slice(0, 80),
+          summary: String(r.summary || '').trim().slice(0, 600),
+          cards,
+          points: Array.isArray(r.points)
+            ? r.points.filter((p) => typeof p === 'string' && p.trim()).slice(0, 4)
+            : cards.map(c => c.body),
+          category: Object.hasOwn(CATEGORY_META, it.suggestedCategory) ? it.suggestedCategory : Object.hasOwn(CATEGORY_META, r.category) ? r.category : it.source?.category || 'market',
+          importance: Math.min(5, Math.max(1, Number(r.importance) || 3)),
+        });
       });
     });
-  });
 
-  log.ok(`AI 改写完成：${aiOk}/${items.length} 条走了模型，其余规则兜底`);
-  if (strict && aiOk !== items.length) throw new Error('AI 未完整生成，本次不覆盖已有日报。请稍后重试。');
-  return results;
+    pending = items.flatMap((it, index) => results[index] || blocked.has(index) ? [] : [{ start: index, slice: [it] }]);
+    if (pending.length && round < RETRIES) log.info(`保留已完成稿件，${pending.length} 条失败条目将单独补写`);
+  }
+
+  const aiOk = results.filter(Boolean).length;
+  if (strict && aiOk !== items.length) {
+    const details = [...errors].map(([index, reason]) => `${index + 1}: ${String(reason).slice(0, 80)}`).join('；');
+    throw new Error(`AI 未完整生成（${aiOk}/${items.length} 条完成；失败条目 ${details}），本次不覆盖已有日报。请稍后重试。`);
+  }
+  if (aiOk !== items.length) log.warn(`AI 改写 ${aiOk}/${items.length} 条完成，其余在补写后仍失败，使用规则摘要`);
+  else log.ok(`AI 改写完成：${aiOk}/${items.length} 条全部走了模型`);
+  return results.map((draft, index) => draft || fallbackItem(items[index]));
 }
