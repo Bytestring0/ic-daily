@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-11-08T02:24:12.273Z",
-  "total": 23,
+  "generatedAt": "2026-11-09T05:19:50.830Z",
+  "total": 24,
   "editions": [
+    {
+      "date": "2026-11-09",
+      "count": 10,
+      "intro": "本期共 10 条动态，其中 6 条值得重点关注，集中在政策与地缘、设备方向。",
+      "top": [
+        "调查发现美批准向中国空壳企业供H200",
+        "黄仁勋反对全面限制对华AI芯片出口",
+        "英伟达与韩国扩大主权AI合作"
+      ],
+      "categories": {
+        "policy": 3,
+        "equipment": 1,
+        "design": 1,
+        "market": 3,
+        "material": 1,
+        "foundry": 1
+      }
+    },
     {
       "date": "2026-11-08",
       "count": 5,

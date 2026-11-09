@@ -1,0 +1,587 @@
+{
+  "date": "2026-11-09",
+  "generatedAt": "2026-11-09T05:19:50.823Z",
+  "intro": "本期共 10 条动态，其中 6 条值得重点关注，集中在政策与地缘、设备方向。",
+  "stats": {
+    "count": 10,
+    "sources": 4,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "policy": 3,
+      "equipment": 1,
+      "design": 1,
+      "market": 3,
+      "material": 1,
+      "foundry": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 118431,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 28,
+      "readable": 27,
+      "accepted": 10,
+      "rejected": 4481,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "e7559b2cc2ad2",
+      "title": "调查发现美批准向中国空壳企业供H200",
+      "summary": "调查发现美国批准向中国空壳企业供应英伟达H200芯片，如New Matrix注册地址空置且与黑名单基金有关。这些企业获准组装AI服务器，但最终用户不明，引发对出口管制有效性的质疑。",
+      "points": [
+        "New Matrix成立17个月，注册地址为水泥空房，无标识，股权与黑名单基金Wise Road关联，创始人李滨任紫光集团董事长。",
+        "Maginfra登记地址为空置办公室，疑为浪潮集团关联前台企业，浪潮2023年因向解放军供硬件被列入实体清单。",
+        "New Matrix和Maginfra获准将H200组装成AI服务器，但最终客户未明确，可能规避最终用户限制。",
+        "前国安委官员Liza Tobin警告商务部与英伟达背景调查不足，国会议员要求黄仁勋11月18日闭门简报。"
+      ],
+      "cards": [
+        {
+          "heading": "空壳企业",
+          "body": "New Matrix成立17个月，注册地址为水泥空房，无标识，股权与黑名单基金Wise Road关联，创始人李滨任紫光集团董事长。"
+        },
+        {
+          "heading": "另一异常企业",
+          "body": "Maginfra登记地址为空置办公室，疑为浪潮集团关联前台企业，浪潮2023年因向解放军供硬件被列入实体清单。"
+        },
+        {
+          "heading": "许可模式",
+          "body": "New Matrix和Maginfra获准将H200组装成AI服务器，但最终客户未明确，可能规避最终用户限制。"
+        },
+        {
+          "heading": "风险警示",
+          "body": "前国安委官员Liza Tobin警告商务部与英伟达背景调查不足，国会议员要求黄仁勋11月18日闭门简报。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585514.htm",
+      "published": "2026-11-08T17:35:42.000Z",
+      "score": 22.05,
+      "eventKey": "us-export-licenses-h200-shell-companies-china-investigation",
+      "originalTitle": "调查发现美国批准向中国空壳企业供应英伟达H200芯片 注册地址空无一人",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585514.htm",
+        "retrievedAt": "2026-11-09T05:19:00.604Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "调查报道披露美国商务部批准向与中国军方或受制裁实体有关联的中国空壳企业出口英伟达H200芯片，涉及具体企业名称（New Matrix、Maginfra）和关联关系，属于新的出口管制执行事实，与历史中英伟达对华订单交付、国会质询等事件不同。",
+        "evidence": [
+          "其中一家名为New Matrix的企业尤其引人关注。",
+          "New Matrix成立仅17个月,其主要股权所有者与Wise Road存在关联。",
+          "Wise Road是一家私人股权投资基金,2024年被美国列入黑名单,原因是美国方面认为其曾协助北京方面收购敏感半导体资产。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers"
+        }
+      ]
+    },
+    {
+      "id": "14676a76b8e445",
+      "title": "黄仁勋反对全面限制对华AI芯片出口",
+      "summary": "英伟达CEO黄仁勋公开反对Anthropic CEO阿莫代伊提出的全面禁止对华出口AI芯片主张，认为美国应通过竞争而非退出市场取胜。他透露新一代Vera Rubin架构已量产，并已供货OpenAI等美国企业。",
+      "points": [
+        "黄仁勋表示美国应确保本国企业优先获得最先进技术，但不应放弃全球市场，应通过竞争扩大份额。他称“美国的精神在于竞争”。",
+        "英伟达新一代Vera Rubin架构已进入大规模量产阶段，并已向美国科研机构及OpenAI等企业供货。黄仁勋认为美国在AI领域仍领先中国数年。",
+        "AI产业涵盖能源、芯片、模型、数据和应用，沃尔玛、联邦快递等传统企业将转型为AI企业。失去海外收入会削弱产业链基础。"
+      ],
+      "cards": [
+        {
+          "heading": "竞争立场",
+          "body": "黄仁勋表示美国应确保本国企业优先获得最先进技术，但不应放弃全球市场，应通过竞争扩大份额。他称“美国的精神在于竞争”。"
+        },
+        {
+          "heading": "Vera Rubin量产",
+          "body": "英伟达新一代Vera Rubin架构已进入大规模量产阶段，并已向美国科研机构及OpenAI等企业供货。黄仁勋认为美国在AI领域仍领先中国数年。"
+        },
+        {
+          "heading": "产业生态",
+          "body": "AI产业涵盖能源、芯片、模型、数据和应用，沃尔玛、联邦快递等传统企业将转型为AI企业。失去海外收入会削弱产业链基础。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585500.htm",
+      "published": "2026-11-08T14:23:41.000Z",
+      "score": 19.52,
+      "eventKey": "jensen-huang-opposes-full-china-export-ban-vera-rubin-mass-production",
+      "originalTitle": "​黄仁勋反对全面限制对华AI芯片出口 强调美国应以竞争而非退出市场取胜",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585500.htm",
+        "retrievedAt": "2026-11-09T05:19:02.230Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "黄仁勋公开反对全面禁止对华AI芯片出口，主张以竞争而非退出市场取胜，并透露Vera Rubin架构已进入大规模量产阶段。这是新的公开表态，包含具体事实（Vera Rubin量产），属于政策/市场动态。",
+        "evidence": [
+          "英伟达首席执行官黄仁勋近日公开反对Anthropic首席执行官达里奥·阿莫代伊有关全面禁止向中国出口美国AI芯片和半导体设备的主张。",
+          "在谈及技术优势时,黄仁勋透露,英伟达新一代Vera Rubin架构已经进入大规模量产阶段,并已向美国科研机构以及包括OpenAI在内的美国企业提供。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "c3150901c91ec",
+      "title": "英伟达与韩国扩大主权AI合作",
+      "summary": "英伟达与韩国科学技术信息通信部扩大主权AI合作，覆盖半导体、数据中心、人才与初创企业。合作包括韩国NPU/XPU企业探索加入NVLink Fusion生态，以及与SK Telecom和Rebellions共建AI基础设施。",
+      "points": [
+        "合作覆盖AI半导体、数据中心基础设施、人才、初创企业、模型、智能体与安全，为韩国NPU和XPU企业参与NVLink Fusion生态奠定基础。",
+        "英伟达提供培训与认证项目、黑客松和技术研讨会，以提升GPU利用率，强化韩国本土AI技能储备。",
+        "英伟达将与三个入选联盟及四家韩国基础模型开发商合作，使用Dynamo软件优化和扩展AI推理。",
+        "英伟达宣布与SK Telecom和Rebellions合作，在MSIT支持下推进韩国模型与工作负载的主权AI基础设施。"
+      ],
+      "cards": [
+        {
+          "heading": "合作范围",
+          "body": "合作覆盖AI半导体、数据中心基础设施、人才、初创企业、模型、智能体与安全，为韩国NPU和XPU企业参与NVLink Fusion生态奠定基础。"
+        },
+        {
+          "heading": "人才培养",
+          "body": "英伟达提供培训与认证项目、黑客松和技术研讨会，以提升GPU利用率，强化韩国本土AI技能储备。"
+        },
+        {
+          "heading": "AI for All",
+          "body": "英伟达将与三个入选联盟及四家韩国基础模型开发商合作，使用Dynamo软件优化和扩展AI推理。"
+        },
+        {
+          "heading": "新合作",
+          "body": "英伟达宣布与SK Telecom和Rebellions合作，在MSIT支持下推进韩国模型与工作负载的主权AI基础设施。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
+      "published": "2026-11-09T05:00:04.000Z",
+      "score": 32.95,
+      "eventKey": "nvidia-msit-korea-sovereign-ai-collaboration",
+      "originalTitle": "From Chips to Skills, NVIDIA and Korea Expand Sovereign AI Collaboration",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/korea-sovereign-ai-collaboration",
+        "retrievedAt": "2026-11-09T05:18:58.504Z",
+        "articlePublished": "2026-11-09T05:00:04.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达与韩国科学技术信息通信部（MSIT）扩大主权AI合作，并与SK电讯、Rebellions合作推进NVLink Fusion生态，属于新的合作动态。",
+        "evidence": [
+          "NVIDIA and Korea’s Ministry of Science and ICT (MSIT) are expanding their collaboration across the country’s sovereign AI ecosystem, from AI semiconductors and data center infrastructure to talent, startups, models, agents and security.",
+          "In addition, NVIDIA today announced a collaboration with SK Telecom and Rebellions, supported by MSIT, to advance sovereign AI infrastructure for Korean models and workloads with NVIDIA NVLink Fusion."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "NVIDIA Newsroom",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-rebellions-and-sk-telecom-announce-collaboration-to-advance-sovereign-ai-infrastructure-with-nvidia-nvlink-fusion"
+        }
+      ]
+    },
+    {
+      "id": "1bb2f65d896a2a",
+      "title": "SMEE称前道光刻设备国产化率超90%",
+      "summary": "上海微电子装备（SMEE）展示新一代国产光刻系统，覆盖前道晶圆制造与先进封装，宣称前道设备关键部件国产化率超90%，并已进入量产阶段。",
+      "points": [
+        "SMEE宣称其前道光刻系统关键部件国产化率超过90%，显示中国半导体设备本土化取得新进展。",
+        "新一代系统涵盖前道晶圆制造与先进封装两大领域，展示国产光刻设备在多个环节的应用能力。",
+        "公司表示相关设备已推进至量产阶段，但未披露具体制程节点或产能数据。"
+      ],
+      "cards": [
+        {
+          "heading": "国产化进展",
+          "body": "SMEE宣称其前道光刻系统关键部件国产化率超过90%，显示中国半导体设备本土化取得新进展。"
+        },
+        {
+          "heading": "产品覆盖",
+          "body": "新一代系统涵盖前道晶圆制造与先进封装两大领域，展示国产光刻设备在多个环节的应用能力。"
+        },
+        {
+          "heading": "量产状态",
+          "body": "公司表示相关设备已推进至量产阶段，但未披露具体制程节点或产能数据。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109PD235/smee-lithography-packaging-equipment-2026.html",
+      "published": "2026-11-09T04:33:05.000Z",
+      "score": 28.88,
+      "eventKey": "smee-new-lithography-systems-90pct-local-sourcing",
+      "originalTitle": "China's lithography ambitions gain ground as SMEE claims 90% local sourcing in chipmaking tools",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109PD235/smee-lithography-packaging-equipment-2026.html",
+        "retrievedAt": "2026-11-09T05:18:59.496Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "上海微电子装备（SMEE）展示新一代国产光刻系统，并声称前道设备关键部件国产化率超90%，进入量产，属于具体新事实。",
+        "evidence": [
+          "Shanghai Micro Electronics Equipment (SMEE) has showcased a new generation of domestically developed lithography systems spanning front-end wafer fabrication and advanced packaging, marking further progress in China's semiconductor equipmen",
+          "The company claims more than 90% of key components in its front-end systems are sourced domestically, with the equipment advancing into volume production."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "cbc5570b12b1e",
+      "title": "意法半导体统一STM32平台，覆盖工业汽车机器人",
+      "summary": "意法半导体在STM32峰会2026上宣布整合STM32微控制器产品线，推出统一平台，覆盖工业、汽车和机器人应用。新STM32A系列首批器件已向客户送样，计划2027年广泛供货。",
+      "points": [
+        "统一平台基于Arm Cortex-M内核和共享设计原则，支持软件复用，开发者可沿用STM32Cube及Arm生态工具，减少跨市场开发成本。",
+        "STM32A系列包含A4、A5、A9三条产品线，分别面向入门级汽车节点、中端安全关键应用（工业自动化、机器人、能源）和高性能多域控制（实时操作、低延迟、以太网）。",
+        "制造工艺包括ST自有40nm Flash和18nm FD-SOI（嵌入式相变存储），以及台积电eNVM工艺。ST与Arm合作推进Cortex-M演进，面向物理AI的高性能MCU。",
+        "STM32A系列首批器件已向客户送样，更广泛的供货计划在2027年。"
+      ],
+      "cards": [
+        {
+          "heading": "平台策略",
+          "body": "统一平台基于Arm Cortex-M内核和共享设计原则，支持软件复用，开发者可沿用STM32Cube及Arm生态工具，减少跨市场开发成本。"
+        },
+        {
+          "heading": "新系列STM32A",
+          "body": "STM32A系列包含A4、A5、A9三条产品线，分别面向入门级汽车节点、中端安全关键应用（工业自动化、机器人、能源）和高性能多域控制（实时操作、低延迟、以太网）。"
+        },
+        {
+          "heading": "制造与生态",
+          "body": "制造工艺包括ST自有40nm Flash和18nm FD-SOI（嵌入式相变存储），以及台积电eNVM工艺。ST与Arm合作推进Cortex-M演进，面向物理AI的高性能MCU。"
+        },
+        {
+          "heading": "供货时间",
+          "body": "STM32A系列首批器件已向客户送样，更广泛的供货计划在2027年。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/stmicroelectronics-unifies-stm32-mcu-platform-across-industrial-automotive-and-robotics-markets/",
+      "published": "2026-11-09T03:09:28.000Z",
+      "score": 27.64,
+      "eventKey": "st-unified-stm32-platform-stm32a-family-launch",
+      "originalTitle": "STMicroelectronics Unifies STM32 MCU Platform Across Industrial, Automotive and Robotics Markets",
+      "provenance": {
+        "url": "https://www.eetasia.com/stmicroelectronics-unifies-stm32-mcu-platform-across-industrial-automotive-and-robotics-markets/",
+        "retrievedAt": "2026-11-09T05:19:14.498Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "意法半导体在STM32 Summit 2026上宣布统一STM32 MCU平台，并推出面向汽车和安全关键应用的STM32A系列，首批器件已开始送样。",
+        "evidence": [
+          "STMicroelectronics is consolidating its STM32 microcontroller portfolio under a unified platform spanning industrial, automotive and robotics applications.",
+          "A key part is the new STM32A family, which extends the portfolio into automotive and safety-critical applications.",
+          "The first devices are sampling to customers, with broader availability planned for 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "18c5807db618bb",
+      "title": "美国半导体扩张面临许可与供应链协调挑战",
+      "summary": "SEMI Americas总裁Joe Stockunas在SEMICON West 2026表示，美国政府已承诺390亿美元支持，宣布投资达8000亿美元，亚利桑那州工厂良率已与台湾相当。但许可审批、劳动力短缺和供应链协调仍是产能转化的主要障碍。",
+      "points": [
+        "美国政府承诺390亿美元支持，宣布投资达8000亿美元。亚利桑那州先进制程工厂良率已与台湾相当，主要半导体制造商正投资美国。",
+        "许可审批涉及联邦与州政府重叠权限，拖慢项目进度。Stockunas建议借鉴亚洲标准化建设模式，提高建设效率。",
+        "半导体制造依赖全球供应链，亚洲设备商、材料商和工程服务商需凭技术能力参与美国项目。SEMI正推动行业协作。",
+        "从技术操作到工程岗位均缺人，SEMI基金会支持STEM教育20年，但力度仍不足，需吸引更多学生进入相关领域。"
+      ],
+      "cards": [
+        {
+          "heading": "投资与良率",
+          "body": "美国政府承诺390亿美元支持，宣布投资达8000亿美元。亚利桑那州先进制程工厂良率已与台湾相当，主要半导体制造商正投资美国。"
+        },
+        {
+          "heading": "建设挑战",
+          "body": "许可审批涉及联邦与州政府重叠权限，拖慢项目进度。Stockunas建议借鉴亚洲标准化建设模式，提高建设效率。"
+        },
+        {
+          "heading": "全球供应链",
+          "body": "半导体制造依赖全球供应链，亚洲设备商、材料商和工程服务商需凭技术能力参与美国项目。SEMI正推动行业协作。"
+        },
+        {
+          "heading": "劳动力缺口",
+          "body": "从技术操作到工程岗位均缺人，SEMI基金会支持STEM教育20年，但力度仍不足，需吸引更多学生进入相关领域。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/us-semiconductor-expansion-hinges-on-fab-efficiency-supply-chain-coordination/",
+      "published": "2026-11-09T02:11:00.000Z",
+      "score": 25.48,
+      "eventKey": "semi-americas-us-fab-expansion-800b-investment",
+      "originalTitle": "US Semiconductor Expansion Hinges on Fab Efficiency, Supply Chain Coordination",
+      "provenance": {
+        "url": "https://www.eetasia.com/us-semiconductor-expansion-hinges-on-fab-efficiency-supply-chain-coordination/",
+        "retrievedAt": "2026-11-09T05:19:15.273Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SEMI Americas总裁在SEMICON West 2026访谈中披露美国已承诺390亿美元支持、宣布投资达8000亿美元，亚利桑那州良率已与台湾相当，属于具体产业数据。",
+        "evidence": [
+          "In an interview with EE Times Asia during SEMICON West 2026 in San Francisco, Stockunas said the US government has committed $39 billion in support, while announced investments have reached $800 billion.",
+          "Major semiconductor manufacturers capable of producing advanced devices are investing in the country, and yields at facilities in Arizona are now equivalent to those in Taiwan, he said."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1f52f0f96b2f24",
+      "title": "日东纺追加投资扩产T-Glass应对AI芯片需求",
+      "summary": "日本Nittobo（日东纺）计划追加200亿日元（约1.27亿美元）扩产低热膨胀系数玻璃纤维布T-Glass，到2029财年产能将达2025财年的3.6倍，以缓解AI芯片封装材料短缺。",
+      "points": [
+        "追加投资200亿日元（约1.27亿美元），用于扩大T-Glass产能，该材料用于先进半导体封装。",
+        "到2029财年，T-Glass产能将增至2025财年的3.6倍，反映供应紧张持续。",
+        "扩产源于AI芯片制造商对低CTE玻璃纤维布的强劲需求，当前供应短缺仍未缓解。"
+      ],
+      "cards": [
+        {
+          "heading": "投资规模",
+          "body": "追加投资200亿日元（约1.27亿美元），用于扩大T-Glass产能，该材料用于先进半导体封装。"
+        },
+        {
+          "heading": "产能目标",
+          "body": "到2029财年，T-Glass产能将增至2025财年的3.6倍，反映供应紧张持续。"
+        },
+        {
+          "heading": "需求驱动",
+          "body": "扩产源于AI芯片制造商对低CTE玻璃纤维布的强劲需求，当前供应短缺仍未缓解。"
+        }
+      ],
+      "category": "material",
+      "categoryLabel": "材料与封测",
+      "categoryColor": "#b08d57",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261106VL215/nittobo-production-investment-materials-expansion.html",
+      "published": "2026-11-09T01:45:32.000Z",
+      "score": 28.41,
+      "eventKey": "nittobo-t-glass-expansion-20b-yen-3.6x",
+      "originalTitle": "Nittobo's T-Glass supply crunch deepens despite 3.6-fold capacity expansion plan for AI chips",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261106VL215/nittobo-production-investment-materials-expansion.html",
+        "retrievedAt": "2026-11-09T05:18:58.695Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Nittobo追加投资200亿日元扩产T-Glass低热膨胀系数玻璃纤维布，用于先进封装，产能将增至2025财年的3.6倍，是具体的材料扩产新事实。",
+        "evidence": [
+          "Japan's Nittobo (Nitto Boseki) plans to invest an additional JPY20 billion (approx.",
+          "US$127 million) to expand production of T-Glass, a specialized low-coefficient-of-thermal-expansion (low-CTE) glass fiber cloth used in advanced semiconductor packaging.",
+          "The expansion will increase capacity to 3.6 times its fiscal 2025 level by fiscal 2029, reflecting persistent supply shortages and growing demand from AI chipmakers."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "52934ea15e4c5",
+      "title": "台积电否认进军3D DRAM，重申专注晶圆代工",
+      "summary": "台积电对媒体报道其考虑为英伟达生产3D DRAM一事作出回应，强调仍专注于晶圆代工业务。台湾业界人士认为，短期内大规模进入DRAM生产的可能性不大。",
+      "points": [
+        "台积电否认正在考虑进入先进存储芯片制造领域，重申其核心业务仍是合同芯片制造（晶圆代工）。",
+        "台湾产业人士表示，台积电短期内大规模进入DRAM生产的可能性较低，但未排除长期技术探索。"
+      ],
+      "cards": [
+        {
+          "heading": "官方回应",
+          "body": "台积电否认正在考虑进入先进存储芯片制造领域，重申其核心业务仍是合同芯片制造（晶圆代工）。"
+        },
+        {
+          "heading": "业界看法",
+          "body": "台湾产业人士表示，台积电短期内大规模进入DRAM生产的可能性较低，但未排除长期技术探索。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109VL202/tsmc-taiwan-dram-nvidia-3d.html",
+      "published": "2026-11-09T01:06:10.000Z",
+      "score": 28.3,
+      "eventKey": "tsmc-reaffirms-foundry-focus-3d-dram-response",
+      "originalTitle": "TSMC reaffirms foundry focus after report of 3D DRAM plans for Nvidia",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109VL202/tsmc-taiwan-dram-nvidia-3d.html",
+        "retrievedAt": "2026-11-09T05:18:59.407Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "台积电对3D DRAM传闻作出正式回应，重申专注晶圆代工业务，是事件的新进展。",
+        "evidence": [
+          "Taiwan Semiconductor Manufacturing Co. (TSMC) has pushed back on a report that it is weighing a move into advanced memory chip manufacturing, saying it remains focused on its contract chipmaking business.",
+          "Industry figures in Taiwan said a large-scale entry into DRAM production looked unlikely in the near term."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "137348754248d8",
+      "title": "京元电子美国德州测试厂计划不受选举影响",
+      "summary": "京元电子总经理张高熏表示，尽管美国中期选举后政策可能变化，但公司在德州设立测试厂的计划仍按进度推进，长期投资策略不受短期政治变动干扰。",
+      "points": [
+        "京元电子在美国德州设立测试设施的计划维持原定时程，总经理张高熏在声明中确认项目未因选举结果而调整。",
+        "张高熏强调，公司长期投资策略基于产业需求，不会因短期政治变化而改变，显示对AI芯片测试需求的持续看好。"
+      ],
+      "cards": [
+        {
+          "heading": "建厂进度",
+          "body": "京元电子在美国德州设立测试设施的计划维持原定时程，总经理张高熏在声明中确认项目未因选举结果而调整。"
+        },
+        {
+          "heading": "投资策略",
+          "body": "张高熏强调，公司长期投资策略基于产业需求，不会因短期政治变化而改变，显示对AI芯片测试需求的持续看好。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109PD200/king-yuan-testing-ai-chip-texas-capacity.html",
+      "published": "2026-11-09T02:16:37.000Z",
+      "score": 26.5,
+      "eventKey": "kyec-texas-testing-plant-on-schedule",
+      "originalTitle": "Semiconductor testing company KYEC keeps US AI chip testing plant on track despite election shift",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109PD200/king-yuan-testing-ai-chip-texas-capacity.html",
+        "retrievedAt": "2026-11-09T05:19:00.374Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "京元电子总经理明确表示美国德州测试厂计划不受中期选举影响，仍按进度推进，属于具体公司项目动态。",
+        "evidence": [
+          "King Yuan Electronics (KYEC) general manager Gauss Chang said the company's plan to establish a US testing facility in Texas remains on schedule despite concerns that a shift in control after the US midterm elections could alter AI policy.",
+          "He said KYEC's long-term investment strategy is unlikely to be disrupted by short-term political changes."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "17945dad18e524",
+      "title": "印度半导体扩产面临测试能力不足风险",
+      "summary": "印度推动半导体封装与组装产能扩张，但测试基础设施发展滞后，可能导致成本上升并延长对海外测试设施的依赖。",
+      "points": [
+        "印度在半导体组装和封装领域的投资加速，但芯片测试基础设施建设未能同步跟进，形成产能扩张与测试能力之间的缺口。",
+        "测试能力不足可能推高整体生产成本，并迫使印度厂商在更长时间内依赖海外测试服务，削弱本土供应链完整性。"
+      ],
+      "cards": [
+        {
+          "heading": "产能失衡",
+          "body": "印度在半导体组装和封装领域的投资加速，但芯片测试基础设施建设未能同步跟进，形成产能扩张与测试能力之间的缺口。"
+        },
+        {
+          "heading": "潜在影响",
+          "body": "测试能力不足可能推高整体生产成本，并迫使印度厂商在更长时间内依赖海外测试服务，削弱本土供应链完整性。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261108VL205/testing-capacity-osat-packaging-development.html",
+      "published": "2026-11-09T02:01:45.000Z",
+      "score": 26.46,
+      "eventKey": "india-osat-testing-capacity-risk",
+      "originalTitle": "India's semiconductor expansion faces testing capacity risks as OSAT investments advance",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261108VL205/testing-capacity-osat-packaging-development.html",
+        "retrievedAt": "2026-11-09T05:19:01.545Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "印度半导体扩张面临测试产能不足风险，OSAT投资与测试基础设施发展不匹配，属于产业供应链具体风险分析。",
+        "evidence": [
+          "India's push to expand semiconductor assembly and packaging capacity risks outpacing the development of its chip testing infrastructure, potentially increasing costs and prolonging reliance on overseas facilities."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
