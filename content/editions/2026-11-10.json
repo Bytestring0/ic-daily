@@ -1,0 +1,1238 @@
+{
+  "date": "2026-11-10",
+  "generatedAt": "2026-11-10T04:38:40.455Z",
+  "intro": "本期共 22 条动态，其中 8 条值得重点关注，集中在晶圆代工、设备、政策与地缘方向。",
+  "stats": {
+    "count": 22,
+    "sources": 9,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "foundry": 3,
+      "equipment": 2,
+      "policy": 3,
+      "design": 9,
+      "market": 5
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 160891,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 56,
+      "readable": 51,
+      "accepted": 22,
+      "rejected": 4496,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "0ddf6e8d1385",
+      "title": "英飞凌启动全球首个300毫米碳化硅晶圆生产",
+      "summary": "英飞凌在奥地利菲拉赫工厂成功将300毫米碳化硅晶圆加工成功能功率器件，成为全球首家在全规模半导体工厂实现该里程碑的公司。该工艺利用现有硅制造设备，300毫米晶圆面积是200毫米的2.3倍，可显著提升效率。",
+      "points": [
+        "英飞凌在菲拉赫工厂利用现有硅制造设备，成功将300毫米碳化硅晶圆加工成功能功率器件，成为全球首家在全规模半导体工厂实现该里程碑的公司。",
+        "300毫米晶圆相比200毫米，直径更大，每片晶圆可产出的芯片数量增加2.3倍，技术更先进且生产效率显著提升。",
+        "碳化硅功率器件用于牵引逆变器、车载充电器、电动汽车充电桩、大型储能、工业驱动及AI数据中心电源，需求持续增长。",
+        "英飞凌还在德累斯顿验证了Cold Split技术用于300毫米碳化硅，该技术相比传统线锯可减少材料损失并大幅缩短加工时间。"
+      ],
+      "cards": [
+        {
+          "heading": "技术突破",
+          "body": "英飞凌在菲拉赫工厂利用现有硅制造设备，成功将300毫米碳化硅晶圆加工成功能功率器件，成为全球首家在全规模半导体工厂实现该里程碑的公司。"
+        },
+        {
+          "heading": "效率优势",
+          "body": "300毫米晶圆相比200毫米，直径更大，每片晶圆可产出的芯片数量增加2.3倍，技术更先进且生产效率显著提升。"
+        },
+        {
+          "heading": "应用领域",
+          "body": "碳化硅功率器件用于牵引逆变器、车载充电器、电动汽车充电桩、大型储能、工业驱动及AI数据中心电源，需求持续增长。"
+        },
+        {
+          "heading": "配套技术",
+          "body": "英飞凌还在德累斯顿验证了Cold Split技术用于300毫米碳化硅，该技术相比传统线锯可减少材料损失并大幅缩短加工时间。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354619/infineon-starts-worlds-first-300-millimeter-power-silicon-carbide-sic-wafer-production",
+      "published": "2026-11-09T17:45:29.000Z",
+      "score": 25.19,
+      "eventKey": "infineon-first-300mm-sic-wafer-production-villach",
+      "originalTitle": "(PR) Infineon Starts World's First 300-Millimeter Power Silicon Carbide (SiC) Wafer Production",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354619/infineon-starts-worlds-first-300-millimeter-power-silicon-carbide-sic-wafer-production",
+        "retrievedAt": "2026-11-10T04:37:10.982Z",
+        "articlePublished": "2026-11-09T17:45:29.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 5,
+        "reason": "英飞凌在奥地利菲拉赫工厂成功将300mm碳化硅晶圆加工成功能功率器件，为全球首次在量产晶圆厂环境中实现该里程碑，是重大制造技术突破。",
+        "evidence": [
+          "Infineon Technologies AG (FSE: IFX / OTCQX: IFNNY) has successfully processed 300-millimeter silicon carbide wafers into functional power devices at its fab in Villach, Austria.",
+          "Infineon is the first company to pioneer this innovation milestone in a full-scale semiconductor fab environment.",
+          "It was realized by utilizing existing silicon (Si) manufacturing equipment."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/024/733.htm"
+        }
+      ]
+    },
+    {
+      "id": "d47f8cef790c3",
+      "title": "三星与SK海力士竞购EUV设备扩产DRAM",
+      "summary": "三星电子与SK海力士竞争性下单采购EUV光刻机，各自投入规模在10万亿至20万亿韩元区间。ASML已明确2027-2028年EUV供给缺口，设备交付周期拉长至原先最长两倍，两家厂商考虑提前下单并可能追加订单，资本开支上行风险增加。",
+      "points": [
+        "三星与SK海力士各自EUV设备投入规模在10万亿至20万亿韩元。SK海力士3月披露采购约11.95万亿韩元EUV设备，交付截止2027年12月31日。",
+        "ASML明确2027-2028年EUV供给无法满足客户需求。今年EUV出货约65台，2027年产能提升30%、2028年再扩30%仍不足。设备交付周期已拉长至原先最长两倍。",
+        "SK海力士计划在1c DRAM上超5层工艺使用EUV，较上代增加两层。三星计划2028年将High-NA EUV导入DRAM量产。",
+        "韩美半导体、安靠等后端设备厂商订单储备排满两至三年，热压键合机等AI封装设备需求旺盛。"
+      ],
+      "cards": [
+        {
+          "heading": "采购规模",
+          "body": "三星与SK海力士各自EUV设备投入规模在10万亿至20万亿韩元。SK海力士3月披露采购约11.95万亿韩元EUV设备，交付截止2027年12月31日。"
+        },
+        {
+          "heading": "供给紧张",
+          "body": "ASML明确2027-2028年EUV供给无法满足客户需求。今年EUV出货约65台，2027年产能提升30%、2028年再扩30%仍不足。设备交付周期已拉长至原先最长两倍。"
+        },
+        {
+          "heading": "先进DRAM扩产",
+          "body": "SK海力士计划在1c DRAM上超5层工艺使用EUV，较上代增加两层。三星计划2028年将High-NA EUV导入DRAM量产。"
+        },
+        {
+          "heading": "后端设备受益",
+          "body": "韩美半导体、安靠等后端设备厂商订单储备排满两至三年，热压键合机等AI封装设备需求旺盛。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 5,
+      "tags": [
+        "设备"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585614.htm",
+      "published": "2026-11-09T11:20:41.000Z",
+      "score": 19.12,
+      "eventKey": "samsung-sk-hynix-compete-asml-euv-allocation-dram-expansion",
+      "originalTitle": "三星、SK海力士争抢EUV交付配额 加码先进DRAM扩产",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585614.htm",
+        "retrievedAt": "2026-11-10T04:37:23.553Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星与SK海力士争抢ASML EUV设备交付配额，涉及具体投资规模（10万亿至20万亿韩元区间）、交付周期拉长至两倍、以及P5产线设备下单等新事实，是存储扩产的重要动态。",
+        "evidence": [
+          "据报道,三星电子与SK海力士正竞争性下单采购极紫外(EUV)光刻机,两家的投入规模均在10万亿至20万亿韩元区间。",
+          "阿斯麦(ASML)已明确2027–2028年EUV设备供给缺口,能否锁定交付排期,成为两家扩产先进DRAM的核心。",
+          "受供给紧张影响,核心设备交付周期已经拉长至原先最长周期的两倍,两家企业正考虑提前下单;后续还视情况追加订单,资本开支进一步上行的可能性抬升。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/024/619.htm"
+        }
+      ]
+    },
+    {
+      "id": "e20cd1b7d69a5",
+      "title": "英伟达董事会调查黄仁勋涉外国情报事件",
+      "summary": "英伟达董事会于2026年11月8日宣布启动独立调查，起因是报道称其CEO黄仁勋遭外国情报行动针对。调查由独立董事委员会监督，外部法律顾问协助。公司称无证据表明国家安全或机密信息受损，黄仁勋承诺配合，并承认对妻子不忠。美国众议院三个委员会主席要求黄仁勋于11月18日参加闭门简报会。",
+      "points": [
+        "英伟达董事会于2026年11月8日宣布启动独立调查，由独立董事委员会监督，外部法律顾问协助。公司声明称无理由相信美国国家安全或英伟达机密信息已受损。",
+        "调查源于报道称前Megaspeed高管Alice Huang与中国情报机构有关联，并与黄仁勋关系密切。Megaspeed被指可能将先进处理器转售中国，但公开信息未证实泄密或非法转移。",
+        "美国众议院外交委员会、中国问题特别委员会和情报委员会主席要求黄仁勋于11月18日参加闭门简报会，就与Alice Huang的互动及防间谍措施进行质询。该日期为请求而非确认。",
+        "黄仁勋在11月8日致员工信中承认对妻子不忠，向家人、同事和股东道歉，并承诺全面配合董事会调查。调查时间表和独立董事名单尚未公布。"
+      ],
+      "cards": [
+        {
+          "heading": "调查启动",
+          "body": "英伟达董事会于2026年11月8日宣布启动独立调查，由独立董事委员会监督，外部法律顾问协助。公司声明称无理由相信美国国家安全或英伟达机密信息已受损。"
+        },
+        {
+          "heading": "涉事人物",
+          "body": "调查源于报道称前Megaspeed高管Alice Huang与中国情报机构有关联，并与黄仁勋关系密切。Megaspeed被指可能将先进处理器转售中国，但公开信息未证实泄密或非法转移。"
+        },
+        {
+          "heading": "国会质询",
+          "body": "美国众议院外交委员会、中国问题特别委员会和情报委员会主席要求黄仁勋于11月18日参加闭门简报会，就与Alice Huang的互动及防间谍措施进行质询。该日期为请求而非确认。"
+        },
+        {
+          "heading": "黄仁勋回应",
+          "body": "黄仁勋在11月8日致员工信中承认对妻子不忠，向家人、同事和股东道歉，并承诺全面配合董事会调查。调查时间表和独立董事名单尚未公布。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "eeNews Europe",
+      "sourceLang": "en",
+      "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying",
+      "published": "2026-11-09T08:54:42.000Z",
+      "score": 18.72,
+      "eventKey": "nvidia-board-independent-inquiry-jensen-huang-spying",
+      "originalTitle": "Nvidia board investigation follows reported spying on Huang",
+      "provenance": {
+        "url": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying",
+        "retrievedAt": "2026-11-10T04:37:24.525Z",
+        "articlePublished": "2026-11-09T08:54:42.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达董事会就黄仁勋涉间谍指控展开独立调查，这是对既有报道的新进展，涉及公司治理层面的具体新动作。",
+        "evidence": [
+          "Business news | November 9, 2026 By Brian Tristam Williams Nvidia’s board of directors has opened an independent inquiry after reports that its founder and chief executive, Jensen Huang, was targeted by a foreign intelligence operation.",
+          "The Nvidia board investigation, announced on 8 November 2026, will be overseen by a committee of independent directors assisted by external legal counsel.",
+          "In its statement, the Santa Clara-based chipmaker said it had no reason to believe that US national security or confidential Nvidia information had been compromised."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354594/nvidia-launches-investigation-into-jensen-huangs-relationship-with-suspected-chinese-spy"
+        },
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261110VL203/nvidia-samsung-investigation-sk-hynix-ceo.html"
+        },
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/big-tech/law-firm-files-class-action-lawsuit-against-nvidia-after-ceo-jensen-huang-confirms-affair-with-alleged-chinese-spy-more-to-come-as-multiple-other-law-firms-investigate-securities-fraud-following-stock-drop"
+        }
+      ]
+    },
+    {
+      "id": "cbcb66cf1df88",
+      "title": "Rapidus拟仿台积电模式，北海道再建三厂",
+      "summary": "Rapidus社长小池淳义表示将以台湾半导体聚落为蓝本，在北海道打造产业聚落，并计划再建三座工厂。IBM日本也将在Rapidus工厂附近设立新办公室，强化支持。",
+      "points": [
+        "Rapidus社长小池淳义称，将参考台湾半导体产业聚落模式，在北海道构建从研发到量产的完整生态，目前已有首座2纳米试产线（IIM-1），后续规划再增三座工厂。",
+        "IBM日本将在Rapidus工厂附近设立新办公室，以就近提供技术协助。Rapidus与IBM合作开发2纳米GAA工艺，目标2027年量产。"
+      ],
+      "cards": [
+        {
+          "heading": "聚落蓝图",
+          "body": "Rapidus社长小池淳义称，将参考台湾半导体产业聚落模式，在北海道构建从研发到量产的完整生态，目前已有首座2纳米试产线（IIM-1），后续规划再增三座工厂。"
+        },
+        {
+          "heading": "IBM支援",
+          "body": "IBM日本将在Rapidus工厂附近设立新办公室，以就近提供技术协助。Rapidus与IBM合作开发2纳米GAA工艺，目标2027年量产。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109PD245/rapidus-taiwan-ibm-plant-production.html",
+      "published": "2026-11-10T01:20:20.000Z",
+      "score": 28.46,
+      "eventKey": "rapidus-hokkaido-cluster-3-more-plants",
+      "originalTitle": "Japanese chipmaker Rapidus targets Taiwan&rsquo;s chip cluster model, plans 3 more Hokkaido plants",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109PD245/rapidus-taiwan-ibm-plant-production.html",
+        "retrievedAt": "2026-11-10T04:37:06.964Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Rapidus总裁表示将以台湾为模型在北海道建设半导体产业集群，并计划再建3座工厂，IBM日本将在其工厂附近设立新办事处。",
+        "evidence": [
+          "Rapidus President Atsuyoshi Koike said the Japanese chipmaker will use Taiwan as a model for building a semiconductor industry cluster in Hokkaido, while IBM Japan is establishing a new office near Rapidus&rsquo; plant to strengthen support",
+          " for the company."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/024/727.htm"
+        }
+      ]
+    },
+    {
+      "id": "6686ba6da1842",
+      "title": "谷歌扩展TPU系列，推出TPU 8tx和8i Max",
+      "summary": "谷歌云发布两款新的第八代TPU系统：TPU 8tx专为安全机密推理设计，基于TPU 8t硅片并搭配AMD EPYC处理器，延迟比TPU 8t降低2倍；TPU 8i Max将两颗TPU 8i封装在一起，计算、SRAM和HBM带宽翻倍。",
+      "points": [
+        "TPU 8tx是第三款第八代系统，面向安全机密推理和小规模训练，基于TPU 8t硅片，搭配第五代AMD EPYC CPU，硬件级加密保护数据，延迟比TPU 8t降低2倍。",
+        "TPU 8i Max将两颗TPU 8i封装，计算性能、SRAM和HBM带宽均为TPU 8i的两倍，解决多AI代理协同时的内存带宽瓶颈。",
+        "谷歌强调系统级设计，通过模块化定制硅片和开放软件栈，快速调整封装、内存、网络和安全，满足AI行业快速变化的需求。"
+      ],
+      "cards": [
+        {
+          "heading": "TPU 8tx",
+          "body": "TPU 8tx是第三款第八代系统，面向安全机密推理和小规模训练，基于TPU 8t硅片，搭配第五代AMD EPYC CPU，硬件级加密保护数据，延迟比TPU 8t降低2倍。"
+        },
+        {
+          "heading": "TPU 8i Max",
+          "body": "TPU 8i Max将两颗TPU 8i封装，计算性能、SRAM和HBM带宽均为TPU 8i的两倍，解决多AI代理协同时的内存带宽瓶颈。"
+        },
+        {
+          "heading": "设计理念",
+          "body": "谷歌强调系统级设计，通过模块化定制硅片和开放软件栈，快速调整封装、内存、网络和安全，满足AI行业快速变化的需求。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354620/google-extends-tensor-processor-unit-series-with-tpu-8tx-and-8i-max",
+      "published": "2026-11-09T17:52:46.000Z",
+      "score": 25.21,
+      "eventKey": "google-tpu-8tx-8i-max-launch",
+      "originalTitle": "(PR) Google Extends Tensor Processor Unit Series with TPU 8tx and 8i Max",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354620/google-extends-tensor-processor-unit-series-with-tpu-8tx-and-8i-max",
+        "retrievedAt": "2026-11-10T04:37:10.943Z",
+        "articlePublished": "2026-11-09T17:52:46.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Google发布第八代TPU系列新配置TPU 8tx和8i Max，面向安全机密推理和百万token上下文场景，是具体的新产品发布，属于重要设计事件。",
+        "evidence": [
+          "TPU 8tx TPU 8tx, our third eighth-generation system, is optimized for secure and confidential inference and is also great for small-scale training.",
+          "Built on the same silicon as TPU 8t and paired with 5th Generation AMD EPYC CPU hosts, TPU 8tx builds security directly into the hardware layer, keeping sensitive data and model weights protected and isolated even while in active use.",
+          "And by adopting the same low-latency Boardfly network we created for real-time reasoning, TPU 8tx keeps multistep agents moving, delivering up to 2x lower latency compared to TPU 8t with a near-zero performance penalty."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585646.htm"
+        }
+      ]
+    },
+    {
+      "id": "a46cc415397ff",
+      "title": "10月集成电路出口同比增长137.1%",
+      "summary": "海关总署数据显示，10月中国集成电路出口395.94亿美元，同比增长137.1%；前10个月货物贸易进出口总额44.81万亿元，同比增长20%。集成电路出口增速显著高于其他主要商品。",
+      "points": [
+        "10月集成电路出口395.94亿美元（约合2647.49亿元人民币），同比增长137.1%。",
+        "同期稀土出口8223.99万美元（约5.5亿元），增长45%；汽车出口196.92亿美元（约1316.72亿元），增长37.6%；手机出口175.69亿美元（约1174.77亿元），增长13.2%。",
+        "前10个月货物贸易进出口44.81万亿元，增长20%；10月单月进出口4.87万亿元，增长31.2%。进口、出口连续6个月保持两位数增长。"
+      ],
+      "cards": [
+        {
+          "heading": "出口数据",
+          "body": "10月集成电路出口395.94亿美元（约合2647.49亿元人民币），同比增长137.1%。"
+        },
+        {
+          "heading": "其他商品",
+          "body": "同期稀土出口8223.99万美元（约5.5亿元），增长45%；汽车出口196.92亿美元（约1316.72亿元），增长37.6%；手机出口175.69亿美元（约1174.77亿元），增长13.2%。"
+        },
+        {
+          "heading": "整体贸易",
+          "body": "前10个月货物贸易进出口44.81万亿元，增长20%；10月单月进出口4.87万亿元，增长31.2%。进口、出口连续6个月保持两位数增长。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/024/711.htm",
+      "published": "2026-11-10T02:57:17.000Z",
+      "score": 24.73,
+      "eventKey": "china-oct-2026-ic-exports-39.6b-137pct-yoy",
+      "originalTitle": "中国 10 月集成电路出口 395.94 亿美元，同比增长 137.1%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/024/711.htm",
+        "retrievedAt": "2026-11-10T04:37:13.164Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "海关总署发布中国10月集成电路出口395.94亿美元、同比增长137.1%的具体官方数据，是新的贸易统计事实。",
+        "evidence": [
+          "10 月集成电路出口 395.94 亿美元(IT之家注:现汇率约合 2,647.49 亿元人民币),同比增长 137.1%;稀土出口 8,223.99 万美元(现汇率约合 5.5 亿元人民币),同比增长 45%;汽车出口 196.92 亿美元(现汇率约合 1,316.72 亿元人民币),同比增长 37.6%;手机出口 175.69 亿美元(现汇率约合 1,174.77 亿元人民币),同比增长 13.2%。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "43bb31c760bfc",
+      "title": "美国探索AI芯片位置验证技术遏制走私",
+      "summary": "为遏制高端AI芯片走私至中国，美国众议院外交事务委员会通过法案要求对先进AI芯片进行位置验证。研究人员提出基于网络延迟的定位方法，并结合物理检查，但该技术无法追踪离线芯片。",
+      "points": [
+        "2022年美国限制对华出口先进芯片，但芯片仍持续流入中国。2026年10月1日，一名男子因向中国运送价值超3亿美元的GPU服务器被捕。众议院外交事务委员会于2026年3月通过法案，要求对先进AI芯片进行位置验证。",
+        "CSET报告提出基于网络延迟的定位验证（PLV），通过测量芯片与全球可信服务器之间的信号往返时间推断位置。制造商可在新芯片中集成该功能，现有芯片可通过固件更新支持。另有Lucid Computing提出加密主权证书方案。",
+        "PLV无法追踪离线、在途或未激活的芯片，且无法区分无响应原因。研究人员建议结合物理检查，对数据中心进行实地审计。PLV可产生线索，但需后续调查。"
+      ],
+      "cards": [
+        {
+          "heading": "政策背景",
+          "body": "2022年美国限制对华出口先进芯片，但芯片仍持续流入中国。2026年10月1日，一名男子因向中国运送价值超3亿美元的GPU服务器被捕。众议院外交事务委员会于2026年3月通过法案，要求对先进AI芯片进行位置验证。"
+        },
+        {
+          "heading": "技术方案",
+          "body": "CSET报告提出基于网络延迟的定位验证（PLV），通过测量芯片与全球可信服务器之间的信号往返时间推断位置。制造商可在新芯片中集成该功能，现有芯片可通过固件更新支持。另有Lucid Computing提出加密主权证书方案。"
+        },
+        {
+          "heading": "局限与补充",
+          "body": "PLV无法追踪离线、在途或未激活的芯片，且无法区分无响应原因。研究人员建议结合物理检查，对数据中心进行实地审计。PLV可产生线索，但需后续调查。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "IEEE Spectrum Semiconductors",
+      "sourceLang": "en",
+      "url": "https://spectrum.ieee.org/find-my-ai-chip",
+      "published": "2026-11-09T13:00:02.000Z",
+      "score": 24.4,
+      "eventKey": "us-ai-chip-location-verification-plv-technical-approaches",
+      "originalTitle": "The Race to Build a “Find My” for AI Chips",
+      "provenance": {
+        "url": "https://spectrum.ieee.org/find-my-ai-chip",
+        "retrievedAt": "2026-11-10T04:37:13.672Z",
+        "articlePublished": "2026-11-09T13:00:02.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "文章介绍美国为遏制AI芯片走私而推动的位置验证（PLV）等技术方案，涉及芯片追踪硬件与固件实现，属于半导体政策与安全领域的具体新事实。",
+        "evidence": [
+          "House Foreign Affairs Committee passed a bill requiring location verification for advanced AI chips.",
+          "They could build tamper-proof root of trust hardware, implement cryptographic signing and transmission, or possibly even fingerprint individual chips.",
+          "ort on chip location tracking.To deduce an AI chip’s location, PLV measures the time it takes for a ping to travel from the chip to multiple trusted “landmark” servers around the world and back."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "190ee40e64a543",
+      "title": "Terafab计划2032年月产能达百万片晶圆",
+      "summary": "Terafab半导体制造综合体计划到2032年实现月产超30万片先进逻辑芯片晶圆和约70万片存储芯片晶圆，总产能约100万片。马斯克上周透露该项目总投资达1万亿美元，分阶段投入，高量产计划2028年下半年启动。",
+      "points": [
+        "2032年月产能目标：先进逻辑芯片超30万片晶圆，存储芯片约70万片晶圆，合计约100万片，相当于台积电当前3nm和2nm产能总和及三星当前DRAM总产能。",
+        "马斯克上周在活动中给出1万亿美元投资总额，资金将分批投入（in cohorts）。",
+        "高量产计划于2028年下半年启动，2032年达峰。"
+      ],
+      "cards": [
+        {
+          "heading": "产能目标",
+          "body": "2032年月产能目标：先进逻辑芯片超30万片晶圆，存储芯片约70万片晶圆，合计约100万片，相当于台积电当前3nm和2nm产能总和及三星当前DRAM总产能。"
+        },
+        {
+          "heading": "投资规模",
+          "body": "马斯克上周在活动中给出1万亿美元投资总额，资金将分批投入（in cohorts）。"
+        },
+        {
+          "heading": "量产时间",
+          "body": "高量产计划于2028年下半年启动，2032年达峰。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "Bits&Chips",
+      "sourceLang": "en",
+      "url": "https://bits-chips.com/article/terafab-targets-1m-wafers-per-months-in-2032",
+      "published": "2026-11-09T11:37:24.000Z",
+      "score": 24.17,
+      "eventKey": "terafab-1m-wafers-per-month-2032-target",
+      "originalTitle": "Terafab targets 1M wafers per months in 2032",
+      "provenance": {
+        "url": "https://bits-chips.com/article/terafab-targets-1m-wafers-per-months-in-2032",
+        "retrievedAt": "2026-11-10T04:37:17.009Z",
+        "articlePublished": "2026-11-09T11:37:24.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Terafab半导体制造综合体披露2032年产能目标：先进逻辑月产超30万片、存储约70万片，总投资1万亿美元，2028年下半年开始量产。这是重大产能规划新信息。",
+        "evidence": [
+          "The Terafab semiconductor manufacturing complex is reportedly targeting a monthly capacity of more than 300,000 wafers for advanced logic chips and approximately 700,000 wafers for memory chips by 2032.",
+          "Speaking at an event last week, Elon Musk put a 1-trillion-dollar price tag on the venture, to be spent in cohorts.",
+          "High-volume manufacturing is planned to start in the second half of 2028."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585550.htm"
+        }
+      ]
+    },
+    {
+      "id": "d9bb38aee51f8",
+      "title": "洋基工程订单创新高，熊本二厂助力2027营收",
+      "summary": "台湾工程公司洋基工程截至9月底在手订单达571亿新台币（约17.4亿美元），创历史新高。其承接的日本熊本第二晶圆厂分包项目预计从2027年起贡献营收。公司称全球AI基础设施需求、先进制程、先进封装和存储器扩张推动前三季度营收和利润创纪录。",
+      "points": [
+        "洋基工程截至2026年9月底在手订单达571亿新台币（约17.4亿美元），创历史新高。订单主要来自半导体相关工程。",
+        "洋基工程承接的日本熊本第二晶圆厂分包项目预计从2027年起贡献营收。该项目是公司未来增长的重要驱动力。",
+        "公司表示，全球AI基础设施需求、先进半导体制程、先进封装和存储器扩张，推动2026年前三季度营收和利润创下纪录。"
+      ],
+      "cards": [
+        {
+          "heading": "订单创新高",
+          "body": "洋基工程截至2026年9月底在手订单达571亿新台币（约17.4亿美元），创历史新高。订单主要来自半导体相关工程。"
+        },
+        {
+          "heading": "熊本二厂项目",
+          "body": "洋基工程承接的日本熊本第二晶圆厂分包项目预计从2027年起贡献营收。该项目是公司未来增长的重要驱动力。"
+        },
+        {
+          "heading": "业绩驱动",
+          "body": "公司表示，全球AI基础设施需求、先进半导体制程、先进封装和存储器扩张，推动2026年前三季度营收和利润创下纪录。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109PD208/revenue-2027-kumamoto-wafer-fab.html",
+      "published": "2026-11-10T01:21:41.000Z",
+      "score": 28.46,
+      "eventKey": "yankey-nt57.1b-backlog-kumamoto-fab2",
+      "originalTitle": "Taiwanese engineering company Yankey holds NT$57.1 billion orders, Kumamoto wafer fab project to boost 2027 revenue",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109PD208/revenue-2027-kumamoto-wafer-fab.html",
+        "retrievedAt": "2026-11-10T04:37:06.766Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Yankey Engineering订单积压达571亿新台币创纪录，熊本第二晶圆厂分包项目预计2027年起贡献营收。",
+        "evidence": [
+          "Yankey Engineering&rsquo;s order backlog reached a record NT$57.1 billion (US$1.74 billion) as of the end of September, with its subcontracting project for the second wafer fab in Kumamoto, Japan, expected to contribute revenue from 2027.",
+          "The company said strong global AI infrastructure demand, advanced semiconductor processes, advanced packaging, and memory expansion drove its revenue and profit to record levels in the first three quarters of 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "14dd5ea67125a",
+      "title": "韩华半导体设备换帅，HBM设备营收翻倍",
+      "summary": "韩华半导体（Hanwha Semitech）于11月9日宣布，首席业务官Kim Jin-woo将出任新任CEO，接棒之际公司2026年第三季度半导体设备营收同比翻倍以上，正加速扩张HBM键合设备业务。",
+      "points": [
+        "韩华半导体任命首席业务官Kim Jin-woo为候任CEO，任命于11月9日公布。Kim此前负责业务拓展，接任后将主导HBM键合设备业务扩张。",
+        "2026年第三季度，韩华半导体设备营收较去年同期增长超过100%，主要受HBM键合设备需求驱动。公司正扩大产能以应对三星、SK海力士等客户的订单。"
+      ],
+      "cards": [
+        {
+          "heading": "人事变动",
+          "body": "韩华半导体任命首席业务官Kim Jin-woo为候任CEO，任命于11月9日公布。Kim此前负责业务拓展，接任后将主导HBM键合设备业务扩张。"
+        },
+        {
+          "heading": "业绩增长",
+          "body": "2026年第三季度，韩华半导体设备营收较去年同期增长超过100%，主要受HBM键合设备需求驱动。公司正扩大产能以应对三星、SK海力士等客户的订单。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109VL232/hanwha-ceo-equipment-sales-business.html",
+      "published": "2026-11-10T01:18:58.000Z",
+      "score": 28.45,
+      "eventKey": "hanwha-semitech-new-ceo-q3-2026-equipment-revenue-double",
+      "originalTitle": "Hanwha Semitech taps new CEO as chip equipment sales more than double in 3Q26",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109VL232/hanwha-ceo-equipment-sales-business.html",
+        "retrievedAt": "2026-11-10T04:37:07.461Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "韩华Semitech任命新任CEO，且2026年Q3半导体设备收入翻倍，属于公司人事与业绩的具体新事实。",
+        "evidence": [
+          "Hanwha Semitech has named chief business officer Kim Jin-woo as its incoming CEO after semiconductor equipment revenue more than doubled in the third quarter of 2026.",
+          "The South Korean company announced the appointment on November 9 as it moves to expand its high-bandwidth memory (HBM) bonding equipment business."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "857d33d5983ed",
+      "title": "长鑫存储董事长被曝投资DeepSeek",
+      "summary": "据传长鑫存储董事长朱一鸣参与中国AI初创公司DeepSeek第二轮融资，引发对其半导体投资网络的关注。但DeepSeek及被报道的投资方均未证实，投资主体、金额和股权结构均不明确。",
+      "points": [
+        "DIGITIMES报道，长鑫存储董事长朱一鸣据称参与DeepSeek第二轮融资，但未获DeepSeek或被报道投资方确认，投资实体、金额及持股结构均未披露。",
+        "朱一鸣同时执掌中国最大DRAM制造商长鑫存储，其个人投资动向引发对半导体与AI资本网络交叉的讨论，但官方未作回应。"
+      ],
+      "cards": [
+        {
+          "heading": "投资传闻",
+          "body": "DIGITIMES报道，长鑫存储董事长朱一鸣据称参与DeepSeek第二轮融资，但未获DeepSeek或被报道投资方确认，投资实体、金额及持股结构均未披露。"
+        },
+        {
+          "heading": "背景关联",
+          "body": "朱一鸣同时执掌中国最大DRAM制造商长鑫存储，其个人投资动向引发对半导体与AI资本网络交叉的讨论，但官方未作回应。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261110PD217/cxmt-deepseek-gigadevice-investment.html",
+      "published": "2026-11-10T03:11:24.000Z",
+      "score": 26.77,
+      "eventKey": "cxmt-chairman-deepseek-investment-report",
+      "originalTitle": "CXMT chairman's reported DeepSeek investment spotlights China's semiconductor capital network",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261110PD217/cxmt-deepseek-gigadevice-investment.html",
+        "retrievedAt": "2026-11-10T04:37:08.334Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "长鑫存储董事长朱一明被报道参与DeepSeek第二轮融资，虽未经证实，但涉及中国半导体资本网络的具体人物动态。",
+        "evidence": [
+          "Zhu Yiming, chairman of ChangXin Memory Technologies (CXMT), reportedly participated in Chinese AI startup DeepSeek's second funding round, drawing attention to his semiconductor investment network.",
+          "Neither DeepSeek nor the reported investors have confirmed the claims, leaving the investment entity, amount, and shareholding structure unclear."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "13b80b31f8727b",
+      "title": "AI需求推动世界先进8英寸产能利用率超90%",
+      "summary": "世界先进预计2026年第四季度8英寸成熟制程晶圆厂产能利用率将超过90%，因AI数据中心需求带动电源管理IC和功率元件订单增长。公司预计产能趋紧、价格上升，AI相关营收占比将提升。",
+      "points": [
+        "世界先进预计2026年第四季度8英寸成熟制程晶圆厂产能利用率将超过90%，主要受AI数据中心需求拉动，订单集中在电源管理IC和功率元件。",
+        "产能利用率上升预示产能趋紧和价格上调，AI相关营收在公司业务中的占比将逐步扩大，成为增长动力。"
+      ],
+      "cards": [
+        {
+          "heading": "产能利用率预测",
+          "body": "世界先进预计2026年第四季度8英寸成熟制程晶圆厂产能利用率将超过90%，主要受AI数据中心需求拉动，订单集中在电源管理IC和功率元件。"
+        },
+        {
+          "heading": "市场影响",
+          "body": "产能利用率上升预示产能趋紧和价格上调，AI相关营收在公司业务中的占比将逐步扩大，成为增长动力。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109PD216/demand-capacity-vis-2026-revenue.html",
+      "published": "2026-11-10T01:20:57.000Z",
+      "score": 26.46,
+      "eventKey": "vanguard-q4-2026-utilization-90pct-ai-demand",
+      "originalTitle": "AI demand points to tighter capacity, higher prices at Taiwanese foundry service Vanguard",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109PD216/demand-capacity-vis-2026-revenue.html",
+        "retrievedAt": "2026-11-10T04:37:08.835Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "世界先进预期2026年第四季度8英寸成熟制程晶圆厂利用率超过90%，AI数据中心需求带动电源管理IC和功率元件订单，预示产能趋紧和价格上涨。这是具体的新季度运营预测。",
+        "evidence": [
+          "Vanguard International Semiconductor expects utilization of its 8-inch mature-node fabs to exceed 90% in the fourth quarter of 2026, as AI data center demand lifts orders for power management ICs and power components.",
+          "The forecast points to tighter capacity, higher prices, and a growing role for AI revenue in its business."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "11b8eb59bd65dc",
+      "title": "龙芯3B6600与7A3000预计四季度回片",
+      "summary": "龙芯中科董事长胡伟武在业绩会上披露，第五代微结构桌面CPU 3B6600已于2026年二季度交付流片，预计四季度回片；配套芯片7A3000于三季度流片，同样预计四季度回片。3A6600低成本版设计预计四季度完成。",
+      "points": [
+        "3B6600为龙芯第五代微结构桌面CPU，2026年第二季度交付流片，预计今年四季度回片。采用高自主工艺，设计磨合和流片周期较长。",
+        "7A3000配套芯片已于2026年第三季度交付流片，预计2026年第四季度回片。",
+        "3A6600低成本版预计今年四季度完成设计，尚未提及流片或回片时间。"
+      ],
+      "cards": [
+        {
+          "heading": "3B6600进度",
+          "body": "3B6600为龙芯第五代微结构桌面CPU，2026年第二季度交付流片，预计今年四季度回片。采用高自主工艺，设计磨合和流片周期较长。"
+        },
+        {
+          "heading": "7A3000进度",
+          "body": "7A3000配套芯片已于2026年第三季度交付流片，预计2026年第四季度回片。"
+        },
+        {
+          "heading": "3A6600低成本版",
+          "body": "3A6600低成本版预计今年四季度完成设计，尚未提及流片或回片时间。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/024/746.htm",
+      "published": "2026-11-10T04:05:51.000Z",
+      "score": 24.92,
+      "eventKey": "loongson-3b6600-7a3000-tapeout-return-schedule",
+      "originalTitle": "龙芯中科胡伟武：通用 CPU 3B6600、7A3000 即将回片",
+      "provenance": {
+        "url": "https://www.ithome.com/1/024/746.htm",
+        "retrievedAt": "2026-11-10T04:37:11.345Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "龙芯中科披露3B6600和7A3000芯片的具体流片与回片时间表，属于具体新事实。",
+        "evidence": [
+          "IT之家 11 月 10 日消息,据《科创板日报》报道,《科创板日报》10 日讯,龙芯中科董事长、总经理胡伟武今日在业绩会上表示,龙芯 6600 系列通用 CPU 及其配套芯片研制方面,公司第五代微结构桌面 CPU 3B6600 已于 2026 年第二季度交付流片,预计今年四季度回片。",
+          "同时胡伟武表示,7A3000 已于 2026 年第三季度交付流片,预计 2026 第四季度回片,3A6600 低成本版预计今年四季度完成设计。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "12b5c75915c0ef",
+      "title": "英伟达宣布投资四家韩国AI初创企业",
+      "summary": "韩国科学技术信息通信部与英伟达在首尔举办AI初创合作论坛，英伟达宣布投资Point2，并计划投资Motif Technologies、RLWRLD和Upstage。这些企业覆盖AI基础设施、基础模型与机器人应用。",
+      "points": [
+        "英伟达已投资Point2 Technology，并计划投资Motif Technologies、RLWRLD和Upstage。Point2开发射频互连方案，用于AI工厂芯片与机架间数据传输；Motif开发开放权重大模型Motif-3；RLWRLD专注机器人基础模型；Upstage提供企业AI文档工具。",
+        "论坛在COEX举行，韩国科学技术信息通信部次官柳济明与英伟达高管出席，与20多家韩国初创企业交流，涵盖基础模型、物理AI、AI基础设施和AI半导体领域。",
+        "英伟达Inception计划在韩国已有超过1000家会员，提供优惠定价、技术支持和投资人对接机会。此次投资延续英伟达与韩国创业生态的合作。"
+      ],
+      "cards": [
+        {
+          "heading": "投资对象",
+          "body": "英伟达已投资Point2 Technology，并计划投资Motif Technologies、RLWRLD和Upstage。Point2开发射频互连方案，用于AI工厂芯片与机架间数据传输；Motif开发开放权重大模型Motif-3；RLWRLD专注机器人基础模型；Upstage提供企业AI文档工具。"
+        },
+        {
+          "heading": "论坛规模",
+          "body": "论坛在COEX举行，韩国科学技术信息通信部次官柳济明与英伟达高管出席，与20多家韩国初创企业交流，涵盖基础模型、物理AI、AI基础设施和AI半导体领域。"
+        },
+        {
+          "heading": "生态合作",
+          "body": "英伟达Inception计划在韩国已有超过1000家会员，提供优惠定价、技术支持和投资人对接机会。此次投资延续英伟达与韩国创业生态的合作。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
+      "published": "2026-11-09T08:00:53.000Z",
+      "score": 24.57,
+      "eventKey": "nvidia-korean-startup-investments-point2-motif-rlwrld-upstage",
+      "originalTitle": "NVIDIA Announces New Planned Investments in Korean Startups at the MSIT-NVIDIA AI Startup Partnership Forum",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/korean-startup-investments-msit",
+        "retrievedAt": "2026-11-10T04:37:13.451Z",
+        "articlePublished": "2026-11-09T08:00:53.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达在MSIT论坛上宣布对Point2的投资及对Motif、RLWRLD、Upstage的追加投资计划，是新的投资动态。",
+        "evidence": [
+          "NVIDIA also announced an investment in Korean startup Point2, with additional investments planned in Motif Technologies, RLWRLD and Upstage."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "245234bdcde36",
+      "title": "英伟达助力韩国物理AI落地制造与自动驾驶",
+      "summary": "英伟达与三星电子、Kakao Mobility及LG电子合作，推动物理AI在半导体制造、自动驾驶和机器人领域的应用。三星利用英伟达加速计算和AI物理工具，将特定仿真速度提升约1600倍；Kakao Mobility计划基于英伟达平台开发L4自动驾驶；LG电子已在真实制造环境中验证机器人操作。",
+      "points": [
+        "三星电子扩大与英伟达合作，在TCAD中采用cuISS和cuDSS加速稀疏线性系统计算，并利用cuEST将量子化学计算提速至5倍。在AI均质化案例中，结合AI预测材料属性与GPU加速，仿真时间从18小时（32核CPU）降至41秒，提速约1600倍。",
+        "Kakao Mobility计划基于英伟达Hyperion参考平台和DRIVE AGX Thor开发L4自动驾驶系统，并采用Halos保障安全。初期开发围绕起亚定制车辆，结合其首尔江南区运营数据，目标支持韩国未来L4出行服务。",
+        "英伟达与LG电子在真实制造环境中演示了基于Isaac GR00T的CLOiD机器人操作，构建了从数据采集、Cosmos增强、模型训练到Jetson AGX Thor推理的物理AI数据飞轮，用于持续优化制造机器人。"
+      ],
+      "cards": [
+        {
+          "heading": "三星加速半导体仿真",
+          "body": "三星电子扩大与英伟达合作，在TCAD中采用cuISS和cuDSS加速稀疏线性系统计算，并利用cuEST将量子化学计算提速至5倍。在AI均质化案例中，结合AI预测材料属性与GPU加速，仿真时间从18小时（32核CPU）降至41秒，提速约1600倍。"
+        },
+        {
+          "heading": "Kakao Mobility布局L4",
+          "body": "Kakao Mobility计划基于英伟达Hyperion参考平台和DRIVE AGX Thor开发L4自动驾驶系统，并采用Halos保障安全。初期开发围绕起亚定制车辆，结合其首尔江南区运营数据，目标支持韩国未来L4出行服务。"
+        },
+        {
+          "heading": "LG电子验证机器人",
+          "body": "英伟达与LG电子在真实制造环境中演示了基于Isaac GR00T的CLOiD机器人操作，构建了从数据采集、Cosmos增强、模型训练到Jetson AGX Thor推理的物理AI数据飞轮，用于持续优化制造机器人。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem",
+      "published": "2026-11-09T05:00:40.000Z",
+      "score": 24.07,
+      "eventKey": "nvidia-samsung-semiconductor-engineering-accelerated-computing-collaboration",
+      "originalTitle": "Korea Advances Physical AI Across Industries With NVIDIA",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/korea-physical-ai-ecosystem",
+        "retrievedAt": "2026-11-10T04:37:17.146Z",
+        "articlePublished": "2026-11-09T05:00:40.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达与三星扩大半导体工程合作，涉及cuISS/cuDSS/cuEST等加速计算与AI物理仿真，包含具体性能提升数据（5倍、1600倍加速），属于有具体新事实的常规动态。",
+        "evidence": [
+          "Samsung Advances Semiconductor Engineering With Accelerated Computing and AI Physics Samsung Electronics is expanding its collaboration with NVIDIA to advance semiconductor innovation through accelerated computing and AI physics.",
+          "In materials research, Samsung’s sMOL platform has run selected quantum chemical calculations up to 5x faster end to end with NVIDIA cuEST.",
+          "In one AI homogenization case, combining AI-predicted effective material properties, coarser grids and GPU acceleration resulted in a roughly 1,600x speedup."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "14350ccdb8a802",
+      "title": "MIPS发布Actus RISC-V平台，面向机器人运动控制",
+      "summary": "MIPS推出Actus参考平台，基于RISC-V架构，集成双Atlas M8500实时微控制器，专为紧凑型机器人关节设计，兼顾电机控制、边缘推理与确定性通信。平台采用GlobalFoundries FDX工艺，支持低功耗与高集成度，已在electronica 2026展出。",
+      "points": [
+        "Actus集成两颗MIPS Atlas M8500实时RISC-V微控制器，配备专用电机控制加速与边缘处理能力，硬件多线程避免中断上下文切换开销，三角函数加速比标准库快16倍以上。",
+        "高分辨率PWM具备100皮秒级定时，配合sigma-delta ADC，支持高扭矩、高电流电机精确操作。",
+        "集成ARC VPX 512位向量处理，可在本地运行传感器融合与预测性维护模型，减少跨设备通信。",
+        "提供千兆以太网（三端口TSN）、CAN-FD和串口，支持确定性通信；集成硬件安全模块，支持后量子密码学。"
+      ],
+      "cards": [
+        {
+          "heading": "核心架构",
+          "body": "Actus集成两颗MIPS Atlas M8500实时RISC-V微控制器，配备专用电机控制加速与边缘处理能力，硬件多线程避免中断上下文切换开销，三角函数加速比标准库快16倍以上。"
+        },
+        {
+          "heading": "电机控制",
+          "body": "高分辨率PWM具备100皮秒级定时，配合sigma-delta ADC，支持高扭矩、高电流电机精确操作。"
+        },
+        {
+          "heading": "边缘智能",
+          "body": "集成ARC VPX 512位向量处理，可在本地运行传感器融合与预测性维护模型，减少跨设备通信。"
+        },
+        {
+          "heading": "通信与安全",
+          "body": "提供千兆以太网（三端口TSN）、CAN-FD和串口，支持确定性通信；集成硬件安全模块，支持后量子密码学。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/mips-introduces-actus-risc-v-platform-for-robotic-motion-control/",
+      "published": "2026-11-09T21:24:29.000Z",
+      "score": 22.8,
+      "eventKey": "mips-actus-risc-v-robotic-platform-launch",
+      "originalTitle": "MIPS Introduces Actus RISC-V Platform for Robotic Motion Control",
+      "provenance": {
+        "url": "https://www.embedded.com/mips-introduces-actus-risc-v-platform-for-robotic-motion-control/",
+        "retrievedAt": "2026-11-10T04:37:33.585Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "MIPS发布面向机器人运动控制的Actus RISC-V参考平台，集成两颗Atlas M8500 MCU，基于格芯FDX工艺，属于具体新产品发布。",
+        "evidence": [
+          "MIPS has introduced advances in its Actus reference platform, an open, energy-efficient RISC-V architecture designed to combine real-time motor control, edge inference, and communications for robotics.",
+          "The Actus reference platform integrates two MIPS Atlas M8500 real-time RISC-V microcontrollers with dedicated motor-control acceleration and edge-processing capabilities.",
+          "The platform is built on GlobalFoundries' energy-efficient FDX FD-SOI technology, incorporating AutoPro150 and on-chip MRAM."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "4f5910449b2c3",
+      "title": "TI发布多协议工业联网设备",
+      "summary": "TI推出TICS100MOD多协议通信模块与TIOM2212双通道IO-Link主站，简化工厂自动化与IIoT连接。TICS100MOD基于AM2612 MCU，支持EtherCAT、EtherNet/IP和PROFINET，TIOM2212现可预购，TICS100MOD预计2026年底上市。",
+      "points": [
+        "基于AM2612 MCU与DP83826AI以太网PHY，集成双Arm Cortex-R5F核心，支持EtherCAT、EtherNet/IP和PROFINET，可通过固件切换协议，无需改硬件。",
+        "提供双IO-Link通道，集成模拟功能与保护特性，支持与Sitara SoC及AM13Ex MCU兼容，降低现场设备与工业以太网桥接的硬件设计工作量。",
+        "TIOM2212现以预产量通过TI.com提供，TICS100MOD计划2026年底上市。TI将在2026年11月10-13日慕尼黑electronica展C4厅159号展位演示。"
+      ],
+      "cards": [
+        {
+          "heading": "TICS100MOD特性",
+          "body": "基于AM2612 MCU与DP83826AI以太网PHY，集成双Arm Cortex-R5F核心，支持EtherCAT、EtherNet/IP和PROFINET，可通过固件切换协议，无需改硬件。"
+        },
+        {
+          "heading": "TIOM2212功能",
+          "body": "提供双IO-Link通道，集成模拟功能与保护特性，支持与Sitara SoC及AM13Ex MCU兼容，降低现场设备与工业以太网桥接的硬件设计工作量。"
+        },
+        {
+          "heading": "供货与展示",
+          "body": "TIOM2212现以预产量通过TI.com提供，TICS100MOD计划2026年底上市。TI将在2026年11月10-13日慕尼黑electronica展C4厅159号展位演示。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/ti-launches-multiprotocol-industrial-networking-devices/",
+      "published": "2026-11-09T21:42:18.000Z",
+      "score": 17.85,
+      "eventKey": "ti-launch-tics100mod-tiom2212-industrial-networking",
+      "originalTitle": "TI Launches Multiprotocol Industrial Networking Devices",
+      "provenance": {
+        "url": "https://www.embedded.com/ti-launches-multiprotocol-industrial-networking-devices/",
+        "retrievedAt": "2026-11-10T04:37:38.624Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "TI发布两款工业网络通信器件，TICS100MOD多协议通信模块和TIOM2212 IO-Link主站，有具体产品规格和供货时间，属于常规新产品动态。",
+        "evidence": [
+          "Texas Instruments Inc. (TI) has expanded its industrial communication portfolio with two devices designed to simplify connectivity across factory automation, robotics, and industrial IoT (IIoT) systems.",
+          "Based on TI's AM2612 microcontroller (MCU) and DP83826AI Ethernet physical layer, the TICS100MOD is described as the industry's smallest fully featured, certified multiprotocol communications module.",
+          "The TIOM2212 extends connectivity to the sensor and actuator level, providing two IO-Link channels to connect field devices with higher-level Industrial Ethernet networks."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "157012154eaed2",
+      "title": "AI需求推动光掩膜外包增长",
+      "summary": "日本Tekscend Photomask表示，存储芯片厂因AI需求增长和产能限制，正将更多常规光掩膜外包给商业供应商，但最先进的EUV掩膜仍保留在内部生产，以保护知识产权。",
+      "points": [
+        "存储芯片厂长期因知识产权顾虑不愿外包敏感光掩膜，但AI需求增长和产能限制促使更多工作流向商业供应商，Tekscend Photomask指出。",
+        "厂商将最先进的极紫外（EUV）掩膜保留在内部制造，仅外包较常规的光掩膜，以平衡成本与安全。"
+      ],
+      "cards": [
+        {
+          "heading": "外包趋势",
+          "body": "存储芯片厂长期因知识产权顾虑不愿外包敏感光掩膜，但AI需求增长和产能限制促使更多工作流向商业供应商，Tekscend Photomask指出。"
+        },
+        {
+          "heading": "技术分层",
+          "body": "厂商将最先进的极紫外（EUV）掩膜保留在内部制造，仅外包较常规的光掩膜，以平衡成本与安全。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109VL231/photomask-outsourcing-chipmakers-production-euv.html",
+      "published": "2026-11-10T01:35:04.000Z",
+      "score": 26.5,
+      "eventKey": "tekscend-photomask-outsourcing-ai-demand",
+      "originalTitle": "AI boom drives photomask outsourcing despite IP fears, Tekscend says",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109VL231/photomask-outsourcing-chipmakers-production-euv.html",
+        "retrievedAt": "2026-11-10T04:37:08.583Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Tekscend Photomask披露AI需求推动存储芯片厂将常规光罩外包，而最先进EUV光罩仍自产，是具体行业动态。",
+        "evidence": [
+          "Memory chipmakers have long been reluctant to outsource sensitive photomask production over intellectual property concerns, but growing artificial intelligence (AI) demand and capacity constraints are pushing more work to merchant suppliers",
+          ", according to Japan's Tekscend Photomask.",
+          "Manufacturers are keeping their most advanced extreme ultraviolet (EUV) masks in-house while outsourcing more conventional photomasks."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "11529998d9f4ab",
+      "title": "精诚10月营收创同期新高，半导体海外扩张带动",
+      "summary": "精诚资讯公布2026年10月合并营收新台币35.64亿元（约1.088亿美元），同比增长11.64%，主要受半导体和高科技制造商海外扩张推动跨境IT设备需求增长。",
+      "points": [
+        "精诚资讯2026年10月合并营收达新台币35.64亿元（约1.088亿美元），较去年同期的31.92亿元增长11.64%，创同期新高。",
+        "半导体及高科技制造商海外扩张带动跨境IT设备需求，是营收增长的主要动力。"
+      ],
+      "cards": [
+        {
+          "heading": "营收数据",
+          "body": "精诚资讯2026年10月合并营收达新台币35.64亿元（约1.088亿美元），较去年同期的31.92亿元增长11.64%，创同期新高。"
+        },
+        {
+          "heading": "增长驱动",
+          "body": "半导体及高科技制造商海外扩张带动跨境IT设备需求，是营收增长的主要动力。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261110PD203/systex-revenue-expansion-2026-software.html",
+      "published": "2026-11-10T00:24:56.000Z",
+      "score": 26.3,
+      "eventKey": "systex-october-2026-record-revenue-3.564b",
+      "originalTitle": "Systex hits record October revenue on overseas semiconductor expansion",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261110PD203/systex-revenue-expansion-2026-software.html",
+        "retrievedAt": "2026-11-10T04:37:08.770Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "精诚资讯公布2026年10月合并营收35.64亿新台币，同比增长11.64%，创历史同期新高，受半导体和高科技制造商海外扩张带动跨境IT设备需求。这是具体的月度营收数据。",
+        "evidence": [
+          "Systex Corporation reported October 2026 consolidated revenue of NT$3.564 billion (US$108.8 million), up 11.64% from NT$3.192 billion a year earlier, as overseas expansion by semiconductor and high-tech manufacturers boosted cross-border IT",
+          " equipment demand."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "113ccf9e58ef53",
+      "title": "韩国企业推进AI智能体安全与开放模型",
+      "summary": "现代汽车集团探索英伟达NemoClaw蓝图和OpenShell运行时，AIM Intelligence将Starfort平台与OpenShell集成以增强AI智能体安全。LG AI Research开放K-EXAONE-2.5 API，该模型基于英伟达Nemotron数据集（含700万韩语合成人物）开发。",
+      "points": [
+        "现代汽车集团正在评估英伟达NemoClaw蓝图和OpenShell运行时，后者提供沙箱执行与策略控制，用于保护敏感数据和管理企业工具访问，支撑自主AI智能体的安全运行。",
+        "韩国AI安全公司AIM Intelligence将Starfort代理控制平台与英伟达OpenShell集成，结合运行时访问控制与恶意指令检测，防止数据泄露。公司正考虑在公共能源领域开展初步概念验证，并拓展至企业、工业和机器人场景。",
+        "LG AI Research开放K-EXAONE-2.5的API访问，该模型使用英伟达Nemotron数据集训练，包括Nemotron-Personas-Korea——基于韩国官方统计的700万条合成韩语人物数据，用于提升模型在韩国语境下的表现。"
+      ],
+      "cards": [
+        {
+          "heading": "现代探索智能体框架",
+          "body": "现代汽车集团正在评估英伟达NemoClaw蓝图和OpenShell运行时，后者提供沙箱执行与策略控制，用于保护敏感数据和管理企业工具访问，支撑自主AI智能体的安全运行。"
+        },
+        {
+          "heading": "AIM集成安全平台",
+          "body": "韩国AI安全公司AIM Intelligence将Starfort代理控制平台与英伟达OpenShell集成，结合运行时访问控制与恶意指令检测，防止数据泄露。公司正考虑在公共能源领域开展初步概念验证，并拓展至企业、工业和机器人场景。"
+        },
+        {
+          "heading": "LG开放K-EXAONE-2.5",
+          "body": "LG AI Research开放K-EXAONE-2.5的API访问，该模型使用英伟达Nemotron数据集训练，包括Nemotron-Personas-Korea——基于韩国官方统计的700万条合成韩语人物数据，用于提升模型在韩国语境下的表现。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
+      "published": "2026-11-09T05:00:39.000Z",
+      "score": 24.07,
+      "eventKey": "nvidia-korea-agentic-ai-security-ecosystem-partnerships",
+      "originalTitle": "Korea’s AI Ecosystem Advances and Secures Agentic AI With NVIDIA",
+      "provenance": {
+        "url": "https://blogs.nvidia.com/blog/korea-secure-agentic-ai",
+        "retrievedAt": "2026-11-10T04:37:17.219Z",
+        "articlePublished": "2026-11-09T05:00:39.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英伟达在韩国推进代理式AI安全生态，现代汽车探索NemoClaw蓝图，AIM Intelligence集成OpenShell平台，LG AI Research开放K-EXAONE-2.5 API。属于有具体合作对象的常规动态。",
+        "evidence": [
+          "Hyundai Motor Group is exploring NVIDIA NemoClaw blueprints and the NVIDIA OpenShell runtime, while AIM Intelligence is integrating its Starfort platform with NVIDIA OpenShell to support secure AI agents for employee productivity and enterp",
+          "AIM Intelligence, a Korean AI security company, is integrating its Starfort agent control platform with NVIDIA OpenShell.",
+          "On the model side, LG AI Research is opening application programming interface access for K-EXAONE-2.5, developed using NVIDIA Nemotron datasets, including Nemotron-Personas-Korea."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "16acf89efd306b",
+      "title": "英飞凌与Solum扩大AI数据中心HVDC合作",
+      "summary": "英飞凌与Solum宣布扩大在AI数据中心高压直流（HVDC）电源系统上的合作，覆盖中间总线转换器、电池备份单元和电源单元，以应对算力增长带来的能效与可靠性挑战。",
+      "points": [
+        "双方将共同开发HVDC电源系统，涵盖中间总线转换器、电池备份单元和电源供应单元，提升数据中心能效与功率密度。",
+        "AI计算需求激增，数据中心运营商面临提高效率、功率密度和可靠性的压力，HVDC架构成为重要解决方案。"
+      ],
+      "cards": [
+        {
+          "heading": "合作范围",
+          "body": "双方将共同开发HVDC电源系统，涵盖中间总线转换器、电池备份单元和电源供应单元，提升数据中心能效与功率密度。"
+        },
+        {
+          "heading": "背景动因",
+          "body": "AI计算需求激增，数据中心运营商面临提高效率、功率密度和可靠性的压力，HVDC架构成为重要解决方案。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261109PR200/infineon-data-worldwide-power-supply-silicon.html",
+      "published": "2026-11-10T01:19:45.000Z",
+      "score": 21.45,
+      "eventKey": "infineon-solum-hvdc-ai-datacenter-cooperation-expansion",
+      "originalTitle": "Infineon, Solum expand cooperation on HVDC power for AI data centers",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261109PR200/infineon-data-worldwide-power-supply-silicon.html",
+        "retrievedAt": "2026-11-10T04:37:22.713Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英飞凌与Solum扩大HVDC电源系统合作，覆盖AI数据中心中间总线转换器、电池备份单元和电源单元，属于具体合作动态。",
+        "evidence": [
+          "Infineon Technologies and Solum have agreed to expand cooperation on high-voltage direct current (HVDC) power systems for artificial intelligence data centers, as rising computing demand increases pressure on operators worldwide to improve ",
+          "The partnership will cover intermediate bus converters, battery backup units, and power supply units."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "11a97447f271a8",
+      "title": "华擎展示英特尔下一代至强平台主板",
+      "summary": "华擎Rack展出GNRD8-2L2Q主板，采用英特尔Oak Stream平台，配备LGA 9324插槽和16个DDR5 RDIMM插槽，最高支持4TB内存，预计支持PCIe 6.0，瞄准Diamond Rapids处理器。",
+      "points": [
+        "主板配备16个DDR5 RDIMM插槽，最高支持4TB系统内存，单槽可兼容256GB模块，面向AI训练、大规模数据库与HPC场景。",
+        "板载两路25GbE与两路1GbE管理接口，提供多条PCIe扩展插槽和多个OCP NIC接口，支持GPU加速卡与定制化数据中心部署。",
+        "新平台预计支持PCIe 6.0，Diamond Rapids处理器预计带来更高核心数、更大缓存与更强AI算力，但英特尔尚未公布完整规格。"
+      ],
+      "cards": [
+        {
+          "heading": "内存与插槽",
+          "body": "主板配备16个DDR5 RDIMM插槽，最高支持4TB系统内存，单槽可兼容256GB模块，面向AI训练、大规模数据库与HPC场景。"
+        },
+        {
+          "heading": "网络与扩展",
+          "body": "板载两路25GbE与两路1GbE管理接口，提供多条PCIe扩展插槽和多个OCP NIC接口，支持GPU加速卡与定制化数据中心部署。"
+        },
+        {
+          "heading": "平台预期",
+          "body": "新平台预计支持PCIe 6.0，Diamond Rapids处理器预计带来更高核心数、更大缓存与更强AI算力，但英特尔尚未公布完整规格。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585548.htm",
+      "published": "2026-11-09T05:47:27.000Z",
+      "score": 15.2,
+      "eventKey": "asrockrack-gnrd8-2l2q-oak-stream-motherboard-diamond-rapids",
+      "originalTitle": "华擎展示英特尔下一代至强平台主板：支持4TB DDR5内存 瞄准Diamond Rapids处理器",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585548.htm",
+        "retrievedAt": "2026-11-10T04:37:24.111Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "华擎Rack展示基于英特尔Oak Stream平台的主板GNRD8-2L2Q，支持4TB DDR5内存和PCIe 6.0，瞄准Diamond Rapids处理器。这是具体的硬件产品展示，属于常规但有具体新事实的动态。",
+        "evidence": [
+          "展出的主板型号为GNRD8-2L2Q,采用英特尔即将推出的新一代“Oak Stream”平台设计。",
+          "主板两侧总共配备16个DDR5 RDIMM插槽,可支持最高4TB容量的系统内存。",
+          "根据现场披露的信息,新平台预计将支持PCI Express 6.0技术,为下一代高性能加速器和高速存储设备提供更大的数据传输带宽。"
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
