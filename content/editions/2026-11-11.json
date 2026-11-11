@@ -1,0 +1,1200 @@
+{
+  "date": "2026-11-11",
+  "generatedAt": "2026-11-11T02:47:03.975Z",
+  "intro": "本期共 21 条动态，其中 10 条值得重点关注，集中在芯片设计、晶圆代工、政策与地缘方向。",
+  "stats": {
+    "count": 21,
+    "sources": 10,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 8,
+      "foundry": 2,
+      "policy": 1,
+      "market": 4,
+      "research": 2,
+      "equipment": 2,
+      "eda": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 169850,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 51,
+      "readable": 43,
+      "accepted": 21,
+      "rejected": 4475,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "2bfa6efdfe88b",
+      "title": "AMD发布第六代EPYC服务器处理器",
+      "summary": "AMD宣布第六代EPYC服务器SP7处理器正式上市，基于Zen 6架构，面向AI数据中心需求。系统已从主要服务器厂商出货，微软Azure和OCI云实例即将推出。AMD称EPYC 9996在性能、每瓦性能等方面领先竞品。",
+      "points": [
+        "AMD于2026年11月10日宣布第六代EPYC SP7处理器正式上市，基于Zen 6架构。系统已从所有主要服务器厂商出货，微软Azure和OCI云实例即将推出。",
+        "AMD称EPYC 9996系统性能比NVIDIA Vera CPU系统高3.7倍，比Intel Xeon 6980P高2.2倍，每美元性能高2.0倍。高频型号最高5.3GHz，LLM输出吞吐量比上代高1.8倍。",
+        "针对Agentic AI的三种CPU角色提供优化型号。高密度处理器在托管agent沙箱时，每瓦agent数比NVIDIA Vera高约3.3倍，比Intel Xeon 6980P高2.5倍。",
+        "AMD推出Helion Liquid、Helion Air和Helion Air Inference三种机架级部署选项，分别面向液冷大规模部署、现有风冷数据中心扩展和推理场景。"
+      ],
+      "cards": [
+        {
+          "heading": "产品发布与出货",
+          "body": "AMD于2026年11月10日宣布第六代EPYC SP7处理器正式上市，基于Zen 6架构。系统已从所有主要服务器厂商出货，微软Azure和OCI云实例即将推出。"
+        },
+        {
+          "heading": "性能对比数据",
+          "body": "AMD称EPYC 9996系统性能比NVIDIA Vera CPU系统高3.7倍，比Intel Xeon 6980P高2.2倍，每美元性能高2.0倍。高频型号最高5.3GHz，LLM输出吞吐量比上代高1.8倍。"
+        },
+        {
+          "heading": "AI工作负载优化",
+          "body": "针对Agentic AI的三种CPU角色提供优化型号。高密度处理器在托管agent沙箱时，每瓦agent数比NVIDIA Vera高约3.3倍，比Intel Xeon 6980P高2.5倍。"
+        },
+        {
+          "heading": "机架级方案",
+          "body": "AMD推出Helion Liquid、Helion Air和Helion Air Inference三种机架级部署选项，分别面向液冷大规模部署、现有风冷数据中心扩展和推理场景。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354657/amd-showcases-6th-gen-epyc-server-sp7-processors-based-on-the-new-zen-6-architecture",
+      "published": "2026-11-10T17:56:44.000Z",
+      "score": 25.53,
+      "eventKey": "amd-6th-gen-epyc-sp7-ga-zen6",
+      "originalTitle": "(PR) AMD Showcases 6th Gen EPYC Server SP7 Processors Based on the New Zen 6 Architecture",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354657/amd-showcases-6th-gen-epyc-server-sp7-processors-based-on-the-new-zen-6-architecture",
+        "retrievedAt": "2026-11-11T02:45:22.340Z",
+        "articlePublished": "2026-11-10T17:56:44.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "AMD宣布第六代EPYC服务器SP7处理器（Zen 6架构）正式上市，系统已开始出货，是具体的新产品里程碑。",
+        "evidence": [
+          "AMD (NASDAQ: AMD) today announced the general availability of the 6th Gen AMD EPYC server SP7 processors, based on the new \"Zen 6\" architecture, extending its historical server CPU performance leadership as AI creates new demands across the",
+          "Systems powered by the new CPUs are shipping from all leading server vendors, and cloud instances from Microsoft Azure and OCI are coming soon."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "492c43d1fd7f4",
+      "title": "消息称：Rapidus 2nm量产或延期，日本芯片雄心受挫",
+      "summary": "据报道，日本政府支持的芯片制造商 Rapidus 面临技术挑战，原定2028年3月量产2nm半导体的计划可能推迟，这或将影响日本重建先进半导体制造能力的努力。",
+      "points": [
+        "Rapidus 原计划在2028年3月前开始量产2nm半导体，但面临的技术挑战可能导致该目标延期。",
+        "Rapidus 是日本政府支持的芯片制造商，其进展被视为日本重建国内先进半导体制造能力的关键。",
+        "量产延期可能削弱东京方面重振本土先进芯片产业的努力，但具体延期时长和原因尚未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "量产目标",
+          "body": "Rapidus 原计划在2028年3月前开始量产2nm半导体，但面临的技术挑战可能导致该目标延期。"
+        },
+        {
+          "heading": "政府背景",
+          "body": "Rapidus 是日本政府支持的芯片制造商，其进展被视为日本重建国内先进半导体制造能力的关键。"
+        },
+        {
+          "heading": "潜在影响",
+          "body": "量产延期可能削弱东京方面重振本土先进芯片产业的努力，但具体延期时长和原因尚未披露。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261111VL204/rapidus-2nm-production-manufacturing-development.html",
+      "published": "2026-11-11T01:59:26.000Z",
+      "score": 28.88,
+      "eventKey": "rapidus-2nm-production-delay-march-2028",
+      "originalTitle": "Rapidus reportedly falls behind schedule on 2nm chip production target, raising questions over Japan's chip ambitions",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261111VL204/rapidus-2nm-production-manufacturing-development.html",
+        "retrievedAt": "2026-11-11T02:45:21.397Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Rapidus 2nm量产进度落后于2028年3月目标，是日本先进制程计划的重要新进展，涉及具体时间节点。",
+        "evidence": [
+          "Japan's state-backed chipmaker Rapidus is facing mounting technological challenges that could delay its plan to begin mass-producing 2nm semiconductors by March 2028, potentially undermining Tokyo's efforts to rebuild its domestic advanced ",
+          "semiconductor manufacturing capabilities."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "TechPowerUp",
+          "url": "https://www.techpowerup.com/354639/rapidus-could-miss-2-nm-mass-production-timeline-amid-sram-issues"
+        },
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585800.htm"
+        }
+      ]
+    },
+    {
+      "id": "467eb4b23a666",
+      "title": "Helion获1.75亿美元CHIPS拨款，推进高压半导体研发",
+      "summary": "美国聚变能源公司 Helion 与美国商务部签署意向书，拟通过CHIPS研发办公室获得最高1.75亿美元联邦资金，用于下一代高压半导体研发，另有5000万美元私人投资配套，总计2.25亿美元。",
+      "points": [
+        "Helion 将获得最高1.75亿美元CHIPS拨款，外加5000万美元私人投资，合计2.25亿美元，用于半导体研发和制造。",
+        "超过1亿美元将用于华盛顿州埃弗雷特的半导体和先进封装研发，创造超100个岗位；约8000万美元用于佛蒙特州伯灵顿的半导体工具和工艺开发。",
+        "Helion 需要高压脉冲电源系统，其所需半导体目前依赖海外供应商。该拨款支持开发高效率、长寿命、易冷却的下一代高压半导体，并推动美国本土制造。",
+        "若达成最终协议，商务部将获得Helion基于最新G轮优先股估值的1.75亿美元无投票权权益，作为拨款对价。"
+      ],
+      "cards": [
+        {
+          "heading": "资金构成",
+          "body": "Helion 将获得最高1.75亿美元CHIPS拨款，外加5000万美元私人投资，合计2.25亿美元，用于半导体研发和制造。"
+        },
+        {
+          "heading": "研发地点",
+          "body": "超过1亿美元将用于华盛顿州埃弗雷特的半导体和先进封装研发，创造超100个岗位；约8000万美元用于佛蒙特州伯灵顿的半导体工具和工艺开发。"
+        },
+        {
+          "heading": "技术目标",
+          "body": "Helion 需要高压脉冲电源系统，其所需半导体目前依赖海外供应商。该拨款支持开发高效率、长寿命、易冷却的下一代高压半导体，并推动美国本土制造。"
+        },
+        {
+          "heading": "政府权益",
+          "body": "若达成最终协议，商务部将获得Helion基于最新G轮优先股估值的1.75亿美元无投票权权益，作为拨款对价。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/helion-signs-letter-of-intent-for-175-million-chips-award-to-advance-u-s-high-voltage-semiconductor-rd",
+      "published": "2026-11-10T22:14:40.000Z",
+      "score": 27.25,
+      "eventKey": "helion-chips-175m-award-high-voltage-semiconductor",
+      "originalTitle": "Helion Signs Letter of Intent For $175 Million CHIPS Award to Advance U.S. High Voltage Semiconductor R&D",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/helion-signs-letter-of-intent-for-175-million-chips-award-to-advance-u-s-high-voltage-semiconductor-rd",
+        "retrievedAt": "2026-11-11T02:45:21.741Z",
+        "articlePublished": "2026-11-10T22:14:40.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Helion与美国商务部签署1.75亿美元CHIPS研发奖励意向书，用于高压半导体研发，是明确的政策资金授予事件。",
+        "evidence": [
+          "Helion, a Washington-based fusion energy company, announced today it has signed a letter of intent with the U.S.",
+          "Department of Commerce to receive up to $175 million in funding through the CHIPS Research and Development Office to conduct R&D critical for the development and manufacturing of next-generation semiconductor technologies for commercial fus"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "13c886079f75d5",
+      "title": "AMD发布第六代EPYC嵌入式处理器",
+      "summary": "AMD推出EPYC Embedded 9006系列SP7 CPU，基于Zen 6架构，最高256核心，支持PCIe Gen 6和CXL 3.1，吞吐量较上代提升最高1.8倍，面向半导体测试设备、企业存储和网络防火墙等嵌入式应用。",
+      "points": [
+        "EPYC Embedded 9006系列最高256核心512线程，16通道DDR5支持RDIMM 8000 MT/s和MRDIMM 12800 MT/s，96条PCIe Gen 6通道，I/O带宽提升1.5倍，内存带宽提升2.7倍。",
+        "相比上代EPYC 9005系列，吞吐量提升最高1.8倍，防火墙吞吐量提升1.3倍，存储加速库（ISA-L）基准性能提升1.5倍。",
+        "面向半导体ATE系统、400G/800G网络防火墙、企业NVMe存储控制器，提供控制平面引擎和高带宽连接，支持DDR5和MRDIMM测试。",
+        "提供七年产品生命周期支持，支持后量子密码固件签名和持续安全更新，简化关键嵌入式应用的维护。"
+      ],
+      "cards": [
+        {
+          "heading": "核心规格",
+          "body": "EPYC Embedded 9006系列最高256核心512线程，16通道DDR5支持RDIMM 8000 MT/s和MRDIMM 12800 MT/s，96条PCIe Gen 6通道，I/O带宽提升1.5倍，内存带宽提升2.7倍。"
+        },
+        {
+          "heading": "性能提升",
+          "body": "相比上代EPYC 9005系列，吞吐量提升最高1.8倍，防火墙吞吐量提升1.3倍，存储加速库（ISA-L）基准性能提升1.5倍。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "面向半导体ATE系统、400G/800G网络防火墙、企业NVMe存储控制器，提供控制平面引擎和高带宽连接，支持DDR5和MRDIMM测试。"
+        },
+        {
+          "heading": "长期支持",
+          "body": "提供七年产品生命周期支持，支持后量子密码固件签名和持续安全更新，简化关键嵌入式应用的维护。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354660/amd-unveils-6th-gen-epyc-embedded-processors",
+      "published": "2026-11-10T18:49:03.000Z",
+      "score": 25.68,
+      "eventKey": "amd-epyc-embedded-9006-sp7-launch",
+      "originalTitle": "(PR) AMD Unveils 6th Gen EPYC Embedded Processors",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354660/amd-unveils-6th-gen-epyc-embedded-processors",
+        "retrievedAt": "2026-11-11T02:45:22.330Z",
+        "articlePublished": "2026-11-10T18:49:03.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "AMD发布第六代EPYC嵌入式9006系列处理器，基于Zen 6架构，最高256核，支持PCIe Gen 6和CXL 3.1，面向半导体ATE、存储和防火墙应用，是具体的新产品发布。",
+        "evidence": [
+          "AMD announced the AMD EPYC Embedded 9006 Series SP7 CPUs, expanding its x86 processor portfolio optimized for embedded customer requirements and deployments.",
+          "Advanced by the high-performance \"Zen 6\" core architecture, AMD EPYC Embedded 9006 CPUs combine up to 256 cores, scalable PCIe Gen 6 and CXL 3.1 connectivity, and advanced security from secure boot through runtime.",
+          "With a throughput increase of up to 1.8x compared with the previous generation 5th Gen AMD EPYC 9005 Series processors, they provide the leadership compute and high-speed connectivity needed to scale throughput and handle increasingly deman"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "195a0e69b3cf6c",
+      "title": "台积电10月营收同比大增59.7%",
+      "summary": "台积电2026年10月营收同比增长59.7%，延续强劲增长势头，主要受AI基础设施对先进芯片需求的推动。",
+      "points": [
+        "2026年10月营收同比增长59.7%，未披露具体金额，但增长幅度显著，反映AI芯片需求持续支撑半导体行业。",
+        "AI基础设施对先进制程芯片的需求强劲，带动台积电营收连续多月保持高增长，市场预期后续月份仍将维持动能。"
+      ],
+      "cards": [
+        {
+          "heading": "营收数据",
+          "body": "2026年10月营收同比增长59.7%，未披露具体金额，但增长幅度显著，反映AI芯片需求持续支撑半导体行业。"
+        },
+        {
+          "heading": "增长动力",
+          "body": "AI基础设施对先进制程芯片的需求强劲，带动台积电营收连续多月保持高增长，市场预期后续月份仍将维持动能。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+      "published": "2026-11-10T06:27:36.000Z",
+      "score": 25.62,
+      "eventKey": "tsmc-october-2026-revenue-59.7pct-yoy",
+      "originalTitle": "TSMC October 2026 revenue surges 59.7% on strong AI chip demand",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+        "retrievedAt": "2026-11-11T02:45:22.159Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "台积电2026年10月营收同比增长59.7%，是具体的新财务数据，反映AI芯片需求强劲。",
+        "evidence": [
+          "TSMC reported a 59.7% year-over-year increase in October 2026 revenue, extending its strong growth momentum as demand for advanced chips used in artificial intelligence (AI) infrastructure continues to support the semiconductor industry."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585774.htm"
+        }
+      ]
+    },
+    {
+      "id": "1ad52245056bb1",
+      "title": "Arm发布Cortex-M42处理器，扩展AI边缘计算",
+      "summary": "Arm宣布推出基于Armv8.1-M架构的Cortex-M42处理器，面向智能设备引入高效AI计算能力。相比Cortex-M33，其向量计算能力提升3倍，向量功耗效率提升2倍，并支持Arm自定义指令。该产品已纳入Arm Flexible Access和Arm Total Access组合。",
+      "points": [
+        "Cortex-M42基于Armv8.1-M架构，集成Arm Helium技术，向量计算能力为Cortex-M33的3倍，向量功耗效率为2倍，并支持Arm自定义指令以优化特定工作负载。",
+        "适用于可穿戴设备的音频处理与关键词检测、传感器分析、工业控制中的状态监测与信号处理，以及物理AI中的机器人电机与关节本地信号处理。",
+        "截至2026年11月，Arm Flexible Access拥有319家活跃成员，完成超500次流片；Arm Total Access已有60家合作伙伴，累计开展超600个项目。近期流片案例包括EnSilica、Nordic Semiconductor和Synaptics。"
+      ],
+      "cards": [
+        {
+          "heading": "性能提升",
+          "body": "Cortex-M42基于Armv8.1-M架构，集成Arm Helium技术，向量计算能力为Cortex-M33的3倍，向量功耗效率为2倍，并支持Arm自定义指令以优化特定工作负载。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "适用于可穿戴设备的音频处理与关键词检测、传感器分析、工业控制中的状态监测与信号处理，以及物理AI中的机器人电机与关节本地信号处理。"
+        },
+        {
+          "heading": "生态进展",
+          "body": "截至2026年11月，Arm Flexible Access拥有319家活跃成员，完成超500次流片；Arm Total Access已有60家合作伙伴，累计开展超600个项目。近期流片案例包括EnSilica、Nordic Semiconductor和Synaptics。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354651/arm-expands-its-portfolio-with-new-arm-cortex-m42-processors",
+      "published": "2026-11-10T16:31:22.000Z",
+      "score": 25.3,
+      "eventKey": "arm-cortex-m42-processor-launch",
+      "originalTitle": "(PR) Arm Expands Its Portfolio with New Arm Cortex-M42 Processors",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354651/arm-expands-its-portfolio-with-new-arm-cortex-m42-processors",
+        "retrievedAt": "2026-11-11T02:45:22.391Z",
+        "articlePublished": "2026-11-10T16:31:22.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Arm发布新款Cortex-M42处理器，基于Armv8.1-M架构，向量计算能力较Cortex-M33提升3倍，是具体的新产品发布。",
+        "evidence": [
+          "Today, Arm is expanding both portfolios with the new Arm Cortex-M42 processor, bringing efficient AI compute capabilities to more intelligent devices.",
+          "Built on the Armv8.1-M architecture, Cortex-M42 delivers up to 3x the vector compute capability and 2x the vector power efficiency of Cortex-M33, while Arm Custom Instructions provide additional flexibility to optimize processors for specif"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1eb0aeb45d23d2",
+      "title": "三菱电机用GaN衬底抑制GaN晶体管频率色散",
+      "summary": "三菱电机宣称全球首次阐明GaN晶体管中由晶体缺陷引起的频率色散效应，并证明使用GaN衬底可显著抑制该现象。该成果有望简化数字校正电路，助力高频设备小型化和低功耗。相关成果在IWN 2026上公布。",
+      "points": [
+        "三菱电机通过采用单晶GaN外延层和GaN衬底，结合考虑缺陷响应的新电路分析方法，首次证明频率色散可被显著抑制，获得平坦的频率特性。",
+        "该技术可简化此前必需的数字校正电路，有助于工业微波加热系统、5G/6G基站和雷达等高频设备实现小型化、高性能和低功耗。",
+        "研究受日本环境省委托项目资助，旨在实现创新CO2减排。成果在2026年11月8-13日于熊本举行的国际氮化物半导体研讨会（IWN 2026）上展示。"
+      ],
+      "cards": [
+        {
+          "heading": "技术突破",
+          "body": "三菱电机通过采用单晶GaN外延层和GaN衬底，结合考虑缺陷响应的新电路分析方法，首次证明频率色散可被显著抑制，获得平坦的频率特性。"
+        },
+        {
+          "heading": "应用价值",
+          "body": "该技术可简化此前必需的数字校正电路，有助于工业微波加热系统、5G/6G基站和雷达等高频设备实现小型化、高性能和低功耗。"
+        },
+        {
+          "heading": "项目背景",
+          "body": "研究受日本环境省委托项目资助，旨在实现创新CO2减排。成果在2026年11月8-13日于熊本举行的国际氮化物半导体研讨会（IWN 2026）上展示。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-today.com/news_items/2026/nov/mitsubishi-electric-101126.shtml",
+      "published": "2026-11-10T11:43:14.000Z",
+      "score": 24.5,
+      "eventKey": "mitsubishi-electric-gan-substrate-frequency-dispersion-suppression",
+      "originalTitle": "Mitsubishi Electric suppresses frequency dispersion in GaN transistors using GaN substrates",
+      "provenance": {
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/mitsubishi-electric-101126.shtml",
+        "retrievedAt": "2026-11-11T02:45:24.959Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三菱电机首次阐明GaN衬底上GaN晶体管频率色散的晶体缺陷机理，并演示可显著抑制频率色散，属于具体研发突破。",
+        "evidence": [
+          "News: Microelectronics 10 November 2026 Mitsubishi Electric suppresses frequency dispersion in GaN transistors using GaN substrates Tokyo-based Mitsubishi Electric Corp claims that, for the first time in the world, it has elucidated the eff",
+          "ystal GaN epitaxial layer on a single-crystal GaN substrate) and demonstrated that frequency dispersion can be significantly suppressed."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1e8c079531132d",
+      "title": "NVIDIA与韩国合作开发AI芯片互联",
+      "summary": "NVIDIA、韩国AI芯片公司Rebellions和SK Telecom合作，将Rebellions的R200 NPU集成到NVIDIA MGX机架架构中，采用NVLink Fusion互联，部署于SK Telecom的数据中心。系统预计2028年可用，韩国科技部支持。",
+      "points": [
+        "Rebellions下一代R200 NPU将集成到NVIDIA MGX机架架构，使用NVLink Fusion互联，部署在SK Telecom的AI数据中心。目标是为多万亿参数混合专家模型提供高能效推理。",
+        "计划探索分离式推理：NVIDIA GPU处理预填充阶段，Rebellions NPU负责解码阶段的token生成，以提高推理吞吐量和能效。",
+        "Rebellions预计R200系统在2028年可部署，期间将开发和验证机架级架构。韩国科技部支持该合作，作为主权AI计划的一部分。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "Rebellions下一代R200 NPU将集成到NVIDIA MGX机架架构，使用NVLink Fusion互联，部署在SK Telecom的AI数据中心。目标是为多万亿参数混合专家模型提供高能效推理。"
+        },
+        {
+          "heading": "分工与目标",
+          "body": "计划探索分离式推理：NVIDIA GPU处理预填充阶段，Rebellions NPU负责解码阶段的token生成，以提高推理吞吐量和能效。"
+        },
+        {
+          "heading": "部署时间表",
+          "body": "Rebellions预计R200系统在2028年可部署，期间将开发和验证机架级架构。韩国科技部支持该合作，作为主权AI计划的一部分。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "eeNews Europe",
+      "sourceLang": "en",
+      "url": "https://www.eenewseurope.com/en/nvidia-nvlink-fusion-brings-korean-ai-chips-to-rack-scale-systems",
+      "published": "2026-11-10T08:47:14.000Z",
+      "score": 24.01,
+      "eventKey": "nvidia-rebellions-sk-telecom-nvlink-fusion-mgx-rack-deal",
+      "originalTitle": "NVIDIA NVLink Fusion brings Korean AI chips to rack-scale systems",
+      "provenance": {
+        "url": "https://www.eenewseurope.com/en/nvidia-nvlink-fusion-brings-korean-ai-chips-to-rack-scale-systems",
+        "retrievedAt": "2026-11-11T02:45:39.859Z",
+        "articlePublished": "2026-11-10T08:47:14.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英伟达与Rebellions、SK Telecom达成新合作，将R200 NPU集成到MGX机架架构，计划2028年部署，这是此前历史中'探索加入NVLink Fusion生态'的实质性新进展。",
+        "evidence": [
+          "The collaboration will see Rebellions’ next-generation R200 neural processing units (NPUs) integrated into NVIDIA’s MGX rack architecture, with deployment planned at SK Telecom’s AI data centers.",
+          "Rebellions expects its R200-based systems to be ready for deployment in 2028, giving the partners time to develop and validate the rack-scale architecture before commercial rollout."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f339d3d960144",
+      "title": "特斯拉SpaceX合资晶圆厂拟月产百万片晶圆",
+      "summary": "特斯拉与SpaceX合资的Terafab向设备商透露，计划2032年后月产100万片晶圆，其中约70%用于存储、30%以上用于逻辑芯片。采购团队已赴日本要求部分设备商数月内交付。",
+      "points": [
+        "Terafab目标月产100万片晶圆，其中约70万片用于存储，超过30万片用于逻辑芯片。存储部分若全为DRAM，将接近三星去年估算的月产65万至70万片DRAM产能。",
+        "Terafab采购团队已访问日本，要求当地部分设备制造商在数月内交付设备，显示其建厂进度正在加速推进。",
+        "三星DRAM月产能约65万至70万片，SK海力士约55万片，其2030年目标为100万片。Terafab的70万片存储产能为SK海力士无锡厂（约20万片）的3.5倍，但涵盖NAND与DRAM全部存储类型。"
+      ],
+      "cards": [
+        {
+          "heading": "产能规划",
+          "body": "Terafab目标月产100万片晶圆，其中约70万片用于存储，超过30万片用于逻辑芯片。存储部分若全为DRAM，将接近三星去年估算的月产65万至70万片DRAM产能。"
+        },
+        {
+          "heading": "设备采购",
+          "body": "Terafab采购团队已访问日本，要求当地部分设备制造商在数月内交付设备，显示其建厂进度正在加速推进。"
+        },
+        {
+          "heading": "对比参考",
+          "body": "三星DRAM月产能约65万至70万片，SK海力士约55万片，其2030年目标为100万片。Terafab的70万片存储产能为SK海力士无锡厂（约20万片）的3.5倍，但涵盖NAND与DRAM全部存储类型。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
+      "published": "2026-11-10T13:00:00.000Z",
+      "score": 22.71,
+      "eventKey": "terafab-1m-wafers-per-month-memory-700k-detail",
+      "originalTitle": "Elon Musk’s Terafab targets 1 million wafers a month after 2032",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
+        "retrievedAt": "2026-11-11T02:45:40.559Z",
+        "articlePublished": "2026-11-10T13:00:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Terafab目标月产100万片晶圆，其中70万片用于存储，这一具体产能分配细节是此前历史中未披露的新信息。",
+        "evidence": [
+          "Elon Musk’s Terafab, a joint venture of Tesla and SpaceX, has informally told equipment makers it is seeking to produce 1 million wafers per month after 2032, according to Financial News.",
+          "About 70% of this output, or 700,000 wafers, is planned to go to memory, with more than 300,000 going to logic chips."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c92623e2d5e9f",
+      "title": "江苏海思11月集中交付多尺寸双面对准光刻机",
+      "summary": "江苏海思（HISIGK）11月集中出货一批全自动双面对准光刻机，覆盖12寸、8寸、6寸平台，分别发往日本MEMS企业、AR光波导头部企业及LED芯片企业。其中核心为5台12寸光刻机，3台采用FOUP天车自动上料。",
+      "points": [
+        "11月交付覆盖12寸、8寸、6寸三种尺寸平台，客户包括日本MEMS制造企业、AR光波导头部企业和LED芯片企业。核心为5台12寸光刻机，另有4台8寸和5台6寸机型。",
+        "5台12寸光刻机中，3台采用FOUP天车自动上料方案，匹配12寸晶圆量产线，实现上料、对准、曝光、下料全流程自动化，适配超表面光学、硅基微透镜、AR光波导等双面图形套准需求。",
+        "8寸机型面向MEMS传感器和微流控器件制程；6寸机型聚焦氮化镓、碳化硅等化合物半导体及LED芯片、功率器件领域，强调曝光均匀性与良率控制。",
+        "江苏海思聚焦接近式与接触式光刻赛道，本次交付的多尺寸双面对准设备为国内微纳光学、MEMS产线提供国产化替代方案，降低对进口高端设备的依赖。"
+      ],
+      "cards": [
+        {
+          "heading": "交付概况",
+          "body": "11月交付覆盖12寸、8寸、6寸三种尺寸平台，客户包括日本MEMS制造企业、AR光波导头部企业和LED芯片企业。核心为5台12寸光刻机，另有4台8寸和5台6寸机型。"
+        },
+        {
+          "heading": "12寸机型",
+          "body": "5台12寸光刻机中，3台采用FOUP天车自动上料方案，匹配12寸晶圆量产线，实现上料、对准、曝光、下料全流程自动化，适配超表面光学、硅基微透镜、AR光波导等双面图形套准需求。"
+        },
+        {
+          "heading": "8寸与6寸机型",
+          "body": "8寸机型面向MEMS传感器和微流控器件制程；6寸机型聚焦氮化镓、碳化硅等化合物半导体及LED芯片、功率器件领域，强调曝光均匀性与良率控制。"
+        },
+        {
+          "heading": "市场定位",
+          "body": "江苏海思聚焦接近式与接触式光刻赛道，本次交付的多尺寸双面对准设备为国内微纳光学、MEMS产线提供国产化替代方案，降低对进口高端设备的依赖。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "设备"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585756.htm",
+      "published": "2026-11-10T06:45:52.000Z",
+      "score": 20.67,
+      "eventKey": "hisigk-nov-2026-litho-delivery-12-8-6inch-japan",
+      "originalTitle": "海思光刻机11月集中交付 12寸/8寸/6寸齐发日本等国",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585756.htm",
+        "retrievedAt": "2026-11-11T02:45:43.493Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "江苏海思（HISIGK）11月集中交付12寸、8寸、6寸光刻机，分别发往日本MEMS、AR光波导及LED芯片企业，是国产特色光刻设备的实际交付动态。",
+        "evidence": [
+          "据江苏海思(HISIGK)官方披露,其11月迎来集中出货节点,一批全自动双面对准光刻机完成调试并整装待发。",
+          "本次交付覆盖12寸、8寸、6寸多尺寸平台,分别发往日本MEMS制造企业、AR光波导头部企业及LED芯片企业。",
+          "本次交付的核心是5台12寸光刻机。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1227498019fa3d",
+      "title": "三星英伟达合作实现芯片仿真3800倍加速",
+      "summary": "在英伟达AI日首尔2026上，三星电子演示了结合英伟达AI建模工具与GPU计算的流程，将一次半导体仿真从18小时缩短至17秒，使用四块H100 GPU，加速约3800倍。",
+      "points": [
+        "三星与英伟达合作，利用AI建模工具和GPU计算，将一次半导体仿真从18小时缩短至17秒，加速约3800倍，使用四块H100 GPU。",
+        "该流程加速热学与结构形变分析，同时降低大规模仿真的计算负担，支持半导体研发工作。"
+      ],
+      "cards": [
+        {
+          "heading": "仿真加速",
+          "body": "三星与英伟达合作，利用AI建模工具和GPU计算，将一次半导体仿真从18小时缩短至17秒，加速约3800倍，使用四块H100 GPU。"
+        },
+        {
+          "heading": "应用方向",
+          "body": "该流程加速热学与结构形变分析，同时降低大规模仿真的计算负担，支持半导体研发工作。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261111PD241/nvidia-samsung-gpu-2026-materials.html",
+      "published": "2026-11-11T01:47:24.000Z",
+      "score": 28.84,
+      "eventKey": "samsung-nvidia-chip-simulation-3800x-speedup",
+      "originalTitle": "Samsung and Nvidia demonstrate up to 3,800-fold speedup in chip simulation",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261111PD241/nvidia-samsung-gpu-2026-materials.html",
+        "retrievedAt": "2026-11-11T02:45:21.449Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星与英伟达在AI Day Seoul 2026展示芯片仿真工作流，将单次仿真从18小时缩短至17秒，提速约3800倍，是具体的技术合作成果。",
+        "evidence": [
+          "At Nvidia AI Day Seoul 2026, Samsung Electronics demonstrated a workflow that combined Nvidia's AI modeling tools and GPU computing with homogenization, cutting one semiconductor simulation from 18 hours to 17 seconds, an approximately 3,80",
+          "0-fold speedup using four H100 GPUs."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "181abfd1d67f3d",
+      "title": "TASKING工具链扩展支持英飞凌RISC-V AURIX RC1",
+      "summary": "TASKING扩展嵌入式开发工具，支持英飞凌基于RISC-V的AURIX RC1汽车微控制器，覆盖编译、调试与软件验证。工具链集成VX-toolset、winIDEA、BlueBox及LDRA验证工具，并加入代理式AI功能，计划2026年12月发布。",
+      "points": [
+        "TASKING VX-toolset编译器、winIDEA调试环境、BlueBox硬件调试平台与LDRA验证工具组合，支持ISO 26262功能安全和ISO/SAE 21434网络安全要求。",
+        "VX-toolset AI技能计划2026年12月发布，通过Visual Studio Code和MCP协议提供编译诊断、映射文件分析等；winIDEA AI Kit自动化部分调试，报告至少50%工作量削减。",
+        "支持AURIX RC1的RISC-V VX-toolset计划2026年12月可用，工具链认证计划2027年完成。英飞凌计划将TASKING编译器技术纳入DRIVECORE软件组合。"
+      ],
+      "cards": [
+        {
+          "heading": "工具链组成",
+          "body": "TASKING VX-toolset编译器、winIDEA调试环境、BlueBox硬件调试平台与LDRA验证工具组合，支持ISO 26262功能安全和ISO/SAE 21434网络安全要求。"
+        },
+        {
+          "heading": "AI辅助功能",
+          "body": "VX-toolset AI技能计划2026年12月发布，通过Visual Studio Code和MCP协议提供编译诊断、映射文件分析等；winIDEA AI Kit自动化部分调试，报告至少50%工作量削减。"
+        },
+        {
+          "heading": "发布时间表",
+          "body": "支持AURIX RC1的RISC-V VX-toolset计划2026年12月可用，工具链认证计划2027年完成。英飞凌计划将TASKING编译器技术纳入DRIVECORE软件组合。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/tasking-extends-toolchain-support-to-infineons-risc-v-aurix-rc1-mcus/",
+      "published": "2026-11-10T23:56:11.000Z",
+      "score": 27.53,
+      "eventKey": "tasking-toolchain-infineon-aurix-rc1-support",
+      "originalTitle": "TASKING Extends Toolchain Support to Infineon’s RISC-V AURIX RC1 MCUs",
+      "provenance": {
+        "url": "https://www.eetasia.com/tasking-extends-toolchain-support-to-infineons-risc-v-aurix-rc1-mcus/",
+        "retrievedAt": "2026-11-11T02:45:35.674Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "TASKING扩展工具链支持英飞凌RISC-V AURIX RC1 MCU，覆盖编译、调试和验证，是具体的EDA/工具链动态。",
+        "evidence": [
+          "TASKING has extended its embedded software development tools to support Infineon Technologies’ AURIX RC1 family of RISC-V-based automotive microcontrollers, covering compilation, debugging and software verification.",
+          "The toolchain combines TASKING’s VX-toolset compiler, winIDEA debugging environment and BlueBox hardware debugging platform with LDRA verification tools."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "12a60e256daadd",
+      "title": "Nexperia推出超低导通电阻GaN FET系列",
+      "summary": "Nexperia发布18V至200V超低欧姆GaN FET系列，覆盖AI数据中心、人形机器人、电池工具等应用。旗舰产品GANE0R8-100QTM为100V器件，典型导通电阻0.75mΩ，现已供货；另有18V器件计划2027年第一季度发布。",
+      "points": [
+        "新系列覆盖18V至200V，导通电阻最低0.37mΩ，旗舰100V器件GANE0R8-100QTM典型RDS(on)为0.75mΩ，封装为3mm×5mm PQFN，支持顶面散热。",
+        "面向AI数据中心800V至48V/12V/6V电源转换、人形机器人电机驱动、电池工具、可再生能源、同步整流和DC-DC转换，支持LLC谐振变换器及48V供电架构。",
+        "当前已有6款产品供货，另有2款包括18V GANE0R3-015QTL（典型RDS(on) 0.32mΩ）计划于2027年第一季度发布，届时系列共8款产品。"
+      ],
+      "cards": [
+        {
+          "heading": "产品参数",
+          "body": "新系列覆盖18V至200V，导通电阻最低0.37mΩ，旗舰100V器件GANE0R8-100QTM典型RDS(on)为0.75mΩ，封装为3mm×5mm PQFN，支持顶面散热。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "面向AI数据中心800V至48V/12V/6V电源转换、人形机器人电机驱动、电池工具、可再生能源、同步整流和DC-DC转换，支持LLC谐振变换器及48V供电架构。"
+        },
+        {
+          "heading": "发布计划",
+          "body": "当前已有6款产品供货，另有2款包括18V GANE0R3-015QTL（典型RDS(on) 0.32mΩ）计划于2027年第一季度发布，届时系列共8款产品。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-today.com/news_items/2026/nov/nexperia-101126.shtml",
+      "published": "2026-11-10T16:11:10.000Z",
+      "score": 25.24,
+      "eventKey": "nexperia-ultra-low-resistance-gan-fet-launch",
+      "originalTitle": "Nexperia adds ultra-low-resistance GaN FETs for next-gen power density and efficiency",
+      "provenance": {
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/nexperia-101126.shtml",
+        "retrievedAt": "2026-11-11T02:45:22.876Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Nexperia推出新的超低导通电阻GaN FET系列，覆盖18V至200V，实现10mm²封装内亚毫欧级RDS(on)，是具体的新产品发布。",
+        "evidence": [
+          " Hamburg, Germany, and Hazel Grove Manchester, UK) has launched new ultra-low-ohmic gallium nitride (GaN) FETs, expanding its low- and medium-voltage GaN portfolio with devices spanning 18V to 200V.",
+          "The new family achieves record-low on-state resistance, with sub-milliohm RDS(on) in a PCB footprint of 10mm2."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "16d9fb60bf5a24",
+      "title": "CEA-Leti与ISRL推出SubFAB Labs，加速低影响芯片制造技术应用",
+      "summary": "CEA-Leti联合International SubFAB Research Labs（ISRL）启动SubFAB Labs项目，为半导体行业提供预工业环境，测试和验证降低芯片制造环境影响的工艺。项目第一阶段在格勒诺布尔进行，将持续四年，建立材料使用效率和副产物数据库。HORIBA、TOFWERK和Edwards Vacuum为首批合作伙伴。",
+      "points": [
+        "SubFAB Labs旨在帮助新旧晶圆厂提前应对环保要求，通过减少排放、回收关键原材料和降低新方案验证风险，推动低环境影响制造技术的采用。项目由行业全额资助。",
+        "第一阶段在CEA-Leti现有中试线上运行，最长四年，将识别和分类主要IC制造工艺家族的气态和液态材料使用效率、排放及副产物，建立参考数据库，并开发结合多种传感器技术的监测系统。",
+        "HORIBA和TOFWERK将测试和验证现有及下一代传感器在IC工艺废料处理各阶段的表现；Edwards Vacuum将利用项目深化对工艺废物流的理解并测试实时减排策略。"
+      ],
+      "cards": [
+        {
+          "heading": "项目目标",
+          "body": "SubFAB Labs旨在帮助新旧晶圆厂提前应对环保要求，通过减少排放、回收关键原材料和降低新方案验证风险，推动低环境影响制造技术的采用。项目由行业全额资助。"
+        },
+        {
+          "heading": "第一阶段内容",
+          "body": "第一阶段在CEA-Leti现有中试线上运行，最长四年，将识别和分类主要IC制造工艺家族的气态和液态材料使用效率、排放及副产物，建立参考数据库，并开发结合多种传感器技术的监测系统。"
+        },
+        {
+          "heading": "首批合作伙伴",
+          "body": "HORIBA和TOFWERK将测试和验证现有及下一代传感器在IC工艺废料处理各阶段的表现；Edwards Vacuum将利用项目深化对工艺废物流的理解并测试实时减排策略。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/cea-leti-launches-subfab-labs-with-isrl-to-speed-adoption-of-lower-impact-chip-manufacturing-technologies",
+      "published": "2026-11-10T22:00:25.000Z",
+      "score": 25.21,
+      "eventKey": "cea-leti-subfab-labs-launch-isrl",
+      "originalTitle": "CEA-Leti Launches SubFAB Labs with ISRL to Speed Adoption of Lower-Impact Chip Manufacturing Technologies",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/cea-leti-launches-subfab-labs-with-isrl-to-speed-adoption-of-lower-impact-chip-manufacturing-technologies",
+        "retrievedAt": "2026-11-11T02:45:24.300Z",
+        "articlePublished": "2026-11-10T22:00:25.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "CEA-Leti与ISRL联合启动SubFAB Labs项目，旨在为半导体制造提供降低环境影响的预工业测试环境，HORIBA、TOFWERK和Edwards Vacuum为首批合作伙伴，是具体的产业合作新动态。",
+        "evidence": [
+          "CEA-Leti today launched SubFAB Labs, a joint program with International SubFAB Research Labs (ISRL) that gives the semiconductor industry a pre-industrial environment to test, validate and qualify technologies that reduce the environmental ",
+          "First Partners HORIBA, a maker of analytical and measurement solutions, and TOFWERK, a sensor maker, have agreed to join the initiative and as part of Phase 1 will test, validate and qualify existing and next-generation sensors on a range o"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f6f9a403b264d",
+      "title": "传英伟达或削减台积电订单，消息未证实",
+      "summary": "台湾《工商时报》引述匿名供应链消息称英伟达可能放缓在台积电的芯片订单，但未指明产品、制程或时间表。英伟达与台积电均未回应，消息单一来源，应视为传闻。",
+      "points": [
+        "台湾《工商时报》引述未具名供应链消息，称英伟达可能放缓在台积电的芯片订单，但未提及具体产品、制程节点、规模或时间表。",
+        "内部方面，黄仁勋11月8日致员工信就婚外情道歉，董事会调查外国情报针对事件但认为无安全泄露；外部方面，出口审查趋严及H200芯片疑似囤积香港，增加削减订单风险。",
+        "若削减订单，台积电和日月光等上游供应商受影响最大。报道预期AMD和定制芯片设计商将接手产能，联发科、创意电子和世芯电子可能受益。",
+        "该报道为单一来源，英伟达与台积电均未置评，应视为传闻。台积电先进制程供应紧张，并考虑CoWoS涨价最高20%。"
+      ],
+      "cards": [
+        {
+          "heading": "传闻内容",
+          "body": "台湾《工商时报》引述未具名供应链消息，称英伟达可能放缓在台积电的芯片订单，但未提及具体产品、制程节点、规模或时间表。"
+        },
+        {
+          "heading": "内外部压力",
+          "body": "内部方面，黄仁勋11月8日致员工信就婚外情道歉，董事会调查外国情报针对事件但认为无安全泄露；外部方面，出口审查趋严及H200芯片疑似囤积香港，增加削减订单风险。"
+        },
+        {
+          "heading": "潜在影响",
+          "body": "若削减订单，台积电和日月光等上游供应商受影响最大。报道预期AMD和定制芯片设计商将接手产能，联发科、创意电子和世芯电子可能受益。"
+        },
+        {
+          "heading": "消息可信度",
+          "body": "该报道为单一来源，英伟达与台积电均未置评，应视为传闻。台积电先进制程供应紧张，并考虑CoWoS涨价最高20%。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354666/nvidia-may-cut-tsmc-chip-orders-amid-mounting-pressure-report-claims",
+      "published": "2026-11-10T20:21:29.000Z",
+      "score": 23.94,
+      "eventKey": "nvidia-may-cut-tsmc-orders-report",
+      "originalTitle": "NVIDIA May Cut TSMC Chip Orders Amid Mounting Pressure, Report Claims",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354666/nvidia-may-cut-tsmc-chip-orders-amid-mounting-pressure-report-claims",
+        "retrievedAt": "2026-11-11T02:45:39.960Z",
+        "articlePublished": "2026-11-10T20:21:29.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道称英伟达可能削减台积电订单，虽为单一来源传闻，但涉及供应链重大动态，有具体新事实。",
+        "evidence": [
+          "NVIDIA may be slowing down its chip orders at TSMC, according to a new report from Taiwan's Commercial Times.",
+          "The outlet cites unnamed supply chain sources but doesn't name a product, node, size, or timeline."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585852.htm"
+        }
+      ]
+    },
+    {
+      "id": "4756e622daa5c",
+      "title": "Delmic推出Aurora自动检测芯片材料晶体缺陷",
+      "summary": "荷兰Delft的Delmic公司推出Aurora系统，利用阴极发光技术自动检测碳化硅、氮化镓等功率芯片材料中的晶体缺陷。该系统面向研发用途，可扫描300毫米晶圆的大部分区域，并自动计数和分析缺陷。",
+      "points": [
+        "Aurora采用阴极发光检测：电子束激发材料发光，晶体缺陷处光变暗或变色，由反射镜收集光信号，实现纳米级缺陷、应力及其他变化的成像。",
+        "系统针对碳化硅和氮化镓设计，这两种材料在功率芯片中应用日益广泛。现有检测方法难以发现这些材料中的晶体缺陷。",
+        "Aurora全自动运行，主要面向研发。软件可对检测到的缺陷进行计数和分析，帮助研究人员追溯缺陷形成的生产阶段。",
+        "根据配置不同，Aurora可检测300毫米晶圆的大部分区域，适用于多种尺寸的晶圆检测。"
+      ],
+      "cards": [
+        {
+          "heading": "技术原理",
+          "body": "Aurora采用阴极发光检测：电子束激发材料发光，晶体缺陷处光变暗或变色，由反射镜收集光信号，实现纳米级缺陷、应力及其他变化的成像。"
+        },
+        {
+          "heading": "目标材料",
+          "body": "系统针对碳化硅和氮化镓设计，这两种材料在功率芯片中应用日益广泛。现有检测方法难以发现这些材料中的晶体缺陷。"
+        },
+        {
+          "heading": "自动化与用途",
+          "body": "Aurora全自动运行，主要面向研发。软件可对检测到的缺陷进行计数和分析，帮助研究人员追溯缺陷形成的生产阶段。"
+        },
+        {
+          "heading": "检测范围",
+          "body": "根据配置不同，Aurora可检测300毫米晶圆的大部分区域，适用于多种尺寸的晶圆检测。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Bits&Chips",
+      "sourceLang": "en",
+      "url": "https://bits-chips.com/article/delmic-hunts-for-crystal-defects-in-chip-materials",
+      "published": "2026-11-10T04:45:00.000Z",
+      "score": 21.34,
+      "eventKey": "delmic-aurora-crystal-defect-inspection-launch",
+      "originalTitle": "Delmic hunts for crystal defects in chip materials",
+      "provenance": {
+        "url": "https://bits-chips.com/article/delmic-hunts-for-crystal-defects-in-chip-materials",
+        "retrievedAt": "2026-11-11T02:45:45.647Z",
+        "articlePublished": "2026-11-10T04:45:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Delmic推出Aurora系统，用于自动检测SiC和GaN等半导体材料晶体缺陷，是具体新产品发布。",
+        "evidence": [
+          "Delft-based Delmic is introducing Aurora, a system that automatically detects crystal defects in semiconductor materials.",
+          "It’s designed for materials including silicon carbide and gallium nitride, both increasingly used in power chips."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "86c067d328dd7",
+      "title": "瑞萨推出Xplore开发者中心，扩展Renesas 365平台",
+      "summary": "瑞萨电子在其Renesas 365开发平台中新增Xplore Developer Hub，这是一个云端环境，旨在简化嵌入式开发并加速从概念到原型的转化。该中心集成低成本RA微控制器开发板、扩展模块和软件库，入门硬件价格低于12美元，并提供超过100个软件构建模块。",
+      "points": [
+        "Xplore Developer Hub是云端环境，通过浏览器访问，集成RA MCU开发板、扩展模块、应用软件和开发工具，支持智能家居、工业、消费和IoT应用。",
+        "入门级硬件价格低于12美元，工程师可快速评估想法并开发应用原型，降低嵌入式开发的复杂性。",
+        "提供超过100个软件构建模块，基于真实嵌入式用例，预验证并针对瑞萨硬件优化，支持跨项目复用，减少开发工作量。",
+        "Xplore Developer Hub即日起对RA微控制器新老用户开放，瑞萨计划未来扩展更多MCU/MPU系列、扩展模块和AI辅助功能，并在慕尼黑electronica展会展出。"
+      ],
+      "cards": [
+        {
+          "heading": "云端开发环境",
+          "body": "Xplore Developer Hub是云端环境，通过浏览器访问，集成RA MCU开发板、扩展模块、应用软件和开发工具，支持智能家居、工业、消费和IoT应用。"
+        },
+        {
+          "heading": "低成本硬件",
+          "body": "入门级硬件价格低于12美元，工程师可快速评估想法并开发应用原型，降低嵌入式开发的复杂性。"
+        },
+        {
+          "heading": "软件模块库",
+          "body": "提供超过100个软件构建模块，基于真实嵌入式用例，预验证并针对瑞萨硬件优化，支持跨项目复用，减少开发工作量。"
+        },
+        {
+          "heading": "可用性与展示",
+          "body": "Xplore Developer Hub即日起对RA微控制器新老用户开放，瑞萨计划未来扩展更多MCU/MPU系列、扩展模块和AI辅助功能，并在慕尼黑electronica展会展出。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/renesas-expands-renesas-365-with-xplore-developer-hub/",
+      "published": "2026-11-10T20:03:42.000Z",
+      "score": 19.89,
+      "eventKey": "renesas-xplore-developer-hub-launch",
+      "originalTitle": "Renesas Expands Renesas 365 with Xplore Developer Hub",
+      "provenance": {
+        "url": "https://www.embedded.com/renesas-expands-renesas-365-with-xplore-developer-hub/",
+        "retrievedAt": "2026-11-11T02:45:58.774Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "瑞萨推出Xplore Developer Hub云开发环境，集成RA MCU开发板与100多个软件模块，是具体的新产品发布。",
+        "evidence": [
+          "Renesas Electronics Corp. has expanded its Renesas 365 development platform with the introduction of the Xplore Developer Hub, a cloud-based environment designed to simplify embedded system development and accelerate the transition from con",
+          "A key feature of Xplore Developer Hub is its library of more than 100 software building blocks.",
+          "Xplore Developer Hub is available immediately for new and existing users of RA microcontrollers ."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "19d2e7bf5cc60f",
+      "title": "英特尔与Altera合作开发边缘与物理AI传感器桥",
+      "summary": "英特尔和Altera宣布合作，开发灵活的实时传感器桥接方案，面向医疗、航空航天与国防、机器人等边缘与物理AI行业。双方将结合英特尔的计算、连接和软件与Altera的FPGA，提供模块化参考解决方案，帮助OEM应对传感器丰富的边缘环境中的数据连接和处理挑战。",
+      "points": [
+        "合作旨在开发灵活的实时传感器桥，结合英特尔计算与Altera FPGA，帮助OEM应对边缘环境中连接、处理实时数据的复杂性，满足时序、性能、功耗和成本要求。",
+        "双方计划通过模块化参考解决方案，结合可编程硬件与一致的英特尔计算和软件基础，提供灵活性，支持应用、传感器和工作负载的演进，加速从原型到部署。",
+        "合作覆盖医疗（低延迟参考方案）、航空航天与国防（聚焦尺寸、重量和功耗）、机器人（结合计算与FPGA处理复杂传感和实时需求）。",
+        "能力将通过英特尔的Open Edge Platform SDK和Altera SDK提供给开发者。"
+      ],
+      "cards": [
+        {
+          "heading": "合作目标",
+          "body": "合作旨在开发灵活的实时传感器桥，结合英特尔计算与Altera FPGA，帮助OEM应对边缘环境中连接、处理实时数据的复杂性，满足时序、性能、功耗和成本要求。"
+        },
+        {
+          "heading": "参考解决方案",
+          "body": "双方计划通过模块化参考解决方案，结合可编程硬件与一致的英特尔计算和软件基础，提供灵活性，支持应用、传感器和工作负载的演进，加速从原型到部署。"
+        },
+        {
+          "heading": "应用领域",
+          "body": "合作覆盖医疗（低延迟参考方案）、航空航天与国防（聚焦尺寸、重量和功耗）、机器人（结合计算与FPGA处理复杂传感和实时需求）。"
+        },
+        {
+          "heading": "开发工具",
+          "body": "能力将通过英特尔的Open Edge Platform SDK和Altera SDK提供给开发者。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354652/intel-and-altera-partner-for-edge-and-physical-ai-development",
+      "published": "2026-11-10T16:44:05.000Z",
+      "score": 18.33,
+      "eventKey": "intel-altera-edge-physical-ai-sensor-bridge-partnership",
+      "originalTitle": "(PR) Intel and Altera Partner for Edge and Physical AI Development",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354652/intel-and-altera-partner-for-edge-and-physical-ai-development",
+        "retrievedAt": "2026-11-11T02:45:45.743Z",
+        "articlePublished": "2026-11-10T16:44:05.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔与Altera宣布合作开发边缘与物理AI实时传感器桥接参考解决方案，覆盖医疗、航空航天和机器人市场，是具体的合作新动态。",
+        "evidence": [
+          "Intel and Altera today announced a collaboration to develop a flexible, real-time sensor bridge for a range of Edge & Physical AI industries including healthcare, aerospace and defense, and robotics applications.",
+          "Intel and Altera plan to address these challenges through modular reference solutions that combine programmable hardware with a consistent Intel compute and software foundation."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "f1c5846875f2",
+      "title": "西门子推出HyperLynx智能体工具包",
+      "summary": "西门子发布HyperLynx Agentic Toolkit，将智能体AI与基于物理的仿真结合，用于自动化电子系统验证。该工具包面向112G/224G高速设计，计划2026年第四季度向选定客户提供早期访问。",
+      "points": [
+        "工具包集成SerDes、DDR、信号完整性和电源完整性等专用AI智能体，工程师可用自然语言定义验证目标，智能体自动执行仿真、收集参数、调查异常并评估性能裕量。",
+        "随着数据速率向112G和224G演进，验证复杂度上升，而资深验证专家短缺导致设计约束保守或验证不足，增加后期失败和重设计风险。",
+        "HyperLynx Agentic Toolkit计划于2026年第四季度向选定客户提供早期访问，全面上市时间另行公布。西门子将在慕尼黑electronica展会B5.338展台展示。"
+      ],
+      "cards": [
+        {
+          "heading": "核心功能",
+          "body": "工具包集成SerDes、DDR、信号完整性和电源完整性等专用AI智能体，工程师可用自然语言定义验证目标，智能体自动执行仿真、收集参数、调查异常并评估性能裕量。"
+        },
+        {
+          "heading": "背景动因",
+          "body": "随着数据速率向112G和224G演进，验证复杂度上升，而资深验证专家短缺导致设计约束保守或验证不足，增加后期失败和重设计风险。"
+        },
+        {
+          "heading": "发布计划",
+          "body": "HyperLynx Agentic Toolkit计划于2026年第四季度向选定客户提供早期访问，全面上市时间另行公布。西门子将在慕尼黑electronica展会B5.338展台展示。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/siemens-launches-hyperlynx-agentic-toolkit/",
+      "published": "2026-11-10T21:00:41.000Z",
+      "score": 18.05,
+      "eventKey": "siemens-hyperlynx-agentic-toolkit-launch",
+      "originalTitle": "Siemens Launches HyperLynx Agentic Toolkit",
+      "provenance": {
+        "url": "https://www.embedded.com/siemens-launches-hyperlynx-agentic-toolkit/",
+        "retrievedAt": "2026-11-11T02:46:00.811Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "西门子发布HyperLynx Agentic Toolkit，将代理式AI与信号/电源完整性仿真结合，用于电子系统验证，计划2026年第四季度向特定客户提供早期访问。这是EDA领域的新产品发布，有具体事实。",
+        "evidence": [
+          "Siemens has announced the HyperLynx Agentic Toolkit, a new solution that combines agentic AI with physics-based simulation to streamline electronic systems verification.",
+          "The HyperLynx Agentic Toolkit is scheduled for early access with select customers in the fourth quarter of 2026, with general availability planned at a later date."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "6093c32678314",
+      "title": "Topco Scientific首次亮相欧洲半导体展",
+      "summary": "Topco Scientific德国子公司首次参加SEMICON Europa 2026，展示跨区域资源整合与本地化服务能力。展会于11月10日至13日在德国慕尼黑举行，公司携台湾和日本供应商伙伴参展，瞄准欧洲芯片法案带来的本地化制造机会。",
+      "points": [
+        "SEMICON Europa 2026于11月10日至13日在德国慕尼黑举行，Topco Scientific Germany首次参展，展示整合台湾和日本供应商资源的能力。",
+        "欧洲芯片法案推动半导体制造本地化，带动材料、设备和技术服务需求增长，Topco Scientific瞄准这一趋势提供本地化服务。"
+      ],
+      "cards": [
+        {
+          "heading": "参展信息",
+          "body": "SEMICON Europa 2026于11月10日至13日在德国慕尼黑举行，Topco Scientific Germany首次参展，展示整合台湾和日本供应商资源的能力。"
+        },
+        {
+          "heading": "市场背景",
+          "body": "欧洲芯片法案推动半导体制造本地化，带动材料、设备和技术服务需求增长，Topco Scientific瞄准这一趋势提供本地化服务。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261110PD255/topco-equipment-materials-germany-manufacturing.html",
+      "published": "2026-11-11T00:34:44.000Z",
+      "score": 26.64,
+      "eventKey": "topco-scientific-semiconeuropa-2026-debut",
+      "originalTitle": "Topco Scientific makes European semiconductor show debut, targets localized foundry opportunities",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261110PD255/topco-equipment-materials-germany-manufacturing.html",
+        "retrievedAt": "2026-11-11T02:45:21.848Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Topco Scientific德国子公司首次参加SEMICON Europa 2026，展示跨区域整合能力，是具体新事实。",
+        "evidence": [
+          "Topco Scientific Germany, a subsidiary of Topco Scientific (TSC), made its debut at SEMICON Europa 2026, being held at Messe Munchen in Germany from November 10 to 13.",
+          "Together with supplier partners from Taiwan and Japan, the company showcased its ability to integrate cross-border resources and provide localized services."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "a1a178b640bc5",
+      "title": "英国航天企业关注台湾芯片与硬件供应链",
+      "summary": "全球卫星产业转向标准化与大规模生产，带动子系统、通信硬件和星载计算需求。台湾凭借先进半导体制造、电子硬件与高精度加工优势，成为国际航天公司关键供应伙伴，英国企业正寻求合作。",
+      "points": [
+        "全球卫星产业正从定制化转向标准化和高产量生产，对卫星子系统、通信硬件及星载计算系统的需求加速增长。",
+        "台湾在先进半导体制造、电子硬件和高精度制造领域具备优势，已成为国际航天公司不可或缺的供应链伙伴。",
+        "英国航天企业正评估台湾芯片与硬件生态系统，以支持其卫星生产规模扩大，具体合作项目尚未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "产业趋势",
+          "body": "全球卫星产业正从定制化转向标准化和高产量生产，对卫星子系统、通信硬件及星载计算系统的需求加速增长。"
+        },
+        {
+          "heading": "台湾优势",
+          "body": "台湾在先进半导体制造、电子硬件和高精度制造领域具备优势，已成为国际航天公司不可或缺的供应链伙伴。"
+        },
+        {
+          "heading": "合作方向",
+          "body": "英国航天企业正评估台湾芯片与硬件生态系统，以支持其卫星生产规模扩大，具体合作项目尚未披露。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261110PD253/taiwan-hardware-uk-production-manufacturing.html",
+      "published": "2026-11-10T08:59:00.000Z",
+      "score": 24.04,
+      "eventKey": "uk-space-firms-taiwan-chip-hardware-ecosystem",
+      "originalTitle": "UK space firms eye Taiwan's chip and hardware ecosystem, global satellite production scales up",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261110PD253/taiwan-hardware-uk-production-manufacturing.html",
+        "retrievedAt": "2026-11-11T02:45:38.773Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英国航天企业关注台湾芯片与硬件生态系统，全球卫星生产规模化，涉及卫星子系统、通信硬件和机载计算系统需求，是具体的产业动态。",
+        "evidence": [
+          "As the global satellite industry shifts toward standardization and high-volume production, demand is accelerating for satellite subsystems, communications hardware, and onboard computing systems.",
+          "Leveraging its strengths in advanced semiconductor fabrication, electronic hardware, and high-precision manufacturing, Taiwan has emerged as an indispensable supply-chain partner for international space companies."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

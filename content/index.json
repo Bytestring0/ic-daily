@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-10T04:38:40.464Z",
-  "total": 25,
+  "generatedAt": "2026-11-11T02:47:03.985Z",
+  "total": 26,
   "editions": [
+    {
+      "date": "2026-11-11",
+      "count": 21,
+      "intro": "本期共 21 条动态，其中 10 条值得重点关注，集中在芯片设计、晶圆代工、政策与地缘方向。",
+      "top": [
+        "AMD发布第六代EPYC服务器处理器",
+        "消息称：Rapidus 2nm量产或延期，日本芯片雄心受挫",
+        "Helion获1.75亿美元CHIPS拨款，推进高压半导体研发"
+      ],
+      "categories": {
+        "design": 8,
+        "foundry": 2,
+        "policy": 1,
+        "market": 4,
+        "research": 2,
+        "equipment": 2,
+        "eda": 2
+      }
+    },
     {
       "date": "2026-11-10",
       "count": 22,
