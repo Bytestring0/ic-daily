@@ -1,0 +1,1174 @@
+{
+  "date": "2026-11-12",
+  "generatedAt": "2026-11-12T03:49:35.095Z",
+  "intro": "本期共 21 条动态，其中 7 条值得重点关注，集中在政策与地缘、芯片设计方向。",
+  "stats": {
+    "count": 21,
+    "sources": 11,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "policy": 3,
+      "design": 13,
+      "memory": 1,
+      "market": 2,
+      "research": 1,
+      "equipment": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 156578,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 39,
+      "readable": 39,
+      "accepted": 21,
+      "rejected": 3367,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "6d66502ca8e91",
+      "title": "消息称：黄仁勋被曝婚外情，英伟达盘后股价重挫逾9%",
+      "summary": "英伟达CEO黄仁勋被曝与直接下属存在私人关系，随后有报道称董事会考虑罢免其职务。11月11日美股盘后，英伟达股价一度下跌9.08%，市值降至4.19万亿美元，投资者担忧领导层变动风险。",
+      "points": [
+        "11月11日盘后交易中，英伟达股价最低触及157.96美元，较收盘价173.73美元下跌9.08%，较开盘价170.48美元下跌7.34%。",
+        "彭博社援引《纽约时报》称，黄仁勋与一名直接向其汇报的员工存在私人关系；《华尔街日报》随后报道英伟达董事会准备罢免黄仁勋，加剧跌势。",
+        "当日美股科技板块整体上涨，纳斯达克综合指数收涨1.60%，纳斯达克100指数涨2.28%，美光科技涨超11%，CoreWeave涨超24%，英伟达逆势下挫。"
+      ],
+      "cards": [
+        {
+          "heading": "股价表现",
+          "body": "11月11日盘后交易中，英伟达股价最低触及157.96美元，较收盘价173.73美元下跌9.08%，较开盘价170.48美元下跌7.34%。"
+        },
+        {
+          "heading": "事件起因",
+          "body": "彭博社援引《纽约时报》称，黄仁勋与一名直接向其汇报的员工存在私人关系；《华尔街日报》随后报道英伟达董事会准备罢免黄仁勋，加剧跌势。"
+        },
+        {
+          "heading": "市场反差",
+          "body": "当日美股科技板块整体上涨，纳斯达克综合指数收涨1.60%，纳斯达克100指数涨2.28%，美光科技涨超11%，CoreWeave涨超24%，英伟达逆势下挫。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/025/855.htm",
+      "published": "2026-11-12T00:36:34.000Z",
+      "score": 24.47,
+      "eventKey": "nvidia-jensen-huang-second-affair-board-ouster-stock-drop",
+      "originalTitle": "桃色丑闻重创 AI 芯片巨头：黄仁勋第二段婚外情曝光，英伟达盘后股价重挫逾 9%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/025/855.htm",
+        "retrievedAt": "2026-11-12T03:48:08.355Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "黄仁勋第二段婚外情曝光及英伟达董事会可能罢免CEO的报道导致盘后股价重挫逾9%，是重大公司治理事件，直接影响芯片巨头。",
+        "evidence": [
+          "IT之家 11 月 12 日消息,英伟达股价当地时间 11 月 11 日美股盘后交易(北京时间 12 日今天早上 5 点至 9 点)中大幅下挫,跌幅一度扩大至 9%,目前市值为 4.19 万亿美元(IT之家注:现汇率约合 28.01 万亿元人民币),投资者正关注首席执行官黄仁勋可能离任所带来的不确定性。",
+          "彭博社援引《纽约时报》消息称,黄仁勋被曝与一名向其直接汇报工作的员工存在私人关系;随后,《华尔街日报》有关英伟达董事会准备罢免黄仁勋的报道,进一步加剧了股价跌势。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1585892.htm"
+        }
+      ]
+    },
+    {
+      "id": "56acb00d2016c",
+      "title": "IBM发布量子处理器Nighthawk r3，2027年计划超千比特",
+      "summary": "IBM发布下一代量子处理器Nighthawk r3，设计支持520个可编程量子比特上执行1万次量子操作。IBM计划2027年将两个r3处理器连接成超1000量子比特的系统，并已展示模块化连接关键技术进展。",
+      "points": [
+        "Nighthawk r3设计支持520个可编程量子比特、2034个总物理量子比特，可执行1万次量子操作。保留r2的方格连接与快速操作，新增10个芯片间互连l-couplers，用于连接多个处理器组成更大系统。",
+        "Nighthawk r2每秒可提供10万次采样，支持120量子比特上超7500次量子操作。客户E.ON、Algorithmiq、Q-CTRL已执行340亿个电路，性能提升最高19倍。E.ON在电网优化量子机器学习中获得15倍加速，IBM与橡树岭国家实验室实验获12倍加速。",
+        "IBM今年用4个l-couplers连接Nighthawk r1处理器，量子态传输保真度达99.3%，正朝99.9%目标推进。还首次将两个低温模块连接成单一系统，5天内达到工作温度，冷却至15毫开以下。"
+      ],
+      "cards": [
+        {
+          "heading": "r3核心规格",
+          "body": "Nighthawk r3设计支持520个可编程量子比特、2034个总物理量子比特，可执行1万次量子操作。保留r2的方格连接与快速操作，新增10个芯片间互连l-couplers，用于连接多个处理器组成更大系统。"
+        },
+        {
+          "heading": "r2性能数据",
+          "body": "Nighthawk r2每秒可提供10万次采样，支持120量子比特上超7500次量子操作。客户E.ON、Algorithmiq、Q-CTRL已执行340亿个电路，性能提升最高19倍。E.ON在电网优化量子机器学习中获得15倍加速，IBM与橡树岭国家实验室实验获12倍加速。"
+        },
+        {
+          "heading": "模块化进展",
+          "body": "IBM今年用4个l-couplers连接Nighthawk r1处理器，量子态传输保真度达99.3%，正朝99.9%目标推进。还首次将两个低温模块连接成单一系统，5天内达到工作温度，冷却至15毫开以下。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354696/ibm-announces-quantum-nighthawk-r3-processor-plans-to-scale-beyond-1-000-qubits-in-2027",
+      "published": "2026-11-11T16:18:33.000Z",
+      "score": 25.09,
+      "eventKey": "ibm-quantum-nighthawk-r3-1000-qubits-2027",
+      "originalTitle": "(PR) IBM Announces Quantum Nighthawk r3 Processor, Plans to Scale Beyond 1,000 Qubits in 2027",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354696/ibm-announces-quantum-nighthawk-r3-processor-plans-to-scale-beyond-1-000-qubits-in-2027",
+        "retrievedAt": "2026-11-12T03:48:07.583Z",
+        "articlePublished": "2026-11-11T16:18:33.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "IBM发布下一代量子处理器Nighthawk r3，计划2027年将两颗处理器链接成超1000量子比特系统，是重要产品发布。",
+        "evidence": [
+          "IBM (NYSE: IBM) today announced IBM Quantum Nighthawk r3, its next-generation processor, will be built to accurately execute 10,000 quantum operations across 520 qubits to tackle larger, more complex problems while maintaining the speed and",
+          "In 2027, IBM plans to link two Nighthawk r3 processors into a single system with more than 1,000 qubits."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ea767609d186d",
+      "title": "百度昆仑芯M300明年推出，2028年推N架构芯片",
+      "summary": "百度在2026世界大会上公布昆仑芯路线图：M100已上市，M300将于2027年推出，2028年将发布基于全新N架构的多颗芯片。李彦宏称推理计算需求爆发，将成为AI芯片长期增长动力。",
+      "points": [
+        "M100已如期上市，主打极致性价比；旗舰M300计划明年推出，在算力、存储、互联等维度实现全方位跃升。",
+        "到2028年，基于全新N架构的多颗芯片将推向市场，精准匹配不同应用场景的需求。",
+        "李彦宏表示，AI算力需求从训练为主转向训练与推理并重，智能体应用规模化带动推理需求爆发，推理将成为AI芯片长期增长的主要推动力。"
+      ],
+      "cards": [
+        {
+          "heading": "产品规划",
+          "body": "M100已如期上市，主打极致性价比；旗舰M300计划明年推出，在算力、存储、互联等维度实现全方位跃升。"
+        },
+        {
+          "heading": "长期路线",
+          "body": "到2028年，基于全新N架构的多颗芯片将推向市场，精准匹配不同应用场景的需求。"
+        },
+        {
+          "heading": "战略背景",
+          "body": "李彦宏表示，AI算力需求从训练为主转向训练与推理并重，智能体应用规模化带动推理需求爆发，推理将成为AI芯片长期增长的主要推动力。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/025/971.htm",
+      "published": "2026-11-12T03:46:35.000Z",
+      "score": 25,
+      "eventKey": "baidu-kunlunxin-m300-2027-n-architecture-2028",
+      "originalTitle": "百度昆仑芯 M300 明年推出，2028 年发布基于全新 N 架构的多颗芯片",
+      "provenance": {
+        "url": "https://www.ithome.com/1/025/971.htm",
+        "retrievedAt": "2026-11-12T03:48:08.285Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "百度昆仑芯公布产品路线图：M300将于明年推出，2028年发布基于全新N架构的多颗芯片，是具体产品规划。",
+        "evidence": [
+          "目前 M100 已如期上市,M300 将于明年推出。",
+          "到 2028 年,基于全新 N 架构的多颗芯片也将推向市场,精准匹配差异化应用场景。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "cd7202b7705d6",
+      "title": "英AI芯片初创Fractile获7.2亿美元融资，估值70亿美元",
+      "summary": "英国AI芯片初创企业Fractile完成超7.2亿美元C轮融资，估值达70亿美元。英国政府主权AI风险投资基金和英国商业银行参与支持，其他投资者包括谷歌风投、贝莱德。公司目标开发更快的AI推理硬件，有消息称Anthropic有意2027年部署其芯片。",
+      "points": [
+        "Fractile完成超7.2亿美元C轮融资，估值70亿美元。英国政府主权AI风险投资基金和英国商业银行提供支持，其他投资者包括谷歌风投部门、贝莱德。",
+        "Fractile目标是构建更快的AI推理计算硬件，无需在吞吐、模型尺寸、上下文长度上权衡。有消息称Anthropic有意于2027年部署Fractile的模拟内存计算芯片。",
+        "英国AI大臣Kanishka Narayan表示，英国必须自主研发更多AI核心技术，支持Fractile这样的企业可确保英国拥有塑造AI未来的工业实力和自主能力，并将就业和经济收益带回各地社区。"
+      ],
+      "cards": [
+        {
+          "heading": "融资详情",
+          "body": "Fractile完成超7.2亿美元C轮融资，估值70亿美元。英国政府主权AI风险投资基金和英国商业银行提供支持，其他投资者包括谷歌风投部门、贝莱德。"
+        },
+        {
+          "heading": "技术目标",
+          "body": "Fractile目标是构建更快的AI推理计算硬件，无需在吞吐、模型尺寸、上下文长度上权衡。有消息称Anthropic有意于2027年部署Fractile的模拟内存计算芯片。"
+        },
+        {
+          "heading": "政府表态",
+          "body": "英国AI大臣Kanishka Narayan表示，英国必须自主研发更多AI核心技术，支持Fractile这样的企业可确保英国拥有塑造AI未来的工业实力和自主能力，并将就业和经济收益带回各地社区。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/025/927.htm",
+      "published": "2026-11-12T03:34:04.000Z",
+      "score": 24.96,
+      "eventKey": "fractile-720m-series-c-valuation-7b",
+      "originalTitle": "英 AI 芯片初创企业 Fractile 获该国政府资金支持，估值达 70 亿美元",
+      "provenance": {
+        "url": "https://www.ithome.com/1/025/927.htm",
+        "retrievedAt": "2026-11-12T03:48:08.070Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "英国AI芯片初创企业Fractile完成超7.2亿美元C轮融资，估值达70亿美元，英国政府主权AI基金参与支持，这是新的融资里程碑事件。",
+        "evidence": [
+          "IT之家 11 月 12 日消息,英国人工智能芯片初创企业 Fractile 当地时间昨日宣布完成了超 7.2 亿美元(IT之家注:现汇率约合 48.14 亿元人民币)的 C 轮融资。",
+          "根据路透社的报道,该企业估值达到 70 亿美元(现汇率约合 468.01 亿元人民币)。",
+          "英国政府主权人工智能风险投资基金和英国商业银行在本轮融资中向 Fractile 提供了支持,其它投资者包括谷歌风投部门、贝莱德等。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d7c29ea7c313d",
+      "title": "英伟达推动NVHBM采用台积电3纳米工艺",
+      "summary": "据首尔经济日报报道，英伟达已要求三星、SK海力士和美光在NVHBM逻辑基底芯片上采用台积电3纳米工艺，并统一使用第六代1c DRAM制程。三星据称已接受要求，但该安排尚未获官方确认。此举可能改变HBM的设计与制造分工。",
+      "points": [
+        "英伟达要求三星、SK海力士和美光使用台积电3纳米工艺制造NVHBM逻辑基底芯片，并将DRAM芯片统一为第六代1c制程。三星据报已接受，尽管其传统上依赖自家代工生产HBM。",
+        "NVHBM将英伟达定制内存控制器集成到HBM基底芯片中，重新设计内存与计算之间的接口，使基底芯片成为更重要的架构组件，并可能将基底芯片制造与DRAM专用工艺分离。",
+        "2024年4月SK海力士宣布与台积电合作开发HBM4基底芯片，同年12月Marvell推出定制HBM架构。英伟达的做法是在多家内存供应商中推行通用定制架构，延续这一趋势。",
+        "若NVHBM落地，系统设计方定义控制器和接口，逻辑代工厂制造基底芯片，内存厂商生产DRAM并堆叠，封装厂集成。但通用架构不保证不同供应商的产品可互换，制造差异仍存。"
+      ],
+      "cards": [
+        {
+          "heading": "工艺要求",
+          "body": "英伟达要求三星、SK海力士和美光使用台积电3纳米工艺制造NVHBM逻辑基底芯片，并将DRAM芯片统一为第六代1c制程。三星据报已接受，尽管其传统上依赖自家代工生产HBM。"
+        },
+        {
+          "heading": "架构变化",
+          "body": "NVHBM将英伟达定制内存控制器集成到HBM基底芯片中，重新设计内存与计算之间的接口，使基底芯片成为更重要的架构组件，并可能将基底芯片制造与DRAM专用工艺分离。"
+        },
+        {
+          "heading": "行业先例",
+          "body": "2024年4月SK海力士宣布与台积电合作开发HBM4基底芯片，同年12月Marvell推出定制HBM架构。英伟达的做法是在多家内存供应商中推行通用定制架构，延续这一趋势。"
+        },
+        {
+          "heading": "制造分工",
+          "body": "若NVHBM落地，系统设计方定义控制器和接口，逻辑代工厂制造基底芯片，内存厂商生产DRAM并堆叠，封装厂集成。但通用架构不保证不同供应商的产品可互换，制造差异仍存。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "SemiWiki",
+      "sourceLang": "en",
+      "url": "https://semiwiki.com/semiconductor-manufacturers/376093-nvhbm-can-custom-hbm-change-who-builds-the-memory-stack",
+      "published": "2026-11-11T16:00:14.000Z",
+      "score": 24.04,
+      "eventKey": "nvidia-nvhbm-tsmc-3nm-base-die-request",
+      "originalTitle": "NVHBM: Can Custom HBM Change Who Builds the Memory Stack?",
+      "provenance": {
+        "url": "https://semiwiki.com/semiconductor-manufacturers/376093-nvhbm-can-custom-hbm-change-who-builds-the-memory-stack",
+        "retrievedAt": "2026-11-12T03:48:09.725Z",
+        "articlePublished": "2026-11-11T16:00:14.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "文章详细分析NVIDIA要求三星、SK海力士和美光采用台积电3nm工艺制造NVHBM逻辑基础裸片，并标准化1c代DRAM裸片的报道，这是关于HBM供应链分工变化的具体新事实。",
+        "evidence": [
+          "According to October 18 reporting from Seoul Economic Daily, NVIDIA has asked Samsung, SK hynix, and Micron to use TSMC’s 3 nm process for NVHBM logic base dies.",
+          "The report also describes a request to standardize the DRAM dies around the sixth-generation 1c process generation.",
+          "Samsung reportedly accepted the requirements, despite traditionally relying on its own foundry operations for HBM production."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "b794495a754f3",
+      "title": "西北工业大学被曝采购英伟达H200芯片，出口管制漏洞引关注",
+      "summary": "公开采购文件显示，西北工业大学于今年10月通过第三方企业采购两块英伟达H200加速器，总金额约87.47万元人民币。该校被列入美国实体清单，此交易引发对美国出口管制执行效果的质疑。",
+      "points": [
+        "采购文件显示，西北工业大学于2026年10月采购两块H200芯片，总金额约87.47万元人民币（约12.3万美元），经由陕西博算网络科技企业购买，非英伟达直接销售。",
+        "西北工业大学为“国防七子”之一，已被美国商务部列入实体清单。按现行规定，向此类机构出口先进AI芯片需特别许可，通常会被拒绝。",
+        "此次事件凸显美国对华芯片管制漏洞，此前已有中国涉军机构通过第三方转售或算力租赁获取受限硬件。美国两党议员呼吁加强出口监管，英伟达CEO黄仁勋则主张允许对华销售以维持技术优势。"
+      ],
+      "cards": [
+        {
+          "heading": "采购细节",
+          "body": "采购文件显示，西北工业大学于2026年10月采购两块H200芯片，总金额约87.47万元人民币（约12.3万美元），经由陕西博算网络科技企业购买，非英伟达直接销售。"
+        },
+        {
+          "heading": "管制背景",
+          "body": "西北工业大学为“国防七子”之一，已被美国商务部列入实体清单。按现行规定，向此类机构出口先进AI芯片需特别许可，通常会被拒绝。"
+        },
+        {
+          "heading": "行业影响",
+          "body": "此次事件凸显美国对华芯片管制漏洞，此前已有中国涉军机构通过第三方转售或算力租赁获取受限硬件。美国两党议员呼吁加强出口监管，英伟达CEO黄仁勋则主张允许对华销售以维持技术优势。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1585894.htm",
+      "published": "2026-11-11T06:54:04.000Z",
+      "score": 20.52,
+      "eventKey": "npu-h200-procurement-northwestern-polytechnical-university-export-control",
+      "originalTitle": "美媒曝中国国防背景高校获得英伟达H200芯片 美国出口管制漏洞再受关注",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1585894.htm",
+        "retrievedAt": "2026-11-12T03:48:10.684Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "报道披露中国国防背景高校西北工业大学通过第三方企业采购了两块英伟达H200芯片，总金额约87.47万元人民币。这是出口管制执行层面的具体新事实，涉及具体采购记录和金额。",
+        "evidence": [
+          "公开采购文件显示,西北工业大学于今年10月采购了两块英伟达H200人工智能加速器,总金额约87.47万元人民币,折合约12.3万美元。",
+          "记录显示,这批芯片并非通过英伟达直接销售,而是经由一家名为陕西博算网络科技的企业采购。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261111VL223/moonshot-nvidia-chips-beijing-exports.html"
+        }
+      ]
+    },
+    {
+      "id": "1e1edb02fe23bd",
+      "title": "英特尔 256 核至强 Diamond Rapids 实物曝光",
+      "summary": "据报道，英特尔下一代至强 7 处理器 Diamond Rapids 实物样品首次公开展示，最高 256 个性能核，采用 18A-P 制程，预计 2027 年推出。该芯片面向智能体 AI 基础设施，配备 1.28GB 末级缓存，支持 16 通道内存和 128 条 PCIe 6.0 通道。",
+      "points": [
+        "Diamond Rapids 最高配备 256 个性能核，采用 18A-P 制程工艺，基于 Panther Cove-X 核心架构，预计 2027 年推出。",
+        "芯片配备 1.28GB 末级缓存，支持 16 通道内存，最高 12,800 MT/s 的 MRDIMM 内存，以及 128 条 PCIe 6.0 通道。",
+        "英特尔将其定位为面向智能体 AI 基础设施的 CPU，支持 AMX、AVX 10.2 等指令扩展。样品采用大尺寸封装，适配 LGA 9324 插槽。"
+      ],
+      "cards": [
+        {
+          "heading": "核心与制程",
+          "body": "Diamond Rapids 最高配备 256 个性能核，采用 18A-P 制程工艺，基于 Panther Cove-X 核心架构，预计 2027 年推出。"
+        },
+        {
+          "heading": "缓存与内存",
+          "body": "芯片配备 1.28GB 末级缓存，支持 16 通道内存，最高 12,800 MT/s 的 MRDIMM 内存，以及 128 条 PCIe 6.0 通道。"
+        },
+        {
+          "heading": "定位与接口",
+          "body": "英特尔将其定位为面向智能体 AI 基础设施的 CPU，支持 AMX、AVX 10.2 等指令扩展。样品采用大尺寸封装，适配 LGA 9324 插槽。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/025/878.htm",
+      "published": "2026-11-12T01:33:34.000Z",
+      "score": 19.63,
+      "eventKey": "intel-diamond-rapids-256-core-sample-reveal",
+      "originalTitle": "英特尔 256 核至强 Diamond Rapids 处理器真身曝光，预计 2027 年推出",
+      "provenance": {
+        "url": "https://www.ithome.com/1/025/878.htm",
+        "retrievedAt": "2026-11-12T03:48:10.774Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔下一代至强Diamond Rapids处理器实物样品首次公开亮相，披露256核心、18A-P制程、1.28GB末级缓存等具体规格，属于新的产品里程碑。",
+        "evidence": [
+          "IT之家 11 月 12 日消息,科技媒体 Wccftech 昨日(11 月 11 日)发布博文,报道称代号 Diamond Rapids 的英特尔下一代至强 7 处理器实物样品被首次公开展示。",
+          "这款面向数据中心的芯片最高配备 256 个性能核,采用 18A-P 制程工艺,预计于 2027 年推出。",
+          "消息称 Diamond Rapids 采用 Panther Cove-X 核心架构,配备 1.28GB 末级缓存,支持 16 通道内存、最高 12,800 MT/s 的 MRDIMM 内存,以及 128 条 PCIe 6.0 通道。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "11781c933520fa",
+      "title": "三星与AMD合作升级芯片测试基础设施",
+      "summary": "三星电子与AMD宣布合作，将AMD新款EPYC Embedded 9006处理器与三星内存和存储技术结合，用于升级三星半导体制造测试基础设施。该消息源自AMD于11月10日的公告。",
+      "points": [
+        "AMD提供EPYC Embedded 9006系列处理器，三星提供内存与存储技术，共同构建新一代芯片测试平台。",
+        "AMD于2026年11月10日发布公告，DIGITIMES于11月12日报道。",
+        "升级三星半导体制造测试基础设施，提升测试效率与能力，具体参数未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "AMD提供EPYC Embedded 9006系列处理器，三星提供内存与存储技术，共同构建新一代芯片测试平台。"
+        },
+        {
+          "heading": "公告时间",
+          "body": "AMD于2026年11月10日发布公告，DIGITIMES于11月12日报道。"
+        },
+        {
+          "heading": "合作目标",
+          "body": "升级三星半导体制造测试基础设施，提升测试效率与能力，具体参数未披露。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261112VL204/samsung-amd-testing-manufacturing-pcie.html",
+      "published": "2026-11-12T02:32:25.000Z",
+      "score": 26.79,
+      "eventKey": "samsung-amd-chip-test-infrastructure-partnership",
+      "originalTitle": "Samsung, AMD team up to upgrade chip testing",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261112VL204/samsung-amd-testing-manufacturing-pcie.html",
+        "retrievedAt": "2026-11-12T03:48:06.836Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星电子与AMD合作升级半导体制造测试基础设施，结合AMD新发布的EPYC Embedded 9006处理器与三星存储技术，属于新的合作动态。",
+        "evidence": [
+          "Samsung Electronics and AMD are teaming up to upgrade the Korean chipmaker's semiconductor manufacturing test infrastructure, combining AMD's new EPYC Embedded 9006 processors with Samsung memory and storage technologies, according to AMD's"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ccf8480213ad0",
+      "title": "Wolfspeed重返GaN市场主打垂直整合",
+      "summary": "美国碳化硅巨头Wolfspeed宣布通过垂直整合模式重返氮化镓（GaN）市场，并扩展至GaN-on-Si功率器件领域。CEO Robert Feurle在德国慕尼黑Electronica 2026展会媒体活动上宣布，初期将瞄准650V以下低压应用。",
+      "points": [
+        "采用垂直整合模式，覆盖从衬底到器件的全链条，进入GaN-on-Si功率器件市场。",
+        "初期聚焦低于650V的低压应用，具体产品线未公布。",
+        "CEO Robert Feurle在德国慕尼黑Electronica 2026贸易展的媒体活动上宣布。"
+      ],
+      "cards": [
+        {
+          "heading": "战略方向",
+          "body": "采用垂直整合模式，覆盖从衬底到器件的全链条，进入GaN-on-Si功率器件市场。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "初期聚焦低于650V的低压应用，具体产品线未公布。"
+        },
+        {
+          "heading": "宣布场合",
+          "body": "CEO Robert Feurle在德国慕尼黑Electronica 2026贸易展的媒体活动上宣布。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261111PD270/wolfspeed-gan-silicon-sic-ceo.html",
+      "published": "2026-11-12T02:13:58.000Z",
+      "score": 26.74,
+      "eventKey": "wolfspeed-reentry-gan-vertical-integration-announcement",
+      "originalTitle": "Wolfspeed returns to GaN as CEO touts vertical integration",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261111PD270/wolfspeed-gan-silicon-sic-ceo.html",
+        "retrievedAt": "2026-11-12T03:48:06.560Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Wolfspeed CEO在electronica 2026上宣布重返GaN市场，采用垂直整合模式并扩展GaN-on-Si功率器件业务，初期瞄准650V以下低压应用，是公司战略层面的具体新动向。",
+        "evidence": [
+          "US silicon carbide (SiC) giant Wolfspeed will re-enter the gallium nitride (GaN) market through a vertically integrated model and expand into the GaN-on-silicon (GaN-on-Si) power device market, according to company CEO Robert Feurle.",
+          "The announcement, made at a media event during the Electronica 2026 trade fair in Munich, Germany, stated that the company will initially target low-voltage applications below 650V."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "df62b571927fe",
+      "title": "台湾动员学界研发后摩尔时代半导体设备",
+      "summary": "台湾国科会启动下一代半导体研究设备开发计划，针对传统商用工具无法满足的新兴研发需求，公开征集三大优先领域设备开发提案，涵盖亚纳米硅基半导体、非硅半导体及硅光子耦合。",
+      "points": [
+        "国科会征集设备开发提案的三大优先领域为：亚纳米硅基半导体、非硅半导体、硅光子耦合。这些领域对应后摩尔时代对制程灵活性、精密参数控制、功能集成及先进技术验证的新需求。",
+        "传统商用半导体设备在制程灵活性、精密参数控制、功能集成和先进技术验证方面日益无法满足新兴研发需求，促使台湾动员学术研发力量补足设备缺口。"
+      ],
+      "cards": [
+        {
+          "heading": "三大优先领域",
+          "body": "国科会征集设备开发提案的三大优先领域为：亚纳米硅基半导体、非硅半导体、硅光子耦合。这些领域对应后摩尔时代对制程灵活性、精密参数控制、功能集成及先进技术验证的新需求。"
+        },
+        {
+          "heading": "背景与动因",
+          "body": "传统商用半导体设备在制程灵活性、精密参数控制、功能集成和先进技术验证方面日益无法满足新兴研发需求，促使台湾动员学术研发力量补足设备缺口。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261111PD246/equipment-taiwan-materials-silicon-semiconductors.html",
+      "published": "2026-11-12T01:35:10.000Z",
+      "score": 26.63,
+      "eventKey": "taiwan-nstc-next-gen-semiconductor-equipment-proposals",
+      "originalTitle": "Taiwan mobilizes academic R&D to address post-Moore semiconductor equipment gaps",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261111PD246/equipment-taiwan-materials-silicon-semiconductors.html",
+        "retrievedAt": "2026-11-12T03:48:06.348Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "台湾国科会（NSTC）正在征集下一代半导体研究设备开发提案，聚焦亚纳米硅基半导体、非硅半导体和硅光子耦合三个优先领域，属于具体的政策/研发资助动态。",
+        "evidence": [
+          "Taiwan is stepping up efforts to develop next-generation semiconductor research equipment, as conventional commercial tools increasingly fall short of emerging R&D requirements for process flexibility, precision parameter control, functiona",
+          "The National Science and Technology Council (NSTC) is seeking equipment development proposals in three priority areas: sub-nanometer silicon-based semiconductors, non-silicon semiconductors, and silicon photonics coupling."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "10b00c2c09bc46",
+      "title": "Elmos第三季营收双位数增长",
+      "summary": "Elmos Semiconductor公布2026年第三季度财报，集团销售额同比增长18.4%至1.667亿欧元，营业EBIT增长29.2%至4100万欧元，营业EBIT利润率提升至24.6%。公司确认全年营收增长12%±2个百分点的目标。",
+      "points": [
+        "2026年第三季度集团销售额达1.667亿欧元，同比增长18.4%（去年同期1.408亿欧元）；营业EBIT为4100万欧元，同比增长29.2%；营业EBIT利润率提升2.1个百分点至24.6%。",
+        "2026年前九个月销售额增长16.4%至4.812亿欧元，营业EBIT增长33.6%至1.168亿欧元，营业EBIT利润率达24.3%。调整后自由现金流为8780万欧元，同比增长60.9%。",
+        "公司确认2026财年销售增长目标为12%±2个百分点，预期营业EBIT利润率在23%至26%之间，资本支出约占销售额5%，调整后自由现金流利润率预计为19%±2个百分点。"
+      ],
+      "cards": [
+        {
+          "heading": "Q3业绩表现",
+          "body": "2026年第三季度集团销售额达1.667亿欧元，同比增长18.4%（去年同期1.408亿欧元）；营业EBIT为4100万欧元，同比增长29.2%；营业EBIT利润率提升2.1个百分点至24.6%。"
+        },
+        {
+          "heading": "前三季度累计",
+          "body": "2026年前九个月销售额增长16.4%至4.812亿欧元，营业EBIT增长33.6%至1.168亿欧元，营业EBIT利润率达24.3%。调整后自由现金流为8780万欧元，同比增长60.9%。"
+        },
+        {
+          "heading": "全年指引",
+          "body": "公司确认2026财年销售增长目标为12%±2个百分点，预期营业EBIT利润率在23%至26%之间，资本支出约占销售额5%，调整后自由现金流利润率预计为19%±2个百分点。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/elmos-semiconductor-reports-double-digit-revenue-growth-in-q3-2026",
+      "published": "2026-11-11T18:34:16.000Z",
+      "score": 26.46,
+      "eventKey": "elmos-q3-2026-earnings-revenue-growth",
+      "originalTitle": "Elmos Semiconductor Reports Double-Digit Revenue Growth in Q3 2026",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/elmos-semiconductor-reports-double-digit-revenue-growth-in-q3-2026",
+        "retrievedAt": "2026-11-12T03:48:08.239Z",
+        "articlePublished": "2026-11-11T18:34:16.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Elmos Semiconductor公布2026年第三季度财报，营收同比增长18.4%至1.667亿欧元，并确认全年业绩指引，属于有具体数字的常规财报动态。",
+        "evidence": [
+          "Group sales rose significantly by 18.4% compared to the same quarter of the previous year, reaching 166.7 million Euro (Q3 2025: 140.8 million Euro).",
+          "Operating EBIT also developed positively, reaching 41.0 million Euro (Q3 2025: 31.7 million Euro) – an increase of 29.2% compared with the prior year.",
+          "The company expects sales growth of 12% ± 2 percentage points in fiscal year 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "12e75b729f6d95",
+      "title": "Nexperia推出750V SiC沟槽MOSFET系列",
+      "summary": "Nexperia发布750V碳化硅沟槽MOSFET新系列，覆盖工业与车规应用，并首次在其SiC产品中引入TOLL封装。该系列针对EV充电、光伏逆变器及AI数据中心电源等场景，强调低开关损耗与温度稳定的导通电阻。",
+      "points": [
+        "750V SiC沟槽MOSFET具备低开关损耗、温度稳定的RDS(on)及稳健体二极管，适用于硬开关拓扑，可降低冷却需求并提升中高负载效率。",
+        "新增TOLL表面贴装封装，兼具紧凑尺寸与低寄生电感，补充现有通孔、底部冷却和顶部冷却选项，为高功率密度设计提供更多选择。",
+        "该系列现提供工业级和AEC-Q101认证的车规级版本，支持多种系统拓扑，满足不同可靠性要求。"
+      ],
+      "cards": [
+        {
+          "heading": "产品特性",
+          "body": "750V SiC沟槽MOSFET具备低开关损耗、温度稳定的RDS(on)及稳健体二极管，适用于硬开关拓扑，可降低冷却需求并提升中高负载效率。"
+        },
+        {
+          "heading": "封装扩展",
+          "body": "新增TOLL表面贴装封装，兼具紧凑尺寸与低寄生电感，补充现有通孔、底部冷却和顶部冷却选项，为高功率密度设计提供更多选择。"
+        },
+        {
+          "heading": "供货与认证",
+          "body": "该系列现提供工业级和AEC-Q101认证的车规级版本，支持多种系统拓扑，满足不同可靠性要求。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-today.com/news_items/2026/nov/nexperia-111126.shtml",
+      "published": "2026-11-11T11:25:41.000Z",
+      "score": 26.27,
+      "eventKey": "nexperia-750v-sic-trench-mosfet-launch",
+      "originalTitle": "Nexperia expands SiC portfolio with 750V trench MOSFETs for high-efficiency power conversion",
+      "provenance": {
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/nexperia-111126.shtml",
+        "retrievedAt": "2026-11-12T03:48:07.731Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Nexperia推出750V SiC沟槽MOSFET新系列，并首次在其SiC MOSFET产品组合中引入TOLL封装，这是具体的新产品发布动态。",
+        "evidence": [
+          "fabs in Hamburg, Germany, and Hazel Grove Manchester, UK) has launched a new family of 750V silicon carbide (SiC) trench MOSFETs, combining low switching losses, temperature-stable RDS(on) characteristics and robust switching performance in",
+          " a broad range of package options, including the introduction of TOLL packaging to Nexperia’s SiC MOSFET portfolio."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "9f4eaccf6416f",
+      "title": "消息称：意法半导体拟2027年1月再涨价，年内已三轮调价",
+      "summary": "据报道，集邦咨询报道，意法半导体计划2027年1月1日上调部分产品价格，2026年内已发布三轮调价通知。调价源于原材料、物流、人工等成本持续上升，具体产品和涨幅尚未披露。德州仪器、恩智浦、安森美和英飞凌今年亦有价格调整。",
+      "points": [
+        "意法半导体计划2027年1月1日上调部分产品价格，具体涉及产品及涨幅尚不清楚。2026年内已发布三轮调价通知：3月下旬、5月下旬、7月下旬，分别自4月26日、6月28日、8月23日起执行。",
+        "调价主要源于运营及供应链成本上升，包括原材料、物流、人工及其他生产支出。公司称已采取提升效率、控制成本措施，但仍需持续投入技术研发和制造能力建设。",
+        "德州仪器、恩智浦、安森美和英飞凌今年亦有价格调整，涉及模拟芯片、功率半导体等领域。意法半导体CEO让-马克·谢里警告，部分代工及封装产能正转向AI产品，给汽车和工业芯片供应带来瓶颈。"
+      ],
+      "cards": [
+        {
+          "heading": "调价计划",
+          "body": "意法半导体计划2027年1月1日上调部分产品价格，具体涉及产品及涨幅尚不清楚。2026年内已发布三轮调价通知：3月下旬、5月下旬、7月下旬，分别自4月26日、6月28日、8月23日起执行。"
+        },
+        {
+          "heading": "成本压力",
+          "body": "调价主要源于运营及供应链成本上升，包括原材料、物流、人工及其他生产支出。公司称已采取提升效率、控制成本措施，但仍需持续投入技术研发和制造能力建设。"
+        },
+        {
+          "heading": "行业联动",
+          "body": "德州仪器、恩智浦、安森美和英飞凌今年亦有价格调整，涉及模拟芯片、功率半导体等领域。意法半导体CEO让-马克·谢里警告，部分代工及封装产能正转向AI产品，给汽车和工业芯片供应带来瓶颈。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/025/901.htm",
+      "published": "2026-11-12T02:39:57.000Z",
+      "score": 24.81,
+      "eventKey": "st-price-increase-jan-2027",
+      "originalTitle": "年内三轮涨价后，消息称意法半导体酝酿 2027 年 1 月再提价",
+      "provenance": {
+        "url": "https://www.ithome.com/1/025/901.htm",
+        "retrievedAt": "2026-11-12T03:48:08.115Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "意法半导体计划2027年1月1日再次上调部分产品价格，此前2026年已发布三轮调价通知，这是新的价格调整动态。",
+        "evidence": [
+          "IT之家 11 月 12 日消息,集邦咨询(Trendforce)今天(11 月 12 日)发布博文,报道称意法半导体(STMicroelectronics)计划 2027 年 1 月 1 日上调部分产品价格,该公司在 2026 年已发布 3 轮调价通知。",
+          "IT之家援引博文介绍,网络上流出一份来自意法半导体的调价函,计划明年开始上调部分产品价格,但目前尚不清楚具体涉及哪些产品,以及涨幅多大。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "113a62797cbddc",
+      "title": "Sivers与文晔科技达成全球分销协议",
+      "summary": "Sivers Semiconductors宣布与全球分销商文晔科技签署全球分销协议，文晔将代理Sivers的InP激光器和无线波束成形产品。该合作旨在扩大Sivers在AI基础设施、卫星通信和国防市场的商业覆盖，并成为文晔首个激光器产品线。",
+      "points": [
+        "文晔科技拥有15%的全球市场份额，将作为Sivers的InP激光器和无线波束成形产品的全球分销伙伴，连接其产品组合与全球客户，支持生产爬坡阶段的规模化交付。",
+        "据Yole Group预测，AI光子学用InP连续波DFB激光器市场年增63%，到2031年达435亿美元；LEO卫星通信用毫米波BFIC市场预计到2031年增长至12亿美元。",
+        "Sivers CEO Vickram Vathulya表示，与文晔合作使Sivers成为其首个激光器产品线，获得成熟分销网络和需求创造能力。文晔营销高级副总裁Joseph Cheng称，这些技术面向AI数据中心、卫星通信和下一代无线等扩展市场。"
+      ],
+      "cards": [
+        {
+          "heading": "合作内容",
+          "body": "文晔科技拥有15%的全球市场份额，将作为Sivers的InP激光器和无线波束成形产品的全球分销伙伴，连接其产品组合与全球客户，支持生产爬坡阶段的规模化交付。"
+        },
+        {
+          "heading": "市场前景",
+          "body": "据Yole Group预测，AI光子学用InP连续波DFB激光器市场年增63%，到2031年达435亿美元；LEO卫星通信用毫米波BFIC市场预计到2031年增长至12亿美元。"
+        },
+        {
+          "heading": "高管评价",
+          "body": "Sivers CEO Vickram Vathulya表示，与文晔合作使Sivers成为其首个激光器产品线，获得成熟分销网络和需求创造能力。文晔营销高级副总裁Joseph Cheng称，这些技术面向AI数据中心、卫星通信和下一代无线等扩展市场。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/sivers-semiconductors-announces-strategic-agreement-with-wt-microelectronics",
+      "published": "2026-11-11T18:53:39.000Z",
+      "score": 24.52,
+      "eventKey": "sivers-wt-microelectronics-global-distribution-agreement",
+      "originalTitle": "Sivers Semiconductors Announces Strategic Agreement with WT Microelectronics",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/sivers-semiconductors-announces-strategic-agreement-with-wt-microelectronics",
+        "retrievedAt": "2026-11-12T03:48:09.505Z",
+        "articlePublished": "2026-11-11T18:53:39.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Sivers Semiconductors与WT Microelectronics签署全球分销协议，覆盖InP激光器和无线波束成形产品，是具体的商业合作新事实。",
+        "evidence": [
+          "Sivers Semiconductors AB (NASDAQ: SIVE) today announced a global distribution agreement with WT Microelectronics Co., Ltd. (TWSE: 3036), a world-leading electronics and semiconductors distributor.",
+          "With a 15% global market share, WT Microelectronics will serve as a strong global distribution partner for Sivers’ InP (Indium Phosphide) lasers and wireless beamformer products and solutions, connecting its product portfolio and availabili",
+          "Partnering with WT Microelectronics and becoming their first laser line card gives Sivers access to an established global distribution network, strong demand creation capabilities and the ability to support production ramp fulfilments at sc"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d49972d6baf47",
+      "title": "SpaceX自研Kessel机架系统，含72颗Rubin GPU",
+      "summary": "SpaceX/xAI正在开发定制版Nvidia Vera Rubin NVL72机架级AI系统，代号Kessel，用84层PCB替代传统NVLink线缆，部分用于轨道数据中心。系统保留36颗Vera CPU、72颗Rubin GPU和9个NVLink交换托盘，但采用不同的固态互连架构。",
+      "points": [
+        "Kessel保留36颗Vera CPU、72颗Rubin GPU和9个NVLink交换托盘，但用84层PCB替代传统NVLink线缆组件，实现固态互连架构。",
+        "SpaceX/xAI将继续直接购买Nvidia硬件，但其他组件将独立采购，以增强对硬件供应链的控制。",
+        "该系统部分用于轨道数据中心，但具体部署时间表未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "系统配置",
+          "body": "Kessel保留36颗Vera CPU、72颗Rubin GPU和9个NVLink交换托盘，但用84层PCB替代传统NVLink线缆组件，实现固态互连架构。"
+        },
+        {
+          "heading": "供应链策略",
+          "body": "SpaceX/xAI将继续直接购买Nvidia硬件，但其他组件将独立采购，以增强对硬件供应链的控制。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "该系统部分用于轨道数据中心，但具体部署时间表未披露。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+      "published": "2026-11-11T15:03:08.000Z",
+      "score": 17.88,
+      "eventKey": "spacex-kessel-rack-scale-84layer-pcb-rubin",
+      "originalTitle": "SpaceX develops its own ‘Kessel’ rack-scale system featuring 72 Nvidia Rubin GPUs for data centers in space, report claims",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+        "retrievedAt": "2026-11-12T03:48:11.243Z",
+        "articlePublished": "2026-11-11T15:03:08.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SpaceX/xAI开发自有Kessel机架级系统，采用84层PCB替代NVLink线缆，用于太空数据中心，是新的具体产品开发事件。",
+        "evidence": [
+          "SpaceX/xAI is developing a custom version of Nvidia's Vera Rubin NVL72 rack-scale AI system that replaces conventional NVLink cable assemblies with a massive 84-layer printed circuit board (PCB), in part for use in orbital data centers, rep",
+          "The system is codenamed Kessel and retains 36 Vera CPUs, 72 Rubin GPUs, and nine NVLink switch trays, but introduces a different solid-state interconnect architecture."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "42004bf68f592",
+      "title": "NXP 推出统一机器人开发平台",
+      "summary": "NXP 发布统一机器人平台，基于 Neural Axis 架构，提供模块化开源 SDK 和参考设计，覆盖无人机、自主移动机器人和人形机器人。平台现已可用，首批参考设计面向无人机，服务机器人等支持预计 2027 年下半年推出。",
+      "points": [
+        "平台基于 NXP Neural Axis 架构，分布式基础可安全连接传感、实时控制、AI 处理和通信，支持从单一功能扩展到完整物理 AI 系统。",
+        "SDK 集成 PX4、Zephyr、ROS 2 等开源技术，提供驱动、中间件、参考应用和配置工具，覆盖自主性、感知、飞行控制和电机控制。",
+        "统一机器人平台现已可用，首批参考设计面向无人机；服务机器人、AMR 等支持预计 2027 年下半年推出。"
+      ],
+      "cards": [
+        {
+          "heading": "平台架构",
+          "body": "平台基于 NXP Neural Axis 架构，分布式基础可安全连接传感、实时控制、AI 处理和通信，支持从单一功能扩展到完整物理 AI 系统。"
+        },
+        {
+          "heading": "SDK 与生态",
+          "body": "SDK 集成 PX4、Zephyr、ROS 2 等开源技术，提供驱动、中间件、参考应用和配置工具，覆盖自主性、感知、飞行控制和电机控制。"
+        },
+        {
+          "heading": "可用性与路线",
+          "body": "统一机器人平台现已可用，首批参考设计面向无人机；服务机器人、AMR 等支持预计 2027 年下半年推出。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "EDN",
+      "sourceLang": "en",
+      "url": "https://www.edn.com/nxp-simplifies-robotics-system-development/",
+      "published": "2026-11-11T20:28:44.000Z",
+      "score": 17.78,
+      "eventKey": "nxp-unified-robotics-platform-launch",
+      "originalTitle": "NXP simplifies robotics system development",
+      "provenance": {
+        "url": "https://www.edn.com/nxp-simplifies-robotics-system-development/",
+        "retrievedAt": "2026-11-12T03:48:26.243Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "NXP发布统一机器人平台，基于Neural Axis架构，提供模块化开源SDK和参考设计，现已可用，是常规产品发布。",
+        "evidence": [
+          "NXP’s unified robotics platform speeds robotic-system development with a modular, open-source SDK and prototype-ready reference designs.",
+          "The unified robotics platform is available now, with initial reference designs targeting drones."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "135bce0ba4f95a",
+      "title": "TDK与Microchip推出机器人以太网传感器平台",
+      "summary": "TDK与Microchip联合开发分布式传感器节点平台，结合InvenSense传感器、dsPIC33A数字信号控制器和10BASE-T1S以太网，面向机器人实时处理与边缘智能。平台主要组件已可用，并在electronica 2026展出。",
+      "points": [
+        "平台采用Microchip dsPIC33A DSC（200MHz 32位内核，含双精度浮点、高速ADC和高分辨率PWM）、LAN8651/LAN8679 10BASE-T1S单对以太网，以及TDK InvenSense ICM-42688-P六轴IMU，支持本地信号调理、传感器融合与推理。",
+        "面向下一代人形机器人（可集成100+传感器），支持感知、电机控制、力/扭矩测量、关节监测等；也可用于预测性维护，监测电机、泵、齿轮箱等设备的振动、冲击和倾斜，识别机械故障早期迹象。",
+        "平台主要组件现已供货。TDK与Microchip于2026年11月10-13日在德国慕尼黑electronica 2026的TDK展位B5.520进行演示。"
+      ],
+      "cards": [
+        {
+          "heading": "平台架构",
+          "body": "平台采用Microchip dsPIC33A DSC（200MHz 32位内核，含双精度浮点、高速ADC和高分辨率PWM）、LAN8651/LAN8679 10BASE-T1S单对以太网，以及TDK InvenSense ICM-42688-P六轴IMU，支持本地信号调理、传感器融合与推理。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "面向下一代人形机器人（可集成100+传感器），支持感知、电机控制、力/扭矩测量、关节监测等；也可用于预测性维护，监测电机、泵、齿轮箱等设备的振动、冲击和倾斜，识别机械故障早期迹象。"
+        },
+        {
+          "heading": "可用性",
+          "body": "平台主要组件现已供货。TDK与Microchip于2026年11月10-13日在德国慕尼黑electronica 2026的TDK展位B5.520进行演示。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Embedded.com",
+      "sourceLang": "en",
+      "url": "https://www.embedded.com/tdk-and-microchip-develop-ethernet-sensor-platform-for-robotics/",
+      "published": "2026-11-11T15:30:00.000Z",
+      "score": 16.95,
+      "eventKey": "tdk-microchip-ethernet-sensor-platform-robotics",
+      "originalTitle": "TDK and Microchip Develop Ethernet Sensor Platform for Robotics",
+      "provenance": {
+        "url": "https://www.embedded.com/tdk-and-microchip-develop-ethernet-sensor-platform-for-robotics/",
+        "retrievedAt": "2026-11-12T03:48:39.116Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "TDK与Microchip联合开发面向机器人的以太网传感器平台，结合InvenSense传感器与dsPIC33A DSC，主要组件已可用，是常规产品发布。",
+        "evidence": [
+          "TDK Corporation and Microchip Technology Inc. have developed a distributed sensor-node platform designed to support real-time processing and edge intelligence in robotic systems.",
+          "The main platform components are already available."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "4f04df56f7890",
+      "title": "德州A&M提出5G芯片位置验证方案",
+      "summary": "德州A&M大学研究人员发表论文，提出5G CATS系统，通过封装内5G无线电和硬件互锁验证AI芯片位置，防止走私。模拟显示，其URLLC无线电配置将99.9百分位往返时间压缩至2.60毫秒，比默认5G窄十倍以上。",
+      "points": [
+        "5G CATS在GPU封装内集成5G无线电、加密引擎和硬件互锁，配合5G URLLC基站，绕过主机软件和PCIe，直接验证芯片位置。",
+        "在ns-3和5G-LENA模拟中，URLLC配置将99.9百分位往返时间压缩至2.60毫秒，比默认5G窄十倍以上；对300公里光纤中继攻击，追踪器可拒绝所有轮次。",
+        "论文由Rajaraman等撰写，题为“5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices”，发表于arXiv预印本2611.13437。"
+      ],
+      "cards": [
+        {
+          "heading": "技术方案",
+          "body": "5G CATS在GPU封装内集成5G无线电、加密引擎和硬件互锁，配合5G URLLC基站，绕过主机软件和PCIe，直接验证芯片位置。"
+        },
+        {
+          "heading": "模拟结果",
+          "body": "在ns-3和5G-LENA模拟中，URLLC配置将99.9百分位往返时间压缩至2.60毫秒，比默认5G窄十倍以上；对300公里光纤中继攻击，追踪器可拒绝所有轮次。"
+        },
+        {
+          "heading": "论文信息",
+          "body": "论文由Rajaraman等撰写，题为“5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices”，发表于arXiv预印本2611.13437。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 2,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "Semiconductor Engineering",
+      "sourceLang": "en",
+      "url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am",
+      "published": "2026-11-12T00:59:35.000Z",
+      "score": 27.54,
+      "eventKey": "texas-am-5g-cats-chip-location-verification-paper",
+      "originalTitle": "Hardware-Based Location Checks Target AI Chip Smuggling (Texas A&M)",
+      "provenance": {
+        "url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am",
+        "retrievedAt": "2026-11-12T03:48:07.238Z",
+        "articlePublished": "2026-11-12T00:59:35.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Texas A&M大学研究人员发表5G CATS论文，提出基于5G的硬件位置认证方案以遏制AI芯片走私，属于具体的研究成果发布，有明确的技术细节和论文出处。",
+        "evidence": [
+          "Researchers at Texas A&M University published “5G CATS: 5G-Based Cryptographic Authorization Against Trafficking of Semiconductor Devices.” Abstract: “Enforcing export controls on AI accelerators requires verifying where a chip operates aft",
+          "We present 5G CATS, a location certification system that pairs a co-packaged 5G radio, cryptographic engine, and hardware interlock on the GPU package with 5G Ultra-Reliable Low-Latency Communication (URLLC) base stations.",
+          "In ns-3 and 5G-LENA simulations of an unloaded cell, our URLLC-based radio profile narrows the 99.9th percentile round-trip spread to 2.60 ms, more than ten times narrower than default 5G."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "152b323a7a3d41",
+      "title": "Visteon、SHINRY与英飞凌合作开发GaN单级车载充电器",
+      "summary": "Visteon与SHINRY的合资公司VSPE联合英飞凌，开发基于GaN双向开关的单级车载充电器（OBC），支持22kW三相和19.2kW单相充电，具备V2X双向功能。合作在electronica 2026展会宣布，旨在减小系统尺寸、降低成本并提升可靠性。",
+      "points": [
+        "VSPE提供单级变换器硬件拓扑、专有控制策略和系统集成经验，英飞凌提供GaN单片双向开关（BDS）。单级架构合并传统多级功率转换功能，消除传统两级OBC中的大容量电容，提升可靠性并降低成本。",
+        "车载充电器支持22kW三相和19.2kW单相交流充电，具备完整的车到一切（V2X）双向功能，可实现电网互动和能量灵活调度。",
+        "英飞凌GaN BDS将双向电压阻断和电流导通集成于单器件，减少半导体元件数量，简化功率级。GaN高频开关能力提升功率密度，减小磁性元件尺寸。该技术获2026世界新能源汽车大会创新技术奖。"
+      ],
+      "cards": [
+        {
+          "heading": "合作架构",
+          "body": "VSPE提供单级变换器硬件拓扑、专有控制策略和系统集成经验，英飞凌提供GaN单片双向开关（BDS）。单级架构合并传统多级功率转换功能，消除传统两级OBC中的大容量电容，提升可靠性并降低成本。"
+        },
+        {
+          "heading": "性能参数",
+          "body": "车载充电器支持22kW三相和19.2kW单相交流充电，具备完整的车到一切（V2X）双向功能，可实现电网互动和能量灵活调度。"
+        },
+        {
+          "heading": "GaN优势",
+          "body": "英飞凌GaN BDS将双向电压阻断和电流导通集成于单器件，减少半导体元件数量，简化功率级。GaN高频开关能力提升功率密度，减小磁性元件尺寸。该技术获2026世界新能源汽车大会创新技术奖。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Semiconductor Today",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-today.com/news_items/2026/nov/infineon-111126.shtml",
+      "published": "2026-11-11T12:57:50.000Z",
+      "score": 24.53,
+      "eventKey": "visteon-shinry-infineon-gan-bds-obc-collaboration",
+      "originalTitle": "Visteon, SHINRY and Infineon collaborate on single-stage onboard charger with GaN BDS technology",
+      "provenance": {
+        "url": "https://www.semiconductor-today.com/news_items/2026/nov/infineon-111126.shtml",
+        "retrievedAt": "2026-11-12T03:48:08.300Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Visteon、SHINRY与英飞凌合作开发采用GaN BDS技术的单级车载充电器，这是新的产品合作开发动态。",
+        "evidence": [
+          "their joint venture Visteon–Shinry Power Electronics LLC (VSPE), are collaborating with Infineon Technologies AG of Munich, Germany to develop a single-stage onboard charger (OBC) for electric vehicles.",
+          "The onboard charger supports both 22kW three-phase and 19.2kW single-phase AC charging, with full vehicle-to-everything (V2X) bidirectional capability, enabling grid interaction and greater energy flexibility."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "8487d6e0b9461",
+      "title": "esmo推出Vulcon半导体最终测试接触器",
+      "summary": "esmo集团推出Vulcon接触器系列，用于半导体最终测试，填补了其测试单元产品组合的空白。该产品面向汽车和工业应用的功率器件测试，包括AI数据中心电源，首批产品将于年底前交付欧洲和亚洲客户。",
+      "points": [
+        "Vulcon是esmo自主研发的接触器系列，适用于任何品牌的处理器，包括esmo自家的。它完善了esmo从机械臂、对接系统到处理器的测试单元，使esmo能对测试单元整体性能负责。",
+        "Vulcon系列初始面向汽车和工业应用的功率器件测试，包括AI数据中心背后的电源。esmo同时提供工程支持，根据客户具体测试需求配置方案。",
+        "esmo在2026年11月10-13日于慕尼黑SEMICON Europa展会C1241展位展示Vulcon。首批产品将于年底前交付欧洲和亚洲客户。"
+      ],
+      "cards": [
+        {
+          "heading": "产品定位",
+          "body": "Vulcon是esmo自主研发的接触器系列，适用于任何品牌的处理器，包括esmo自家的。它完善了esmo从机械臂、对接系统到处理器的测试单元，使esmo能对测试单元整体性能负责。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "Vulcon系列初始面向汽车和工业应用的功率器件测试，包括AI数据中心背后的电源。esmo同时提供工程支持，根据客户具体测试需求配置方案。"
+        },
+        {
+          "heading": "上市与交付",
+          "body": "esmo在2026年11月10-13日于慕尼黑SEMICON Europa展会C1241展位展示Vulcon。首批产品将于年底前交付欧洲和亚洲客户。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/esmo-launches-vulcon-contactors-for-semiconductor-final-test",
+      "published": "2026-11-11T18:45:45.000Z",
+      "score": 24.5,
+      "eventKey": "esmo-vulcon-contactor-launch-final-test",
+      "originalTitle": "esmo Launches Vulcon Contactors for Semiconductor Final Test",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/esmo-launches-vulcon-contactors-for-semiconductor-final-test",
+        "retrievedAt": "2026-11-12T03:48:09.561Z",
+        "articlePublished": "2026-11-11T18:45:45.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "esmo推出面向半导体最终测试的Vulcon接触器产品系列，首批将于年底前交付欧洲和亚洲客户，是具体的新产品发布。",
+        "evidence": [
+          "esmo group (esmo), a global supplier of manipulators, docking and interfacing components, and handling systems for the semiconductor industry, introduces Vulcon, a family of contactors developed for semiconductor final test.",
+          "Built for Final Test Conditions At launch, the Vulcon family is aimed at power device test for automotive and industrial applications, including the power supplies behind AI data centers.",
+          "First shipments reach customers in Europe and Asia before the end of the year."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "6f26bfe71108e",
+      "title": "TI在CCStudio中集成代理式AI加速MCU开发",
+      "summary": "德州仪器在CCStudio生态系统中引入代理式AI，结合其资源库，为微控制器、无线连接设备和雷达SoC的嵌入式开发提供自动化支持。TI称该能力可将软件迁移时间从数月缩短至数天，目前已在通用和实时MCU等产品中可用。",
+      "points": [
+        "代理式AI通过MCP服务器注入设备特定知识，包括SDK、引脚配置和外设数据，可自主生成代码、配置外设、构建应用、烧录并调试，减少幻觉并提高输出准确性。",
+        "设计工程师用自然语言提示后，代理式AI自动完成代码迁移，包括分析源项目、配置外设、更新代码和API调用，并迭代解决构建错误，保留现有软件投资。",
+        "该功能已在TI的通用和实时MCU、无线连接设备及雷达SoC中提供，并计划通过模块化架构持续扩展对新设备、更新SDK和边缘AI工作流的支持。",
+        "TI在electronica 2026展会的C4展位演示CCStudio IDE和CCStudio for VS Code中的代理式AI工作流，覆盖从系统配置到调试的端到端应用开发。"
+      ],
+      "cards": [
+        {
+          "heading": "核心功能",
+          "body": "代理式AI通过MCP服务器注入设备特定知识，包括SDK、引脚配置和外设数据，可自主生成代码、配置外设、构建应用、烧录并调试，减少幻觉并提高输出准确性。"
+        },
+        {
+          "heading": "迁移自动化",
+          "body": "设计工程师用自然语言提示后，代理式AI自动完成代码迁移，包括分析源项目、配置外设、更新代码和API调用，并迭代解决构建错误，保留现有软件投资。"
+        },
+        {
+          "heading": "可用范围",
+          "body": "该功能已在TI的通用和实时MCU、无线连接设备及雷达SoC中提供，并计划通过模块化架构持续扩展对新设备、更新SDK和边缘AI工作流的支持。"
+        },
+        {
+          "heading": "演示活动",
+          "body": "TI在electronica 2026展会的C4展位演示CCStudio IDE和CCStudio for VS Code中的代理式AI工作流，覆盖从系统配置到调试的端到端应用开发。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EDN",
+      "sourceLang": "en",
+      "url": "https://www.edn.com/agentic-ai-streamlines-embedded-software-development-for-mcus/",
+      "published": "2026-11-11T09:51:26.000Z",
+      "score": 21.01,
+      "eventKey": "ti-ccstudio-agentic-ai-embedded-software-availability",
+      "originalTitle": "Agentic AI streamlines embedded software development for MCUs",
+      "provenance": {
+        "url": "https://www.edn.com/agentic-ai-streamlines-embedded-software-development-for-mcus/",
+        "retrievedAt": "2026-11-12T03:48:24.725Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "TI宣布其CCStudio生态系统的Agentic AI能力已可用，覆盖MCU、无线连接设备和雷达SoC，并声称可将软件迁移时间从数月缩短至数天。这是具体的新产品功能发布。",
+        "evidence": [
+          "TI claims that by strengthening the agentic AI capabilities of its CCStudio ecosystem, it provides a purpose-built skillset for embedded developers, reducing software migration time from months to days.",
+          "Agentic AI capabilities in CCStudio are available today across TI’s general-purpose and real-time MCUs, wireless connectivity devices, and radar SoCs."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

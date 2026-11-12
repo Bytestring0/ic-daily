@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-11-11T02:47:03.985Z",
-  "total": 26,
+  "generatedAt": "2026-11-12T03:49:35.104Z",
+  "total": 27,
   "editions": [
+    {
+      "date": "2026-11-12",
+      "count": 21,
+      "intro": "本期共 21 条动态，其中 7 条值得重点关注，集中在政策与地缘、芯片设计方向。",
+      "top": [
+        "消息称：黄仁勋被曝婚外情，英伟达盘后股价重挫逾9%",
+        "IBM发布量子处理器Nighthawk r3，2027年计划超千比特",
+        "百度昆仑芯M300明年推出，2028年推N架构芯片"
+      ],
+      "categories": {
+        "policy": 3,
+        "design": 13,
+        "memory": 1,
+        "market": 2,
+        "research": 1,
+        "equipment": 1
+      }
+    },
     {
       "date": "2026-11-11",
       "count": 21,
