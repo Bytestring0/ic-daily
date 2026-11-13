@@ -1,0 +1,960 @@
+{
+  "date": "2026-11-13",
+  "generatedAt": "2026-11-13T03:25:53.125Z",
+  "intro": "本期共 17 条动态，其中 12 条值得重点关注，集中在芯片设计、存储、晶圆代工、政策与地缘方向。",
+  "stats": {
+    "count": 17,
+    "sources": 9,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 7,
+      "memory": 1,
+      "foundry": 3,
+      "policy": 2,
+      "market": 3,
+      "equipment": 1
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 148111,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 41,
+      "readable": 38,
+      "accepted": 17,
+      "rejected": 3400,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1b6ed36763e28b",
+      "title": "NVIDIA CEO黄仁勋辞职，CFO接任临时CEO",
+      "summary": "NVIDIA董事会宣布黄仁勋即日起辞去总裁、CEO及董事职务，CFO Colette Kress出任临时CEO并继续兼任CFO，董事会同时任命Harvey C. Jones为首任董事长，并启动永久CEO的搜寻工作。",
+      "points": [
+        "黄仁勋即日辞去总裁、CEO及董事职务；Colette Kress出任临时CEO，同时保留EVP兼CFO职位，直至永久继任者确定。Harvey C. Jones被任命为董事会首任董事长。",
+        "Kress自2013年9月加入NVIDIA担任EVP兼CFO，主导财务组织，并在公司成长中发挥关键作用；此前在Cisco和Microsoft等科技公司从事财务工作近25年。",
+        "董事长Jones表示董事会完全信任Kress及领导团队，预计公司运营、客户承诺和产品路线图将不受干扰；Kress承诺继续推进加速计算和AI领域的工作。",
+        "NVIDIA将于2026年11月17日（周二）按原计划发布2027财年第三季度财报，时间约为太平洋时间下午1:20，随后于2:00举行电话会议。"
+      ],
+      "cards": [
+        {
+          "heading": "人事变动",
+          "body": "黄仁勋即日辞去总裁、CEO及董事职务；Colette Kress出任临时CEO，同时保留EVP兼CFO职位，直至永久继任者确定。Harvey C. Jones被任命为董事会首任董事长。"
+        },
+        {
+          "heading": "Kress履历",
+          "body": "Kress自2013年9月加入NVIDIA担任EVP兼CFO，主导财务组织，并在公司成长中发挥关键作用；此前在Cisco和Microsoft等科技公司从事财务工作近25年。"
+        },
+        {
+          "heading": "董事会表态",
+          "body": "董事长Jones表示董事会完全信任Kress及领导团队，预计公司运营、客户承诺和产品路线图将不受干扰；Kress承诺继续推进加速计算和AI领域的工作。"
+        },
+        {
+          "heading": "财报安排",
+          "body": "NVIDIA将于2026年11月17日（周二）按原计划发布2027财年第三季度财报，时间约为太平洋时间下午1:20，随后于2:00举行电话会议。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "NVIDIA Newsroom",
+      "sourceLang": "en",
+      "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+      "published": "2026-11-12T13:48:00.000Z",
+      "score": 25.73,
+      "eventKey": "nvidia-ceo-transition-jensen-resigns-kress-interim",
+      "originalTitle": "NVIDIA Announces CEO Transition",
+      "provenance": {
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+        "retrievedAt": "2026-11-13T03:24:36.323Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 5,
+        "reason": "英伟达官方宣布CEO黄仁勋辞职，CFO柯莱特·克雷斯出任临时CEO，哈维·琼斯担任首任董事会主席。这是公司最高层人事变动的重大事件，与历史中关于婚外情和董事会调查的报道相比，是事件的新里程碑。",
+        "evidence": [
+          "Jones Appointed First-Ever Chair of the Board NVIDIA (NASDAQ: NVDA) Board of Directors announced today that Jensen Huang has resigned as President, Chief Executive Officer, and a member of the Board, effective immediately.",
+          "Colette Kress, current Executive Vice President and Chief Financial Officer of NVIDIA, has agreed to serve as Interim Chief Executive Officer.",
+          "Jones as its first-ever Chair of the Board."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/026/555.htm"
+        }
+      ]
+    },
+    {
+      "id": "acbd9e5d17e5d",
+      "title": "SK海力士HBM4良率超70% 三星扩产封装",
+      "summary": "据Chosun Biz 11月12日援引半导体行业消息，SK海力士第六代高带宽内存HBM4的生产良率已超过70%。与此同时，竞争对手三星电子正推进一项大型芯片封装扩产计划。",
+      "points": [
+        "SK海力士HBM4生产良率据报已超过70%，该数据来自半导体行业消息人士，经Chosun Biz于11月12日报道。HBM4为第六代高带宽内存产品。",
+        "三星电子正推进一项大型芯片封装扩产计划，此举被视为在HBM领域追赶SK海力士的举措。具体扩产规模与投资金额未在报道中披露。"
+      ],
+      "cards": [
+        {
+          "heading": "HBM4良率突破",
+          "body": "SK海力士HBM4生产良率据报已超过70%，该数据来自半导体行业消息人士，经Chosun Biz于11月12日报道。HBM4为第六代高带宽内存产品。"
+        },
+        {
+          "heading": "三星扩产封装",
+          "body": "三星电子正推进一项大型芯片封装扩产计划，此举被视为在HBM领域追赶SK海力士的举措。具体扩产规模与投资金额未在报道中披露。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL217/sk-hynix-hbm4-production-packaging-samsung.html",
+      "published": "2026-11-13T02:18:28.000Z",
+      "score": 28.82,
+      "eventKey": "sk-hynix-hbm4-yield-70pct-samsung-packaging-expansion",
+      "originalTitle": "SK Hynix's HBM4 yield tops 70% as Samsung expands chip packaging capacity",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL217/sk-hynix-hbm4-production-packaging-samsung.html",
+        "retrievedAt": "2026-11-13T03:24:34.148Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "SK海力士HBM4良率突破70%是新的量产里程碑，且涉及三星扩产封装产能的竞争动态。",
+        "evidence": [
+          "SK Hynix's sixth-generation high-bandwidth memory (HBM4) production yield has reportedly surpassed 70%, Chosun Biz reported on November 12, citing semiconductor industry sources, as rival Samsung Electronics moves ahead with a major chip pa"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "459b716e7eea3",
+      "title": "消息称：三星8英寸代工退出提前至2029年",
+      "summary": "据报道，据韩国Dealsite 11月12日援引行业消息，三星电子目标在2029年底前退出8英寸晶圆代工业务，比此前报道的时间提前一年，并已将部分生产外包给台湾联电（UMC）。",
+      "points": [
+        "三星电子计划在2029年底前退出8英寸晶圆代工业务，较此前报道的2030年提前一年。该消息由韩国Dealsite于11月12日援引行业消息人士报道。",
+        "三星已将部分8英寸晶圆生产外包给台湾联电（UMC），以缓解退出过程中的产能过渡压力。具体外包产品类型与产量未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "退出时间提前",
+          "body": "三星电子计划在2029年底前退出8英寸晶圆代工业务，较此前报道的2030年提前一年。该消息由韩国Dealsite于11月12日援引行业消息人士报道。"
+        },
+        {
+          "heading": "外包给联电",
+          "body": "三星已将部分8英寸晶圆生产外包给台湾联电（UMC），以缓解退出过程中的产能过渡压力。具体外包产品类型与产量未披露。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261112VL214/samsung-production-umc-manufacturing-outsourcing.html",
+      "published": "2026-11-12T21:46:08.000Z",
+      "score": 28.06,
+      "eventKey": "samsung-8inch-foundry-exit-2029-umc-outsourcing",
+      "originalTitle": "Samsung reportedly moves up 8-inch foundry exit to 2029, outsources some production to UMC",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261112VL214/samsung-production-umc-manufacturing-outsourcing.html",
+        "retrievedAt": "2026-11-13T03:24:33.421Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "三星将8英寸代工退出时间提前至2029年，并将部分生产外包给联电，这是新的业务调整动态。",
+        "evidence": [
+          "Samsung Electronics is targeting an exit from its 8-inch foundry business by the end of 2029, a year earlier than previously reported, and has been outsourcing some production to Taiwan's United Microelectronics Corporation (UMC), South Kor"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1d97e8bc5b999c",
+      "title": "德州理工大学获1900万美元半导体创新资助",
+      "summary": "德州理工大学惠特克工程学院获得德州半导体创新基金（TSIF）超1900万美元追加资助，用于在拉伯克建立下一代计算集群，整合AI与高保真仿真及实验数据，加速半导体器件和材料开发。该校将首批使用最新Nvidia芯片。",
+      "points": [
+        "资金将用于在拉伯克建立下一代计算集群，整合AI、高保真仿真数据和实验结果，缩短下一代半导体器件和材料的开发周期。德州理工大学将成为首批使用最新Nvidia芯片的大学之一。",
+        "研究团队由工程学院院长Roland Faller领导，成员包括化学工程系助理教授Joseph Gauthier、电子与计算机工程系教授Hongxing Jiang、Jingyu Lin、系主任Ravindra Joshi等。项目涵盖AI驱动材料发现、超宽禁带半导体外延生长等。",
+        "资助将为本科生和研究生提供跨学科研究、培训和专业经验，为德州半导体产业培养高技能人才。校长Lawrence Schovanec感谢州长Greg Abbott及州领导的支持。"
+      ],
+      "cards": [
+        {
+          "heading": "资助用途",
+          "body": "资金将用于在拉伯克建立下一代计算集群，整合AI、高保真仿真数据和实验结果，缩短下一代半导体器件和材料的开发周期。德州理工大学将成为首批使用最新Nvidia芯片的大学之一。"
+        },
+        {
+          "heading": "研究团队",
+          "body": "研究团队由工程学院院长Roland Faller领导，成员包括化学工程系助理教授Joseph Gauthier、电子与计算机工程系教授Hongxing Jiang、Jingyu Lin、系主任Ravindra Joshi等。项目涵盖AI驱动材料发现、超宽禁带半导体外延生长等。"
+        },
+        {
+          "heading": "教育影响",
+          "body": "资助将为本科生和研究生提供跨学科研究、培训和专业经验，为德州半导体产业培养高技能人才。校长Lawrence Schovanec感谢州长Greg Abbott及州领导的支持。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/texas-tech-receives-19-million-grant-to-further-semiconductor-innovation",
+      "published": "2026-11-12T21:36:25.000Z",
+      "score": 27.04,
+      "eventKey": "texas-tech-19m-tsif-semiconductor-computing-cluster",
+      "originalTitle": "Texas Tech Receives $19 Million Grant to Further Semiconductor Innovation",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/texas-tech-receives-19-million-grant-to-further-semiconductor-innovation",
+        "retrievedAt": "2026-11-13T03:24:34.936Z",
+        "articlePublished": "2026-11-12T21:36:25.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "德州理工大学获得超过1900万美元的德州半导体创新基金（TSIF）资助，用于建立下一代计算集群，这是有具体金额和用途的新拨款事件。",
+        "evidence": [
+          "College of Engineering received an additional Texas Semiconductor Innovation Fund (TSIF) award of over $19 million toward the university’s continued pursuit of semiconductor innovation. “We are grateful to Governor Abbott and state leaders ",
+          "The funding of this award will help Texas Tech establish a next-generation computing cluster in Lubbock."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "fc476968dfd89",
+      "title": "美商务与财长就NVIDIA对华芯片管制分歧加剧",
+      "summary": "美国商务部长Lutnick与财长Bessent在NVIDIA对华芯片出口管制力度上发生争执，白宫正讨论是否撤换Lutnick，同时议员施压商务部将更多中国公司列入实体清单。",
+      "points": [
+        "商务部长Lutnick与财长Bessent在如何严格管控NVIDIA对华芯片出口上意见相左，该争议已成为华盛顿对NVIDIA前CEO间谍指控余波的核心议题。",
+        "白宫官员正在讨论是否推动Lutnick离职，同时国会议员向商务部施压，要求将此前未被列入实体清单的中国企业新增至清单。"
+      ],
+      "cards": [
+        {
+          "heading": "政策分歧",
+          "body": "商务部长Lutnick与财长Bessent在如何严格管控NVIDIA对华芯片出口上意见相左，该争议已成为华盛顿对NVIDIA前CEO间谍指控余波的核心议题。"
+        },
+        {
+          "heading": "白宫动向",
+          "body": "白宫官员正在讨论是否推动Lutnick离职，同时国会议员向商务部施压，要求将此前未被列入实体清单的中国企业新增至清单。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL211/nvidia-cxmt-2025-blacklist.html",
+      "published": "2026-11-13T02:10:34.000Z",
+      "score": 26.8,
+      "eventKey": "us-commerce-treasury-nvidia-chip-curbs-dispute-lutnick-future",
+      "originalTitle": "Lutnick's clash with Treasury over Nvidia chip curbs deepens as White House weighs his future",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL211/nvidia-cxmt-2025-blacklist.html",
+        "retrievedAt": "2026-11-13T03:24:35.209Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "美国商务部长Lutnick与财政部长Bessent就英伟达对华芯片出口管制力度产生分歧，白宫正在讨论是否罢免Lutnick，同时议员施压将更多中国公司列入实体清单。这是重要的政策冲突与人事变动动态。",
+        "evidence": [
+          "A dispute between Commerce Secretary Howard Lutnick and Treasury Secretary Scott Bessent over how hard to police Nvidia chip shipments to China has moved to the center of Washington's fallout from espionage allegations involving Nvidia's fo",
+          "rmer CEO, with White House officials discussing whether Lutnick should be pushed out and lawmakers pressing his department to add Chinese firms that have been left alone to its Entity List."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "fe81729fe22da",
+      "title": "高通印度裁员应对手机芯片销量下滑",
+      "summary": "高通已开始在印度裁员，印度是其美国以外最大工程基地。此次裁员是公司基于绩效的全球人力精简的一部分，背景是智能手机芯片销售下滑。",
+      "points": [
+        "高通在印度启动裁员，印度为美国以外最大工程基地，涉及多个部门，具体人数未披露。",
+        "裁员属于高通全球绩效导向的人力精简计划，旨在应对智能手机芯片需求疲软。",
+        "手机芯片销量下滑是裁员主因，反映消费电子市场持续低迷对上游芯片厂商的冲击。"
+      ],
+      "cards": [
+        {
+          "heading": "裁员范围",
+          "body": "高通在印度启动裁员，印度为美国以外最大工程基地，涉及多个部门，具体人数未披露。"
+        },
+        {
+          "heading": "全球精简",
+          "body": "裁员属于高通全球绩效导向的人力精简计划，旨在应对智能手机芯片需求疲软。"
+        },
+        {
+          "heading": "市场背景",
+          "body": "手机芯片销量下滑是裁员主因，反映消费电子市场持续低迷对上游芯片厂商的冲击。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261112VL200/qualcomm-revenue-workforce-salary-hyderabad.html",
+      "published": "2026-11-12T21:45:44.000Z",
+      "score": 26.06,
+      "eventKey": "qualcomm-india-layoffs-handset-sales-decline",
+      "originalTitle": "Qualcomm begins India job cuts as handset chip sales slide",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261112VL200/qualcomm-revenue-workforce-salary-hyderabad.html",
+        "retrievedAt": "2026-11-13T03:24:36.351Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "高通在印度开始裁员，这是新的具体事实，涉及半导体公司运营调整。",
+        "evidence": [
+          "Qualcomm has started laying off employees in India, its largest engineering base outside the US, as the chipmaker carries out a performance-focused global workforce reduction amid a fall in smartphone chip sales."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "8e52e4b51ed01",
+      "title": "消息称：AMD削减中国游戏GPU供应最高达50%",
+      "summary": "据报道，AMD自10月第四季度起将中国游戏GPU供应削减至少20%至50%，AIB合作伙伴月度配额持续缩减，预计供应紧张持续至明年1月。同时AMD本月再次上调GPU与GDDR6套件价格，此前10月已涨价一次。",
+      "points": [
+        "自10月第四季度起，AMD对中国游戏GPU供应削减至少20%至50%，与NVIDIA的短缺情况相当，AIB合作伙伴获得的游戏芯片极少，月度配额仍在缩减。",
+        "Radeon显卡价格在中国每季度上涨，季度内逐月小幅上调。AMD本月再次提高GPU和GDDR6套件价格，此前10月已涨价。10月显卡平均售价已高出建议零售价44%。",
+        "Board Channels预计供应紧张将持续至2027年1月，Radeon买家在1月前难以看到价格回落。报告未披露具体出货量、受影响型号及削减原因，也未提及美国或欧洲是否跟进。"
+      ],
+      "cards": [
+        {
+          "heading": "供应削减幅度",
+          "body": "自10月第四季度起，AMD对中国游戏GPU供应削减至少20%至50%，与NVIDIA的短缺情况相当，AIB合作伙伴获得的游戏芯片极少，月度配额仍在缩减。"
+        },
+        {
+          "heading": "价格持续上涨",
+          "body": "Radeon显卡价格在中国每季度上涨，季度内逐月小幅上调。AMD本月再次提高GPU和GDDR6套件价格，此前10月已涨价。10月显卡平均售价已高出建议零售价44%。"
+        },
+        {
+          "heading": "供应前景",
+          "body": "Board Channels预计供应紧张将持续至2027年1月，Radeon买家在1月前难以看到价格回落。报告未披露具体出货量、受影响型号及削减原因，也未提及美国或欧洲是否跟进。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354757/amd-reportedly-cuts-gaming-gpu-supply-in-china-by-up-to-50",
+      "published": "2026-11-12T21:14:49.000Z",
+      "score": 25.98,
+      "eventKey": "amd-cuts-gaming-gpu-supply-china-50pct",
+      "originalTitle": "AMD Reportedly Cuts Gaming GPU Supply in China by Up to 50%",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354757/amd-reportedly-cuts-gaming-gpu-supply-in-china-by-up-to-50",
+        "retrievedAt": "2026-11-13T03:24:36.114Z",
+        "articlePublished": "2026-11-12T21:14:49.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "AMD削减中国游戏GPU供应，这是新的具体供应链动态。",
+        "evidence": [
+          "AMD has reportedly cut its gaming GPU supply in China by at least 20% to 50% since the start of the fourth quarter in October."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "a4779977c682e",
+      "title": "onsemi发布第四代SiC平台EliteSiC M4",
+      "summary": "onsemi推出基于沟槽架构的第四代碳化硅平台EliteSiC M4，功率密度提升最高30%，损耗降低35%，首款750V裸片已供货，更多产品预计2027年起推出。",
+      "points": [
+        "相比上一代，EliteSiC M4功率密度最高提升30%，损耗降低35%；比导通电阻（RSP）降低20%至50%，硬开关和软开关品质因数分别改善67%和50%。",
+        "面向AI数据中心、电动汽车和能源基础设施。在AI数据中心可提高计算容量而不需成比例扩展电力设施；在电动汽车中提升牵引逆变器效率；在太阳能和储能系统中减少转换损耗。",
+        "首款产品为750V裸片，用于汽车牵引逆变器，现已立即供货。覆盖至1200V的更多器件预计从2027年开始推出。"
+      ],
+      "cards": [
+        {
+          "heading": "性能提升",
+          "body": "相比上一代，EliteSiC M4功率密度最高提升30%，损耗降低35%；比导通电阻（RSP）降低20%至50%，硬开关和软开关品质因数分别改善67%和50%。"
+        },
+        {
+          "heading": "应用市场",
+          "body": "面向AI数据中心、电动汽车和能源基础设施。在AI数据中心可提高计算容量而不需成比例扩展电力设施；在电动汽车中提升牵引逆变器效率；在太阳能和储能系统中减少转换损耗。"
+        },
+        {
+          "heading": "供货时间",
+          "body": "首款产品为750V裸片，用于汽车牵引逆变器，现已立即供货。覆盖至1200V的更多器件预计从2027年开始推出。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Power Electronics News",
+      "sourceLang": "en",
+      "url": "https://www.powerelectronicsnews.com/onsemi-unveils-elitesic-m4-sic-platform/",
+      "published": "2026-11-12T10:19:56.000Z",
+      "score": 25.16,
+      "eventKey": "onsemi-elitesic-m4-platform-launch",
+      "originalTitle": "onsemi Unveils EliteSiC M4 SiC Platform",
+      "provenance": {
+        "url": "https://www.powerelectronicsnews.com/onsemi-unveils-elitesic-m4-sic-platform/",
+        "retrievedAt": "2026-11-13T03:24:51.324Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "安森美发布第四代碳化硅平台EliteSiC M4，采用沟槽架构，功率密度提升30%，损耗降低35%，首款750V裸片即刻供货。这是重要的新产品发布。",
+        "evidence": [
+          "onsemi has launched EliteSiC M4 , its fourth-generation silicon carbide (SiC) platform based on a trench architecture designed to improve next-generation power systems.",
+          "The new technology delivers up to 30% higher power density and 35% lower losses than the previous generation, addressing growing efficiency requirements in AI data centers, electric vehicles and energy infrastructure.",
+          "The first EliteSiC M4 product, a 750 V bare die for automotive traction inverter applications, is available immediately."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "13d1d2f167aa25",
+      "title": "Axelera AI公布Titania架构，2027年Q3量产",
+      "summary": "荷兰芯片初创Axelera AI公布第三代AIPU芯片Titania架构，瞄准数据中心推理，预计2027年Q3量产，已获超3亿美元订单，FP8算力达2.5PFLOPS。",
+      "points": [
+        "Titania设计功耗400W，由2个基于第三代D-IMC架构的计算芯粒组成，针对稀疏MoE模型优化，支持MXPF4、MXFP8格式，FP8算力2.5PFLOPS，集成128MB共享SRAM。",
+        "内嵌32个RISC-V内核卸载主机CPU负载，支持AV1、H.265编解码器，SiP集成128GB LPDDR6内存，总带宽2456GB/s，支持PCIe AIC和OCP OAM形态。",
+        "4U八卡风冷服务器能以FP4精度本地运行1.6T MoE模型，每瓦吞吐量可达当前数据中心级服务器7倍，总拥有成本1/20。已获超3亿美元订单，预计2027年Q3量产。"
+      ],
+      "cards": [
+        {
+          "heading": "芯片规格",
+          "body": "Titania设计功耗400W，由2个基于第三代D-IMC架构的计算芯粒组成，针对稀疏MoE模型优化，支持MXPF4、MXFP8格式，FP8算力2.5PFLOPS，集成128MB共享SRAM。"
+        },
+        {
+          "heading": "集成特性",
+          "body": "内嵌32个RISC-V内核卸载主机CPU负载，支持AV1、H.265编解码器，SiP集成128GB LPDDR6内存，总带宽2456GB/s，支持PCIe AIC和OCP OAM形态。"
+        },
+        {
+          "heading": "性能与订单",
+          "body": "4U八卡风冷服务器能以FP4精度本地运行1.6T MoE模型，每瓦吞吐量可达当前数据中心级服务器7倍，总拥有成本1/20。已获超3亿美元订单，预计2027年Q3量产。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/026/544.htm",
+      "published": "2026-11-13T02:56:08.000Z",
+      "score": 24.92,
+      "eventKey": "axelera-ai-titania-architecture-2027q3-production",
+      "originalTitle": "Axelera AI 公布数据中心级 AIPU 芯片 Titania 架构，2027Q3 投产",
+      "provenance": {
+        "url": "https://www.ithome.com/1/026/544.htm",
+        "retrievedAt": "2026-11-13T03:24:36.481Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "荷兰AI芯片初创Axelera AI公布第三代数据中心级AIPU芯片Titania架构，预计2027年Q3量产，已获超3亿美元订单。芯片设计功耗400W，FP8算力2.5PFLOPS，集成128GB LPDDR6。这是具体的新产品发布。",
+        "evidence": [
+          "IT之家 11 月 13 日消息,荷兰芯片初创企业 Axelera AI 当地时间 12 日公布了其第三代 AIPU 芯片 Titania 的架构。",
+          "其瞄准数据中心推理市场,预计 2027 年第 3 季度量产,已获得超 3 亿美元(IT之家注:现汇率约合 20.06 亿元人民币)的订单。",
+          "Titania 芯片设计功耗为 400W,由 2 个基于第三代 D-IMC 架构的计算芯粒组成。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "dbd2a77eccdd8",
+      "title": "消息称：Rapidus 或推迟 2nm 量产至 2028 财年",
+      "summary": "据报道，据日本时事通信社报道，Rapidus 正考虑将 2nm 先进制程量产时间延后一年至 2028 财年。该公司 2025 年启动 2nm 晶体管试制，但在集成晶体管与其他元件的技术研发上遇到阻碍，同时正努力提高芯片良率。",
+      "points": [
+        "Rapidus 原计划在 2027 财年量产 2nm 逻辑半导体，现考虑推迟至 2028 财年（2028 年 4 月至 2029 年 3 月），延后约一年。",
+        "消息人士称，Rapidus 在集成晶体管与其他元件的技术研发上遇到阻碍，难以实现高性能目标，同时正努力提高芯片良率。",
+        "此前有报道称 Rapidus 在 SRAM 方面遭遇问题，2027 财年内量产目标面临挑战，本次推迟传闻与此相关。"
+      ],
+      "cards": [
+        {
+          "heading": "量产时间调整",
+          "body": "Rapidus 原计划在 2027 财年量产 2nm 逻辑半导体，现考虑推迟至 2028 财年（2028 年 4 月至 2029 年 3 月），延后约一年。"
+        },
+        {
+          "heading": "技术挑战",
+          "body": "消息人士称，Rapidus 在集成晶体管与其他元件的技术研发上遇到阻碍，难以实现高性能目标，同时正努力提高芯片良率。"
+        },
+        {
+          "heading": "SRAM 问题",
+          "body": "此前有报道称 Rapidus 在 SRAM 方面遭遇问题，2027 财年内量产目标面临挑战，本次推迟传闻与此相关。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/026/510.htm",
+      "published": "2026-11-13T01:57:13.000Z",
+      "score": 24.76,
+      "eventKey": "rapidus-2nm-production-delay-fy2028",
+      "originalTitle": "消息称 Rapidus 考虑将 2nm 先进制程量产推迟至 2028 财年",
+      "provenance": {
+        "url": "https://www.ithome.com/1/026/510.htm",
+        "retrievedAt": "2026-11-13T03:24:37.904Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Rapidus考虑将2nm量产时间从2027财年推迟至2028财年，这是对之前报道的2nm量产可能延期的进一步具体化，明确了新的时间节点，属于重要进展。",
+        "evidence": [
+          "IT之家 11 月 13 日消息,日本时事通信社当地时间 11 日报道称,该国先进半导体制造商 Rapidus 正考虑将其 2nm 逻辑半导体先进制程的量产时间点延后一年至 2028 财年(2028 日历年 4 月 ~ 2029 日历年 3 月)。",
+          "消息人士向日媒透露,Rapidus 那之后在集成晶体管与其它元件的技术研发上面临重重阻碍,无法实现高性能目标;另有消息传出,Rapidus 正努力提高芯片良率。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1b380b8ca9e9b0",
+      "title": "中芯国际三季度平均晶圆单价环比提升 1.8%",
+      "summary": "中芯国际联合 CEO 赵海军在第三季度业绩会上表示，公司销售收入达 31.9 亿美元，环比增长 6.1%，平均晶圆单价环比提升 1.8%。全年收入预计超过 120 亿美元，同比增长接近三成。",
+      "points": [
+        "第三季度销售收入 31.9 亿美元（约合 213.25 亿元人民币），环比增长 6.1%；平均晶圆单价环比提升 1.8%，因产品组合优化及价格分批落地。",
+        "客户对 BCD、专用存储、Controller 等人工智能配套芯片的需求增量快于预期，推动收入超出指引上限。",
+        "赵海军预计全年收入超过 120 亿美元（约合 802.21 亿元人民币），较去年同期增长接近三成。",
+        "全球设备供应链紧张，交付周期拉长，部分设备交付时间存在不确定性，可能影响明年资本开支执行，但不影响今年扩产规划。"
+      ],
+      "cards": [
+        {
+          "heading": "收入与单价",
+          "body": "第三季度销售收入 31.9 亿美元（约合 213.25 亿元人民币），环比增长 6.1%；平均晶圆单价环比提升 1.8%，因产品组合优化及价格分批落地。"
+        },
+        {
+          "heading": "需求驱动",
+          "body": "客户对 BCD、专用存储、Controller 等人工智能配套芯片的需求增量快于预期，推动收入超出指引上限。"
+        },
+        {
+          "heading": "全年展望",
+          "body": "赵海军预计全年收入超过 120 亿美元（约合 802.21 亿元人民币），较去年同期增长接近三成。"
+        },
+        {
+          "heading": "设备供应",
+          "body": "全球设备供应链紧张，交付周期拉长，部分设备交付时间存在不确定性，可能影响明年资本开支执行，但不影响今年扩产规划。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/026/487.htm",
+      "published": "2026-11-13T01:17:42.000Z",
+      "score": 24.65,
+      "eventKey": "smic-q3-2026-earnings-wafer-price-up-1.8pct",
+      "originalTitle": "中芯国际赵海军：第三季度平均晶圆单价环比提升 1.8%",
+      "provenance": {
+        "url": "https://www.ithome.com/1/026/487.htm",
+        "retrievedAt": "2026-11-13T03:24:37.937Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "中芯国际第三季度财报及业绩会披露具体营收、晶圆单价环比提升1.8%、全年收入指引超120亿美元等新数据，属于重要财务动态。",
+        "evidence": [
+          "IT之家 11 月 13 日消息,中芯国际联合 CEO 赵海军在第三季度业绩会上表示,第三季度,公司整体销售收入再创新高,达到 31.9 亿美元(IT之家注:现汇率约合 213.25 亿元人民币),环比增长 6.1%。",
+          "赵海军表示,从价格的角度看,公司与客户协商的价格分批落地,产品组合持续优化,平均晶圆单价环比提升 1.8%。",
+          "中芯国际联合 CEO 赵海军表示,今年全年收入预计超过 120 亿美元(现汇率约合 802.21 亿元人民币),较去年同期增长接近三成。"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261113VL204/smic-revenue-capacity-growth-operating-profit.html"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/026/490.htm"
+        },
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/026/524.htm"
+        }
+      ]
+    },
+    {
+      "id": "1435230993fb66",
+      "title": "AMD发布Versal防篡改器件，抵御物理攻击",
+      "summary": "AMD推出Versal TR防篡改器件，采用3D堆叠传感器保护裸片，抵御硅片背面物理攻击，同时集成Versal AI Edge Gen 2异构计算。该器件支持后量子密码加速，预计2027年下半年出样，2028年上半年量产。",
+      "points": [
+        "传感器保护裸片通过3D active-on-active技术键合在主计算裸片上，覆盖整个器件背面，检测物理攻击并在被篡改或移除时阻止启动。",
+        "新增ML-DSA和SLH-DSA后量子密码硬件加速，混合启动流程，应用安全单元密钥库改进，以及内存老化传感器（MEAS）和双电压轨毛刺检测。",
+        "基于Versal AI Edge Gen 2，集成Arm CPU、AI引擎和可编程逻辑，提供最高229,000 DMIPS标量算力、369 INT8 TOPS和543,000 LUT。",
+        "包含2VE3358TR、2VE3558TR、2VE3858TR三款器件，与标准版引脚兼容。预计2027年下半年出样，2028年上半年量产。"
+      ],
+      "cards": [
+        {
+          "heading": "防护机制",
+          "body": "传感器保护裸片通过3D active-on-active技术键合在主计算裸片上，覆盖整个器件背面，检测物理攻击并在被篡改或移除时阻止启动。"
+        },
+        {
+          "heading": "安全特性",
+          "body": "新增ML-DSA和SLH-DSA后量子密码硬件加速，混合启动流程，应用安全单元密钥库改进，以及内存老化传感器（MEAS）和双电压轨毛刺检测。"
+        },
+        {
+          "heading": "性能参数",
+          "body": "基于Versal AI Edge Gen 2，集成Arm CPU、AI引擎和可编程逻辑，提供最高229,000 DMIPS标量算力、369 INT8 TOPS和543,000 LUT。"
+        },
+        {
+          "heading": "产品与时间",
+          "body": "包含2VE3358TR、2VE3558TR、2VE3858TR三款器件，与标准版引脚兼容。预计2027年下半年出样，2028年上半年量产。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354747/amd-advances-built-in-protection-from-physical-attacks-for-security-critical-systems",
+      "published": "2026-11-12T18:01:28.000Z",
+      "score": 18.44,
+      "eventKey": "amd-versal-tr-tamper-resistant-devices-launch",
+      "originalTitle": "(PR) AMD Advances Built-in Protection from Physical Attacks for Security-Critical Systems",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354747/amd-advances-built-in-protection-from-physical-attacks-for-security-critical-systems",
+        "retrievedAt": "2026-11-13T03:24:41.728Z",
+        "articlePublished": "2026-11-12T18:01:28.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "AMD发布Versal防篡改（TR）器件，业界首款提供硅片背面物理攻击内置防护的自适应SoC/FPGA，采用3D active-on-active技术，并扩展后量子密码学支持。这是具体的新产品发布，属于重要事件。",
+        "evidence": [
+          "AMD today announced AMD Versal tamper-resistant (\"TR\") devices, designed to protect security-critical information against sophisticated physical attacks while delivering the high-performance heterogeneous processing capabilities of AMD Vers",
+          "Versal TR devices are the industry's first adaptive SoC or FPGA-based devices providing built-in protection against physical attacks on the silicon backside.",
+          "A sensor-based protection die is bonded to the main compute die using 3D active-on-active technology, shielding the entire backside of the device, protecting sensitive information, detecting physical attacks and preventing boot if the prote"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ac98059741e83",
+      "title": "Teledyne展示单次扫描300mm晶圆检测方案",
+      "summary": "Teledyne Vision Solutions在SEMICON Europa 2026上演示Linea ML 32K线扫相机，可单次完成300mm晶圆检测，分辨率10μm。该相机号称全球首款真32K线扫相机，支持多线、HDR和TDI模式。同时展示Z3 3D测量系统，用于先进封装和晶圆检测。",
+      "points": [
+        "Linea ML 32K演示在单次扫描中完成300mm晶圆检测，分辨率10μm。相机采用32K分辨率、2.5μm像素，成像速度最高150kHz，支持多线操作、HDR和TDI模式。",
+        "Z3 3D测量系统结合高分辨率3D测量与2D成像，空间分辨率最高1.25μm，高度重复性35nm，每片晶圆吞吐时间低至2秒。支持micro BGA、凸块、柱状物计量，以及TGV/TSV、晶圆键合、翘曲和共面性检测。",
+        "演示在慕尼黑Messe München举办的SEMICON Europa 2026（11月10-13日）C2厅136号展位进行。Teledyne专家现场解答半导体检测与测量方案。"
+      ],
+      "cards": [
+        {
+          "heading": "单次检测能力",
+          "body": "Linea ML 32K演示在单次扫描中完成300mm晶圆检测，分辨率10μm。相机采用32K分辨率、2.5μm像素，成像速度最高150kHz，支持多线操作、HDR和TDI模式。"
+        },
+        {
+          "heading": "Z3测量系统",
+          "body": "Z3 3D测量系统结合高分辨率3D测量与2D成像，空间分辨率最高1.25μm，高度重复性35nm，每片晶圆吞吐时间低至2秒。支持micro BGA、凸块、柱状物计量，以及TGV/TSV、晶圆键合、翘曲和共面性检测。"
+        },
+        {
+          "heading": "展示信息",
+          "body": "演示在慕尼黑Messe München举办的SEMICON Europa 2026（11月10-13日）C2厅136号展位进行。Teledyne专家现场解答半导体检测与测量方案。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/teledyne-vision-solutions-demonstrates-single-pass-300mm-wafer-inspection",
+      "published": "2026-11-12T23:04:57.000Z",
+      "score": 27.28,
+      "eventKey": "teledyne-linea-ml-32k-single-pass-300mm-wafer-inspection",
+      "originalTitle": "Teledyne Vision Solutions Demonstrates Single-Pass 300mm Wafer Inspection",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/teledyne-vision-solutions-demonstrates-single-pass-300mm-wafer-inspection",
+        "retrievedAt": "2026-11-13T03:24:34.205Z",
+        "articlePublished": "2026-11-12T23:04:57.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Teledyne在SEMICON Europa 2026展示单次扫描300mm晶圆检测技术，Linea ML 32K相机为全球首款真32K线扫相机，具有具体技术参数。",
+        "evidence": [
+          "The Linea ML 32K demonstration will show how a 300mm semiconductor wafer can be inspected in a single pass at 10 μm resolution.",
+          "As the world’s first true 32K line scan camera, Linea ML 32K combines 32K resolution, 2.5 μm pixels, and imaging speeds of up to 150 kHz to deliver exceptional image quality and defect detection performance."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "a4e1911d1e4bf",
+      "title": "Arteris互连IP设计启动数破千",
+      "summary": "Arteris宣布其互连IP累计客户芯片设计启动数超过1000个，显示芯片设计中数据高效移动的重要性正与处理能力并驾齐驱。公司于11月5日发布公告并附报告。",
+      "points": [
+        "Arteris互连IP累计客户芯片设计启动数超过1000个，涵盖汽车、AI、消费电子等领域，反映片上数据移动效率成为设计关键。",
+        "公司指出，芯片设计重心正从单纯提升处理性能转向优化数据搬运效率，互连IP在SoC中的角色日益重要。",
+        "11月5日Arteris发布公告并附报告《The State...》，进一步阐述数据移动对半导体创新的影响。"
+      ],
+      "cards": [
+        {
+          "heading": "里程碑数据",
+          "body": "Arteris互连IP累计客户芯片设计启动数超过1000个，涵盖汽车、AI、消费电子等领域，反映片上数据移动效率成为设计关键。"
+        },
+        {
+          "heading": "行业趋势",
+          "body": "公司指出，芯片设计重心正从单纯提升处理性能转向优化数据搬运效率，互连IP在SoC中的角色日益重要。"
+        },
+        {
+          "heading": "公告与报告",
+          "body": "11月5日Arteris发布公告并附报告《The State...》，进一步阐述数据移动对半导体创新的影响。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "SemiWiki",
+      "sourceLang": "en",
+      "url": "https://semiwiki.com/ip/arteris/376116-what-1000-arteris-design-starts-reveal-about-semiconductor-innovation/",
+      "published": "2026-11-12T17:00:00.000Z",
+      "score": 26.27,
+      "eventKey": "arteris-1000-design-starts-milestone",
+      "originalTitle": "What 1,000 Arteris Design Starts Reveal About Semiconductor Innovation",
+      "provenance": {
+        "url": "https://semiwiki.com/ip/arteris/376116-what-1000-arteris-design-starts-reveal-about-semiconductor-innovation/",
+        "retrievedAt": "2026-11-13T03:24:35.331Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Arteris宣布客户芯片设计启动数超过1000个，是具体里程碑",
+        "evidence": [
+          "Arteris has surpassed 1,000 customer silicon design starts using its interconnect intellectual property, a milestone that highlights an increasingly consequential shift in chip design: moving data efficiently is becoming as important as pro"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "175d04a58cff31",
+      "title": "英飞凌AURIX RC1 MCU支持SDV与虚拟原型",
+      "summary": "英飞凌在2026年慕尼黑电子展发布AURIX RC1微控制器，基于RISC-V架构，集成最多12个32位处理核心和40MB嵌入式存储，支持软件定义汽车的跨域计算。配套DRIVECORE软件生态支持Synopsys虚拟原型，使软件工程师可在芯片问世前开发调试。",
+      "points": [
+        "AURIX RC1集成最多12个32位处理核心、用于边缘AI的先进并行处理单元和40MB嵌入式存储，支持从区域控制、车身到底盘、电池管理、动力总成及座舱安全等跨域应用。",
+        "DRIVECORE软件生态结合英飞凌工具链与合作伙伴预集成软件包，支持AUTOSAR、开源软件、功能安全和网络安全。Synopsys Virtualizer Development Kit提供AURIX RC1虚拟原型，支持芯片可用前开发验证。",
+        "MCU符合ISO/SAE 21434和欧盟网络弹性法案，提供硬件物理保护与加密敏捷性。支持CAN-XL、10BASE-T1S和多千兆以太网连接，满足SDV高速车载网络需求。"
+      ],
+      "cards": [
+        {
+          "heading": "核心规格",
+          "body": "AURIX RC1集成最多12个32位处理核心、用于边缘AI的先进并行处理单元和40MB嵌入式存储，支持从区域控制、车身到底盘、电池管理、动力总成及座舱安全等跨域应用。"
+        },
+        {
+          "heading": "软件生态",
+          "body": "DRIVECORE软件生态结合英飞凌工具链与合作伙伴预集成软件包，支持AUTOSAR、开源软件、功能安全和网络安全。Synopsys Virtualizer Development Kit提供AURIX RC1虚拟原型，支持芯片可用前开发验证。"
+        },
+        {
+          "heading": "安全与连接",
+          "body": "MCU符合ISO/SAE 21434和欧盟网络弹性法案，提供硬件物理保护与加密敏捷性。支持CAN-XL、10BASE-T1S和多千兆以太网连接，满足SDV高速车载网络需求。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "EDN",
+      "sourceLang": "en",
+      "url": "https://www.edn.com/mcu-revitalizing-sdvs-with-diverse-compute-virtual-prototyping/",
+      "published": "2026-11-12T12:07:06.000Z",
+      "score": 21.45,
+      "eventKey": "infineon-aurix-rc1-sdv-virtual-prototyping-details",
+      "originalTitle": "MCU revitalizing SDVs with diverse compute, virtual prototyping",
+      "provenance": {
+        "url": "https://www.edn.com/mcu-revitalizing-sdvs-with-diverse-compute-virtual-prototyping/",
+        "retrievedAt": "2026-11-13T03:24:54.306Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "文章补充AURIX RC1具体规格（12核、40MB内存）及DRIVECORE虚拟原型生态，属于产品细节新事实，质量3。",
+        "evidence": [
+          "Infineon’s AURIX RC1 microcontroller, unveiled at electronica 2026 in Munich, Germany, aims to redefine real-time compute and control for SDVs and extend it to physical AI.",
+          "For this broad range of applications, AURIX RC1 integrates up to 12 32-bit processing cores, an advanced parallel processing unit for edge AI, and up to 40 megabytes of embedded memory.",
+          "To support this, Infineon claims to provide a software ecosystem around AURIX RC1 microcontrollers, DRIVECORE, that combines Infineon’s toolsets with pre-integrated software bundles from ecosystem partners."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "12bac4abfaf878",
+      "title": "和硕称2026为服务器出货元年，Vera Rubin系统2027上半年出货",
+      "summary": "和硕在11月12日法说会表示，2026年将是其服务器出货元年，预计该业务贡献合并营收约10%，2027年将增长数倍。产品线涵盖英伟达GB系列、HGX平台及定制ASIC服务器，下一代Vera Rubin系统预计2027年上半年开始出货。",
+      "points": [
+        "和硕预计2026年服务器业务占合并营收约10%，2027年将增长数倍，显示该业务进入快速放量期。",
+        "服务器产品线覆盖英伟达GB系列、HGX平台，以及定制ASIC服务器，满足不同客户需求。",
+        "下一代基于英伟达Vera Rubin平台的系统预计于2027年上半年开始出货，具体时间表未进一步披露。"
+      ],
+      "cards": [
+        {
+          "heading": "营收贡献",
+          "body": "和硕预计2026年服务器业务占合并营收约10%，2027年将增长数倍，显示该业务进入快速放量期。"
+        },
+        {
+          "heading": "产品组合",
+          "body": "服务器产品线覆盖英伟达GB系列、HGX平台，以及定制ASIC服务器，满足不同客户需求。"
+        },
+        {
+          "heading": "Vera Rubin进度",
+          "body": "下一代基于英伟达Vera Rubin平台的系统预计于2027年上半年开始出货，具体时间表未进一步披露。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261112PD244/pegatron-rubin-nvidia-2026-shipments.html",
+      "published": "2026-11-12T08:52:40.000Z",
+      "score": 20.91,
+      "eventKey": "pegatron-2026-server-revenue-10pct-vera-rubin-1h27",
+      "originalTitle": "Pegatron targets multiyear AI server surge, with Nvidia Vera Rubin shipments set for 1H27",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261112PD244/pegatron-rubin-nvidia-2026-shipments.html",
+        "retrievedAt": "2026-11-13T03:24:40.069Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "和硕财报会披露服务器业务2026年占营收约10%、Vera Rubin系统2027年上半年出货，具体新事实，质量3。",
+        "evidence": [
+          "Pegatron said at its November 12 earnings briefing that 2026 would mark its first year of server shipments, with the business expected to contribute about 10% of consolidated revenue and grow severalfold in 2027.",
+          "Its portfolio spans Nvidia's GB series and HGX platforms, as well as custom ASIC servers, while shipments of next-generation Vera Rubin systems are expected to begin in the first half of 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c867f3e54f1b5",
+      "title": "西门子与英伟达合作开发AI虚拟PCB检测流程",
+      "summary": "西门子数字工业软件与英伟达联合开发基于AI的PCB光学检测（AOI）准备工作流，利用数字孪生和英伟达Cosmos生成合成图像，减少物理原型依赖。目标降低AOI程序生成人工工程85%，减少40%误报，提升首次通过率超5%。",
+      "points": [
+        "西门子Teamcenter提供PCB设计、BOM和元件数据，Process Preparation X创建数字孪生和虚拟黄金板，英伟达Cosmos生成合格与缺陷板的逼真合成图像，用于AOI准备和校准。",
+        "在西门子德国埃尔朗根工厂演示，支持高混合生产环境，每周3至5次生产变更，无需停产。",
+        "目标减少AOI程序生成人工工程最多85%，减少40%误报，首次通过率提升超过5%。"
+      ],
+      "cards": [
+        {
+          "heading": "工作流原理",
+          "body": "西门子Teamcenter提供PCB设计、BOM和元件数据，Process Preparation X创建数字孪生和虚拟黄金板，英伟达Cosmos生成合格与缺陷板的逼真合成图像，用于AOI准备和校准。"
+        },
+        {
+          "heading": "应用场景",
+          "body": "在西门子德国埃尔朗根工厂演示，支持高混合生产环境，每周3至5次生产变更，无需停产。"
+        },
+        {
+          "heading": "预期效益",
+          "body": "目标减少AOI程序生成人工工程最多85%，减少40%误报，首次通过率提升超过5%。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "EE Times Asia",
+      "sourceLang": "en",
+      "url": "https://www.eetasia.com/siemens-nvidia-develop-ai-based-virtual-pcb-inspection-workflow/",
+      "published": "2026-11-12T04:34:17.000Z",
+      "score": 17.2,
+      "eventKey": "siemens-nvidia-ai-virtual-pcb-inspection-workflow",
+      "originalTitle": "Siemens, NVIDIA Develop AI-Based Virtual PCB Inspection Workflow",
+      "provenance": {
+        "url": "https://www.eetasia.com/siemens-nvidia-develop-ai-based-virtual-pcb-inspection-workflow/",
+        "retrievedAt": "2026-11-13T03:25:06.177Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "西门子与英伟达合作开发基于AI的虚拟PCB检测工作流，结合Teamcenter PLM与NVIDIA Cosmos生成合成图像用于AOI准备，目标减少85%人工工程、减少40%误报、提升5%以上直通率。这是新的合作项目，具有具体技术细节和量化目标。",
+        "evidence": [
+          "Siemens Digital Industries Software and NVIDIA are developing an AI-powered workflow for preparing and optimizing automated optical inspection (AOI) processes before printed circuit board assemblies (PCBAs) enter production.",
+          "Siemens and NVIDIA are targeting up to 85% less manual engineering effort in AOI program generation, 40% fewer false calls and an improvement of more than 5% in first-pass yield."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}

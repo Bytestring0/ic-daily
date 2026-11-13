@@ -1,7 +1,25 @@
 {
-  "generatedAt": "2026-11-12T03:49:35.104Z",
-  "total": 27,
+  "generatedAt": "2026-11-13T03:25:53.134Z",
+  "total": 28,
   "editions": [
+    {
+      "date": "2026-11-13",
+      "count": 17,
+      "intro": "本期共 17 条动态，其中 12 条值得重点关注，集中在芯片设计、存储、晶圆代工、政策与地缘方向。",
+      "top": [
+        "NVIDIA CEO黄仁勋辞职，CFO接任临时CEO",
+        "SK海力士HBM4良率超70% 三星扩产封装",
+        "消息称：三星8英寸代工退出提前至2029年"
+      ],
+      "categories": {
+        "design": 7,
+        "memory": 1,
+        "foundry": 3,
+        "policy": 2,
+        "market": 3,
+        "equipment": 1
+      }
+    },
     {
       "date": "2026-11-12",
       "count": 21,
