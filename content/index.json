@@ -1,7 +1,26 @@
 {
-  "generatedAt": "2026-11-13T03:25:53.134Z",
-  "total": 28,
+  "generatedAt": "2026-11-14T03:10:29.394Z",
+  "total": 29,
   "editions": [
+    {
+      "date": "2026-11-14",
+      "count": 18,
+      "intro": "本期共 18 条动态，其中 10 条值得重点关注，集中在晶圆代工、政策与地缘、设备、芯片设计方向。",
+      "top": [
+        "格罗方德美国新厂动工，首座2029年投产",
+        "中国AI模型权重现Blackwell芯片指纹",
+        "应用材料发布VeritySEM 20并新增Intel等EPIC合作伙伴"
+      ],
+      "categories": {
+        "foundry": 1,
+        "policy": 4,
+        "equipment": 1,
+        "design": 7,
+        "memory": 1,
+        "research": 1,
+        "market": 3
+      }
+    },
     {
       "date": "2026-11-13",
       "count": 17,

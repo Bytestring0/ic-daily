@@ -1,0 +1,997 @@
+{
+  "date": "2026-11-14",
+  "generatedAt": "2026-11-14T03:10:29.385Z",
+  "intro": "本期共 18 条动态，其中 10 条值得重点关注，集中在晶圆代工、政策与地缘、设备、芯片设计方向。",
+  "stats": {
+    "count": 18,
+    "sources": 8,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "foundry": 1,
+      "policy": 4,
+      "equipment": 1,
+      "design": 7,
+      "memory": 1,
+      "research": 1,
+      "market": 3
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 134079,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": true,
+      "windowHours": 24,
+      "candidates": 42,
+      "readable": 39,
+      "accepted": 18,
+      "rejected": 3460,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1656591f764cbe",
+      "title": "格罗方德美国新厂动工，首座2029年投产",
+      "summary": "格罗方德宣布，根据美日合作协议建设的两座晶圆厂中的首座，已在纽约州马耳他市动工，预计2029年投产。该项目总投资可达210亿美元，日本提供资金，格罗方德提供技术。",
+      "points": [
+        "首座晶圆厂位于纽约州马耳他市，预计2029年投产。两座晶圆厂总投资可达210亿美元，采用日本出资、格罗方德出技术的模式。",
+        "首座晶圆厂获约100亿美元初期投资及纽约州5.7亿美元财政激励，第二座投资也在100亿美元上下。",
+        "每座晶圆厂月产能约7.5万片300mm晶圆，项目预计创造2.7万个建筑及生态岗位和超1000个高技能制造岗位。"
+      ],
+      "cards": [
+        {
+          "heading": "项目概况",
+          "body": "首座晶圆厂位于纽约州马耳他市，预计2029年投产。两座晶圆厂总投资可达210亿美元，采用日本出资、格罗方德出技术的模式。"
+        },
+        {
+          "heading": "投资与激励",
+          "body": "首座晶圆厂获约100亿美元初期投资及纽约州5.7亿美元财政激励，第二座投资也在100亿美元上下。"
+        },
+        {
+          "heading": "产能与就业",
+          "body": "每座晶圆厂月产能约7.5万片300mm晶圆，项目预计创造2.7万个建筑及生态岗位和超1000个高技能制造岗位。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 5,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/027/062.htm",
+      "published": "2026-11-14T02:42:39.000Z",
+      "score": 24.93,
+      "eventKey": "globalfoundries-us-fab-groundbreaking-2029",
+      "originalTitle": "格罗方德美国新晶圆厂动工：日本提供资金支持，首座 2029 年投产",
+      "provenance": {
+        "url": "https://www.ithome.com/1/027/062.htm",
+        "retrievedAt": "2026-11-14T03:09:24.309Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "格罗方德美国新晶圆厂动工，是重大制造产能扩张事件，涉及美日合作、210亿美元投资及2029年投产时间表。",
+        "evidence": [
+          "IT之家 11 月 14 日消息,GlobalFoundries(格罗方德)当地时间昨日宣布,其计划根据美日合作协议建设的两座晶圆厂中的首座于其美国纽约州马耳他市厂区动工,预计 2029 年投产。",
+          "根据此前宣布的协议,这两座晶圆厂将采取日本提供资金、格罗方德提供技术的模式,投资总额可达 210 亿美元。",
+          "此次建设的首座晶圆厂获得了约 100 亿美元的初期投资以及纽约州的 5.7 亿美元财政激励,第二座晶圆厂的投资也在 100 亿美元上下。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "18c1e5be5b8ac2",
+      "title": "中国AI模型权重现Blackwell芯片指纹",
+      "summary": "Unemployment Labs研究人员Will DePue发布报告，通过分析模型权重中的伪随机数生成特征，发现DeepSeek、月之暗面、MiniMax和蚂蚁集团的六款新模型使用了英伟达Blackwell GPU，并估算部分训练集群规模达3000至4500颗。",
+      "points": [
+        "研究人员利用PyTorch框架的Philox算法和cuRAND库，分析模型初始权重的数字排列，识别GPU的流式多处理器数量，从而判断硬件架构。",
+        "DeepSeek V4-Flash和MiniMax M3匹配B200/B300，DeepSeek V4-Pro、Kimi K3、Kimi K3.1-Pro和Ling-3.1-flash匹配GB200/GB300。",
+        "DeepSeek V4-Pro需2000-2500颗GPU，Kimi K3需2000-3000颗，V4-Flash约1000-1500颗，MiniMax M3约500-600颗，Ling-3.1-flash约1100-1650颗。",
+        "指纹仅反映初始化硬件，不能证明后续训练地点或芯片是否非法出口；海外数据中心租赁是可能的解释。"
+      ],
+      "cards": [
+        {
+          "heading": "检测方法",
+          "body": "研究人员利用PyTorch框架的Philox算法和cuRAND库，分析模型初始权重的数字排列，识别GPU的流式多处理器数量，从而判断硬件架构。"
+        },
+        {
+          "heading": "涉及模型",
+          "body": "DeepSeek V4-Flash和MiniMax M3匹配B200/B300，DeepSeek V4-Pro、Kimi K3、Kimi K3.1-Pro和Ling-3.1-flash匹配GB200/GB300。"
+        },
+        {
+          "heading": "集群规模估算",
+          "body": "DeepSeek V4-Pro需2000-2500颗GPU，Kimi K3需2000-3000颗，V4-Flash约1000-1500颗，MiniMax M3约500-600颗，Ling-3.1-flash约1100-1650颗。"
+        },
+        {
+          "heading": "研究局限",
+          "body": "指纹仅反映初始化硬件，不能证明后续训练地点或芯片是否非法出口；海外数据中心租赁是可能的解释。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1586310.htm",
+      "published": "2026-11-13T17:22:11.000Z",
+      "score": 22.37,
+      "eventKey": "blackwell-gpu-fingerprint-china-ai-models-training-cluster-estimate",
+      "originalTitle": "中国AI模型被发现英伟达Blackwell芯片“指纹” 研究推算部分训练集群规模达3000至4500颗",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1586310.htm",
+        "retrievedAt": "2026-11-14T03:09:26.651Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "独立研究通过模型权重指纹分析发现DeepSeek、月之暗面、MiniMax和蚂蚁集团的六款新模型使用了英伟达Blackwell架构GPU训练，并估算训练集群规模。这是新的技术调查发现，对出口管制执行有重要意义。",
+        "evidence": [
+          "研究发现,这四家企业的六款新模型均出现了与英伟达Blackwell架构相匹配的数字特征,而它们此前发布的模型则主要呈现上一代Hopper架构的特征。",
+          "调查发现,DeepSeek在2024年12月发布的V3模型仍然呈现Hopper架构特征,但2026年4月发布的V4系列已经出现Blackwell特征。",
+          "其中,DeepSeek V4-Pro和月之暗面Kimi K3的训练规模最大,最佳估计分别需要2000至2500颗和2000至3000颗Blackwell GPU。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "162cbbc43b55eb",
+      "title": "应用材料发布VeritySEM 20并新增Intel等EPIC合作伙伴",
+      "summary": "应用材料发布2026财年第四季度及全年财报，营收创纪录达104.1亿美元和344.5亿美元。公司同时推出新一代CD-SEM系统VeritySEM 20，并宣布Intel、铠侠、Besi及UCLA加入EPIC中心合作，加速AI芯片工艺研发。",
+      "points": [
+        "2026财年第四季度营收104.1亿美元，同比增长53%；非GAAP每股收益4.16美元，同比增长92%。全年营收344.5亿美元，非GAAP每股收益12.89美元，运营现金流88.7亿美元。",
+        "Intel以创始伙伴身份加入EPIC中心，合作开发下一代晶体管、互连和先进封装技术；铠侠、Besi及UCLA分别以创新伙伴或研究伙伴身份加入，总计合作伙伴达15家。",
+        "推出新一代关键尺寸扫描电子显微镜VeritySEM 20，用于先进制程的计量检测，提升AI芯片制造的精度和效率。"
+      ],
+      "cards": [
+        {
+          "heading": "创纪录财报",
+          "body": "2026财年第四季度营收104.1亿美元，同比增长53%；非GAAP每股收益4.16美元，同比增长92%。全年营收344.5亿美元，非GAAP每股收益12.89美元，运营现金流88.7亿美元。"
+        },
+        {
+          "heading": "EPIC新伙伴",
+          "body": "Intel以创始伙伴身份加入EPIC中心，合作开发下一代晶体管、互连和先进封装技术；铠侠、Besi及UCLA分别以创新伙伴或研究伙伴身份加入，总计合作伙伴达15家。"
+        },
+        {
+          "heading": "新品VeritySEM 20",
+          "body": "推出新一代关键尺寸扫描电子显微镜VeritySEM 20，用于先进制程的计量检测，提升AI芯片制造的精度和效率。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "Semiconductor Digest",
+      "sourceLang": "en",
+      "url": "https://www.semiconductor-digest.com/applies-materials-introduces-veritysem-20-adds-intel-to-epic-center-partnerships",
+      "published": "2026-11-13T18:27:10.000Z",
+      "score": 21.55,
+      "eventKey": "applied-materials-fy2026-record-revenue-epic-intel-kioxia",
+      "originalTitle": "Applies Materials Introduces VeritySEM 20; Adds Intel to EPIC Center Partnerships",
+      "provenance": {
+        "url": "https://www.semiconductor-digest.com/applies-materials-introduces-veritysem-20-adds-intel-to-epic-center-partnerships",
+        "retrievedAt": "2026-11-14T03:09:28.450Z",
+        "articlePublished": "2026-11-13T18:27:10.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "应用材料发布2026财年Q4及全年财报，营收创纪录达104.1亿美元，同比增长53%，同时宣布英特尔加入EPIC中心成为创始合作伙伴，铠侠成为创新合作伙伴。财报数据与合作伙伴关系均为新事实。",
+        "evidence": [
+          "Fourth Quarter Results Applied generated record revenue of $10.41 billion.",
+          "Fiscal Year Results Applied generated record revenue of $34.45 billion.",
+          "Intel will join EPIC as a founding partner to accelerate development of chipmaking innovations for next-generation transistors, interconnects and advanced packaging technologies."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "2c0b38dd5cbca",
+      "title": "DEEPX基于三星2nm完成AI芯片流片",
+      "summary": "韩国AI芯片开发商DEEPX宣布，其下一代DX-M2处理器已基于三星电子第二代2nm工艺完成流片，旨在将生成式AI引入机器人和工业设备，减少对云计算的依赖。",
+      "points": [
+        "DEEPX已完成DX-M2处理器的流片，采用三星电子第二代2nm工艺，这是其推进端侧AI部署的关键步骤。",
+        "DX-M2面向机器人和工业设备，支持生成式AI在本地运行，降低对云端计算的依赖，提升响应速度与数据安全性。",
+        "DEEPX是韩国AI芯片开发商，此前已推出多款边缘AI芯片，此次流片标志其向先进制程迈进。"
+      ],
+      "cards": [
+        {
+          "heading": "流片完成",
+          "body": "DEEPX已完成DX-M2处理器的流片，采用三星电子第二代2nm工艺，这是其推进端侧AI部署的关键步骤。"
+        },
+        {
+          "heading": "目标应用",
+          "body": "DX-M2面向机器人和工业设备，支持生成式AI在本地运行，降低对云端计算的依赖，提升响应速度与数据安全性。"
+        },
+        {
+          "heading": "公司背景",
+          "body": "DEEPX是韩国AI芯片开发商，此前已推出多款边缘AI芯片，此次流片标志其向先进制程迈进。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL232/ai-chip-samsung-2nm-production-processor.html",
+      "published": "2026-11-13T08:35:00.000Z",
+      "score": 25.91,
+      "eventKey": "deepx-dx-m2-tapeout-samsung-2nm",
+      "originalTitle": "DEEPX tapes out AI chip on Samsung's 2nm process",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL232/ai-chip-samsung-2nm-production-processor.html",
+        "retrievedAt": "2026-11-14T03:09:23.069Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "韩国AI芯片公司DEEPX在三星第二代2nm工艺上完成流片，是重要制程里程碑。",
+        "evidence": [
+          "South Korean AI chip developer DEEPX has completed the tape-out of its next-generation DX-M2 processor using Samsung Electronics' second-generation 2nm process, advancing plans to bring generative AI to robots and industrial equipment while"
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "DIGITIMES",
+          "url": "https://www.digitimes.com/news/a20261113VL229/samsung-ai-chip-manufacturing-2028-2nm.html"
+        }
+      ]
+    },
+    {
+      "id": "b0b28ce087d38",
+      "title": "长鑫存储进军高端DRAM，推DDR5与LPDDR6",
+      "summary": "长鑫存储（CXMT）在11月12日开幕的IC China 2026上展出DDR5服务器模组、已量产的LPDDR6芯片及车用DRAM，显示其从移动存储向高价值内存市场扩张。此举依托制造工艺进步与研发投入增加。",
+      "points": [
+        "在IC China 2026上推出DDR5服务器模组、已量产的LPDDR6芯片及车用DRAM，覆盖AI服务器与高端移动市场。",
+        "扩张依托制造工艺进步与研发支出增加，表明CXMT正超越既有移动内存业务，进入更高价值市场。"
+      ],
+      "cards": [
+        {
+          "heading": "新品发布",
+          "body": "在IC China 2026上推出DDR5服务器模组、已量产的LPDDR6芯片及车用DRAM，覆盖AI服务器与高端移动市场。"
+        },
+        {
+          "heading": "战略意图",
+          "body": "扩张依托制造工艺进步与研发支出增加，表明CXMT正超越既有移动内存业务，进入更高价值市场。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL228/dram-cxmt-market-ai-server-automotive.html",
+      "published": "2026-11-13T06:43:49.000Z",
+      "score": 25.6,
+      "eventKey": "cxmt-higher-value-dram-ai-server-lpddr6-ic-china-2026",
+      "originalTitle": "CXMT targets higher-value DRAM market with AI server memory, LPDDR6 breakthroughs",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL228/dram-cxmt-market-ai-server-automotive.html",
+        "retrievedAt": "2026-11-14T03:09:23.680Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "CXMT在IC China 2026展示DDR5服务器模组、LPDDR6量产和车规DRAM，是具体的新产品/新进展，与历史中CXMT相关报道不同。",
+        "evidence": [
+          "Chinese DRAM maker ChangXin Memory Technologies (CXMT) is expanding into higher-value memory markets, introducing DDR5 server modules, mass-produced LPDDR6 chips, and automotive DRAM at IC China 2026, which opened on November 12.",
+          "The expansion, backed by manufacturing advances and higher research spending, signals CXMT's ambitions beyond its established mobile memory business."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1158beab7f1e6d",
+      "title": "消息称：中国AI企业抢签海外算力合约应对芯片限制",
+      "summary": "据报道，据DIGITIMES报道，中国AI公司正竞相签署海外算力协议，担忧英伟达间谍丑闻的政治影响会促使美国立法者限制其远程使用先进芯片。中期选举后美国公众对AI领导者的监管意愿增强，可能加速相关法案通过。",
+      "points": [
+        "中国AI企业正加速与海外数据中心或云服务商签署算力合约，以保障在潜在出口管制生效前获得先进芯片的远程访问权限。此举源于对英伟达间谍案引发政治后果的担忧。",
+        "美国中期选举结果反映公众希望约束AI领导者，可能削弱特朗普对共和党议员的控制力，从而增加国会通过限制中国获取先进芯片法案的可能性。法案若通过，将影响中国AI企业的海外算力使用。"
+      ],
+      "cards": [
+        {
+          "heading": "抢签海外算力",
+          "body": "中国AI企业正加速与海外数据中心或云服务商签署算力合约，以保障在潜在出口管制生效前获得先进芯片的远程访问权限。此举源于对英伟达间谍案引发政治后果的担忧。"
+        },
+        {
+          "heading": "美国立法风险",
+          "body": "美国中期选举结果反映公众希望约束AI领导者，可能削弱特朗普对共和党议员的控制力，从而增加国会通过限制中国获取先进芯片法案的可能性。法案若通过，将影响中国AI企业的海外算力使用。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL224/nvidia-china-ai-chip-regulation-security.html",
+      "published": "2026-11-13T07:41:48.000Z",
+      "score": 23.76,
+      "eventKey": "china-ai-firms-overseas-compute-deals-chip-curbs-fear",
+      "originalTitle": "Chinese AI firms reportedly race for overseas compute, fear upcoming chip curbs amid Nvidia spy case",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL224/nvidia-china-ai-chip-regulation-security.html",
+        "retrievedAt": "2026-11-14T03:09:25.508Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "报道中国AI公司因英伟达间谍案的政治影响，竞相签署海外算力协议，担忧美国立法者限制其远程访问先进芯片。这是具体的供应链动态。",
+        "evidence": [
+          "Chinese AI companies reportedly are racing to sign overseas compute deals as they fear the political fallout of the Nvidia spy scandal could push US lawmakers to restrict their remote access to advanced chips."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1581afcf5ddd7f",
+      "title": "荷兰法院再限闻泰控制安世半导体，供应链分裂加剧",
+      "summary": "荷兰法院进一步限制中国母公司闻泰科技及相关方干预安世半导体的运营，安世半导体中国正加速建立独立供应链，双方在管理和制造上的分歧加深。",
+      "points": [
+        "荷兰法院对闻泰科技及其关联方实施更严格限制，禁止其干预安世半导体的日常运营。这是继此前裁决后的又一次收紧，显示法律层面控制权争夺加剧。",
+        "安世半导体中国正加速构建独立供应链，包括采购、生产和销售环节，以减少对荷兰母公司的依赖。此举导致双方在管理和制造运营上的分裂进一步扩大。"
+      ],
+      "cards": [
+        {
+          "heading": "法院限制升级",
+          "body": "荷兰法院对闻泰科技及其关联方实施更严格限制，禁止其干预安世半导体的日常运营。这是继此前裁决后的又一次收紧，显示法律层面控制权争夺加剧。"
+        },
+        {
+          "heading": "中国供应链独立",
+          "body": "安世半导体中国正加速构建独立供应链，包括采购、生产和销售环节，以减少对荷兰母公司的依赖。此举导致双方在管理和制造运营上的分裂进一步扩大。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113PD247/nexperia-dutch-chip-supply-business-supply-chain.html",
+      "published": "2026-11-13T06:08:55.000Z",
+      "score": 23.5,
+      "eventKey": "dutch-court-curbs-wingtech-nexperia-control",
+      "originalTitle": "Dutch court further curbs Wingtech's control of Nexperia, widening China chip supply chain split",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113PD247/nexperia-dutch-chip-supply-business-supply-chain.html",
+        "retrievedAt": "2026-11-14T03:09:25.707Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "荷兰法院进一步限制中国母公司闻泰科技对Nexperia的控制，同时Nexperia中国加速建立独立供应链，加深双方管理及制造运营的分歧。这是具体的公司治理与供应链事件。",
+        "evidence": [
+          "The battle for control of Dutch chipmaker Nexperia is intensifying after a Dutch court further restricted Chinese parent Wingtech Technology and related parties from interfering with the company's operations."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "3c0af0e0d03c5",
+      "title": "马来西亚调查英伟达GPU疑似转口中国",
+      "summary": "马来西亚投资、贸易及工业部正在审查新加坡Megaspeed International子公司Speedmatrix涉嫌违反AI芯片出口限制的行为，同时准备立法加强对数据中心的监管，防止先进英伟达GPU非法流入中国。",
+      "points": [
+        "马来西亚当局审查Speedmatrix，该公司是新加坡Megaspeed International的本地子公司，涉嫌将英伟达GPU转口至中国。",
+        "马来西亚正在准备立法，收紧对数据中心的监督，以阻止先进英伟达GPU的非法再出口。"
+      ],
+      "cards": [
+        {
+          "heading": "调查对象",
+          "body": "马来西亚当局审查Speedmatrix，该公司是新加坡Megaspeed International的本地子公司，涉嫌将英伟达GPU转口至中国。"
+        },
+        {
+          "heading": "立法动向",
+          "body": "马来西亚正在准备立法，收紧对数据中心的监督，以阻止先进英伟达GPU的非法再出口。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 4,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL220/data-nvidia-gpu-ai-chip-investigation.html",
+      "published": "2026-11-13T03:14:14.000Z",
+      "score": 23.02,
+      "eventKey": "malaysia-probes-nvidia-gpu-re-export-speedmatrix",
+      "originalTitle": "Malaysia probes possible Nvidia GPU re-exports to China, targets Megaspeed links with tighter data center rules",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL220/data-nvidia-gpu-ai-chip-investigation.html",
+        "retrievedAt": "2026-11-14T03:09:26.816Z",
+        "articlePublished": "2026-11-13T03:14:14.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "马来西亚政府调查英伟达GPU经新加坡Megaspeed子公司Speedmatrix转口至中国的可能违规行为，并准备立法收紧数据中心监管。这是新的出口管制执法事件，涉及具体公司和政府行动。",
+        "evidence": [
+          "Credit: New Straits Times Malaysia is reviewing possible breaches of AI chip export restrictions involving Speedmatrix, a local subsidiary of Singapore-based Megaspeed International, while preparing legislation to tighten oversight of data ",
+          "centers and prevent advanced Nvidia GPUs from..."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "Tom's Hardware",
+          "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-and-singapore-step-up-nvidia-ai-chip-probes-as-charges-brought-against-chinese-national-over-917-smuggled-servers-firm-at-center-of-jensen-huang-controversy-announces-inventory-audit-to-account-for-all-restricted-gpus"
+        },
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1586312.htm"
+        }
+      ]
+    },
+    {
+      "id": "a2ef882e21920",
+      "title": "英飞凌推进800V直流与300mm宽禁带布局",
+      "summary": "英飞凌电源系统部门总裁Adam White在Electronica 2026透露，800V直流数据中心方案正从实验室走向客户，固态变压器已有客户管道，与西门子合作的固态断路器产品可部署。公司还推进德累斯顿300mm晶圆厂及300mm GaN、SiC量产，GaN生产计划2027年底启动。",
+      "points": [
+        "英飞凌开始向客户出货用于固态变压器的EasyPACK封装模块，采用3.3kV SiC技术，客户管道强劲，覆盖AI与非AI基础设施。与西门子合作的固态断路器已完成，可部署，但行业仍需统一标准法规才能广泛普及。",
+        "英飞凌称德累斯顿300mm晶圆厂为“全球最大300mm外壳带洁净室”，工程团队全天候安装设备并运行客户认证。该厂聚焦功率与模拟混合信号，以应对AI带来的功率半导体需求激增。",
+        "英飞凌投资11亿欧元在菲拉赫工厂推进300mm GaN，中压GaN已证明可行，低压GaN将随后开发，生产计划2027年底启动。公司还宣布全球首例300mm SiC功能功率器件，但未透露技术细节以保护知识产权。"
+      ],
+      "cards": [
+        {
+          "heading": "800V直流进展",
+          "body": "英飞凌开始向客户出货用于固态变压器的EasyPACK封装模块，采用3.3kV SiC技术，客户管道强劲，覆盖AI与非AI基础设施。与西门子合作的固态断路器已完成，可部署，但行业仍需统一标准法规才能广泛普及。"
+        },
+        {
+          "heading": "德累斯顿工厂",
+          "body": "英飞凌称德累斯顿300mm晶圆厂为“全球最大300mm外壳带洁净室”，工程团队全天候安装设备并运行客户认证。该厂聚焦功率与模拟混合信号，以应对AI带来的功率半导体需求激增。"
+        },
+        {
+          "heading": "300mm GaN与SiC",
+          "body": "英飞凌投资11亿欧元在菲拉赫工厂推进300mm GaN，中压GaN已证明可行，低压GaN将随后开发，生产计划2027年底启动。公司还宣布全球首例300mm SiC功能功率器件，但未透露技术细节以保护知识产权。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Power Electronics News",
+      "sourceLang": "en",
+      "url": "https://www.powerelectronicsnews.com/electronica-2026-infineons-adam-white-on-800-vdc-dresden-and-300-mm-wide-bandgap/",
+      "published": "2026-11-13T21:42:41.000Z",
+      "score": 22.1,
+      "eventKey": "infineon-electronica-2026-800vdc-dresden-300mm-wbg-details",
+      "originalTitle": "Electronica 2026: Infineon’s Adam White on 800 VDC, Dresden, and 300-mm Wide Bandgap",
+      "provenance": {
+        "url": "https://www.powerelectronicsnews.com/electronica-2026-infineons-adam-white-on-800-vdc-dresden-and-300-mm-wide-bandgap/",
+        "retrievedAt": "2026-11-14T03:09:41.636Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英飞凌高管在Electronica 2026透露800VDC数据中心系统进展、德累斯顿工厂建设情况、300mm GaN和SiC量产计划等新细节，包括300mm GaN生产将于2027年底启动。",
+        "evidence": [
+          "He notes, in particular, a strong pipeline of customers leveraging Infineon power semiconductors for SSTs and the recent SSCB collaboration with Siemens&#8211;a finished product that is ready for deployment.",
+          "According to Infineon , production is scheduled to start by the end of 2027. &#8220;We need these technologies to go to 12-inch, because we will need the capacity to serve the customer base,” says White."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "18738f5b37d33c",
+      "title": "NVIDIA矿卡破解恢复80GB显存",
+      "summary": "研究者Kate通过电压故障注入绕过电子熔丝控制器，成功解锁CMP 170HX矿卡被屏蔽的HBM显存和流处理器。测试中10张8GB矿卡有9张恢复完整80GB显存，性能超过A100约18%。该改造不可逆且有损坏风险。",
+      "points": [
+        "CMP 170HX采用GA100 GPU，出厂屏蔽大量硬件功能。Kate瞄准电子熔丝控制器，通过电压故障注入绕过写入限制，修改配置以重新启用原本存在的HBM显存和流处理器，而非焊接新显存。",
+        "10张8GB矿卡中9张成功启用完整80GB显存，1张仅64GB。部分改卡恢复PCIe 4.0和NVLink功能，但未全部验证。解锁后OpenCL FP16 FMA性能约85.9 TFLOPS，高于A100的72.5 TFLOPS。",
+        "8GB版CMP 170HX二手价约3000美元，而A100 80GB PCIe版可达20000美元以上。研究者已向NVIDIA产品安全团队披露。改造涉及硬件操作和不可逆配置修改，有损坏风险，不适合普通用户。"
+      ],
+      "cards": [
+        {
+          "heading": "破解原理",
+          "body": "CMP 170HX采用GA100 GPU，出厂屏蔽大量硬件功能。Kate瞄准电子熔丝控制器，通过电压故障注入绕过写入限制，修改配置以重新启用原本存在的HBM显存和流处理器，而非焊接新显存。"
+        },
+        {
+          "heading": "测试结果",
+          "body": "10张8GB矿卡中9张成功启用完整80GB显存，1张仅64GB。部分改卡恢复PCIe 4.0和NVLink功能，但未全部验证。解锁后OpenCL FP16 FMA性能约85.9 TFLOPS，高于A100的72.5 TFLOPS。"
+        },
+        {
+          "heading": "成本与风险",
+          "body": "8GB版CMP 170HX二手价约3000美元，而A100 80GB PCIe版可达20000美元以上。研究者已向NVIDIA产品安全团队披露。改造涉及硬件操作和不可逆配置修改，有损坏风险，不适合普通用户。"
+        }
+      ],
+      "category": "research",
+      "categoryLabel": "研究与论文",
+      "categoryColor": "#4a7c3f",
+      "importance": 4,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1586250.htm",
+      "published": "2026-11-13T07:58:52.000Z",
+      "score": 15.81,
+      "eventKey": "nvidia-cmp-170hx-hbm-unlock-80gb-voltage-fault-injection",
+      "originalTitle": "NVIDIA计算卡限制遭破解 8GB显存秒变80GB",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1586250.htm",
+        "retrievedAt": "2026-11-14T03:09:30.091Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "研究者通过电压故障注入破解NVIDIA CMP 170HX限制，恢复80GB HBM显存，是具体的技术突破。",
+        "evidence": [
+          "这次并非焊接新显存芯片,而是重新启用矿卡内部原本就存在、却被屏蔽的HBM显存,Kate称,8GB版本实际上封装了约80GB HBM,另一种10GB版本则封装了约40GB。",
+          "Kate此次瞄准了GPU内部负责配置硬件功能的电子熔丝控制器,通过电压故障注入绕过写入限制,再修改相关配置,让原本被屏蔽的显存和流处理器重新工作。",
+          "在测试的10张8GB矿卡中,有9张成功启用完整80GB显存,另一张则只能使用64GB,部分改卡还恢复了PCIe 4.0和NVLink等功能,但并非所有功能都经过完整验证。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1fd32c1060fe24",
+      "title": "意法半导体扩展GANSPIN系列，推出三款100V GaN驱动器",
+      "summary": "意法半导体推出三款100V氮化镓电机驱动器GANSPIN1102、1102E和1105，集成GaN晶体管和驱动电路，面向机器人、工业自动化等应用，支持高达60A连续输出电流和5MHz开关频率，预计2026年底上市。",
+      "points": [
+        "GANSPIN1102典型导通电阻2.4mΩ；GANSPIN1102E增加顶部散热；GANSPIN1105典型导通电阻5.5mΩ。均采用5mm×6.5mm封装，集成两个GaN晶体管、栅极驱动和保护电路。",
+        "传播延迟仅20ns，延迟匹配精度1ns，支持最高5MHz开关频率；具备智能防直通、近零死区时间、动态自举控制等功能，工作结温-40°C至125°C。",
+        "面向机器人、工业自动化、电动自行车、无人机和电动工具，支持两层PCB布局。预计2026年底供货，将在electronica 2026展示机器人臂应用。"
+      ],
+      "cards": [
+        {
+          "heading": "产品阵容",
+          "body": "GANSPIN1102典型导通电阻2.4mΩ；GANSPIN1102E增加顶部散热；GANSPIN1105典型导通电阻5.5mΩ。均采用5mm×6.5mm封装，集成两个GaN晶体管、栅极驱动和保护电路。"
+        },
+        {
+          "heading": "关键性能",
+          "body": "传播延迟仅20ns，延迟匹配精度1ns，支持最高5MHz开关频率；具备智能防直通、近零死区时间、动态自举控制等功能，工作结温-40°C至125°C。"
+        },
+        {
+          "heading": "应用与上市",
+          "body": "面向机器人、工业自动化、电动自行车、无人机和电动工具，支持两层PCB布局。预计2026年底供货，将在electronica 2026展示机器人臂应用。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "Power Electronics News",
+      "sourceLang": "en",
+      "url": "https://www.powerelectronicsnews.com/st-expands-ganspin-family-with-100v-gan-drivers/",
+      "published": "2026-11-13T15:00:00.000Z",
+      "score": 25.98,
+      "eventKey": "st-ganspin-100v-gan-driver-launch",
+      "originalTitle": "ST Expands GANSPIN Family with 100V GaN Drivers",
+      "provenance": {
+        "url": "https://www.powerelectronicsnews.com/st-expands-ganspin-family-with-100v-gan-drivers/",
+        "retrievedAt": "2026-11-14T03:09:36.920Z",
+        "articlePublished": null,
+        "evidenceType": "feed_full"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "ST发布三款100V GaN电机驱动器，有具体型号、参数和供货时间，属于常规产品发布。",
+        "evidence": [
+          "STMicroelectronics has extended its GANSPIN family with three new 100-V gallium nitride (GaN) motor drivers designed to simplify the development of compact, high-efficiency motor control systems.",
+          "The new portfolio includes the GANSPIN1102 , with a typical RDS(on) of 2.4 mΩ; the GANSPIN1102E , which adds top-side cooling for improved thermal management; and the GANSPIN1105 , with a typical RDS(on) of 5.5 mΩ.",
+          "Devices are expected to be available by the end of 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1f4b379128fd87",
+      "title": "英特尔在韩组23家企业AI联盟，推无HBM推理GPU",
+      "summary": "英特尔在2026年首尔AI峰会上宣布组建由23家韩国企业参与的AI联盟，并推出以低功耗DRAM替代高带宽内存的推理GPU，同时向韩国市场提供定制芯片设计与代工服务。",
+      "points": [
+        "联盟围绕韩国制造的服务器组建，共23家公司参与，旨在整合韩国AI生态系统资源，推动基于韩国服务器的AI解决方案落地。",
+        "英特尔推出推理GPU，用低功耗DRAM替代高成本HBM，降低推理成本，面向AI推理场景，区别于训练用GPU架构。",
+        "英特尔在峰会上向韩国市场推广其定制芯片设计服务和代工产能，瞄准韩国众多NPU初创公司及两大存储制造商的需求。"
+      ],
+      "cards": [
+        {
+          "heading": "联盟构成",
+          "body": "联盟围绕韩国制造的服务器组建，共23家公司参与，旨在整合韩国AI生态系统资源，推动基于韩国服务器的AI解决方案落地。"
+        },
+        {
+          "heading": "无HBM推理GPU",
+          "body": "英特尔推出推理GPU，用低功耗DRAM替代高成本HBM，降低推理成本，面向AI推理场景，区别于训练用GPU架构。"
+        },
+        {
+          "heading": "代工与设计服务",
+          "body": "英特尔在峰会上向韩国市场推广其定制芯片设计服务和代工产能，瞄准韩国众多NPU初创公司及两大存储制造商的需求。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "存储"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL226/intel-gpu-alliance-president-design.html",
+      "published": "2026-11-13T06:40:01.000Z",
+      "score": 25.59,
+      "eventKey": "intel-korea-ai-alliance-hbm-free-inference-gpu",
+      "originalTitle": "Intel forms 23-company Korean AI alliance as it pitches HBM-free inference GPU",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL226/intel-gpu-alliance-president-design.html",
+        "retrievedAt": "2026-11-14T03:09:24.247Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔在首尔AI峰会上组建23家韩国企业联盟，并推出无HBM推理GPU，是具体新事件。",
+        "evidence": [
+          "Intel is courting South Korea's AI ecosystem on two fronts: a 23-company alliance built around Korean-made servers and an inference GPU that swaps costly high-bandwidth memory (HBM) for low-power DRAM.",
+          "At the 2026 Intel AI Summit Seoul, held at COEX on November 12, the US chipmaker also offered its custom chip design and foundry services to a market crowded with neural processing unit (NPU) startups and home to two of the world's largest "
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ed08f96cbb7aa",
+      "title": "鸿海3Q26 AI服务器出货大增，ASIC增1.5倍GPU增70%",
+      "summary": "鸿海精密（富士康）公布2026年第三季度AI服务器出货数据，ASIC AI服务器出货同比增长1.5倍，GPU AI服务器出货增长约70%，并预期2027年AI服务器业务将继续推动双位数增长。",
+      "points": [
+        "2026年第三季度，ASIC AI服务器出货量同比增长1.5倍，GPU AI服务器出货量同比增长约70%，显示AI服务器需求强劲。",
+        "鸿海董事长刘扬伟表示，对AI机架需求保持信心，预计2027年整体营收将继续双位数增长，主要由AI服务器驱动。",
+        "鸿海计划通过扩大AI解决方案范围和客户基础来提升市场份额，覆盖更多云端和企业客户。"
+      ],
+      "cards": [
+        {
+          "heading": "出货增长",
+          "body": "2026年第三季度，ASIC AI服务器出货量同比增长1.5倍，GPU AI服务器出货量同比增长约70%，显示AI服务器需求强劲。"
+        },
+        {
+          "heading": "2027年展望",
+          "body": "鸿海董事长刘扬伟表示，对AI机架需求保持信心，预计2027年整体营收将继续双位数增长，主要由AI服务器驱动。"
+        },
+        {
+          "heading": "市场策略",
+          "body": "鸿海计划通过扩大AI解决方案范围和客户基础来提升市场份额，覆盖更多云端和企业客户。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113PD200/foxconn-shipments-asic-ai-server-gpu.html",
+      "published": "2026-11-13T04:15:00.000Z",
+      "score": 25.19,
+      "eventKey": "foxconn-q3-2026-asic-ai-server-shipments-growth",
+      "originalTitle": "Foxconn ASIC AI server shipments surge 1.5x YoY in 3Q26, GPU servers up 70%",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113PD200/foxconn-shipments-asic-ai-server-gpu.html",
+        "retrievedAt": "2026-11-14T03:09:24.846Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "鸿海3Q26 ASIC AI服务器出货同比增1.5倍、GPU服务器增70%，是具体财报/出货数据，与历史中鸿海报道不同。",
+        "evidence": [
+          "Hon Hai Precision Industry (Foxconn) expects continued double-digit growth in 2027, led by artificial intelligence (AI) servers, as application-specific integrated circuit (ASIC) AI server shipments surged 1.5 times year over year and GPU A",
+          "I server shipments grew about 70% in the third quarter of 2026."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "dc4b54ac8467a",
+      "title": "AMD桌面CPU份额五季首降，英特尔回升至70.1%",
+      "summary": "Mercury Research数据显示，2026年第三季度AMD桌面CPU出货份额降至29.9%，环比下降5个百分点，为2025年初以来最低；英特尔份额回升至70.1%。AMD称需求超过供货能力，且更侧重数据中心业务。",
+      "points": [
+        "AMD桌面CPU份额从Q2的34.9%降至Q3的29.9%，英特尔升至70.1%。去年同期AMD份额为33.6%，2025年初约28%。",
+        "Mercury Research推测，笔记本需求疲软使英特尔将更多芯片转向桌面市场，而AMD未获得季节性增长。AMD还依赖PC游戏市场，该市场受显卡供应限制影响。",
+        "服务器市场AMD份额从34.5%升至35.5%，与桌面趋势相反。Q3两家公司移动CPU出货量均下降超10%。"
+      ],
+      "cards": [
+        {
+          "heading": "份额变化",
+          "body": "AMD桌面CPU份额从Q2的34.9%降至Q3的29.9%，英特尔升至70.1%。去年同期AMD份额为33.6%，2025年初约28%。"
+        },
+        {
+          "heading": "原因分析",
+          "body": "Mercury Research推测，笔记本需求疲软使英特尔将更多芯片转向桌面市场，而AMD未获得季节性增长。AMD还依赖PC游戏市场，该市场受显卡供应限制影响。"
+        },
+        {
+          "heading": "服务器逆势",
+          "body": "服务器市场AMD份额从34.5%升至35.5%，与桌面趋势相反。Q3两家公司移动CPU出货量均下降超10%。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354824/amd-loses-desktop-cpu-share-for-the-first-time-in-months-intel-regains-ground",
+      "published": "2026-11-14T01:16:16.000Z",
+      "score": 24.69,
+      "eventKey": "amd-desktop-cpu-share-drop-q3-2026-mercury",
+      "originalTitle": "AMD Loses Desktop CPU Share for the First Time in Months, Intel Regains Ground",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354824/amd-loses-desktop-cpu-share-for-the-first-time-in-months-intel-regains-ground",
+        "retrievedAt": "2026-11-14T03:09:24.606Z",
+        "articlePublished": "2026-11-14T01:16:16.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Mercury Research数据显示AMD桌面CPU份额首次下降，Intel回升，是具体的市场份额变化数据。",
+        "evidence": [
+          "AMD's share of desktop CPU shipments fell to 29.9% in the third quarter of 2026, according to new Mercury Research data, shared by PC Gamer.",
+          "That's a five-point drop from the 34.9% AMD held in Q2, with Intel climbing back to 70.1%."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "7f3c2cfcbee76",
+      "title": "港大孵化金刚石半导体公司获数千万融资",
+      "summary": "半导体材料公司钻耐科思（DiamNEX）完成数千万元新一轮融资，由耀途资本独家投资。公司由香港大学孵化，专注金刚石半导体，其“边缘暴露剥离法”可制备晶圆级金刚石薄膜，试生产线已落地深圳，可稳定制备4英寸及以上薄膜。",
+      "points": [
+        "DiamNEX成立于2025年，由香港大学孵化，创始人褚智勤为港大电机与计算机工程系副教授，在金刚石方向发表论文超80篇、专利17项。本轮融资由耀途资本独家投资，金额数千万元，用于产线扩容、团队扩充及筹建香港研发中心。",
+        "DiamNEX首创“边缘暴露剥离法”，通过生长、切口、机械剥离三步从衬底剥离晶圆级柔性金刚石薄膜，厚度低至200纳米，表面粗糙度优于0.5纳米，热导率超1300 W/m·K。成果发表于《Nature》，入选香港政府产学研1+计划，获超5000万港币资助。",
+        "金刚石薄膜试生产线已落地深圳，可稳定制备4英寸及以上（最大12英寸）薄膜，成本大幅降低。公司已与国内外头部企业和科研院所开展合作研发和送样验证，商业化稳步推进。"
+      ],
+      "cards": [
+        {
+          "heading": "融资与团队",
+          "body": "DiamNEX成立于2025年，由香港大学孵化，创始人褚智勤为港大电机与计算机工程系副教授，在金刚石方向发表论文超80篇、专利17项。本轮融资由耀途资本独家投资，金额数千万元，用于产线扩容、团队扩充及筹建香港研发中心。"
+        },
+        {
+          "heading": "技术突破",
+          "body": "DiamNEX首创“边缘暴露剥离法”，通过生长、切口、机械剥离三步从衬底剥离晶圆级柔性金刚石薄膜，厚度低至200纳米，表面粗糙度优于0.5纳米，热导率超1300 W/m·K。成果发表于《Nature》，入选香港政府产学研1+计划，获超5000万港币资助。"
+        },
+        {
+          "heading": "产业化进展",
+          "body": "金刚石薄膜试生产线已落地深圳，可稳定制备4英寸及以上（最大12英寸）薄膜，成本大幅降低。公司已与国内外头部企业和科研院所开展合作研发和送样验证，商业化稳步推进。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "雷锋网",
+      "sourceLang": "zh",
+      "url": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html",
+      "published": "2026-11-13T09:22:00.000Z",
+      "score": 20.04,
+      "eventKey": "diamnex-diamond-film-funding-youtucapital",
+      "originalTitle": "独家丨港大孵化的半导体材料公司，融资数千万",
+      "provenance": {
+        "url": "https://www.leiphone.com/category/weiwu/DewyIGiyxQl09nUM.html",
+        "retrievedAt": "2026-11-14T03:09:28.426Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "港大孵化的金刚石半导体材料公司DiamNEX完成数千万元新一轮融资，由耀途资本独家投资。其边缘暴露剥离法可制备4-12英寸金刚石薄膜，试产线已落地深圳。融资与产线进展均为新事实。",
+        "evidence": [
+          "作者丨陈玘凡编辑丨吴优雷峰网(公众号:雷峰网)·鲸犀独家获悉,半导体材料公司钻耐科思科技(DiamNEX)已完成数千万元新一轮融资,由耀途资本独家投资。",
+          "DiamNEX选择在多晶路线上进行进一步拓展,其首创的\"边缘暴露剥离法\"按\"生长、切口、机械剥离\"三步,能够从衬底上直接剥出晶圆级柔性金刚石薄膜,厚度低至200纳米、表面粗糙度优于0.5纳米、热导率超过1300 W/m·K。",
+          "目前,金刚石薄膜试生产线已落地深圳,已可稳定制备4英寸及以上(最大12英寸)的金刚石薄膜,在成本大幅降低的同时,为算力芯片、先进封装等应用提供了理想的材料方案。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1c9d211f6a466d",
+      "title": "Intel文档确认Razor Lake桌面与笔记本型号ID",
+      "summary": "Intel在11月版指令集参考文档中为Razor Lake和Coral Rapids新增型号ID。Razor Lake归入Nova Lake同族，含桌面与笔记本型号；Coral Rapids为Xeon家族，新增13_08H。两者均支持APIC-Timer虚拟化，Coral Rapids新增量子抗性签名指令。",
+      "points": [
+        "Razor Lake在family 18下新增四个型号值：12_06H和12_0AH对应桌面，12_07H和12_09H对应笔记本。Coral Rapids Xeon获得13_08H，紧随Diamond Rapids的13_01H。",
+        "Razor Lake新增SSBD_PSFD_U_S，允许用户态和监管态分别控制推测性内存行为。两家族均获得APIC-Timer虚拟化。Coral Rapids新增VPMLDSABFLYDQ指令，面向量子抗性数字签名标准ML-DSA。",
+        "Razor Lake-S预计2028年发布，采用LGA-1954接口。Coral Rapids是Intel计划同年恢复SMT的Xeon代次。CPU-Z已在本月添加Razor Lake支持。Intel提醒参考文档特性不保证最终产品保留。"
+      ],
+      "cards": [
+        {
+          "heading": "型号ID分配",
+          "body": "Razor Lake在family 18下新增四个型号值：12_06H和12_0AH对应桌面，12_07H和12_09H对应笔记本。Coral Rapids Xeon获得13_08H，紧随Diamond Rapids的13_01H。"
+        },
+        {
+          "heading": "新特性",
+          "body": "Razor Lake新增SSBD_PSFD_U_S，允许用户态和监管态分别控制推测性内存行为。两家族均获得APIC-Timer虚拟化。Coral Rapids新增VPMLDSABFLYDQ指令，面向量子抗性数字签名标准ML-DSA。"
+        },
+        {
+          "heading": "产品进度",
+          "body": "Razor Lake-S预计2028年发布，采用LGA-1954接口。Coral Rapids是Intel计划同年恢复SMT的Xeon代次。CPU-Z已在本月添加Razor Lake支持。Intel提醒参考文档特性不保证最终产品保留。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354804/intels-isa-reference-confirms-razor-lake-desktop-and-laptop-model-ids",
+      "published": "2026-11-13T19:51:02.000Z",
+      "score": 18.79,
+      "eventKey": "intel-isa-reference-razor-lake-coral-rapids-model-ids",
+      "originalTitle": "Intel's ISA Reference Confirms Razor Lake Desktop and Laptop Model IDs",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354804/intels-isa-reference-confirms-razor-lake-desktop-and-laptop-model-ids",
+        "retrievedAt": "2026-11-14T03:09:29.032Z",
+        "articlePublished": "2026-11-13T19:51:02.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔ISA参考文档新增Razor Lake和Coral Rapids的型号ID及新指令，是具体的产品规划新信息，对软件生态有实际影响。",
+        "evidence": [
+          "Intel has added Razor Lake and Coral Rapids to the November edition of its Architecture Instruction Set Extensions Programming Reference, the document developers use to prepare software for upcoming chips.",
+          "Revision 063 gives Razor Lake four new model values under family 18 (12H), the same family as Nova Lake, with 12_06H and 12_0AH covering desktop parts and 12_07H and 12_09H covering laptops.",
+          "The Coral Rapids Xeon family gets 13_08H, following Diamond Rapids at 13_01H."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "IT之家",
+          "url": "https://www.ithome.com/1/027/025.htm"
+        }
+      ]
+    },
+    {
+      "id": "89705c329751c",
+      "title": "Mars Semiconductor营收微增，eBMC订单2027下半年明朗",
+      "summary": "Mars Semiconductor公布2026年前三季度累计营收同比小幅增长，季度业绩稳步上升，EPS增幅显著。公司预计2027年现有产品线小幅增长，新边缘服务器管理芯片eBMC有望下半年获客户认证，订单前景更清晰。",
+      "points": [
+        "2026年前三季度累计营收较2025年同期小幅增长，季度业绩稳步上升，EPS增幅显著。公司副总裁兼发言人Ho Tsung-ming在本周投资者会议上披露。",
+        "现有产品线预计2027年小幅增长；新eBMC产品线预计下半年获得客户认证，订单可见度提升。"
+      ],
+      "cards": [
+        {
+          "heading": "前三季度业绩",
+          "body": "2026年前三季度累计营收较2025年同期小幅增长，季度业绩稳步上升，EPS增幅显著。公司副总裁兼发言人Ho Tsung-ming在本周投资者会议上披露。"
+        },
+        {
+          "heading": "2027年展望",
+          "body": "现有产品线预计2027年小幅增长；新eBMC产品线预计下半年获得客户认证，订单可见度提升。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113PD208/mars-semiconductor-revenue-growth-2026-ddr.html",
+      "published": "2026-11-13T08:15:00.000Z",
+      "score": 25.85,
+      "eventKey": "mars-semiconductor-q3-2026-revenue-ebmc-orders-2h27",
+      "originalTitle": "Mars Semiconductor posts slight revenue growth, expects eBMC orders in 2H27",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113PD208/mars-semiconductor-revenue-growth-2026-ddr.html",
+        "retrievedAt": "2026-11-14T03:09:23.197Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Mars Semiconductor公布前三季度营收微增，并预期2027下半年获得eBMC订单，有具体财务和业务进展。",
+        "evidence": [
+          "Mars Semiconductor's cumulative revenue for the first three quarters of 2026 edged up from the same period in 2025, while quarterly results rose steadily and EPS growth was significant, company Vice President and spokesperson Ho Tsung-ming ",
+          "Looking ahead to 2027, existing product lines are expected to grow slightly, while the company's new edge server management chip (eBMC) line is expected to win customer approval in the second half, bringing orders into clearer view."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "8266216e8db78",
+      "title": "Nordic nRF71系列单芯片集成Wi-Fi与边缘AI",
+      "summary": "Nordic Semiconductor推出nRF71系列首批两款芯片，现已开始送样。该系列将双频或三频Wi-Fi 6、蓝牙LE和Thread集成于单芯片，并支持边缘AI，待机功耗较nRF70系列降低最多20倍。",
+      "points": [
+        "首批两款nRF71芯片支持双频或三频Wi-Fi 6，同时集成蓝牙LE和Thread，适用于物联网和边缘AI应用。",
+        "与nRF70系列相比，nRF71的待机功耗降低最多20倍，显著提升电池供电设备的续航能力。",
+        "nRF71系列现已开始向客户提供样品，量产时间尚未公布。"
+      ],
+      "cards": [
+        {
+          "heading": "芯片规格",
+          "body": "首批两款nRF71芯片支持双频或三频Wi-Fi 6，同时集成蓝牙LE和Thread，适用于物联网和边缘AI应用。"
+        },
+        {
+          "heading": "功耗优势",
+          "body": "与nRF70系列相比，nRF71的待机功耗降低最多20倍，显著提升电池供电设备的续航能力。"
+        },
+        {
+          "heading": "供货状态",
+          "body": "nRF71系列现已开始向客户提供样品，量产时间尚未公布。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Electronics-Lab",
+      "sourceLang": "en",
+      "url": "https://www.electronics-lab.com/news/nordics-nrf71-series-puts-wi-fi-and-edge-ai-on-one-chip/",
+      "published": "2026-11-13T12:00:36.000Z",
+      "score": 24.48,
+      "eventKey": "nordic-nrf71-series-wifi-edge-ai-launch",
+      "originalTitle": "Nordic’s nRF71 Series Puts Wi-Fi and Edge AI on One Chip",
+      "provenance": {
+        "url": "https://www.electronics-lab.com/news/nordics-nrf71-series-puts-wi-fi-and-edge-ai-on-one-chip/",
+        "retrievedAt": "2026-11-14T03:09:24.584Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Nordic发布nRF71系列芯片，将Wi-Fi 6与边缘AI集成于单芯片，首批两款已开始提供样品，待机功耗较nRF70系列降低最多20倍。这是具体的新产品发布动态。",
+        "evidence": [
+          "Sampling now: the first two parts pair dual- or tri-band Wi-Fi 6 with Bluetooth LE and Thread, and cut standby draw by up to 20 times compared with the nRF70 family."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
