@@ -1,7 +1,22 @@
 {
-  "generatedAt": "2026-11-14T03:10:29.394Z",
-  "total": 29,
+  "generatedAt": "2026-11-15T02:37:51.475Z",
+  "total": 30,
   "editions": [
+    {
+      "date": "2026-11-15",
+      "count": 8,
+      "intro": "本期共 8 条动态，其中 2 条值得重点关注，集中在芯片设计、EDA方向。",
+      "top": [
+        "MetaX与优必选合资芯片公司获5亿元天使轮融资",
+        "华大九天联合基金整合数字前端EDA，新禹思成立",
+        "Synopsys与OpenAI合作开发半导体专用AI模型"
+      ],
+      "categories": {
+        "design": 4,
+        "eda": 2,
+        "policy": 2
+      }
+    },
     {
       "date": "2026-11-14",
       "count": 18,

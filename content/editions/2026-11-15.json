@@ -1,0 +1,473 @@
+{
+  "date": "2026-11-15",
+  "generatedAt": "2026-11-15T02:37:51.466Z",
+  "intro": "本期共 8 条动态，其中 2 条值得重点关注，集中在芯片设计、EDA方向。",
+  "stats": {
+    "count": 8,
+    "sources": 5,
+    "sourcesFetched": 32,
+    "sourcesTotal": 33,
+    "categories": {
+      "design": 4,
+      "eda": 2,
+      "policy": 2
+    },
+    "failedSources": [
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 93403,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 19,
+      "readable": 19,
+      "accepted": 8,
+      "rejected": 3411,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "1e2c8884fa73ce",
+      "title": "MetaX与优必选合资芯片公司获5亿元天使轮融资",
+      "summary": "由GPU设计公司MetaX与人形机器人厂商优必选合资成立的机器人芯片企业Xilect完成5亿元人民币天使轮融资，将打造面向具身智能的国产计算平台，对标英伟达Thor芯片。",
+      "points": [
+        "Xilect完成5亿元人民币（约合7476万美元）天使轮融资，资金将用于建设面向具身智能的国产计算平台。",
+        "Xilect由国产GPU设计公司MetaX与人形机器人制造商优必选联合成立，聚焦机器人芯片领域。",
+        "Xilect的芯片平台以英伟达Thor为基准，后者是英伟达面向自动驾驶和机器人的高算力芯片。"
+      ],
+      "cards": [
+        {
+          "heading": "融资规模",
+          "body": "Xilect完成5亿元人民币（约合7476万美元）天使轮融资，资金将用于建设面向具身智能的国产计算平台。"
+        },
+        {
+          "heading": "合资背景",
+          "body": "Xilect由国产GPU设计公司MetaX与人形机器人制造商优必选联合成立，聚焦机器人芯片领域。"
+        },
+        {
+          "heading": "对标产品",
+          "body": "Xilect的芯片平台以英伟达Thor为基准，后者是英伟达面向自动驾驶和机器人的高算力芯片。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261112VL205/robot-nvidia-metax-gpu-software.html",
+      "published": "2026-11-14T17:58:00.000Z",
+      "score": 27.56,
+      "eventKey": "xilect-500m-angel-round-robot-chip-metax-ubtech",
+      "originalTitle": "MetaX-UBTech robot chip venture Xilect raises CNY500 million to take on Nvidia Thor",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261112VL205/robot-nvidia-metax-gpu-software.html",
+        "retrievedAt": "2026-11-15T02:37:25.682Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "MetaX与优必选合资的机器人芯片公司Xilect完成5亿元人民币天使轮融资，目标对标英伟达Thor，是新的投融资事件，具有具体金额和明确业务方向。",
+        "evidence": [
+          "Xilect, a robot-chip venture set up by Chinese GPU designer MetaX and humanoid robot maker UBTech Robotics, has completed a CNY500 million (US$74.76 million) angel round to build a domestic computing platform for embodied AI, with Nvidia's ",
+          "Thor as its benchmark."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "4f2da9feeec6f",
+      "title": "华大九天联合基金整合数字前端EDA，新禹思成立",
+      "summary": "华大九天与粤港澳大湾区科技创新产业投资基金宣布亚科鸿禹与思尔芯合并重组，新公司“新禹思”成立。新公司拥有专利205项、软件著作权200项，服务全球客户超800家，具备数字前端全流程供给能力。",
+      "points": [
+        "在IC China期间，华大九天与粤港澳大湾区基金宣布亚科鸿禹与思尔芯合并，新平台公司“新禹思”正式成立，定位为国产数字前端EDA新平台。",
+        "新禹思拥有专利205项、软件著作权200项，覆盖从架构设计到系统级验证的数字前端全流程，服务全球客户超过800家。",
+        "华大九天将支持新禹思衔接模拟、数字、晶圆制造等环节工具链；国产CPU企业飞腾已长期使用其FPGA原型验证系统，后续将打通业务协同。"
+      ],
+      "cards": [
+        {
+          "heading": "合并重组",
+          "body": "在IC China期间，华大九天与粤港澳大湾区基金宣布亚科鸿禹与思尔芯合并，新平台公司“新禹思”正式成立，定位为国产数字前端EDA新平台。"
+        },
+        {
+          "heading": "资产与能力",
+          "body": "新禹思拥有专利205项、软件著作权200项，覆盖从架构设计到系统级验证的数字前端全流程，服务全球客户超过800家。"
+        },
+        {
+          "heading": "生态协同",
+          "body": "华大九天将支持新禹思衔接模拟、数字、晶圆制造等环节工具链；国产CPU企业飞腾已长期使用其FPGA原型验证系统，后续将打通业务协同。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 4,
+      "tags": [
+        "EDA"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/027/230.htm",
+      "published": "2026-11-14T13:07:04.000Z",
+      "score": 20.75,
+      "eventKey": "empyrean-hypers2c-formation-eda-merger",
+      "originalTitle": "华大九天联合大湾区基金完成国产数字前端 EDA 专业化整合，新公司“新禹思”成立",
+      "provenance": {
+        "url": "https://www.ithome.com/1/027/230.htm",
+        "retrievedAt": "2026-11-15T02:37:24.516Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "华大九天联合大湾区基金完成亚科鸿禹与思尔芯合并重组，成立新公司新禹思（HyperS2C），是国产EDA领域的重大整合事件，具有具体专利数和客户数。",
+        "evidence": [
+          "IT之家 11 月 14 日消息,在第二十三届中国国际半导体博览会(IC China)期间,北京华大九天科技股份有限公司与粤港澳大湾区科技创新产业投资基金,在北京 · 国家会议中心联合举行“国产数字前端 EDA 新平台发布会”,宣布亚科鸿禹与思尔芯合并重组,新平台公司“新禹思”(HyperS2C)正式成立。",
+          "整合后的新禹思,拥有专利 205 项、软件著作权 200 项,具备覆盖从架构设计到系统级验证的数字前端全流程供给能力,服务全球客户超过 800 家,实现了技术能力的升级、产品体系的升级、客户网络的升级,全面对标国际顶尖技术水平。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "119b6e23aa2148",
+      "title": "Synopsys与OpenAI合作开发半导体专用AI模型",
+      "summary": "Synopsys首席产品开发官Shankar Krishnamoorthy表示，AI将加速EDA行业发展。公司正与OpenAI合作开发半导体专用模型，同时保持对前沿模型和开放权重模型的支持，以维持平台中立性。",
+      "points": [
+        "Synopsys与OpenAI合作开发半导体专用模型，旨在利用AI加速电子设计自动化流程。",
+        "公司同时支持前沿模型和开放权重模型，确保平台中立性，避免锁定单一AI供应商。",
+        "Krishnamoorthy认为AI将推动EDA行业加速发展，但未透露具体产品时间表或性能数据。"
+      ],
+      "cards": [
+        {
+          "heading": "合作方向",
+          "body": "Synopsys与OpenAI合作开发半导体专用模型，旨在利用AI加速电子设计自动化流程。"
+        },
+        {
+          "heading": "平台策略",
+          "body": "公司同时支持前沿模型和开放权重模型，确保平台中立性，避免锁定单一AI供应商。"
+        },
+        {
+          "heading": "行业影响",
+          "body": "Krishnamoorthy认为AI将推动EDA行业加速发展，但未透露具体产品时间表或性能数据。"
+        }
+      ],
+      "category": "eda",
+      "categoryLabel": "EDA",
+      "categoryColor": "#6b4fbb",
+      "importance": 3,
+      "tags": [
+        "EDA"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261112PD239/synopsys-eda-openai-development-design.html",
+      "published": "2026-11-14T18:59:00.000Z",
+      "score": 25.73,
+      "eventKey": "synopsys-ai-eda-openai-semiconductor-models",
+      "originalTitle": "Synopsys sees AI accelerating EDA as chip-specific models divide work",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261112PD239/synopsys-eda-openai-development-design.html",
+        "retrievedAt": "2026-11-15T02:37:25.579Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "Synopsys高管关于AI加速EDA及与OpenAI合作开发半导体专用模型的表态，属于EDA行业动态，有具体合作对象和方向。",
+        "evidence": [
+          "Synopsys chief product development officer Shankar Krishnamoorthy said AI will accelerate the electronic design automation (EDA) industry as the company works with OpenAI to develop semiconductor-specific models, while maintaining support f",
+          "or both frontier and open-weight models to preserve platform neutrality."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "b5e2661723e2c",
+      "title": "马来西亚拟立法以数据中心用电量监测AI芯片走私",
+      "summary": "马来西亚计划出台新法律，要求数据中心运营商披露AI加速器进口量和用电量，以防范受限芯片转口至中国等国，并拟对预留未用的电力容量收费。",
+      "points": [
+        "新法要求数据中心运营商披露AI加速器进口和电力消耗数据，防止受限硬件被转口至中国等国，同时优化电力基础设施使用。",
+        "马来西亚投资、贸易及工业部长拿督斯里佐哈里·阿卜杜勒·加尼承认，有公司租用本地数据中心合法进口GPU后走私出境。",
+        "当局计划对数据中心运营商预留但未使用的电力容量收费；数字部正审查现有法律，以确定能否对再出口受美国出口禁令管制处理器的实体采取行动。"
+      ],
+      "cards": [
+        {
+          "heading": "立法目的",
+          "body": "新法要求数据中心运营商披露AI加速器进口和电力消耗数据，防止受限硬件被转口至中国等国，同时优化电力基础设施使用。"
+        },
+        {
+          "heading": "背景问题",
+          "body": "马来西亚投资、贸易及工业部长拿督斯里佐哈里·阿卜杜勒·加尼承认，有公司租用本地数据中心合法进口GPU后走私出境。"
+        },
+        {
+          "heading": "配套措施",
+          "body": "当局计划对数据中心运营商预留但未使用的电力容量收费；数字部正审查现有法律，以确定能否对再出口受美国出口禁令管制处理器的实体采取行动。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+      "published": "2026-11-14T15:10:00.000Z",
+      "score": 21.09,
+      "eventKey": "malaysia-data-center-power-law-gpu-smuggling",
+      "originalTitle": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers",
+      "provenance": {
+        "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+        "retrievedAt": "2026-11-15T02:37:24.236Z",
+        "articlePublished": "2026-11-14T15:10:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "马来西亚计划出台新法律，要求数据中心运营商披露AI加速器进口和功耗以打击GPU走私，并拟对未使用电力容量收费，是新的政策动态，有具体措施细节。",
+        "evidence": [
+          "Malaysia plans to introduce a new law requiring data center operators to disclose their AI accelerator imports and power consumption to prevent diversion of restricted hardware to countries like China and optimize the use of the country’s p",
+          "ower infrastructure, reports Malay Mail.",
+          "The authorities also plan to charge data center operators for unused electricity capacity they reserve."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "401c4442b0e95",
+      "title": "Tendrils Compute获3000万美元融资研发数千核心处理器",
+      "summary": "英国剑桥初创公司Tendrils Compute完成3000万美元融资，由Benchmark领投。公司计划基于交互网络架构打造可扩展至数千核心的通用处理器，并开发开源编程语言Vine，但尚未公布实体芯片性能基准。",
+      "points": [
+        "本轮融资由Benchmark领投，Visionaries Club、英国主权人工智能基金、FR8、Antimatter、Cloudberry VC、Conviction、Embassy Ventures和SV Angels等参投，新董事会成员为Jack Altman。",
+        "Tendrils采用交互网络架构，让大量小型计算过程并行运行，减少对共享可变内存和线性指令序列的依赖，以突破传统CPU扩展瓶颈。",
+        "公司正在开发开源编程语言Vine，目标是让软硬件从设计之初就面向并行优先的处理器。",
+        "尚未公布实体芯片的性能基准或详细硬件规格，数千核心架构的实际竞争力有待后续产品验证。"
+      ],
+      "cards": [
+        {
+          "heading": "融资详情",
+          "body": "本轮融资由Benchmark领投，Visionaries Club、英国主权人工智能基金、FR8、Antimatter、Cloudberry VC、Conviction、Embassy Ventures和SV Angels等参投，新董事会成员为Jack Altman。"
+        },
+        {
+          "heading": "技术路线",
+          "body": "Tendrils采用交互网络架构，让大量小型计算过程并行运行，减少对共享可变内存和线性指令序列的依赖，以突破传统CPU扩展瓶颈。"
+        },
+        {
+          "heading": "软件配套",
+          "body": "公司正在开发开源编程语言Vine，目标是让软硬件从设计之初就面向并行优先的处理器。"
+        },
+        {
+          "heading": "当前进度",
+          "body": "尚未公布实体芯片的性能基准或详细硬件规格，数千核心架构的实际竞争力有待后续产品验证。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/science/1586362.htm",
+      "published": "2026-11-14T06:45:03.000Z",
+      "score": 20.69,
+      "eventKey": "tendrils-compute-30m-funding-parallel-processor",
+      "originalTitle": "Tendrils Compute获3000万美元融资 押注数千核心并行处理器 意在重新发明CPU",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/science/1586362.htm",
+        "retrievedAt": "2026-11-15T02:37:24.448Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英国初创公司Tendrils Compute完成3000万美元融资，由Benchmark领投，押注数千核心并行处理器架构，属于芯片设计领域的具体融资事件。",
+        "evidence": [
+          "英国剑桥初创公司Tendrils Compute宣布完成3000万美元融资,由Benchmark领投,Visionaries Club、英国主权人工智能基金、FR8、Antimatter、Cloudberry VC、Conviction、Embassy Ventures和SV Angels等参与。",
+          "Tendrils希望挑战传统CPU和GPU架构,打造可扩展至数千核心的通用处理器。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "14848c6215c3ec",
+      "title": "星闪智能家电OpenLab投运，九方共建全链条",
+      "summary": "国际星闪联盟宣布，星闪智能家电（上海）创新实验室通过验收并获正式授牌，成为联盟第四家官方授权OpenLab，也是首个面向智能家电领域的开放创新平台。实验室由美的、上海海思等9家单位联合发起，覆盖芯片到整机全链条，现已正式投入运营。",
+      "points": [
+        "实验室由上海青浦星联星闪促进中心承建运营，促进中心由美的、上海海思、杭州永谐、上海数字电视国家工程研究中心、上海交通大学、合肥恒新基、上海长三角宝业、上海比路电子、长三角AI+联合创新中心共9家单位联合发起，覆盖芯片、模组、整机、高校科研、地方产业平台各环节。",
+        "破冰期（至2026年底）完成组织建设与制度搭建，孵化解决方案；平台期（2027-2028年）建成技术创新应用服务、测试能力、产业推广平台，推动华东地区应用与政策落地；可持续期（2029年起）形成稳定研发团队，实现运营可持续发展。",
+        "目前实验室有10余名来自成员单位的技术骨干兼职参与解决方案开发、测试实验室、产业生态发展三条业务线，计划至2026年底到位全职人员7位。上海交通大学何大治教授、管云峰教授等长期参与标准制定的专家深度参与技术创新与产业落地。"
+      ],
+      "cards": [
+        {
+          "heading": "共建单位",
+          "body": "实验室由上海青浦星联星闪促进中心承建运营，促进中心由美的、上海海思、杭州永谐、上海数字电视国家工程研究中心、上海交通大学、合肥恒新基、上海长三角宝业、上海比路电子、长三角AI+联合创新中心共9家单位联合发起，覆盖芯片、模组、整机、高校科研、地方产业平台各环节。"
+        },
+        {
+          "heading": "三步走路线",
+          "body": "破冰期（至2026年底）完成组织建设与制度搭建，孵化解决方案；平台期（2027-2028年）建成技术创新应用服务、测试能力、产业推广平台，推动华东地区应用与政策落地；可持续期（2029年起）形成稳定研发团队，实现运营可持续发展。"
+        },
+        {
+          "heading": "团队与专家",
+          "body": "目前实验室有10余名来自成员单位的技术骨干兼职参与解决方案开发、测试实验室、产业生态发展三条业务线，计划至2026年底到位全职人员7位。上海交通大学何大治教授、管云峰教授等长期参与标准制定的专家深度参与技术创新与产业落地。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/027/209.htm",
+      "published": "2026-11-14T10:21:50.000Z",
+      "score": 20.29,
+      "eventKey": "nearlink-smart-appliance-openlab-launch",
+      "originalTitle": "星闪智能家电 OpenLab 实验室正式投运：九方共建，覆盖芯片到整机全链条",
+      "provenance": {
+        "url": "https://www.ithome.com/1/027/209.htm",
+        "retrievedAt": "2026-11-15T02:37:24.584Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "星闪智能家电OpenLab实验室正式投运，由九方共建，覆盖芯片到整机全链条，属于无线短距通信芯片生态的具体进展。",
+        "evidence": [
+          "IT之家 11 月 14 日消息,国际星闪联盟今日发文宣布,星闪智能家电(上海)创新实验室(简称星闪智能家电 OpenLab)此前以高分通过验收并获正式授牌,成为国际星闪联盟第四家官方授权 OpenLab,也是首个面向智能家电领域的开放创新平台。",
+          "促进中心由美的、上海海思、杭州永谐、上海数字电视国家工程研究中心、上海交通大学、合肥恒新基、上海长三角宝业、上海比路电子、长三角 AI+ 联合创新中心共 9 家单位联合发起,覆盖“芯片 — 模组 — 整机 — 高校科研 — 地方产业平台”的各个环节。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "bc08d52b3f8ad",
+      "title": "消息称：台积电确认员工数据泄露，指向云服务商",
+      "summary": "据报道，台积电在Form 6-K文件中确认部分现任及前任员工个人数据被未经授权发布在外部网站。初步调查指向一家云服务商，因泄露数据与该供应商存储记录匹配，但未透露供应商名称及受影响人数。",
+      "points": [
+        "台积电确认部分现任及前任员工个人数据被发布在外部网站，11月12日提交Form 6-K披露。台湾媒体报道约4.6万条记录在暗网出售，数据量6.9GB，要价3比特币。",
+        "台积电称未发现自身系统被攻破，初步指向云服务商，因泄露数据与该供应商存储记录匹配。公司未透露供应商名称及受影响人数。",
+        "台积电曾于2018年遭遇病毒爆发，2023年LockBit勒索软件攻击其IT硬件供应商Kinmax Technology。去年三名工程师因窃取2nm工艺文件被起诉。"
+      ],
+      "cards": [
+        {
+          "heading": "泄露事件",
+          "body": "台积电确认部分现任及前任员工个人数据被发布在外部网站，11月12日提交Form 6-K披露。台湾媒体报道约4.6万条记录在暗网出售，数据量6.9GB，要价3比特币。"
+        },
+        {
+          "heading": "初步调查",
+          "body": "台积电称未发现自身系统被攻破，初步指向云服务商，因泄露数据与该供应商存储记录匹配。公司未透露供应商名称及受影响人数。"
+        },
+        {
+          "heading": "历史事件",
+          "body": "台积电曾于2018年遭遇病毒爆发，2023年LockBit勒索软件攻击其IT硬件供应商Kinmax Technology。去年三名工程师因窃取2nm工艺文件被起诉。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354835/tsmc-confirms-employee-data-leak-points-to-cloud-provider",
+      "published": "2026-11-14T20:37:08.000Z",
+      "score": 19,
+      "eventKey": "tsmc-employee-data-leak-cloud-provider-2026",
+      "originalTitle": "TSMC Confirms Employee Data Leak, Points to Cloud Provider",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354835/tsmc-confirms-employee-data-leak-points-to-cloud-provider",
+        "retrievedAt": "2026-11-15T02:37:24.860Z",
+        "articlePublished": "2026-11-14T20:37:08.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "台积电确认员工数据泄露事件，指向云服务提供商，涉及约4.6万条员工记录在暗网出售。这是新的安全事件，具有具体事实和影响。",
+        "evidence": [
+          "TSMC has confirmed that personal data of some current and former employees was posted on an external website without authorization.",
+          "The chipmaker disclosed the incident in a Form 6-K filing on November 12, the same day Taiwan's United Daily News reported that someone was selling roughly 46,000 employee records on DarkForums and BreachForums.",
+          "Its initial findings point to a cloud service provider instead, since the leaked data matches records stored with that vendor."
+        ]
+      },
+      "relatedSources": [
+        {
+          "name": "cnBeta",
+          "url": "https://www.cnbeta.com.tw/articles/tech/1586436.htm"
+        }
+      ]
+    },
+    {
+      "id": "1ff211cb4a2533",
+      "title": "英特尔官网确认酷睿Ultra 7 260K规格",
+      "summary": "英特尔官网显示，酷睿Ultra 7处理器260K已于2026年第三季度发行，最大睿频频率5.4GHz，性能核与能效核最大睿频分别为5.3GHz和4.5GHz，均比265K低0.1GHz，但基本频率不变。该处理器支持DDR5 6400MT/s，仍属初代Arrow Lake，且缺失稳定映像平台计划资格。",
+      "points": [
+        "酷睿Ultra 7 260K最大睿频5.4GHz，性能核最大睿频5.3GHz，能效核最大睿频4.5GHz，三项均比Ultra 7 265K低0.1GHz；性能核与能效核基本频率保持不变。",
+        "支持DDR5 6400MT/s，暗示其并非Arrow Lake Refresh成员，仍属于初代Arrow Lake，晶粒间频率可能相对较低。",
+        "除频率略低外，260K缺失稳定映像平台计划资格，这是与Ultra 7 265K的另一点差异。"
+      ],
+      "cards": [
+        {
+          "heading": "核心规格",
+          "body": "酷睿Ultra 7 260K最大睿频5.4GHz，性能核最大睿频5.3GHz，能效核最大睿频4.5GHz，三项均比Ultra 7 265K低0.1GHz；性能核与能效核基本频率保持不变。"
+        },
+        {
+          "heading": "内存与架构",
+          "body": "支持DDR5 6400MT/s，暗示其并非Arrow Lake Refresh成员，仍属于初代Arrow Lake，晶粒间频率可能相对较低。"
+        },
+        {
+          "heading": "与265K差异",
+          "body": "除频率略低外，260K缺失稳定映像平台计划资格，这是与Ultra 7 265K的另一点差异。"
+        }
+      ],
+      "category": "design",
+      "categoryLabel": "芯片设计",
+      "categoryColor": "#1f7a4d",
+      "importance": 2,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/027/245.htm",
+      "published": "2026-11-14T14:51:22.000Z",
+      "score": 18.04,
+      "eventKey": "intel-core-ultra-7-260k-specs-confirmed",
+      "originalTitle": "英特尔官网确认酷睿 Ultra 7 处理器 260K 规格，最大睿频频率 5.4GHz",
+      "provenance": {
+        "url": "https://www.ithome.com/1/027/245.htm",
+        "retrievedAt": "2026-11-15T02:37:24.909Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "英特尔官网确认酷睿Ultra 7 260K处理器规格，最大睿频5.4GHz，属于具体产品规格确认，有事实依据。",
+        "evidence": [
+          "IT之家 11 月 14 日消息,根据 Intel(英特尔)官网页面,此前悄然上市的酷睿 Ultra 7 处理器 260K 实际上早在 2026 年第 3 季度就已发行。",
+          "英特尔酷睿 Ultra 7 处理器 260K 的最大睿频频率为 5.4GHz、性能核最大睿频频率为 5.3GHz、能效核最大睿频频率为 4.5GHz,这三项数据均比 Ultra 7 265K 低 0.1GHz,但性能核与能效核的基本频率保持不变。"
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
