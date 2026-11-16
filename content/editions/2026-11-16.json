@@ -1,0 +1,643 @@
+{
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T02:44:14.850Z",
+  "intro": "本期共 11 条动态，其中 9 条值得重点关注，集中在政策与地缘、存储、市场与产业方向。",
+  "stats": {
+    "count": 11,
+    "sources": 5,
+    "sourcesFetched": 31,
+    "sourcesTotal": 33,
+    "categories": {
+      "policy": 4,
+      "memory": 2,
+      "market": 3,
+      "equipment": 1,
+      "foundry": 1
+    },
+    "failedSources": [
+      {
+        "source": "Electronics-Lab",
+        "error": "HTTP 403"
+      },
+      {
+        "source": "STMicroelectronics Newsroom",
+        "error": "This operation was aborted"
+      }
+    ],
+    "durationMs": 116156,
+    "quality": {
+      "target": 18,
+      "minimum": 15,
+      "coverageMet": false,
+      "windowHours": 24,
+      "candidates": 22,
+      "readable": 22,
+      "accepted": 11,
+      "rejected": 3391,
+      "editor": "u2-flash",
+      "discoveryQueries": 4
+    }
+  },
+  "entries": [
+    {
+      "id": "146f9afaa688ab",
+      "title": "与黄仁勋关联公司被曝投资DeepSeek，供应禁售芯片",
+      "summary": "据报，与被指控为间谍的Alice Huang有关联的中国公司，通过特殊目的载体（SPV）投资了DeepSeek第二轮融资，以获取美国禁售的Nvidia芯片。交易暴露了黑市Nvidia硬件进入中国的供应链。",
+      "points": [
+        "与Alice Huang关联的中国公司通过SPV参与DeepSeek第二轮融资，目的是确保获得美国禁售的Nvidia芯片供应。",
+        "这些交易暴露了一条涉及黑市Nvidia硬件进入中国的供应链，显示禁售芯片仍可通过非官方渠道流入。"
+      ],
+      "cards": [
+        {
+          "heading": "投资路径",
+          "body": "与Alice Huang关联的中国公司通过SPV参与DeepSeek第二轮融资，目的是确保获得美国禁售的Nvidia芯片供应。"
+        },
+        {
+          "heading": "黑市供应链",
+          "body": "这些交易暴露了一条涉及黑市Nvidia硬件进入中国的供应链，显示禁售芯片仍可通过非官方渠道流入。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113PD242/nvidia-chips-deepseek-funding-hardware.html?chid=10",
+      "published": "2026-11-15T23:17:48.000Z",
+      "score": 26.43,
+      "eventKey": "huang-linked-firms-deepseek-round-banned-nvidia-chips",
+      "originalTitle": "Report: Huang-linked firms join DeepSeek round, supply banned Nvidia chips",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113PD242/nvidia-chips-deepseek-funding-hardware.html?chid=10",
+        "retrievedAt": "2026-11-16T02:43:34.954Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "报道称与黄仁勋婚外情丑闻相关的公司通过特殊目的载体投资DeepSeek第二轮融资，并供应美国禁售的英伟达芯片，揭露了黑市芯片进入中国的供应链。这是新的重大事件，涉及出口管制和供应链安全。",
+        "evidence": [
+          "Chinese companies linked to alleged spy Alice Huang, who was accused of having an affair with former Nvidia CEO Jensen Huang, reportedly invested in DeepSeek's second funding round through a special-purpose vehicle (SPV) to secure supplies ",
+          "of Nvidia chips banned by the US.",
+          "The transactions have exposed a supply chain involving black-market Nvidia hardware entering China."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1896ac66c6a8ed",
+      "title": "三星启动144万亿韩元忠清投资，扩建半导体与显示设施",
+      "summary": "三星电子11月12日在温阳园区举行忠清大型项目奠基仪式，公布144万亿韩元投资计划，覆盖半导体封装、OLED面板、AI服务器基板与电池。三星电子将投资60万亿韩元建设HBM封装线，三星显示投资67万亿韩元扩建OLED产线，三星电机与三星SDI分别投资8万亿和9万亿韩元。",
+      "points": [
+        "三星在忠清地区总投资144万亿韩元（约7202.88亿元人民币）。三星电子60万亿、三星显示67万亿、三星电机8万亿、三星SDI 9万亿，用于先进封装、OLED面板、AI服务器基板与电池制造。",
+        "三星电子温阳先进封装厂动工，建设第五条HBM封装线，三层洁净室面积9400坪（约3.11万平方米），计划2028年6月投产，分阶段投资46万亿韩元，其中设备40万亿。",
+        "三星显示牙山A7产线2026年10月动工，投资5.9万亿韩元，目标2029年下半年量产OLED面板。三星电机世宗新厂投资4.3万亿韩元，计划2028年9月量产AI服务器基板。",
+        "194家韩国材料、零部件与设备企业计划到2030年投资18.1万亿韩元，其中66家在忠清地区投资4.4万亿，预计创造约2.3万个就业岗位。"
+      ],
+      "cards": [
+        {
+          "heading": "投资总额与分配",
+          "body": "三星在忠清地区总投资144万亿韩元（约7202.88亿元人民币）。三星电子60万亿、三星显示67万亿、三星电机8万亿、三星SDI 9万亿，用于先进封装、OLED面板、AI服务器基板与电池制造。"
+        },
+        {
+          "heading": "HBM封装厂进展",
+          "body": "三星电子温阳先进封装厂动工，建设第五条HBM封装线，三层洁净室面积9400坪（约3.11万平方米），计划2028年6月投产，分阶段投资46万亿韩元，其中设备40万亿。"
+        },
+        {
+          "heading": "显示与基板项目",
+          "body": "三星显示牙山A7产线2026年10月动工，投资5.9万亿韩元，目标2029年下半年量产OLED面板。三星电机世宗新厂投资4.3万亿韩元，计划2028年9月量产AI服务器基板。"
+        },
+        {
+          "heading": "供应商协同投资",
+          "body": "194家韩国材料、零部件与设备企业计划到2030年投资18.1万亿韩元，其中66家在忠清地区投资4.4万亿，预计创造约2.3万个就业岗位。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 5,
+      "tags": [
+        "材料与封测"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/027/497.htm",
+      "published": "2026-11-16T01:22:26.000Z",
+      "score": 24.78,
+      "eventKey": "samsung-144-trillion-won-chungcheong-investment-hbm-packaging",
+      "originalTitle": "三星启动 144 万亿韩元大投资，扩建半导体、显示器、基板和电池的生产设施",
+      "provenance": {
+        "url": "https://www.ithome.com/1/027/497.htm",
+        "retrievedAt": "2026-11-16T02:43:32.546Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 5,
+        "reason": "三星启动144万亿韩元大投资，在忠清地区扩建半导体、显示器、基板和电池设施，其中三星电子投资60万亿韩元建设温阳先进封装厂（第五条HBM封装生产线，2028年6月投产），三星电机投资8万亿韩元扩产AI服务器封装基板。这是重大投资事件。",
+        "evidence": [
+          "IT之家 11 月 16 日消息,据 The Elec 报道,三星将在韩国忠清地区投资总计 144 万亿韩元(IT之家注:现汇率约合 7,202.88 亿元人民币),用于扩建半导体、显示器、基板和电池的生产设施。",
+          "11 月 12 日,三星电子在其温阳园区举行了忠清大型项目的奠基仪式,并公布了旗下主要子公司在该项目上的投资计划和进展情况。",
+          "据报道,各关联公司中长期投资计划为:三星电子 60 万亿韩元(现汇率约合 3,001.2 亿元人民币)、三星显示 67 万亿韩元(现汇率约合 3,351.34 亿元人民币)、三星电机 8 万亿韩元(现汇率约合 400.16 亿元人民币)、三星 SDI 9 万亿韩元(现汇率约合 450.18 亿元人民币),用于建设先进半导体封装设施、OLED 面板产线、AI 服务器封装基板设施与电池制造厂。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "605829bcb67b4",
+      "title": "美国国会酝酿收紧AI芯片对华出口限制",
+      "summary": "英伟达风波引发美国两党施压，国会正讨论多项立法以堵住出口管制漏洞，包括防止中国企业通过第三国数据中心远程使用美国AI芯片。参议院领袖要求黄仁勋和商务部长出席听证会，众议院议长支持限制中国获取高性能AI处理器。相关法案尚在推进中。",
+      "points": [
+        "《远程访问安全法案》最早于2025年4月在众议院提出，现重新受关注，旨在赋予商务部明确法律工具，限制中国企业通过海外云计算设施远程使用受管制的先进AI芯片。能否通过尚不确定。",
+        "《AI OVERWATCH法案》加强国会对AI芯片出口审批的监督；《芯片安全法案》建立芯片追踪和最终用途核查机制；《MATCH法案》收紧中国获取半导体制造设备的渠道。",
+        "参议院少数党领袖舒默要求黄仁勋和特朗普政府向国会解释；参议院银行委员会主席斯科特致信黄仁勋和商务部长卢特尼克，要求公开听证。众议院外交事务委员会已沟通听证安排。",
+        "特朗普政府2026年1月政策允许H200、MI325X等芯片个案审查出口，但国会部分议员希望将审批权转为法定限制。分析人士认为，进一步限制可能加速中国国产AI芯片研发。"
+      ],
+      "cards": [
+        {
+          "heading": "远程访问法案",
+          "body": "《远程访问安全法案》最早于2025年4月在众议院提出，现重新受关注，旨在赋予商务部明确法律工具，限制中国企业通过海外云计算设施远程使用受管制的先进AI芯片。能否通过尚不确定。"
+        },
+        {
+          "heading": "其他立法",
+          "body": "《AI OVERWATCH法案》加强国会对AI芯片出口审批的监督；《芯片安全法案》建立芯片追踪和最终用途核查机制；《MATCH法案》收紧中国获取半导体制造设备的渠道。"
+        },
+        {
+          "heading": "国会施压",
+          "body": "参议院少数党领袖舒默要求黄仁勋和特朗普政府向国会解释；参议院银行委员会主席斯科特致信黄仁勋和商务部长卢特尼克，要求公开听证。众议院外交事务委员会已沟通听证安排。"
+        },
+        {
+          "heading": "政策背景",
+          "body": "特朗普政府2026年1月政策允许H200、MI325X等芯片个案审查出口，但国会部分议员希望将审批权转为法定限制。分析人士认为，进一步限制可能加速中国国产AI芯片研发。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 5,
+      "tags": [
+        "政策与地缘"
+      ],
+      "source": "cnBeta",
+      "sourceLang": "zh",
+      "url": "https://www.cnbeta.com.tw/articles/tech/1586514.htm",
+      "published": "2026-11-15T20:05:09.000Z",
+      "score": 20.9,
+      "eventKey": "us-congress-ai-chip-export-curbs-remote-access-bills",
+      "originalTitle": "英伟达风波引发两党施压 美国国会酝酿收紧AI芯片对华出口限制",
+      "provenance": {
+        "url": "https://www.cnbeta.com.tw/articles/tech/1586514.htm",
+        "retrievedAt": "2026-11-16T02:43:33.554Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "美国国会因英伟达风波酝酿收紧对华AI芯片出口限制，重新讨论《远程访问安全法案》等多项立法，属于新的政策动态。",
+        "evidence": [
+          "多名国会议员认为,现有出口管制存在漏洞,尤其是中国企业可能通过第三国数据中心远程使用美国先进AI芯片,使得单纯限制芯片实物出口难以达到预期效果。",
+          "目前受到重新关注的法律草案之一,是《远程访问安全法案》(Remote Access Security Act)。",
+          "其中,《AI OVERWATCH法案》旨在加强国会对先进人工智能芯片出口的监督,限制行政部门在相关出口审批方面的自由裁量权;《芯片安全法案》(Chip Security Act)则重点解决先进芯片通过第三国转运的问题,希望建立更加严格的芯片追踪和最终用途核查机制。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1ec795688e642",
+      "title": "黄仁勋密议重返英伟达CEO，董事会尚未决定",
+      "summary": "据金融时报报道，黄仁勋已与亲信讨论重返英伟达CEO，此前他于11月12日辞职，CFO柯莱特·克雷斯任临时CEO。硅谷盟友设立“战情室”游说董事会，公开信签名超15.6万，但决定权在董事会，其持股仅约3.6%。",
+      "points": [
+        "黄仁勋于11月12日辞去CEO并离开董事会，英伟达未说明原因。此前有报道称他与疑似中国间谍有婚外情，并与一名向其汇报的英伟达高管有第二段关系。",
+        "硅谷盟友设立“战情室”游说董事会恢复其职位，并寻求白宫支持。“与黄仁勋站在一起”公开信签名已超15.6万，其中自称英伟达员工者超7500人，但未经独立核实。马斯克在X上表示签名，Epic Games CEO蒂姆·斯威尼也在名单中。",
+        "英伟达股东Altimeter Capital的布拉德·格斯特纳和Atreides Management的加文·贝克敦促董事不要急于确定继任者，并保留“所有选项，包括黄仁勋可能回归”。",
+        "黄仁勋持有英伟达约3.6%股份，从未拥有控制权，最终决定由董事会做出。董事会正对其与前兆速高管Alice Huang的关系进行独立调查，该调查据报仍在进行。英伟达将于11月17日公布第三季度财报，领导层问题可能被提及。"
+      ],
+      "cards": [
+        {
+          "heading": "辞职背景",
+          "body": "黄仁勋于11月12日辞去CEO并离开董事会，英伟达未说明原因。此前有报道称他与疑似中国间谍有婚外情，并与一名向其汇报的英伟达高管有第二段关系。"
+        },
+        {
+          "heading": "盟友游说",
+          "body": "硅谷盟友设立“战情室”游说董事会恢复其职位，并寻求白宫支持。“与黄仁勋站在一起”公开信签名已超15.6万，其中自称英伟达员工者超7500人，但未经独立核实。马斯克在X上表示签名，Epic Games CEO蒂姆·斯威尼也在名单中。"
+        },
+        {
+          "heading": "股东态度",
+          "body": "英伟达股东Altimeter Capital的布拉德·格斯特纳和Atreides Management的加文·贝克敦促董事不要急于确定继任者，并保留“所有选项，包括黄仁勋可能回归”。"
+        },
+        {
+          "heading": "决策权归属",
+          "body": "黄仁勋持有英伟达约3.6%股份，从未拥有控制权，最终决定由董事会做出。董事会正对其与前兆速高管Alice Huang的关系进行独立调查，该调查据报仍在进行。英伟达将于11月17日公布第三季度财报，领导层问题可能被提及。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 5,
+      "tags": [
+        "市场与产业"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354866/report-jensen-huang-eyes-nvidia-comeback",
+      "published": "2026-11-16T00:03:48.000Z",
+      "score": 19.56,
+      "eventKey": "jensen-huang-nvidia-comeback-ft-report",
+      "originalTitle": "Report: Jensen Huang Eyes NVIDIA Comeback",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354866/report-jensen-huang-eyes-nvidia-comeback",
+        "retrievedAt": "2026-11-16T02:43:33.700Z",
+        "articlePublished": "2026-11-16T00:03:48.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "FT报道黄仁勋与密友讨论重返英伟达CEO职位，盟友设立战情室游说董事会，是英伟达领导层变动的新进展。",
+        "evidence": [
+          "Jensen Huang has talked with close confidants about returning as NVIDIA's CEO, according to a Sunday report from the Financial Times citing people familiar with the matter.",
+          "Apparently, his Silicon Valley allies have now set up a \"war room\" to lobby the board to reinstate him and to seek support from the White House.",
+          "NVIDIA shareholders Brad Gerstner of Altimeter Capital and Gavin Baker of Atreides Management have urged directors not to rush a successor and to keep \"all options on the table, including the potential return of Jensen Huang.\" The decision "
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1e6f26b46486e6",
+      "title": "应用材料计划2028年产量翻倍，2030年产能翻倍",
+      "summary": "应用材料在2026财年第四季度财报电话会上表示，受芯片设备需求超过供应推动，计划到2028年将产量翻倍，到2030年将产能翻倍。公司称客户正推动产能爬坡，并正与供应商合作解决零部件供应瓶颈。",
+      "points": [
+        "应用材料计划2028年产量翻倍，2030年产能翻倍。该目标基于当前芯片设备需求持续超过供应的市场状况。",
+        "公司高管称客户正推动产能快速爬坡，因需求仍超过供应，设备制造商需加快交付。",
+        "为克服零部件供应瓶颈，应用材料正与供应商合作，确保扩产所需的组件供应。"
+      ],
+      "cards": [
+        {
+          "heading": "扩产目标",
+          "body": "应用材料计划2028年产量翻倍，2030年产能翻倍。该目标基于当前芯片设备需求持续超过供应的市场状况。"
+        },
+        {
+          "heading": "客户压力",
+          "body": "公司高管称客户正推动产能快速爬坡，因需求仍超过供应，设备制造商需加快交付。"
+        },
+        {
+          "heading": "供应链协作",
+          "body": "为克服零部件供应瓶颈，应用材料正与供应商合作，确保扩产所需的组件供应。"
+        }
+      ],
+      "category": "equipment",
+      "categoryLabel": "设备",
+      "categoryColor": "#0e7c86",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL238/applied-materials-equipment-demand-2028-capacity.html",
+      "published": "2026-11-15T23:21:43.000Z",
+      "score": 28.44,
+      "eventKey": "applied-materials-double-output-2028-capacity-2030",
+      "originalTitle": "Applied Materials targets double output by 2028 as chip equipment demand outpaces supply",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL238/applied-materials-equipment-demand-2028-capacity.html",
+        "retrievedAt": "2026-11-16T02:43:28.770Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "应用材料计划到2028年将产出翻倍、2030年产能翻倍，这是应对设备需求超过供给的重大扩产计划，具有明确的新里程碑。",
+        "evidence": [
+          "Backed by surging demand for chipmaking equipment, Applied Materials plans to double output by 2028 and capacity by 2030, according to company executives during its earnings call for the fourth quarter of fiscal year 2026.",
+          "It said customers are pushing for capacity ramps as demand still surpasses supply, and that the equipment maker is working with suppliers to overcome component supply bottlenecks."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "16b73b380a70fb",
+      "title": "SK海力士加码HBM4设备订单，月产能拟增2万片",
+      "summary": "据韩国ETNews报道，SK海力士正与设备供应商洽谈新一轮HBM4设备订单，计划新增每月至少2万片晶圆产能，主要涉及键合、切割与检测等后道设备，目标2027年上半年完成安装。此举意在分散对英伟达的依赖，AMD与博通需求被视为有力支撑。",
+      "points": [
+        "新增产能约每月2万片晶圆，选址清州P&T6工厂，该厂此前已规划用于HBM生产。SK海力士去年底HBM总产能约每月15万片。",
+        "新订单以键合、切割、检测等后道设备为主，供应商目标在2027年上半年完成安装。SK海力士未确认具体数字，仅表示按计划持续下单。",
+        "英伟达CEO黄仁勋于11月12日辞职，其AI业务不确定性上升。AMD与博通需求被认为足以支撑HBM订单。英伟达将Vera Rubin的HBM4速率从11.7Gbps降至9.6Gbps，也减轻了供应商制造压力。"
+      ],
+      "cards": [
+        {
+          "heading": "扩产规模与地点",
+          "body": "新增产能约每月2万片晶圆，选址清州P&T6工厂，该厂此前已规划用于HBM生产。SK海力士去年底HBM总产能约每月15万片。"
+        },
+        {
+          "heading": "设备与时间表",
+          "body": "新订单以键合、切割、检测等后道设备为主，供应商目标在2027年上半年完成安装。SK海力士未确认具体数字，仅表示按计划持续下单。"
+        },
+        {
+          "heading": "需求结构变化",
+          "body": "英伟达CEO黄仁勋于11月12日辞职，其AI业务不确定性上升。AMD与博通需求被认为足以支撑HBM订单。英伟达将Vera Rubin的HBM4速率从11.7Gbps降至9.6Gbps，也减轻了供应商制造压力。"
+        }
+      ],
+      "category": "memory",
+      "categoryLabel": "存储",
+      "categoryColor": "#b02f6e",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354861/sk-hynix-bets-on-hbm4-demand-beyond-nvidia-with-new-equipment-orders",
+      "published": "2026-11-15T16:37:03.000Z",
+      "score": 25.32,
+      "eventKey": "sk-hynix-hbm4-capacity-expansion-20k-wafers-equipment-orders",
+      "originalTitle": "SK hynix Bets on HBM4 Demand Beyond NVIDIA With New Equipment Orders",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354861/sk-hynix-bets-on-hbm4-demand-beyond-nvidia-with-new-equipment-orders",
+        "retrievedAt": "2026-11-16T02:43:32.141Z",
+        "articlePublished": "2026-11-15T16:37:03.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "SK海力士据报道计划新增至少2万片/月HBM产能，正与设备供应商洽谈新一轮HBM4订单，主要为键合、切割和检测等后道设备，目标2027年上半年安装完成。这是新的产能扩张动作。",
+        "evidence": [
+          "SK hynix reportedly plans to add at least 20,000 wafers per month of HBM capacity.",
+          "According to Korea's Electronic Times (ETNews), the company is in talks with equipment suppliers over a fresh round of HBM4 orders, mostly back-end tools for bonding, dicing, and inspection.",
+          "Suppliers are aiming to have it all installed in the first half of 2027."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "25b1b27293c1c",
+      "title": "三星投19亿美元为SpaceX生产卫星芯片，2030年投产",
+      "summary": "据韩国《首尔经济日报》报道，三星电子计划投资19亿美元扩建得州奥斯汀工厂，为SpaceX星链卫星生产意法半导体的STM32V8微控制器，采用18纳米FD-SOI工艺，目标2030年投产。该扩产被纳入美国芯片法案框架，旨在将部分产能从法国转移至美国本土。",
+      "points": [
+        "三星将投资19亿美元（约127.1亿元人民币）扩建奥斯汀工厂，生产STM32V8 MCU。该芯片由意法半导体2025年11月发布，采用18纳米FD-SOI工艺，集成Arm Cortex-M85内核，主频最高800MHz。",
+        "STM32V8已用于星链卫星间微型激光链路系统。SpaceX星链工程副总裁称其高性能算力与大容量存储对实时处理至关重要。奥斯汀工厂此前已承接特斯拉、英伟达、AMD订单，此次扩展至航天领域。",
+        "目前STM32V8主要在意法半导体法国Crolles工厂生产，三星代工亦有参与。奥斯汀扩产旨在将部分产能移至美国。该方案纳入芯片法案FD-SOI重点项目，三星在得州泰勒与奥斯汀合计投资超370亿美元，对应最高47.45亿美元补贴。"
+      ],
+      "cards": [
+        {
+          "heading": "投资与产品",
+          "body": "三星将投资19亿美元（约127.1亿元人民币）扩建奥斯汀工厂，生产STM32V8 MCU。该芯片由意法半导体2025年11月发布，采用18纳米FD-SOI工艺，集成Arm Cortex-M85内核，主频最高800MHz。"
+        },
+        {
+          "heading": "应用与客户",
+          "body": "STM32V8已用于星链卫星间微型激光链路系统。SpaceX星链工程副总裁称其高性能算力与大容量存储对实时处理至关重要。奥斯汀工厂此前已承接特斯拉、英伟达、AMD订单，此次扩展至航天领域。"
+        },
+        {
+          "heading": "产能转移与政策",
+          "body": "目前STM32V8主要在意法半导体法国Crolles工厂生产，三星代工亦有参与。奥斯汀扩产旨在将部分产能移至美国。该方案纳入芯片法案FD-SOI重点项目，三星在得州泰勒与奥斯汀合计投资超370亿美元，对应最高47.45亿美元补贴。"
+        }
+      ],
+      "category": "foundry",
+      "categoryLabel": "晶圆代工",
+      "categoryColor": "#1a5fa8",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "IT之家",
+      "sourceLang": "zh",
+      "url": "https://www.ithome.com/1/027/465.htm",
+      "published": "2026-11-15T23:01:15.000Z",
+      "score": 24.39,
+      "eventKey": "samsung-1.9b-austin-spacex-stm32v8-production-2030",
+      "originalTitle": "投资 19 亿美元：三星被曝将在美国为马斯克 SpaceX 生产卫星芯片，目标 2030 年投产",
+      "provenance": {
+        "url": "https://www.ithome.com/1/027/465.htm",
+        "retrievedAt": "2026-11-16T02:43:32.554Z",
+        "articlePublished": null,
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "三星计划投资19亿美元在美国奥斯汀工厂为SpaceX星链生产STM32V8 MCU，目标2030年投产。这是三星进入航天供应链的重大新动作，涉及具体投资金额、客户和产品。",
+        "evidence": [
+          "据韩国《首尔经济日报》11 月 15 日报道,三星计划在奥斯汀工厂为 SpaceX 的星链卫星生产 STM32V8 微控制器(MCU),为此将投资 19 亿美元(IT之家注:现汇率约合 127.1 亿元人民币)扩产,目标在 2030 年投入运行。",
+          "STM32V8 是意法半导体于 2025 年 11 月发布的微控制器,采用 18 纳米 FD-SOI(全耗尽型绝缘体上硅)工艺,集成 Arm Cortex-M85 内核,主频最高 800MHz。",
+          "现阶段 STM32V8 主要在意法半导体法国 Crolles 工厂以 300 毫米晶圆生产,三星晶圆代工亦有参与;奥斯汀扩产旨在将部分产能转移至美国本土。"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "1deb8d0522d661",
+      "title": "DRAM三巨头反垄断诉讼被驳回动议遭拒",
+      "summary": "美国加州北区地方法院法官Noël Wise驳回了三星、SK海力士和美光联合提出的驳回动议，认定消费者指控三家公司在DRAM供应限制上违反《谢尔曼法》的诉请合理。诉讼指控三家公司自2022年底协调减产并转向HBM，导致传统DRAM价格18个月上涨697%。案件将进入下一阶段审理。",
+      "points": [
+        "11月14日，法官Noël Wise拒绝驳回动议，认为诉状合理指控三家公司在DRAM供应限制上存在共谋，违反《谢尔曼法》第1条。这是审前阶段裁定，尚未最终认定违法。",
+        "诉讼由17名消费者和小企业于6月提起，称三家公司占2025年Q3全球DRAM收入91%以上，自2022年底协调减产并转向HBM，导致传统DRAM价格18个月上涨697%。",
+        "法官指出新指控包括长期HBM合同、拒绝与传统DRAM买家签长约、美光关闭Crucial品牌，以及2026年1月三家采用几乎相同的客户审查问题。法官形容其行为像“编队飞行的鹰”。",
+        "三家公司须在12月7日前提交答辩，首次案件管理会议定于2027年1月12日。法官还提及1998-2002年DRAM卡特尔历史，三星和SK海力士曾支付罚款，美光获豁免。"
+      ],
+      "cards": [
+        {
+          "heading": "法院裁定",
+          "body": "11月14日，法官Noël Wise拒绝驳回动议，认为诉状合理指控三家公司在DRAM供应限制上存在共谋，违反《谢尔曼法》第1条。这是审前阶段裁定，尚未最终认定违法。"
+        },
+        {
+          "heading": "指控内容",
+          "body": "诉讼由17名消费者和小企业于6月提起，称三家公司占2025年Q3全球DRAM收入91%以上，自2022年底协调减产并转向HBM，导致传统DRAM价格18个月上涨697%。"
+        },
+        {
+          "heading": "新证据",
+          "body": "法官指出新指控包括长期HBM合同、拒绝与传统DRAM买家签长约、美光关闭Crucial品牌，以及2026年1月三家采用几乎相同的客户审查问题。法官形容其行为像“编队飞行的鹰”。"
+        },
+        {
+          "heading": "后续日程",
+          "body": "三家公司须在12月7日前提交答辩，首次案件管理会议定于2027年1月12日。法官还提及1998-2002年DRAM卡特尔历史，三星和SK海力士曾支付罚款，美光获豁免。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "存储"
+      ],
+      "source": "TechPowerUp",
+      "sourceLang": "en",
+      "url": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
+      "published": "2026-11-15T18:13:01.000Z",
+      "score": 23.59,
+      "eventKey": "dram-antitrust-lawsuit-motion-dismiss-denied-nov-2026",
+      "originalTitle": "Samsung, SK hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
+      "provenance": {
+        "url": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
+        "retrievedAt": "2026-11-16T02:43:32.676Z",
+        "articlePublished": "2026-11-15T18:13:01.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "美国加州北区地方法院驳回了三星、SK海力士和美光关于DRAM反垄断诉讼的驳回动议，案件将继续审理。这是具体的法律程序进展。",
+        "evidence": [
+          "District Judge Noël Wise of the Northern District of California denied the three companies' joint motion to dismiss, finding the complaint plausibly alleges an agreement in violation of Section 1 of the Sherman Act.",
+          "The suit, filed in June by 17 consumers and small businesses, claims the trio, which held over 91% of global DRAM revenue as of Q3 2025, coordinated production cuts starting in late 2022 and shifted capacity toward HBM while conventional DR",
+          "Judge Wise disagreed, pointing to newer alleged conduct like long-term HBM contracts, Samsung and SK hynix allegedly refusing long-term deals with conventional DRAM buyers, Micron shutting down Crucial, and near-identical customer vetting q"
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "4ae70f55b7b80",
+      "title": "Intel 三年来首次夺回整体 CPU 市占率",
+      "summary": "Mercury Research 数据显示，2026 年第三季度 x86 CPU 总出货量 6893 万颗，同比下滑。Intel 凭借桌面端强劲表现，整体市占率从 AMD 手中夺回，为 2025 年第二季度以来首次；AMD 在移动和服务器端仍创纪录。",
+      "points": [
+        "2026 年第三季度，Intel 整体 x86 市占率 69.9%，AMD 为 30.1%，AMD 环比下滑 0.7 个百分点，同比仍增长 4.5 个百分点。",
+        "桌面 CPU 市场 AMD 市占率环比大跌 5.1 个百分点至 29.9%，Intel 达 70.1%；同比 AMD 也下滑 3.7 个百分点，是 Intel 夺回整体份额的主因。",
+        "AMD 在移动端市占率 29.2%，环比增 0.2 个百分点，同比增 7.2 个百分点；服务器端市占率 35.5%，环比增 1.0 个百分点，同比增 7.7 个百分点，均创历史新高。",
+        "第三季度 x86 CPU 总出货量 6893 万颗，环比和同比均下降，客户端处理器需求因高组件价格大幅下滑，但服务器 CPU 销量同比增长 20%。"
+      ],
+      "cards": [
+        {
+          "heading": "整体市占率",
+          "body": "2026 年第三季度，Intel 整体 x86 市占率 69.9%，AMD 为 30.1%，AMD 环比下滑 0.7 个百分点，同比仍增长 4.5 个百分点。"
+        },
+        {
+          "heading": "桌面端逆转",
+          "body": "桌面 CPU 市场 AMD 市占率环比大跌 5.1 个百分点至 29.9%，Intel 达 70.1%；同比 AMD 也下滑 3.7 个百分点，是 Intel 夺回整体份额的主因。"
+        },
+        {
+          "heading": "移动与服务器",
+          "body": "AMD 在移动端市占率 29.2%，环比增 0.2 个百分点，同比增 7.2 个百分点；服务器端市占率 35.5%，环比增 1.0 个百分点，同比增 7.7 个百分点，均创历史新高。"
+        },
+        {
+          "heading": "总出货量",
+          "body": "第三季度 x86 CPU 总出货量 6893 万颗，环比和同比均下降，客户端处理器需求因高组件价格大幅下滑，但服务器 CPU 销量同比增长 20%。"
+        }
+      ],
+      "category": "market",
+      "categoryLabel": "市场与产业",
+      "categoryColor": "#5c6b7a",
+      "importance": 4,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "Tom's Hardware",
+      "sourceLang": "en",
+      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+      "published": "2026-11-15T13:30:00.000Z",
+      "score": 22.8,
+      "eventKey": "intel-reclaims-overall-cpu-share-q3-2026-mercury",
+      "originalTitle": "Intel reclaims overall CPU market share for the first time since 2025",
+      "provenance": {
+        "url": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+        "retrievedAt": "2026-11-16T02:43:32.820Z",
+        "articlePublished": "2026-11-15T13:30:00.000Z",
+        "evidenceType": "article"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "Mercury Research数据显示英特尔自2025年Q2以来首次重新夺回整体CPU市场份额，桌面份额大幅增长抵消了AMD在服务器和移动端的创纪录增长。这是重要的市场份额变化数据。",
+        "evidence": [
+          "Intel regained overall CPU market share from AMD for the first time since Q2 2025, largely due to surprisingly strong performance in desktop PCs.",
+          "Swipe to scroll horizontally Overall x86 CPU market shares Segment AMD Q3 2026 Intel Q3 2026 AMD QoQ gain AMD Q3 2025 Intel Q3 2025 AMD YoY gain Overall x86 30.10% 69.90% −0.7% 25.60% 74.40% 4.50% Client 29.30% 70.70% −0.9% 25.40% 74.60% 4."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "a5808e710711e",
+      "title": "台积电新设5亿美元投资公司，或入股半导体供应商",
+      "summary": "台积电可能利用新成立的5亿美元投资公司收购半导体供应商股份，扩展其传统上对芯片设计初创企业的投资范围。此举可能偏离其首席执行官五个月前阐述的立场。",
+      "points": [
+        "台积电新设的5亿美元投资公司可能用于购买半导体供应商股份，超越以往对芯片设计初创企业的支持，标志其投资策略的潜在转变。",
+        "该动向可能偏离台积电CEO五个月前公开的立场，但具体投资对象与时间表尚未披露。"
+      ],
+      "cards": [
+        {
+          "heading": "投资公司用途",
+          "body": "台积电新设的5亿美元投资公司可能用于购买半导体供应商股份，超越以往对芯片设计初创企业的支持，标志其投资策略的潜在转变。"
+        },
+        {
+          "heading": "背景与立场变化",
+          "body": "该动向可能偏离台积电CEO五个月前公开的立场，但具体投资对象与时间表尚未披露。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "晶圆代工"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113VL236/tsmc-investment-manufacturing-openai-development.html",
+      "published": "2026-11-16T01:31:30.000Z",
+      "score": 28.8,
+      "eventKey": "tsmc-500m-investment-arm-chip-suppliers",
+      "originalTitle": "TSMC's new US$500 million arm could invest in chip suppliers",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113VL236/tsmc-investment-manufacturing-openai-development.html",
+        "retrievedAt": "2026-11-16T02:43:27.845Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 4,
+        "reason": "台积电新设5亿美元投资公司，用于投资半导体供应商，这是台积电投资策略的重大转变，具有明确的新事实和战略意义。",
+        "evidence": [
+          "TSMC could utilize a new US$500 million investment company to buy stakes in semiconductor suppliers, expanding beyond the chip-design startups it has traditionally backed and marking a possible shift from the position its chief executive ou",
+          "tlined five months ago."
+        ]
+      },
+      "relatedSources": []
+    },
+    {
+      "id": "da2f1eaf31616",
+      "title": "台湾警告芯片人才赴陆有拘禁风险",
+      "summary": "台湾陆委会警告半导体从业者赴中国大陆面临人身自由受限的高风险，并称台湾拥有全球最先进的 AI 芯片制造技术。此警告发布之际，英伟达 CEO 黄仁勋与涉嫌间谍的 Alice Huang 的绯闻引发关注。",
+      "points": [
+        "台湾陆委会指出，台湾半导体从业者赴中国大陆可能面临人身自由被限制的高风险，并强调台湾掌握全球最先进的 AI 芯片制造技术。",
+        "该警告与英伟达 CEO 黄仁勋和涉嫌为中国间谍的 Alice Huang 之间的绯闻报道相关，该事件凸显了中国对抗技术限制的多方面手段。"
+      ],
+      "cards": [
+        {
+          "heading": "警告内容",
+          "body": "台湾陆委会指出，台湾半导体从业者赴中国大陆可能面临人身自由被限制的高风险，并强调台湾掌握全球最先进的 AI 芯片制造技术。"
+        },
+        {
+          "heading": "事件背景",
+          "body": "该警告与英伟达 CEO 黄仁勋和涉嫌为中国间谍的 Alice Huang 之间的绯闻报道相关，该事件凸显了中国对抗技术限制的多方面手段。"
+        }
+      ],
+      "category": "policy",
+      "categoryLabel": "政策与地缘",
+      "categoryColor": "#c0392b",
+      "importance": 3,
+      "tags": [
+        "芯片设计"
+      ],
+      "source": "DIGITIMES",
+      "sourceLang": "en",
+      "url": "https://www.digitimes.com/news/a20261113PD217/nvidia-taiwan-ceo-jensen-huang-technology.html",
+      "published": "2026-11-15T23:16:06.000Z",
+      "score": 28.43,
+      "eventKey": "taiwan-warns-chip-workers-china-detention-risk-470-cases",
+      "originalTitle": "Taiwan warns chip workers of detention risk in China, citing 470 cases",
+      "provenance": {
+        "url": "https://www.digitimes.com/news/a20261113PD217/nvidia-taiwan-ceo-jensen-huang-technology.html",
+        "retrievedAt": "2026-11-16T02:43:30.901Z",
+        "articlePublished": null,
+        "evidenceType": "feed_excerpt"
+      },
+      "editorial": {
+        "quality": 3,
+        "reason": "台湾陆委会针对赴陆半导体从业人员的风险警告，涉及470起案件，与英伟达CEO丑闻关联，属于政策层面的新动态。",
+        "evidence": [
+          "Taiwan's Mainland Affairs Council has warned that Taiwanese semiconductor workers who travel to China face a high risk of having their personal freedom restricted, noting that Taiwan holds the world's most advanced AI chip manufacturing tec",
+          "The warning comes as a reported affair between Nvidia CEO Jensen Huang and Alice Huang, an alleged Chinese spy, has drawn attention to China's multifaceted means of countering technology restrictions."
+        ]
+      },
+      "relatedSources": []
+    }
+  ]
+}
